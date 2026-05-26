@@ -67,10 +67,14 @@
 
   /* ── Sector Bar ── */
   .sector-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 13px; }
-  .sector-name { width: 130px; color: var(--text); flex-shrink: 0; }
-  .sector-bar-bg { flex: 1; height: 8px; background: var(--card2); border-radius: 4px; overflow: hidden; }
-  .sector-bar-fill { height: 100%; border-radius: 4px; transition: width .4s; }
-  .sector-score { width: 40px; text-align: right; font-weight: 600; font-size: 12px; }
+  .sector-name { width: 130px; color: var(--text); flex-shrink: 0; line-height: 1.3; }
+  .sector-bar-wrap { flex: 1; display: flex; align-items: center; gap: 0; height: 10px; position: relative; }
+  /* left half (bear) and right half (bull) each take 50% */
+  .sb-left  { width: 50%; display: flex; justify-content: flex-end; }
+  .sb-right { width: 50%; display: flex; justify-content: flex-start; }
+  .sb-center-line { width: 2px; flex-shrink: 0; background: var(--border); height: 14px; border-radius: 1px; }
+  .sb-fill { height: 8px; border-radius: 4px; transition: width .4s; min-width: 0; }
+  .sector-score { width: 44px; text-align: right; font-weight: 600; font-size: 12px; }
   .sector-count { width: 50px; text-align: right; color: var(--muted); font-size: 12px; }
 
   /* ── KOL Cards ── */
@@ -540,15 +544,29 @@ function renderSectorBars(entries) {
     total: scores.length,
   })).sort((a,b) => a.sector.localeCompare(b.sector));
 
-  const maxAbs = Math.max(...sectors.map(s=>Math.abs(s.avg)), 0.1);
+  // Scale: ±2 is full half-width (100%)
   document.getElementById('sector-bars').innerHTML = sectors.map(s => {
-    const pct = Math.abs(s.avg)/maxAbs*100;
-    const color = s.avg>0.3?'var(--bull)':s.avg<-0.3?'var(--bear)':'var(--neutral)';
-    const sc = s.avg>0.3?'#22c55e':s.avg<-0.3?'#ef4444':'#94a3b8';
+    const v = s.avg;
+    // pct of each half: cap at 100%
+    const halfPct = Math.min(Math.abs(v) / 2 * 100, 100);
+    // color: gray if |v| <= 0.5, green if positive, red if negative
+    const isNeutral = Math.abs(v) <= 0.5;
+    const barColor = isNeutral ? '#475569' : v > 0 ? '#22c55e' : '#ef4444';
+    const scoreColor = isNeutral ? '#94a3b8' : v > 0 ? '#22c55e' : '#ef4444';
+    const label = v > 0 ? `+${v}` : `${v}`;
+
+    // bear bar grows leftward, bull bar grows rightward
+    const bearPct = v < 0 ? halfPct : 0;
+    const bullPct = v > 0 ? halfPct : 0;
+
     return `<div class="sector-row">
       <div class="sector-name">${s.sector}</div>
-      <div class="sector-bar-bg"><div class="sector-bar-fill" style="width:${pct}%;background:${color}"></div></div>
-      <div class="sector-score" style="color:${sc}">${s.avg>0?'+':''}${s.avg}</div>
+      <div class="sector-bar-wrap">
+        <div class="sb-left"><div class="sb-fill" style="width:${bearPct}%;background:${barColor}"></div></div>
+        <div class="sb-center-line"></div>
+        <div class="sb-right"><div class="sb-fill" style="width:${bullPct}%;background:${barColor}"></div></div>
+      </div>
+      <div class="sector-score" style="color:${scoreColor}">${label}</div>
       <div class="sector-count">${s.total}条</div>
     </div>`;
   }).join('') || '<div class="empty-state">暂无数据</div>';
