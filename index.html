@@ -345,28 +345,24 @@ function sectorBadge(sector) {
 // Priority 1: bracket prefix in insight title "[看多]", "[看空]", "[中性]"
 // Priority 2: bull_bear ticker field (🟢 / 🔴 count)
 // Priority 3: keyword fallback in comments (conservative)
+// Returns a score OR null (= no signal, exclude from average)
 function sentimentScore(e) {
   const name = (e.name || '');
-  // P1: explicit direction tag in title
+  // P1: explicit direction tag in title  → definitive signal
   if (/\[极度看多\]|\[极度看涨\]/.test(name)) return 2;
   if (/\[极度看空\]|\[极度看跌\]/.test(name)) return -2;
   if (/\[看多\]|\[看涨\]/.test(name)) return 1;
   if (/\[看空\]|\[看跌\]/.test(name)) return -1;
   if (/\[中性\]/.test(name)) return 0;
-  // P2: bull_bear ticker balance
+  // P2: bull_bear ticker balance (🟢 vs 🔴)
   const bb = e.bull_bear || '';
   const nBull = (bb.match(/🟢/g)||[]).length;
   const nBear = (bb.match(/🔴/g)||[]).length;
   if (nBull > nBear) return 1;
   if (nBear > nBull) return -1;
-  if (nBull > 0 && nBear > 0) return 0;
-  // P3: conservative keyword search (only if no other signal)
-  const tl = (name + ' ' + (e.comments||'')).toLowerCase();
-  if (/strongly bullish|very bullish/.test(tl)) return 2;
-  if (/strongly bearish|very bearish/.test(tl)) return -2;
-  if (/\bbullish\b/.test(tl)) return 1;
-  if (/\bbearish\b/.test(tl)) return -1;
-  return 0;
+  // nBull === nBear but both > 0 → mixed signal, treat as null (not neutral)
+  // no signal at all → null (exclude from weighted avg, don't drag to 0)
+  return null;
 }
 
 const SCORE_LABEL = {2:'极度看多',1:'看多',0:'中性','-1':'看空','-2':'极度看空'};
@@ -375,16 +371,18 @@ function scoreLabel(s) { return SCORE_LABEL[String(Math.round(s))] || '中性'; 
 // ── Recency-weighted average score ───────────────────────
 // More recent entries have higher weight (half-life ≈ 21 days)
 function weightedAvgScore(items) {
-  if (!items.length) return 0;
+  if (!items.length) return null;
   const now = Date.now();
   let wSum = 0, wTotal = 0;
   items.forEach(e => {
+    const score = sentimentScore(e);
+    if (score === null) return;   // no signal → skip, don't drag average to 0
     const daysAgo = (now - new Date(e.date).getTime()) / 86400000;
     const w = Math.exp(-daysAgo / 21);
-    wSum   += sentimentScore(e) * w;
+    wSum   += score * w;
     wTotal += w;
   });
-  return wTotal > 0 ? wSum / wTotal : 0;
+  return wTotal > 0 ? +(wSum / wTotal).toFixed(2) : null;
 }
 
 function getCutoffDate(days) {
@@ -535,31 +533,36 @@ function renderSectorBars(entries) {
   const bySector = {};
   entries.forEach(e => {
     const s = e.sector; if (!s) return;
-    if (!bySector[s]) bySector[s] = [];
-    bySector[s].push(sentimentScore(e));
+    if (!bySector[s]) bySector[s] = { scores: [], total: 0 };
+    bySector[s].total++;
+    const sc = sentimentScore(e);
+    if (sc !== null) bySector[s].scores.push(sc);  // only track scored entries
   });
-  const sectors = Object.entries(bySector).map(([s,scores]) => ({
-    sector: s,
-    avg: Math.round(scores.reduce((a,b)=>a+b,0)/scores.length * 100)/100,
-    total: scores.length,
-  })).sort((a,b) => a.sector.localeCompare(b.sector));
+
+  const sectors = Object.entries(bySector).map(([s, d]) => {
+    const scored = d.scores;
+    const avg = scored.length > 0
+      ? +(scored.reduce((a,b)=>a+b,0) / scored.length).toFixed(2)
+      : null;
+    return { sector: s, avg, total: d.total, scoredCount: scored.length };
+  }).sort((a,b) => a.sector.localeCompare(b.sector));
 
   // Scale: ±2 is full half-width (100%)
   document.getElementById('sector-bars').innerHTML = sectors.map(s => {
     const v = s.avg;
-    // pct of each half: cap at 100%
-    const halfPct = Math.min(Math.abs(v) / 2 * 100, 100);
-    // color: gray if |v| <= 0.5, green if positive, red if negative
-    const isNeutral = Math.abs(v) <= 0.5;
+    const hasData = v !== null;
+
+    const halfPct = hasData ? Math.min(Math.abs(v) / 2 * 100, 100) : 0;
+    const isNeutral = !hasData || Math.abs(v) <= 0.5;
     const barColor = isNeutral ? '#475569' : v > 0 ? '#22c55e' : '#ef4444';
     const scoreColor = isNeutral ? '#94a3b8' : v > 0 ? '#22c55e' : '#ef4444';
-    const label = v > 0 ? `+${v}` : `${v}`;
+    const label = !hasData ? '—' : v > 0 ? `+${v}` : `${v}`;
+    const title = !hasData ? '无情绪信号数据' : `有效信号 ${s.scoredCount}/${s.total} 条`;
 
-    // bear bar grows leftward, bull bar grows rightward
-    const bearPct = v < 0 ? halfPct : 0;
-    const bullPct = v > 0 ? halfPct : 0;
+    const bearPct = hasData && v < 0 ? halfPct : 0;
+    const bullPct = hasData && v > 0 ? halfPct : 0;
 
-    return `<div class="sector-row">
+    return `<div class="sector-row" title="${title}">
       <div class="sector-name">${s.sector}</div>
       <div class="sector-bar-wrap">
         <div class="sb-left"><div class="sb-fill" style="width:${bearPct}%;background:${barColor}"></div></div>
@@ -580,11 +583,14 @@ function renderRadar(entries) {
   entries.forEach(e => {
     const s = e.sector; if (!s) return;
     if (!bySector[s]) bySector[s] = [];
-    bySector[s].push(sentimentScore(e));
+    const sc = sentimentScore(e);
+    if (sc !== null) bySector[s].push(sc);  // skip no-signal entries
   });
-  const sectors = Object.entries(bySector).map(([s,scores]) => ({
-    sector: s, avg: scores.reduce((a,b)=>a+b,0)/scores.length
-  })).sort((a,b)=>a.sector.localeCompare(b.sector));
+  const sectors = Object.entries(bySector)
+    .filter(([,scores]) => scores.length > 0)
+    .map(([s,scores]) => ({
+      sector: s, avg: scores.reduce((a,b)=>a+b,0)/scores.length
+    })).sort((a,b)=>a.sector.localeCompare(b.sector));
   if (!sectors.length) return;
 
   const labels = sectors.map(s => s.sector.replace(' & ','\n& '));
