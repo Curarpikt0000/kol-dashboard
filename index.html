@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KOL Research Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d2e;
+    --card2: #232640;
+    --border: #2e3154;
+    --text: #e2e8f0;
+    --muted: #8892a4;
+    --bull: #22c55e;
+    --bull-bg: rgba(34,197,94,0.12);
+    --bear: #ef4444;
+    --bear-bg: rgba(239,68,68,0.12);
+    --neutral: #94a3b8;
+    --accent: #6366f1;
+    --accent2: #a78bfa;
+    --gold: #f59e0b;
+    --warning: #f97316;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; min-height: 100vh; }
+
+  /* ── Header ── */
+  header { background: var(--card); border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+  header h1 { font-size: 18px; font-weight: 700; letter-spacing: .5px; }
+  header h1 span { color: var(--accent2); }
+  #update-time { font-size: 12px; color: var(--muted); }
+
+  /* ── Layout ── */
+  .container { max-width: 1400px; margin: 0 auto; padding: 20px 24px; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  .section-title { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+
+  /* ── Cards ── */
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card-title { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
+
+  /* ── Filters ── */
+  .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; align-items: center; }
+  .filter-bar input, .filter-bar select { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 7px 12px; border-radius: 8px; font-size: 13px; outline: none; }
+  .filter-bar input:focus, .filter-bar select:focus { border-color: var(--accent); }
+  .filter-bar input { width: 200px; }
+  .filter-label { font-size: 12px; color: var(--muted); }
+
+  /* ── Stance Change Banner ── */
+  #stance-banner { background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(239,68,68,0.08)); border: 1px solid rgba(245,158,11,0.3); border-radius: 12px; padding: 16px; margin-bottom: 20px; display: none; }
+  #stance-banner h3 { font-size: 14px; color: var(--gold); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+  .stance-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px; }
+  .stance-item:last-child { border-bottom: none; }
+  .stance-arrow { font-size: 18px; }
+  .stance-kol { font-weight: 600; min-width: 140px; }
+  .stance-sector { color: var(--muted); font-size: 12px; }
+  .tag-bull { background: var(--bull-bg); color: var(--bull); padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+  .tag-bear { background: var(--bear-bg); color: var(--bear); padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+  .tag-neutral { background: rgba(148,163,184,0.12); color: var(--neutral); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+  .tag-sector { background: rgba(99,102,241,0.12); color: var(--accent2); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+
+  /* ── Sector Radar ── */
+  #radar-wrap { position: relative; height: 260px; }
+
+  /* ── Sector Bar ── */
+  .sector-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 13px; }
+  .sector-name { width: 130px; color: var(--text); flex-shrink: 0; }
+  .sector-bar-bg { flex: 1; height: 8px; background: var(--card2); border-radius: 4px; overflow: hidden; }
+  .sector-bar-fill { height: 100%; border-radius: 4px; transition: width .4s; }
+  .sector-score { width: 40px; text-align: right; font-weight: 600; font-size: 12px; }
+  .sector-count { width: 50px; text-align: right; color: var(--muted); font-size: 12px; }
+
+  /* ── KOL Cards ── */
+  #kol-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .kol-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px; transition: border-color .2s, transform .15s; cursor: default; }
+  .kol-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .kol-card.stance-changed { border-color: var(--gold) !important; }
+  .kol-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 10px; }
+  .kol-name { font-weight: 700; font-size: 14px; }
+  .kol-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .sentiment-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+  .sentiment-dots { display: flex; gap: 3px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--card2); }
+  .dot.bull { background: var(--bull); }
+  .dot.bear { background: var(--bear); }
+  .dot.active-bull { background: var(--bull); box-shadow: 0 0 6px var(--bull); }
+  .dot.active-bear { background: var(--bear); box-shadow: 0 0 6px var(--bear); }
+  .kol-comments { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .kol-bull-bear { font-size: 12px; color: var(--text); margin-bottom: 6px; }
+  .kol-footer { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--muted); }
+  .trend-up { color: var(--bull); }
+  .trend-down { color: var(--bear); }
+
+  /* ── Ticker Heatmap ── */
+  .ticker-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 13px; }
+  .ticker-sym { font-weight: 700; width: 60px; color: var(--text); flex-shrink: 0; }
+  .ticker-bar-bg { flex: 1; height: 6px; background: var(--card2); border-radius: 3px; overflow: hidden; }
+  .ticker-bar-fill-bull { height: 100%; background: var(--bull); border-radius: 3px; }
+  .ticker-bar-fill-bear { height: 100%; background: var(--bear); border-radius: 3px; }
+  .ticker-count { width: 24px; text-align: right; color: var(--muted); font-size: 11px; }
+
+  /* ── Weekly Timeline ── */
+  .week-item { display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+  .week-item:last-child { border-bottom: none; }
+  .week-badge { background: var(--card2); border-radius: 8px; padding: 6px 10px; text-align: center; flex-shrink: 0; min-width: 56px; }
+  .week-badge .wnum { font-size: 18px; font-weight: 800; color: var(--accent2); line-height: 1; }
+  .week-badge .wdate { font-size: 10px; color: var(--muted); margin-top: 2px; }
+  .week-content { flex: 1; min-width: 0; }
+  .week-insight { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  .week-meta { font-size: 11px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+  .week-bull-bear { font-size: 12px; color: var(--text); }
+
+  /* ── Tabs ── */
+  .tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid var(--border); }
+  .tab { padding: 8px 16px; font-size: 13px; cursor: pointer; border-bottom: 2px solid transparent; color: var(--muted); transition: all .2s; }
+  .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* ── Loading ── */
+  #loading { display: flex; align-items: center; justify-content: center; height: 60vh; flex-direction: column; gap: 12px; }
+  .spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Misc ── */
+  .badge-change { background: rgba(245,158,11,0.15); color: var(--gold); padding: 1px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; margin-left: 4px; }
+  .empty-state { text-align: center; padding: 32px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 768px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } #kol-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>KOL Research <span>Dashboard</span></h1>
+  <span id="update-time">加载中...</span>
+</header>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <div style="color:var(--muted);font-size:13px">正在加载数据...</div>
+</div>
+
+<div id="app" style="display:none">
+<div class="container">
+
+  <!-- Stance Change Banner -->
+  <div id="stance-banner">
+    <h3>⚡ 立场变化提醒</h3>
+    <div id="stance-list"></div>
+  </div>
+
+  <!-- Top Row: Sector + Radar + Tickers -->
+  <div class="grid-3" style="margin-bottom:20px">
+
+    <!-- 板块情绪 -->
+    <div class="card">
+      <div class="card-title">📊 板块情绪（本周）</div>
+      <div id="sector-bars"></div>
+    </div>
+
+    <!-- 雷达图 -->
+    <div class="card">
+      <div class="card-title">🔭 多空雷达</div>
+      <div id="radar-wrap"><canvas id="radarChart"></canvas></div>
+    </div>
+
+    <!-- 标的热度 -->
+    <div class="card">
+      <div class="card-title">🔥 最热标的（近14天）</div>
+      <div class="tabs" style="margin-bottom:10px">
+        <div class="tab active" onclick="switchTickerTab('bull',this)">看多</div>
+        <div class="tab" onclick="switchTickerTab('bear',this)">看空</div>
+      </div>
+      <div id="ticker-bull"></div>
+      <div id="ticker-bear" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- Main Content Tabs -->
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('kol',this)">KOL 列表</div>
+    <div class="tab" onclick="switchTab('weekly',this)">周报历史</div>
+  </div>
+
+  <!-- KOL List Panel -->
+  <div id="panel-kol" class="tab-panel active">
+    <div class="filter-bar">
+      <input type="text" id="search-kol" placeholder="🔍 搜索 KOL 或标的..." oninput="applyFilters()">
+      <select id="filter-sector" onchange="applyFilters()">
+        <option value="">全部板块</option>
+        <option>Precious Metals</option>
+        <option>Macro</option>
+        <option>Energy &amp; Commodities</option>
+        <option>Crypto</option>
+        <option>Equities</option>
+        <option>Geopolitics</option>
+        <option>Alternative</option>
+      </select>
+      <select id="filter-sentiment" onchange="applyFilters()">
+        <option value="">全部情绪</option>
+        <option value="2">极度看多</option>
+        <option value="1">看多</option>
+        <option value="0">中性</option>
+        <option value="-1">看空</option>
+        <option value="-2">极度看空</option>
+      </select>
+      <select id="filter-type" onchange="applyFilters()">
+        <option value="">全部类型</option>
+        <option value="KOL">KOL</option>
+        <option value="IB View">IB View</option>
+        <option value="Prophet">Prophet</option>
+        <option value="AI View">AI View</option>
+      </select>
+      <label><input type="checkbox" id="filter-changed" onchange="applyFilters()"> 仅立场变化</label>
+    </div>
+    <div id="kol-count" style="font-size:12px;color:var(--muted);margin-bottom:12px"></div>
+    <div id="kol-grid"></div>
+  </div>
+
+  <!-- Weekly History Panel -->
+  <div id="panel-weekly" class="tab-panel">
+    <div id="weekly-list"></div>
+  </div>
+
+</div><!-- /container -->
+</div><!-- /app -->
+
+<script>
+let DATA = null;
+let changedKols = new Set();
+
+// ── Load Data ──────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    DATA = await res.json();
+    document.getElementById('update-time').textContent = '更新于 ' + DATA.generated_at;
+    render();
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+  } catch(e) {
+    document.getElementById('loading').innerHTML = '<div style="color:#ef4444">数据加载失败，请检查 data.json 是否存在</div>';
+  }
+}
+
+// ── Render All ────────────────────────────────────────────
+function render() {
+  renderStanceChanges();
+  renderSectorBars();
+  renderRadar();
+  renderTickerHeatmap();
+  renderKolCards(DATA.kol_cards);
+  renderWeeklyList();
+}
+
+// ── Stance Changes ────────────────────────────────────────
+function renderStanceChanges() {
+  const changes = DATA.stance_changes || [];
+  changes.forEach(c => changedKols.add(c.kol_name));
+  if (!changes.length) return;
+
+  document.getElementById('stance-banner').style.display = 'block';
+  const list = document.getElementById('stance-list');
+  list.innerHTML = changes.map(c => `
+    <div class="stance-item">
+      <span class="stance-kol">${c.kol_name}</span>
+      <span class="tag-sector">${c.sector}</span>
+      <span class="${c.prev_score > 0 ? 'tag-bull' : c.prev_score < 0 ? 'tag-bear' : 'tag-neutral'}">${c.prev_label}</span>
+      <span style="color:var(--gold)">→</span>
+      <span class="${c.curr_score > 0 ? 'tag-bull' : c.curr_score < 0 ? 'tag-bear' : 'tag-neutral'}">${c.curr_label}</span>
+      <span style="margin-left:auto;color:var(--gold);font-weight:700;font-size:12px">${c.change_type} ⚡</span>
+    </div>
+  `).join('');
+}
+
+// ── Sector Bars ───────────────────────────────────────────
+function renderSectorBars() {
+  const sectors = DATA.sector_summary || [];
+  const maxAbs = Math.max(...sectors.map(s => Math.abs(s.avg)), 0.1);
+  document.getElementById('sector-bars').innerHTML = sectors.map(s => {
+    const pct = Math.abs(s.avg) / maxAbs * 100;
+    const color = s.avg > 0.3 ? 'var(--bull)' : s.avg < -0.3 ? 'var(--bear)' : 'var(--neutral)';
+    const scoreColor = s.avg > 0.3 ? '#22c55e' : s.avg < -0.3 ? '#ef4444' : '#94a3b8';
+    return `<div class="sector-row">
+      <div class="sector-name">${s.sector}</div>
+      <div class="sector-bar-bg"><div class="sector-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+      <div class="sector-score" style="color:${scoreColor}">${s.avg > 0 ? '+' : ''}${s.avg}</div>
+      <div class="sector-count">${s.total}条</div>
+    </div>`;
+  }).join('') || '<div class="empty-state">本周暂无数据</div>';
+}
+
+// ── Radar Chart ───────────────────────────────────────────
+let radarChart = null;
+function renderRadar() {
+  const sectors = DATA.sector_summary || [];
+  if (!sectors.length) return;
+  const labels = sectors.map(s => s.sector.replace(' & ', '\n& '));
+  const scores = sectors.map(s => s.avg + 2); // shift to 0~4 for radar
+
+  if (radarChart) radarChart.destroy();
+  radarChart = new Chart(document.getElementById('radarChart'), {
+    type: 'radar',
+    data: {
+      labels,
+      datasets: [{
+        label: '情绪',
+        data: scores,
+        backgroundColor: 'rgba(99,102,241,0.15)',
+        borderColor: 'rgba(99,102,241,0.8)',
+        pointBackgroundColor: scores.map(s => s > 2.3 ? '#22c55e' : s < 1.7 ? '#ef4444' : '#94a3b8'),
+        pointRadius: 4,
+        borderWidth: 2,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { r: {
+        min: 0, max: 4,
+        ticks: { display: false },
+        grid: { color: 'rgba(255,255,255,0.07)' },
+        angleLines: { color: 'rgba(255,255,255,0.07)' },
+        pointLabels: { color: '#8892a4', font: { size: 11 } },
+      }},
+      plugins: { legend: { display: false } },
+    }
+  });
+}
+
+// ── Ticker Heatmap ────────────────────────────────────────
+function renderTickerHeatmap() {
+  const hm = DATA.ticker_heatmap || {};
+  function renderTickers(items, type) {
+    if (!items || !items.length) return '<div class="empty-state">暂无数据</div>';
+    const max = items[0].count;
+    return items.map(t => `
+      <div class="ticker-row">
+        <div class="ticker-sym">${t.ticker}</div>
+        <div class="ticker-bar-bg"><div class="ticker-bar-fill-${type}" style="width:${t.count/max*100}%"></div></div>
+        <div class="ticker-count">${t.count}</div>
+      </div>
+    `).join('');
+  }
+  document.getElementById('ticker-bull').innerHTML = renderTickers(hm.bull, 'bull');
+  document.getElementById('ticker-bear').innerHTML = renderTickers(hm.bear, 'bear');
+}
+
+function switchTickerTab(type, el) {
+  document.querySelectorAll('.card .tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('ticker-bull').style.display = type === 'bull' ? 'block' : 'none';
+  document.getElementById('ticker-bear').style.display = type === 'bear' ? 'block' : 'none';
+}
+
+// ── KOL Cards ─────────────────────────────────────────────
+function renderKolCards(cards) {
+  if (!cards.length) {
+    document.getElementById('kol-grid').innerHTML = '<div class="empty-state">没有符合条件的 KOL</div>';
+    document.getElementById('kol-count').textContent = '';
+    return;
+  }
+  document.getElementById('kol-count').textContent = `显示 ${cards.length} 位 KOL`;
+  document.getElementById('kol-grid').innerHTML = cards.map(c => {
+    const score = c.avg_score;
+    const isChanged = changedKols.has(c.kol_name);
+    // 5-dot sentiment indicator
+    const dots = [-2,-1,0,1,2].map(v => {
+      let cls = 'dot';
+      if (v === Math.round(score)) cls += score > 0 ? ' active-bull' : score < 0 ? ' active-bear' : '';
+      else if (v > 0) cls += ' bull';
+      else if (v < 0) cls += ' bear';
+      return `<div class="${cls}"></div>`;
+    }).join('');
+    const scoreColor = score > 0.3 ? 'var(--bull)' : score < -0.3 ? 'var(--bear)' : 'var(--neutral)';
+    const trendIcon = c.trend === 'rising' ? '<span class="trend-up">↑</span>' : c.trend === 'falling' ? '<span class="trend-down">↓</span>' : '';
+    return `<div class="kol-card${isChanged ? ' stance-changed' : ''}">
+      <div class="kol-header">
+        <div>
+          <div class="kol-name">${c.kol_name}${isChanged ? '<span class="badge-change">立场变化</span>' : ''}</div>
+          <div class="kol-meta">${c.sector}${c.detail_sector ? ' · ' + c.detail_sector : ''} · ${c.kol_or_ib || 'KOL'}</div>
+        </div>
+        <div class="sentiment-badge">
+          <div class="sentiment-dots">${dots}</div>
+          <div style="font-size:11px;color:${scoreColor};font-weight:600">${c.score_label}</div>
+        </div>
+      </div>
+      ${c.latest_bull_bear ? `<div class="kol-bull-bear">${c.latest_bull_bear}</div>` : ''}
+      <div class="kol-comments">${c.latest_comments || '暂无摘要'}</div>
+      <div class="kol-footer">
+        <span>${c.latest_date}</span>
+        <span>${trendIcon} ${c.entry_count}条记录</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Filters ───────────────────────────────────────────────
+function applyFilters() {
+  const search = document.getElementById('search-kol').value.toLowerCase();
+  const sector = document.getElementById('filter-sector').value;
+  const sentiment = document.getElementById('filter-sentiment').value;
+  const type = document.getElementById('filter-type').value;
+  const onlyChanged = document.getElementById('filter-changed').checked;
+
+  let filtered = DATA.kol_cards.filter(c => {
+    if (search && !c.kol_name.toLowerCase().includes(search) && !c.latest_bull_bear.toLowerCase().includes(search.toUpperCase()))
+      return false;
+    if (sector && c.sector !== sector) return false;
+    if (sentiment !== '' && Math.round(c.avg_score) !== parseInt(sentiment)) return false;
+    if (type && c.kol_or_ib !== type) return false;
+    if (onlyChanged && !changedKols.has(c.kol_name)) return false;
+    return true;
+  });
+  renderKolCards(filtered);
+}
+
+// ── Weekly List ───────────────────────────────────────────
+function renderWeeklyList() {
+  const weeks = DATA.weekly_reports || [];
+  document.getElementById('weekly-list').innerHTML = weeks.map(w => {
+    const wnum = w.week_number || '';
+    const insight = w.key_insight || '';
+    const sentimentMatch = insight.match(/整体偏多|整体偏空|多空均衡|分歧加剧/);
+    const sentiment = sentimentMatch ? sentimentMatch[0] : '';
+    const sentimentColor = sentiment.includes('多') ? 'var(--bull)' : sentiment.includes('空') ? 'var(--bear)' : 'var(--neutral)';
+    return `<div class="week-item">
+      <div class="week-badge"><div class="wnum">W${wnum}</div><div class="wdate">${w.date || ''}</div></div>
+      <div class="week-content">
+        <div class="week-insight">${insight}</div>
+        <div class="week-meta">
+          ${w.sector ? `<span class="tag-sector">${w.sector}</span>` : ''}
+          ${sentiment ? `<span style="color:${sentimentColor};font-weight:600;font-size:12px">${sentiment}</span>` : ''}
+        </div>
+        ${w.bull_bear ? `<div class="week-bull-bear">${w.bull_bear}</div>` : ''}
+        ${w.suggestion ? `<div style="font-size:12px;color:var(--muted);margin-top:4px">💡 ${w.suggestion.slice(0,120)}${w.suggestion.length>120?'...':''}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('') || '<div class="empty-state">暂无周报数据</div>';
+}
+
+// ── Tab Switch ────────────────────────────────────────────
+function switchTab(panel, el) {
+  document.querySelectorAll('.tabs:not(.card .tabs) .tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('panel-kol').classList.remove('active');
+  document.getElementById('panel-weekly').classList.remove('active');
+  document.getElementById('panel-' + panel).classList.add('active');
+}
+
+loadData();
+</script>
+</body>
+</html>
