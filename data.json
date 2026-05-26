@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26 18:57 JST",
+  "generated_at": "2026-05-26 19:04 JST",
   "date_range": {
     "start": "2026-01-26",
     "end": "2026-05-26"
@@ -15,19 +15,19 @@
     },
     {
       "sector": "Crypto",
-      "avg": 1.0,
+      "avg": 0.5,
       "bull": 1,
       "bear": 0,
-      "neutral": 0,
-      "total": 1
+      "neutral": 1,
+      "total": 2
     },
     {
       "sector": "Energy & Commodities",
-      "avg": 0.5,
+      "avg": 0.4,
       "bull": 2,
       "bear": 0,
-      "neutral": 2,
-      "total": 4
+      "neutral": 3,
+      "total": 5
     },
     {
       "sector": "Equities",
@@ -39,22 +39,50 @@
     },
     {
       "sector": "Macro",
-      "avg": 0.2,
+      "avg": 0.19,
       "bull": 3,
       "bear": 0,
-      "neutral": 12,
-      "total": 15
+      "neutral": 13,
+      "total": 16
     },
     {
       "sector": "Precious Metals",
-      "avg": 0.5,
-      "bull": 11,
+      "avg": 0.52,
+      "bull": 13,
       "bear": 0,
-      "neutral": 11,
-      "total": 22
+      "neutral": 12,
+      "total": 25
     }
   ],
   "kol_cards": [
+    {
+      "kol_name": "Vince Lanci",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX仓位",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-26",
+      "latest_comments": "COMEX白银可能90天内出现实物交割失败 → 交易将沦为现金结算 → 市场操纵通过幌骗交易持续 → 中国央行与摩根大通博弈中黄金定价权转移至中国 → COMEX影响力下降 → 贵金属实物需求与价格支撑增强",
+      "latest_suggestion": "建议逢低做多黄金（GLD）和白银（SLV），关注实物交割风险带来的溢价机会，可配置铂金（PPLT）作为补充。",
+      "latest_bull_bear": "🟢 GLD, SLV, PPLT | 🔴 TLT",
+      "avg_score": 1.0,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
+      "kol_name": "Steve Penny",
+      "sector": "Precious Metals",
+      "detail_sector": "技术分析",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-26",
+      "latest_comments": "白银价格突破关键阻力位 → 周线级别形成看涨形态 → 美元指数技术面走弱 → 黄金月线及日线均维持上升趋势 → 铂金跟随贵金属板块上行 → 铀矿股技术面也呈现强势 → 整体贵金属及大宗商品板块资金流入 → 宏观环境支持避险资产",
+      "latest_suggestion": "建议逢低做多白银（SLV）及白银矿股（SILJ），同时关注黄金（GLD）和铂金（PPLT）的多头机会，美元弱势下贵金属配置价值凸显。",
+      "latest_bull_bear": "🟢 SLV, SILJ, GLD, PPLT | 🔴 UUP",
+      "avg_score": 1.0,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 1
+    },
     {
       "kol_name": "Cathie Wood",
       "sector": "Equities",
@@ -318,6 +346,62 @@
       "latest_bull_bear": "🟢 GLD | 🔴 TLT",
       "avg_score": 1.0,
       "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
+      "kol_name": "Raoul Pal",
+      "sector": "Crypto",
+      "detail_sector": "山寨币周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-26",
+      "latest_comments": "全球流动性宽松周期延续 → 美联储降息预期与财政扩张叠加 → 风险资产资金涌入 → 加密市场与科技股进入流动性驱动的“香蕉区”主升浪 → 预计涨势延续至2026年",
+      "latest_suggestion": "做多比特币、以太坊及科技股ETF（如QQQ），逢回调加仓，设好移动止盈，避免过早离场。",
+      "latest_bull_bear": "🟢 BTC, ETH, QQQ | 🔴 TLT, GLD",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
+      "kol_name": "Jim Rogers",
+      "sector": "Energy & Commodities",
+      "detail_sector": "大宗商品周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-26",
+      "latest_comments": "大宗商品长期表现平庸后迎来转折点 → 农业与贵金属基本面改善 → 美元信用削弱及全球去美元化趋势 → 白银和农产品成为避险与通胀对冲首选 → 但股市面临严重修正风险 → 建议减持股票增持商品",
+      "latest_suggestion": "建议买入白银ETF（SLV）及农产品ETF（DBA），做多贵金属与农业板块；减持美股，规避短期回调风险。",
+      "latest_bull_bear": "🟢 SLV, DBA | 🔴 SPY",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
+      "kol_name": "David Garofalo",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-26",
+      "latest_comments": "Gold Royalty CEO David Garofalo拥有成功整合Goldcorp与Newmont的履历 → 公司管理层拥有超400年矿业经验 → 股东以99.22%高票支持Coeur收购New Gold → 黄金生产动态与定价趋势支撑行业基本面 → 黄金50年里程碑式表现强化长期看多逻辑",
+      "latest_suggestion": "建议增持黄金相关资产，可关注黄金ETF（GLD）或黄金矿业股（如NEM、GOLD），利用行业整合与金价上行趋势布局。",
+      "latest_bull_bear": "🟢 GLD, NEM, GOLD | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
+      "kol_name": "Goldman Sachs",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-26",
+      "latest_comments": "高盛预计2026年全球经济增长2.8%高于共识→通胀韧性及央行购金支撑黄金需求→黄金目标价4650-4700美元/盎司，涨幅10-15%→白银受益于工业与避险双重驱动，涨幅15-20%→铜因电气化与供应约束成为长期首选工业金属→大宗商品作为组合保险应对供给风险上升",
+      "latest_suggestion": "建议增持黄金ETF（GLD）及白银ETF（SLV），关注铜矿股（FCX）多头机会；减持长期美债（TLT）以对冲通胀与利率风险",
+      "latest_bull_bear": "🟢 GLD, SLV, FCX | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
       "trend": "stable",
       "entry_count": 1
     },
@@ -817,64 +901,64 @@
     "bull": [
       {
         "ticker": "GLD",
-        "count": 40
+        "count": 44
       },
       {
         "ticker": "SLV",
-        "count": 14
+        "count": 18
       },
       {
         "ticker": "GDX",
         "count": 6
       },
       {
+        "ticker": "BTC",
+        "count": 3
+      },
+      {
+        "ticker": "PPLT",
+        "count": 3
+      },
+      {
+        "ticker": "SILJ",
+        "count": 3
+      },
+      {
+        "ticker": "NEM",
+        "count": 3
+      },
+      {
         "ticker": "TO",
         "count": 3
       },
       {
-        "ticker": "XLE",
+        "ticker": "QQQ",
         "count": 2
       },
       {
-        "ticker": "SILJ",
-        "count": 2
-      },
-      {
-        "ticker": "PHYS",
-        "count": 2
-      },
-      {
-        "ticker": "GDXJ",
-        "count": 2
-      },
-      {
-        "ticker": "NEM",
-        "count": 2
-      },
-      {
-        "ticker": "WPM",
+        "ticker": "GOLD",
         "count": 2
       }
     ],
     "bear": [
       {
         "ticker": "TLT",
-        "count": 42
+        "count": 46
       },
       {
         "ticker": "SPY",
-        "count": 2
+        "count": 3
       },
       {
         "ticker": "UUP",
+        "count": 3
+      },
+      {
+        "ticker": "GLD",
         "count": 2
       },
       {
         "ticker": "USO",
-        "count": 1
-      },
-      {
-        "ticker": "GLD",
         "count": 1
       },
       {
@@ -935,9 +1019,91 @@
       "comments": "【贵金属】多位KOL一致看多，强调去美元化、COMEX库存下降及白银工业需求爆发，建议增持实物及版税公司如WPM、FNV。【能源】传统能源供应紧张与资本开支不足获共识，Eric Nuttall等建议做多XLE、CVE，关注原油期货曲线结构。【科技与宏观】Cathie Wood、Dan Ives坚定看好AI与创新，但Michael Hartnett提示资金转向避险，Raoul Pal则力推数字资产，整体多空交织。",
       "suggestion": "增持实物黄金、白银及贵金属版税公司（WPM、FNV）；做多能源ETF（XLE）及优质油气股（CVE、CNQ）；长期配置比特币；减持美元资产，关注现金与短期国债。",
       "bull_bear": "🟢 GLD(黄金ETF), SLV(白银ETF), XLE(能源ETF), AGQ(2倍做多白银), ARKK(方舟创新ETF) | 🔴 TLT(长期美债ETF), UUP(做多美元ETF), SHY(短期美债ETF)"
+    },
+    {
+      "key_insight": "W11 贵金属与宏观避险情绪共振，能源与科技板块多空分化加剧（2026-03-09）",
+      "date": "2026-03-09",
+      "week_number": 11,
+      "sector": "Multi-Asset",
+      "detail_sector": "",
+      "comments": "贵金属板块：强烈看多共识。核心逻辑为法币信用受损、央行持续宽松及供需失衡（白银尤为突出）。多位KOL强调白银工业需求与实物挤兑风险，认为其涨幅将超越黄金；黄金技术面亦显示强劲买盘，目标位看至2450美元。\n\n能源与大宗商品：谨慎看多，存在结构性分歧。看多方认为传统能源投资不足与地缘风险将长期支撑油价；空方担忧绿色能源政策冲击传统能源安全，但整体共识偏向供应紧张格局。\n\n宏观板块：高度一致看空法币、看多硬资产。多位KOL警告美元购买力崩溃与滞胀风险，认为去美元化与全球债务危机将推动黄金、白银及商品货币体系回归。少数观点提示市场过度乐观与科技股资金拥挤风险。",
+      "suggestion": "建议增配实物贵金属及矿业版税/流媒体公司，白银因供需缺口与挤兑风险弹性更大。警惕科技股高位回调与滞胀风险，可适度配置传统能源及资源股作为逆向对冲。关注COMEX白银交割动态及OPEC+产量政策变化。",
+      "bull_bear": ""
     }
   ],
   "raw_entries": [
+    {
+      "id": "36c47eb5-fd3c-810a-b00c-e9c167b8cd70",
+      "name": "看多 加密资产与科技股进入香蕉区主升浪",
+      "kol_name": "Raoul Pal",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-26",
+      "sector": "Crypto",
+      "detail_sector": "山寨币周期",
+      "comments": "全球流动性宽松周期延续 → 美联储降息预期与财政扩张叠加 → 风险资产资金涌入 → 加密市场与科技股进入流动性驱动的“香蕉区”主升浪 → 预计涨势延续至2026年",
+      "suggestion": "做多比特币、以太坊及科技股ETF（如QQQ），逢回调加仓，设好移动止盈，避免过早离场。",
+      "bull_bear": "🟢 BTC, ETH, QQQ | 🔴 TLT, GLD"
+    },
+    {
+      "id": "36c47eb5-fd3c-8154-9f61-c6b81f112946",
+      "name": "看多白银与农产品，警告市场将大幅回调",
+      "kol_name": "Jim Rogers",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-26",
+      "sector": "Energy & Commodities",
+      "detail_sector": "大宗商品周期",
+      "comments": "大宗商品长期表现平庸后迎来转折点 → 农业与贵金属基本面改善 → 美元信用削弱及全球去美元化趋势 → 白银和农产品成为避险与通胀对冲首选 → 但股市面临严重修正风险 → 建议减持股票增持商品",
+      "suggestion": "建议买入白银ETF（SLV）及农产品ETF（DBA），做多贵金属与农业板块；减持美股，规避短期回调风险。",
+      "bull_bear": "🟢 SLV, DBA | 🔴 SPY"
+    },
+    {
+      "id": "36c47eb5-fd3c-8164-809c-c63175dc2c1e",
+      "name": "[看多] 中国定价黄金，COMEX交割风险加剧",
+      "kol_name": "Vince Lanci",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-26",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX仓位",
+      "comments": "COMEX白银可能90天内出现实物交割失败 → 交易将沦为现金结算 → 市场操纵通过幌骗交易持续 → 中国央行与摩根大通博弈中黄金定价权转移至中国 → COMEX影响力下降 → 贵金属实物需求与价格支撑增强",
+      "suggestion": "建议逢低做多黄金（GLD）和白银（SLV），关注实物交割风险带来的溢价机会，可配置铂金（PPLT）作为补充。",
+      "bull_bear": "🟢 GLD, SLV, PPLT | 🔴 TLT"
+    },
+    {
+      "id": "36c47eb5-fd3c-8100-8101-cdccce5cdf3a",
+      "name": "[看多] 白银技术突破后继续看涨，黄金铂金同步走强",
+      "kol_name": "Steve Penny",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-26",
+      "sector": "Precious Metals",
+      "detail_sector": "技术分析",
+      "comments": "白银价格突破关键阻力位 → 周线级别形成看涨形态 → 美元指数技术面走弱 → 黄金月线及日线均维持上升趋势 → 铂金跟随贵金属板块上行 → 铀矿股技术面也呈现强势 → 整体贵金属及大宗商品板块资金流入 → 宏观环境支持避险资产",
+      "suggestion": "建议逢低做多白银（SLV）及白银矿股（SILJ），同时关注黄金（GLD）和铂金（PPLT）的多头机会，美元弱势下贵金属配置价值凸显。",
+      "bull_bear": "🟢 SLV, SILJ, GLD, PPLT | 🔴 UUP"
+    },
+    {
+      "id": "36c47eb5-fd3c-8163-8423-f0d1f778d4d0",
+      "name": "看多 黄金行业前景与公司治理优势",
+      "kol_name": "David Garofalo",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-26",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "comments": "Gold Royalty CEO David Garofalo拥有成功整合Goldcorp与Newmont的履历 → 公司管理层拥有超400年矿业经验 → 股东以99.22%高票支持Coeur收购New Gold → 黄金生产动态与定价趋势支撑行业基本面 → 黄金50年里程碑式表现强化长期看多逻辑",
+      "suggestion": "建议增持黄金相关资产，可关注黄金ETF（GLD）或黄金矿业股（如NEM、GOLD），利用行业整合与金价上行趋势布局。",
+      "bull_bear": "🟢 GLD, NEM, GOLD | 🔴 TLT"
+    },
+    {
+      "id": "36c47eb5-fd3c-8117-9be0-fdd70543b7e6",
+      "name": "看多黄金与大宗商品，2026年配置价值凸显",
+      "kol_name": "Goldman Sachs",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-26",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "comments": "高盛预计2026年全球经济增长2.8%高于共识→通胀韧性及央行购金支撑黄金需求→黄金目标价4650-4700美元/盎司，涨幅10-15%→白银受益于工业与避险双重驱动，涨幅15-20%→铜因电气化与供应约束成为长期首选工业金属→大宗商品作为组合保险应对供给风险上升",
+      "suggestion": "建议增持黄金ETF（GLD）及白银ETF（SLV），关注铜矿股（FCX）多头机会；减持长期美债（TLT）以对冲通胀与利率风险",
+      "bull_bear": "🟢 GLD, SLV, FCX | 🔴 TLT"
+    },
     {
       "id": "36c47eb5-fd3c-811e-9d99-eba1f8b12e3a",
       "name": "看多 印度占星师预测金价暴涨四倍",
