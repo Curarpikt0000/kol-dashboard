@@ -118,7 +118,8 @@
 
   /* ── Ticker Heatmap ── */
   .ticker-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 13px; }
-  .ticker-sym { font-weight: 700; width: 60px; color: var(--text); flex-shrink: 0; }
+  .ticker-sym { font-weight: 700; width: 46px; color: var(--text); flex-shrink: 0; }
+  .ticker-desc { font-size: 11px; color: var(--muted); width: 90px; flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .ticker-bar-bg { flex: 1; height: 6px; background: var(--card2); border-radius: 3px; overflow: hidden; }
   .ticker-bar-fill-bull { height: 100%; background: var(--bull); border-radius: 3px; }
   .ticker-bar-fill-bear { height: 100%; background: var(--bear); border-radius: 3px; }
@@ -610,6 +611,36 @@ function renderRadar(entries) {
   });
 }
 
+// ── Ticker descriptions ───────────────────────────────────
+const TICKER_DESC = {
+  // 黄金 & 贵金属
+  GLD:'黄金ETF', IAU:'黄金ETF(低费)', SGOL:'实物黄金ETF', PHYS:'黄金信托',
+  SLV:'白银ETF', PSLV:'实物白银ETF', AG:'第一银矿(股)',
+  GDX:'黄金矿业ETF', GDXJ:'小型金矿ETF', SILJ:'小型银矿ETF',
+  NEM:'纽蒙特矿业', WPM:'惠顿贵金属', AEM:'加拿大黄金',
+  // 能源
+  USO:'原油ETF', XLE:'能源股ETF', UCO:'两倍原油ETF',
+  UNG:'天然气ETF', XOM:'埃克森美孚', CVX:'雪佛龙',
+  // 美股指数
+  SPY:'标普500ETF', QQQ:'纳斯达克100ETF', IWM:'小盘股ETF',
+  DIA:'道琼斯ETF', VTI:'全市场ETF', ARKK:'ARK创新ETF',
+  // 债券 & 利率
+  TLT:'20年美债ETF', IEF:'7-10年美债ETF', SHY:'短期美债ETF',
+  AGG:'综合债券ETF', HYG:'高收益债ETF', TBT:'两倍做空长债',
+  // 货币 & 宏观
+  DXY:'美元指数', UUP:'美元多头ETF', FXI:'中国大盘ETF',
+  GLD_USD:'黄金/美元', EURUSD:'欧元/美元',
+  // 加密
+  BTC:'比特币', ETH:'以太坊', MSTR:'微策略(持BTC)',
+  IBIT:'贝莱德比特币ETF', FBTC:'富达比特币ETF',
+  // 其他
+  PLTR:'Palantir(AI)', AAPL:'苹果', GOOGL:'谷歌',
+  TO:'泰克资源(矿业)', WCP:'惠廷石油(加拿大)',
+  ARC:'ARC资源(能源)', TOU:'图法能源(天然气)',
+  PAAS:'泛美白银', ADVFN:'股票数据平台',
+};
+function tickerDesc(t) { return TICKER_DESC[t] || ''; }
+
 // ── Ticker Heatmap (computed from raw entries) ────────────
 function renderTickerHeatmap(entries) {
   const ticker_re = /\b([A-Z]{2,5})\b/g;
@@ -633,6 +664,7 @@ function renderTickerHeatmap(entries) {
     const max = items[0].count;
     return items.map(t=>`<div class="ticker-row">
       <div class="ticker-sym">${t.ticker}</div>
+      <div class="ticker-desc" title="${tickerDesc(t.ticker)}">${tickerDesc(t.ticker)}</div>
       <div class="ticker-bar-bg"><div class="ticker-bar-fill-${type}" style="width:${t.count/max*100}%"></div></div>
       <div class="ticker-count">${t.count}</div>
     </div>`).join('');
