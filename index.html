@@ -92,11 +92,20 @@
   .sector-badge { display: inline-flex; align-items: center; gap: 4px; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600; }
   .sb-pm    { background: rgba(245,158,11,0.15); color: #f59e0b; }   /* Precious Metals */
   .sb-macro { background: rgba(99,102,241,0.15); color: #818cf8; }   /* Macro */
-  .sb-energy{ background: rgba(249,115,22,0.15); color: #fb923c; }   /* Energy */
+  .sb-energy{ background: rgba(249,115,22,0.15); color: #fb923c; }   /* Energy & Commodities */
   .sb-crypto{ background: rgba(168,85,247,0.15); color: #c084fc; }   /* Crypto */
   .sb-eq    { background: rgba(34,197,94,0.12);  color: #4ade80; }   /* Equities */
   .sb-geo   { background: rgba(239,68,68,0.12);  color: #f87171; }   /* Geopolitics */
   .sb-alt   { background: rgba(148,163,184,0.12);color: #94a3b8; }   /* Alternative */
+  .sb-ai    { background: rgba(6,182,212,0.12);  color: #22d3ee; }   /* AI & Tech */
+  .sb-tech  { background: rgba(16,185,129,0.12); color: #34d399; }   /* Technology */
+  .sb-gov   { background: rgba(251,191,36,0.12); color: #fbbf24; }   /* Government Debt */
+  .sb-mine  { background: rgba(139,92,246,0.12); color: #a78bfa; }   /* Mining */
+  .sb-multi { background: rgba(236,72,153,0.12); color: #f472b6; }   /* Multi-Asset */
+  /* Date range picker */
+  #custom-date-range { display:none; align-items:center; gap:6px; }
+  #custom-date-range input[type=date] { background:var(--card); border:1px solid var(--border); color:var(--text); padding:7px 10px; border-radius:8px; font-size:13px; outline:none; }
+  #custom-date-range input[type=date]:focus { border-color:var(--accent); }
   .kol-comments { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .kol-bull-bear { font-size: 12px; color: var(--text); margin-bottom: 6px; }
   .kol-footer { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--muted); }
@@ -191,14 +200,20 @@
   <!-- Global Filter Bar（所有 Tab 共用）-->
   <div class="filter-bar" style="margin-bottom:0;padding-bottom:14px;border-bottom:1px solid var(--border)">
     <input type="text" id="search-kol" placeholder="🔍 搜索 KOL、标的或关键词..." oninput="onFilterChange()">
-    <select id="filter-days" onchange="onFilterChange()">
+    <select id="filter-days" onchange="onDaysChange()">
       <option value="7">最近 7 天</option>
       <option value="14">最近 14 天</option>
       <option value="30" selected>最近 30 天</option>
       <option value="60">最近 60 天</option>
       <option value="90">最近 90 天</option>
       <option value="0">全部时间</option>
+      <option value="custom">自定义范围…</option>
     </select>
+    <div id="custom-date-range">
+      <input type="date" id="filter-from" onchange="onFilterChange()">
+      <span style="color:var(--muted)">—</span>
+      <input type="date" id="filter-to" onchange="onFilterChange()">
+    </div>
     <select id="filter-sector" onchange="onFilterChange()">
       <option value="">全部板块</option>
       <option>Precious Metals</option>
@@ -208,6 +223,11 @@
       <option>Equities</option>
       <option>Geopolitics</option>
       <option>Alternative</option>
+      <option>AI &amp; Tech</option>
+      <option>Technology</option>
+      <option>Government Debt</option>
+      <option>Mining &amp; Resources</option>
+      <option>Multi-Asset</option>
     </select>
     <select id="filter-sentiment" onchange="onFilterChange()">
       <option value="">全部情绪</option>
@@ -253,24 +273,29 @@
 let DATA = null;
 let changedKols = new Set();
 
-// ── Helpers ───────────────────────────────────────────────
-function sentimentScore(e) {
-  const text = (e.name||'') + ' ' + (e.comments||'');
-  if (/极度看多|极度看涨/.test(text)) return 2;
-  if (/看多|看涨|🟢/.test(text)) return 1;
-  if (/极度看空|极度看跌/.test(text)) return -2;
-  if (/看空|看跌|🔴/.test(text)) return -1;
-  const tl = text.toLowerCase();
-  if (/strongly bullish|very bullish/.test(tl)) return 2;
-  if (/bullish/.test(tl)) return 1;  // 删除 "long" 避免误匹配
-  if (/strongly bearish|very bearish/.test(tl)) return -2;
-  if (/bearish/.test(tl)) return -1; // 删除 "short" 避免误匹配
-  return 0;
-}
-const SCORE_LABEL = {2:'极度看多',1:'看多',0:'中性','-1':'看空','-2':'极度看空'};
-function scoreLabel(s) { return SCORE_LABEL[String(Math.round(s))] || '中性'; }
+// ── Sector normalization ──────────────────────────────────
+const SECTOR_MAP = {
+  // Alternative group
+  'Alternative Wealth':              'Alternative',
+  'Alternative Wealth Transfer':     'Alternative',
+  'Alternative/Prophecy':            'Alternative',
+  '神学预言与另类财富转移':           'Alternative',
+  'Theology/Alternative Wealth':     'Alternative',
+  // Energy group
+  'Energy/Commodities':              'Energy & Commodities',
+  'Energy/大宗':                     'Energy & Commodities',
+  // Government
+  'Government Data':                 'Government Debt',
+  // Tech
+  'Tech/AI':                         'AI & Tech',
+  'Tech/AI/Strategy':                'AI & Tech',
+  // Mining
+  'Mining/Resources':                'Mining & Resources',
+  'Mining Practical & Market Sniping': 'Mining & Resources',
+};
+function normalizeSector(s) { return SECTOR_MAP[s] || s || ''; }
 
-// Sector 徽章：样式类 + 图标
+// ── Sector badge ──────────────────────────────────────────
 const SECTOR_STYLE = {
   'Precious Metals':     { cls:'sb-pm',    icon:'🥇' },
   'Macro':               { cls:'sb-macro', icon:'📊' },
@@ -279,10 +304,61 @@ const SECTOR_STYLE = {
   'Equities':            { cls:'sb-eq',    icon:'📈' },
   'Geopolitics':         { cls:'sb-geo',   icon:'🌐' },
   'Alternative':         { cls:'sb-alt',   icon:'🔮' },
+  'AI & Tech':           { cls:'sb-ai',    icon:'🤖' },
+  'Technology':          { cls:'sb-tech',  icon:'💻' },
+  'Government Debt':     { cls:'sb-gov',   icon:'🏛️' },
+  'Mining & Resources':  { cls:'sb-mine',  icon:'⛏️' },
+  'Multi-Asset':         { cls:'sb-multi', icon:'🎯' },
 };
 function sectorBadge(sector) {
   const s = SECTOR_STYLE[sector] || { cls:'sb-alt', icon:'•' };
   return `<span class="sector-badge ${s.cls}">${s.icon} ${sector||'—'}</span>`;
+}
+
+// ── Sentiment scoring ─────────────────────────────────────
+// Priority 1: bracket prefix in insight title "[看多]", "[看空]", "[中性]"
+// Priority 2: bull_bear ticker field (🟢 / 🔴 count)
+// Priority 3: keyword fallback in comments (conservative)
+function sentimentScore(e) {
+  const name = (e.name || '');
+  // P1: explicit direction tag in title
+  if (/\[极度看多\]|\[极度看涨\]/.test(name)) return 2;
+  if (/\[极度看空\]|\[极度看跌\]/.test(name)) return -2;
+  if (/\[看多\]|\[看涨\]/.test(name)) return 1;
+  if (/\[看空\]|\[看跌\]/.test(name)) return -1;
+  if (/\[中性\]/.test(name)) return 0;
+  // P2: bull_bear ticker balance
+  const bb = e.bull_bear || '';
+  const nBull = (bb.match(/🟢/g)||[]).length;
+  const nBear = (bb.match(/🔴/g)||[]).length;
+  if (nBull > nBear) return 1;
+  if (nBear > nBull) return -1;
+  if (nBull > 0 && nBear > 0) return 0;
+  // P3: conservative keyword search (only if no other signal)
+  const tl = (name + ' ' + (e.comments||'')).toLowerCase();
+  if (/strongly bullish|very bullish/.test(tl)) return 2;
+  if (/strongly bearish|very bearish/.test(tl)) return -2;
+  if (/\bbullish\b/.test(tl)) return 1;
+  if (/\bbearish\b/.test(tl)) return -1;
+  return 0;
+}
+
+const SCORE_LABEL = {2:'极度看多',1:'看多',0:'中性','-1':'看空','-2':'极度看空'};
+function scoreLabel(s) { return SCORE_LABEL[String(Math.round(s))] || '中性'; }
+
+// ── Recency-weighted average score ───────────────────────
+// More recent entries have higher weight (half-life ≈ 21 days)
+function weightedAvgScore(items) {
+  if (!items.length) return 0;
+  const now = Date.now();
+  let wSum = 0, wTotal = 0;
+  items.forEach(e => {
+    const daysAgo = (now - new Date(e.date).getTime()) / 86400000;
+    const w = Math.exp(-daysAgo / 21);
+    wSum   += sentimentScore(e) * w;
+    wTotal += w;
+  });
+  return wTotal > 0 ? wSum / wTotal : 0;
 }
 
 function getCutoffDate(days) {
@@ -307,25 +383,53 @@ async function loadData() {
 
 // ── Render All ─────────────────────────────────────────────
 function getTimeLabel() {
-  const days = parseInt(document.getElementById('filter-days').value);
+  const val = document.getElementById('filter-days').value;
+  if (val === 'custom') {
+    const f = document.getElementById('filter-from').value;
+    const t = document.getElementById('filter-to').value;
+    if (f || t) return `${f||'…'} ~ ${t||'…'}`;
+    return '自定义';
+  }
+  const days = parseInt(val);
   if (!days || days == 0) return '全部时间';
   return `近${days}天`;
 }
 
-// Base entries: time + sector filtered — feeds top panels AND card building
+// Base entries: time + sector filtered (sector is normalized) — feeds ALL panels
 function getBaseEntries() {
-  const days   = parseInt(document.getElementById('filter-days').value);
-  const cutoff = getCutoffDate(days);
+  const val    = document.getElementById('filter-days').value;
   const sector = document.getElementById('filter-sector').value;
-  let entries  = (DATA.raw_entries || []).filter(e => (e.date||'') >= cutoff);
-  if (sector)  entries = entries.filter(e => e.sector === sector);
-  return entries;
+  let fromDate, toDate;
+  if (val === 'custom') {
+    fromDate = document.getElementById('filter-from').value || '2000-01-01';
+    toDate   = document.getElementById('filter-to').value   || '9999-12-31';
+  } else {
+    const days = parseInt(val);
+    fromDate = getCutoffDate(days);
+    toDate   = '9999-12-31';
+  }
+  let entries = (DATA.raw_entries || []).filter(e => {
+    const d = e.date || '';
+    return d >= fromDate && d <= toDate;
+  });
+  // Apply sector filter using normalized names
+  if (sector) entries = entries.filter(e => normalizeSector(e.sector) === sector);
+  // Return copies with normalized sector so all downstream code is clean
+  return entries.map(e => ({...e, sector: normalizeSector(e.sector)}));
 }
 
 function updateTitles() {
   const label = getTimeLabel();
   document.getElementById('sector-card-title').textContent = `📊 板块情绪（${label}）`;
   document.getElementById('ticker-card-title').textContent = `🔥 最热标的（${label}）`;
+}
+
+// Show/hide custom date range inputs
+function onDaysChange() {
+  const val = document.getElementById('filter-days').value;
+  const cr  = document.getElementById('custom-date-range');
+  cr.style.display = val === 'custom' ? 'flex' : 'none';
+  onFilterChange();
 }
 
 function render() {
@@ -489,16 +593,16 @@ function buildKolCards(entries) {
   return Object.entries(byKol).map(([kol, items]) => {
     items.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
     const latest = items[0];
-    const scores = items.map(sentimentScore);
-    const avg = scores.reduce((a,b)=>a+b,0)/scores.length;
+    // Recency-weighted score (recent entries count more, half-life 21 days)
+    const avg = weightedAvgScore(items);
     const w0 = getCutoffDate(7), w1 = getCutoffDate(14);
-    const rScores = items.filter(e=>e.date>=w0).map(sentimentScore);
-    const oScores = items.filter(e=>e.date>=w1&&e.date<w0).map(sentimentScore);
+    const rItems = items.filter(e=>e.date>=w0);
+    const oItems = items.filter(e=>e.date>=w1&&e.date<w0);
     let trend = 'stable';
-    if (rScores.length && oScores.length) {
-      const r = rScores.reduce((a,b)=>a+b,0)/rScores.length;
-      const o = oScores.reduce((a,b)=>a+b,0)/oScores.length;
-      trend = r-o>0.5?'rising':o-r>0.5?'falling':'stable';
+    if (rItems.length && oItems.length) {
+      const r = weightedAvgScore(rItems);
+      const o = weightedAvgScore(oItems);
+      trend = r-o>0.4?'rising':o-r>0.4?'falling':'stable';
     }
     return { kol_name:kol, sector:latest.sector||'', detail_sector:latest.detail_sector||'',
       kol_or_ib:latest.kol_or_ib||'KOL', latest_date:latest.date||'',
@@ -521,11 +625,11 @@ function renderKolCards(cards) {
     const score = c.avg_score;
     const rounded = Math.round(score);
     const isChanged = changedKols.has(c.kol_name);
-    // 修复：只有活跃点发光，其余统一灰色
+    // 修复：用 rounded（整数）决定颜色，避免 0.3→rounded=0 却被标成绿色的 bug
     const dots = [-2,-1,0,1,2].map(v => {
       let cls = 'dot';
       if (v === rounded) {
-        cls += score > 0.3 ? ' active-bull' : score < -0.3 ? ' active-bear' : ' active-neutral';
+        cls += rounded > 0 ? ' active-bull' : rounded < 0 ? ' active-bear' : ' active-neutral';
       }
       return `<div class="${cls}"></div>`;
     }).join('');
@@ -576,16 +680,28 @@ function applyFilters(baseEntries) {
 
 // ── Weekly List ───────────────────────────────────────────
 function renderWeeklyList() {
-  const days      = parseInt(document.getElementById('filter-days').value);
-  const cutoff    = getCutoffDate(days);
-  const sector    = document.getElementById('filter-sector').value;
-  const sentVal   = document.getElementById('filter-sentiment').value;
-  const search    = document.getElementById('search-kol').value.toLowerCase();
+  const val     = document.getElementById('filter-days').value;
+  const sector  = document.getElementById('filter-sector').value;
+  const sentVal = document.getElementById('filter-sentiment').value;
+  const search  = document.getElementById('search-kol').value.toLowerCase();
+
+  let fromDate, toDate;
+  if (val === 'custom') {
+    fromDate = document.getElementById('filter-from').value || '2000-01-01';
+    toDate   = document.getElementById('filter-to').value   || '9999-12-31';
+  } else {
+    const days = parseInt(val);
+    fromDate = getCutoffDate(days);
+    toDate   = '9999-12-31';
+  }
 
   let weeks = DATA.weekly_reports || [];
 
   // Filter by time range
-  if (days > 0) weeks = weeks.filter(w => (w.date||'') >= cutoff);
+  weeks = weeks.filter(w => {
+    const d = w.date || '';
+    return d >= fromDate && d <= toDate;
+  });
 
   // Filter by sector
   if (sector) weeks = weeks.filter(w => w.sector === sector);
