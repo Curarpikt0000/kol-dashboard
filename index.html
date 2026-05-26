@@ -819,24 +819,56 @@ function renderWeeklyList() {
     );
   }
 
+  if (!weeks.length) {
+    document.getElementById('weekly-list').innerHTML =
+      '<div class="empty-state">暂无周报 — 请运行 <code>python3 scripts/generate_weekly_report.py --backfill 8</code> 生成历史周报</div>';
+    return;
+  }
+
   document.getElementById('weekly-list').innerHTML = weeks.map(w => {
     const insight = w.key_insight || '';
-    const m = insight.match(/整体偏多|整体偏空|多空均衡|分歧加剧/);
-    const sent = m ? m[0] : '';
-    const sc = sent.includes('多')?'var(--bull)':sent.includes('空')?'var(--bear)':'var(--neutral)';
+    // Parse comments for sector sections (format: 【板块名】 content)
+    const comments = w.comments || w.suggestion || '';
+    const sectorBlocks = [];
+    const sectorRe = /【([^】]+)】([^【]*)/g;
+    let sm;
+    while ((sm = sectorRe.exec(comments)) !== null) {
+      sectorBlocks.push({ title: sm[1].trim(), body: sm[2].trim() });
+    }
+    const sectorsHtml = sectorBlocks.length > 0
+      ? sectorBlocks.map(b => `
+          <div style="margin-bottom:10px">
+            <div style="font-size:11px;font-weight:700;color:var(--accent2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px">${b.title}</div>
+            <div style="font-size:12px;color:var(--muted);line-height:1.6">${b.body}</div>
+          </div>`).join('')
+      : `<div style="font-size:12px;color:var(--muted);line-height:1.6">${comments.slice(0,400)}${comments.length>400?'…':''}</div>`;
+
+    // Suggestion
+    const sugg = w.suggestion || '';
+    const suggHtml = sugg
+      ? `<div style="margin-top:10px;padding:8px 10px;background:rgba(99,102,241,0.08);border-radius:6px;border-left:3px solid var(--accent)">
+           <div style="font-size:11px;color:var(--accent2);font-weight:700;margin-bottom:3px">💡 综合建议</div>
+           <div style="font-size:12px;color:var(--muted);line-height:1.6">${sugg}</div>
+         </div>` : '';
+
+    // Bull/bear tickers
+    const bb = w.bull_bear || '';
+    const bbHtml = bb
+      ? `<div class="week-bull-bear" style="margin-top:8px">${bb}</div>` : '';
+
     return `<div class="week-item">
-      <div class="week-badge"><div class="wnum">W${w.week_number||''}</div><div class="wdate">${w.date||''}</div></div>
-      <div class="week-content">
-        <div class="week-insight">${insight}</div>
-        <div class="week-meta">
-          ${w.sector?`<span class="tag-sector">${w.sector}</span>`:''}
-          ${sent?`<span style="color:${sc};font-weight:600;font-size:12px">${sent}</span>`:''}
-        </div>
-        ${w.bull_bear?`<div class="week-bull-bear">${w.bull_bear}</div>`:''}
-        ${w.suggestion?`<div style="font-size:12px;color:var(--muted);margin-top:4px">💡 ${w.suggestion.slice(0,120)}${w.suggestion.length>120?'...':''}</div>`:''}
+      <div class="week-badge">
+        <div class="wnum">W${w.week_number||''}</div>
+        <div class="wdate">${w.date||''}</div>
+      </div>
+      <div class="week-content" style="flex:1">
+        <div class="week-insight" style="margin-bottom:10px">${insight}</div>
+        <div>${sectorsHtml}</div>
+        ${suggHtml}
+        ${bbHtml}
       </div>
     </div>`;
-  }).join('') || '<div class="empty-state">暂无符合条件的周报</div>';
+  }).join('');
 }
 
 // ── onFilterChange（全局 filter bar 统一入口）────────────────
