@@ -207,12 +207,16 @@
       <option value="60">最近 60 天</option>
       <option value="90">最近 90 天</option>
       <option value="0">全部时间</option>
-      <option value="custom">自定义范围…</option>
+      <option value="custom">自定义…</option>
     </select>
-    <div id="custom-date-range">
-      <input type="date" id="filter-from" onchange="onFilterChange()">
+    <!-- 日期范围：始终可见；填写后覆盖上方快捷选项 -->
+    <div id="custom-date-range" style="display:flex;align-items:center;gap:4px">
+      <span style="font-size:12px;color:var(--muted);white-space:nowrap">📅 起</span>
+      <input type="date" id="filter-from" onchange="onDateRangeChange()" style="background:var(--card);border:1px solid var(--border);color:var(--text);padding:6px 8px;border-radius:8px;font-size:12px;outline:none">
       <span style="color:var(--muted)">—</span>
-      <input type="date" id="filter-to" onchange="onFilterChange()">
+      <span style="font-size:12px;color:var(--muted);white-space:nowrap">止</span>
+      <input type="date" id="filter-to" onchange="onDateRangeChange()" style="background:var(--card);border:1px solid var(--border);color:var(--text);padding:6px 8px;border-radius:8px;font-size:12px;outline:none">
+      <button onclick="clearDateRange()" title="清除日期范围" style="background:none;border:1px solid var(--border);color:var(--muted);padding:5px 8px;border-radius:6px;cursor:pointer;font-size:11px">✕</button>
     </div>
     <select id="filter-sector" onchange="onFilterChange()">
       <option value="">全部板块</option>
@@ -274,24 +278,41 @@ let DATA = null;
 let changedKols = new Set();
 
 // ── Sector normalization ──────────────────────────────────
+// MECE 10-sector normalization（与 kol_sector_cleanup.py 保持同步）
 const SECTOR_MAP = {
-  // Alternative group
+  // Energy & Commodities
+  'Energy/Commodities':              'Energy & Commodities',
+  'Energy/大宗':                     'Energy & Commodities',
+  'Energy/Macro':                    'Energy & Commodities',
+  'Energy':                          'Energy & Commodities',
+  'Commodities':                     'Energy & Commodities',
+  'Natural Resources':               'Energy & Commodities',
+  'Basic Materials':                 'Energy & Commodities',
+  // Macro
+  'Macro/Tech':                      'Macro',
+  'Multi-sector':                    'Macro',
+  'Strategy':                        'Macro',
+  'Information':                     'Macro',
+  // AI & Tech
+  'Tech/AI':                         'AI & Tech',
+  'Tech/AI/Strategy':                'AI & Tech',
+  'Technology':                      'AI & Tech',
+  'Tech':                            'AI & Tech',
+  // Crypto
+  'Digital Assets':                  'Crypto',
+  // Mining
+  'Mining/Resources':                'Mining & Resources',
+  'Mining Practical & Market Sniping': 'Mining & Resources',
+  'Royalty Companies':               'Mining & Resources',
+  // Alternative
   'Alternative Wealth':              'Alternative',
   'Alternative Wealth Transfer':     'Alternative',
   'Alternative/Prophecy':            'Alternative',
   '神学预言与另类财富转移':           'Alternative',
   'Theology/Alternative Wealth':     'Alternative',
-  // Energy group
-  'Energy/Commodities':              'Energy & Commodities',
-  'Energy/大宗':                     'Energy & Commodities',
   // Government
   'Government Data':                 'Government Debt',
-  // Tech
-  'Tech/AI':                         'AI & Tech',
-  'Tech/AI/Strategy':                'AI & Tech',
-  // Mining
-  'Mining/Resources':                'Mining & Resources',
-  'Mining Practical & Market Sniping': 'Mining & Resources',
+  'Official Data':                   'Government Debt',
 };
 function normalizeSector(s) { return SECTOR_MAP[s] || s || ''; }
 
@@ -303,7 +324,7 @@ const SECTOR_STYLE = {
   'Crypto':              { cls:'sb-crypto',icon:'₿'  },
   'Equities':            { cls:'sb-eq',    icon:'📈' },
   'Geopolitics':         { cls:'sb-geo',   icon:'🌐' },
-  'Alternative':         { cls:'sb-alt',   icon:'🔮' },
+  'Alternative':         { cls:'sb-alt',   icon:'🔮', label:'另类资产' },
   'AI & Tech':           { cls:'sb-ai',    icon:'🤖' },
   'Technology':          { cls:'sb-tech',  icon:'💻' },
   'Government Debt':     { cls:'sb-gov',   icon:'🏛️' },
@@ -312,7 +333,8 @@ const SECTOR_STYLE = {
 };
 function sectorBadge(sector) {
   const s = SECTOR_STYLE[sector] || { cls:'sb-alt', icon:'•' };
-  return `<span class="sector-badge ${s.cls}">${s.icon} ${sector||'—'}</span>`;
+  const displayName = s.label || sector || '—';
+  return `<span class="sector-badge ${s.cls}">${s.icon} ${displayName}</span>`;
 }
 
 // ── Sentiment scoring ─────────────────────────────────────
@@ -381,40 +403,58 @@ async function loadData() {
   }
 }
 
-// ── Render All ─────────────────────────────────────────────
+// ── Date range helpers ────────────────────────────────────
+// Date inputs are always visible. When filled, they override the preset dropdown.
+function getActiveDateRange() {
+  const fromVal = document.getElementById('filter-from').value;
+  const toVal   = document.getElementById('filter-to').value;
+  // If either date input is filled, use the custom range
+  if (fromVal || toVal) {
+    return { from: fromVal || '2000-01-01', to: toVal || '9999-12-31', isCustom: true };
+  }
+  // Otherwise use the preset dropdown
+  const val  = document.getElementById('filter-days').value;
+  const days = val === 'custom' ? 0 : parseInt(val);
+  return { from: getCutoffDate(days), to: '9999-12-31', isCustom: false };
+}
+
 function getTimeLabel() {
-  const val = document.getElementById('filter-days').value;
-  if (val === 'custom') {
+  const r = getActiveDateRange();
+  if (r.isCustom) {
     const f = document.getElementById('filter-from').value;
     const t = document.getElementById('filter-to').value;
-    if (f || t) return `${f||'…'} ~ ${t||'…'}`;
-    return '自定义';
+    return `${f||'…'} ~ ${t||'…'}`;
   }
+  const val = document.getElementById('filter-days').value;
   const days = parseInt(val);
   if (!days || days == 0) return '全部时间';
   return `近${days}天`;
 }
 
+// When date inputs change, switch dropdown to "custom" visually
+function onDateRangeChange() {
+  const f = document.getElementById('filter-from').value;
+  const t = document.getElementById('filter-to').value;
+  if (f || t) document.getElementById('filter-days').value = 'custom';
+  onFilterChange();
+}
+
+function clearDateRange() {
+  document.getElementById('filter-from').value = '';
+  document.getElementById('filter-to').value   = '';
+  document.getElementById('filter-days').value = '30';
+  onFilterChange();
+}
+
 // Base entries: time + sector filtered (sector is normalized) — feeds ALL panels
 function getBaseEntries() {
-  const val    = document.getElementById('filter-days').value;
+  const { from: fromDate, to: toDate } = getActiveDateRange();
   const sector = document.getElementById('filter-sector').value;
-  let fromDate, toDate;
-  if (val === 'custom') {
-    fromDate = document.getElementById('filter-from').value || '2000-01-01';
-    toDate   = document.getElementById('filter-to').value   || '9999-12-31';
-  } else {
-    const days = parseInt(val);
-    fromDate = getCutoffDate(days);
-    toDate   = '9999-12-31';
-  }
   let entries = (DATA.raw_entries || []).filter(e => {
     const d = e.date || '';
     return d >= fromDate && d <= toDate;
   });
-  // Apply sector filter using normalized names
   if (sector) entries = entries.filter(e => normalizeSector(e.sector) === sector);
-  // Return copies with normalized sector so all downstream code is clean
   return entries.map(e => ({...e, sector: normalizeSector(e.sector)}));
 }
 
@@ -424,11 +464,13 @@ function updateTitles() {
   document.getElementById('ticker-card-title').textContent = `🔥 最热标的（${label}）`;
 }
 
-// Show/hide custom date range inputs
 function onDaysChange() {
+  // Clear date inputs when user picks a preset (not "custom")
   const val = document.getElementById('filter-days').value;
-  const cr  = document.getElementById('custom-date-range');
-  cr.style.display = val === 'custom' ? 'flex' : 'none';
+  if (val !== 'custom') {
+    document.getElementById('filter-from').value = '';
+    document.getElementById('filter-to').value   = '';
+  }
   onFilterChange();
 }
 
@@ -685,15 +727,7 @@ function renderWeeklyList() {
   const sentVal = document.getElementById('filter-sentiment').value;
   const search  = document.getElementById('search-kol').value.toLowerCase();
 
-  let fromDate, toDate;
-  if (val === 'custom') {
-    fromDate = document.getElementById('filter-from').value || '2000-01-01';
-    toDate   = document.getElementById('filter-to').value   || '9999-12-31';
-  } else {
-    const days = parseInt(val);
-    fromDate = getCutoffDate(days);
-    toDate   = '9999-12-31';
-  }
+  const { from: fromDate, to: toDate } = getActiveDateRange();
 
   let weeks = DATA.weekly_reports || [];
 
