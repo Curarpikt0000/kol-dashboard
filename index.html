@@ -189,6 +189,14 @@
   <div id="panel-kol" class="tab-panel active">
     <div class="filter-bar">
       <input type="text" id="search-kol" placeholder="🔍 搜索 KOL 或标的..." oninput="applyFilters()">
+      <select id="filter-days" onchange="applyFilters()">
+        <option value="7">最近 7 天</option>
+        <option value="14">最近 14 天</option>
+        <option value="30" selected>最近 30 天</option>
+        <option value="60">最近 60 天</option>
+        <option value="90">最近 90 天</option>
+        <option value="0">全部时间</option>
+      </select>
       <select id="filter-sector" onchange="applyFilters()">
         <option value="">全部板块</option>
         <option>Precious Metals</option>
@@ -232,6 +240,29 @@
 let DATA = null;
 let changedKols = new Set();
 
+// ── Helpers ───────────────────────────────────────────────
+function sentimentScore(e) {
+  const text = (e.name||'') + ' ' + (e.comments||'');
+  if (/极度看多|极度看涨/.test(text)) return 2;
+  if (/看多|看涨|🟢/.test(text)) return 1;
+  if (/极度看空|极度看跌/.test(text)) return -2;
+  if (/看空|看跌|🔴/.test(text)) return -1;
+  const tl = text.toLowerCase();
+  if (/strongly bullish|very bullish/.test(tl)) return 2;
+  if (/bullish/.test(tl)) return 1;
+  if (/strongly bearish|very bearish/.test(tl)) return -2;
+  if (/bearish/.test(tl)) return -1;
+  return 0;
+}
+const SCORE_LABEL = {2:'极度看多',1:'看多',0:'中性','-1':'看空','-2':'极度看空'};
+function scoreLabel(s) { return SCORE_LABEL[String(Math.round(s))] || '中性'; }
+
+function getCutoffDate(days) {
+  if (!days || days == 0) return '2000-01-01';
+  const d = new Date(); d.setDate(d.getDate() - days);
+  return d.toISOString().slice(0,10);
+}
+
 // ── Load Data ──────────────────────────────────────────────
 async function loadData() {
   try {
@@ -248,114 +279,189 @@ async function loadData() {
 
 // ── Render All ────────────────────────────────────────────
 function render() {
-  renderStanceChanges();
-  renderSectorBars();
-  renderRadar();
-  renderTickerHeatmap();
-  renderKolCards(DATA.kol_cards);
+  const days = parseInt(document.getElementById('filter-days').value);
+  const cutoff = getCutoffDate(days);
+  const entries = (DATA.raw_entries || []).filter(e => (e.date||'') >= cutoff);
+
+  renderStanceChanges(entries);
+  renderSectorBars(entries);
+  renderRadar(entries);
+  renderTickerHeatmap(entries);
+  applyFilters(entries);
   renderWeeklyList();
 }
 
 // ── Stance Changes ────────────────────────────────────────
-function renderStanceChanges() {
-  const changes = DATA.stance_changes || [];
-  changes.forEach(c => changedKols.add(c.kol_name));
-  if (!changes.length) return;
+function renderStanceChanges(entries) {
+  changedKols.clear();
+  // Compare last 7 days vs prior 7 days
+  const today = new Date().toISOString().slice(0,10);
+  const w0 = getCutoffDate(7), w1 = getCutoffDate(14);
+  const byKol = {};
+  entries.forEach(e => {
+    const k = e.kol_name; if (!k) return;
+    if (!byKol[k]) byKol[k] = {curr:[], prev:[]};
+    if (e.date >= w0) byKol[k].curr.push(e);
+    else if (e.date >= w1) byKol[k].prev.push(e);
+  });
+  const changes = [];
+  Object.entries(byKol).forEach(([kol, w]) => {
+    if (!w.curr.length || !w.prev.length) return;
+    const cAvg = w.curr.reduce((a,e)=>a+sentimentScore(e),0)/w.curr.length;
+    const pAvg = w.prev.reduce((a,e)=>a+sentimentScore(e),0)/w.prev.length;
+    if ((pAvg > 0.3 && cAvg < -0.3) || (pAvg < -0.3 && cAvg > 0.3)) {
+      changedKols.add(kol);
+      changes.push({kol_name:kol, prev_score:pAvg, curr_score:cAvg,
+        prev_label:scoreLabel(pAvg), curr_label:scoreLabel(cAvg),
+        change_type: cAvg < 0 ? '转空':'转多',
+        sector: w.curr[0].sector||''});
+    }
+  });
 
-  document.getElementById('stance-banner').style.display = 'block';
-  const list = document.getElementById('stance-list');
-  list.innerHTML = changes.map(c => `
+  const banner = document.getElementById('stance-banner');
+  if (!changes.length) { banner.style.display='none'; return; }
+  banner.style.display = 'block';
+  document.getElementById('stance-list').innerHTML = changes.map(c => `
     <div class="stance-item">
       <span class="stance-kol">${c.kol_name}</span>
       <span class="tag-sector">${c.sector}</span>
-      <span class="${c.prev_score > 0 ? 'tag-bull' : c.prev_score < 0 ? 'tag-bear' : 'tag-neutral'}">${c.prev_label}</span>
+      <span class="${c.prev_score>0?'tag-bull':c.prev_score<0?'tag-bear':'tag-neutral'}">${c.prev_label}</span>
       <span style="color:var(--gold)">→</span>
-      <span class="${c.curr_score > 0 ? 'tag-bull' : c.curr_score < 0 ? 'tag-bear' : 'tag-neutral'}">${c.curr_label}</span>
+      <span class="${c.curr_score>0?'tag-bull':c.curr_score<0?'tag-bear':'tag-neutral'}">${c.curr_label}</span>
       <span style="margin-left:auto;color:var(--gold);font-weight:700;font-size:12px">${c.change_type} ⚡</span>
-    </div>
-  `).join('');
+    </div>`).join('');
 }
 
-// ── Sector Bars ───────────────────────────────────────────
-function renderSectorBars() {
-  const sectors = DATA.sector_summary || [];
-  const maxAbs = Math.max(...sectors.map(s => Math.abs(s.avg)), 0.1);
+// ── Sector Bars (computed from raw entries) ───────────────
+function renderSectorBars(entries) {
+  const bySector = {};
+  entries.forEach(e => {
+    const s = e.sector; if (!s) return;
+    if (!bySector[s]) bySector[s] = [];
+    bySector[s].push(sentimentScore(e));
+  });
+  const sectors = Object.entries(bySector).map(([s,scores]) => ({
+    sector: s,
+    avg: Math.round(scores.reduce((a,b)=>a+b,0)/scores.length * 100)/100,
+    total: scores.length,
+  })).sort((a,b) => a.sector.localeCompare(b.sector));
+
+  const maxAbs = Math.max(...sectors.map(s=>Math.abs(s.avg)), 0.1);
   document.getElementById('sector-bars').innerHTML = sectors.map(s => {
-    const pct = Math.abs(s.avg) / maxAbs * 100;
-    const color = s.avg > 0.3 ? 'var(--bull)' : s.avg < -0.3 ? 'var(--bear)' : 'var(--neutral)';
-    const scoreColor = s.avg > 0.3 ? '#22c55e' : s.avg < -0.3 ? '#ef4444' : '#94a3b8';
+    const pct = Math.abs(s.avg)/maxAbs*100;
+    const color = s.avg>0.3?'var(--bull)':s.avg<-0.3?'var(--bear)':'var(--neutral)';
+    const sc = s.avg>0.3?'#22c55e':s.avg<-0.3?'#ef4444':'#94a3b8';
     return `<div class="sector-row">
       <div class="sector-name">${s.sector}</div>
       <div class="sector-bar-bg"><div class="sector-bar-fill" style="width:${pct}%;background:${color}"></div></div>
-      <div class="sector-score" style="color:${scoreColor}">${s.avg > 0 ? '+' : ''}${s.avg}</div>
+      <div class="sector-score" style="color:${sc}">${s.avg>0?'+':''}${s.avg}</div>
       <div class="sector-count">${s.total}条</div>
     </div>`;
-  }).join('') || '<div class="empty-state">本周暂无数据</div>';
+  }).join('') || '<div class="empty-state">暂无数据</div>';
+  return sectors;
 }
 
 // ── Radar Chart ───────────────────────────────────────────
 let radarChart = null;
-function renderRadar() {
-  const sectors = DATA.sector_summary || [];
+function renderRadar(entries) {
+  const bySector = {};
+  entries.forEach(e => {
+    const s = e.sector; if (!s) return;
+    if (!bySector[s]) bySector[s] = [];
+    bySector[s].push(sentimentScore(e));
+  });
+  const sectors = Object.entries(bySector).map(([s,scores]) => ({
+    sector: s, avg: scores.reduce((a,b)=>a+b,0)/scores.length
+  })).sort((a,b)=>a.sector.localeCompare(b.sector));
   if (!sectors.length) return;
-  const labels = sectors.map(s => s.sector.replace(' & ', '\n& '));
-  const scores = sectors.map(s => s.avg + 2); // shift to 0~4 for radar
 
+  const labels = sectors.map(s => s.sector.replace(' & ','\n& '));
+  const scores = sectors.map(s => s.avg + 2);
   if (radarChart) radarChart.destroy();
   radarChart = new Chart(document.getElementById('radarChart'), {
     type: 'radar',
-    data: {
-      labels,
-      datasets: [{
-        label: '情绪',
-        data: scores,
-        backgroundColor: 'rgba(99,102,241,0.15)',
-        borderColor: 'rgba(99,102,241,0.8)',
-        pointBackgroundColor: scores.map(s => s > 2.3 ? '#22c55e' : s < 1.7 ? '#ef4444' : '#94a3b8'),
-        pointRadius: 4,
-        borderWidth: 2,
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      scales: { r: {
-        min: 0, max: 4,
-        ticks: { display: false },
-        grid: { color: 'rgba(255,255,255,0.07)' },
-        angleLines: { color: 'rgba(255,255,255,0.07)' },
-        pointLabels: { color: '#8892a4', font: { size: 11 } },
-      }},
-      plugins: { legend: { display: false } },
-    }
+    data: { labels, datasets: [{ label:'情绪', data:scores,
+      backgroundColor:'rgba(99,102,241,0.15)', borderColor:'rgba(99,102,241,0.8)',
+      pointBackgroundColor: scores.map(s=>s>2.3?'#22c55e':s<1.7?'#ef4444':'#94a3b8'),
+      pointRadius:4, borderWidth:2 }] },
+    options: { responsive:true, maintainAspectRatio:false,
+      scales:{ r:{ min:0, max:4, ticks:{display:false},
+        grid:{color:'rgba(255,255,255,0.07)'}, angleLines:{color:'rgba(255,255,255,0.07)'},
+        pointLabels:{color:'#8892a4', font:{size:11}} }},
+      plugins:{legend:{display:false}} }
   });
 }
 
-// ── Ticker Heatmap ────────────────────────────────────────
-function renderTickerHeatmap() {
-  const hm = DATA.ticker_heatmap || {};
+// ── Ticker Heatmap (computed from raw entries) ────────────
+function renderTickerHeatmap(entries) {
+  const ticker_re = /\b([A-Z]{2,5})\b/g;
+  const bull = {}, bear = {};
+  entries.forEach(e => {
+    const bb = e.bull_bear || ''; if (!bb) return;
+    if (bb.includes('🟢')) {
+      const part = bb.split('🔴')[0].replace('🟢','');
+      (part.match(ticker_re)||[]).forEach(t => { bull[t]=(bull[t]||0)+1; });
+    }
+    if (bb.includes('🔴')) {
+      const part = bb.split('🔴').slice(1).join('');
+      (part.match(ticker_re)||[]).forEach(t => { bear[t]=(bear[t]||0)+1; });
+    }
+  });
+  const topBull = Object.entries(bull).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([t,c])=>({ticker:t,count:c}));
+  const topBear = Object.entries(bear).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([t,c])=>({ticker:t,count:c}));
+
   function renderTickers(items, type) {
-    if (!items || !items.length) return '<div class="empty-state">暂无数据</div>';
+    if (!items.length) return '<div class="empty-state">暂无数据</div>';
     const max = items[0].count;
-    return items.map(t => `
-      <div class="ticker-row">
-        <div class="ticker-sym">${t.ticker}</div>
-        <div class="ticker-bar-bg"><div class="ticker-bar-fill-${type}" style="width:${t.count/max*100}%"></div></div>
-        <div class="ticker-count">${t.count}</div>
-      </div>
-    `).join('');
+    return items.map(t=>`<div class="ticker-row">
+      <div class="ticker-sym">${t.ticker}</div>
+      <div class="ticker-bar-bg"><div class="ticker-bar-fill-${type}" style="width:${t.count/max*100}%"></div></div>
+      <div class="ticker-count">${t.count}</div>
+    </div>`).join('');
   }
-  document.getElementById('ticker-bull').innerHTML = renderTickers(hm.bull, 'bull');
-  document.getElementById('ticker-bear').innerHTML = renderTickers(hm.bear, 'bear');
+  document.getElementById('ticker-bull').innerHTML = renderTickers(topBull,'bull');
+  document.getElementById('ticker-bear').innerHTML = renderTickers(topBear,'bear');
 }
 
 function switchTickerTab(type, el) {
-  document.querySelectorAll('.card .tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.card .tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
-  document.getElementById('ticker-bull').style.display = type === 'bull' ? 'block' : 'none';
-  document.getElementById('ticker-bear').style.display = type === 'bear' ? 'block' : 'none';
+  document.getElementById('ticker-bull').style.display = type==='bull'?'block':'none';
+  document.getElementById('ticker-bear').style.display = type==='bear'?'block':'none';
 }
 
-// ── KOL Cards ─────────────────────────────────────────────
+// ── KOL Cards (computed from raw entries) ─────────────────
+function buildKolCards(entries) {
+  const byKol = {};
+  entries.forEach(e => {
+    const k = e.kol_name; if (!k) return;
+    if (!byKol[k]) byKol[k] = [];
+    byKol[k].push(e);
+  });
+  return Object.entries(byKol).map(([kol, items]) => {
+    items.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const latest = items[0];
+    const scores = items.map(sentimentScore);
+    const avg = scores.reduce((a,b)=>a+b,0)/scores.length;
+    const w0 = getCutoffDate(7), w1 = getCutoffDate(14);
+    const rScores = items.filter(e=>e.date>=w0).map(sentimentScore);
+    const oScores = items.filter(e=>e.date>=w1&&e.date<w0).map(sentimentScore);
+    let trend = 'stable';
+    if (rScores.length && oScores.length) {
+      const r = rScores.reduce((a,b)=>a+b,0)/rScores.length;
+      const o = oScores.reduce((a,b)=>a+b,0)/oScores.length;
+      trend = r-o>0.5?'rising':o-r>0.5?'falling':'stable';
+    }
+    return { kol_name:kol, sector:latest.sector||'', detail_sector:latest.detail_sector||'',
+      kol_or_ib:latest.kol_or_ib||'KOL', latest_date:latest.date||'',
+      latest_comments:(latest.comments||'').slice(0,200),
+      latest_suggestion:(latest.suggestion||'').slice(0,150),
+      latest_bull_bear:latest.bull_bear||'',
+      avg_score:Math.round(avg*100)/100,
+      score_label:scoreLabel(avg), trend, entry_count:items.length };
+  }).sort((a,b)=>b.avg_score-a.avg_score);
+}
+
 function renderKolCards(cards) {
   if (!cards.length) {
     document.getElementById('kol-grid').innerHTML = '<div class="empty-state">没有符合条件的 KOL</div>';
@@ -366,76 +472,74 @@ function renderKolCards(cards) {
   document.getElementById('kol-grid').innerHTML = cards.map(c => {
     const score = c.avg_score;
     const isChanged = changedKols.has(c.kol_name);
-    // 5-dot sentiment indicator
     const dots = [-2,-1,0,1,2].map(v => {
       let cls = 'dot';
-      if (v === Math.round(score)) cls += score > 0 ? ' active-bull' : score < 0 ? ' active-bear' : '';
-      else if (v > 0) cls += ' bull';
-      else if (v < 0) cls += ' bear';
+      if (v === Math.round(score)) cls += score>0?' active-bull':score<0?' active-bear':'';
+      else if (v>0) cls += ' bull'; else if (v<0) cls += ' bear';
       return `<div class="${cls}"></div>`;
     }).join('');
-    const scoreColor = score > 0.3 ? 'var(--bull)' : score < -0.3 ? 'var(--bear)' : 'var(--neutral)';
-    const trendIcon = c.trend === 'rising' ? '<span class="trend-up">↑</span>' : c.trend === 'falling' ? '<span class="trend-down">↓</span>' : '';
-    return `<div class="kol-card${isChanged ? ' stance-changed' : ''}">
+    const sc = score>0.3?'var(--bull)':score<-0.3?'var(--bear)':'var(--neutral)';
+    const ti = c.trend==='rising'?'<span class="trend-up">↑</span>':c.trend==='falling'?'<span class="trend-down">↓</span>':'';
+    return `<div class="kol-card${isChanged?' stance-changed':''}">
       <div class="kol-header">
         <div>
-          <div class="kol-name">${c.kol_name}${isChanged ? '<span class="badge-change">立场变化</span>' : ''}</div>
-          <div class="kol-meta">${c.sector}${c.detail_sector ? ' · ' + c.detail_sector : ''} · ${c.kol_or_ib || 'KOL'}</div>
+          <div class="kol-name">${c.kol_name}${isChanged?'<span class="badge-change">立场变化</span>':''}</div>
+          <div class="kol-meta">${c.sector}${c.detail_sector?' · '+c.detail_sector:''} · ${c.kol_or_ib}</div>
         </div>
         <div class="sentiment-badge">
           <div class="sentiment-dots">${dots}</div>
-          <div style="font-size:11px;color:${scoreColor};font-weight:600">${c.score_label}</div>
+          <div style="font-size:11px;color:${sc};font-weight:600">${c.score_label}</div>
         </div>
       </div>
-      ${c.latest_bull_bear ? `<div class="kol-bull-bear">${c.latest_bull_bear}</div>` : ''}
-      <div class="kol-comments">${c.latest_comments || '暂无摘要'}</div>
-      <div class="kol-footer">
-        <span>${c.latest_date}</span>
-        <span>${trendIcon} ${c.entry_count}条记录</span>
-      </div>
+      ${c.latest_bull_bear?`<div class="kol-bull-bear">${c.latest_bull_bear}</div>`:''}
+      <div class="kol-comments">${c.latest_comments||'暂无摘要'}</div>
+      <div class="kol-footer"><span>${c.latest_date}</span><span>${ti} ${c.entry_count}条记录</span></div>
     </div>`;
   }).join('');
 }
 
 // ── Filters ───────────────────────────────────────────────
-function applyFilters() {
-  const search = document.getElementById('search-kol').value.toLowerCase();
-  const sector = document.getElementById('filter-sector').value;
+function applyFilters(entriesOverride) {
+  const days    = parseInt(document.getElementById('filter-days').value);
+  const cutoff  = getCutoffDate(days);
+  const entries = entriesOverride || (DATA.raw_entries||[]).filter(e=>(e.date||'')>=cutoff);
+
+  const search  = document.getElementById('search-kol').value.toLowerCase();
+  const sector  = document.getElementById('filter-sector').value;
   const sentiment = document.getElementById('filter-sentiment').value;
-  const type = document.getElementById('filter-type').value;
+  const type    = document.getElementById('filter-type').value;
   const onlyChanged = document.getElementById('filter-changed').checked;
 
-  let filtered = DATA.kol_cards.filter(c => {
-    if (search && !c.kol_name.toLowerCase().includes(search) && !c.latest_bull_bear.toLowerCase().includes(search.toUpperCase()))
-      return false;
+  let cards = buildKolCards(entries);
+  cards = cards.filter(c => {
+    if (search && !c.kol_name.toLowerCase().includes(search) && !c.latest_bull_bear.toLowerCase().includes(search.toUpperCase())) return false;
     if (sector && c.sector !== sector) return false;
     if (sentiment !== '' && Math.round(c.avg_score) !== parseInt(sentiment)) return false;
     if (type && c.kol_or_ib !== type) return false;
     if (onlyChanged && !changedKols.has(c.kol_name)) return false;
     return true;
   });
-  renderKolCards(filtered);
+  renderKolCards(cards);
 }
 
 // ── Weekly List ───────────────────────────────────────────
 function renderWeeklyList() {
   const weeks = DATA.weekly_reports || [];
   document.getElementById('weekly-list').innerHTML = weeks.map(w => {
-    const wnum = w.week_number || '';
     const insight = w.key_insight || '';
-    const sentimentMatch = insight.match(/整体偏多|整体偏空|多空均衡|分歧加剧/);
-    const sentiment = sentimentMatch ? sentimentMatch[0] : '';
-    const sentimentColor = sentiment.includes('多') ? 'var(--bull)' : sentiment.includes('空') ? 'var(--bear)' : 'var(--neutral)';
+    const m = insight.match(/整体偏多|整体偏空|多空均衡|分歧加剧/);
+    const sent = m ? m[0] : '';
+    const sc = sent.includes('多')?'var(--bull)':sent.includes('空')?'var(--bear)':'var(--neutral)';
     return `<div class="week-item">
-      <div class="week-badge"><div class="wnum">W${wnum}</div><div class="wdate">${w.date || ''}</div></div>
+      <div class="week-badge"><div class="wnum">W${w.week_number||''}</div><div class="wdate">${w.date||''}</div></div>
       <div class="week-content">
         <div class="week-insight">${insight}</div>
         <div class="week-meta">
-          ${w.sector ? `<span class="tag-sector">${w.sector}</span>` : ''}
-          ${sentiment ? `<span style="color:${sentimentColor};font-weight:600;font-size:12px">${sentiment}</span>` : ''}
+          ${w.sector?`<span class="tag-sector">${w.sector}</span>`:''}
+          ${sent?`<span style="color:${sc};font-weight:600;font-size:12px">${sent}</span>`:''}
         </div>
-        ${w.bull_bear ? `<div class="week-bull-bear">${w.bull_bear}</div>` : ''}
-        ${w.suggestion ? `<div style="font-size:12px;color:var(--muted);margin-top:4px">💡 ${w.suggestion.slice(0,120)}${w.suggestion.length>120?'...':''}</div>` : ''}
+        ${w.bull_bear?`<div class="week-bull-bear">${w.bull_bear}</div>`:''}
+        ${w.suggestion?`<div style="font-size:12px;color:var(--muted);margin-top:4px">💡 ${w.suggestion.slice(0,120)}${w.suggestion.length>120?'...':''}</div>`:''}
       </div>
     </div>`;
   }).join('') || '<div class="empty-state">暂无周报数据</div>';
