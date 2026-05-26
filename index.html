@@ -166,7 +166,7 @@
 
     <!-- 板块情绪 -->
     <div class="card">
-      <div class="card-title">📊 板块情绪（本周）</div>
+      <div class="card-title" id="sector-card-title">📊 板块情绪（近30天）</div>
       <div id="sector-bars"></div>
     </div>
 
@@ -178,7 +178,7 @@
 
     <!-- 标的热度 -->
     <div class="card">
-      <div class="card-title">🔥 最热标的（近14天）</div>
+      <div class="card-title" id="ticker-card-title">🔥 最热标的（近30天）</div>
       <div class="tabs" style="margin-bottom:10px">
         <div class="tab active" onclick="switchTickerTab('bull',this)">看多</div>
         <div class="tab" onclick="switchTickerTab('bear',this)">看空</div>
@@ -305,21 +305,38 @@ async function loadData() {
   }
 }
 
-// ── Render All（时间筛选变化时全部重算）────────────────────
+// ── Render All ─────────────────────────────────────────────
+function getTimeLabel() {
+  const days = parseInt(document.getElementById('filter-days').value);
+  if (!days || days == 0) return '全部时间';
+  return `近${days}天`;
+}
+
+// Base entries: time + sector filtered — feeds top panels AND card building
+function getBaseEntries() {
+  const days   = parseInt(document.getElementById('filter-days').value);
+  const cutoff = getCutoffDate(days);
+  const sector = document.getElementById('filter-sector').value;
+  let entries  = (DATA.raw_entries || []).filter(e => (e.date||'') >= cutoff);
+  if (sector)  entries = entries.filter(e => e.sector === sector);
+  return entries;
+}
+
+function updateTitles() {
+  const label = getTimeLabel();
+  document.getElementById('sector-card-title').textContent = `📊 板块情绪（${label}）`;
+  document.getElementById('ticker-card-title').textContent = `🔥 最热标的（${label}）`;
+}
+
 function render() {
-  const entries = getFilteredEntries();
+  const entries = getBaseEntries();
+  updateTitles();
   renderStanceChanges(entries);
   renderSectorBars(entries);
   renderRadar(entries);
   renderTickerHeatmap(entries);
   applyFilters(entries);
   renderWeeklyList();
-}
-
-function getFilteredEntries() {
-  const days = parseInt(document.getElementById('filter-days').value);
-  const cutoff = getCutoffDate(days);
-  return (DATA.raw_entries || []).filter(e => (e.date||'') >= cutoff);
 }
 
 // ── Stance Changes ────────────────────────────────────────
@@ -538,27 +555,17 @@ function renderKolCards(cards) {
   }).join('');
 }
 
-// ── Filters ───────────────────────────────────────────────
-function applyFilters(entriesOverride) {
-  const entries = entriesOverride || getFilteredEntries();
-  // 时间段变化时同步刷新顶部三栏
-  if (!entriesOverride) {
-    renderStanceChanges(entries);
-    renderSectorBars(entries);
-    renderRadar(entries);
-    renderTickerHeatmap(entries);
-  }
-
-  const search  = document.getElementById('search-kol').value.toLowerCase();
-  const sector  = document.getElementById('filter-sector').value;
-  const sentiment = document.getElementById('filter-sentiment').value;
-  const type    = document.getElementById('filter-type').value;
+// ── Filters (KOL cards only — sector already handled by getBaseEntries) ───
+function applyFilters(baseEntries) {
+  const entries     = baseEntries || getBaseEntries();
+  const search      = document.getElementById('search-kol').value.toLowerCase();
+  const sentiment   = document.getElementById('filter-sentiment').value;
+  const type        = document.getElementById('filter-type').value;
   const onlyChanged = document.getElementById('filter-changed').checked;
 
   let cards = buildKolCards(entries);
   cards = cards.filter(c => {
-    if (search && !c.kol_name.toLowerCase().includes(search) && !c.latest_bull_bear.toLowerCase().includes(search.toUpperCase())) return false;
-    if (sector && c.sector !== sector) return false;
+    if (search && !c.kol_name.toLowerCase().includes(search) && !c.latest_bull_bear.toLowerCase().includes(search)) return false;
     if (sentiment !== '' && Math.round(c.avg_score) !== parseInt(sentiment)) return false;
     if (type && c.kol_or_ib !== type) return false;
     if (onlyChanged && !changedKols.has(c.kol_name)) return false;
@@ -628,13 +635,7 @@ function renderWeeklyList() {
 
 // ── onFilterChange（全局 filter bar 统一入口）────────────────
 function onFilterChange() {
-  const entries = getFilteredEntries();
-  renderStanceChanges(entries);
-  renderSectorBars(entries);
-  renderRadar(entries);
-  renderTickerHeatmap(entries);
-  applyFilters(entries);
-  renderWeeklyList();
+  render();
 }
 
 // ── Tab Switch ────────────────────────────────────────────
