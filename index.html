@@ -78,16 +78,25 @@
   .kol-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px; transition: border-color .2s, transform .15s; cursor: default; }
   .kol-card:hover { border-color: var(--accent); transform: translateY(-1px); }
   .kol-card.stance-changed { border-color: var(--gold) !important; }
-  .kol-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 10px; }
+  .kol-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; }
   .kol-name { font-weight: 700; font-size: 14px; }
-  .kol-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
-  .sentiment-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+  .kol-meta { font-size: 11px; color: var(--muted); margin-top: 2px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .sentiment-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
   .sentiment-dots { display: flex; gap: 3px; }
-  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--card2); }
-  .dot.bull { background: var(--bull); }
-  .dot.bear { background: var(--bear); }
-  .dot.active-bull { background: var(--bull); box-shadow: 0 0 6px var(--bull); }
-  .dot.active-bear { background: var(--bear); box-shadow: 0 0 6px var(--bear); }
+  /* 修复：所有非活跃点统一灰色，只有活跃点发光 */
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #2e3154; }
+  .dot.active-bull { background: var(--bull); box-shadow: 0 0 7px var(--bull); }
+  .dot.active-bear { background: var(--bear); box-shadow: 0 0 7px var(--bear); }
+  .dot.active-neutral { background: var(--neutral); box-shadow: 0 0 5px var(--neutral); }
+  /* Sector 徽章 */
+  .sector-badge { display: inline-flex; align-items: center; gap: 4px; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .sb-pm    { background: rgba(245,158,11,0.15); color: #f59e0b; }   /* Precious Metals */
+  .sb-macro { background: rgba(99,102,241,0.15); color: #818cf8; }   /* Macro */
+  .sb-energy{ background: rgba(249,115,22,0.15); color: #fb923c; }   /* Energy */
+  .sb-crypto{ background: rgba(168,85,247,0.15); color: #c084fc; }   /* Crypto */
+  .sb-eq    { background: rgba(34,197,94,0.12);  color: #4ade80; }   /* Equities */
+  .sb-geo   { background: rgba(239,68,68,0.12);  color: #f87171; }   /* Geopolitics */
+  .sb-alt   { background: rgba(148,163,184,0.12);color: #94a3b8; }   /* Alternative */
   .kol-comments { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .kol-bull-bear { font-size: 12px; color: var(--text); margin-bottom: 6px; }
   .kol-footer { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--muted); }
@@ -179,51 +188,55 @@
     </div>
   </div>
 
+  <!-- Global Filter Bar（所有 Tab 共用）-->
+  <div class="filter-bar" style="margin-bottom:0;padding-bottom:14px;border-bottom:1px solid var(--border)">
+    <input type="text" id="search-kol" placeholder="🔍 搜索 KOL、标的或关键词..." oninput="onFilterChange()">
+    <select id="filter-days" onchange="onFilterChange()">
+      <option value="7">最近 7 天</option>
+      <option value="14">最近 14 天</option>
+      <option value="30" selected>最近 30 天</option>
+      <option value="60">最近 60 天</option>
+      <option value="90">最近 90 天</option>
+      <option value="0">全部时间</option>
+    </select>
+    <select id="filter-sector" onchange="onFilterChange()">
+      <option value="">全部板块</option>
+      <option>Precious Metals</option>
+      <option>Macro</option>
+      <option>Energy &amp; Commodities</option>
+      <option>Crypto</option>
+      <option>Equities</option>
+      <option>Geopolitics</option>
+      <option>Alternative</option>
+    </select>
+    <select id="filter-sentiment" onchange="onFilterChange()">
+      <option value="">全部情绪</option>
+      <option value="2">极度看多</option>
+      <option value="1">看多</option>
+      <option value="0">中性</option>
+      <option value="-1">看空</option>
+      <option value="-2">极度看空</option>
+    </select>
+    <select id="filter-type" onchange="onFilterChange()">
+      <option value="">全部类型（仅KOL列表）</option>
+      <option value="KOL">KOL</option>
+      <option value="IB View">IB View</option>
+      <option value="Prophet">Prophet</option>
+      <option value="AI View">AI View</option>
+    </select>
+    <label style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px">
+      <input type="checkbox" id="filter-changed" onchange="onFilterChange()"> 仅立场变化
+    </label>
+  </div>
+
   <!-- Main Content Tabs -->
-  <div class="tabs">
+  <div class="tabs" style="margin-top:16px">
     <div class="tab active" onclick="switchTab('kol',this)">KOL 列表</div>
     <div class="tab" onclick="switchTab('weekly',this)">周报历史</div>
   </div>
 
   <!-- KOL List Panel -->
   <div id="panel-kol" class="tab-panel active">
-    <div class="filter-bar">
-      <input type="text" id="search-kol" placeholder="🔍 搜索 KOL 或标的..." oninput="applyFilters()">
-      <select id="filter-days" onchange="applyFilters()">
-        <option value="7">最近 7 天</option>
-        <option value="14">最近 14 天</option>
-        <option value="30" selected>最近 30 天</option>
-        <option value="60">最近 60 天</option>
-        <option value="90">最近 90 天</option>
-        <option value="0">全部时间</option>
-      </select>
-      <select id="filter-sector" onchange="applyFilters()">
-        <option value="">全部板块</option>
-        <option>Precious Metals</option>
-        <option>Macro</option>
-        <option>Energy &amp; Commodities</option>
-        <option>Crypto</option>
-        <option>Equities</option>
-        <option>Geopolitics</option>
-        <option>Alternative</option>
-      </select>
-      <select id="filter-sentiment" onchange="applyFilters()">
-        <option value="">全部情绪</option>
-        <option value="2">极度看多</option>
-        <option value="1">看多</option>
-        <option value="0">中性</option>
-        <option value="-1">看空</option>
-        <option value="-2">极度看空</option>
-      </select>
-      <select id="filter-type" onchange="applyFilters()">
-        <option value="">全部类型</option>
-        <option value="KOL">KOL</option>
-        <option value="IB View">IB View</option>
-        <option value="Prophet">Prophet</option>
-        <option value="AI View">AI View</option>
-      </select>
-      <label><input type="checkbox" id="filter-changed" onchange="applyFilters()"> 仅立场变化</label>
-    </div>
     <div id="kol-count" style="font-size:12px;color:var(--muted);margin-bottom:12px"></div>
     <div id="kol-grid"></div>
   </div>
@@ -249,13 +262,28 @@ function sentimentScore(e) {
   if (/看空|看跌|🔴/.test(text)) return -1;
   const tl = text.toLowerCase();
   if (/strongly bullish|very bullish/.test(tl)) return 2;
-  if (/bullish/.test(tl)) return 1;
+  if (/bullish/.test(tl)) return 1;  // 删除 "long" 避免误匹配
   if (/strongly bearish|very bearish/.test(tl)) return -2;
-  if (/bearish/.test(tl)) return -1;
+  if (/bearish/.test(tl)) return -1; // 删除 "short" 避免误匹配
   return 0;
 }
 const SCORE_LABEL = {2:'极度看多',1:'看多',0:'中性','-1':'看空','-2':'极度看空'};
 function scoreLabel(s) { return SCORE_LABEL[String(Math.round(s))] || '中性'; }
+
+// Sector 徽章：样式类 + 图标
+const SECTOR_STYLE = {
+  'Precious Metals':     { cls:'sb-pm',    icon:'🥇' },
+  'Macro':               { cls:'sb-macro', icon:'📊' },
+  'Energy & Commodities':{ cls:'sb-energy',icon:'⚡' },
+  'Crypto':              { cls:'sb-crypto',icon:'₿'  },
+  'Equities':            { cls:'sb-eq',    icon:'📈' },
+  'Geopolitics':         { cls:'sb-geo',   icon:'🌐' },
+  'Alternative':         { cls:'sb-alt',   icon:'🔮' },
+};
+function sectorBadge(sector) {
+  const s = SECTOR_STYLE[sector] || { cls:'sb-alt', icon:'•' };
+  return `<span class="sector-badge ${s.cls}">${s.icon} ${sector||'—'}</span>`;
+}
 
 function getCutoffDate(days) {
   if (!days || days == 0) return '2000-01-01';
@@ -277,18 +305,21 @@ async function loadData() {
   }
 }
 
-// ── Render All ────────────────────────────────────────────
+// ── Render All（时间筛选变化时全部重算）────────────────────
 function render() {
-  const days = parseInt(document.getElementById('filter-days').value);
-  const cutoff = getCutoffDate(days);
-  const entries = (DATA.raw_entries || []).filter(e => (e.date||'') >= cutoff);
-
+  const entries = getFilteredEntries();
   renderStanceChanges(entries);
   renderSectorBars(entries);
   renderRadar(entries);
   renderTickerHeatmap(entries);
   applyFilters(entries);
   renderWeeklyList();
+}
+
+function getFilteredEntries() {
+  const days = parseInt(document.getElementById('filter-days').value);
+  const cutoff = getCutoffDate(days);
+  return (DATA.raw_entries || []).filter(e => (e.date||'') >= cutoff);
 }
 
 // ── Stance Changes ────────────────────────────────────────
@@ -471,20 +502,29 @@ function renderKolCards(cards) {
   document.getElementById('kol-count').textContent = `显示 ${cards.length} 位 KOL`;
   document.getElementById('kol-grid').innerHTML = cards.map(c => {
     const score = c.avg_score;
+    const rounded = Math.round(score);
     const isChanged = changedKols.has(c.kol_name);
+    // 修复：只有活跃点发光，其余统一灰色
     const dots = [-2,-1,0,1,2].map(v => {
       let cls = 'dot';
-      if (v === Math.round(score)) cls += score>0?' active-bull':score<0?' active-bear':'';
-      else if (v>0) cls += ' bull'; else if (v<0) cls += ' bear';
+      if (v === rounded) {
+        cls += score > 0.3 ? ' active-bull' : score < -0.3 ? ' active-bear' : ' active-neutral';
+      }
       return `<div class="${cls}"></div>`;
     }).join('');
     const sc = score>0.3?'var(--bull)':score<-0.3?'var(--bear)':'var(--neutral)';
     const ti = c.trend==='rising'?'<span class="trend-up">↑</span>':c.trend==='falling'?'<span class="trend-down">↓</span>':'';
+    const changeTag = isChanged ? `<span class="badge-change">立场变化</span>` : '';
     return `<div class="kol-card${isChanged?' stance-changed':''}">
       <div class="kol-header">
         <div>
-          <div class="kol-name">${c.kol_name}${isChanged?'<span class="badge-change">立场变化</span>':''}</div>
-          <div class="kol-meta">${c.sector}${c.detail_sector?' · '+c.detail_sector:''} · ${c.kol_or_ib}</div>
+          <div class="kol-name">${c.kol_name}${changeTag}</div>
+          <div class="kol-meta">
+            ${sectorBadge(c.sector)}
+            ${c.detail_sector?`<span style="color:var(--muted)">${c.detail_sector}</span>`:''}
+            <span style="color:var(--border)">·</span>
+            <span>${c.kol_or_ib}</span>
+          </div>
         </div>
         <div class="sentiment-badge">
           <div class="sentiment-dots">${dots}</div>
@@ -500,9 +540,14 @@ function renderKolCards(cards) {
 
 // ── Filters ───────────────────────────────────────────────
 function applyFilters(entriesOverride) {
-  const days    = parseInt(document.getElementById('filter-days').value);
-  const cutoff  = getCutoffDate(days);
-  const entries = entriesOverride || (DATA.raw_entries||[]).filter(e=>(e.date||'')>=cutoff);
+  const entries = entriesOverride || getFilteredEntries();
+  // 时间段变化时同步刷新顶部三栏
+  if (!entriesOverride) {
+    renderStanceChanges(entries);
+    renderSectorBars(entries);
+    renderRadar(entries);
+    renderTickerHeatmap(entries);
+  }
 
   const search  = document.getElementById('search-kol').value.toLowerCase();
   const sector  = document.getElementById('filter-sector').value;
@@ -524,7 +569,43 @@ function applyFilters(entriesOverride) {
 
 // ── Weekly List ───────────────────────────────────────────
 function renderWeeklyList() {
-  const weeks = DATA.weekly_reports || [];
+  const days      = parseInt(document.getElementById('filter-days').value);
+  const cutoff    = getCutoffDate(days);
+  const sector    = document.getElementById('filter-sector').value;
+  const sentVal   = document.getElementById('filter-sentiment').value;
+  const search    = document.getElementById('search-kol').value.toLowerCase();
+
+  let weeks = DATA.weekly_reports || [];
+
+  // Filter by time range
+  if (days > 0) weeks = weeks.filter(w => (w.date||'') >= cutoff);
+
+  // Filter by sector
+  if (sector) weeks = weeks.filter(w => w.sector === sector);
+
+  // Filter by sentiment (match against weekly insight keywords)
+  if (sentVal !== '') {
+    const sv = parseInt(sentVal);
+    weeks = weeks.filter(w => {
+      const txt = (w.key_insight||'') + ' ' + (w.bull_bear||'');
+      if (sv ===  2) return /极度看多|极度看涨/.test(txt);
+      if (sv ===  1) return /整体偏多|看多|看涨/.test(txt) && !/极度/.test(txt);
+      if (sv ===  0) return /多空均衡|中性|分歧/.test(txt);
+      if (sv === -1) return /整体偏空|看空|看跌/.test(txt) && !/极度/.test(txt);
+      if (sv === -2) return /极度看空|极度看跌/.test(txt);
+      return true;
+    });
+  }
+
+  // Filter by search (key_insight, bull_bear, suggestion)
+  if (search) {
+    weeks = weeks.filter(w =>
+      (w.key_insight||'').toLowerCase().includes(search) ||
+      (w.bull_bear||'').toLowerCase().includes(search) ||
+      (w.suggestion||'').toLowerCase().includes(search)
+    );
+  }
+
   document.getElementById('weekly-list').innerHTML = weeks.map(w => {
     const insight = w.key_insight || '';
     const m = insight.match(/整体偏多|整体偏空|多空均衡|分歧加剧/);
@@ -542,7 +623,18 @@ function renderWeeklyList() {
         ${w.suggestion?`<div style="font-size:12px;color:var(--muted);margin-top:4px">💡 ${w.suggestion.slice(0,120)}${w.suggestion.length>120?'...':''}</div>`:''}
       </div>
     </div>`;
-  }).join('') || '<div class="empty-state">暂无周报数据</div>';
+  }).join('') || '<div class="empty-state">暂无符合条件的周报</div>';
+}
+
+// ── onFilterChange（全局 filter bar 统一入口）────────────────
+function onFilterChange() {
+  const entries = getFilteredEntries();
+  renderStanceChanges(entries);
+  renderSectorBars(entries);
+  renderRadar(entries);
+  renderTickerHeatmap(entries);
+  applyFilters(entries);
+  renderWeeklyList();
 }
 
 // ── Tab Switch ────────────────────────────────────────────
@@ -552,6 +644,7 @@ function switchTab(panel, el) {
   document.getElementById('panel-kol').classList.remove('active');
   document.getElementById('panel-weekly').classList.remove('active');
   document.getElementById('panel-' + panel).classList.add('active');
+  if (panel === 'weekly') renderWeeklyList();
 }
 
 loadData();
