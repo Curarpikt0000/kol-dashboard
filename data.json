@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27 16:24 JST",
+  "generated_at": "2026-05-27 16:57 JST",
   "date_range": {
     "start": "2026-01-27",
     "end": "2026-05-27"
@@ -39,19 +39,19 @@
     },
     {
       "sector": "Macro",
-      "avg": 0.19,
-      "bull": 3,
-      "bear": 0,
-      "neutral": 13,
-      "total": 16
+      "avg": 0.11,
+      "bull": 4,
+      "bear": 1,
+      "neutral": 23,
+      "total": 28
     },
     {
       "sector": "Precious Metals",
-      "avg": 0.52,
+      "avg": 0.5,
       "bull": 13,
       "bear": 0,
-      "neutral": 12,
-      "total": 25
+      "neutral": 13,
+      "total": 26
     }
   ],
   "kol_cards": [
@@ -214,14 +214,14 @@
       "sector": "Macro",
       "detail_sector": "流动性周期",
       "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "43年长期牛市进入最后冲顶阶段 → 利率已见顶，债券将反弹 → 美元即将大幅反转下行 → 黄金白银及矿业股启动主升浪 → 股市底部已现，将迎来熔涨 → 标普500目标9500点，随后爆发史上最大金融危机",
-      "latest_suggestion": "做多黄金（GLD）、白银（SLV）、金矿股（GDX、GDXJ）；做空美元（UUP）或做多债券（TLT）对冲尾部风险",
-      "latest_bull_bear": "🟢 GLD, SLV, GDX, GDXJ | 🔴 UUP",
-      "avg_score": 0.44,
+      "latest_date": "2026-05-27",
+      "latest_comments": "David Hunter认为当前处于43年长期牛市最后的狂热熔涨阶段 → S&P 500可能在未来几个月涨至9500点 → 美联储将通过大规模QE释放流动性 → 同时他极度看多债券，预测10年期收益率年底前降至3%以下，明年降至零甚至负利率 → 但随后将出现比2008年更严重的全球通缩性崩盘，源于创纪录杠杆、脆弱银行和政策犹豫 → 当前应配置实物资产如黄金和白银以应对不确定性\n\n来源: https",
+      "latest_suggestion": "买入实物黄金和白银（GLD、SLV、PHYS），做空长期国债（TLT）以对冲崩盘风险",
+      "latest_bull_bear": "🟢 GLD, SLV, PHYS | 🔴 TLT",
+      "avg_score": 0.4,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 9
+      "entry_count": 10
     },
     {
       "kol_name": "Michael Saylor",
@@ -396,14 +396,14 @@
       "sector": "Macro",
       "detail_sector": "流动性周期",
       "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "Clem Chambers建议避免小盘股噪音 → 聚焦大型现金生成公司 → 提及波兰铜矿等标的 → 批评ADVFN自身治理问题（CEO仅持少量股份却成为主要受益者） → 认为市场被人为推高 → 整体观点偏谨慎但非全面看空",
-      "latest_suggestion": "建议关注大型现金生成公司如波兰铜矿相关标的，回避小盘股及治理结构不佳的金融科技股，保持仓位灵活。",
-      "latest_bull_bear": "🟢 KGHMF | 🔴 ADVFN",
-      "avg_score": 0.22,
+      "latest_date": "2026-05-27",
+      "latest_comments": "市场流动性注入导致非理性泡沫，需警惕被机构作为退出流动性 → 黄金白银应坚持纪律性积累并在垂直拉升时卖出，而非追涨 → 加密货币市场结构转变，机构主导下中小币种流动性萎缩，投机时代结束 → 小盘股市场（如OTC Markets）因交易所收购和自身盈利稳健被视为价值洼地，但需注意流动性风险 → 整体观点混合，既有对贵金属的战术性看多，也有对加密市场的结构性看空，同时看好特定小盘股机会。\n\n来源: h",
+      "latest_suggestion": "黄金白银可逢低积累，垂直拉升时减仓；关注OTC Markets等小盘股机会；回避中小市值加密货币。",
+      "latest_bull_bear": "🟢 GLD, SLV, GDX, OTCM | 🔴 BTC, ETH",
+      "avg_score": 0.2,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 9
+      "entry_count": 10
     },
     {
       "kol_name": "Adrian Day",
@@ -536,14 +536,140 @@
       "sector": "Precious Metals",
       "detail_sector": "黄金走势",
       "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "美元信用持续恶化 → 美联储过度印钞 → 通胀失控 → 投资者寻求避险 → 黄金需求激增 → 金价突破5000美元 → 经济硬着陆风险加剧 → 美元体系面临崩溃",
-      "latest_suggestion": "建议增持黄金ETF（GLD）或实物黄金，做空美元相关资产，规避长期美债（TLT）及美元现金。",
-      "latest_bull_bear": "🟢 GLD | 🔴 TLT",
-      "avg_score": 0.11,
+      "latest_date": "2026-05-27",
+      "latest_comments": "Peter Schiff 认为黄金是终极价值储存手段和投资组合稳定器 → 当前法定货币体系存在根本性缺陷，债务驱动型消费不可持续 → 美联储持续干预导致市场扭曲，最终将引发法定货币崩溃 → 通胀将急剧上升，美元信心瓦解 → 黄金作为硬资产将在货币体系崩溃中受益 → 因此长期看多黄金及相关资产\n\n来源: https://www.canadianminingreport.com/blog/gold-i",
+      "latest_suggestion": "建议买入黄金实物或黄金ETF如GLD、PHYS，做空长期美债如TLT",
+      "latest_bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT",
+      "avg_score": 0.1,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 9
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Morgan Stanley",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "kol_or_ib": "IB View",
+      "latest_date": "2026-05-27",
+      "latest_comments": "Morgan Stanley认为日本经济正经历系统性变革→治理、政策、地缘、资本流动和技术多重因素相互强化→企业治理改革推动ROE提升、盈利增长和股票回购→通胀环境支持结构性转变→全球投资者应增加对日本股市的配置→日元虽面临贬值压力但股市受益于宽松政策和财政扩张\n\n来源: https://www.jpmorgan.com/insights/global-research/outlook/marke",
+      "latest_suggestion": "买入日本股票ETF如EWJ或DXJ，做多日本股市受益于改革和通胀",
+      "latest_bull_bear": "🟢 EWJ, DXJ",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Goldman Sachs",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "kol_or_ib": "IB View",
+      "latest_date": "2026-05-27",
+      "latest_comments": "全球GDP稳健增长+美联储2026年降息50基点支撑大宗商品回报 → 中美AI与地缘政治竞赛推动能源与贵金属需求 → 央行每月约60吨购金+ETF持续流入+货币贬值交易支撑金价 → 高盛维持2026年底金价5400美元/盎司目标，且风险偏向上行 → 股市虽盈利增长但回报率低于2025年，资金可能轮动至商品\n\n来源: https://www.goldmansachs.com/insights/out",
+      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，做多黄金矿业股GDX，做空长期美债TLT对冲利率风险",
+      "latest_bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Michael Hartnett",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "kol_or_ib": "IB View",
+      "latest_date": "2026-05-27",
+      "latest_comments": "美银Bull & Bear指标升至9.6，触发极端卖出信号，显示市场极度乐观→但Hartnett认为股市尚未安全，资金正从风险资产转向防御性板块（如生物科技）→债券市场经历历史性亏损，长期美债收益率在5%附近形成“特朗普底”→Hartnett提出“BIG”策略（债券、国际、黄金），认为资金将从美国大盘成长股流向国际股票、大宗商品和黄金→同时基于“短期伊朗战争”脆弱假设提出替代交易，整体观点混合，既",
+      "latest_suggestion": "建议减持美股大盘成长股，增持黄金（GLD、PHYS）和国际股票ETF，谨慎对待长期美债（TLT）。",
+      "latest_bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "David Stockman",
+      "sector": "Macro",
+      "detail_sector": "财政赤字",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "美国国债超35万亿美元且利息支出超1万亿→美联储通过低利率制造债务泡沫，但已无降息空间→财政赤字占GDP6%，无法再推出有效刺激→下一次衰退将无货币和财政工具可用→经济长期低迷，主权债务危机风险上升→对股市和债市构成重大利空\n\n来源: https://www.pbs.org/newshour/economy/david-stockman-were-blind-to-the-debt-bubble ",
+      "latest_suggestion": "做空长期美债TLT，买入实物黄金GLD或PHYS对冲主权信用风险",
+      "latest_bull_bear": "🟢 GLD, PHYS | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Larry McDonald",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "美国实际财政赤字已从CBO估计的1.6万亿美元升至2.0万亿美元，财政加速扩张→美联储降息50基点，但经济正在反弹→导致熊市陡化（bear steepener）→资金从防御性资产轮出→被动资金在8月大幅流出后，季末再平衡将带来1250亿美元全球股票买盘→波动率季节性仍强，需对冲→整体观点混合：看空债券（TLT），看多波动率（VIXY），对股票中性偏多但需对冲。\n\n来源: https://www.t",
+      "latest_suggestion": "买入波动率对冲（VIXY），做空长期国债（TLT），谨慎参与股票季末再平衡反弹。",
+      "latest_bull_bear": "🟢 VIXY | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "James Rickards",
+      "sector": "Macro",
+      "detail_sector": "货币体系重构",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "当前经济模式是“国家资本主义”与“新重商主义” → 货币战争加剧全球紧张 → 美元作为储备货币面临系统性崩溃风险 → 历史经验显示黄金等硬资产是生存关键 → 未来最可能走向“混乱”而非有序改革 → 美元崩溃将摧毁所有市场和国家\n\n来源: https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/curre",
+      "latest_suggestion": "建议增持黄金ETF（GLD、PHYS）和白银ETF（SLV），做空美元相关资产，减持长期美债（TLT）。",
+      "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Zoltan Pozsar",
+      "sector": "Macro",
+      "detail_sector": "欧洲美元",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "全球去全球化趋势 → 制裁俄罗斯导致商品供应链断裂 → 大宗商品价格飙升且供应受限 → 美元储备资产可信度下降 → 布雷顿森林体系III诞生 → 货币体系从信用本位转向商品与实物资产本位 → 黄金等硬资产成为新储备核心\n\n来源: https://www.hollandgold.nl/en/news/zoltan-pozsar-wij-zijn-getuige-van-de-geboorte-van",
+      "latest_suggestion": "买入黄金ETF（GLD）和实物黄金信托（PHYS），做空长期美债（TLT）",
+      "latest_bull_bear": "🟢 GLD, PHYS | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Ray Dalio",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "高债务与收入比导致财政恶化 → 货币与信贷体系风险上升 → 储备货币信任动摇 → 资金从法币流向黄金 → 央行大规模购金强化趋势 → 叠加地缘冲突与内部政治极化 → 进入长期债务周期“秋冬”阶段 → 黄金作为结构性对冲工具配置价值提升\n\n来源: https://www.tradingkey.com/analysis/commodities/metal/261764197-ray-dalio-deb",
+      "latest_suggestion": "建议增持黄金相关资产，如GLD、PHYS、SLV，作为对冲货币与债务风险的核心配置。",
+      "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
+    },
+    {
+      "kol_name": "Luke Gromen",
+      "sector": "Macro",
+      "detail_sector": "财政赤字",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "美元在全球外汇储备中的份额已从71%降至58%，若计入黄金则可能低于50% → 世界正在去美元化，尤其在价值储藏功能上 → 美国债务水平过高，正利率不可持续，政治需要迫使实际利率转负并推高通胀 → 黄金和比特币将受益于这一趋势，成为替代储备资产 → 长期通胀上升有利于硬资产\n\n来源: https://www.macrovoices.com/podcast-transcripts/1382-luke",
+      "latest_suggestion": "买入黄金ETF（GLD、PHYS）和比特币（BTC），做空长期美债（TLT）以对冲通胀和财政主导风险",
+      "latest_bull_bear": "🟢 GLD, PHYS, BTC | 🔴 TLT",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 10
     },
     {
       "kol_name": "Raoul Pal",
@@ -568,20 +694,6 @@
       "latest_comments": "Gold Royalty CEO David Garofalo拥有成功整合Goldcorp与Newmont的履历 → 公司管理层拥有超400年矿业经验 → 股东以99.22%高票支持Coeur收购New Gold → 黄金生产动态与定价趋势支撑行业基本面 → 黄金50年里程碑式表现强化长期看多逻辑",
       "latest_suggestion": "建议增持黄金相关资产，可关注黄金ETF（GLD）或黄金矿业股（如NEM、GOLD），利用行业整合与金价上行趋势布局。",
       "latest_bull_bear": "🟢 GLD, NEM, GOLD | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "Goldman Sachs",
-      "sector": "Macro",
-      "detail_sector": "美联储政策",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "高盛预计2026年全球经济增长2.8%高于共识→通胀韧性及央行购金支撑黄金需求→黄金目标价4650-4700美元/盎司，涨幅10-15%→白银受益于工业与避险双重驱动，涨幅15-20%→铜因电气化与供应约束成为长期首选工业金属→大宗商品作为组合保险应对供给风险上升",
-      "latest_suggestion": "建议增持黄金ETF（GLD）及白银ETF（SLV），关注铜矿股（FCX）多头机会；减持长期美债（TLT）以对冲通胀与利率风险",
-      "latest_bull_bear": "🟢 GLD, SLV, FCX | 🔴 TLT",
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
@@ -728,104 +840,6 @@
       "entry_count": 9
     },
     {
-      "kol_name": "Michael Hartnett",
-      "sector": "Macro",
-      "detail_sector": "流动性周期",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "美银牛熊指标升至9.6创多年新高→极端乐观情绪类似历史市场顶部→Hartnett警告“除债券外一切”时代到来→大型科技股集中度达34%类似Nifty 50泡沫→60/40组合失效→资金必然流向黄金",
-      "latest_suggestion": "减持大型科技股和长期国债，增持黄金ETF（GLD）和小盘股，警惕债券收益率突破5%引发市场逆转。",
-      "latest_bull_bear": "🟢 GLD, IWM | 🔴 QQQ, TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "David Stockman",
-      "sector": "Macro",
-      "detail_sector": "财政赤字",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "美国公共债务从1981年9300亿飙升至2025年37万亿→预计2055年达130万亿→债务增长不可持续→美联储大规模印钞加剧泡沫→债券市场可能崩溃→经济面临严重调整风险",
-      "latest_suggestion": "建议做多黄金（GLD）对冲债务风险，做空长期美债（TLT）应对利率上行压力，关注通胀保值债券（TIP）",
-      "latest_bull_bear": "🟢 GLD | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "Larry McDonald",
-      "sector": "Macro",
-      "detail_sector": "美联储政策",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "特朗普政府政策不确定性 → 美国金融体系脆弱性上升 → 欧洲主权债务风险暴露 → 中国经济放缓压力 → 全球系统性风险积聚 → 避险情绪推升黄金需求",
-      "latest_suggestion": "做多黄金（GLD）对冲系统性风险，做空长期美债（TLT）应对利率波动。",
-      "latest_bull_bear": "🟢 GLD | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "James Rickards",
-      "sector": "Macro",
-      "detail_sector": "货币体系重构",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "美元信用依赖债务与信任契约 → 货币战争加剧投机脆弱性 → 美元计价市场随美元崩溃而崩塌 → 黄金作为价值储存工具将受益",
-      "latest_suggestion": "增持黄金（GLD）对冲美元系统性风险，做空美元指数（UUP）或长期美债（TLT）规避信用崩塌冲击。",
-      "latest_bull_bear": "🟢 GLD | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "Zoltan Pozsar",
-      "sector": "Macro",
-      "detail_sector": "欧洲美元",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "去全球化与自给自足趋势 → 各国囤积大宗商品与供应链重复建设 → 货币体系从无锚货币转向商品本位货币 → 美元体系削弱 → 大宗商品价格持续上涨 → 西方通胀压力加剧 → 黄金等硬资产受益",
-      "latest_suggestion": "做多黄金（GLD）、白银（SLV）及大宗商品ETF（GSG）；做空长期美债（TLT）以对冲通胀风险",
-      "latest_bull_bear": "🟢 GLD, SLV, GSG | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "Ray Dalio",
-      "sector": "Macro",
-      "detail_sector": "流动性周期",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "全球面临长期债务周期尾声 → 内部冲突加剧 → 世界秩序因大国竞争而改变 → 气候与科技变革叠加 → 货币体系面临压力 → 资本战争风险上升 → 经济进入慢增长阶段",
-      "latest_suggestion": "建议配置黄金（GLD）对冲货币体系风险，减持长期美债（TLT）以规避债务周期尾部风险，关注现金与短期国债的防御性。",
-      "latest_bull_bear": "🟢 GLD | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
-      "kol_name": "Luke Gromen",
-      "sector": "Macro",
-      "detail_sector": "财政赤字",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-25",
-      "latest_comments": "美联储激进加息虽短期压制通胀，但将美国推入财政主导状态 → 财政主导意味着政府债务不可持续，需容忍更高通胀来稀释债务 → 通胀将重新加速，美元有序走弱 → 全球央行从美债转向黄金，反映对美元体系信心丧失 → 黄金和比特币同时创历史新高，标志百年货币重置开启 → 几乎所有宏观情景（降息、加息、贸易、战争）均利好黄金和比特币\n\n来源: https://www.macrovoices.com/podca",
-      "latest_suggestion": "买入黄金（GLD、PHYS）和比特币（BTC）对冲美元信用风险，做空长期美债（TLT）应对通胀回升",
-      "latest_bull_bear": "🟢 GLD, PHYS, BTC | 🔴 TLT",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
       "kol_name": "Jeff Snider",
       "sector": "Government Debt",
       "detail_sector": "欧洲美元/回购市场",
@@ -896,20 +910,6 @@
       "entry_count": 9
     },
     {
-      "kol_name": "Morgan Stanley",
-      "sector": "Macro",
-      "detail_sector": "美联储政策",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "全球进入实际利率结构性抬升阶段 → 美国宽松、日本紧缩、其他央行观望 → 财政灵活性下降 → 美债先涨后弱 → 美股在有利条件下表现突出 → 微观主题取代宏观驱动成为投资焦点",
-      "latest_suggestion": "建议关注美股优质个股及受益于利率分化的资产，如美国科技股；对美债保持谨慎，可考虑做空长期国债。",
-      "latest_bull_bear": "🟢 SPY, QQQ | 🔴 TLT",
-      "avg_score": -0.11,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 9
-    },
-    {
       "kol_name": "Anu Anand",
       "sector": "Energy & Commodities",
       "detail_sector": "大宗商品周期",
@@ -942,14 +942,14 @@
       "sector": "Macro",
       "detail_sector": "流动性周期",
       "kol_or_ib": "KOL",
-      "latest_date": "2026-05-26",
-      "latest_comments": "高收益环境下投资者需注重财富保值 → 黄金和白银市场当前条件有利 → 能源板块可能像黄金一样出现价格飙升 → 维持50%现金在短期国债中作为防御 → 整体组合偏向实物资产与抗通胀标的",
-      "latest_suggestion": "建议增持黄金ETF（GLD）及能源板块ETF（XLE），同时保持部分现金或短期国债仓位以对冲波动风险",
-      "latest_bull_bear": "🟢 GLD, XLE | 🔴 TLT",
-      "avg_score": -0.33,
+      "latest_date": "2026-05-27",
+      "latest_comments": "Ted Oakley 引用巴菲特持有27%国债的做法，认为当前市场资产价格不够便宜，因此宁愿持有国债而非买入股票或贵金属 → 同时指出基金管理者现金仓位处于25年低点，一旦市场下跌将被迫抛售股票 → 对黄金和白银市场有最新看法但未明确方向 → 整体态度偏向谨慎防御，但未明确看多或看空贵金属。\n\n来源: https://www.youtube.com/watch?v=oYBVBZupIUo | ht",
+      "latest_suggestion": "建议保持防御性配置，可持有国债（TLT）对冲风险，贵金属暂观望，等待更低买入机会。",
+      "latest_bull_bear": "🔴 TLT",
+      "avg_score": -0.4,
       "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 9
+      "trend": "stable",
+      "entry_count": 10
     },
     {
       "kol_name": "Bill Gross",
@@ -967,15 +967,6 @@
     }
   ],
   "stance_changes": [
-    {
-      "kol_name": "Ted Oakley",
-      "prev_score": -1.0,
-      "curr_score": 1.0,
-      "prev_label": "看空",
-      "curr_label": "看多",
-      "change_type": "完全反转🔄",
-      "sector": "Macro"
-    },
     {
       "kol_name": "Brandon Biggs",
       "prev_score": 0.5,
@@ -1067,13 +1058,13 @@
       "sector": "Macro"
     },
     {
-      "kol_name": "Peter Schiff",
-      "prev_score": 0.0,
-      "curr_score": 1.0,
-      "prev_label": "中性",
-      "curr_label": "看多",
-      "change_type": "新转看多🆕",
-      "sector": "Precious Metals"
+      "kol_name": "Ted Oakley",
+      "prev_score": -1.0,
+      "curr_score": 0.0,
+      "prev_label": "看空",
+      "curr_label": "中性",
+      "change_type": "看空软化💧",
+      "sector": "Macro"
     },
     {
       "kol_name": "Daniel Ghali",
@@ -1089,27 +1080,27 @@
     "bull": [
       {
         "ticker": "GLD",
-        "count": 242
+        "count": 252
       },
       {
         "ticker": "SLV",
-        "count": 201
+        "count": 205
       },
       {
         "ticker": "GDX",
-        "count": 55
+        "count": 59
       },
       {
         "ticker": "IAU",
         "count": 26
       },
       {
-        "ticker": "PAAS",
+        "ticker": "BTC",
         "count": 18
       },
       {
-        "ticker": "BTC",
-        "count": 17
+        "ticker": "PAAS",
+        "count": 18
       },
       {
         "ticker": "USO",
@@ -1120,18 +1111,18 @@
         "count": 14
       },
       {
-        "ticker": "PSLV",
+        "ticker": "PHYS",
         "count": 13
       },
       {
-        "ticker": "SILJ",
-        "count": 12
+        "ticker": "PSLV",
+        "count": 13
       }
     ],
     "bear": [
       {
         "ticker": "TLT",
-        "count": 234
+        "count": 245
       },
       {
         "ticker": "DXY",
@@ -1294,6 +1285,162 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "36d47eb5-fd3c-8110-9af1-f5548d085bd7",
+      "name": "Morgan Stanley — 🟢 看多",
+      "kol_name": "Morgan Stanley",
+      "kol_or_ib": "IB View",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "comments": "Morgan Stanley认为日本经济正经历系统性变革→治理、政策、地缘、资本流动和技术多重因素相互强化→企业治理改革推动ROE提升、盈利增长和股票回购→通胀环境支持结构性转变→全球投资者应增加对日本股市的配置→日元虽面临贬值压力但股市受益于宽松政策和财政扩张\n\n来源: https://www.jpmorgan.com/insights/global-research/outlook/market-outlook | https://www.morganstanley.com/im/en-us/institutional-investor/insights/the-beat/the-beat",
+      "suggestion": "买入日本股票ETF如EWJ或DXJ，做多日本股市受益于改革和通胀",
+      "bull_bear": "🟢 EWJ, DXJ"
+    },
+    {
+      "id": "36d47eb5-fd3c-81bc-bb3d-ed14c1f681d5",
+      "name": "Goldman Sachs — 🟢 看多",
+      "kol_name": "Goldman Sachs",
+      "kol_or_ib": "IB View",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "comments": "全球GDP稳健增长+美联储2026年降息50基点支撑大宗商品回报 → 中美AI与地缘政治竞赛推动能源与贵金属需求 → 央行每月约60吨购金+ETF持续流入+货币贬值交易支撑金价 → 高盛维持2026年底金价5400美元/盎司目标，且风险偏向上行 → 股市虽盈利增长但回报率低于2025年，资金可能轮动至商品\n\n来源: https://www.goldmansachs.com/insights/outlooks/2026-outlooks | https://goldsilver.com/industry-news/article/gold-price-forecast-2026-2027-key",
+      "suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，做多黄金矿业股GDX，做空长期美债TLT对冲利率风险",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-818b-b0ce-c3a75b16d7a1",
+      "name": "Michael Hartnett — 🟡 中性",
+      "kol_name": "Michael Hartnett",
+      "kol_or_ib": "IB View",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "comments": "美银Bull & Bear指标升至9.6，触发极端卖出信号，显示市场极度乐观→但Hartnett认为股市尚未安全，资金正从风险资产转向防御性板块（如生物科技）→债券市场经历历史性亏损，长期美债收益率在5%附近形成“特朗普底”→Hartnett提出“BIG”策略（债券、国际、黄金），认为资金将从美国大盘成长股流向国际股票、大宗商品和黄金→同时基于“短期伊朗战争”脆弱假设提出替代交易，整体观点混合，既看空美股短期，又看多黄金和国际资产。\n\n来源: https://thedarksideoftheboom.substack.com/p/boas-michael-hartnetts-four-c-tr",
+      "suggestion": "建议减持美股大盘成长股，增持黄金（GLD、PHYS）和国际股票ETF，谨慎对待长期美债（TLT）。",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-8138-9586-c89acf1fb432",
+      "name": "Ted Oakley — 🟡 中性",
+      "kol_name": "Ted Oakley",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "comments": "Ted Oakley 引用巴菲特持有27%国债的做法，认为当前市场资产价格不够便宜，因此宁愿持有国债而非买入股票或贵金属 → 同时指出基金管理者现金仓位处于25年低点，一旦市场下跌将被迫抛售股票 → 对黄金和白银市场有最新看法但未明确方向 → 整体态度偏向谨慎防御，但未明确看多或看空贵金属。\n\n来源: https://www.youtube.com/watch?v=oYBVBZupIUo | https://www.youtube.com/watch?v=IpdpuOLzbHI",
+      "suggestion": "建议保持防御性配置，可持有国债（TLT）对冲风险，贵金属暂观望，等待更低买入机会。",
+      "bull_bear": "🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-8145-bf0b-e4a595a205a5",
+      "name": "Clem Chambers — 🟡 中性",
+      "kol_name": "Clem Chambers",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "comments": "市场流动性注入导致非理性泡沫，需警惕被机构作为退出流动性 → 黄金白银应坚持纪律性积累并在垂直拉升时卖出，而非追涨 → 加密货币市场结构转变，机构主导下中小币种流动性萎缩，投机时代结束 → 小盘股市场（如OTC Markets）因交易所收购和自身盈利稳健被视为价值洼地，但需注意流动性风险 → 整体观点混合，既有对贵金属的战术性看多，也有对加密市场的结构性看空，同时看好特定小盘股机会。\n\n来源: https://www.youtube.com/watch?v=tJYGjyvjuhw | https://www.forbes.com/sites/investor/2014/08/26/buy-a-",
+      "suggestion": "黄金白银可逢低积累，垂直拉升时减仓；关注OTC Markets等小盘股机会；回避中小市值加密货币。",
+      "bull_bear": "🟢 GLD, SLV, GDX, OTCM | 🔴 BTC, ETH"
+    },
+    {
+      "id": "36d47eb5-fd3c-81b5-b7db-e8a1f39067bb",
+      "name": "David Hunter — 🟢 看多",
+      "kol_name": "David Hunter",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "comments": "David Hunter认为当前处于43年长期牛市最后的狂热熔涨阶段 → S&P 500可能在未来几个月涨至9500点 → 美联储将通过大规模QE释放流动性 → 同时他极度看多债券，预测10年期收益率年底前降至3%以下，明年降至零甚至负利率 → 但随后将出现比2008年更严重的全球通缩性崩盘，源于创纪录杠杆、脆弱银行和政策犹豫 → 当前应配置实物资产如黄金和白银以应对不确定性\n\n来源: https://www.youtube.com/watch?v=BGWAjk5RkQQ | https://www.youtube.com/watch?v=Nzto0oO63Q0",
+      "suggestion": "买入实物黄金和白银（GLD、SLV、PHYS），做空长期国债（TLT）以对冲崩盘风险",
+      "bull_bear": "🟢 GLD, SLV, PHYS | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-8130-8b06-e4061019b1f1",
+      "name": "David Stockman — 🔴 看空",
+      "kol_name": "David Stockman",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "财政赤字",
+      "comments": "美国国债超35万亿美元且利息支出超1万亿→美联储通过低利率制造债务泡沫，但已无降息空间→财政赤字占GDP6%，无法再推出有效刺激→下一次衰退将无货币和财政工具可用→经济长期低迷，主权债务危机风险上升→对股市和债市构成重大利空\n\n来源: https://www.pbs.org/newshour/economy/david-stockman-were-blind-to-the-debt-bubble | https://www.youtube.com/watch?v=d6Hr0zjQsLw",
+      "suggestion": "做空长期美债TLT，买入实物黄金GLD或PHYS对冲主权信用风险",
+      "bull_bear": "🟢 GLD, PHYS | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-815e-8427-e3e8a6bfc562",
+      "name": "Larry McDonald — 🟡 中性",
+      "kol_name": "Larry McDonald",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "美联储政策",
+      "comments": "美国实际财政赤字已从CBO估计的1.6万亿美元升至2.0万亿美元，财政加速扩张→美联储降息50基点，但经济正在反弹→导致熊市陡化（bear steepener）→资金从防御性资产轮出→被动资金在8月大幅流出后，季末再平衡将带来1250亿美元全球股票买盘→波动率季节性仍强，需对冲→整体观点混合：看空债券（TLT），看多波动率（VIXY），对股票中性偏多但需对冲。\n\n来源: https://www.thebeartrapsreport.com/brochures/samplereport-tbtr.pdf | https://www.thebeartrapsreport.com",
+      "suggestion": "买入波动率对冲（VIXY），做空长期国债（TLT），谨慎参与股票季末再平衡反弹。",
+      "bull_bear": "🟢 VIXY | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-81a2-81fd-c1794830d52b",
+      "name": "Peter Schiff — 🟢 看多",
+      "kol_name": "Peter Schiff",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金走势",
+      "comments": "Peter Schiff 认为黄金是终极价值储存手段和投资组合稳定器 → 当前法定货币体系存在根本性缺陷，债务驱动型消费不可持续 → 美联储持续干预导致市场扭曲，最终将引发法定货币崩溃 → 通胀将急剧上升，美元信心瓦解 → 黄金作为硬资产将在货币体系崩溃中受益 → 因此长期看多黄金及相关资产\n\n来源: https://www.canadianminingreport.com/blog/gold-is-stability-peter-schiff-warns-of-fiat-collapse-and-a-major-gold-bull-market-ahead | https://europac",
+      "suggestion": "建议买入黄金实物或黄金ETF如GLD、PHYS，做空长期美债如TLT",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-81af-b85f-f109329722a4",
+      "name": "James Rickards — 🔴 看空",
+      "kol_name": "James Rickards",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "货币体系重构",
+      "comments": "当前经济模式是“国家资本主义”与“新重商主义” → 货币战争加剧全球紧张 → 美元作为储备货币面临系统性崩溃风险 → 历史经验显示黄金等硬资产是生存关键 → 未来最可能走向“混乱”而非有序改革 → 美元崩溃将摧毁所有市场和国家\n\n来源: https://www.theinvestorspodcast.com/billionaire-book-club-executive-summary/currency-wars-the-making-of-the-next-global-crisis | https://www.youtube.com/watch?v=hu_6F7VyI4A",
+      "suggestion": "建议增持黄金ETF（GLD、PHYS）和白银ETF（SLV），做空美元相关资产，减持长期美债（TLT）。",
+      "bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-81eb-9421-ee625a150c4f",
+      "name": "Zoltan Pozsar — 🟢 看多",
+      "kol_name": "Zoltan Pozsar",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "欧洲美元",
+      "comments": "全球去全球化趋势 → 制裁俄罗斯导致商品供应链断裂 → 大宗商品价格飙升且供应受限 → 美元储备资产可信度下降 → 布雷顿森林体系III诞生 → 货币体系从信用本位转向商品与实物资产本位 → 黄金等硬资产成为新储备核心\n\n来源: https://www.hollandgold.nl/en/news/zoltan-pozsar-wij-zijn-getuige-van-de-geboorte-van-bretton-woods-iii | https://the-blindspot.com/a-deep-dive-into-zoltan-pozsars-bretton-woods-iii-wor",
+      "suggestion": "买入黄金ETF（GLD）和实物黄金信托（PHYS），做空长期美债（TLT）",
+      "bull_bear": "🟢 GLD, PHYS | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-81d7-8cfc-f3a64c98c5d2",
+      "name": "Ray Dalio — 🟢 看多",
+      "kol_name": "Ray Dalio",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "comments": "高债务与收入比导致财政恶化 → 货币与信贷体系风险上升 → 储备货币信任动摇 → 资金从法币流向黄金 → 央行大规模购金强化趋势 → 叠加地缘冲突与内部政治极化 → 进入长期债务周期“秋冬”阶段 → 黄金作为结构性对冲工具配置价值提升\n\n来源: https://www.tradingkey.com/analysis/commodities/metal/261764197-ray-dalio-debt-cycles-gold-all-weather-framework | https://acquirersmultiple.com/2026/05/ray-dalio-says-americas-",
+      "suggestion": "建议增持黄金相关资产，如GLD、PHYS、SLV，作为对冲货币与债务风险的核心配置。",
+      "bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT"
+    },
+    {
+      "id": "36d47eb5-fd3c-8108-801a-df0ec70e358c",
+      "name": "Luke Gromen — 🟢 看多",
+      "kol_name": "Luke Gromen",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "财政赤字",
+      "comments": "美元在全球外汇储备中的份额已从71%降至58%，若计入黄金则可能低于50% → 世界正在去美元化，尤其在价值储藏功能上 → 美国债务水平过高，正利率不可持续，政治需要迫使实际利率转负并推高通胀 → 黄金和比特币将受益于这一趋势，成为替代储备资产 → 长期通胀上升有利于硬资产\n\n来源: https://www.macrovoices.com/podcast-transcripts/1382-luke-gromen-2025-outlook | https://www.thegreatsimplification.com/episode/91-luke-gromen",
+      "suggestion": "买入黄金ETF（GLD、PHYS）和比特币（BTC），做空长期美债（TLT）以对冲通胀和财政主导风险",
+      "bull_bear": "🟢 GLD, PHYS, BTC | 🔴 TLT"
+    },
     {
       "id": "36c47eb5-fd3c-810a-b00c-e9c167b8cd70",
       "name": "看多 加密资产与科技股进入香蕉区主升浪",
