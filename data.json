@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27 17:21 JST",
+  "generated_at": "2026-05-27 23:30 JST",
   "date_range": {
     "start": "2026-01-27",
     "end": "2026-05-27"
@@ -47,11 +47,11 @@
     },
     {
       "sector": "Macro",
-      "avg": 0.13,
-      "bull": 5,
+      "avg": 0.15,
+      "bull": 6,
       "bear": 1,
-      "neutral": 25,
-      "total": 31
+      "neutral": 26,
+      "total": 33
     },
     {
       "sector": "Precious Metals",
@@ -63,6 +63,20 @@
     }
   ],
   "kol_cards": [
+    {
+      "kol_name": "Torsten Sløk",
+      "sector": "Macro",
+      "detail_sector": "利率与信贷",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "搜索内容中未直接包含Torsten Sløk的明确观点，仅从宏观市场数据推断：美元短期走强，黄金价格触及20日低点，显示短期承压；但长期金价预测报告提及专家见解，暗示中长期仍有支撑。综合来看，短期看空与长期看多因素并存，方向不明确。\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast | https://notes.hurstcy",
+      "latest_suggestion": "短期观望，等待黄金企稳信号；中长期可逢低配置GLD或PHYS。",
+      "latest_bull_bear": "🟢 GLD, PHYS",
+      "avg_score": 1.0,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 1
+    },
     {
       "kol_name": "Steve Penny",
       "sector": "Precious Metals",
@@ -666,6 +680,20 @@
       "entry_count": 10
     },
     {
+      "kol_name": "Jeremy Grantham",
+      "sector": "Macro",
+      "detail_sector": "均值回归",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-27",
+      "latest_comments": "Jeremy Grantham 认为当前市场存在由 AI 引发的泡沫 → 他作为长期看空者和泡沫专家，判断市场将下跌 50% → 结合黄金短期技术面预测显示仍有下行修正空间 → 整体指向风险资产高估和避险资产短期承压\n\n来源: https://www.youtube.com/watch?v=M-dnlf_8W5o | https://www.investing.com/commodities/go",
+      "latest_suggestion": "做空或规避美股大盘，可持有黄金作为长期对冲，短期等待黄金回调后再介入",
+      "latest_bull_bear": "🟢 GLD, PHYS | 🔴 SPY, QQQ",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
       "kol_name": "Jeff Snider",
       "sector": "Government Debt",
       "detail_sector": "欧洲美元/回购市场",
@@ -1097,7 +1125,7 @@
     "bull": [
       {
         "ticker": "GLD",
-        "count": 283
+        "count": 285
       },
       {
         "ticker": "SLV",
@@ -1109,7 +1137,7 @@
       },
       {
         "ticker": "PHYS",
-        "count": 29
+        "count": 31
       },
       {
         "ticker": "IAU",
@@ -1147,7 +1175,7 @@
       },
       {
         "ticker": "SPY",
-        "count": 29
+        "count": 30
       },
       {
         "ticker": "GLD",
@@ -1155,7 +1183,7 @@
       },
       {
         "ticker": "QQQ",
-        "count": 13
+        "count": 14
       },
       {
         "ticker": "SLV",
@@ -1302,6 +1330,30 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "36d47eb5-fd3c-8193-a278-dbd712c62605",
+      "name": "Torsten Sløk — 🟡 中性",
+      "kol_name": "Torsten Sløk",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "利率与信贷",
+      "comments": "搜索内容中未直接包含Torsten Sløk的明确观点，仅从宏观市场数据推断：美元短期走强，黄金价格触及20日低点，显示短期承压；但长期金价预测报告提及专家见解，暗示中长期仍有支撑。综合来看，短期看空与长期看多因素并存，方向不明确。\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast | https://notes.hurstcycles.com/macro-outlook/macro-outlook-26-may-2026/",
+      "suggestion": "短期观望，等待黄金企稳信号；中长期可逢低配置GLD或PHYS。",
+      "bull_bear": "🟢 GLD, PHYS"
+    },
+    {
+      "id": "36d47eb5-fd3c-813e-a758-f136d9f80123",
+      "name": "Jeremy Grantham — 🔴 看空",
+      "kol_name": "Jeremy Grantham",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-27",
+      "sector": "Macro",
+      "detail_sector": "均值回归",
+      "comments": "Jeremy Grantham 认为当前市场存在由 AI 引发的泡沫 → 他作为长期看空者和泡沫专家，判断市场将下跌 50% → 结合黄金短期技术面预测显示仍有下行修正空间 → 整体指向风险资产高估和避险资产短期承压\n\n来源: https://www.youtube.com/watch?v=M-dnlf_8W5o | https://www.investing.com/commodities/gold",
+      "suggestion": "做空或规避美股大盘，可持有黄金作为长期对冲，短期等待黄金回调后再介入",
+      "bull_bear": "🟢 GLD, PHYS | 🔴 SPY, QQQ"
+    },
     {
       "id": "36d47eb5-fd3c-815b-aa68-c8ce1325b768",
       "name": "Jeff Snider — 🟡 中性",
