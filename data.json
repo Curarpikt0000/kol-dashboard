@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-29 23:30 JST",
+  "generated_at": "2026-05-30 23:30 JST",
   "date_range": {
-    "start": "2026-01-29",
-    "end": "2026-05-29"
+    "start": "2026-01-30",
+    "end": "2026-05-30"
   },
   "sector_summary": [
     {
@@ -103,7 +103,7 @@
       "avg_score": 1.0,
       "score_label": "看多",
       "trend": "stable",
-      "entry_count": 10
+      "entry_count": 8
     },
     {
       "kol_name": "Peter Krauth",
@@ -117,49 +117,7 @@
       "avg_score": 1.0,
       "score_label": "看多",
       "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Eric Nuttall",
-      "sector": "Energy & Commodities",
-      "detail_sector": "原油/天然气",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Eric Nuttall认为能源股有120%上涨空间 → 预测油价将快速升至150美元 → 当前是多年最佳买入机会，但多数投资者仍在观望 → 供需紧张及地缘因素推动油价上行 → 能源股将受益于油价飙升\n\n来源: https://financialpost.com/tag/eric-nuttall/ | https://podcasts.apple.com/ca/podcast/market-cal",
-      "latest_suggestion": "买入加拿大能源股，如SU、CNQ、CVE，以及美国能源ETF XLE",
-      "latest_bull_bear": "🟢 SU, CNQ, CVE, XLE",
-      "avg_score": 0.64,
-      "score_label": "看多",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Chris Vermeulen",
-      "sector": "Precious Metals",
-      "detail_sector": "技术分析",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Chris Vermeulen 基于技术分析认为黄金已突破关键阻力位，当前价格回升至4500美元上方，确认了看涨趋势延续。其主要交易策略为在价格突破4792.05美元阻力或回调至4159.72美元支撑后做多，目标区间为5076.94至6616.64美元，表明中期至长期看涨结构稳固。\n\n来源: https://www.litefinance.org/blog/analysts-opinions/go",
-      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，做多黄金期货，目标看至5000美元上方。",
-      "latest_bull_bear": "🟢 GLD, PHYS",
-      "avg_score": 0.64,
-      "score_label": "看多",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Robert Gottlieb",
-      "sector": "Precious Metals",
-      "detail_sector": "实物需求",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Robert Gottlieb 曾预测黄金对全球法币的压制将在2026年4月左右暂停 → 当前搜索内容仅包含银期货价格、贵金属现货报价及CME黄金概览等常规市场数据 → 无最新观点或交易信号更新 → 无法确认其当前多空立场\n\n来源: https://www.investing.com/commodities/silver | http://www.kitco.com/price/precious-",
-      "latest_suggestion": "建议观望，等待明确信号后再操作贵金属相关标的",
-      "latest_bull_bear": "",
-      "avg_score": 0.64,
-      "score_label": "看多",
-      "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Nate Miller",
@@ -170,10 +128,24 @@
       "latest_comments": "搜索内容仅提供了Amplify Junior Silver Miners ETF (SILJ)的基本信息、价格、持仓和新闻链接，未包含Nate Miller本人的具体观点或分析逻辑。因此无法推断其看多或看空立场，只能基于SILJ作为白银矿业ETF的属性，推测其可能关注白银价格走势与矿业股表现，但缺乏明确论点支撑。\n\n来源: https://www.marketbeat.com/stocks/NYS",
       "latest_suggestion": "当前信息不足，建议关注Nate Miller近期访谈或研报，或直接跟踪SILJ价格与白银市场动态。",
       "latest_bull_bear": "",
-      "avg_score": 0.64,
+      "avg_score": 0.78,
       "score_label": "看多",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Eric Nuttall",
+      "sector": "Energy & Commodities",
+      "detail_sector": "原油/天然气",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Eric Nuttall认为能源股有120%上涨空间 → 预测油价将快速升至150美元 → 当前是多年最佳买入机会，但多数投资者仍在观望 → 供需紧张及地缘因素推动油价上行 → 能源股将受益于油价飙升\n\n来源: https://financialpost.com/tag/eric-nuttall/ | https://podcasts.apple.com/ca/podcast/market-cal",
+      "latest_suggestion": "买入加拿大能源股，如SU、CNQ、CVE，以及美国能源ETF XLE",
+      "latest_bull_bear": "🟢 SU, CNQ, CVE, XLE",
+      "avg_score": 0.67,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 9
     },
     {
       "kol_name": "Rick Rule",
@@ -184,10 +156,10 @@
       "latest_comments": "Rick Rule 当前投资组合对市值低于2.5亿美元的小型矿业股配置不足 → 暗示他看好小盘矿业股的未来表现 → 黄金、白银、铀等大宗商品价格存在触发上涨的因素 → 他计划调整仓位增加小盘矿业股配置 → 整体对贵金属及矿业板块持积极态度\n\n来源: https://investingnews.com/rick-rule-gold-market-forecast/ | https://www.jun",
       "latest_suggestion": "建议买入小盘黄金和白银矿业股，如GDXJ、SILJ，以及实物黄金ETF GLD、实物白银ETF SLV",
       "latest_bull_bear": "🟢 GLD, SLV, GDXJ, SILJ",
-      "avg_score": 0.64,
+      "avg_score": 0.67,
       "score_label": "看多",
       "trend": "rising",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Keith Neumeyer",
@@ -198,10 +170,10 @@
       "latest_comments": "搜索内容仅提供了First Majestic Silver的股价、新闻和分析页面链接，未包含Keith Neumeyer本人近48小时内的具体言论或观点。因此无法提取其核心逻辑或市场判断。\n\n来源: https://seekingalpha.com/symbol/AG | https://www.google.com/finance/beta/quote/AG:NYSE",
       "latest_suggestion": "建议关注Keith Neumeyer近期采访或公司财报电话会，以获取明确观点。当前无明确操作信号。",
       "latest_bull_bear": "",
-      "avg_score": 0.64,
+      "avg_score": 0.67,
       "score_label": "看多",
       "trend": "falling",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Craig Hemke",
@@ -212,10 +184,38 @@
       "latest_comments": "黄金价格被紧密拉向4500美元水平，与Comex期权到期日大量未平仓合约集中有关，显示市场操纵痕迹 → 白银在1月28日触及120美元后暴跌30%，但3月20日已从67.60美元低点反弹，表明底部支撑强劲 → 白银尚未出现真正的狂热阶段，当前回调是健康调整 → 贵金属矿业估值仍处于低位，未来宏观驱动将推动下一轮上涨\n\n来源: https://kereport.substack.com/p/tech",
       "latest_suggestion": "建议逢低买入黄金和白银实物或ETF，重点关注GLD、SLV和矿业股GDX",
       "latest_bull_bear": "🟢 GLD, SLV, GDX",
-      "avg_score": 0.64,
+      "avg_score": 0.67,
       "score_label": "看多",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Chris Vermeulen",
+      "sector": "Precious Metals",
+      "detail_sector": "技术分析",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Chris Vermeulen 基于技术分析认为黄金已突破关键阻力位，当前价格回升至4500美元上方，确认了看涨趋势延续。其主要交易策略为在价格突破4792.05美元阻力或回调至4159.72美元支撑后做多，目标区间为5076.94至6616.64美元，表明中期至长期看涨结构稳固。\n\n来源: https://www.litefinance.org/blog/analysts-opinions/go",
+      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，做多黄金期货，目标看至5000美元上方。",
+      "latest_bull_bear": "🟢 GLD, PHYS",
+      "avg_score": 0.56,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Robert Gottlieb",
+      "sector": "Precious Metals",
+      "detail_sector": "实物需求",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Robert Gottlieb 曾预测黄金对全球法币的压制将在2026年4月左右暂停 → 当前搜索内容仅包含银期货价格、贵金属现货报价及CME黄金概览等常规市场数据 → 无最新观点或交易信号更新 → 无法确认其当前多空立场\n\n来源: https://www.investing.com/commodities/silver | http://www.kitco.com/price/precious-",
+      "latest_suggestion": "建议观望，等待明确信号后再操作贵金属相关标的",
+      "latest_bull_bear": "",
+      "avg_score": 0.56,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 9
     },
     {
       "kol_name": "Bob Coleman",
@@ -226,10 +226,24 @@
       "latest_comments": "美国参议院引入SILVER法案要求各时区至少两个贵金属存储设施→反映当前实物贵金属市场供应中断暴露基础设施不足→立法推动扩容旨在增强系统韧性→可能提升市场对实物金银储备安全的信心→但法案尚在立法阶段，短期对价格影响有限→整体信号偏中性，需观察后续进展\n\n来源: https://www.kitco.com/news/article/2026-05-22/us-senators-introduce-b",
       "latest_suggestion": "关注SILVER法案进展，短期可持有实物金银ETF如GLD、SLV，暂不加仓",
       "latest_bull_bear": "🟢 GLD, SLV",
-      "avg_score": 0.55,
+      "avg_score": 0.56,
       "score_label": "看多",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Willem Middelkoop",
+      "sector": "Precious Metals",
+      "detail_sector": "货币体系重构",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Willem Middelkoop 认为金融系统崩溃已非遥远幻想而是迫在眉睫的危险 → 未来几年将进入‘大重置’加速期，即重大变革阶段 → 同时，黄金的货币功能正在被六股可量化的力量逐步恢复，如去美元化、央行购金等 → 这强化了黄金作为避险资产和货币锚的地位 → 综合判断，黄金将受益于系统性风险与货币体系重塑的双重驱动。\n\n来源: https://www.ninefornews.nl/financ",
+      "latest_suggestion": "建议买入黄金相关资产，如 GLD、PHYS、GDX，规避长期美债 TLT。",
+      "latest_bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT",
+      "avg_score": 0.56,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 9
     },
     {
       "kol_name": "Stewart Thomson",
@@ -246,20 +260,6 @@
       "entry_count": 2
     },
     {
-      "kol_name": "Willem Middelkoop",
-      "sector": "Precious Metals",
-      "detail_sector": "货币体系重构",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Willem Middelkoop 认为金融系统崩溃已非遥远幻想而是迫在眉睫的危险 → 未来几年将进入‘大重置’加速期，即重大变革阶段 → 同时，黄金的货币功能正在被六股可量化的力量逐步恢复，如去美元化、央行购金等 → 这强化了黄金作为避险资产和货币锚的地位 → 综合判断，黄金将受益于系统性风险与货币体系重塑的双重驱动。\n\n来源: https://www.ninefornews.nl/financ",
-      "latest_suggestion": "建议买入黄金相关资产，如 GLD、PHYS、GDX，规避长期美债 TLT。",
-      "latest_bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT",
-      "avg_score": 0.45,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
       "kol_name": "Stephen Leeb",
       "sector": "Precious Metals",
       "detail_sector": "央行购金",
@@ -268,290 +268,10 @@
       "latest_comments": "地缘政治因素将持续支撑黄金需求至2026年及以后 → 央行强劲购金与地缘不稳定共同推动黄金上行趋势 → 白银因稀缺性被多数分析师预测2026年突破100美元 → 贵金属整体受避险与供需双重驱动，中长期看涨\n\n来源: https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-",
       "latest_suggestion": "买入黄金ETF（GLD）和白银ETF（SLV），做多贵金属矿业股（GDX）",
       "latest_bull_bear": "🟢 GLD, SLV, GDX",
-      "avg_score": 0.4,
+      "avg_score": 0.5,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 10
-    },
-    {
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "kol_or_ib": "Prophet",
-      "latest_date": "2026-05-29",
-      "latest_comments": "搜索内容未直接提及郑博建(Dato' Anthony)的观点，仅汇总了其他专家对黄金2026年的预测。部分专家认为地缘政治不稳定和央行强劲需求将推动黄金上涨→另一部分专家则预期美元走强和全球经济放缓将导致金价回调→整体呈现多空分歧，缺乏郑博建本人的明确逻辑链条。\n\n来源: https://finance.yahoo.com/personal-finance/investing/article/go",
-      "latest_suggestion": "建议观望，等待郑博建明确观点后再操作。可关注GLD、SLV等贵金属ETF。",
-      "latest_bull_bear": "🟢 GLD, SLV",
-      "avg_score": 0.36,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Bob Moriarty",
-      "sector": "Precious Metals",
-      "detail_sector": "矿业股",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "黄金突破十年通道上沿 → 2024年初2050美元涨至2026年1月5600美元 → 确认长期牛市延续数年 → 黄金矿业股具有高上行潜力 → 当前是布局贵金属及矿业股的时机\n\n来源: https://seekingalpha.com/article/4906426-gold-miners-with-high-upside-potential | https://www.theaureport.co",
-      "latest_suggestion": "买入黄金ETF及矿业股，如GLD、GDX、NEM",
-      "latest_bull_bear": "🟢 GLD, GDX, NEM",
-      "avg_score": 0.36,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Jay Martin",
-      "sector": "Precious Metals",
-      "detail_sector": "矿业股",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "CME Group黄金概述显示市场持续关注黄金 → GoldRepublic预测基于年均7%回报率，2026年底金价可达6000美元/盎司，2040年升至15000美元/盎司 → Kitco报道涵盖黄金价格、矿业新闻及ETF动态，反映市场活跃度 → 综合多家机构长期看涨预期及历史回报率支撑，黄金价格呈上升趋势\n\n来源: https://www.cmegroup.com/markets/metals",
-      "latest_suggestion": "建议买入黄金ETF如GLD、PHYS，或矿业股GDX，长期持有",
-      "latest_bull_bear": "🟢 GLD, PHYS, GDX",
-      "avg_score": 0.36,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Jeff Clark",
-      "sector": "Precious Metals",
-      "detail_sector": "实物需求",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Jeff Clark 警告美联储持续印钞将引发最终余震 → 央行在2026年一季度净购入244吨黄金，显示全球避险需求强劲 → 黄金作为对抗货币贬值和系统性风险的核心资产，价格有望继续上行 → 贵金属市场处于长期牛市格局中，短期回调是买入机会\n\n来源: https://goldsilver.com/industry-news/ | https://www.bullionvault.com/gold",
-      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，同时可配置白银SLV和矿业股GDX以放大收益",
-      "latest_bull_bear": "🟢 GLD, PHYS, SLV, GDX",
-      "avg_score": 0.36,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Daniel Oliver",
-      "sector": "Precious Metals",
-      "detail_sector": "矿业股",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Daniel Oliver 认为黄金对全球法定货币的压制将在2026年4月前后暂停 → 白银名义历史新高已出现在2026年1月29日，达121.67美元 → 暗示贵金属牛市仍在延续，但可能接近阶段性高点 → 当前价格仍处于高位，但未来走势需关注2026年4月时间节点 → 整体维持看多贵金属，但提示短期风险\n\n来源: https://www.investing.com/commodities/sil",
-      "latest_suggestion": "持有或逢低买入实物白银及黄金ETF，如SLV、GLD，注意2026年4月前后可能出现的回调风险",
-      "latest_bull_bear": "🟢 SLV, GLD",
-      "avg_score": 0.36,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "David Hunter",
-      "sector": "Macro",
-      "detail_sector": "流动性周期",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "全球债务数学失衡将导致市场崩盘80% → 美联储被迫大规模宽松 → 通胀飙升至25% → 黄金和白银进入熔涨阶段 → 黄金目标6800美元，白银目标180美元甚至更高 → 当前不是正常反弹而是极端行情前奏\n\n来源: https://www.kitco.com/news/article/2026-05-20/macro-strategist-david-hunter-warns-80-market-",
-      "latest_suggestion": "买入黄金ETF GLD和实物黄金PHYS，买入白银SLV，做空长期国债TLT对冲通胀风险",
-      "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
-      "avg_score": 0.36,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Adrian Day",
-      "sector": "Precious Metals",
-      "detail_sector": "矿业股",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "地缘政治紧张局势持续升级 → 避险需求推动黄金作为安全资产 → 摩根大通预测黄金2026年底目标价6300美元，若战争恶化可达8500美元 → 白银同样受益于避险和工业需求 → 黄金长期趋势向上，不会显著贬值 → Adrian Day 认同黄金和白银在当前宏观环境下的上涨潜力\n\n来源: https://www.kitco.com/ | https://www.kavout.com/market-l",
-      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，以及白银ETF SLV，长期持有",
-      "latest_bull_bear": "🟢 GLD, PHYS, SLV",
-      "avg_score": 0.3,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 10
-    },
-    {
-      "kol_name": "AG Thorson",
-      "sector": "Precious Metals",
-      "detail_sector": "技术分析",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "搜索内容未直接包含AG Thorson的近期观点，仅提供通用黄金价格预测链接 → 缺乏具体周期分析依据 → 无法确认其当前多空立场 → 综合判断为中性/混合\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast | https://www.litefinance.org/blog/analysts-opinions/gold-pri",
-      "latest_suggestion": "观望为主，可轻仓持有GLD对冲风险，暂不加仓",
-      "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.29,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 7
-    },
-    {
-      "kol_name": "Abhigya Anand",
-      "sector": "Alternative",
-      "detail_sector": "末日情景",
-      "kol_or_ib": "Prophet",
-      "latest_date": "2026-05-29",
-      "latest_comments": "搜索内容中未直接包含Abhigya Anand的观点，但综合近期市场分析：地缘政治紧张与美联储政策可能转向→限制黄金短期上行空间→但通胀、汇率波动及央行购金需求支撑长期看涨→部分专家预期持续上涨，另有观点认为美元走强和经济放缓将引发回调→多空因素交织，方向不明确\n\n来源: https://timesofindia.indiatimes.com/business/india-business/gol",
-      "latest_suggestion": "建议观望或轻仓配置黄金ETF（GLD）对冲风险，暂不加仓白银",
-      "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.27,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Cathie Wood",
-      "sector": "Equities",
-      "detail_sector": "科技/AI",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Cathie Wood 认为传统科技增长放缓 → 资金应转向更具颠覆性的创新领域 → 数字资产、电商和人工智能是未来核心增长引擎 → 其持仓调整和‘Big Ideas 2026’报告均支持这一长期看多逻辑 → 对贵金属等传统避险资产未明确表态，但整体风险偏好提升利好风险资产而非黄金。\n\n来源: https://www.kavout.com/market-lens/what-s-driving-ca",
-      "latest_suggestion": "可关注 ARKK 及 AI、数字资产相关标的，如 COIN、TSLA；减持传统科技股。",
-      "latest_bull_bear": "🟢 ARKK, COIN, TSLA",
-      "avg_score": 0.27,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Michael Saylor",
-      "sector": "Crypto",
-      "detail_sector": "比特币",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Michael Saylor 此前坚持永不卖出比特币，但近期公开讨论2026年可能出售比特币以维护长期价值 → 微策略股价30日内下跌10.9%，比特币价格在75000美元附近波动，显示市场对其策略信心动摇 → 公司已进行24,869 BTC增持和15亿美元债务回购，但出售信号表明其比特币囤积策略可能转向变现 → 作为最大公开比特币持有者，其态度转变可能引发市场对比特币流动性和价格支撑的担忧 → ",
-      "latest_suggestion": "减持或做空比特币相关资产，关注BTC、MSTR的短期下行风险，可考虑买入黄金ETF如GLD对冲",
-      "latest_bull_bear": "🟢 GLD, PHYS | 🔴 BTC, MSTR",
-      "avg_score": 0.27,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Kuppy (Doomberg)",
-      "sector": "Energy & Commodities",
-      "detail_sector": "铀/核能",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "搜索内容仅涉及NuScale Power股票信息、核能股推荐列表及美国能源部关于小型模块化反应堆的技术支持计划，未包含Doomberg/Kuppy团队的具体观点或分析。因此无法提取其看多或看空逻辑，仅能判断当前市场对核能领域存在政策与投资关注，但缺乏明确方向性信号。\n\n来源: https://finance.yahoo.com/quote/SMR/ | https://www.zacks.com/",
-      "latest_suggestion": "暂不操作，等待Doomberg/Kuppy明确观点后再决策。",
-      "latest_bull_bear": "",
-      "avg_score": 0.27,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Alasdair Macleod",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金走势",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "大型银行囤积黄金而西方投资者忽视 → 表明市场对系统性风险有深刻担忧 → 黄金价格有望突破8000美元 → 白银波动性急剧放大，反映其货币属性回归 → 股票市场泡沫破裂风险加剧 → 贵金属成为避险核心资产\n\n来源: https://www.youtube.com/watch?v=C3PUUzKaju8 | https://www.youtube.com/watch?v=DB_E1uMf9mk",
-      "latest_suggestion": "买入黄金ETF（GLD、PHYS）及白银ETF（SLV），做空长期国债（TLT）对冲信用风险",
-      "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
-      "avg_score": 0.27,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Clem Chambers",
-      "sector": "Macro",
-      "detail_sector": "流动性周期",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Clem Chambers 指出伊朗战争爆发后市场环境已变 → 正常时期的投资策略不再适用 → 他调整了自身策略以应对地缘政治风险 → 但具体调整方向未明确说明 → 结合贵金属价格近期承压及矿业并购活跃的背景 → 整体观点偏向谨慎观望，未给出明确多空信号\n\n来源: https://www.cmegroup.com/markets/metals/precious/silver.html | http",
-      "latest_suggestion": "建议暂时观望，关注地缘局势演变，可少量配置黄金ETF（GLD）对冲风险",
-      "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.27,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Athos Salomé",
-      "sector": "Alternative",
-      "detail_sector": "末日情景",
-      "kol_or_ib": "Prophet",
-      "latest_date": "2026-05-29",
-      "latest_comments": "搜索内容显示NOAA在2026年1月23日完成太阳观测卫星轨道部署，可能预示太阳活动增强→太阳活动影响地磁暴和电子设备，但未直接关联贵金属价格→同时出现黄金2026年预测可能触及6000美元的信息，但缺乏Athos Salomé本人的明确观点或预言文本→无法确定其看多或看空逻辑，仅能基于搜索内容中性混合判断\n\n来源: https://www.swpc.noaa.gov/ | https://www",
-      "latest_suggestion": "建议观望，等待Athos Salomé明确预言后再操作。可关注黄金ETF GLD和SLV，但暂不建仓",
-      "latest_bull_bear": "🟢 GLD, SLV",
-      "avg_score": 0.18,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Brandon Biggs",
-      "sector": "Alternative",
-      "detail_sector": "财富转移预言",
-      "kol_or_ib": "Prophet",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Brandon Biggs近期内容主要为预言总结和推广其付费社群，未直接给出贵金属或宏观经济明确观点 → 其内容与黄金价格预测、金融市场分析无直接关联 → 同时搜索到黄金价格预测文章和财经新闻，但未与Biggs观点结合 → 整体缺乏可推导的看多或看空逻辑\n\n来源: https://www.youtube.com/watch?v=hGfkVAT69xw | https://www.litefinan",
-      "latest_suggestion": "当前信息不足以形成操作建议，建议关注主流机构黄金报告或等待更明确信号",
-      "latest_bull_bear": "",
-      "avg_score": 0.18,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Ray Kurzweil",
-      "sector": "Equities",
-      "detail_sector": "科技/AI",
-      "kol_or_ib": "AI View",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Ray Kurzweil 预测2029年AI达到人类智能水平→2045年技术奇点到来→纳米机器人将进入人体改善健康与认知→技术突破可能推动生产力与医疗革命→长期利好贵金属需求（如医疗与电子用银）→但短期宏观不确定性（利率、通胀）与AI对传统经济结构的冲击并存→市场情绪复杂，贵金属方向不明确\n\n来源: https://en.wikipedia.org/wiki/Technological_singu",
-      "latest_suggestion": "观望为主，可少量配置黄金ETF（GLD）对冲长期技术不确定性，避免追高",
-      "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.18,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Dan Ives",
-      "sector": "Equities",
-      "detail_sector": "科技/AI",
-      "kol_or_ib": "IB View",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Dan Ives 认为AI革命正处于“第三局”，长期增长空间广阔 → 他管理的Wedbush AI Revolution ETF聚焦AI主题，显示对AI产业链的持续看好 → 其最新纳入Datadog和SK Hynix，强调内存（DRAM/NAND）价格将在2026下半年显著回升，半导体需求强劲 → 整体逻辑指向AI基础设施和半导体上游受益，贵金属未直接提及，但AI扩张带动科技股和风险偏好，间接压制",
-      "latest_suggestion": "建议关注AI和半导体相关ETF，如IVES、SMH；贵金属短期偏空，可减持GLD、SLV",
-      "latest_bull_bear": "🟢 IVES, SMH | 🔴 GLD, SLV",
-      "avg_score": 0.18,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Raoul Pal",
-      "sector": "Crypto",
-      "detail_sector": "山寨币周期",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "全球流动性上升是核心驱动力 → 加密货币牛市结构未因横盘而破坏 → AI基础设施需求与区块链采用加速形成完美风暴 → 以太坊和Solana作为主要替代币选择，最坏时期已过 → 加密资产是长期网络采用故事，受流动性和商业周期驱动\n\n来源: https://www.benzinga.com/crypto/cryptocurrency/26/05/52858458/look-past-xrp-raoul",
-      "latest_suggestion": "买入ETH和SOL，持有BTC，关注GLD作为对冲，避免做空加密资产",
-      "latest_bull_bear": "🟢 ETH, SOL, BTC, GLD",
-      "avg_score": 0.18,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Vince Lanci",
-      "sector": "Precious Metals",
-      "detail_sector": "COMEX仓位",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "搜索内容仅包含CME集团和COMEX黄金期货的通用市场信息页面，以及CNBC的黄金期货报价链接，未提供Vince Lanci本人的具体观点或交易逻辑。因此无法提取其核心论点或推理过程，仅能基于现有信息判断为中性。\n\n来源: https://www.cmegroup.com/markets/metals/precious/gold.html | https://www.cnbc.com/quotes",
-      "latest_suggestion": "缺乏明确观点，建议观望或参考其他分析师意见。",
-      "latest_bull_bear": "",
-      "avg_score": 0.18,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
+      "entry_count": 8
     },
     {
       "kol_name": "Daniel Ghali",
@@ -562,10 +282,290 @@
       "latest_comments": "搜索内容未直接引用Daniel Ghali的原话或近期观点 → 仅从第三方文章和宏观数据推断 → 全球央行在2026年一季度净购金244吨，显示官方持续增持黄金 → 美国仍持有8133.5吨黄金储备，但新兴市场央行买入加速 → 央行购金行为通常支撑金价长期看多 → 但缺乏Ghali本人对短期利率、美元或技术面的明确判断 → 综合判断为中性/混合\n\n来源: https://www.goldrepub",
       "latest_suggestion": "建议观望，可轻仓配置黄金ETF如GLD或实物黄金，避免追高。",
       "latest_bull_bear": "🟢 GLD, PHYS",
-      "avg_score": 0.18,
+      "avg_score": 0.44,
       "score_label": "中性",
       "trend": "falling",
-      "entry_count": 11
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Bob Moriarty",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "黄金突破十年通道上沿 → 2024年初2050美元涨至2026年1月5600美元 → 确认长期牛市延续数年 → 黄金矿业股具有高上行潜力 → 当前是布局贵金属及矿业股的时机\n\n来源: https://seekingalpha.com/article/4906426-gold-miners-with-high-upside-potential | https://www.theaureport.co",
+      "latest_suggestion": "买入黄金ETF及矿业股，如GLD、GDX、NEM",
+      "latest_bull_bear": "🟢 GLD, GDX, NEM",
+      "avg_score": 0.44,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Jay Martin",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "CME Group黄金概述显示市场持续关注黄金 → GoldRepublic预测基于年均7%回报率，2026年底金价可达6000美元/盎司，2040年升至15000美元/盎司 → Kitco报道涵盖黄金价格、矿业新闻及ETF动态，反映市场活跃度 → 综合多家机构长期看涨预期及历史回报率支撑，黄金价格呈上升趋势\n\n来源: https://www.cmegroup.com/markets/metals",
+      "latest_suggestion": "建议买入黄金ETF如GLD、PHYS，或矿业股GDX，长期持有",
+      "latest_bull_bear": "🟢 GLD, PHYS, GDX",
+      "avg_score": 0.44,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Daniel Oliver",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Daniel Oliver 认为黄金对全球法定货币的压制将在2026年4月前后暂停 → 白银名义历史新高已出现在2026年1月29日，达121.67美元 → 暗示贵金属牛市仍在延续，但可能接近阶段性高点 → 当前价格仍处于高位，但未来走势需关注2026年4月时间节点 → 整体维持看多贵金属，但提示短期风险\n\n来源: https://www.investing.com/commodities/sil",
+      "latest_suggestion": "持有或逢低买入实物白银及黄金ETF，如SLV、GLD，注意2026年4月前后可能出现的回调风险",
+      "latest_bull_bear": "🟢 SLV, GLD",
+      "avg_score": 0.44,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Abhigya Anand",
+      "sector": "Alternative",
+      "detail_sector": "末日情景",
+      "kol_or_ib": "Prophet",
+      "latest_date": "2026-05-29",
+      "latest_comments": "搜索内容中未直接包含Abhigya Anand的观点，但综合近期市场分析：地缘政治紧张与美联储政策可能转向→限制黄金短期上行空间→但通胀、汇率波动及央行购金需求支撑长期看涨→部分专家预期持续上涨，另有观点认为美元走强和经济放缓将引发回调→多空因素交织，方向不明确\n\n来源: https://timesofindia.indiatimes.com/business/india-business/gol",
+      "latest_suggestion": "建议观望或轻仓配置黄金ETF（GLD）对冲风险，暂不加仓白银",
+      "latest_bull_bear": "🟢 GLD",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Cathie Wood",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Cathie Wood 认为传统科技增长放缓 → 资金应转向更具颠覆性的创新领域 → 数字资产、电商和人工智能是未来核心增长引擎 → 其持仓调整和‘Big Ideas 2026’报告均支持这一长期看多逻辑 → 对贵金属等传统避险资产未明确表态，但整体风险偏好提升利好风险资产而非黄金。\n\n来源: https://www.kavout.com/market-lens/what-s-driving-ca",
+      "latest_suggestion": "可关注 ARKK 及 AI、数字资产相关标的，如 COIN、TSLA；减持传统科技股。",
+      "latest_bull_bear": "🟢 ARKK, COIN, TSLA",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Michael Saylor",
+      "sector": "Crypto",
+      "detail_sector": "比特币",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Michael Saylor 此前坚持永不卖出比特币，但近期公开讨论2026年可能出售比特币以维护长期价值 → 微策略股价30日内下跌10.9%，比特币价格在75000美元附近波动，显示市场对其策略信心动摇 → 公司已进行24,869 BTC增持和15亿美元债务回购，但出售信号表明其比特币囤积策略可能转向变现 → 作为最大公开比特币持有者，其态度转变可能引发市场对比特币流动性和价格支撑的担忧 → ",
+      "latest_suggestion": "减持或做空比特币相关资产，关注BTC、MSTR的短期下行风险，可考虑买入黄金ETF如GLD对冲",
+      "latest_bull_bear": "🟢 GLD, PHYS | 🔴 BTC, MSTR",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Kuppy (Doomberg)",
+      "sector": "Energy & Commodities",
+      "detail_sector": "铀/核能",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "搜索内容仅涉及NuScale Power股票信息、核能股推荐列表及美国能源部关于小型模块化反应堆的技术支持计划，未包含Doomberg/Kuppy团队的具体观点或分析。因此无法提取其看多或看空逻辑，仅能判断当前市场对核能领域存在政策与投资关注，但缺乏明确方向性信号。\n\n来源: https://finance.yahoo.com/quote/SMR/ | https://www.zacks.com/",
+      "latest_suggestion": "暂不操作，等待Doomberg/Kuppy明确观点后再决策。",
+      "latest_bull_bear": "",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "AG Thorson",
+      "sector": "Precious Metals",
+      "detail_sector": "技术分析",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "搜索内容未直接包含AG Thorson的近期观点，仅提供通用黄金价格预测链接 → 缺乏具体周期分析依据 → 无法确认其当前多空立场 → 综合判断为中性/混合\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast | https://www.litefinance.org/blog/analysts-opinions/gold-pri",
+      "latest_suggestion": "观望为主，可轻仓持有GLD对冲风险，暂不加仓",
+      "latest_bull_bear": "🟢 GLD",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 6
+    },
+    {
+      "kol_name": "Adrian Day",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "地缘政治紧张局势持续升级 → 避险需求推动黄金作为安全资产 → 摩根大通预测黄金2026年底目标价6300美元，若战争恶化可达8500美元 → 白银同样受益于避险和工业需求 → 黄金长期趋势向上，不会显著贬值 → Adrian Day 认同黄金和白银在当前宏观环境下的上涨潜力\n\n来源: https://www.kitco.com/ | https://www.kavout.com/market-l",
+      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，以及白银ETF SLV，长期持有",
+      "latest_bull_bear": "🟢 GLD, PHYS, SLV",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Jeff Clark",
+      "sector": "Precious Metals",
+      "detail_sector": "实物需求",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Jeff Clark 警告美联储持续印钞将引发最终余震 → 央行在2026年一季度净购入244吨黄金，显示全球避险需求强劲 → 黄金作为对抗货币贬值和系统性风险的核心资产，价格有望继续上行 → 贵金属市场处于长期牛市格局中，短期回调是买入机会\n\n来源: https://goldsilver.com/industry-news/ | https://www.bullionvault.com/gold",
+      "latest_suggestion": "建议买入黄金ETF GLD或实物黄金PHYS，同时可配置白银SLV和矿业股GDX以放大收益",
+      "latest_bull_bear": "🟢 GLD, PHYS, SLV, GDX",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Alasdair Macleod",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金走势",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "大型银行囤积黄金而西方投资者忽视 → 表明市场对系统性风险有深刻担忧 → 黄金价格有望突破8000美元 → 白银波动性急剧放大，反映其货币属性回归 → 股票市场泡沫破裂风险加剧 → 贵金属成为避险核心资产\n\n来源: https://www.youtube.com/watch?v=C3PUUzKaju8 | https://www.youtube.com/watch?v=DB_E1uMf9mk",
+      "latest_suggestion": "买入黄金ETF（GLD、PHYS）及白银ETF（SLV），做空长期国债（TLT）对冲信用风险",
+      "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Clem Chambers",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Clem Chambers 指出伊朗战争爆发后市场环境已变 → 正常时期的投资策略不再适用 → 他调整了自身策略以应对地缘政治风险 → 但具体调整方向未明确说明 → 结合贵金属价格近期承压及矿业并购活跃的背景 → 整体观点偏向谨慎观望，未给出明确多空信号\n\n来源: https://www.cmegroup.com/markets/metals/precious/silver.html | http",
+      "latest_suggestion": "建议暂时观望，关注地缘局势演变，可少量配置黄金ETF（GLD）对冲风险",
+      "latest_bull_bear": "🟢 GLD",
+      "avg_score": 0.33,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Athos Salomé",
+      "sector": "Alternative",
+      "detail_sector": "末日情景",
+      "kol_or_ib": "Prophet",
+      "latest_date": "2026-05-29",
+      "latest_comments": "搜索内容显示NOAA在2026年1月23日完成太阳观测卫星轨道部署，可能预示太阳活动增强→太阳活动影响地磁暴和电子设备，但未直接关联贵金属价格→同时出现黄金2026年预测可能触及6000美元的信息，但缺乏Athos Salomé本人的明确观点或预言文本→无法确定其看多或看空逻辑，仅能基于搜索内容中性混合判断\n\n来源: https://www.swpc.noaa.gov/ | https://www",
+      "latest_suggestion": "建议观望，等待Athos Salomé明确预言后再操作。可关注黄金ETF GLD和SLV，但暂不建仓",
+      "latest_bull_bear": "🟢 GLD, SLV",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "郑博建 (Dato' Anthony)",
+      "sector": "Alternative",
+      "detail_sector": "经济重置叙事",
+      "kol_or_ib": "Prophet",
+      "latest_date": "2026-05-29",
+      "latest_comments": "搜索内容未直接提及郑博建(Dato' Anthony)的观点，仅汇总了其他专家对黄金2026年的预测。部分专家认为地缘政治不稳定和央行强劲需求将推动黄金上涨→另一部分专家则预期美元走强和全球经济放缓将导致金价回调→整体呈现多空分歧，缺乏郑博建本人的明确逻辑链条。\n\n来源: https://finance.yahoo.com/personal-finance/investing/article/go",
+      "latest_suggestion": "建议观望，等待郑博建明确观点后再操作。可关注GLD、SLV等贵金属ETF。",
+      "latest_bull_bear": "🟢 GLD, SLV",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Brandon Biggs",
+      "sector": "Alternative",
+      "detail_sector": "财富转移预言",
+      "kol_or_ib": "Prophet",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Brandon Biggs近期内容主要为预言总结和推广其付费社群，未直接给出贵金属或宏观经济明确观点 → 其内容与黄金价格预测、金融市场分析无直接关联 → 同时搜索到黄金价格预测文章和财经新闻，但未与Biggs观点结合 → 整体缺乏可推导的看多或看空逻辑\n\n来源: https://www.youtube.com/watch?v=hGfkVAT69xw | https://www.litefinan",
+      "latest_suggestion": "当前信息不足以形成操作建议，建议关注主流机构黄金报告或等待更明确信号",
+      "latest_bull_bear": "",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Ray Kurzweil",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "kol_or_ib": "AI View",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Ray Kurzweil 预测2029年AI达到人类智能水平→2045年技术奇点到来→纳米机器人将进入人体改善健康与认知→技术突破可能推动生产力与医疗革命→长期利好贵金属需求（如医疗与电子用银）→但短期宏观不确定性（利率、通胀）与AI对传统经济结构的冲击并存→市场情绪复杂，贵金属方向不明确\n\n来源: https://en.wikipedia.org/wiki/Technological_singu",
+      "latest_suggestion": "观望为主，可少量配置黄金ETF（GLD）对冲长期技术不确定性，避免追高",
+      "latest_bull_bear": "🟢 GLD",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Dan Ives",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "kol_or_ib": "IB View",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Dan Ives 认为AI革命正处于“第三局”，长期增长空间广阔 → 他管理的Wedbush AI Revolution ETF聚焦AI主题，显示对AI产业链的持续看好 → 其最新纳入Datadog和SK Hynix，强调内存（DRAM/NAND）价格将在2026下半年显著回升，半导体需求强劲 → 整体逻辑指向AI基础设施和半导体上游受益，贵金属未直接提及，但AI扩张带动科技股和风险偏好，间接压制",
+      "latest_suggestion": "建议关注AI和半导体相关ETF，如IVES、SMH；贵金属短期偏空，可减持GLD、SLV",
+      "latest_bull_bear": "🟢 IVES, SMH | 🔴 GLD, SLV",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Raoul Pal",
+      "sector": "Crypto",
+      "detail_sector": "山寨币周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "全球流动性上升是核心驱动力 → 加密货币牛市结构未因横盘而破坏 → AI基础设施需求与区块链采用加速形成完美风暴 → 以太坊和Solana作为主要替代币选择，最坏时期已过 → 加密资产是长期网络采用故事，受流动性和商业周期驱动\n\n来源: https://www.benzinga.com/crypto/cryptocurrency/26/05/52858458/look-past-xrp-raoul",
+      "latest_suggestion": "买入ETH和SOL，持有BTC，关注GLD作为对冲，避免做空加密资产",
+      "latest_bull_bear": "🟢 ETH, SOL, BTC, GLD",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Anu Anand",
+      "sector": "Energy & Commodities",
+      "detail_sector": "大宗商品周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "地缘政治紧张、能源价格高企和美元波动持续影响黄金市场 → 能源价格推升通胀压力 → 央行可能维持高利率而非降息 → 高利率环境压制黄金价格 → 黄金自冲突以来已下跌超15% → 但长期预测仍基于专家对2026年及之后的展望，存在不确定性 → 短期利空与长期利多因素交织，方向不明确\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast",
+      "latest_suggestion": "建议观望，可少量配置GLD对冲通胀风险，避免追空或重仓做多",
+      "latest_bull_bear": "🟢 GLD",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Vince Lanci",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX仓位",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "搜索内容仅包含CME集团和COMEX黄金期货的通用市场信息页面，以及CNBC的黄金期货报价链接，未提供Vince Lanci本人的具体观点或交易逻辑。因此无法提取其核心论点或推理过程，仅能基于现有信息判断为中性。\n\n来源: https://www.cmegroup.com/markets/metals/precious/gold.html | https://www.cnbc.com/quotes",
+      "latest_suggestion": "缺乏明确观点，建议观望或参考其他分析师意见。",
+      "latest_bull_bear": "",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
     },
     {
       "kol_name": "David Garofalo",
@@ -576,10 +576,10 @@
       "latest_comments": "搜索内容未直接包含David Garofalo的近期观点，仅提及Vizsla Silver的Panuco项目拥有2-3.5%的净冶炼厂回报率特许权使用费，以及黄金矿业股存在公司特定风险，而黄金特许权公司表现与商品本身更接近。缺乏明确的多空信号，故判断为中性。\n\n来源: https://investingnews.com/top-stock-market-news/ | https://ca.fin",
       "latest_suggestion": "建议观望，关注黄金特许权公司如Gold Royalty Corp（GROY）及Vizsla Silver（VZLA）的后续动态。",
       "latest_bull_bear": "🟢 GROY, VZLA",
-      "avg_score": 0.18,
+      "avg_score": 0.22,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Matthew Piepenburg",
@@ -590,10 +590,10 @@
       "latest_comments": "全球金融体系日益脆弱 → 黄金波动性上升但属于风险期正常现象 → 白银长期上行趋势未受短期波动影响 → 贵金属作为避险资产将受益于系统性风险加剧 → 市场可能即将出现“断裂”事件 → 黄金和白银价格长期看涨\n\n来源: https://vongreyerz.gold/one-chart-says-it-all-something-is-about-to-snap | https://www.gold",
       "latest_suggestion": "建议买入黄金ETF（GLD、PHYS）和白银ETF（SLV），做多贵金属避险资产",
       "latest_bull_bear": "🟢 GLD, PHYS, SLV",
-      "avg_score": 0.18,
+      "avg_score": 0.22,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Judy Shelton",
@@ -604,10 +604,24 @@
       "latest_comments": "Judy Shelton 主张回归金本位并批评美联储的货币扩张政策 → 她提出发行50年期黄金挂钩的“财政部信托债券”，赋予投资者黄金赎回选择权 → 该机制旨在恢复黄金的货币功能，对冲美元信用风险 → 若市场预期美元购买力下降或通胀加剧，黄金将因货币属性重估而上涨 → 因此黄金及实物金支持资产将受益。\n\n来源: https://en.wikipedia.org/wiki/Judy_Shelton ",
       "latest_suggestion": "建议买入黄金ETF或实物金支持标的，如GLD、PHYS，做空长期美债TLT以对冲美元信用风险。",
       "latest_bull_bear": "🟢 GLD, PHYS | 🔴 TLT",
-      "avg_score": 0.18,
+      "avg_score": 0.22,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 11
+      "entry_count": 9
+    },
+    {
+      "kol_name": "David Hunter",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "全球债务数学失衡将导致市场崩盘80% → 美联储被迫大规模宽松 → 通胀飙升至25% → 黄金和白银进入熔涨阶段 → 黄金目标6800美元，白银目标180美元甚至更高 → 当前不是正常反弹而是极端行情前奏\n\n来源: https://www.kitco.com/news/article/2026-05-20/macro-strategist-david-hunter-warns-80-market-",
+      "latest_suggestion": "买入黄金ETF GLD和实物黄金PHYS，买入白银SLV，做空长期国债TLT对冲通胀风险",
+      "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
+      "avg_score": 0.22,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 9
     },
     {
       "kol_name": "Jeff Snider",
@@ -618,10 +632,10 @@
       "latest_comments": "Jeff Snider关注货币科学和欧元美元市场，强调从货币体系深层理解市场信号 → 当前黄金接近两个月低点，受能源价格上涨推升通胀担忧影响 → 美联储官员维持谨慎，Cook支持暂不降息但保留加息可能，Williams警告通胀可能升至4% → 利率预期分化，市场对降息预期减弱 → 黄金短期承压，但通胀若持续上升可能强化黄金避险需求 → 整体多空因素交织，方向不明确\n\n来源: https://pod",
       "latest_suggestion": "建议观望，等待通胀数据和美联储政策信号明朗化。可关注黄金ETF GLD和实物黄金PHYS的逢低机会。",
       "latest_bull_bear": "🟢 GLD, PHYS",
-      "avg_score": 0.17,
+      "avg_score": 0.2,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 6
+      "entry_count": 5
     },
     {
       "kol_name": "James Grant",
@@ -632,10 +646,10 @@
       "latest_comments": "30年期国债收益率突破5%为2007年以来首次，反映债券市场对长期利率上行和通胀持续性的担忧 → 但高收益率本身可能吸引买家，形成机会与风险并存的局面 → James Grant作为利率观察者，通常关注市场极端情绪和逆向机会，当前债券收益率处于历史高位可能暗示价值机会，但短期信号矛盾 → 整体逻辑链条指向市场在危险与机会之间摇摆，方向不明确\n\n来源: https://fred.stlouisfed",
       "latest_suggestion": "建议观望，可少量配置黄金GLD对冲不确定性，避免追涨长期国债TLT",
       "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.17,
+      "avg_score": 0.2,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 6
+      "entry_count": 5
     },
     {
       "kol_name": "David Icke",
@@ -646,10 +660,10 @@
       "latest_comments": "David Icke 近期内容主要讨论货币本质（货币只存在于我们的思想中）→ 同时提及迪拜房产投资广告 → 未直接对贵金属价格走势发表明确观点 → 但美国参议院引入SILVER法案要求各时区设立金银存储设施 → 该法案可能提升白银实物需求与基础设施价值 → 整体信息偏向长期持有实物贵金属的叙事，但缺乏短期价格判断依据\n\n来源: https://goldsilver.com/industry-new",
       "latest_suggestion": "关注SILVER法案进展，可逢低配置实物白银ETF如SLV，黄金ETF如GLD作为长期对冲",
       "latest_bull_bear": "🟢 SLV, GLD, PHYS",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Amanda Grace",
@@ -660,10 +674,10 @@
       "latest_comments": "搜索内容中Amanda Grace的预言性言论主要涉及对特朗普的宗教性警示，未直接关联贵金属市场基本面或技术面分析 → 其他搜索结果仅提供常规黄金价格预测和短期技术分析，缺乏与Amanda Grace观点的直接联系 → 无法从现有信息中提取明确的贵金属多空逻辑链条 → 整体判断为中性/混合\n\n来源: https://www.goldrepublic.com/en-us/gold-price/for",
       "latest_suggestion": "当前缺乏明确方向性信号，建议观望或持有现有黄金仓位，等待更清晰的基本面或技术面指引",
       "latest_bull_bear": "",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "FEMA",
@@ -674,10 +688,10 @@
       "latest_comments": "FEMA近期批准近1.75亿美元援助社区灾后恢复与韧性建设 → 表明美国自然灾害频发且财政支出增加 → 短期可能推高政府债务与通胀预期 → 对贵金属构成一定支撑 → 但信息仅为单一机构动态，缺乏宏观经济数据或市场情绪佐证 → 无法形成明确的多空趋势判断\n\n来源: https://www.fema.gov/ | https://www.fema.gov/about/news-multimedia/p",
       "latest_suggestion": "建议观望，暂不操作。若已有贵金属仓位可持有，但不宜加仓。",
       "latest_bull_bear": "",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Jim Rogers",
@@ -688,10 +702,10 @@
       "latest_comments": "搜索内容未直接引用Jim Rogers的言论，仅包含贵金属行业新闻和白银价格波动信息。白银价格从2026年低点反弹但仍低于伊朗战争前水平，分析师警告需求破坏风险。缺乏Rogers本人的明确观点或逻辑链条，无法推断其具体立场。\n\n来源: https://goldsilver.com/industry-news/ | https://www.cnbc.com/2026/05/28/silver-dem",
       "latest_suggestion": "当前信息不足，建议观望或参考Rogers历史观点（长期看多贵金属），可关注GLD、SLV等标的。",
       "latest_bull_bear": "🟢 GLD, SLV",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Gareth Soloway",
@@ -702,10 +716,10 @@
       "latest_comments": "搜索内容仅包含黄金价格数据（2026年5月28日涨至4501.77美元/盎司，月跌0.97%但年涨35.67%）以及Gareth Soloway关于半导体板块（SOXX、SMH、NVDA）的技术分析视频标题，未提供其明确黄金或贵金属观点。黄金短期震荡但长期强势，半导体分析可能隐含科技股与贵金属的轮动逻辑，但缺乏直接关联和完整推理链。\n\n来源: https://tradingeconomics.co",
       "latest_suggestion": "当前信息不足，建议观望黄金和半导体板块，等待Gareth Soloway明确观点后再操作。",
       "latest_bull_bear": "",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Robert Kiyosaki",
@@ -716,24 +730,10 @@
       "latest_comments": "全球债务与通胀风险上升 → 传统法定货币面临挑战 → 市场崩盘即将来临 → 投资者应转向硬资产避险 → 黄金和白银价格将大幅上涨（金价目标10000美元，银价目标200美元）→ 同时比特币也可作为对冲工具\n\n来源: https://hdfcsky.com/news/rich-dad-poor-dad-author-robert-kiyosaki-warns-of-imminent-market-c",
       "latest_suggestion": "买入黄金、白银及相关ETF，如GLD、SLV、PHYS，同时可配置比特币作为对冲",
       "latest_bull_bear": "🟢 GLD, SLV, PHYS, BTC",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "S. Druckenmiller",
-      "sector": "Macro",
-      "detail_sector": "美元指数",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Druckenmiller在2026年一季度大幅调仓，卖出Alphabet和Nvidia，同时加仓定制芯片与CPU等AI基础设施股，表明他并未放弃AI交易，而是从集中持仓的科技巨头转向传统经济驱动和AI基础设施细分领域，认为定制芯片和CPU将在推理负载中成为GPU的耐用替代品。整体逻辑是AI主题延续但内部轮动，宏观上市场领导力从Magnificent Seven转向传统增长板块。\n\n来源: htt",
-      "latest_suggestion": "关注AI基础设施相关标的，如定制芯片和CPU公司，减持过度集中的科技巨头，可考虑分散至传统经济驱动板块。",
-      "latest_bull_bear": "🟢 AMD, MRVL | 🔴 NVDA, GOOGL",
-      "avg_score": 0.09,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Citi / UBS",
@@ -744,10 +744,10 @@
       "latest_comments": "UBS下调2026年黄金价格预测至5500美元/盎司 → 核心原因是美债收益率上升和美元持续走强带来的持续逆风 → 短期目标5200美元/盎司，低于当前现货价 → 分析师认为“轻松赚钱的阶段可能已经过去” → 高实际收益率和油价上涨进一步压制黄金吸引力 → 整体观点偏向谨慎看空\n\n来源: https://www.kitco.com/news/article/2026-05-27/ubs-lower",
       "latest_suggestion": "建议减持黄金多头仓位，可考虑做空GLD或买入美元相关资产对冲",
       "latest_bull_bear": "🔴 GLD, GDX",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Morgan Stanley",
@@ -758,10 +758,10 @@
       "latest_comments": "Morgan Stanley指出市场虽在反弹，但家庭资产负债表脆弱、长期利率上升及股市涨幅集中构成风险 → 同时美国成屋签约销售环比增长1.4%显示经济韧性 → 对黄金的长期看多观点主要来自J.P. Morgan的预测而非Morgan Stanley自身 → 综合来看，Morgan Stanley对短期市场持谨慎态度，但未明确看空黄金，整体信号混合\n\n来源: https://am.jpmorgan",
       "latest_suggestion": "建议观望或配置黄金ETF如GLD对冲风险，避免追高集中度高的股票",
       "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "David Stockman",
@@ -772,10 +772,10 @@
       "latest_comments": "全球衰退与地缘冲击可能推升金价15%-30% → 但财政政策、美元走强和高利率环境可能导致金价下跌5%-20% → 同时有观点认为黄金泡沫即将破裂 → 而IMF指出全球债务上升和财政压力增强非货币资产需求，黄金受益于债务可持续性担忧 → 多空因素交织，方向不明\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast | https:/",
       "latest_suggestion": "建议观望，可少量配置GLD对冲风险，避免追高",
       "latest_bull_bear": "🟢 GLD, PHYS",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Larry McDonald",
@@ -786,10 +786,10 @@
       "latest_comments": "Larry McDonald近期关注AI热潮面临收益率上升和IPO热潮的压力 → 市场情绪与利率环境存在矛盾 → 同时提及SpaceX IPO风险及市场整体情绪 → 未明确表达对贵金属或宏观资产的单边看多或看空 → 整体观点偏向谨慎混合\n\n来源: https://www.linkedin.com/in/convertbond | https://www.cnbc.com/video/2026/05",
       "latest_suggestion": "建议观望为主，可持有少量黄金ETF（GLD）对冲风险，暂不加仓长期国债（TLT）",
       "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Peter Schiff",
@@ -800,10 +800,10 @@
       "latest_comments": "美国债务逼近40万亿美元且通胀持续高企 → 美元危机数字化加剧 → 投资者低估黄金和白银价格 → 黄金和白银矿业股表现强劲而比特币停滞 → 贵金属牛市远未结束，白银125美元仅是首站\n\n来源: https://www.youtube.com/watch?v=fSkNQ_Ho9mI | https://www.youtube.com/watch?v=D52mVpNt_QE",
       "latest_suggestion": "买入黄金和白银相关标的，如GLD、SLV、GDX",
       "latest_bull_bear": "🟢 GLD, SLV, GDX | 🔴 TLT",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Zoltan Pozsar",
@@ -814,10 +814,10 @@
       "latest_comments": "搜索内容未直接提及Zoltan Pozsar的观点，仅包含一般性黄金价格预测和高盛目标价。高盛预测金价可能升至5400美元，暗示看多方向，但缺乏Zoltan Pozsar本人的具体逻辑链条。因此无法确认其核心论点，仅能从市场普遍预期推断黄金存在上行潜力，但需结合地缘政治、美元信用及央行购金等宏观因素综合判断。\n\n来源: https://www.goldrepublic.com/en-us/gold",
       "latest_suggestion": "观望为主，可轻仓配置黄金ETF如GLD，避免追高。",
       "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Luke Gromen",
@@ -828,10 +828,10 @@
       "latest_comments": "搜索内容未直接包含Luke Gromen的观点，但综合当前黄金市场信息：金价接近两个月低点，受能源价格上涨推升通胀担忧及美联储官员鹰派表态影响，降息预期减弱，短期压制金价。同时，通胀若持续走高可能迫使美联储维持高利率，进一步利空黄金。但长期通胀风险及地缘不确定性仍为黄金提供支撑，方向不明确。\n\n来源: https://www.goldrepublic.com/en-us/gold-price/fo",
       "latest_suggestion": "短期观望，等待通胀数据和美联储政策信号明朗。可关注黄金ETF GLD，但暂不加仓。",
       "latest_bull_bear": "🟢 GLD",
-      "avg_score": 0.09,
+      "avg_score": 0.11,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Jeff Currie",
@@ -901,7 +901,7 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 5
+      "entry_count": 4
     },
     {
       "kol_name": "Lacy Hunt",
@@ -915,7 +915,7 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 6
+      "entry_count": 5
     },
     {
       "kol_name": "Ivan Zhao",
@@ -929,35 +929,21 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
-      "kol_name": "Anu Anand",
-      "sector": "Energy & Commodities",
-      "detail_sector": "大宗商品周期",
+      "kol_name": "S. Druckenmiller",
+      "sector": "Macro",
+      "detail_sector": "美元指数",
       "kol_or_ib": "KOL",
       "latest_date": "2026-05-29",
-      "latest_comments": "地缘政治紧张、能源价格高企和美元波动持续影响黄金市场 → 能源价格推升通胀压力 → 央行可能维持高利率而非降息 → 高利率环境压制黄金价格 → 黄金自冲突以来已下跌超15% → 但长期预测仍基于专家对2026年及之后的展望，存在不确定性 → 短期利空与长期利多因素交织，方向不明确\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast",
-      "latest_suggestion": "建议观望，可少量配置GLD对冲通胀风险，避免追空或重仓做多",
-      "latest_bull_bear": "🟢 GLD",
+      "latest_comments": "Druckenmiller在2026年一季度大幅调仓，卖出Alphabet和Nvidia，同时加仓定制芯片与CPU等AI基础设施股，表明他并未放弃AI交易，而是从集中持仓的科技巨头转向传统经济驱动和AI基础设施细分领域，认为定制芯片和CPU将在推理负载中成为GPU的耐用替代品。整体逻辑是AI主题延续但内部轮动，宏观上市场领导力从Magnificent Seven转向传统增长板块。\n\n来源: htt",
+      "latest_suggestion": "关注AI基础设施相关标的，如定制芯片和CPU公司，减持过度集中的科技巨头，可考虑分散至传统经济驱动板块。",
+      "latest_bull_bear": "🟢 AMD, MRVL | 🔴 NVDA, GOOGL",
       "avg_score": 0.0,
       "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
-    },
-    {
-      "kol_name": "Rory Johnston",
-      "sector": "Energy & Commodities",
-      "detail_sector": "原油/天然气",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Rory Johnston 指出原油价格因伊朗和谈乐观情绪再度下跌 → 尽管主要外交障碍仍存，但市场已预期供应恢复 → 同时石油市场持续出现供应过剩（hemorrhage supply）→ 叠加OPEC内部需求评估偏弱，产量决策可能维持高位 → 整体原油基本面偏空，压制通胀预期和贵金属避险需求\n\n来源: https://www.commoditycontext.com/p/global-oil-d",
-      "latest_suggestion": "短期看空原油相关标的，建议卖出或做空USO、OIL；贵金属受拖累可暂避，等待地缘风险明朗",
-      "latest_bull_bear": "🔴 USO, OIL",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "falling",
-      "entry_count": 11
+      "trend": "stable",
+      "entry_count": 9
     },
     {
       "kol_name": "Jeffrey Gundlach",
@@ -971,7 +957,7 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Goldman Sachs",
@@ -985,7 +971,7 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Michael Hartnett",
@@ -999,7 +985,7 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "James Rickards",
@@ -1013,7 +999,7 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
     },
     {
       "kol_name": "Ray Dalio",
@@ -1027,7 +1013,21 @@
       "avg_score": 0.0,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 11
+      "entry_count": 9
+    },
+    {
+      "kol_name": "Rory Johnston",
+      "sector": "Energy & Commodities",
+      "detail_sector": "原油/天然气",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Rory Johnston 指出原油价格因伊朗和谈乐观情绪再度下跌 → 尽管主要外交障碍仍存，但市场已预期供应恢复 → 同时石油市场持续出现供应过剩（hemorrhage supply）→ 叠加OPEC内部需求评估偏弱，产量决策可能维持高位 → 整体原油基本面偏空，压制通胀预期和贵金属避险需求\n\n来源: https://www.commoditycontext.com/p/global-oil-d",
+      "latest_suggestion": "短期看空原油相关标的，建议卖出或做空USO、OIL；贵金属受拖累可暂避，等待地缘风险明朗",
+      "latest_bull_bear": "🔴 USO, OIL",
+      "avg_score": -0.11,
+      "score_label": "中性",
+      "trend": "falling",
+      "entry_count": 9
     },
     {
       "kol_name": "Plai Navaracha",
@@ -1038,24 +1038,10 @@
       "latest_comments": "泰国进入雨季 → 全国预防山洪命令下达 → 自然灾害风险上升 → 可能影响当地经济活动与供应链 → 短期避险情绪或升温 → 但信息仅限泰国区域，未涉及全球宏观或贵金属市场 → 对贵金属价格影响有限且间接 → 整体判断为中性\n\n来源: https://www.nationthailand.com/news/general/40066502 | https://www.bangkokpost.com/",
       "latest_suggestion": "维持现有贵金属配置，暂不操作",
       "latest_bull_bear": "",
-      "avg_score": -0.1,
+      "avg_score": -0.25,
       "score_label": "中性",
       "trend": "stable",
-      "entry_count": 10
-    },
-    {
-      "kol_name": "Ted Oakley",
-      "sector": "Macro",
-      "detail_sector": "流动性周期",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-05-29",
-      "latest_comments": "Ted Oakley警告华尔街正在‘门口跳舞’→ 指出AI债务陷阱和消费者枯竭是核心风险→ 认为高收益环境下投资者应优先财富保值→ 暗示当前市场估值过高且脆弱→ 结合SILVER法案推动实物贵金属储备，强化避险需求→ 整体偏向防御和看空风险资产。\n\n来源: https://www.kitco.com/news/article/2026-05-21/wall-street-dancing-door-",
-      "latest_suggestion": "建议减持股票和长期国债，增持实物黄金和白银，关注GLD、SLV、PHYS等避险标的。",
-      "latest_bull_bear": "🟢 GLD, SLV, PHYS | 🔴 SPY, TLT",
-      "avg_score": -0.36,
-      "score_label": "中性",
-      "trend": "rising",
-      "entry_count": 11
+      "entry_count": 8
     },
     {
       "kol_name": "Bill Gross",
@@ -1066,10 +1052,24 @@
       "latest_comments": "搜索内容仅提供了美国10年期国债收益率和收益率曲线的数据来源链接，未包含Bill Gross本人的最新观点或评论。因此无法判断其具体立场。通常Bill Gross关注收益率曲线形态和通胀预期，若曲线陡化可能看空长债，若经济衰退风险上升则可能看多长债。当前缺乏明确信号，故判断为中性/混合。\n\n来源: https://fred.stlouisfed.org/series/DGS10 | https:/",
       "latest_suggestion": "建议观望，等待Bill Gross最新评论或收益率曲线明确信号后再操作。",
       "latest_bull_bear": "",
-      "avg_score": -0.5,
+      "avg_score": -0.4,
       "score_label": "中性",
       "trend": "rising",
-      "entry_count": 6
+      "entry_count": 5
+    },
+    {
+      "kol_name": "Ted Oakley",
+      "sector": "Macro",
+      "detail_sector": "流动性周期",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-05-29",
+      "latest_comments": "Ted Oakley警告华尔街正在‘门口跳舞’→ 指出AI债务陷阱和消费者枯竭是核心风险→ 认为高收益环境下投资者应优先财富保值→ 暗示当前市场估值过高且脆弱→ 结合SILVER法案推动实物贵金属储备，强化避险需求→ 整体偏向防御和看空风险资产。\n\n来源: https://www.kitco.com/news/article/2026-05-21/wall-street-dancing-door-",
+      "latest_suggestion": "建议减持股票和长期国债，增持实物黄金和白银，关注GLD、SLV、PHYS等避险标的。",
+      "latest_bull_bear": "🟢 GLD, SLV, PHYS | 🔴 SPY, TLT",
+      "avg_score": -0.44,
+      "score_label": "中性",
+      "trend": "rising",
+      "entry_count": 9
     }
   ],
   "stance_changes": [
