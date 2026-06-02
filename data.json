@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01 23:30 JST",
+  "generated_at": "2026-06-02 23:30 JST",
   "date_range": {
-    "start": "2026-02-01",
-    "end": "2026-06-01"
+    "start": "2026-02-02",
+    "end": "2026-06-02"
   },
   "sector_summary": [
     {
@@ -50,8 +50,8 @@
       "avg": 0.18,
       "bull": 12,
       "bear": 3,
-      "neutral": 36,
-      "total": 51
+      "neutral": 35,
+      "total": 50
     },
     {
       "sector": "Precious Metals",
