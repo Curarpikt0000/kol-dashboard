@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-06-02 23:30 JST",
+  "generated_at": "2026-06-03 23:30 JST",
   "date_range": {
-    "start": "2026-02-02",
-    "end": "2026-06-02"
+    "start": "2026-02-03",
+    "end": "2026-06-03"
   },
   "sector_summary": [
     {
       "sector": "Alternative",
-      "avg": 0.42,
+      "avg": 0.69,
       "bull": 11,
-      "bear": 1,
-      "neutral": 12,
-      "total": 24
+      "bear": 0,
+      "neutral": 5,
+      "total": 16
     },
     {
       "sector": "Crypto",
       "avg": 0.5,
-      "bull": 3,
+      "bull": 2,
       "bear": 0,
-      "neutral": 3,
-      "total": 6
+      "neutral": 2,
+      "total": 4
     },
     {
       "sector": "Energy & Commodities",
-      "avg": 0.5,
-      "bull": 10,
+      "avg": 0.55,
+      "bull": 8,
       "bear": 2,
-      "neutral": 4,
-      "total": 16
+      "neutral": 1,
+      "total": 11
     },
     {
       "sector": "Equities",
-      "avg": 0.58,
-      "bull": 7,
+      "avg": 0.62,
+      "bull": 5,
       "bear": 0,
-      "neutral": 5,
-      "total": 12
+      "neutral": 3,
+      "total": 8
     },
     {
       "sector": "Government Debt",
@@ -47,19 +47,19 @@
     },
     {
       "sector": "Macro",
-      "avg": 0.18,
-      "bull": 12,
+      "avg": 0.17,
+      "bull": 9,
       "bear": 3,
-      "neutral": 35,
-      "total": 50
+      "neutral": 23,
+      "total": 35
     },
     {
       "sector": "Precious Metals",
-      "avg": 0.63,
-      "bull": 51,
+      "avg": 0.69,
+      "bull": 38,
       "bear": 1,
-      "neutral": 27,
-      "total": 79
+      "neutral": 15,
+      "total": 54
     }
   ],
   "kol_cards": [
@@ -200,7 +200,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.56,
       "score_label": "看多",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -228,7 +228,7 @@
       "latest_bull_bear": "🟢 GLD, SLV",
       "avg_score": 0.56,
       "score_label": "看多",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -284,7 +284,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.44,
       "score_label": "中性",
-      "trend": "falling",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -312,7 +312,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, GDX",
       "avg_score": 0.44,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -326,7 +326,7 @@
       "latest_bull_bear": "🟢 SLV, GLD",
       "avg_score": 0.44,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -368,7 +368,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS | 🔴 BTC, MSTR",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -424,7 +424,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV, GDX",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -438,7 +438,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -522,7 +522,7 @@
       "latest_bull_bear": "🟢 IVES, SMH | 🔴 GLD, SLV",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -606,7 +606,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS | 🔴 TLT",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -746,7 +746,7 @@
       "latest_bull_bear": "🔴 GLD, GDX",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -1068,7 +1068,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, PHYS | 🔴 SPY, TLT",
       "avg_score": -0.44,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     }
   ],
