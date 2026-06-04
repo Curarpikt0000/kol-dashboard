@@ -1,36 +1,12 @@
 {
-  "generated_at": "2026-06-03 23:30 JST",
+  "generated_at": "2026-06-04 23:30 JST",
   "date_range": {
-    "start": "2026-02-03",
-    "end": "2026-06-03"
+    "start": "2026-02-04",
+    "end": "2026-06-04"
   },
   "sector_summary": [
     {
       "sector": "Alternative",
-      "avg": 0.69,
-      "bull": 11,
-      "bear": 0,
-      "neutral": 5,
-      "total": 16
-    },
-    {
-      "sector": "Crypto",
-      "avg": 0.5,
-      "bull": 2,
-      "bear": 0,
-      "neutral": 2,
-      "total": 4
-    },
-    {
-      "sector": "Energy & Commodities",
-      "avg": 0.55,
-      "bull": 8,
-      "bear": 2,
-      "neutral": 1,
-      "total": 11
-    },
-    {
-      "sector": "Equities",
       "avg": 0.62,
       "bull": 5,
       "bear": 0,
@@ -38,28 +14,52 @@
       "total": 8
     },
     {
-      "sector": "Government Debt",
-      "avg": 0.25,
+      "sector": "Crypto",
+      "avg": 0.5,
+      "bull": 1,
+      "bear": 0,
+      "neutral": 1,
+      "total": 2
+    },
+    {
+      "sector": "Energy & Commodities",
+      "avg": 0.5,
       "bull": 4,
       "bear": 1,
-      "neutral": 7,
-      "total": 12
+      "neutral": 1,
+      "total": 6
+    },
+    {
+      "sector": "Equities",
+      "avg": 0.5,
+      "bull": 2,
+      "bear": 0,
+      "neutral": 2,
+      "total": 4
+    },
+    {
+      "sector": "Government Debt",
+      "avg": 0.67,
+      "bull": 4,
+      "bear": 0,
+      "neutral": 2,
+      "total": 6
     },
     {
       "sector": "Macro",
-      "avg": 0.17,
-      "bull": 9,
-      "bear": 3,
-      "neutral": 23,
-      "total": 35
+      "avg": 0.22,
+      "bull": 6,
+      "bear": 2,
+      "neutral": 10,
+      "total": 18
     },
     {
       "sector": "Precious Metals",
-      "avg": 0.69,
-      "bull": 38,
-      "bear": 1,
-      "neutral": 15,
-      "total": 54
+      "avg": 0.72,
+      "bull": 21,
+      "bear": 0,
+      "neutral": 8,
+      "total": 29
     }
   ],
   "kol_cards": [
@@ -158,7 +158,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, GDXJ, SILJ",
       "avg_score": 0.67,
       "score_label": "看多",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -172,7 +172,7 @@
       "latest_bull_bear": "",
       "avg_score": 0.67,
       "score_label": "看多",
-      "trend": "falling",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -200,7 +200,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.56,
       "score_label": "看多",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -214,7 +214,7 @@
       "latest_bull_bear": "",
       "avg_score": 0.56,
       "score_label": "看多",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -228,7 +228,7 @@
       "latest_bull_bear": "🟢 GLD, SLV",
       "avg_score": 0.56,
       "score_label": "看多",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -242,7 +242,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, GDX | 🔴 TLT",
       "avg_score": 0.56,
       "score_label": "看多",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -270,7 +270,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, GDX",
       "avg_score": 0.5,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 8
     },
     {
@@ -284,7 +284,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.44,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -298,7 +298,7 @@
       "latest_bull_bear": "🟢 GLD, GDX, NEM",
       "avg_score": 0.44,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -312,7 +312,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, GDX",
       "avg_score": 0.44,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -340,7 +340,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -354,7 +354,7 @@
       "latest_bull_bear": "🟢 ARKK, COIN, TSLA",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -368,7 +368,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS | 🔴 BTC, MSTR",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "falling",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -382,7 +382,7 @@
       "latest_bull_bear": "",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -396,7 +396,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 6
     },
     {
@@ -410,7 +410,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -424,7 +424,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV, GDX",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -438,7 +438,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "falling",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -452,7 +452,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.33,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -466,7 +466,7 @@
       "latest_bull_bear": "🟢 GLD, SLV",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -480,7 +480,7 @@
       "latest_bull_bear": "🟢 GLD, SLV",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -494,7 +494,7 @@
       "latest_bull_bear": "",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -508,7 +508,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -522,7 +522,7 @@
       "latest_bull_bear": "🟢 IVES, SMH | 🔴 GLD, SLV",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -536,7 +536,7 @@
       "latest_bull_bear": "🟢 ETH, SOL, BTC, GLD",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -550,7 +550,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -578,7 +578,7 @@
       "latest_bull_bear": "🟢 GROY, VZLA",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -592,7 +592,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -606,7 +606,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS | 🔴 TLT",
       "avg_score": 0.22,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 9
     },
     {
@@ -634,7 +634,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.2,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 5
     },
     {
@@ -648,7 +648,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.2,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 5
     },
     {
@@ -662,7 +662,7 @@
       "latest_bull_bear": "🟢 SLV, GLD, PHYS",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -704,7 +704,7 @@
       "latest_bull_bear": "🟢 GLD, SLV",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -732,7 +732,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, PHYS, BTC",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -760,7 +760,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -774,7 +774,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -788,7 +788,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -816,7 +816,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -830,7 +830,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.11,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 9
     },
     {
@@ -872,7 +872,7 @@
       "latest_bull_bear": "🔴 GLD, SLV",
       "avg_score": 0.0,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 2
     },
     {
@@ -914,7 +914,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.0,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 5
     },
     {
@@ -1026,7 +1026,7 @@
       "latest_bull_bear": "🔴 USO, OIL",
       "avg_score": -0.11,
       "score_label": "中性",
-      "trend": "falling",
+      "trend": "stable",
       "entry_count": 9
     },
     {
@@ -1077,85 +1077,85 @@
     "bull": [
       {
         "ticker": "GLD",
-        "count": 238
+        "count": 137
       },
       {
         "ticker": "SLV",
-        "count": 154
+        "count": 60
       },
       {
         "ticker": "PHYS",
-        "count": 57
+        "count": 55
       },
       {
         "ticker": "GDX",
-        "count": 51
+        "count": 24
       },
       {
         "ticker": "BTC",
-        "count": 15
-      },
-      {
-        "ticker": "IAU",
-        "count": 13
-      },
-      {
-        "ticker": "USO",
-        "count": 11
-      },
-      {
-        "ticker": "URA",
-        "count": 10
-      },
-      {
-        "ticker": "PAAS",
         "count": 9
       },
       {
         "ticker": "NEM",
-        "count": 8
+        "count": 5
+      },
+      {
+        "ticker": "USO",
+        "count": 4
+      },
+      {
+        "ticker": "XLE",
+        "count": 4
+      },
+      {
+        "ticker": "SILJ",
+        "count": 4
+      },
+      {
+        "ticker": "ARKK",
+        "count": 3
       }
     ],
     "bear": [
       {
         "ticker": "TLT",
-        "count": 171
-      },
-      {
-        "ticker": "DXY",
-        "count": 27
-      },
-      {
-        "ticker": "SPY",
-        "count": 20
+        "count": 78
       },
       {
         "ticker": "GLD",
-        "count": 12
+        "count": 6
       },
       {
-        "ticker": "QQQ",
-        "count": 12
+        "ticker": "SPY",
+        "count": 6
       },
       {
         "ticker": "SLV",
-        "count": 7
+        "count": 3
       },
       {
-        "ticker": "USO",
-        "count": 5
-      },
-      {
-        "ticker": "UUP",
-        "count": 4
-      },
-      {
-        "ticker": "IAU",
-        "count": 4
+        "ticker": "QQQ",
+        "count": 3
       },
       {
         "ticker": "BTC",
         "count": 3
+      },
+      {
+        "ticker": "USO",
+        "count": 3
+      },
+      {
+        "ticker": "UUP",
+        "count": 3
+      },
+      {
+        "ticker": "MSTR",
+        "count": 2
+      },
+      {
+        "ticker": "GOOGL",
+        "count": 2
       }
     ]
   },
