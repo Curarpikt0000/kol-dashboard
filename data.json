@@ -1,67 +1,10 @@
 {
-  "generated_at": "2026-06-05 23:30 JST",
+  "generated_at": "2026-06-06 23:30 JST",
   "date_range": {
-    "start": "2026-02-05",
-    "end": "2026-06-05"
+    "start": "2026-02-06",
+    "end": "2026-06-06"
   },
-  "sector_summary": [
-    {
-      "sector": "Alternative",
-      "avg": 0.62,
-      "bull": 5,
-      "bear": 0,
-      "neutral": 3,
-      "total": 8
-    },
-    {
-      "sector": "Crypto",
-      "avg": 0.5,
-      "bull": 1,
-      "bear": 0,
-      "neutral": 1,
-      "total": 2
-    },
-    {
-      "sector": "Energy & Commodities",
-      "avg": 0.5,
-      "bull": 4,
-      "bear": 1,
-      "neutral": 1,
-      "total": 6
-    },
-    {
-      "sector": "Equities",
-      "avg": 0.5,
-      "bull": 2,
-      "bear": 0,
-      "neutral": 2,
-      "total": 4
-    },
-    {
-      "sector": "Government Debt",
-      "avg": 0.67,
-      "bull": 4,
-      "bear": 0,
-      "neutral": 2,
-      "total": 6
-    },
-    {
-      "sector": "Macro",
-      "avg": 0.22,
-      "bull": 6,
-      "bear": 2,
-      "neutral": 10,
-      "total": 18
-    },
-    {
-      "sector": "Precious Metals",
-      "avg": 0.71,
-      "bull": 20,
-      "bear": 0,
-      "neutral": 8,
-      "total": 28
-    }
-  ],
+  "sector_summary": [],
   "kol_cards": [],
   "stance_changes": [],
   "ticker_heatmap": {
