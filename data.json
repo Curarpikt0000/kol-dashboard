@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-10 23:30 JST",
+  "generated_at": "2026-06-11 23:30 JST",
   "date_range": {
-    "start": "2026-02-10",
-    "end": "2026-06-10"
+    "start": "2026-02-11",
+    "end": "2026-06-11"
   },
   "sector_summary": [
     {
@@ -47,22 +47,36 @@
     },
     {
       "sector": "Macro",
-      "avg": 0.29,
-      "bull": 6,
+      "avg": 0.3,
+      "bull": 7,
       "bear": 0,
-      "neutral": 15,
-      "total": 21
+      "neutral": 16,
+      "total": 23
     },
     {
       "sector": "Precious Metals",
-      "avg": 0.5,
+      "avg": 0.47,
       "bull": 17,
       "bear": 1,
-      "neutral": 14,
-      "total": 32
+      "neutral": 16,
+      "total": 34
     }
   ],
   "kol_cards": [
+    {
+      "kol_name": "Marc Chandler",
+      "sector": "Macro",
+      "detail_sector": "FX & Commodities",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-10",
+      "latest_comments": "来源: https://www.marctomarket.com | 今日(2026-06-10)无新博文/采访/X推文。上次更新于6月6日。博客注明 'No commentary this week. Analysis returns on June 13.' 当前处于休整空窗期。",
+      "latest_suggestion": "今日无新公开观点。Marc Chandler 自6月7日起进入休整期，博客标注无评论周，最新发文为6月6日（Surging Greenback on Robust Jobs Data），预计6月13日",
+      "latest_bull_bear": "维持此前观点：🟢 原油（WTI/Brent）| 🔴 美元走强 | 🟢 黄金（200日均线支撑）| 🟢 日元（BOJ干预预期）| 🟡 EUR/USD震荡偏弱",
+      "avg_score": 1.0,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 2
+    },
     {
       "kol_name": "Timothy Arcuri",
       "sector": "Equities",
@@ -118,20 +132,6 @@
       "score_label": "看多",
       "trend": "stable",
       "entry_count": 8
-    },
-    {
-      "kol_name": "Marc Chandler",
-      "sector": "Macro",
-      "detail_sector": "FX & Commodities",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-10",
-      "latest_comments": "数据来源：Marc to Market (marctomarket.com) 6月1-6日每日市场分析文章 + Week Ahead 6月6日周报。博客从6月6日后休息至6月13日。",
-      "latest_suggestion": "Marc Chandler 最新市场观点（6月1-6日）：① 中东地缘冲突（美伊/以黎）持续支撑油价，WTI在$94-$97区间波动，低烈度战争构成市场核心风险；② 美元受双冲击（关税+战争）走强，D",
-      "latest_bull_bear": "🟢 原油（WTI/Brent） | 🔴 美元走强风险 | 🟢 黄金（200日均线支撑$4428） | 🟢 日元（BOJ加息预期） | 🟡 EUR/USD 震荡偏弱（$1.14-$1.18） | 🔴 美债长端（通胀压力） | 🟢 CNH/人民币（PBOC渐进升值）",
-      "avg_score": 1.0,
-      "score_label": "看多",
-      "trend": "stable",
-      "entry_count": 1
     },
     {
       "kol_name": "Ronny Stoeferle",
@@ -228,7 +228,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, PHYS",
       "avg_score": 0.62,
       "score_label": "看多",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 8
     },
     {
@@ -466,7 +466,7 @@
       "latest_bull_bear": "🟢 NVDA, AAPL, QQQ",
       "avg_score": 0.38,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 8
     },
     {
@@ -494,7 +494,7 @@
       "latest_bull_bear": "🟢 SHFE黄金 | 🔴 GLD, IAU",
       "avg_score": 0.38,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
     },
     {
@@ -606,7 +606,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS",
       "avg_score": 0.25,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 8
     },
     {
@@ -690,7 +690,7 @@
       "latest_bull_bear": "🟢 TIP, VTIP | 🔴 TLT, ZROZ",
       "avg_score": 0.2,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 5
     },
     {
@@ -704,7 +704,7 @@
       "latest_bull_bear": "🟢 TLT, GLD",
       "avg_score": 0.2,
       "score_label": "中性",
-      "trend": "rising",
+      "trend": "stable",
       "entry_count": 5
     },
     {
@@ -718,7 +718,7 @@
       "latest_bull_bear": "🟢 GLD",
       "avg_score": 0.14,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 7
     },
     {
@@ -788,7 +788,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, BTC, ETH | 🔴 TLT",
       "avg_score": 0.12,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
     },
     {
@@ -830,7 +830,7 @@
       "latest_bull_bear": "🟢 GLD, SLV, GDX | 🔴 BTC",
       "avg_score": 0.12,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
     },
     {
@@ -858,7 +858,7 @@
       "latest_bull_bear": "🟢 GLD, SLV | 🔴 SPY, QQQ, TLT",
       "avg_score": 0.12,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
     },
     {
@@ -872,7 +872,7 @@
       "latest_bull_bear": "🟢 GLD, URA | 🔴 QQQ",
       "avg_score": 0.12,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
     },
     {
@@ -914,7 +914,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS, SLV | 🔴 TLT",
       "avg_score": 0.12,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
     },
     {
@@ -928,8 +928,50 @@
       "latest_bull_bear": "🟢 GLD, PHYS, BTC | 🔴 TLT",
       "avg_score": 0.12,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "falling",
       "entry_count": 8
+    },
+    {
+      "kol_name": "KOL",
+      "sector": "Macro",
+      "detail_sector": "Technical Analysis & Trading",
+      "kol_or_ib": "",
+      "latest_date": "2026-06-11",
+      "latest_comments": "",
+      "latest_suggestion": "BTC看跌：比特币在200周均线附近，历史数据显示平均盘整期约11个月，除非出现全球极端冲击，否则不应预期短期反弹。BTC跌破$61K，sell-on-rails格局主导。技术上看，反弹至$68K仅可",
+      "latest_bull_bear": "BTC (看跌), USD (看涨), XAU/USD (谨慎看跌), USDJPY (看涨美元端), EUR/USD (看跌)",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 1
+    },
+    {
+      "kol_name": "David Meger",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX Delivery  Market Structure",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-11",
+      "latest_comments": "今日(2026-06-11)无新公开采访/观点。上次更新于2026-05-20 (CNBC)。当前黄金$4,449附近，市场关注周五非农数据。搜索范围：Bloomberg/Kitco/Reuters/CNBC/YouTube均无新的Meger采访。 来源: https://www.cnbc.com/2026/05/20/gold-steadies-as-high-treasury-yields-o",
+      "latest_suggestion": "今日无新公开观点。David Meger（High Ridge Futures 金属交易总监）最近一次公开评论发布于2026年5月20日CNBC采访，距今已逾22天。最新观点摘要（5月20日）：\n\n1",
+      "latest_bull_bear": "Gold, Silver",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 2
+    },
+    {
+      "kol_name": "Bob Haberkorn",
+      "sector": "Precious Metals",
+      "detail_sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-11",
+      "latest_comments": "",
+      "latest_suggestion": "Bob Haberkorn (RJO Futures/StoneX, Senior Market Strategist) 在6月8日CNBC采访中表示当前贵金属市场处于risk-off模式。核心观点：",
+      "latest_bull_bear": "Gold, Silver",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 2
     },
     {
       "kol_name": "Massimiliano Castelli",
@@ -984,7 +1026,7 @@
       "latest_bull_bear": "🟢 GLD, PHYS | 🔴 TLT",
       "avg_score": 0.0,
       "score_label": "中性",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 3
     },
     {
@@ -1114,34 +1156,6 @@
       "entry_count": 8
     },
     {
-      "kol_name": "David Meger",
-      "sector": "Precious Metals",
-      "detail_sector": "COMEX Delivery  Market Structure",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-10",
-      "latest_comments": "",
-      "latest_suggestion": "今日无新公开观点.David Meger未在6/9-6/10接受公开发声.最新观点来自2026-04-30(Kitco/Reuters): 美元走弱+油价回落短期利好黄金,但伊朗战争引发的通胀担忧压制",
-      "latest_bull_bear": "黄金(长期看多), 白银(长期看多)",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 1
-    },
-    {
-      "kol_name": "Bob Haberkorn",
-      "sector": "Precious Metals",
-      "detail_sector": "Precious Metals",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-10",
-      "latest_comments": "来源：CNBC — Gold slips on rate-hike fears ahead of U.S. inflation data\nhttps://www.cnbc.com/2026/06/08/gold-slips-on-rate-hike-fears-ahead-of-us-inflation-data.html\n发布时间：2026年6月10日（文章标注6月8日，内容报道6月10日周二市",
-      "latest_suggestion": "Bob Haberkorn 最新观点（CNBC，6月10日）：\n1. 金价下跌是由于risk-off情绪蔓延——全市场普遍承压，科技股、标普500齐跌\n2. 黄金和白银在美联储给出更明确指引前将持续承",
-      "latest_bull_bear": "偏空：Gold（XAU/USD，$4,298.75，因risk-off和加息预期承压，等待CPI数据指引）\n偏空：Silver（XAG/USD，$65.98，-3.2%，压力更大）\n中性：贵金属整体，在FOMC明确指引前维持观望",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 1
-    },
-    {
       "kol_name": "Alex Kuptsikevich",
       "sector": "Macro",
       "detail_sector": "Technical Analysis & Trading",
@@ -1189,69 +1203,69 @@
     "bull": [
       {
         "ticker": "GLD",
-        "count": 147
+        "count": 104
       },
       {
         "ticker": "PHYS",
-        "count": 85
+        "count": 58
       },
       {
         "ticker": "SLV",
-        "count": 69
+        "count": 51
       },
       {
         "ticker": "GDX",
-        "count": 33
+        "count": 22
       },
       {
         "ticker": "BTC",
-        "count": 10
-      },
-      {
-        "ticker": "ETH",
-        "count": 4
-      },
-      {
-        "ticker": "URA",
-        "count": 4
-      },
-      {
-        "ticker": "USO",
-        "count": 4
+        "count": 6
       },
       {
         "ticker": "SMH",
         "count": 3
       },
       {
-        "ticker": "ARKK",
+        "ticker": "ETH",
         "count": 3
+      },
+      {
+        "ticker": "SILJ",
+        "count": 3
+      },
+      {
+        "ticker": "WTI",
+        "count": 2
+      },
+      {
+        "ticker": "MRVL",
+        "count": 2
       }
     ],
     "bear": [
       {
         "ticker": "TLT",
-        "count": 60
+        "count": 41
       },
       {
         "ticker": "GLD",
-        "count": 7
+        "count": 6
       },
       {
         "ticker": "SPY",
-        "count": 6
+        "count": 5
       },
       {
         "ticker": "QQQ",
-        "count": 6
-      },
-      {
-        "ticker": "BTC",
         "count": 5
       },
       {
         "ticker": "SLV",
-        "count": 4
+        "count": 3
+      },
+      {
+        "ticker": "BTC",
+        "count": 3
       },
       {
         "ticker": "XLE",
@@ -1262,12 +1276,12 @@
         "count": 2
       },
       {
-        "ticker": "MSTR",
-        "count": 2
+        "ticker": "EUR",
+        "count": 1
       },
       {
-        "ticker": "USO",
-        "count": 2
+        "ticker": "ZROZ",
+        "count": 1
       }
     ]
   },
@@ -1394,6 +1408,54 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "37b47eb5-fd3c-81f7-9498-c50f803a1201",
+      "name": "Alex Kuptsikevich",
+      "kol_name": "KOL",
+      "kol_or_ib": "",
+      "date": "2026-06-11",
+      "sector": "Macro",
+      "detail_sector": "Technical Analysis & Trading",
+      "comments": "",
+      "suggestion": "BTC看跌：比特币在200周均线附近，历史数据显示平均盘整期约11个月，除非出现全球极端冲击，否则不应预期短期反弹。BTC跌破$61K，sell-on-rails格局主导。技术上看，反弹至$68K仅可",
+      "bull_bear": "BTC (看跌), USD (看涨), XAU/USD (谨慎看跌), USDJPY (看涨美元端), EUR/USD (看跌)"
+    },
+    {
+      "id": "37b47eb5-fd3c-814d-aa76-f1de76713518",
+      "name": "David Meger — 🟡 无新观点（最近更新5月20日）",
+      "kol_name": "David Meger",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-11",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX Delivery  Market Structure",
+      "comments": "今日(2026-06-11)无新公开采访/观点。上次更新于2026-05-20 (CNBC)。当前黄金$4,449附近，市场关注周五非农数据。搜索范围：Bloomberg/Kitco/Reuters/CNBC/YouTube均无新的Meger采访。 来源: https://www.cnbc.com/2026/05/20/gold-steadies-as-high-treasury-yields-offset-mideast-peace-hopes.html | https://www.jckonline.com/editorial-article/analysts-gold-prices | ",
+      "suggestion": "今日无新公开观点。David Meger（High Ridge Futures 金属交易总监）最近一次公开评论发布于2026年5月20日CNBC采访，距今已逾22天。最新观点摘要（5月20日）：\n\n1",
+      "bull_bear": "Gold, Silver"
+    },
+    {
+      "id": "37b47eb5-fd3c-810c-a1ff-c0ebf2b81393",
+      "name": "Bob Haberkorn - 2026-06-11",
+      "kol_name": "Bob Haberkorn",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-11",
+      "sector": "Precious Metals",
+      "detail_sector": "Precious Metals",
+      "comments": "",
+      "suggestion": "Bob Haberkorn (RJO Futures/StoneX, Senior Market Strategist) 在6月8日CNBC采访中表示当前贵金属市场处于risk-off模式。核心观点：",
+      "bull_bear": "Gold, Silver"
+    },
+    {
+      "id": "37b47eb5-fd3c-8160-9762-de7f71a6b591",
+      "name": "Marc Chandler — 🟡 宏观分析（无更新）",
+      "kol_name": "Marc Chandler",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-10",
+      "sector": "Macro",
+      "detail_sector": "FX & Commodities",
+      "comments": "来源: https://www.marctomarket.com | 今日(2026-06-10)无新博文/采访/X推文。上次更新于6月6日。博客注明 'No commentary this week. Analysis returns on June 13.' 当前处于休整空窗期。",
+      "suggestion": "今日无新公开观点。Marc Chandler 自6月7日起进入休整期，博客标注无评论周，最新发文为6月6日（Surging Greenback on Robust Jobs Data），预计6月13日",
+      "bull_bear": "维持此前观点：🟢 原油（WTI/Brent）| 🔴 美元走强 | 🟢 黄金（200日均线支撑）| 🟢 日元（BOJ干预预期）| 🟡 EUR/USD震荡偏弱"
+    },
     {
       "id": "37b47eb5-fd3c-81ac-918c-caa72645f9d6",
       "name": "Massimiliano Castelli — 🟡 中性",
