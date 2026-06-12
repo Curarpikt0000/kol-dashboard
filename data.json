@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-11 23:30 JST",
+  "generated_at": "2026-06-12 23:30 JST",
   "date_range": {
-    "start": "2026-02-11",
-    "end": "2026-06-11"
+    "start": "2026-02-12",
+    "end": "2026-06-12"
   },
   "sector_summary": [
     {
@@ -47,36 +47,22 @@
     },
     {
       "sector": "Macro",
-      "avg": 0.3,
+      "avg": 0.28,
       "bull": 7,
       "bear": 0,
-      "neutral": 16,
-      "total": 23
+      "neutral": 18,
+      "total": 25
     },
     {
       "sector": "Precious Metals",
-      "avg": 0.47,
+      "avg": 0.44,
       "bull": 17,
       "bear": 1,
-      "neutral": 16,
-      "total": 34
+      "neutral": 18,
+      "total": 36
     }
   ],
   "kol_cards": [
-    {
-      "kol_name": "Marc Chandler",
-      "sector": "Macro",
-      "detail_sector": "FX & Commodities",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-10",
-      "latest_comments": "来源: https://www.marctomarket.com | 今日(2026-06-10)无新博文/采访/X推文。上次更新于6月6日。博客注明 'No commentary this week. Analysis returns on June 13.' 当前处于休整空窗期。",
-      "latest_suggestion": "今日无新公开观点。Marc Chandler 自6月7日起进入休整期，博客标注无评论周，最新发文为6月6日（Surging Greenback on Robust Jobs Data），预计6月13日",
-      "latest_bull_bear": "维持此前观点：🟢 原油（WTI/Brent）| 🔴 美元走强 | 🟢 黄金（200日均线支撑）| 🟢 日元（BOJ干预预期）| 🟡 EUR/USD震荡偏弱",
-      "avg_score": 1.0,
-      "score_label": "看多",
-      "trend": "stable",
-      "entry_count": 2
-    },
     {
       "kol_name": "Timothy Arcuri",
       "sector": "Equities",
@@ -190,6 +176,20 @@
       "entry_count": 8
     },
     {
+      "kol_name": "Marc Chandler",
+      "sector": "Macro",
+      "detail_sector": "FX & Commodities",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-12",
+      "latest_comments": "",
+      "latest_suggestion": "【本周无新公开观点】Marc Chandler 正在休假周。其6月6日的Week Ahead前瞻已明确指出本周不更新（No commentary this week. Analysis returns",
+      "latest_bull_bear": "USD (看涨 - 短期，因就业数据和避险)，WTI原油 (中性偏强 - 中东风险溢价)，EUR/USD (看跌 - 短期有待ECB加息落地)，JPY/USD (看涨 - 中长期，因日元被大幅低估约50%)，黄金 (中性 - 此前2019年看多但近期未更新)",
+      "avg_score": 0.67,
+      "score_label": "看多",
+      "trend": "stable",
+      "entry_count": 3
+    },
+    {
       "kol_name": "Stewart Thomson",
       "sector": "Precious Metals",
       "detail_sector": "黄金白银",
@@ -200,7 +200,7 @@
       "latest_bull_bear": "🟢 GLD, GDX, SLV",
       "avg_score": 0.67,
       "score_label": "看多",
-      "trend": "stable",
+      "trend": "rising",
       "entry_count": 3
     },
     {
@@ -932,6 +932,48 @@
       "entry_count": 8
     },
     {
+      "kol_name": "David Meger",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX Delivery  Market Structure",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-12",
+      "latest_comments": "",
+      "latest_suggestion": "今日无全新公开采访/观点（截至2026-06-12，最新公开引用为2026年6月3日Reuters）。核心观点总结如下：\n① 黄金当前价格受美伊冲突驱动，能源上涨→通胀预期→加息担忧压制黄金；\n② 长",
+      "latest_bull_bear": "XAU/USD (中期看涨/震荡筑底 — 滞涨环境下长期利多; 短期受加息预期压制于$4,400-$4,500区间)",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 3
+    },
+    {
+      "kol_name": "Alex Kuptsikevich",
+      "sector": "Macro",
+      "detail_sector": "Technical Analysis & Trading",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-12",
+      "latest_comments": "",
+      "latest_suggestion": "【黄金/宏观看跌】过去一周发表多篇深度分析：\n\n1) 黄金：金价已抹去2026年全部涨幅，跌回年初水平（$4,300附近）。美联储加息概率升至76%（两次及以上加息概率32%），美元走强、美债收益率上",
+      "latest_bull_bear": "XAU/USD (看跌，$4,300关键支撑), Nasdaq (看跌，半导体领跌), USD (看涨，中期看涨), BTC (谨慎，$60K支撑关键), EUR/USD (看跌), Brent Oil (看涨，中东溢价持续)",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 2
+    },
+    {
+      "kol_name": "Bob Haberkorn",
+      "sector": "Precious Metals",
+      "detail_sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "latest_date": "2026-06-12",
+      "latest_comments": "",
+      "latest_suggestion": "黄金周四（6月12日）延续此前跌势，受美联储加息预期升温打压。此前6月8-9日Haberkorn在CNBC/Reuters采访中指出，市场全面risk-off，黄金和白银承压下行，因CME FedWa",
+      "latest_bull_bear": "XAU/USD (看跌), XAG/USD (看跌)",
+      "avg_score": 0.0,
+      "score_label": "中性",
+      "trend": "stable",
+      "entry_count": 3
+    },
+    {
       "kol_name": "KOL",
       "sector": "Macro",
       "detail_sector": "Technical Analysis & Trading",
@@ -944,34 +986,6 @@
       "score_label": "中性",
       "trend": "stable",
       "entry_count": 1
-    },
-    {
-      "kol_name": "David Meger",
-      "sector": "Precious Metals",
-      "detail_sector": "COMEX Delivery  Market Structure",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-11",
-      "latest_comments": "今日(2026-06-11)无新公开采访/观点。上次更新于2026-05-20 (CNBC)。当前黄金$4,449附近，市场关注周五非农数据。搜索范围：Bloomberg/Kitco/Reuters/CNBC/YouTube均无新的Meger采访。 来源: https://www.cnbc.com/2026/05/20/gold-steadies-as-high-treasury-yields-o",
-      "latest_suggestion": "今日无新公开观点。David Meger（High Ridge Futures 金属交易总监）最近一次公开评论发布于2026年5月20日CNBC采访，距今已逾22天。最新观点摘要（5月20日）：\n\n1",
-      "latest_bull_bear": "Gold, Silver",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 2
-    },
-    {
-      "kol_name": "Bob Haberkorn",
-      "sector": "Precious Metals",
-      "detail_sector": "Precious Metals",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-11",
-      "latest_comments": "",
-      "latest_suggestion": "Bob Haberkorn (RJO Futures/StoneX, Senior Market Strategist) 在6月8日CNBC采访中表示当前贵金属市场处于risk-off模式。核心观点：",
-      "latest_bull_bear": "Gold, Silver",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 2
     },
     {
       "kol_name": "Massimiliano Castelli",
@@ -1156,20 +1170,6 @@
       "entry_count": 8
     },
     {
-      "kol_name": "Alex Kuptsikevich",
-      "sector": "Macro",
-      "detail_sector": "Technical Analysis & Trading",
-      "kol_or_ib": "KOL",
-      "latest_date": "2026-06-10",
-      "latest_comments": "BTC跌破60K后的反弹是技术性超卖修复，并非趋势反转。Kuptsikevich认为回升至68K可视作5/11-6/5下跌动能的修正性反弹，但80K以下均属熊市内修正。黄金尽管近期遭抛售，但跌幅小于股市，反弹力度更强，体现避险韧性。来源：CoinDesk Jun 9; WSJ (黄金评论)",
-      "latest_suggestion": "BTC空头持仓可持有，若反弹至68K附近注意止盈；黄金中长期逢低配置逻辑不变",
-      "latest_bull_bear": "🔴 BTC | 🟢 GLD, PHYS",
-      "avg_score": 0.0,
-      "score_label": "中性",
-      "trend": "stable",
-      "entry_count": 1
-    },
-    {
       "kol_name": "Rory Johnston",
       "sector": "Energy & Commodities",
       "detail_sector": "原油/天然气",
@@ -1203,11 +1203,11 @@
     "bull": [
       {
         "ticker": "GLD",
-        "count": 104
+        "count": 103
       },
       {
         "ticker": "PHYS",
-        "count": 58
+        "count": 57
       },
       {
         "ticker": "SLV",
@@ -1408,6 +1408,54 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "37c47eb5-fd3c-81f5-8b59-f1f4e1ce7521",
+      "name": "David Meger - 2026-06-12",
+      "kol_name": "David Meger",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-12",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX Delivery  Market Structure",
+      "comments": "",
+      "suggestion": "今日无全新公开采访/观点（截至2026-06-12，最新公开引用为2026年6月3日Reuters）。核心观点总结如下：\n① 黄金当前价格受美伊冲突驱动，能源上涨→通胀预期→加息担忧压制黄金；\n② 长",
+      "bull_bear": "XAU/USD (中期看涨/震荡筑底 — 滞涨环境下长期利多; 短期受加息预期压制于$4,400-$4,500区间)"
+    },
+    {
+      "id": "37c47eb5-fd3c-8107-92bc-f0a454bf1ac1",
+      "name": "",
+      "kol_name": "Marc Chandler",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-12",
+      "sector": "Macro",
+      "detail_sector": "FX & Commodities",
+      "comments": "",
+      "suggestion": "【本周无新公开观点】Marc Chandler 正在休假周。其6月6日的Week Ahead前瞻已明确指出本周不更新（No commentary this week. Analysis returns",
+      "bull_bear": "USD (看涨 - 短期，因就业数据和避险)，WTI原油 (中性偏强 - 中东风险溢价)，EUR/USD (看跌 - 短期有待ECB加息落地)，JPY/USD (看涨 - 中长期，因日元被大幅低估约50%)，黄金 (中性 - 此前2019年看多但近期未更新)"
+    },
+    {
+      "id": "37c47eb5-fd3c-815b-8760-c474e647a957",
+      "name": "",
+      "kol_name": "Alex Kuptsikevich",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-12",
+      "sector": "Macro",
+      "detail_sector": "Technical Analysis & Trading",
+      "comments": "",
+      "suggestion": "【黄金/宏观看跌】过去一周发表多篇深度分析：\n\n1) 黄金：金价已抹去2026年全部涨幅，跌回年初水平（$4,300附近）。美联储加息概率升至76%（两次及以上加息概率32%），美元走强、美债收益率上",
+      "bull_bear": "XAU/USD (看跌，$4,300关键支撑), Nasdaq (看跌，半导体领跌), USD (看涨，中期看涨), BTC (谨慎，$60K支撑关键), EUR/USD (看跌), Brent Oil (看涨，中东溢价持续)"
+    },
+    {
+      "id": "37c47eb5-fd3c-818e-a46c-f8428ed36182",
+      "name": "",
+      "kol_name": "Bob Haberkorn",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-12",
+      "sector": "Precious Metals",
+      "detail_sector": "Precious Metals",
+      "comments": "",
+      "suggestion": "黄金周四（6月12日）延续此前跌势，受美联储加息预期升温打压。此前6月8-9日Haberkorn在CNBC/Reuters采访中指出，市场全面risk-off，黄金和白银承压下行，因CME FedWa",
+      "bull_bear": "XAU/USD (看跌), XAG/USD (看跌)"
+    },
     {
       "id": "37b47eb5-fd3c-81f7-9498-c50f803a1201",
       "name": "Alex Kuptsikevich",
