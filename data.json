@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-14 23:30 JST",
+  "generated_at": "2026-06-15 00:00 JST",
   "date_range": {
-    "start": "2026-02-14",
-    "end": "2026-06-14"
+    "start": "2026-02-15",
+    "end": "2026-06-15"
   },
   "sector_summary": [
     {
@@ -1286,6 +1286,16 @@
     ]
   },
   "weekly_reports": [
+    {
+      "key_insight": "W24 贵金属多头共识强烈但短期回调压力显现，宏观避险情绪主导市场，能源与大宗商品板块谨慎看多。（2026-06-08）",
+      "date": "2026-06-08",
+      "week_number": 24,
+      "sector": "Multi-Asset",
+      "detail_sector": "",
+      "comments": "贵金属：36位KOL中绝大多数看多黄金与白银，核心逻辑包括法币贬值、央行购金、工业需求增长及地缘风险。但AG Thorson、Daniel Ghali等少数KOL指出美元走强、收益率上升及技术面超买可能引发短期回调，多空分歧主要集中在中短期节奏而非长期方向。\n\n能源与大宗商品：6位KOL整体偏多，Jeff Currie和Jim Rogers强调大宗商品处于超级周期初期，AI需求与供给缺口支撑长期上涨；Rory Johnston则提示短期供应冲击与长期供需再平衡的过渡风险，板块内部分化明显。\n\n宏观：25位KOL中多数看多黄金、看空美债，核心逻辑围绕债务危机、去美元化及货币体系重构。Ray Dalio、Zoltan Pozsar等强调黄金作为结构性对冲工具的地位，而Torsten Sløk、Bill Gross等对经济韧性及利率路径持谨慎态度，宏观观点高度一致但风险偏好分化。",
+      "suggestion": "建议维持贵金属多头仓位，重点关注黄金（GLD/PHYS）及白银（SLV/SILJ），利用短期回调分批加仓。警惕美元走强及利率上行带来的技术性调整风险，可适度配置铀矿（URA）及能源股（XLE）作为分散。债券市场整体看空，建议规避长久期美债（TLT）。",
+      "bull_bear": "🟢 GLD | 🟢 PHYS | 🟢 SLV | 🟢 GDX | 🟢 BTC | 🟢 WTI | 🟢 SMH | 🟢 NVDA | 🔴 TLT | 🔴 QQQ | 🔴 SPY | 🔴 XLE | 🔴 GLD | 🔴 BTC | 🔴 ZROZ | 🔴 SLV"
+    },
     {
       "key_insight": "W22 贵金属多头共识强烈但分歧初现，宏观避险与商品短缺逻辑主导市场，能源板块受地缘冲突支撑。（2026-05-25）",
       "date": "2026-05-25",
