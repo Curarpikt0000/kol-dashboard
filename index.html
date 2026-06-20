@@ -169,6 +169,13 @@
 <div id="app" style="display:none">
 <div class="container">
 
+  <!-- 今日信号（置顶，加权评分驱动）-->
+  <div id="today-signals" style="background:linear-gradient(135deg,rgba(34,197,94,0.10),rgba(59,130,246,0.06));border:1px solid rgba(34,197,94,0.28);border-radius:12px;padding:16px;margin-bottom:20px;display:none">
+    <h3 style="font-size:14px;color:var(--bull);margin-bottom:6px;display:flex;align-items:center;gap:6px">🎯 今日信号 · 高价值新增观点</h3>
+    <div id="today-signals-method" style="font-size:11px;color:var(--muted);margin-bottom:10px"></div>
+    <div id="today-signals-list"></div>
+  </div>
+
   <!-- Stance Change Banner -->
   <div id="stance-banner">
     <h3>⚡ 立场变化提醒</h3>
@@ -480,12 +487,59 @@ function onDaysChange() {
 function render() {
   const entries = getBaseEntries();
   updateTitles();
+  renderTodaySignals();
   renderStanceChanges(entries);
   renderSectorBars(entries);
   renderRadar(entries);
   renderTickerHeatmap(entries);
   applyFilters(entries);
   renderWeeklyList();
+}
+
+// ── 今日信号（读 data.json 的 today_signals + sector 加权评分）────
+function renderTodaySignals() {
+  const box = document.getElementById('today-signals');
+  const sigs = DATA.today_signals || [];
+  const sectors = (DATA.sector_summary || []).filter(s => typeof s.score === 'number' && s.total >= 5);
+  if (!sigs.length && !sectors.length) { box.style.display='none'; return; }
+  box.style.display = 'block';
+  if (DATA.scoring_method) document.getElementById('today-signals-method').textContent = '加权评分法：' + DATA.scoring_method;
+
+  // 板块加权评分条（按 score 排序）
+  let html = '<div style="margin-bottom:12px">';
+  sectors.sort((a,b)=>b.score-a.score).forEach(s => {
+    const pct = Math.abs(s.score)/2; // 0~50
+    const col = s.score>15 ? 'var(--bull)' : (s.score<-15 ? 'var(--bear)' : 'var(--neutral)');
+    const lbl = s.score>15 ? '偏多' : (s.score<-15 ? '偏空' : '中性');
+    html += `<div style="display:flex;align-items:center;gap:10px;padding:3px 0;font-size:12px">
+      <span style="width:130px;color:var(--text)">${s.sector}</span>
+      <span style="width:48px;text-align:right;font-weight:700;color:${col}">${s.score>0?'+':''}${s.score}</span>
+      <span style="color:var(--muted);width:32px;font-size:11px">${lbl}</span>
+      <div style="flex:1;height:6px;background:rgba(255,255,255,0.06);border-radius:3px;position:relative">
+        <div style="position:absolute;left:50%;top:0;height:100%;width:${pct}%;background:${col};border-radius:3px;${s.score<0?'transform:translateX(-100%)':''}"></div>
+        <div style="position:absolute;left:50%;top:-2px;width:1px;height:10px;background:var(--muted)"></div>
+      </div>
+      <span style="color:var(--muted);width:90px;font-size:11px">多${s.bull}/空${s.bear}/中${s.neutral}</span>
+    </div>`;
+  });
+  html += '</div>';
+
+  // 反转/高价值信号列表
+  if (sigs.length) {
+    html += '<div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:10px">';
+    sigs.forEach(sg => {
+      const badge = sg.signal==='高' ? '<span style="background:var(--bull-bg);color:var(--bull);padding:1px 6px;border-radius:4px;font-size:10px;font-weight:700">🔥高价值</span>' : '<span style="background:rgba(148,163,184,0.12);color:var(--neutral);padding:1px 6px;border-radius:4px;font-size:10px">中</span>';
+      html += `<div style="display:flex;align-items:center;gap:8px;padding:5px 0;font-size:12px">
+        ${badge}
+        <span style="color:var(--gold);font-size:11px">${sg.type}</span>
+        <span style="font-weight:600;color:var(--text)">${sg.kol_name}</span>
+        <span style="color:var(--muted);font-size:11px">${sg.sector||''} · ${sg.date}</span>
+        <span style="color:var(--text);flex:1">${sg.desc||''}</span>
+      </div>`;
+    });
+    html += '</div>';
+  }
+  document.getElementById('today-signals-list').innerHTML = html;
 }
 
 // ── Stance Changes ────────────────────────────────────────
