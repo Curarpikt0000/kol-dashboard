@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22 00:48 JST",
+  "generated_at": "2026-06-22 01:09 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-20"
@@ -94,23 +94,6 @@
   ],
   "sector_summary": [
     {
-      "sector": "Energy & Commodities",
-      "score": 100,
-      "weighted_sum": 83.9,
-      "bull": 94,
-      "bear": 5,
-      "neutral": 21,
-      "total": 120,
-      "legs_bull": 319,
-      "legs_bear": 27,
-      "legs_neutral": 10,
-      "legs_split": 3,
-      "legs_total": 359,
-      "strong_bull": 37,
-      "strong_bear": 0,
-      "avg": 0.23
-    },
-    {
       "sector": "Precious Metals",
       "score": 100,
       "weighted_sum": 574.1,
@@ -126,6 +109,23 @@
       "strong_bull": 581,
       "strong_bear": 0,
       "avg": 0.27
+    },
+    {
+      "sector": "Energy & Commodities",
+      "score": 100,
+      "weighted_sum": 83.9,
+      "bull": 94,
+      "bear": 5,
+      "neutral": 21,
+      "total": 120,
+      "legs_bull": 319,
+      "legs_bear": 27,
+      "legs_neutral": 10,
+      "legs_split": 3,
+      "legs_total": 359,
+      "strong_bull": 37,
+      "strong_bear": 0,
+      "avg": 0.23
     },
     {
       "sector": "Crypto",
@@ -179,23 +179,6 @@
       "avg": -0.06
     },
     {
-      "sector": "Macro",
-      "score": -100,
-      "weighted_sum": -108.4,
-      "bull": 22,
-      "bear": 32,
-      "neutral": 16,
-      "total": 70,
-      "legs_bull": 62,
-      "legs_bear": 528,
-      "legs_neutral": 18,
-      "legs_split": 1,
-      "legs_total": 609,
-      "strong_bull": 0,
-      "strong_bear": 54,
-      "avg": -0.18
-    },
-    {
       "sector": "Government Debt",
       "score": -100,
       "weighted_sum": -267.5,
@@ -211,6 +194,23 @@
       "strong_bull": 0,
       "strong_bear": 33,
       "avg": -0.3
+    },
+    {
+      "sector": "Macro",
+      "score": -100,
+      "weighted_sum": -108.4,
+      "bull": 22,
+      "bear": 32,
+      "neutral": 16,
+      "total": 70,
+      "legs_bull": 62,
+      "legs_bear": 528,
+      "legs_neutral": 18,
+      "legs_split": 1,
+      "legs_total": 609,
+      "strong_bull": 0,
+      "strong_bear": 54,
+      "avg": -0.18
     }
   ],
   "stance_changes": [
