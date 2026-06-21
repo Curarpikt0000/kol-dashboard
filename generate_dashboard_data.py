@@ -53,10 +53,24 @@ def fetch_all():
                 "kol_or_ib":txt(P.get("KOL or IB View")),"date":txt(P.get("Date")),
                 "sector":txt(P.get("Sector")),"detail_sector":txt(P.get("Detail Sector")),
                 "comments":txt(P.get("Comments")),"suggestion":txt(P.get("Suggestion")),
-                "bull_bear":txt(P.get("多空标的"))})
+                "bull_bear":txt(P.get("多空标的")),
+                "direction_detail":txt(P.get("方向明细")),"dominant":txt(P.get("主导方向"))})
         if not r.get("has_more"):break
         cursor=r["next_cursor"]
     return rows
+
+# 方向取值 -> 数值分(强度). 用于三元组摊平统计真实多空.
+DIR_SCORE={"强烈看多":2,"看多":1,"中性":0,"看空":-1,"强烈看空":-2,"分歧":0}
+def parse_legs(e):
+    """解析方向明细JSON -> [{标的,板块,方向}]. 解析失败/为空返回 None(表示该条未结构化回填)."""
+    md=(e.get("direction_detail") or "").strip()
+    if not md: return None
+    try:
+        legs=json.loads(md)
+        if isinstance(legs,list) and legs: return legs
+    except Exception:
+        return None
+    return None
 
 def direction(e):
     """从标题/多空标的判断方向 +1/0/-1"""
@@ -99,55 +113,103 @@ def main():
     for e in rows: by_kol[e["kol_name"]].append(e)
     for k in by_kol: by_kol[k].sort(key=lambda x:x["date"] or "")
 
-    sector_pts=defaultdict(list)   # sector -> [情绪分]
+    sector_pts=defaultdict(list)   # sector -> [情绪分] (加权评分用)
     sector_raw=defaultdict(lambda:{"bull":0,"bear":0,"neutral":0,"total":0})
+    # 三元组摊平统计(真实多空,核心修复): 按方向明细的每个标的腿计入其板块
+    sector_legs=defaultdict(lambda:{"强烈看多":0,"看多":0,"中性":0,"看空":0,"强烈看空":0,"分歧":0,"legs_total":0})
+    ticker_dir=defaultdict(lambda:{"bull":0,"bear":0,"kols":set()})  # 标的 -> 多空(来自结构化腿)
+    legged_rows=0  # 有结构化方向明细的记录数
     stance_changes=[]
     for kol,items in by_kol.items():
         if not kol: continue
         prev_dir=None
         is_holder=kol in HOLDERS
         for e in items:
-            d=direction(e)
-            r=recency(e); nov=novelty(e,prev_dir); conf=confidence(e)
-            style=0.6 if (is_holder and d!=0) else 1.0
-            pts=d*r*nov*conf*style
-            if e["sector"]:
-                sector_pts[e["sector"]].append(pts)
-                sr=sector_raw[e["sector"]]
-                sr["total"]+=1
+            legs=parse_legs(e)
+            if legs is not None:
+                legged_rows+=1
+                # 三元组摊平: 每条腿计入其板块的方向分布 + 标的多空
+                for leg in legs:
+                    sec=leg.get("板块",""); dr=leg.get("方向",""); tk=leg.get("标的","")
+                    if sec in STD_SECTORS and dr in DIR_SCORE:
+                        sl=sector_legs[sec]; sl[dr]+=1; sl["legs_total"]+=1
+                        # 加权评分: 腿方向分 * recency * style
+                        style=0.6 if (is_holder and DIR_SCORE[dr]!=0) else 1.0
+                        sector_pts[sec].append(DIR_SCORE[dr]*recency(e)*style)
+                        if tk:
+                            td=ticker_dir[tk]
+                            if DIR_SCORE[dr]>0: td["bull"]+=1
+                            elif DIR_SCORE[dr]<0: td["bear"]+=1
+                            td["kols"].add(kol)
+                # dominant 方向用于反转检测
+                d=DIR_SCORE.get(e.get("dominant",""),0)
+                d=1 if d>0 else (-1 if d<0 else 0)
+            else:
+                # 未回填: 回退旧文本法(标注), 仅计入 raw 不污染结构化统计
+                d=direction(e)
+                r=recency(e); nov=novelty(e,prev_dir); conf=confidence(e)
+                style=0.6 if (is_holder and d!=0) else 1.0
+                pts=d*r*nov*conf*style
+                if e["sector"] in STD_SECTORS:
+                    sector_pts[e["sector"]].append(pts)
+            # raw 多空人头(用 dominant 或文本法)
+            sec_for_raw=None
+            if legs is not None:
+                # 用主导板块=第一条腿的板块, 或原sector标准化
+                sec_for_raw=legs[0].get("板块") if legs[0].get("板块") in STD_SECTORS else None
+            if not sec_for_raw and e["sector"] in STD_SECTORS:
+                sec_for_raw=e["sector"]
+            if sec_for_raw:
+                sr=sector_raw[sec_for_raw]; sr["total"]+=1
                 sr["bull" if d>0 else ("bear" if d<0 else "neutral")]+=1
-            # 反转检测(近30天内, from/to 明确方向)
+            # 反转检测
             if prev_dir is not None and d!=0 and prev_dir!=0 and d!=prev_dir and recency(e)>0.4:
-                stance_changes.append({"kol_name":kol,"sector":e["sector"],"date":e["date"],
+                stance_changes.append({"kol_name":kol,"sector":(legs[0].get("板块") if legs else e["sector"]),"date":e["date"],
                     "from":"看多" if prev_dir>0 else "看空","to":"看多" if d>0 else "看空",
                     "title":e["name"][:50],"signal":"高" if not is_holder else "中"})
             prev_dir=d if d!=0 else prev_dir
 
-    # sector 加权评分归一化到 -100~100
+    # sector 加权评分归一化到 -100~100 + 三元组真实多空分布
     sector_summary=[]
-    for sec,pts in sector_pts.items():
+    all_secs=set(sector_pts)|set(sector_legs)|set(sector_raw)
+    for sec in all_secs:
+        pts=sector_pts.get(sec,[])
         raw=sum(pts)
-        # 用 tanh 平滑归一化(总分/活跃度)
-        score=round(100*math.tanh(raw/max(3,len(pts)**0.5)),0)
+        score=round(100*math.tanh(raw/max(3,len(pts)**0.5)),0) if pts else 0
         sr=sector_raw[sec]
+        sl=sector_legs[sec]
+        # 腿级真实多空(结构化): 多=强烈看多+看多, 空=看空+强烈看空
+        legs_bull=sl["强烈看多"]+sl["看多"]
+        legs_bear=sl["看空"]+sl["强烈看空"]
+        legs_neutral=sl["中性"]; legs_split=sl["分歧"]
         sector_summary.append({"sector":sec,"score":int(score),
-            "weighted_sum":round(raw,1),"bull":sr["bull"],"bear":sr["bear"],
-            "neutral":sr["neutral"],"total":sr["total"],
+            "weighted_sum":round(raw,1),
+            # 行级人头(主导方向)
+            "bull":sr["bull"],"bear":sr["bear"],"neutral":sr["neutral"],"total":sr["total"],
+            # 腿级真实多空(三元组摊平 — 雷达图/多空指标用这个)
+            "legs_bull":legs_bull,"legs_bear":legs_bear,"legs_neutral":legs_neutral,
+            "legs_split":legs_split,"legs_total":sl["legs_total"],
+            "strong_bull":sl["强烈看多"],"strong_bear":sl["强烈看空"],
             "avg":round(raw/len(pts),2) if pts else 0})
     sector_summary.sort(key=lambda x:-x["score"])
 
-    # ticker_heatmap (含催化剂线索)
-    bull_t=Counter();bear_t=Counter();ticker_kols=defaultdict(set)
-    for e in rows:
-        bb=e["bull_bear"]
-        for m in re.finditer(r'([A-Z]{2,5})',bb):
-            tk=m.group(1)
-            seg=bb[max(0,m.start()-3):m.start()]
-            if "🔴" in bb[:m.start()][-20:]: bear_t[tk]+=1
-            else: bull_t[tk]+=1
-            ticker_kols[tk].add(e["kol_name"])
-    ticker_heatmap={"bull":[{"ticker":t,"count":c,"kols":len(ticker_kols[t])} for t,c in bull_t.most_common(15)],
-                    "bear":[{"ticker":t,"count":c,"kols":len(ticker_kols[t])} for t,c in bear_t.most_common(15)]}
+    # ticker_heatmap: 优先用结构化 ticker_dir(方向明细的标的腿), 回退旧文本法
+    if ticker_dir:
+        bull_list=sorted([(t,v) for t,v in ticker_dir.items() if v["bull"]>v["bear"]],key=lambda x:-x[1]["bull"])[:15]
+        bear_list=sorted([(t,v) for t,v in ticker_dir.items() if v["bear"]>v["bull"]],key=lambda x:-x[1]["bear"])[:15]
+        ticker_heatmap={"bull":[{"ticker":t,"count":v["bull"],"kols":len(v["kols"])} for t,v in bull_list],
+                        "bear":[{"ticker":t,"count":v["bear"],"kols":len(v["kols"])} for t,v in bear_list]}
+    else:
+        bull_t=Counter();bear_t=Counter();ticker_kols=defaultdict(set)
+        for e in rows:
+            bb=e["bull_bear"]
+            for m in re.finditer(r'([A-Z]{2,5})',bb):
+                tk=m.group(1)
+                if "🔴" in bb[:m.start()][-20:]: bear_t[tk]+=1
+                else: bull_t[tk]+=1
+                ticker_kols[tk].add(e["kol_name"])
+        ticker_heatmap={"bull":[{"ticker":t,"count":c,"kols":len(ticker_kols[t])} for t,c in bull_t.most_common(15)],
+                        "bear":[{"ticker":t,"count":c,"kols":len(ticker_kols[t])} for t,c in bear_t.most_common(15)]}
 
     # kol_cards (含派别 + 最近vs3月前基线)
     kol_cards=[]
@@ -181,7 +243,9 @@ def main():
     out={"generated_at":datetime.now().strftime("%Y-%m-%d %H:%M JST"),
         "date_range":{"start":min(e["date"] for e in rows if e["date"]),
                       "end":max(e["date"] for e in rows if e["date"])},
-        "scoring_method":"全历史指数衰减(30天半衰期) × 新颖性(反转2.0/新1.5/维持0.6) × 置信度 × 派别(持仓派方向0.6)",
+        "scoring_method":"结构化方向明细(按标的拆分多空)三元组摊平 × 强度(强烈±2/普通±1) × 指数衰减(30天半衰期) × 派别(持仓派0.6)",
+        "direction_coverage":{"legged_rows":legged_rows,"total_rows":len(rows),
+            "pct":round(100*legged_rows/max(1,len(rows)),1)},
         "today_signals":today_signals,
         "sector_summary":sector_summary,
         "stance_changes":sorted(stance_changes,key=lambda x:x["date"],reverse=True)[:30],
@@ -197,10 +261,10 @@ def main():
 
     outpath=os.path.join(os.path.dirname(__file__),"data.json")
     json.dump(out,open(outpath,"w"),ensure_ascii=False,indent=2)
-    print(f"生成 data.json: {len(rows)} entries")
-    print(f"Sector 加权评分:")
+    print(f"生成 data.json: {len(rows)} entries | 已结构化方向: {legged_rows}/{len(rows)} ({round(100*legged_rows/max(1,len(rows)),1)}%)")
+    print(f"Sector 真实多空(腿级三元组 — 这才是雷达图用的):")
     for s in sector_summary:
-        print(f"  {s['sector']}: {s['score']:+d} (多{s['bull']}/空{s['bear']}/中{s['neutral']}, 总{s['total']})")
+        print(f"  {s['sector']:22} score={s['score']:+4d} | 腿:多{s['legs_bull']}(强{s['strong_bull']})/空{s['legs_bear']}(强{s['strong_bear']})/中{s['legs_neutral']}/分歧{s['legs_split']} | 行级人头多{s['bull']}/空{s['bear']}/中{s['neutral']}")
     print(f"反转信号: {len(stance_changes)} | 今日信号: {len(today_signals)}")
 
 if __name__=="__main__":

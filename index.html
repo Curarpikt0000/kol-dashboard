@@ -500,7 +500,7 @@ function render() {
 function renderTodaySignals() {
   const box = document.getElementById('today-signals');
   const sigs = DATA.today_signals || [];
-  const sectors = (DATA.sector_summary || []).filter(s => typeof s.score === 'number' && s.total >= 5);
+  const sectors = (DATA.sector_summary || []).filter(s => typeof s.score === 'number' && (s.legs_total >= 3 || s.total >= 5));
   if (!sigs.length && !sectors.length) { box.style.display='none'; return; }
   box.style.display = 'block';
   if (DATA.scoring_method) document.getElementById('today-signals-method').textContent = '加权评分法：' + DATA.scoring_method;
@@ -509,8 +509,12 @@ function renderTodaySignals() {
   let html = '<div style="margin-bottom:12px">';
   sectors.sort((a,b)=>b.score-a.score).forEach(s => {
     const pct = Math.abs(s.score)/2; // 0~50
-    const col = s.score>15 ? 'var(--bull)' : (s.score<-15 ? 'var(--bear)' : 'var(--neutral)');
-    const lbl = s.score>15 ? '偏多' : (s.score<-15 ? '偏空' : '中性');
+    // 标签综合 score 与腿级真实多空(避免衰减后score偏中性但实际压倒性看空的情况)
+    const lb = s.legs_bull!=null?s.legs_bull:s.bull, lbr = s.legs_bear!=null?s.legs_bear:s.bear;
+    const tot = lb+lbr;
+    const legBias = tot>=5 ? (lbr-lb)/tot : 0; // -1~1, 正=偏空
+    const col = (s.score>15||legBias<-0.3) ? 'var(--bull)' : ((s.score<-15||legBias>0.3) ? 'var(--bear)' : 'var(--neutral)');
+    const lbl = (s.score>15||legBias<-0.3) ? '偏多' : ((s.score<-15||legBias>0.3) ? '偏空' : '中性');
     html += `<div style="display:flex;align-items:center;gap:10px;padding:3px 0;font-size:12px">
       <span style="width:130px;color:var(--text)">${s.sector}</span>
       <span style="width:48px;text-align:right;font-weight:700;color:${col}">${s.score>0?'+':''}${s.score}</span>
@@ -519,7 +523,7 @@ function renderTodaySignals() {
         <div style="position:absolute;left:50%;top:0;height:100%;width:${pct}%;background:${col};border-radius:3px;${s.score<0?'transform:translateX(-100%)':''}"></div>
         <div style="position:absolute;left:50%;top:-2px;width:1px;height:10px;background:var(--muted)"></div>
       </div>
-      <span style="color:var(--muted);width:90px;font-size:11px">多${s.bull}/空${s.bear}/中${s.neutral}</span>
+      <span style="color:var(--muted);width:160px;font-size:11px">多${s.legs_bull!=null?s.legs_bull:s.bull}${s.strong_bear>0?' <span style="color:var(--bear)">空'+s.legs_bear+'(强'+s.strong_bear+')</span>':' 空'+(s.legs_bear!=null?s.legs_bear:s.bear)}${s.legs_split>0?' 分歧'+s.legs_split:''}</span>
     </div>`;
   });
   html += '</div>';
