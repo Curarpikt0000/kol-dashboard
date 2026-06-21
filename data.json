@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21 22:39 JST",
+  "generated_at": "2026-06-21 23:00 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-20"
@@ -179,23 +179,6 @@
       "avg": -0.06
     },
     {
-      "sector": "Government Debt",
-      "score": -100,
-      "weighted_sum": -267.5,
-      "bull": 9,
-      "bear": 27,
-      "neutral": 15,
-      "total": 51,
-      "legs_bull": 16,
-      "legs_bear": 867,
-      "legs_neutral": 18,
-      "legs_split": 4,
-      "legs_total": 905,
-      "strong_bull": 0,
-      "strong_bear": 33,
-      "avg": -0.3
-    },
-    {
       "sector": "Macro",
       "score": -100,
       "weighted_sum": -108.4,
@@ -211,6 +194,23 @@
       "strong_bull": 0,
       "strong_bear": 54,
       "avg": -0.18
+    },
+    {
+      "sector": "Government Debt",
+      "score": -100,
+      "weighted_sum": -267.5,
+      "bull": 9,
+      "bear": 27,
+      "neutral": 15,
+      "total": 51,
+      "legs_bull": 16,
+      "legs_bear": 867,
+      "legs_neutral": 18,
+      "legs_split": 4,
+      "legs_total": 905,
+      "strong_bull": 0,
+      "strong_bear": 33,
+      "avg": -0.3
     }
   ],
   "stance_changes": [
