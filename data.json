@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22 11:52 JST",
+  "generated_at": "2026-06-22 11:55 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-21"
@@ -7,8 +7,8 @@
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
     "legged_rows": 1950,
-    "total_rows": 1963,
-    "pct": 99.3
+    "total_rows": 1950,
+    "pct": 100.0
   },
   "today_signals": [
     {
@@ -24702,18 +24702,6 @@
       "bull_bear": "🟢 矿业/资源矿企"
     },
     {
-      "id": "32647eb5-fd3c-812e-b367-e72b8f2a946e",
-      "name": "黄金白银技术性突破在即",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-17",
-      "sector": "Precious Metals",
-      "detail_sector": "Gold/Silver Technicals",
-      "comments": "黄金白银价格正处于关键技术支撑位，宏观逆风减弱，预示着新一轮上涨周期的启动。",
-      "suggestion": "关注黄金白银突破点，做多GLD, SLV。",
-      "bull_bear": "🟢 黄金/白银"
-    },
-    {
       "id": "32647eb5-fd3c-8126-957f-faefdfb6dbb5",
       "name": "货币体系崩溃与实物资产回归",
       "kol_name": "Daniel Oliver",
@@ -24726,18 +24714,6 @@
       "bull_bear": "🟢 黄金/白银 | 🔴 美元/信用"
     },
     {
-      "id": "32547eb5-fd3c-8110-b767-fa798556399a",
-      "name": "市场情绪过度悲观，寻找被低估的周期性资产",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-16",
-      "sector": "Equities",
-      "detail_sector": "Contrarian Investing  Value",
-      "comments": "市场情绪过度悲观，寻找被低估的周期性行业和商品资产，等待价值回归。",
-      "suggestion": "关注小型能源公司或特定大宗商品生产商。",
-      "bull_bear": "🟢被低估周期股 🟢商品"
-    },
-    {
       "id": "32547eb5-fd3c-81d1-be5d-edbd061ba2f7",
       "name": "原油供需平衡受宏观与OPEC+影响，密切关注",
       "kol_name": "Rory Johnston",
@@ -24748,18 +24724,6 @@
       "comments": "全球原油供需平衡受OPEC+政策和宏观经济影响，关注库存变化和炼厂利润。",
       "suggestion": "密切跟踪IEA/OPEC月报，关注原油期货曲线结构。",
       "bull_bear": "⚪原油(供需平衡观望)"
-    },
-    {
-      "id": "32547eb5-fd3c-81fc-8728-dc0bd0084ab7",
-      "name": "能源转型面临现实挑战，传统能源安全仍是基石",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-16",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Security  Green Transition Realities",
-      "comments": "能源转型面临现实挑战，传统能源供应仍是全球经济支柱，能源安全至关重要。",
-      "suggestion": "关注传统能源基础设施投资，规避激进绿色政策风险。",
-      "bull_bear": "🟢 传统能源"
     },
     {
       "id": "32547eb5-fd3c-812d-9f0a-d6c4c340d507",
@@ -24930,30 +24894,6 @@
       "bull_bear": "🟢资源/矿业股"
     },
     {
-      "id": "32547eb5-fd3c-8125-aa77-f4cf60d993b0",
-      "name": "白银工业需求与货币属性共振，蓄势待发",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-16",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver Squeeze  Industrial Demand",
-      "comments": "白银兼具工业需求与货币属性，库存持续下降，工业应用爆发将推动价格飙升。",
-      "suggestion": "增持实物白银，关注SLV, PSLV。",
-      "bull_bear": "🟢白银"
-    },
-    {
-      "id": "32547eb5-fd3c-8115-ab62-c9980d493a4c",
-      "name": "贵金属技术位关键，等待趋势确认",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-16",
-      "sector": "Precious Metals",
-      "detail_sector": "Technical Analysis  Gold/Silver",
-      "comments": "黄金/白银在关键技术位面临突破或回踩，关注MACD与RSI信号确认趋势。",
-      "suggestion": "观察黄金1950美元支撑，白银23美元阻力，等待突破信号。",
-      "bull_bear": "⚪黄金/白银(等技术信号确认)"
-    },
-    {
       "id": "32547eb5-fd3c-81f4-82d6-fa28699626f4",
       "name": "财政赤字与法币贬值加速，黄金货币属性凸显",
       "kol_name": "Daniel Oliver",
@@ -24966,18 +24906,6 @@
       "bull_bear": "🟢 黄金 | 🔴 美元"
     },
     {
-      "id": "32447eb5-fd3c-813d-a723-ff3ec80ed3a7",
-      "name": "市场情绪极端化，寻找被忽视的价值洼地",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-15",
-      "sector": "Equities",
-      "detail_sector": "Contrarian Investing/Value",
-      "comments": "多数资金追逐热门赛道，但真正的超额收益往往存在于被市场低估、情绪悲观的周期性或特殊情况股票。",
-      "suggestion": "深入研究小型能源、矿业或特殊情况公司",
-      "bull_bear": "🟢被低估周期/价值股 🔴热门赛道股"
-    },
-    {
       "id": "32447eb5-fd3c-81bc-9f7b-eb21819c4438",
       "name": "原油市场供需平衡脆弱，地缘政治溢价持续",
       "kol_name": "Rory Johnston",
@@ -24988,18 +24916,6 @@
       "comments": "OPEC+产量政策、非OPEC供应增长与全球需求复苏相互作用，任何地缘事件均可迅速推高油价。",
       "suggestion": "关注布伦特原油期货 BZ=F",
       "bull_bear": "🟢原油"
-    },
-    {
-      "id": "32447eb5-fd3c-8106-a12c-fdba9f8dca1a",
-      "name": "绿色能源转型面临现实挑战，传统能源仍是经济基石",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-15",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy/Security",
-      "comments": "间歇性可再生能源无法满足基荷需求，过快淘汰化石燃料将威胁能源安全与工业竞争力。",
-      "suggestion": "关注核能与天然气基础设施投资",
-      "bull_bear": "🟢化石燃料/传统能源"
     },
     {
       "id": "32447eb5-fd3c-81f2-8a76-cea39bcf2c6a",
@@ -25170,30 +25086,6 @@
       "bull_bear": "🟢优质小型矿企"
     },
     {
-      "id": "32447eb5-fd3c-81c8-813c-cc2486a4383e",
-      "name": "白银工业需求与货币属性共振，牛市蓄势待发",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-15",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver",
-      "comments": "太阳能、电动车等新兴产业对白银需求激增，叠加其被低估的货币属性，白银将大幅跑赢黄金。",
-      "suggestion": "买入实物白银，增持白银矿企 SLV, PSLV",
-      "bull_bear": "🟢白银(跑赢黄金)"
-    },
-    {
-      "id": "32447eb5-fd3c-810e-87d7-c03fea559318",
-      "name": "黄金技术面突破关键阻力，上行趋势确立",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-15",
-      "sector": "Precious Metals",
-      "detail_sector": "Gold Technicals",
-      "comments": "黄金价格成功站稳2300美元上方，MACD与RSI指标均显示强劲买盘动能，目标位2450美元。",
-      "suggestion": "做多黄金期货 GC=F",
-      "bull_bear": "🟢黄金(目标2450)"
-    },
-    {
       "id": "32447eb5-fd3c-812a-b2b5-e05571680304",
       "name": "货币体系崩溃风险加剧，实物黄金白银是终极避险",
       "kol_name": "Daniel Oliver",
@@ -25242,30 +25134,6 @@
       "bull_bear": "🟢黄金版税/流媒体"
     },
     {
-      "id": "32347eb5-fd3c-811a-865e-db7eadb4c836",
-      "name": "逆向投资机会，关注被低估的能源与资源股",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-14",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Value Investing",
-      "comments": "市场对传统能源和资源股存在偏见，但其基本面强劲且估值极低，是当前最佳逆向投资标的。",
-      "suggestion": "深入研究小型油气生产商、煤炭公司或特定资源类公司。",
-      "bull_bear": "🟢传统能源/资源股"
-    },
-    {
-      "id": "32347eb5-fd3c-81dd-96a6-ee32bc6b895f",
-      "name": "商品市场技术性突破，新一轮牛市启动",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-14",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Technical Analysis",
-      "comments": "大宗商品价格已形成底部结构并出现技术性突破，预示着新一轮商品超级周期即将开启。",
-      "suggestion": "关注CRB指数ETF，或布局能源、工业金属等商品期货。",
-      "bull_bear": "🟢大宗商品"
-    },
-    {
       "id": "32347eb5-fd3c-8181-a8ac-d837d8705f1f",
       "name": "法币通胀侵蚀财富，黄金是唯一真实货币",
       "kol_name": "Daniel Oliver",
@@ -25300,18 +25168,6 @@
       "comments": "西方债务危机与东方崛起正加速全球货币体系重构，黄金、白银等硬资产将成为新储备。",
       "suggestion": "增持黄金、白银实物及相关矿业股票，规避主权债务风险。",
       "bull_bear": "🟢黄金/白银 🔴西方债务/美元体系"
-    },
-    {
-      "id": "32347eb5-fd3c-815d-96d7-d7c5b38aefd1",
-      "name": "能源转型政策失误，全球能源危机加剧",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-14",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy",
-      "comments": "西方激进的绿色能源政策导致传统能源投资不足，能源安全面临严峻挑战，工业基础受损。",
-      "suggestion": "关注核能、天然气等稳定能源资产，对冲能源短缺风险。",
-      "bull_bear": "🟢传统能源"
     },
     {
       "id": "32347eb5-fd3c-814f-af7b-f6ea973c4d3e",
@@ -25372,18 +25228,6 @@
       "comments": "人工智能、基因测序等技术正创造指数级增长机会，带来结构性通缩，传统估值方法失效。",
       "suggestion": "投资于AI、机器人、基因编辑、电动汽车等领域的创新型公司，如TSLA, NVDA, ARKK。",
       "bull_bear": "🟢AI/基因/创新股"
-    },
-    {
-      "id": "32347eb5-fd3c-81a9-873a-c457177f13e4",
-      "name": "白银被严重低估，工业与货币双重需求爆发",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-14",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver",
-      "comments": "白银兼具工业和货币属性，在新能源转型和通胀对冲双重驱动下，其价格潜力远超黄金。",
-      "suggestion": "重仓白银及优质白银矿企，如AG, PAAS。",
-      "bull_bear": "🟢白银"
     },
     {
       "id": "32347eb5-fd3c-8187-8fb8-e82cd91a3415",
