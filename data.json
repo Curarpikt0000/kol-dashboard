@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-22 11:30 JST",
+  "generated_at": "2026-06-22 11:52 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-21"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 1965,
-    "total_rows": 2035,
-    "pct": 96.6
+    "legged_rows": 1950,
+    "total_rows": 1963,
+    "pct": 99.3
   },
   "today_signals": [
     {
@@ -42,14 +42,6 @@
       "date": "2026-06-20",
       "desc": "看空→看多",
       "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "sector": "Macro",
-      "date": "2026-06-19",
-      "desc": "看空→看多",
-      "signal": "高"
     },
     {
       "type": "反转",
@@ -90,6 +82,14 @@
       "date": "2026-06-11",
       "desc": "看多→看空",
       "signal": "高"
+    },
+    {
+      "type": "反转",
+      "kol_name": "Bob Haberkorn",
+      "sector": "Precious Metals",
+      "date": "2026-06-11",
+      "desc": "看空→看多",
+      "signal": "高"
     }
   ],
   "sector_summary": [
@@ -98,19 +98,19 @@
       "score": 90,
       "consensus": 90,
       "weighted_sum": 560.3,
-      "bull": 1184,
-      "bear": 98,
-      "neutral": 151,
-      "total": 1433,
-      "legs_bull": 1887,
-      "legs_bear": 113,
-      "legs_neutral": 82,
+      "bull": 1179,
+      "bear": 97,
+      "neutral": 149,
+      "total": 1425,
+      "legs_bull": 1879,
+      "legs_bear": 111,
+      "legs_neutral": 81,
       "legs_split": 44,
-      "legs_total": 2126,
-      "strong_bull": 584,
+      "legs_total": 2115,
+      "strong_bull": 583,
       "strong_bear": 0,
-      "w_bull": 2471,
-      "w_bear": 113,
+      "w_bull": 2462,
+      "w_bear": 111,
       "avg": 0.26
     },
     {
@@ -135,22 +135,22 @@
     },
     {
       "sector": "Crypto",
-      "score": 70,
-      "consensus": 70,
-      "weighted_sum": 31.4,
+      "score": 72,
+      "consensus": 72,
+      "weighted_sum": 31.8,
       "bull": 48,
-      "bear": 6,
+      "bear": 4,
       "neutral": 8,
-      "total": 62,
+      "total": 60,
       "legs_bull": 128,
-      "legs_bear": 28,
+      "legs_bear": 26,
       "legs_neutral": 6,
       "legs_split": 4,
-      "legs_total": 166,
+      "legs_total": 164,
       "strong_bull": 40,
       "strong_bear": 0,
       "w_bull": 168,
-      "w_bear": 28,
+      "w_bear": 26,
       "avg": 0.19
     },
     {
@@ -195,22 +195,22 @@
     },
     {
       "sector": "Macro",
-      "score": -80,
-      "consensus": 80,
-      "weighted_sum": -103.7,
-      "bull": 22,
-      "bear": 32,
+      "score": -82,
+      "consensus": 82,
+      "weighted_sum": -104.3,
+      "bull": 18,
+      "bear": 31,
       "neutral": 16,
-      "total": 70,
-      "legs_bull": 63,
-      "legs_bear": 530,
+      "total": 65,
+      "legs_bull": 57,
+      "legs_bear": 525,
       "legs_neutral": 18,
       "legs_split": 1,
-      "legs_total": 612,
+      "legs_total": 601,
       "strong_bull": 0,
       "strong_bear": 54,
-      "w_bull": 63,
-      "w_bear": 584,
+      "w_bull": 57,
+      "w_bear": 579,
       "avg": -0.17
     },
     {
@@ -270,15 +270,6 @@
       "to": "看多",
       "title": "🟢 看多黄金>美债：这是滞胀经济，降息将是错误",
       "signal": "中"
-    },
-    {
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "sector": "Macro",
-      "date": "2026-06-19",
-      "from": "看空",
-      "to": "看多",
-      "title": "鹰派Fed推动美元创13个月新高,DXY上破101",
-      "signal": "高"
     },
     {
       "kol_name": "Torsten Sløk",
@@ -368,15 +359,6 @@
       "from": "看空",
       "to": "看多",
       "title": "Torsten Sløk — 🟡 中性",
-      "signal": "高"
-    },
-    {
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "sector": "Precious Metals",
-      "date": "2026-06-10",
-      "from": "看多",
-      "to": "看空",
-      "title": "加息担忧升温叠加风险off情绪,黄金跌向4300美元",
       "signal": "高"
     },
     {
@@ -504,24 +486,42 @@
       "to": "看空",
       "title": "中性 全球债务周期与秩序重塑下的谨慎观察",
       "signal": "中"
+    },
+    {
+      "kol_name": "Jeffrey Gundlach",
+      "sector": "Precious Metals",
+      "date": "2026-05-26",
+      "from": "看多",
+      "to": "看空",
+      "title": "看多黄金，看空长期美债",
+      "signal": "高"
+    },
+    {
+      "kol_name": "Ted Oakley",
+      "sector": "Precious Metals",
+      "date": "2026-05-26",
+      "from": "看空",
+      "to": "看多",
+      "title": "[看多] 黄金与能源板块具备结构性上涨潜力",
+      "signal": "高"
     }
   ],
   "ticker_heatmap": {
     "bull": [
       {
         "ticker": "黄金",
-        "count": 391,
-        "kols": 75
+        "count": 387,
+        "kols": 72
       },
       {
         "ticker": "白银",
-        "count": 239,
-        "kols": 61
+        "count": 237,
+        "kols": 58
       },
       {
         "ticker": "黄金/白银",
         "count": 96,
-        "kols": 45
+        "kols": 44
       },
       {
         "ticker": "黄金(GLD)",
@@ -576,7 +576,7 @@
       {
         "ticker": "黄金白银",
         "count": 17,
-        "kols": 18
+        "kols": 17
       },
       {
         "ticker": "比特币(BTC)",
@@ -598,12 +598,12 @@
       {
         "ticker": "美元",
         "count": 151,
-        "kols": 53
+        "kols": 51
       },
       {
         "ticker": "美元(DXY)",
-        "count": 133,
-        "kols": 49
+        "count": 132,
+        "kols": 47
       },
       {
         "ticker": "美债TLT",
@@ -937,16 +937,16 @@
       "trend": "→"
     },
     {
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
+      "kol_name": "David Meger",
+      "sector": "Precious Metals",
+      "detail_sector": "COMEX Delivery  Market Structure",
       "kol_or_ib": "KOL",
       "style": "交易派",
       "latest_date": "2026-06-19",
-      "latest_comments": "6月17日Fed维持利率3.5-3.75%但点阵图暗示2026年底前至少加息一次→Powell鹰派表态后,2026年至少加两次的概率一周内从17%升至53%,9月前加息概率达63%→2年期美债收益率升至2025年2月以来最高,推动DXY短暂上破101、创13个月新高→录得中东冲突以来最强两日涨幅,EURUSD与USDCAD承压。(来源:FXStreet 2026-06-19)",
-      "latest_title": "鹰派Fed推动美元创13个月新高,DXY上破101",
-      "bull_bear": "🟢美元(点阵图偏鹰,加息概率升,DXY破101创13月新高) 🔴EUR/USD 🟢USD/CAD",
-      "total_entries": 11,
+      "latest_comments": "",
+      "latest_title": "David Meger - 2026-06-19",
+      "bull_bear": "🟢黄金(美伊停火前景)",
+      "total_entries": 27,
       "trend": "↘ 趋空"
     },
     {
@@ -960,19 +960,6 @@
       "latest_title": "Marc Chandler - 2026-06-19",
       "bull_bear": "🟢金银(盘整偏涨) 🟢美元指数(鹰派Fed) 🟢USD/JPY 🔴EUR/USD 🔴USD/CNH(空美元) 🔴WTI原油",
       "total_entries": 21,
-      "trend": "→"
-    },
-    {
-      "kol_name": "David Meger",
-      "sector": "Precious Metals",
-      "detail_sector": "COMEX Delivery  Market Structure",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-06-19",
-      "latest_comments": "",
-      "latest_title": "David Meger - 2026-06-19",
-      "bull_bear": "🟢黄金(美伊停火前景)",
-      "total_entries": 17,
       "trend": "→"
     },
     {
@@ -1392,16 +1379,29 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "ANONYMIZED_PERSON_1",
+      "kol_name": "Nate Miller",
       "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
+      "detail_sector": "矿业股",
       "kol_or_ib": "KOL",
       "style": "交易派",
       "latest_date": "2026-06-10",
-      "latest_comments": "金价跌0.7%至4298.75美元,纳指与标普均下跌→他指出交易者情绪紧张,从风险资产的广泛撤离正在加压黄金,这更多反映整体risk-off而非黄金自身的疲软→并补充黄金白银可能持续承压,直到Fed可能年内仍加息的担忧消退→CPI数据公布前市场偏谨慎。(来源:PPC Herald/RJO Futures 2026-06-10)",
-      "latest_title": "加息担忧升温叠加风险off情绪,黄金跌向4300美元",
-      "bull_bear": "🔴 黄金白银短期承压(risk-off/加息担忧)",
-      "total_entries": 10,
+      "latest_comments": "白银市场连续五年供应短缺，2025年供需缺口预计达1.49亿盎司 → 工业需求因AI芯片、云计算和太阳能应用在2015-2024年间增长超55% → 金银比接近91，远高于历史均值50-60，显示白银相对黄金被低估 → 白银作为通胀对冲和避险资产吸引力增强 → 小型白银矿企（如SILJ持仓）具有高贝塔特性，能放大银价上涨收益 → 整体看多白银及白银矿业股\n\n来源: https://finance.",
+      "latest_title": "Nate Miller — 🟢 看多",
+      "bull_bear": "🟢 白银及矿业股(SLV/SILJ/GDX)",
+      "total_entries": 20,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Robert Gottlieb",
+      "sector": "Precious Metals",
+      "detail_sector": "实物需求",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-06-10",
+      "latest_comments": "Robert Gottlieb认为贵金属已进入新时代 → 长期上涨趋势未变 → 工业需求强劲导致地上白银库存降至临界水平 → 投资需求持续增长 → 短期回调由算法交易和期货抛售引发 → 但物理市场紧张提供支撑 → 回调是健康重置而非趋势逆转 → 波动性是资产类别固有特征而非警示信号\n\n来源: https://www.kitco.com/news/article/2025-12-29/gold-an",
+      "latest_title": "Robert Gottlieb — 🟢 看多",
+      "bull_bear": "🟢 黄金白银(GLD/SLV/PHYS)",
+      "total_entries": 26,
       "trend": "↘ 趋空"
     },
     {
@@ -1678,32 +1678,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Robert Gottlieb",
-      "sector": "Precious Metals",
-      "detail_sector": "实物需求",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-06-10",
-      "latest_comments": "Robert Gottlieb认为贵金属已进入新时代 → 长期上涨趋势未变 → 工业需求强劲导致地上白银库存降至临界水平 → 投资需求持续增长 → 短期回调由算法交易和期货抛售引发 → 但物理市场紧张提供支撑 → 回调是健康重置而非趋势逆转 → 波动性是资产类别固有特征而非警示信号\n\n来源: https://www.kitco.com/news/article/2025-12-29/gold-an",
-      "latest_title": "Robert Gottlieb — 🟢 看多",
-      "bull_bear": "🟢 黄金白银(GLD/SLV/PHYS)",
-      "total_entries": 22,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Nate Miller",
-      "sector": "Precious Metals",
-      "detail_sector": "矿业股",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-06-10",
-      "latest_comments": "白银市场连续五年供应短缺，2025年供需缺口预计达1.49亿盎司 → 工业需求因AI芯片、云计算和太阳能应用在2015-2024年间增长超55% → 金银比接近91，远高于历史均值50-60，显示白银相对黄金被低估 → 白银作为通胀对冲和避险资产吸引力增强 → 小型白银矿企（如SILJ持仓）具有高贝塔特性，能放大银价上涨收益 → 整体看多白银及白银矿业股\n\n来源: https://finance.",
-      "latest_title": "Nate Miller — 🟢 看多",
-      "bull_bear": "🟢 白银及矿业股(SLV/SILJ/GDX)",
-      "total_entries": 18,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Judy Shelton",
       "sector": "Macro",
       "detail_sector": "货币体系重构",
@@ -1753,19 +1727,6 @@
       "latest_title": "Goldman Sachs — 🟢 看多",
       "bull_bear": "🟢 GLD/PHYS/COPX",
       "total_entries": 34,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "ANONYMIZED_PERSON_3",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-05-21",
-      "latest_comments": "美伊谈判前景与Fed可能加息信号交织影响金价→他指出'任何对冲突的化解或霍尔木兹海峡的重新开放都将利好黄金市场,这可能压低利率预期,而这通常对黄金是正面的'→Fed 4月会议纪要显示多位官员对通胀保持警惕→冲突缓和→油价回落→通胀降温→降息预期升温的传导链利多黄金。(来源:worldgoldpricepro/High Ridge Futures 2026-05-21)",
-      "latest_title": "冲突化解或霍尔木兹海峡重开将利好黄金(降息预期)",
-      "bull_bear": "🟢 黄金(冲突缓和→降息预期→利多金)",
-      "total_entries": 10,
       "trend": "↘ 趋空"
     },
     {
@@ -4247,7 +4208,7 @@
     {
       "id": "38547eb5-fd3c-81a4-9e25-e5b868037f4f",
       "name": "Nate Miller:白银在$70筑高位平台,后续上行取决于通胀(中性偏多)",
-      "kol_name": "ANONYMIZED_PERSON_1",
+      "kol_name": "Nate Miller",
       "kol_or_ib": "KOL",
       "date": "2026-04-13",
       "sector": "Precious Metals",
@@ -4271,7 +4232,7 @@
     {
       "id": "38547eb5-fd3c-81d9-b43d-d5fe381d0e7a",
       "name": "Nate Miller:白银抛物线后转入盘整,散户不恐慌、牛市逻辑完好(中性偏多)",
-      "kol_name": "ANONYMIZED_PERSON_1",
+      "kol_name": "Nate Miller",
       "kol_or_ib": "KOL",
       "date": "2026-02-25",
       "sector": "Precious Metals",
@@ -4379,7 +4340,7 @@
     {
       "id": "38547eb5-fd3c-81c2-b3c7-f79540addefa",
       "name": "Robert Gottlieb:2026白银赤字收窄但持仓已轻,留出做多空间(中性偏多)",
-      "kol_name": "ANONYMIZED_PERSON_0",
+      "kol_name": "Robert Gottlieb",
       "kol_or_ib": "KOL",
       "date": "2026-04-15",
       "sector": "Precious Metals",
@@ -4391,7 +4352,7 @@
     {
       "id": "38547eb5-fd3c-8178-ad74-c25d2a0e2736",
       "name": "Robert Gottlieb:白银CME逼空是噪音,持仓出清而非系统性挤兑(中性偏多)",
-      "kol_name": "ANONYMIZED_PERSON_0",
+      "kol_name": "Robert Gottlieb",
       "kol_or_ib": "KOL",
       "date": "2026-03-02",
       "sector": "Precious Metals",
@@ -4403,7 +4364,7 @@
     {
       "id": "38547eb5-fd3c-816d-8b63-f8d6e1825e2a",
       "name": "Robert Gottlieb:白银暴跌10.5%属结构性去杠杆,勿接飞刀(警示)",
-      "kol_name": "ANONYMIZED_PERSON_0",
+      "kol_name": "Robert Gottlieb",
       "kol_or_ib": "KOL",
       "date": "2026-02-12",
       "sector": "Precious Metals",
@@ -4415,7 +4376,7 @@
     {
       "id": "38547eb5-fd3c-819c-b394-ca5e20218509",
       "name": "Robert Gottlieb:金银步入新时代,硬资产配置结构性转变(看多)",
-      "kol_name": "ANONYMIZED_PERSON_0",
+      "kol_name": "Robert Gottlieb",
       "kol_or_ib": "KOL",
       "date": "2025-12-29",
       "sector": "Precious Metals",
@@ -5027,7 +4988,7 @@
     {
       "id": "38547eb5-fd3c-8165-a31c-d3f6cba1fe82",
       "name": "冲突化解或霍尔木兹海峡重开将利好黄金(降息预期)",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-05-21",
       "sector": "Precious Metals",
@@ -5039,7 +5000,7 @@
     {
       "id": "38547eb5-fd3c-8171-9692-cd8f54e0ef59",
       "name": "美元因日本干预信号下跌+能源降温,黄金受益反弹",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-04-30",
       "sector": "Precious Metals",
@@ -5051,7 +5012,7 @@
     {
       "id": "38547eb5-fd3c-81fb-9805-e63df0a2d363",
       "name": "金价回落至年内低点4278后,仍坚信将强劲反弹",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-03-26",
       "sector": "Precious Metals",
@@ -5063,7 +5024,7 @@
     {
       "id": "38547eb5-fd3c-81cd-8901-d24c384bf1a7",
       "name": "中东冲突升级不确定性支撑金价,期金涨至5397",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-03-02",
       "sector": "Precious Metals",
@@ -5075,7 +5036,7 @@
     {
       "id": "38547eb5-fd3c-813f-89fe-e92460186c4c",
       "name": "地缘紧张推升金价,但强美元构成强劲逆风",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-02-20",
       "sector": "Precious Metals",
@@ -5087,7 +5048,7 @@
     {
       "id": "38547eb5-fd3c-817e-981c-c5eab2e8bae0",
       "name": "重磅数据周前金价轻度回调整理(关注非农与CPI)",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-02-10",
       "sector": "Precious Metals",
@@ -5099,7 +5060,7 @@
     {
       "id": "38547eb5-fd3c-812d-aa34-fbbaccfe2fb5",
       "name": "创历史新高后剧烈抛售,但月内仍大涨;UBS上调至6200",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-01-29",
       "sector": "Precious Metals",
@@ -5111,7 +5072,7 @@
     {
       "id": "38547eb5-fd3c-8178-b7f1-d3bb844eaed3",
       "name": "温和CPI抬升Fed降息概率,金银齐创历史新高",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2026-01-13",
       "sector": "Precious Metals",
@@ -5123,7 +5084,7 @@
     {
       "id": "38547eb5-fd3c-8102-92d4-d5c1609803f3",
       "name": "贵金属自历史高位获利回吐,年内涨幅依旧惊人",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2025-12-29",
       "sector": "Precious Metals",
@@ -5135,7 +5096,7 @@
     {
       "id": "38547eb5-fd3c-81ea-b908-fa0cffb674fc",
       "name": "降息预期+通胀仍高于目标,构成金银的底层支撑",
-      "kol_name": "ANONYMIZED_PERSON_3",
+      "kol_name": "David Meger",
       "kol_or_ib": "KOL",
       "date": "2025-12-02",
       "sector": "Precious Metals",
@@ -5335,102 +5296,6 @@
       "comments": "曾\"预言XRP赢得诉讼\"的Biggs再发隐喻性异象,涉及Ripple CEO与《数字资产市场CLARITY法案》(数字资产监管框架)的前景,叙事指向加密监管走向清晰、XRP法律/合规处境向好。资产含义:监管明确化(CLARITY Act)对XRP及合规型加密资产是结构性利好催化,会强化Ripple生态与XRP的政策叙事;但此为信仰型隐喻异象,需以立法实际进展验证。来源:Bitget News / TimesTabloid 2026-02-27《Man Who Prophesied XRP Winning the Lawsuits Drops Fresh Bombshell Statement On Ripple CEO》",
       "suggestion": "跟踪CLARITY法案立法进度作为加密板块(尤其XRP/合规币)的真实催化;把该异象当情绪信号而非依据,以事件驱动方式管理仓位与风险。",
       "bull_bear": "🟢XRP/合规加密(监管叙事CLARITY)"
-    },
-    {
-      "id": "38547eb5-fd3c-81e7-8d5c-d9e624edf53f",
-      "name": "加息担忧升温叠加风险off情绪,黄金跌向4300美元",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-06-10",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "金价跌0.7%至4298.75美元,纳指与标普均下跌→他指出交易者情绪紧张,从风险资产的广泛撤离正在加压黄金,这更多反映整体risk-off而非黄金自身的疲软→并补充黄金白银可能持续承压,直到Fed可能年内仍加息的担忧消退→CPI数据公布前市场偏谨慎。(来源:PPC Herald/RJO Futures 2026-06-10)",
-      "suggestion": "短期金价受加息担忧与风险off拖累,等CPI与Fed指引明朗前不宜抄底;关注4300关口支撑有效性。",
-      "bull_bear": "🔴 黄金白银短期承压(risk-off/加息担忧)"
-    },
-    {
-      "id": "38547eb5-fd3c-81b4-9e15-c36fe782d4ff",
-      "name": "若停火持稳、霍尔木兹海峡重开,黄金可冲5000美元",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-07",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "金价涨1.1%至4744美元,美伊和平希望缓解通胀担忧→他给出明确目标:'如果停火维持、我们能把这场战争抛在脑后、海峡重新开放并恢复正常贸易,我能看到黄金推升至5000美元/盎司'→市场正密切关注中东局势以及Fed的政策方向。(来源:MarketScreener/RJO Futures 2026-05-07)",
-      "suggestion": "黄金中期目标5000美元,催化剂为停火持稳+海峡通航;持多者可看高一线,以停火破裂为止盈/止损触发。",
-      "bull_bear": "🟢 黄金(目标5000)"
-    },
-    {
-      "id": "38547eb5-fd3c-8107-9c50-fc5eb388a7e2",
-      "name": "油价上行令降息预期回撤,无息黄金白银吸引力承压",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-16",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "白银期货从年内低点反弹32%、黄金期货回弹19%,受美伊战事结束短期利好驱动→他指出对美国降息的预期因国际油价上行而迅速回撤→由于黄金白银不生息,高利率环境下其相对吸引力下降→Fed流动性政策仍是后续关键变量。(来源:MK/RJO Futures 2026-04-16)",
-      "suggestion": "贵金属反弹后面临油价推升通胀、降息预期回撤的逆风;短线追高需谨慎,等Fed政策路径明朗。",
-      "bull_bear": "🟡 黄金/白银(中性)"
-    },
-    {
-      "id": "38547eb5-fd3c-81b2-ad63-d06d7670e071",
-      "name": "美伊停火消息利多黄金但市场谨慎,金价高位回吐",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-09",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "金价涨超1%,弱美元提供支撑→他指出'弱美元帮助黄金重拾立足点,但市场存在谨慎,参与者试图解读停火意味着什么'→并补充'停火头条对黄金极为利多,但随着裂痕显现,价格已从近期高位回落'→以色列轰炸黎巴嫩更多目标,停火可持续性存疑。(来源:Kitco/Reuters 2026-04-09)",
-      "suggestion": "停火既是利多(避险溢价)又是利空(风险缓和),双向博弈下黄金宽幅震荡;不押单边,跟随停火执行情况调整。",
-      "bull_bear": "🟢黄金(弱美元支撑但谨慎,中性偏多) | 🔴美元"
-    },
-    {
-      "id": "38547eb5-fd3c-8136-8183-cd7729c9fb8f",
-      "name": "通胀若回升央行降息动力减弱,但仍坚定看多黄金",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-26",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "冲突推升通胀担忧与美元疲软相互对冲,金价持稳→他承认'若通胀走高,央行降息动力将不如六个月前,这对金价是利空'→但随即强调'鉴于全球局势,我仍非常看多黄金,大量资金仍在场外等待入场,我预期还会有上行'→通胀两难下他维持结构性多头判断。(来源:Metal Radar/RJO Futures 2026-03-26)",
-      "suggestion": "通胀回升是黄金的短期变数,但场外资金与地缘风险支撑中期上行;维持黄金多头思路,回调即布局机会。",
-      "bull_bear": "🟢黄金"
-    },
-    {
-      "id": "38547eb5-fd3c-81c0-bac1-ffa790569de4",
-      "name": "强美元+债收益率走高引发避险转向现金,金价回落",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-03",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "金价回落至约5041美元,降息预期被推迟→他分析'金价走低似乎由流动性挤兑、向现金的逃离驱动,我们有强势美元和走高的债券收益率'→美元作为竞争性避险资产升至一个多月高点,使以美元计价的黄金对其他货币持有者更贵→短期压制来自美元与收益率而非黄金自身逻辑。(来源:MarketWatch/RJO Futures 2026-03-03)",
-      "suggestion": "金价回调由强美元与高收益率主导,属外部压制;关注美元见顶与收益率回落信号作为重新做多黄金的时点。",
-      "bull_bear": "🔴 黄金(短) 🟢 黄金(中) 🟢 美元"
-    },
-    {
-      "id": "38547eb5-fd3c-810e-b4fa-c4f8d3b8d7c7",
-      "name": "股市重挫触发追保抛售贵金属,但基本面未变",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2026-02-05",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "金价跌1.8%至4872.83美元、白银暴跌近14%,美元升至两周高位加压商品→他指出部分投资者面临追加保证金(margin call),因股票端亏损扩大而被迫平仓清算贵金属头寸→但他强调贵金属的基本面条件并未改变,这是流动性挤兑而非趋势逆转。(来源:Law-Order/Reuters 2026-02-05)",
-      "suggestion": "急跌源于追保去杠杆而非基本面恶化,视为强势中的洗盘;有耐心者可在恐慌中分批吸纳,不追空。",
-      "bull_bear": "🟢 黄金/白银 (逢低看多,流动性挤兑非趋势逆转)"
-    },
-    {
-      "id": "38547eb5-fd3c-810c-b542-e5f7bc243e17",
-      "name": "白银飙升+降息预期升温推动黄金上行(Fed决议前)",
-      "kol_name": "ANONYMIZED_PERSON_1",
-      "kol_or_ib": "KOL",
-      "date": "2025-12-09",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "白银突破60美元/盎司里程碑,带动黄金走高→他指出'当前黄金的上涨归因于白银的大幅飙升,以及市场对再降息25基点的高预期'→Fed两天政策会议本日开始,周三公布利率决定→降息预期与白银强势共振,贵金属在决议前维持升势。(来源:CNBC/RJO Futures 2025-12-09)",
-      "suggestion": "降息预期+白银领涨支撑黄金,事件前可持多;但需等Fed决议落地确认,防'利好兑现'回调。",
-      "bull_bear": "🟢 黄金｜🟢 白银(破$60强势)"
     },
     {
       "id": "38547eb5-fd3c-81ae-ae54-d53fb8c209bb",
@@ -5673,78 +5538,6 @@
       "bull_bear": "🟢BTC"
     },
     {
-      "id": "38547eb5-fd3c-8112-8c5d-c37bcef80510",
-      "name": "鹰派Fed推动美元创13个月新高,DXY上破101",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-06-19",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "comments": "6月17日Fed维持利率3.5-3.75%但点阵图暗示2026年底前至少加息一次→Powell鹰派表态后,2026年至少加两次的概率一周内从17%升至53%,9月前加息概率达63%→2年期美债收益率升至2025年2月以来最高,推动DXY短暂上破101、创13个月新高→录得中东冲突以来最强两日涨幅,EURUSD与USDCAD承压。(来源:FXStreet 2026-06-19)",
-      "suggestion": "鹰派点阵图重塑加息预期,美元短期强势延续;顺势做多美元、偏空EURUSD,但101一带为前高需防获利回吐。",
-      "bull_bear": "🟢美元(点阵图偏鹰,加息概率升,DXY破101创13月新高) 🔴EUR/USD 🟢USD/CAD"
-    },
-    {
-      "id": "38547eb5-fd3c-8116-9869-ec716da9b3fd",
-      "name": "美元避险企稳,Reuters共识EURUSD一年看至1.20",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-06-05",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "comments": "美元因美伊谈判'进入最后阶段'消息回升,但中东信息混乱抬升避险需求→Fed 2026年收紧概率已降至50%以下(MLIV调查:45%认为利率不变、35%升、15%降)→这与Reuters共识一致:EURUSD在1、3、12个月分别升至1.18、1.19、1.20→基线情景是中东冲突结束、白宫将施压焦点转回国内并要求降息。(来源:FXStreet 2026-06-05)",
-      "suggestion": "中期EURUSD偏多(目标1.18-1.20),逻辑是冲突缓和后白宫重启降息施压;短期避险扰动下分批布局,不追单边。",
-      "bull_bear": "🔴 美元(中期偏空,EURUSD升)"
-    },
-    {
-      "id": "38547eb5-fd3c-81cc-b4d7-f88cc6eb54a3",
-      "name": "非农大幅不及预期,但工资黏性阻挡BTC冲12万美元",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-09",
-      "sector": "Crypto",
-      "detail_sector": "技术分析",
-      "comments": "4月非农仅增6.2万远低于3月17.2万,比特币跌破8万美元→劳动力恶化本应强化Fed转鸽预期、利好风险资产→但平均时薪同比3.8%(前值3.5%)使通胀延续、捆住Fed的手→BTC冲击12万美元的多头逻辑需要'弱就业+不黏工资'两端配合,工资黏性堵住了这条路。(来源:TradingView/CoinDesk 2026-05-09)",
-      "suggestion": "BTC 12万目标受制于工资黏性与Fed两难,短期上行需弱就业且通胀降温双确认;在此之前对追多保持克制。",
-      "bull_bear": "🔴 BTC(短期,工资黏性/Fed手被捆)"
-    },
-    {
-      "id": "38547eb5-fd3c-81a0-809c-f227aa3214b0",
-      "name": "美元走强复刻2022模式,避险与美国例外论双驱",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-24",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "comments": "美元近6个交易日中有5日走强→受避险需求与'美国经济好于他国'信心驱动→PMI显示滞胀迹象(物价上行、活动放缓),欧洲PMI跌至17个月低位→虽然对Fed施压本应令美元承压(引2025 Bundesbank研究:施压抬高通胀预期、压低美债收益率、弱化美元),但中东冲突升级风险逆转了这一过程,资金回流买入美国资产→走势复刻2022年模式。(来源:FXStreet 2026-04-24)",
-      "suggestion": "避险与美国例外论压过政治施压利空,美元延续2022式走强;持有美元多头,警惕中东局势缓和带来的回调。",
-      "bull_bear": "🟢美元"
-    },
-    {
-      "id": "38547eb5-fd3c-8121-a0d6-fa36558a9d27",
-      "name": "共和党间接支持更紧Fed政策,美元发起反攻",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-22",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "comments": "美元因美伊谈判破裂与3月零售销售环比涨1.7%发起反攻→经济强劲、油价高企,期货市场定价64%概率利率维持3.75%至年底→Fed主席提名问题悬而未决,Powell去留取决于司法调查,Kalshi预测6月底换帅概率65%→只要Powell在位,市场预期向更紧政策漂移,利好美元。(来源:FXStreet 2026-04-22)",
-      "suggestion": "政治不确定性叠加强经济使政策预期偏鹰,美元短中期偏强,逢低做多美元;关注Fed换帅进展作为风险点。",
-      "bull_bear": "🟢美元"
-    },
-    {
-      "id": "38547eb5-fd3c-819a-adbd-c315190e6d40",
-      "name": "美国劳动力市场韧性支撑美元,看空EURUSD",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-06",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "comments": "美国3月失业率从4.4%降至4.3%,就业人数增18万,近三月非农均值6.8万→劳动力市场韧性强化'美国例外论'回归→美国作为净能源出口国对油价冲击不敏感,美元因此走强并有助压制通胀→反观欧洲,欧元走弱加剧通胀风险,ECB转鹰但其本人判断ECB不会激进收紧→EURUSD下行受阻但中期偏空。(来源:FXStreet 2026-04-06)",
-      "suggestion": "美元在美国例外论与能源出口优势下偏强,EURUSD逢高偏空;但ECB鹰派表态会限制跌速,不宜过度追空。",
-      "bull_bear": "🟢 美元 | 🔴 EURUSD"
-    },
-    {
       "id": "38547eb5-fd3c-8192-820c-e41843373225",
       "name": "特朗普推进AI反乌托邦:2030前的技术控制终局",
       "kol_name": "David Icke",
@@ -5767,18 +5560,6 @@
       "comments": "Icke在《The Global Energy Crisis & the Market Impact into 2028》中引述其泰国办公室一线反馈\"加油站普遍无汽油、北部柴油排长队\",将其归因于霍尔木兹海峡封锁导致亚洲能源供给硬受冲击;并称以伊冲突在3月18日前更多是\"虚张声势\",但当日内塔尼亚胡袭击了全球最大气田南帕尔斯(估约51万亿立方米),改变了战争性质。资产含义:海峡封锁+全球最大气田受损=油气供给端真实冲击,直接利多原油/天然气/LNG价格与能源股,利空能源进口型亚洲经济体货币与航运/化工等高耗能下游。来源:davidicke.com 2026-03-26《The Global Energy Crisis & the Market Impact into 2028》",
       "suggestion": "地缘能源冲击情景:可在油气供给中断风险上行时持有原油/天然气多头或能源股对冲;关注亚洲炼厂/航空等成本承压标的的下行风险。",
       "bull_bear": "🟢原油/气/LNG/能源股 / 🔴亚洲进口国货币·高耗能下游"
-    },
-    {
-      "id": "38547eb5-fd3c-8141-8fe0-dde6766ccd23",
-      "name": "美元走弱推动加密反弹但结构阻力仍在,BTC探至8.6万",
-      "kol_name": "ANONYMIZED_PERSON_0",
-      "kol_or_ib": "KOL",
-      "date": "2026-01-26",
-      "sector": "Crypto",
-      "detail_sector": "技术分析",
-      "comments": "过去7天加密总市值跌5%至2.9万亿→近期因美元走弱与全球风险资产买盘回升至2.97万亿→比特币当日触及约8.6万美元的去年12月以来低点→但加密仍是滞后的风险敏感资产,表现弱于贵金属与主要货币→反弹由美元疲软驱动而非内生动能,上方结构性阻力依旧。(来源:FXEmpire 2026-01-26)",
-      "suggestion": "加密反弹本质是美元走弱的镜像,缺乏自身动能;追多需等结构性阻力突破,否则视为弱势反弹,谨慎。",
-      "bull_bear": "🔴 加密|🔴 美元"
     },
     {
       "id": "38547eb5-fd3c-81e3-b1e0-c45a4faffb7d",
@@ -20733,30 +20514,6 @@
       "bull_bear": "🟢金银加密(预言重大财富转移/宏观灾难避险)"
     },
     {
-      "id": "33747eb5-fd3c-81f4-aa0c-d130bec8a6f9",
-      "name": "财富管理与投资策略",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-04-03",
-      "sector": "Macro",
-      "detail_sector": "Wealth Management",
-      "comments": "瑞银集团作为全球领先的财富管理机构，其投资策略通常侧重于长期资产配置和风险管理。他们可能会对全球经济增长、通胀、利率以及不同资产类别的表现给出展望。他们会分析GDP增长率、CPI数据、央行政策以及市场波动性。权威数值来源（例如：UBS - Global Wealth Management House View, World Bank - Global Economic Prospects）显示瑞银对全球经济增长持谨慎态度，建议多元化配置以管理风险。其底层逻辑基于对财富管理和长期投资的深刻理解，具有稳健性。当日具体数值：数据获取中。",
-      "suggestion": "参考瑞银的财富管理建议，构建多元化投资组合，注重风险控制和长期回报。",
-      "bull_bear": "🟡 谨慎多元配置"
-    },
-    {
-      "id": "33747eb5-fd3c-8162-983a-d71322867bb7",
-      "name": "全球市场与外汇策略",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-04-03",
-      "sector": "Macro",
-      "detail_sector": "FX & Global Markets",
-      "comments": "花旗银行在全球市场和外汇策略方面具有专长。他们可能会对主要货币对的走势、新兴市场前景以及全球贸易流向给出分析。他们会分析各国央行利率决议、贸易数据、GDP增长率以及地缘政治事件。权威数值来源（例如：Citi - FX Strategy Report, IMF - World Economic Outlook）显示花旗对美元走势持中性偏空态度，新兴市场面临挑战。其底层逻辑基于强大的全球研究网络和外汇市场专业知识，具有市场影响力。当日具体数值：数据获取中。",
-      "suggestion": "根据花旗的外汇策略报告，调整主要货币对的交易头寸，关注新兴市场风险。",
-      "bull_bear": "🔴 美元(中性偏空)"
-    },
-    {
       "id": "33747eb5-fd3c-812d-b692-d73fb99860ad",
       "name": "市场策略与行业展望",
       "kol_name": "Morgan Stanley",
@@ -20781,18 +20538,6 @@
       "bull_bear": "🟡 谨慎乐观"
     },
     {
-      "id": "33747eb5-fd3c-8181-97b0-d6f8a5fd6ebf",
-      "name": "宏观与大宗商品的价值投资",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Macro & Commodities",
-      "comments": "Kuppy是一位宏观和商品领域的价值投资者，他认为在当前通胀环境下，大宗商品具有被低估的价值。他会关注全球宏观经济趋势、大宗商品供需、库存以及相关公司的估值。他会分析IMF的全球经济展望、EIA的能源报告以及公司财报。权威数值来源（例如：IMF - World Economic Outlook, EIA - Weekly Petroleum Status Report）显示全球经济面临通胀压力，大宗商品需求保持韧性。其底层逻辑基于对宏观经济和价值投资原则的深刻理解，具有长期视角。当日具体数值：数据获取中。",
-      "suggestion": "寻找被低估的能源、农业和工业金属类公司股票，长期持有。",
-      "bull_bear": "🟢 大宗商品"
-    },
-    {
       "id": "33747eb5-fd3c-81cc-87ee-e873db1ddb89",
       "name": "大宗商品市场深度分析",
       "kol_name": "Rory Johnston",
@@ -20805,18 +20550,6 @@
       "bull_bear": "🟡 大宗商品供需观察"
     },
     {
-      "id": "33747eb5-fd3c-8115-bef3-c94e602f9d32",
-      "name": "能源危机与宏观通胀",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy & Macro",
-      "comments": "Doomberg是一个匿名分析团队，专注于能源危机对宏观经济和通胀的影响。他们认为能源短缺和绿色转型政策将导致持续的通胀压力和经济衰退。他们会关注全球能源生产、消费、库存、能源政策以及通胀数据。他们会分析EIA的能源报告、IEA的年度报告以及CPI数据。权威数值来源（例如：EIA - International Energy Statistics, IEA - World Energy Outlook）显示全球能源供应面临挑战，能源价格波动剧烈。其底层逻辑基于对能源物理学和宏观经济学的深刻理解，具有批判性。当日具体数值：数据获取中。",
-      "suggestion": "配置能源类大宗商品和相关股票以对冲通胀，同时关注经济衰退风险，规避高耗能行业。",
-      "bull_bear": "🟢能源(短缺)、🔴经济(通胀+衰退)"
-    },
-    {
       "id": "33747eb5-fd3c-8156-afa5-d7c9cce0ae01",
       "name": "能源股的超级周期",
       "kol_name": "Eric Nuttall",
@@ -20827,18 +20560,6 @@
       "comments": "Eric Nuttall是著名的能源投资者，他认为全球能源市场正处于一个供应紧张、需求旺盛的超级周期，能源股被严重低估。他会关注全球原油和天然气供需平衡、库存水平、资本支出以及地缘政治对能源价格的影响。他会分析EIA的能源报告、OPEC的月度报告以及公司财报。权威数值来源（例如：EIA - Weekly Petroleum Status Report, OPEC - Monthly Oil Market Report）显示全球原油库存持续下降，资本支出不足。其底层逻辑基于对能源供需基本面和行业周期的深刻理解，具有行业权威性。当日具体数值：数据获取中。",
       "suggestion": "长期持有优质原油和天然气生产商股票，关注能源行业并购机会。",
       "bull_bear": "🟢 原油/天然气/能源股"
-    },
-    {
-      "id": "33747eb5-fd3c-812a-8843-cdb4911734a2",
-      "name": "AI赋能生产力工具的未来",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Equities",
-      "detail_sector": "Productivity Software & AI",
-      "comments": "Ivan Zhao作为Notion的CEO，其核心关注点在于如何通过AI技术提升生产力工具的效率和智能化水平。他认为AI将彻底改变人们的工作方式，使知识管理和协作更加高效。他会关注AI技术在自然语言处理、自动化和个性化推荐方面的进展，以及用户对新功能的反馈。他会分析Notion的用户增长数据、AI功能使用率以及行业竞争格局。权威数值来源（例如：Notion - User Growth Statistics, Industry Reports - AI in Productivity Software Market Size）显示AI在生产力工具领域的应用前景广阔，用户需求旺盛。其底层逻辑基于对软件产品和AI技术融合的深刻理解，具有行业领导力。当日具体数值：数据获取中。",
-      "suggestion": "关注Notion等AI赋能的生产力工具公司的发展，投资于相关软件服务提供商。",
-      "bull_bear": "🟢AI/科技(生产力前景广阔)"
     },
     {
       "id": "33747eb5-fd3c-8127-969b-cd87c97b0b2f",
@@ -20995,42 +20716,6 @@
       "comments": "Keith Neumeyer作为First Majestic Silver的CEO，是白银市场的坚定看多者。他认为白银的供应正在结构性短缺，而工业和投资需求将推动价格大幅上涨。他会关注全球白银产量、库存水平、工业需求数据以及公司生产成本。他会分析世界白银协会的报告、COMEX白银库存以及公司财报。权威数值来源（例如：Silver Institute - World Silver Survey, COMEX - Silver Inventories）显示白银市场长期供不应求，库存持续下降。其底层逻辑基于对白银供需基本面和矿业运营的深刻理解，具有行业权威性。当日具体数值：数据获取中。",
       "suggestion": "长期持有白银实物或投资于First Majestic Silver等优质白银矿业公司。",
       "bull_bear": "🟢白银(结构性短缺/长期供不应求)"
-    },
-    {
-      "id": "33747eb5-fd3c-8113-8ad6-cc0cb4f9be2c",
-      "name": "永久性扭曲与央行暗钱流向",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Macro",
-      "detail_sector": "Central Bank Policy & Inequality",
-      "comments": "Nomi Prins的核心框架是“永久性扭曲(Permanent Distortion)”，认为全球央行通过量化宽松等政策制造了巨大的资产泡沫，并导致财富向少数人集中，形成“暗钱流向”。她会关注央行资产负债表、M2货币供应量、贫富差距数据以及金融市场波动性。权威数值来源（例如：Federal Reserve - H.4.1 Factors Affecting Reserve Balances, World Bank - Gini Index）显示央行资产负债表规模巨大，贫富差距持续扩大。其底层逻辑基于对央行政策对经济和社会结构影响的深刻批判，具有社会公平视角。当日具体数值：数据获取中。",
-      "suggestion": "规避被央行政策过度支撑的资产，关注实物资产和具有内在价值的投资，以对冲系统性风险和财富不平等。",
-      "bull_bear": "🔴资产泡沫/法币(央行QE永久扭曲)"
-    },
-    {
-      "id": "33747eb5-fd3c-814c-af24-c0478397277e",
-      "name": "法币归零与银行存款没收",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Macro",
-      "detail_sector": "Monetary Collapse & Gold",
-      "comments": "Lynette Zang的核心理论是法币的生命周期最终将归零，银行可能通过“Bail-in”没收存款，而CBDC将带来绝对控制。她认为实物黄金和白银是唯一能保护财富的资产。她会关注M2货币供应量、通胀数据、银行准备金、CBDC试点进展以及各国央行黄金储备。权威数值来源（例如：FRED - M2 Money Stock, BIS - Central Bank Digital Currencies）显示货币供应量持续增长，CBDC研发加速。其底层逻辑基于对货币历史、银行体系脆弱性和政府控制的深刻担忧，具有强烈的危机意识。当日具体数值：数据获取中。",
-      "suggestion": "立即将银行存款转换为实物黄金和白银，规避所有纸质资产和数字货币，以防范金融系统崩溃和财富没收。",
-      "bull_bear": "🔴法币/银行(归零/Bail-in/CBDC)、🟢实物金银"
-    },
-    {
-      "id": "33747eb5-fd3c-81ca-a682-ea219528775a",
-      "name": "宏观趋势与自上而下投资",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Macro",
-      "detail_sector": "Global Macro Strategy",
-      "comments": "Stanley Druckenmiller以其自上而下的宏观投资策略闻名，他会根据全球宏观趋势调整投资组合。他可能会关注美联储政策、通胀、地缘政治以及企业盈利。他会分析FOMC声明、CPI数据、国际关系报告以及公司财报。权威数值来源（例如：Federal Reserve - FOMC Statement, BEA - Personal Consumption Expenditures (PCE) Price Index）显示美联储政策和通胀数据是当前市场关注焦点。其底层逻辑基于对宏观经济和市场动态的深刻理解，具有灵活性。当日具体数值：数据获取中。",
-      "suggestion": "密切关注美联储政策转向信号和通胀数据，灵活调整股票、债券和商品配置。",
-      "bull_bear": "🟡 宏观观望"
     },
     {
       "id": "33747eb5-fd3c-81c7-9192-dede27b791db",
@@ -21225,30 +20910,6 @@
       "bull_bear": "🟢 贵金属/能源资源股"
     },
     {
-      "id": "33747eb5-fd3c-8194-946f-fd764d1fc62e",
-      "name": "白银：工业需求与货币属性双重驱动",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver Market",
-      "comments": "David Morgan是著名的白银专家，他认为白银兼具工业金属和贵金属的双重属性，在当前宏观环境下具有巨大的上涨潜力。他会关注白银的工业需求（如太阳能、电动汽车）、矿产供应、库存变化以及金银比。他会分析世界白银协会的年度报告、COMEX白银库存数据以及USGS的矿产数据。权威数值来源（例如：Silver Institute - World Silver Survey, COMEX - Silver Inventories）显示白银市场长期处于结构性短缺，库存持续下降。其底层逻辑基于对白银供需基本面和历史货币作用的深刻理解，具有长期投资价值。当日具体数值：数据获取中。",
-      "suggestion": "长期持有实物白银或白银ETF，关注金银比跌破70的买入信号。",
-      "bull_bear": "🟢 白银"
-    },
-    {
-      "id": "33747eb5-fd3c-8175-839c-d800d6d34fc6",
-      "name": "贵金属技术面突破在即",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-03",
-      "sector": "Precious Metals",
-      "detail_sector": "Technical Analysis",
-      "comments": "Jason Hunter作为技术分析师，会从图表形态、趋势线、支撑阻力位以及成交量等角度分析贵金属走势。他可能会指出黄金或白银正在形成重要的底部结构或突破关键阻力位。他会使用彭博终端或Refinitiv Eikon等专业平台获取实时价格和成交量数据。权威数值来源（例如：CME Group - Gold Futures Price, Silver Futures Price）显示黄金/白银价格在关键技术位附近震荡，成交量配合可能预示方向选择。其底层逻辑基于市场行为学和技术分析理论，具有短期交易指导意义。当日具体数值：数据获取中。",
-      "suggestion": "关注黄金2000美元/盎司、白银25美元/盎司的关键技术阻力位，突破后可追多。",
-      "bull_bear": "🟢 黄金/白银(技术底部突破)"
-    },
-    {
       "id": "33747eb5-fd3c-8125-9546-d601a6917ad8",
       "name": "矿业股的价值洼地",
       "kol_name": "Daniel Oliver",
@@ -21321,30 +20982,6 @@
       "bull_bear": "🟢 金银/BTC(方舟)｜🔴 经济崩溃(末世)"
     },
     {
-      "id": "33647eb5-fd3c-8192-a6fc-cde86cf070e1",
-      "name": "财富管理与全球资产配置",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-04-02",
-      "sector": "Macro",
-      "detail_sector": "Wealth Management & Asset Allocation",
-      "comments": "瑞银的策略通常侧重于财富管理和全球资产配置，为高净值客户提供投资建议。他们会根据宏观经济展望，调整股票、债券、另类投资和现金的配置比例。近期可能建议在当前不确定性环境下保持多元化。他们会引用全球GDP预测、通胀数据、利率预期、各类资产的历史回报率等。今日具体数值：数据获取中。其分析基于强大的研究团队和数据模型。",
-      "suggestion": "根据个人风险偏好和投资目标，构建多元化资产组合，适度配置黄金等避险资产，关注瑞银的全球资产配置建议。",
-      "bull_bear": "🟡全球资产(多元化平衡配置)"
-    },
-    {
-      "id": "33647eb5-fd3c-814e-a6c9-ccbfc49f87ef",
-      "name": "全球外汇与大宗商品策略",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-04-02",
-      "sector": "Macro",
-      "detail_sector": "FX & Commodities",
-      "comments": "花旗的策略通常关注全球外汇市场和大宗商品。他们会分析主要货币对的走势，以及大宗商品（包括贵金属）的供需基本面和宏观驱动因素。近期可能关注美元走势对大宗商品的影响。他们会引用主要央行利率决议、外汇储备数据、大宗商品供需报告等。今日具体数值：数据获取中。其分析基于强大的研究团队和数据模型。",
-      "suggestion": "关注美元指数走势对贵金属和原油价格的影响，根据花旗的货币和商品策略调整相关头寸。",
-      "bull_bear": "🟡 外汇/大宗商品(无明确方向)"
-    },
-    {
       "id": "33647eb5-fd3c-81f9-8b47-ce3347aae2f4",
       "name": "全球股票与信贷市场展望",
       "kol_name": "Morgan Stanley",
@@ -21369,18 +21006,6 @@
       "bull_bear": "🟢 大宗商品/能源/工业金属"
     },
     {
-      "id": "33647eb5-fd3c-811e-974d-d79345ab9b08",
-      "name": "价值投资与大宗商品周期",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-02",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Value Investing & Commodities",
-      "comments": "Kuppy是一位价值投资者，他经常在能源、大宗商品和不良资产领域寻找投资机会。他认为大宗商品市场具有周期性，当前可能处于一个长期牛市的开端。他会关注大宗商品公司的基本面、估值、以及宏观经济对商品需求的影响。今日具体数值：数据获取中。其基于价值和周期判断的底层逻辑在商品类投资中具有吸引力。",
-      "suggestion": "在能源和商品市场回调时，寻找具有良好基本面和低估值的公司进行长期价值投资。",
-      "bull_bear": "🟢 大宗商品(长期牛市开端)"
-    },
-    {
       "id": "33647eb5-fd3c-816b-b1ad-e8f612a53211",
       "name": "全球石油市场深度分析",
       "kol_name": "Rory Johnston",
@@ -21393,18 +21018,6 @@
       "bull_bear": "🟡石油(复杂因素需细致观察,无明确表态)"
     },
     {
-      "id": "33647eb5-fd3c-81e8-bdb0-f517c7130008",
-      "name": "能源转型困境与通胀风险",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-02",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Transition & Inflation",
-      "comments": "Doomberg是一个匿名分析团队，其观点侧重于能源转型面临的巨大挑战、供应链脆弱性以及由此引发的持续通胀风险。他们认为“绿色能源”转型被过度美化，而传统能源的可靠性被低估。他们会引用能源生产数据、通胀数据、供应链中断报告。今日具体数值：数据获取中。其对能源政策和通胀的批判性分析具有独特性。",
-      "suggestion": "增持传统能源资产（如油气、煤炭），关注能源供应链的韧性，配置黄金以对冲长期通胀风险。",
-      "bull_bear": "🟢传统能源(可靠性被低估/持续通胀)"
-    },
-    {
       "id": "33647eb5-fd3c-8142-a034-d4ab043f2e5b",
       "name": "能源短缺与油气投资机会",
       "kol_name": "Eric Nuttall",
@@ -21415,18 +21028,6 @@
       "comments": "Nuttall是著名的能源投资者，他认为全球正面临能源短缺，尤其是在传统油气领域投资不足的背景下。他坚信油气价格将长期维持高位，并看好相关公司的投资机会。他会关注全球原油供需报告、OPEC+产量政策、能源公司的资本支出和盈利能力。今日具体数值：数据获取中。其对能源基本面和油气投资的分析具有深度。",
       "suggestion": "投资于具有良好基本面、低成本、高现金流的油气生产商，关注全球能源供需平衡变化。",
       "bull_bear": "🟢 油气/能源股"
-    },
-    {
-      "id": "33647eb5-fd3c-814a-ac0f-cbadd4e8b921",
-      "name": "AI赋能生产力工具的未来",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-02",
-      "sector": "Equities",
-      "detail_sector": "Productivity Software & AI",
-      "comments": "Zhao作为Notion的CEO，其核心关注点在于如何通过AI技术提升个人和团队的生产力。他认为AI将深度融入日常工作流程，使软件更加智能和个性化。他会关注AI技术在软件应用中的创新、用户体验提升和市场反馈。今日具体数值：数据获取中。其对AI在生产力工具领域应用的洞察具有行业前瞻性。",
-      "suggestion": "关注AI赋能的生产力软件公司，投资于能够提升工作效率和协作体验的创新技术。",
-      "bull_bear": "🟢 AI/软件"
     },
     {
       "id": "33647eb5-fd3c-81ab-a0a5-fca270c7807a",
@@ -21583,18 +21184,6 @@
       "comments": "Neumeyer作为First Majestic Silver的CEO，坚信白银市场存在结构性短缺，工业需求不断增长而供应受限。他认为白银价格被低估，未来有巨大上涨潜力，并积极推动白银矿业的整合。他会引用全球白银供需报告、白银矿业公司的生产成本和储量数据。今日具体数值：数据获取中。其对白银基本面和矿业整合的看法具有行业代表性。",
       "suggestion": "长期持有实物白银和优质白银矿业股票，关注白银矿业的并购整合机会。",
       "bull_bear": "🟢白银(结构性短缺/被低估)"
-    },
-    {
-      "id": "33647eb5-fd3c-81ff-a446-fe607aac0159",
-      "name": "顶级宏观交易员的灵活策略",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-02",
-      "sector": "Macro",
-      "detail_sector": "Global Macro Trading",
-      "comments": "Druckenmiller是传奇的宏观交易员，以其灵活的、自上而下的投资策略而闻名。他没有固定的教条，而是根据对全球宏观经济、货币政策和市场情绪的判断，进行大规模的资产配置调整。他会关注全球GDP增长、通胀、利率、央行政策、地缘政治事件等。今日具体数值：数据获取中。其对宏观趋势的把握和灵活的交易风格是其成功的关键。",
-      "suggestion": "保持对全球宏观经济和央行政策的密切关注，根据市场变化灵活调整资产配置，可考虑在趋势明确时进行大规模押注。",
-      "bull_bear": "🟡宏观多资产(灵活无固定方向)"
     },
     {
       "id": "33647eb5-fd3c-81d9-aa8c-e8b429254b67",
@@ -21789,30 +21378,6 @@
       "bull_bear": "🟢资源股(逆向买被低估优质公司)"
     },
     {
-      "id": "33647eb5-fd3c-8161-b6c7-efac51014fa2",
-      "name": "白银的价值被严重低估",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-02",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver Investment",
-      "comments": "Morgan是著名的白银倡导者，他坚信白银作为货币金属和工业金属的双重属性，其价值被严重低估。他认为黄金/白银比率处于历史高位，预示着白银未来有更大的上涨空间。他会关注全球白银供需报告、黄金/白银比率、白银矿业公司的生产成本等。今日具体数值：数据获取中。其对白银基本面和历史比价的分析具有长期投资价值。",
-      "suggestion": "增持实物白银和优质白银矿业股票，等待黄金/白银比率回归历史均值。",
-      "bull_bear": "🟢白银(被严重低估/金银比高位)"
-    },
-    {
-      "id": "33647eb5-fd3c-811a-9e0d-ff01fa29e5ad",
-      "name": "技术分析驱动的大宗商品策略",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-02",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Technical Analysis & Commodities",
-      "comments": "Hunter作为技术策略师，其分析主要基于图表模式、趋势线、支撑阻力位、动量指标等技术信号来预测大宗商品（包括贵金属）的走势。他会关注黄金、白银、原油等主要大宗商品的日线、周线图表形态。今日具体数值：数据获取中。其纯粹的技术分析方法在捕捉市场短期波动和趋势反转方面具有参考价值。",
-      "suggestion": "根据黄金、白银的日线和周线图表，识别关键技术位进行波段操作，例如在突破关键阻力位后追涨，或在跌破支撑位后减仓。",
-      "bull_bear": "🟡 大宗商品(纯技术,无方向)"
-    },
-    {
       "id": "33647eb5-fd3c-81e8-891b-c27c0578b1b3",
       "name": "货币贬值与黄金的终极避险",
       "kol_name": "Daniel Oliver",
@@ -21885,30 +21450,6 @@
       "bull_bear": "🟢 金银(方舟)｜🔴 经济崩溃(末世预言)"
     },
     {
-      "id": "33547eb5-fd3c-81e3-b8a7-dcc33d700ffa",
-      "name": "看好黄金长期表现，关注央行购金",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-04-01",
-      "sector": "Precious Metals",
-      "detail_sector": "Gold Outlook",
-      "comments": "瑞银近期研究报告重申看好黄金的长期表现，主要驱动因素是全球央行持续的购金需求和地缘政治风险。他们预计黄金价格将在未来12个月内达到2500美元/盎司（来源：瑞银研究报告，2024年5月）。报告指出，全球央行黄金储备持续增加（来源：世界黄金协会，2024年第一季度央行购金量为290吨）。其底层逻辑是黄金作为储备资产的吸引力。",
-      "suggestion": "长期持有黄金，关注央行购金数据和地缘政治事件。",
-      "bull_bear": "🟢 黄金XAU"
-    },
-    {
-      "id": "33547eb5-fd3c-812a-a4e1-ccf35e6ba149",
-      "name": "原油市场供应充足，短期价格承压",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-04-01",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Oil Market Outlook",
-      "comments": "花旗银行近期研究报告认为，尽管地缘政治风险犹存，但全球原油市场供应相对充足，短期内油价可能面临下行压力。他们预计布伦特原油价格将在80美元/桶附近波动（来源：花旗研究报告，2024年5月）。报告指出，非OPEC产油国（尤其是美国）的产量增长抵消了OPEC+的减产影响。其底层逻辑是供需基本面分析。",
-      "suggestion": "对原油多头保持谨慎，可考虑部分获利了结或设置止损，关注供应端变化。",
-      "bull_bear": "🔴原油(供应充足下行压力)"
-    },
-    {
       "id": "33547eb5-fd3c-814c-a3df-c0a9b5311a97",
       "name": "全球经济增长放缓，关注防御性资产",
       "kol_name": "Morgan Stanley",
@@ -21933,18 +21474,6 @@
       "bull_bear": "🟢 黄金XAU｜🟢 大宗商品"
     },
     {
-      "id": "33547eb5-fd3c-818d-8091-e807bfc7fd40",
-      "name": "价值投资大宗商品，关注被忽视领域",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-01",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Value Investing & Commodities",
-      "comments": "Kuppy（Kuppy's Korner）近期未有24小时内公开表态，但其核心投资理念是寻找被市场忽视的价值洼地，尤其是在大宗商品领域。他认为，当前市场对某些大宗商品的投资不足，存在巨大的长期回报潜力。他未提供具体数值，但其观点基于对市场情绪和基本面错配的洞察。其底层逻辑是，价值最终会回归，而大宗商品在通胀环境中具有保值增值作用。",
-      "suggestion": "研究并投资被市场低估的特定大宗商品（如铀、化肥、某些工业金属）及其相关公司。",
-      "bull_bear": "🟢 大宗商品(价值洼地)"
-    },
-    {
       "id": "33547eb5-fd3c-8125-8aa4-fe3d64039139",
       "name": "原油市场供需平衡脆弱，警惕波动",
       "kol_name": "Rory Johnston",
@@ -21957,18 +21486,6 @@
       "bull_bear": "🟢原油(库存低于五年均值)"
     },
     {
-      "id": "33547eb5-fd3c-8153-b92c-c447f2031d46",
-      "name": "能源危机持续，关注核能与大宗商品",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-01",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Crisis & Commodities",
-      "comments": "Doomberg近期未有24小时内公开表态，但其核心观点是全球正面临结构性能源危机，且绿色能源转型面临巨大挑战。他们强调核能在解决能源危机中的关键作用，并看好大宗商品（尤其是能源和工业金属）的长期表现。他们指出，全球能源需求持续增长，而传统能源投资不足（来源：IEA，最新数据获取中）。其底层逻辑是物理现实和能源安全的重要性。",
-      "suggestion": "配置核能相关股票 (如URNM ETF) 和其他战略性大宗商品，如铜、锂等。",
-      "bull_bear": "🟢 能源/工业金属"
-    },
-    {
       "id": "33547eb5-fd3c-818b-9555-e8e6e250d62c",
       "name": "能源股被低估，油价将维持高位",
       "kol_name": "Eric Nuttall",
@@ -21979,18 +21496,6 @@
       "comments": "Eric Nuttall（Ninepoint Partners）近期持续看好能源股，认为其估值仍被市场低估，且油价将因供应紧张和需求韧性而维持高位。他指出，全球原油库存（如OECD商业原油库存）持续低于五年平均水平（来源：IEA，最新数据获取中），而OPEC+减产和地缘政治风险支撑油价。他认为，WTI原油价格将在75-85美元/桶区间波动（来源：N/A，分析师预测）。其底层逻辑是供需基本面和地缘政治对油价的决定性影响。",
       "suggestion": "增持优质能源公司股票 (如XOM, CVX) 或能源ETF (XLE)。",
       "bull_bear": "🟢 能源股/原油"
-    },
-    {
-      "id": "33547eb5-fd3c-81bd-b8d9-cf58223adc82",
-      "name": "AI赋能生产力，协作工具是未来",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-01",
-      "sector": "Equities",
-      "detail_sector": "SaaS & AI Productivity",
-      "comments": "Ivan Zhao（Notion CEO）近期未有24小时内公开表态，但其公司Notion持续在产品中集成AI功能，旨在提升用户生产力。他会认为，AI将彻底改变工作方式，协作工具将成为企业和个人不可或缺的基础设施。他未提供具体数值，但其观点基于对软件行业发展趋势和AI潜力的深刻理解。其底层逻辑是AI将极大提升效率，并重塑软件行业。",
-      "suggestion": "关注SaaS领域中积极拥抱AI、提升用户生产力的公司，如CRM, ADBE等。",
-      "bull_bear": "🟢 AI/软件"
     },
     {
       "id": "33547eb5-fd3c-8180-b318-e3a290ffbd99",
@@ -22147,18 +21652,6 @@
       "comments": "Keith Neumeyer（First Majestic Silver CEO）近期持续强调全球白银供应面临结构性短缺，而工业和投资需求却在不断增长。他认为，这种供需失衡最终将导致白银价格大幅上涨。他指出，全球白银矿产量增长停滞，而太阳能、电动汽车等领域对白银的需求持续增加（来源：Silver Institute，最新数据获取中）。其底层逻辑是供需基本面最终决定商品价格。",
       "suggestion": "重仓白银实物或白银矿业公司股票，如First Majestic Silver (AG)。",
       "bull_bear": "🟢 白银XAG(结构性短缺)"
-    },
-    {
-      "id": "33547eb5-fd3c-8109-9215-fed513026809",
-      "name": "宏观环境复杂，保持灵活",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-01",
-      "sector": "Macro",
-      "detail_sector": "Global Macro Strategy",
-      "comments": "Stanley Druckenmiller近期未有24小时内公开表态，但其投资哲学强调在复杂宏观环境中保持极度灵活。他会关注美联储政策、通胀数据和地缘政治事件的最新变化。他认为，当前市场存在诸多不确定性，需要随时调整仓位。他未提供具体数值，但其观点基于对宏观经济趋势的敏锐洞察。其底层逻辑是，市场是动态变化的，没有一成不变的策略。",
-      "suggestion": "保持投资组合的灵活性，密切关注宏观经济数据和地缘政治事件，根据市场变化及时调整资产配置。",
-      "bull_bear": "🟡宏观(强调灵活,无明确表态)"
     },
     {
       "id": "33547eb5-fd3c-813c-a13b-cdd664e6eb50",
@@ -22353,30 +21846,6 @@
       "bull_bear": "🟢 资源股/初级矿业"
     },
     {
-      "id": "33547eb5-fd3c-81c1-a904-f4c2fe56d91a",
-      "name": "白银被严重低估，矿业股蓄势待发",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-01",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver & Mining Stocks",
-      "comments": "David Morgan近期持续强调白银相对于黄金的严重低估，认为金银比（Gold/Silver Ratio）仍处于历史高位（近期在80-85之间波动，来源：N/A，市场数据）。他指出，白银兼具货币属性和工业需求，在全球绿色能源转型中将扮演关键角色。他认为，白银矿业股在白银价格上涨周期中具有巨大杠杆效应。其底层逻辑是白银供需基本面的改善和历史金银比的回归。",
-      "suggestion": "配置白银实物或白银ETF (SLV)，并关注优质白银矿业公司股票 (如AG, PAAS)。",
-      "bull_bear": "🟢 白银XAG(金银比高位低估)"
-    },
-    {
-      "id": "33547eb5-fd3c-81b4-97e8-fbcb04a62a3f",
-      "name": "黄金技术性超买，关注支撑位",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-01",
-      "sector": "Precious Metals",
-      "detail_sector": "Technical Analysis",
-      "comments": "Jason Hunter（BMO Capital Markets）近期未有24小时内公开表态，但基于其技术分析框架，他会认为黄金在近期快速上涨后已出现技术性超买信号。他会关注黄金在2300美元/盎司附近的支撑位，以及RSI等动量指标的修正。他认为，尽管基本面强劲，但短期内市场需要消化前期涨幅。其底层逻辑是市场行为的周期性和技术指标的有效性。",
-      "suggestion": "若持有黄金多头，可考虑设置止盈位或部分获利了结；未入场者等待回调至关键支撑位（如2300美元/盎司）再考虑买入。",
-      "bull_bear": "🔴 黄金XAU(短期超买)"
-    },
-    {
       "id": "33547eb5-fd3c-81eb-a304-d1df37d70682",
       "name": "实际利率为负，黄金是唯一选择",
       "kol_name": "Daniel Oliver",
@@ -22449,30 +21918,6 @@
       "bull_bear": "🟢金银(预言:法币崩溃避险)"
     },
     {
-      "id": "33447eb5-fd3c-81b9-9af5-d66e3f7358aa",
-      "name": "IB View: Wealth Management & Global Asset Allocation",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-03-31",
-      "sector": "Macro",
-      "detail_sector": "Wealth Management Strategy",
-      "comments": "UBS强调多元化配置和风险管理 → 当前通胀与地缘风险持续影响多资产组合 → 建议增加实物资产配置以对冲不确定性 → 对传统债券持谨慎态度 → 整体策略偏向防御性调整而非单边看多或看空",
-      "suggestion": "增配实物资产如GLD，减配长期国债TLT",
-      "bull_bear": "🟢实物资产 | 🔴传统债券(防御调整)"
-    },
-    {
-      "id": "33447eb5-fd3c-8154-9f50-c94a2b3f4fa4",
-      "name": "IB View: FX & Emerging Markets Focus",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-03-31",
-      "sector": "Macro",
-      "detail_sector": "Foreign Exchange & Emerging Markets",
-      "comments": "Citi研究聚焦外汇市场与新兴经济体 → 强调美元指数（DXY）走势对全球资产的关键影响 → 分析利率差异与地缘政治风险 → 对新兴市场资产既看到机会也提示风险 → 整体观点偏中性，需结合具体货币对与EM标的判断方向",
-      "suggestion": "关注DXY走势，可配置GLD对冲美元波动风险，谨慎参与EM货币多头",
-      "bull_bear": "🟡美元/新兴市场(偏中性)"
-    },
-    {
       "id": "33447eb5-fd3c-8159-9976-caafadf7462b",
       "name": "IB View: Equity Strategy & Macro Headwinds",
       "kol_name": "Morgan Stanley",
@@ -22497,18 +21942,6 @@
       "bull_bear": "⚪ 综合(中性混合)"
     },
     {
-      "id": "33447eb5-fd3c-8171-938b-c74bc0c48885",
-      "name": "Kuppy's Korner: Value in Commodities & Distressed Assets",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-31",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Value Investing",
-      "comments": "Kuppy专注于价值投资，尤其偏好能源、矿业等大宗商品领域中的深度低估资产 → 当前市场对部分商品类公司存在错误定价或暂时性逆风 → 这些标的交易价格低于内在价值 → 因此他倾向于看多这些被低估的能源和矿业标的，认为存在价值回归机会",
-      "suggestion": "关注能源和矿业板块中深度低估标的，如XLE、GDX，逢低布局",
-      "bull_bear": "🟢能源/矿业(深度低估)"
-    },
-    {
       "id": "33447eb5-fd3c-8101-bd98-c6f5ff067fe2",
       "name": "Commodity Strategist: Oil Market Dynamics",
       "kol_name": "Rory Johnston",
@@ -22521,18 +21954,6 @@
       "bull_bear": "⚪ 原油(多空交织)"
     },
     {
-      "id": "33447eb5-fd3c-816a-b083-c6326abf639c",
-      "name": "Energy & Macro: Green Delusions & Realities",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-31",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy & Geopolitics",
-      "comments": "传统能源投资不足 → 绿色能源目标不切实际 → 能源供应脆弱性上升 → 能源危机与通胀风险加剧 → 经济滞胀压力增大 → 贵金属避险需求上升",
-      "suggestion": "做多黄金GLD，做空长期国债TLT，对冲能源通胀风险",
-      "bull_bear": "🟢能源/贵金属(滞胀避险)"
-    },
-    {
       "id": "33447eb5-fd3c-81f9-9ef3-df8760e99a89",
       "name": "Energy Investor: Structural Bull Market",
       "kol_name": "Eric Nuttall",
@@ -22543,18 +21964,6 @@
       "comments": "能源行业长期投资不足导致供应下降 → 全球需求持续存在且具有韧性 → 地缘政治风险加剧供应不确定性 → 能源公司自由现金流强劲但估值偏低 → 形成结构性牛市基础 → 能源价格与股票估值存在显著背离 → 看多能源板块",
       "suggestion": "做多能源板块，关注XLE、OIH等ETF，或买入WTI原油期货多头头寸",
       "bull_bear": "🟢能源(结构性牛市)"
-    },
-    {
-      "id": "33447eb5-fd3c-8159-bee9-ee37a69bca78",
-      "name": "Productivity Software & Future of Work",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-31",
-      "sector": "Equities",
-      "detail_sector": "Software as a Service (SaaS)",
-      "comments": "Ivan Zhao作为Notion CEO，其关注点在于企业软件、远程办公和AI集成趋势 → 这些趋势推动SaaS模型增长和协作效率工具需求上升 → 但宏观层面缺乏直接数据支撑，且其个人非宏观或金融专家 → 因此对贵金属和宏观经济方向无明显指向性 → 整体判断为中性/混合。",
-      "suggestion": "建议观望，关注科技股ETF如QQQ，或持有现金等待宏观数据明确。",
-      "bull_bear": "🟡企业软件/SaaS(无明确方向)"
     },
     {
       "id": "33447eb5-fd3c-81dd-a5bf-f7e29f822905",
@@ -22711,18 +22120,6 @@
       "comments": "银矿品位下降与勘探投资不足导致供给受限 → 工业需求（如太阳能）持续增长 → 供需缺口扩大 → 银价上涨预期增强",
       "suggestion": "做多白银，关注SLV、AGQ等白银相关ETF及First Majestic Silver（AG）股票",
       "bull_bear": "🟢白银(供给受限+工业需求)"
-    },
-    {
-      "id": "33447eb5-fd3c-8150-9ffd-d94959fa6be7",
-      "name": "Legendary Macro Trader: Opportunistic & Flexible",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-31",
-      "sector": "Macro",
-      "detail_sector": "Global Macro Trading",
-      "comments": "Druckenmiller强调灵活性与机会主义 → 当前全球货币政策出现重大转向信号 → 通胀趋势不明朗但CPI仍是关键指标 → 地缘政治风险加剧资产波动 → 需在黄金等避险资产与长期国债之间双向布局 → 同时注重资本保全与快速止损",
-      "suggestion": "逢低做多GLD，逢高做空TLT，控制仓位并严格止损",
-      "bull_bear": "🟢黄金 | ⚠️长期国债(双向布局)"
     },
     {
       "id": "33447eb5-fd3c-8116-8e03-debf8db3ae14",
@@ -22915,30 +22312,6 @@
       "comments": "Rick Rule 作为逆向资源投资者，主张在熊市中布局低估资产 → 当前贵金属、铀和能源板块经历调整后估值偏低 → 强调选择资产负债表强劲、储量已证实的小型矿业公司 → 预期未来牛市周期将带来超额收益 → 因此对优质资源股持看多态度",
       "suggestion": "关注优质贵金属矿业股如 NEM、铀矿股如 UUUU，逢低布局做多",
       "bull_bear": "🟢 铀/能源(UUUU)/贵金属(NEM)"
-    },
-    {
-      "id": "33447eb5-fd3c-8195-baef-e10867ad445d",
-      "name": "Silver's Undervaluation & Industrial Demand",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-31",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver Market",
-      "comments": "白银兼具货币属性与工业属性 → 当前金银比处于历史高位，白银相对黄金被显著低估 → 工业需求持续增长（如太阳能板、电动车）将推升白银价格 → 供需基本面支持白银上涨 → 整体看多白银",
-      "suggestion": "建议做多白银，关注SLV或AG，逢低布局",
-      "bull_bear": "🟢白银(金银比高位+工业需求)"
-    },
-    {
-      "id": "33447eb5-fd3c-8156-891b-d78b820f1c2e",
-      "name": "Technical & Macro Signals for Commodities",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-31",
-      "sector": "Precious Metals",
-      "detail_sector": "Technical Analysis",
-      "comments": "关注价格形态与动量 → 结合通胀预期（TIPS盈亏平衡率）与工业需求 → 黄金白银图表形态需进一步确认 → 宏观指标未给出明确单边信号 → 当前处于数据获取中状态，缺乏具体数值支撑 → 整体判断为中性偏观望",
-      "suggestion": "观望为主，可轻仓配置GLD对冲通胀风险，暂不建议做空TLT",
-      "bull_bear": "🟡黄金白银(中性偏观望)"
     },
     {
       "id": "33447eb5-fd3c-8120-8d8f-d73e25f9b139",
@@ -23229,18 +22602,6 @@
       "bull_bear": "🟢白银(严重低估) 🟢银矿股(First Majestic)"
     },
     {
-      "id": "33247eb5-fd3c-812d-a759-c30413c9f23e",
-      "name": "能源转型困境加剧，大宗商品牛市基础未变",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-29",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Transition/Geopolitics",
-      "comments": "Doomberg 在其最新报告中指出，尽管近期大宗商品市场出现波动，但全球能源转型的结构性困境并未改变，反而因地缘政治紧张和供应链脆弱性而加剧。他们认为，西方国家在可再生能源上的激进投入，并未能有效弥补传统化石燃料的供应缺口，导致能源价格长期面临上涨压力。他们会认为金银的短期回调是市场对宏观数据过度反应的结果，不影响其对“真实资产”长期看涨的观点。他们关注的底层数据是全球能源供需平衡、战略石油储备变化以及关键矿产的生产瓶颈。",
-      "suggestion": "维持对能源和大宗商品的长期多头配置。关注石油、天然气以及铜、锂等关键工业金属的投资机会，将金银视为对冲货币贬值和系统性风险的补充。",
-      "bull_bear": "🟢能源(长期上涨压力) 🟢黄金白银(真实资产)"
-    },
-    {
       "id": "33247eb5-fd3c-81c3-a403-cdb5a8eb881f",
       "name": "AI革命将带来通缩，黄金吸引力下降，资金流向创新科技",
       "kol_name": "Cathie Wood",
@@ -23481,18 +22842,6 @@
       "bull_bear": "🔴美债 🔴美元(去美元化) 🟢黄金(重估)"
     },
     {
-      "id": "33047eb5-fd3c-81e2-9420-fed819a240de",
-      "name": "金银短期承压，但长期结构性支撑犹存，关注央行需求",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-03-27",
-      "sector": "Precious Metals",
-      "detail_sector": "Commodity Research",
-      "comments": "瑞银（UBS）的贵金属分析师通常会提供相对平衡的观点。他们会认为近期金银价格的下跌是由于美元走强、实际利率上升以及市场对美联储降息预期的调整所致。然而，他们会强调黄金的长期结构性支撑依然存在，主要来自全球央行的持续购买、地缘政治不确定性以及对冲通胀的需求。他们可能会下调短期金银价格预测，但维持长期看涨目标。他们会建议客户在回调时逐步建立头寸，并关注央行购买数据和ETF资金流向，作为市场情绪和基本面变化的指标。",
-      "suggestion": "利用金银回调机会，分批买入黄金和白银ETF（如GLD, SLV），或通过实物购买进行长期配置，关注央行购买报告。",
-      "bull_bear": "🟢金银(长期看涨,短期下调)"
-    },
-    {
       "id": "33047eb5-fd3c-81b2-9a48-d416774bc147",
       "name": "信贷市场压力显现，美联储政策转向或引发市场剧震",
       "kol_name": "Larry McDonald",
@@ -23515,18 +22864,6 @@
       "comments": "James Rickards是前CIA顾问，以其对金融系统崩溃和“黑天鹅”事件的预警而闻名。他会认为近期金银的波动是市场对短期事件的反应，但无法掩盖全球金融体系固有的脆弱性。他会强调，各国央行过度印钞、巨额债务以及地缘政治冲突，正在将世界推向一场不可避免的金融危机。他会坚持认为，黄金和白银是应对任何形式的金融崩溃或货币战争的终极保险。他不会改变其长期看多金银的立场，并会利用任何回调机会，敦促投资者增加贵金属配置，以保护财富。",
       "suggestion": "将金银视为应对极端金融风险的“保险”资产，长期持有实物黄金或通过Sprott Physical Gold/Silver Trust进行配置，不应追求短期交易利润。",
       "bull_bear": "🟢金银 / 🔴美元体系"
-    },
-    {
-      "id": "33047eb5-fd3c-8138-b2db-d410a7952246",
-      "name": "能源政策失误加剧地缘风险，工业基础面临严峻挑战",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-27",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Security/Industrial Policy",
-      "comments": "Doomberg专注于能源安全、工业基础和地缘政治对大宗商品市场的影响。他们会认为近期油价的波动和地缘政治紧张局势，是西方国家长期能源政策失误的必然结果。他们会强调，对化石燃料的过度限制和对可再生能源的盲目追求，正在削弱工业基础，并使全球供应链变得更加脆弱。他们会坚持认为，能源价格将长期维持高位，并对全球经济产生深远影响。他们不会改变其对传统能源（石油、天然气）的战略性看涨立场，并会警示能源危机可能引发的社会动荡。",
-      "suggestion": "配置传统能源公司股票或相关ETF（如XLE），以对冲能源价格上涨和地缘政治风险。关注能源基础设施和供应链安全。",
-      "bull_bear": "🟢石油/天然气"
     },
     {
       "id": "33047eb5-fd3c-813a-899b-ffd4cc954714",
@@ -23709,18 +23046,6 @@
       "bull_bear": "🟢黄金 / 🔴美元"
     },
     {
-      "id": "32f47eb5-fd3c-8132-8a31-f35133567cd5",
-      "name": "能源危机远未结束，警示绿色转型中的脆弱性",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-26",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Security",
-      "comments": "Doomberg 近期在其 Substack 报告中持续强调，全球能源危机并未真正结束，而是进入了一个新的阶段。他们认为，西方国家激进的“绿色转型”政策正在导致传统能源投资不足，从而加剧了能源系统的脆弱性。他们会指出，近期油价的波动是地缘政治和供需失衡的体现，而非短期现象。他们关注的底层数据是全球原油库存、天然气价格、以及各国能源政策的实际执行情况。他们认为，能源安全将是未来几年的核心议题，并对可再生能源的可靠性提出质疑。其逻辑链条基于对物理世界和能源工程的深刻理解。",
-      "suggestion": "战略性配置传统能源板块的优质公司，尤其是那些拥有稳定现金流和低成本生产优势的企业。同时，关注铀等核能相关资产，作为未来能源结构的重要组成部分。",
-      "bull_bear": "🟢能源/原油"
-    },
-    {
       "id": "32f47eb5-fd3c-812e-b47c-f320ae5eff33",
       "name": "坚信颠覆性创新将驱动市场，继续加仓 AI 概念股",
       "kol_name": "Cathie Wood",
@@ -23853,18 +23178,6 @@
       "bull_bear": "🟢🟢黄金/白银"
     },
     {
-      "id": "32e47eb5-fd3c-8158-9b27-c5b746d4afd6",
-      "name": "金银回调提供买入机会，多元化配置仍是关键",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-03-25",
-      "sector": "Precious Metals",
-      "detail_sector": "Wealth Management/Asset Allocation",
-      "comments": "瑞银作为全球领先的财富管理机构，其观点通常侧重于为客户提供多元化资产配置建议。在金银近期暴跌后，瑞银可能会向其客户发布报告，指出此次回调为长期投资者提供了有吸引力的买入机会。他们会强调黄金作为对冲通胀、地缘政治风险和货币贬值的关键工具，并建议客户在投资组合中保持一定比例的黄金配置。瑞银会基于其宏观经济模型、利率预期以及客户风险偏好进行分析，并可能建议将黄金视为战略性资产而非短期投机工具。他们的态度会是稳健且长期的。",
-      "suggestion": "对于长期投资者，利用金银回调机会，在投资组合中增加黄金配置，建议通过实物黄金或低成本 ETF (如 GLD) 进行配置，并保持投资组合的多元化。",
-      "bull_bear": "🟢黄金"
-    },
-    {
       "id": "32e47eb5-fd3c-81e6-bc78-d4eabed84a1a",
       "name": "金价短期承压，但长期看涨目标不变，关注央行需求",
       "kol_name": "Goldman Sachs",
@@ -23875,18 +23188,6 @@
       "comments": "高盛此前对黄金持长期看涨态度，并设定了较高的目标价。在金银近期暴跌后，高盛可能会发布报告，承认短期内金价因美元走强和降息预期推迟而面临压力。然而，他们不太可能改变其长期看涨的观点，而是会强调结构性因素，如各国央行持续的黄金购买需求、地缘政治风险以及全球去美元化趋势。他们会引用央行购金数据、全球宏观经济模型以及其商品团队的供需分析作为支撑。高盛可能会微调其短期价格预测，但会重申其对黄金作为长期战略资产的信心。",
       "suggestion": "短期内可等待金价企稳，但长期投资者应继续持有黄金，关注高盛对央行购金趋势的报告，可考虑配置 GLD 或 IAU。",
       "bull_bear": "🟢黄金(短承压长看多)"
-    },
-    {
-      "id": "32e47eb5-fd3c-813f-9006-e70ab6ce6ee6",
-      "name": "能源危机与工业衰退风险加剧，金银是避险港湾",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-25",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Geopolitics/Industrial Policy",
-      "comments": "Doomberg 专注于能源、地缘政治和工业政策的交叉点，强调全球能源供应的脆弱性和西方去工业化的风险。在金银近期回调的背景下，他会认为这并未改变其核心论点：全球正面临结构性的能源短缺和工业衰退风险，而地缘政治紧张局势只会加剧这一趋势。他会强调，在这样的宏观环境下，黄金和白银作为硬资产，其避险和保值功能将愈发凸显。他关注的底层数据包括全球原油库存、天然气价格波动以及各国能源政策的转向。他会坚持认为，金银是应对未来不确定性的重要工具。",
-      "suggestion": "维持对黄金和白银的配置，同时关注能源板块的投资机会，例如通过 XLE 或特定能源公司股票对冲能源价格上涨风险。",
-      "bull_bear": "🟢黄金/白银/能源"
     },
     {
       "id": "32e47eb5-fd3c-8104-9e6c-ea60dd1b1a9a",
@@ -24069,18 +23370,6 @@
       "bull_bear": "⚪美股(中性偏防御) 🔴降息预期推迟"
     },
     {
-      "id": "32d47eb5-fd3c-810d-b1cc-f098b6682669",
-      "name": "批判西方能源政策脱离现实，警告全球能源危机风险加剧，呼吁回归务实",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-24",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy/Geopolitics",
-      "comments": "Doomberg 的最新分析将聚焦于西方能源政策愿景与全球能源供应物理现实之间日益扩大的鸿沟。他们将继续抨击“绿色幻想”，认为在没有足够基础负荷电力和电网基础设施的情况下，快速推进可再生能源正在制造系统性脆弱性。他们可能会指出电网不稳定、消费者能源成本上升或对敌对国家关键矿产的依赖等具体例子。他们的核心逻辑是能源安全和可负担性至关重要，而当前政策正在损害这两者，导致地缘政治风险增加和潜在的能源危机。他们将强调化石燃料和核能在稳定能源未来中的持续必要性，主张采取更务实、工程优先的能源政策。",
-      "suggestion": "关注传统能源公司（如 XOM, CVX）的长期投资价值，以及铀矿等核能相关资产，规避过度依赖间歇性可再生能源的风险。",
-      "bull_bear": "🟢化石燃料/核能 🔴可再生能源(绿色幻想)"
-    },
-    {
       "id": "32d47eb5-fd3c-814a-ae59-f4b7f2914949",
       "name": "重申对颠覆性创新科技的信心，认为 AI 将带来结构性通缩，回调是买入良机",
       "kol_name": "Cathie Wood",
@@ -24175,18 +23464,6 @@
       "comments": "Gromen 持续强调美国债务轨迹的不可持续性及其对美元的长期威胁。他指出，美国国债利息支付已占据税收的显著比例，使得软着陆愈发不可能。尽管近期金价因美元走强或鹰派美联储言论而出现回调，他认为这些波动是暂时的。其核心论点是，解决债务螺旋的唯一途径是货币贬值，这使得黄金成为不可或缺的长期价值储存手段。他会引用各国央行日益增长的黄金购买量作为去美元化趋势的明确信号，并预测美元最终将因其内在结构性问题而失去储备货币地位，届时黄金将迎来爆发性上涨。",
       "suggestion": "逢低买入实物黄金或黄金 ETF (如 GLD, IAU)，忽略短期市场噪音，关注美国债务和货币政策的长期演变。",
       "bull_bear": "🟢黄金 / 🔴美元"
-    },
-    {
-      "id": "32c47eb5-fd3c-8178-a40d-ebff0dae3bf4",
-      "name": "白银回调是巨大买入机会，金银比预示白银将跑赢黄金",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-23",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver Bull",
-      "comments": "大卫·摩根会坚定地认为，白银的短期回调是投资者积累这种“穷人的黄金”的绝佳机会。他会强调金银比（Gold/Silver Ratio）目前仍处于高位，预示着白银相对于黄金被严重低估，未来有更大的上涨空间。他会指出，白银不仅是货币金属，也是重要的工业金属，其需求将随着全球经济复苏和绿色能源转型而增长。他会鼓励投资者利用回调买入实物白银或白银矿业股，其对白银的长期看好态度未变。",
-      "suggestion": "逢低买入实物白银或白银 ETF (SLV)，重点关注白银矿业股，尤其是那些具有高增长潜力的初级矿商，如 AG、PAAS 等。",
-      "bull_bear": "🟢白银/白银矿业股"
     },
     {
       "id": "32c47eb5-fd3c-81f1-a032-df8c825725cc",
@@ -24393,18 +23670,6 @@
       "bull_bear": "🟢 GLD (战略买入) | 🔴 美债(更高更久)"
     },
     {
-      "id": "32b47eb5-fd3c-8158-a051-d49ac7e7f2b4",
-      "name": "油价上涨凸显能源安全脆弱性，绿色转型面临现实挑战",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-22",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Security",
-      "comments": "在油价小幅上涨和地缘政治紧张的背景下，Doomberg会再次强调全球能源系统的脆弱性以及过早放弃化石燃料的危险。他们认为，当前的能源政策未能充分认识到可靠基载电力和能源独立的重要性，导致供应短缺和价格波动。他们关注的核心数据包括全球原油库存、炼油产能、电网稳定性以及各国能源政策的实际效果。他们的态度是批判性的，认为“绿色幻想”正在威胁西方世界的能源安全和经济稳定。他们会指出，只有通过投资传统能源和核能，才能确保能源供应的稳定性和可负担性。",
-      "suggestion": "增持传统能源生产商（如石油、天然气公司）和能源基础设施相关股票。建议对冲能源价格波动风险，并关注核能等可靠的基载能源投资机会。",
-      "bull_bear": "🟢 传统能源(XLE), 核能(URA)"
-    },
-    {
       "id": "32b47eb5-fd3c-81c8-a646-c5edc0aa985f",
       "name": "粘性通胀是短期噪音，AI与颠覆性创新将带来长期通缩",
       "kol_name": "Cathie Wood",
@@ -24559,18 +23824,6 @@
       "comments": "美联储鹰派转向与债券收益率上升 → 信用市场成为系统性风险预警焦点 → 高收益信用利差扩大、企业违约率上升、流动性指标恶化 → 股市表面韧性可能掩盖风险 → 信用市场一旦真正冻结，黄金将先因现金流动性需求下跌，后因避险需求反弹 → 需警惕熊市陷阱与隐藏风险",
       "suggestion": "关注信用利差指标，若利差显著扩大可做多GLD对冲；当前谨慎观望，避免追高TLT",
       "bull_bear": "🟢 GLD | 🔴 TLT, 高收益信用"
-    },
-    {
-      "id": "32a47eb5-fd3c-8148-b60c-defe847fd847",
-      "name": "能源转型面临现实挑战，大宗商品价格将维持高位",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-21",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy/Industrial Metals",
-      "comments": "绿色能源政策脱离物理现实 → 传统油气基础设施长期投资不足 → 全球需求持续且地缘供给风险上升 → 能源转型时间表不切实际且资源消耗大 → 工业金属与化石燃料因供给约束和新兴经济体需求而价格高企 → 能源价格下跌只是暂时性结构性失衡下的回调",
-      "suggestion": "做多能源与工业金属：买入XLE、GLD、COP，做空长期美债TLT",
-      "bull_bear": "🟢 XLE, COP, GLD | 🔴 TLT"
     },
     {
       "id": "32a47eb5-fd3c-81b3-9f7e-e6a58362821b",
@@ -24729,18 +23982,6 @@
       "bull_bear": "🟢黄金/🔴美元"
     },
     {
-      "id": "32947eb5-fd3c-81a5-91eb-f33ac4e15b55",
-      "name": "白银被严重低估，黄金回调后白银将展现更大弹性，实物需求强劲",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-20",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver/Gold-Silver Ratio",
-      "comments": "David Morgan作为白银的坚定倡导者，会将近期贵金属的回调视为积累白银的绝佳机会，他一直认为白银相对于黄金及其工业需求被严重低估。他会强调白银作为货币金属和关键工业商品的双重作用，以及来自太阳能电池板、电动汽车和其他绿色技术的日益增长的需求。Morgan会指出地上白银库存的下降和持续的供应赤字是支持他看涨论点的关键数据点。他会争辩说，尽管黄金可能会经历战术性回调，但白银较小的市场规模和更高的波动性意味着一旦更广泛的贵金属牛市恢复，它具有更大的上涨潜力。他的观点坚定不移：白银有望实现显著突破，当前价格提供了有吸引力的入场点。",
-      "suggestion": "大力增持实物白银及优质白银矿业股，尤其是那些拥有高品位矿藏和低生产成本的公司，利用金银比率高位进行套利，买入SILJ等白银矿业ETF。",
-      "bull_bear": "🟢白银"
-    },
-    {
       "id": "32947eb5-fd3c-81e6-b1c4-e2c22d1bd993",
       "name": "宏观不确定性持续，建议防御性配置，科技巨头仍具韧性但需精选",
       "kol_name": "Morgan Stanley",
@@ -24763,18 +24004,6 @@
       "comments": "高盛大宗商品部门可能会将近期黄金的回调视为一个战术性机会，特别是如果它是由短期头寸调整而非通胀前景的根本性转变所驱动。他们会分析最新的通胀数据（CPI、PCE）和美联储评论，以衡量利率的走向。尽管承认“高利率维持更久”的潜力可能对黄金等非收益资产造成不利影响，但他们的长期观点通常将黄金纳入作为对冲地缘政治风险和货币贬值的战略工具。他们可能会强调央行对黄金的需求依然强劲，为价格提供了支撑。他们的分析将是数据驱动的，侧重于实际利率、美元强度和投资者资金流。他们可能会建议，尽管近期前景波动，但黄金作为投资组合多元化工具的结构性理由依然存在。",
       "suggestion": "逢低战术性买入黄金，但设置严格止损，等待美联储政策路径更明确后再进行更大规模配置。同时关注工业金属，受益于全球制造业复苏预期，可考虑相关ETF。",
       "bull_bear": "🟢黄金"
-    },
-    {
-      "id": "32947eb5-fd3c-8125-9b27-e5c51d4922b4",
-      "name": "能源现实主义回归，绿色转型面临物理限制，工业金属与传统能源价值凸显",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-20",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Physical Economy/Industrial Policy",
-      "comments": "Doomberg会将近期油价飙升和持续通胀解读为对“实体经济”限制以及快速绿色能源转型固有挑战的严峻提醒。他们的核心论点是，政策制定者往往忽视从化石燃料转型所需的巨大物质和能源需求，从而导致供应链脆弱性和通胀压力。他们会强调世界仍然依赖传统能源，而对该行业的投资不足，加上地缘政治不稳定，必然会导致价格上涨。Doomberg的分析植根于工程和经济现实，强调能源和工业生产的“物理学”。他们会认为当前环境验证了他们对过于雄心勃勃的绿色政策的怀疑，并强调了传统能源和关键工业金属的持久价值。",
-      "suggestion": "长期配置传统能源（石油、天然气、核能）及关键工业金属（铜、镍、锂）相关资产，规避过度依赖补贴且缺乏物理基础的“绿色”概念股，关注供应链韧性。",
-      "bull_bear": "🟢传统能源/🟢工业金属"
     },
     {
       "id": "32947eb5-fd3c-8146-bc64-d045aa2f9abd",
@@ -24907,18 +24136,6 @@
       "comments": "摩根士丹利（特别是其首席股票策略师Mike Wilson）认为，近期黄金价格的回调主要是由于市场对美联储“更高更久”利率预期的重新评估。随着美国经济数据表现强劲，降息时点被推迟，导致无息资产黄金的吸引力下降，引发了战术性抛售。然而，摩根士丹利对整体股市的看法依然谨慎。他们指出，尽管近期股市表现强劲，但估值，尤其是在成长型科技股领域，已经显得过高。在通胀粘性和高利率环境下，企业盈利增长面临压力，利润率可能受到挤压。摩根士丹利预计，股市可能面临一段时期的盘整或回调，并建议投资者转向防御性板块和具有稳健资产负债表的优质公司。油价的上涨进一步增加了通胀压力，使美联储的政策路径更加复杂，对企业盈利构成潜在风险。",
       "suggestion": "降低股市整体风险敞口，避免追高成长股。增持防御性板块（如医疗保健、必需消费品）和具有强劲自由现金流的价值股。可考虑配置短期国债或现金，等待股市出现更具吸引力的买入点。",
       "bull_bear": "🔴科技股/⚪黄金/🟢油价/🟢防御股"
-    },
-    {
-      "id": "32847eb5-fd3c-8157-8736-efd696b655ec",
-      "name": "油价上涨揭示绿色幻想破灭，传统能源是经济基石",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-19",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Geopolitics & Industrial Policy",
-      "comments": "Doomberg认为，近期油价的飙升是“绿色幻想”破灭的直接体现，并再次强调了传统能源在全球经济中的不可替代性。他们指出，西方国家在能源政策上的失误，导致对化石燃料的投资严重不足，使得全球能源系统变得异常脆弱。地缘政治冲突只是加速了这种脆弱性的暴露，而非根本原因。Doomberg坚信，在可预见的未来，石油、天然气和煤炭仍将是工业和经济的基石，而试图快速摆脱这些能源的政策将导致能源短缺、价格飙升和经济衰退。他们认为，当前的市场环境是对那些忽视物理现实、沉迷于意识形态的政策制定者的严厉警告。因此，实物资产，尤其是与传统能源相关的资产，是当前环境下不可或缺的对冲工具。",
-      "suggestion": "战略性配置传统能源资产，包括油气生产商、煤炭公司和铀矿公司。可考虑投资能源基础设施ETF或直接持有大型综合能源公司股票。",
-      "bull_bear": "🟢 原油, 天然气, 煤炭, 传统能源"
     },
     {
       "id": "32847eb5-fd3c-816f-9b96-db0d9c5813ad",
@@ -25077,42 +24294,6 @@
       "bull_bear": "🟢 GLD, SLV(技术性回调有底部支撑)"
     },
     {
-      "id": "32747eb5-fd3c-8176-bd30-e941d8d438a2",
-      "name": "AI-Native Workflows Redefining SaaS Productivity",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-18",
-      "sector": "Equities",
-      "detail_sector": "AI Software  Workplace Evolution  SaaS Innovation",
-      "comments": "AI将从根本上改变软件交互方式 → 推动AI原生生产力工具新纪元 → AI成为核心界面 → 实现无缝自动化和个性化工作流 → 提升整体生产效率与科技企业盈利能力 → 利好科技成长类资产与相关ETF",
-      "suggestion": "做多科技成长类ETF如QQQ，或AI主题ETF如AIQ",
-      "bull_bear": "🟢 QQQ, AIQ"
-    },
-    {
-      "id": "32747eb5-fd3c-817c-aec9-d861087bad5a",
-      "name": "Resilient Global Economy, Quality Assets & Diversification Key",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-03-18",
-      "sector": "Macro",
-      "detail_sector": "Global Economy  Quality Investing  Diversification",
-      "comments": "全球经济展现韧性 → 但通胀仍是持续担忧 → 地缘政治风险与通胀波动并存 → 单一资产难以应对复杂环境 → 需要构建稳健且多元化的投资组合 → 黄金等避险资产与债券等防御性资产需平衡配置",
-      "suggestion": "建议配置黄金ETF（GLD）作为避险对冲，同时谨慎持有长期国债（TLT）以应对利率波动风险",
-      "bull_bear": "🟢 GLD | ⚪ TLT(防御平衡配置)"
-    },
-    {
-      "id": "32747eb5-fd3c-8153-8028-d85414513cd8",
-      "name": "Central Banks Nearing Peak Rates, EM & Commodities Offer Upside",
-      "kol_name": "",
-      "kol_or_ib": "IB View",
-      "date": "2026-03-18",
-      "sector": "Macro",
-      "detail_sector": "Central Bank Policy  EM Equities  Commodity Outlook",
-      "comments": "全球央行接近加息周期尾声 → 利率见顶将支撑风险资产 → 新兴市场和商品具有上涨潜力与分散风险作用 → 贵金属作为商品和避险资产受益",
-      "suggestion": "做多黄金，关注GLD；做多白银，关注SLV；做多新兴市场ETF，关注EEM",
-      "bull_bear": "🟢 GLD, SLV, EEM | ⚪ TLT"
-    },
-    {
       "id": "32747eb5-fd3c-81ec-9227-ca515218f32c",
       "name": "Navigating Soft Landing with Focus on Value & Defensives",
       "kol_name": "Morgan Stanley",
@@ -25137,18 +24318,6 @@
       "bull_bear": "🟢 GLD | 🔴 TLT"
     },
     {
-      "id": "32747eb5-fd3c-813c-8cce-f2673e4b4919",
-      "name": "Contrarian Opportunities in Undervalued Energy Sector",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-18",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Oil & Gas  Value Investing",
-      "comments": "当前市场叙事忽视结构性转变 → 能源等被低估板块存在逆向机会 → 供给约束因素未被充分认识 → 看多能源及贵金属相关资产",
-      "suggestion": "做多能源ETF XLE、贵金属ETF GLD",
-      "bull_bear": "🟢 GLD, XLE | 🔴 TLT"
-    },
-    {
       "id": "32747eb5-fd3c-8152-98fd-c59ee97b7c38",
       "name": "Commodity Markets Driven by Geopolitics, Macro, and Supply",
       "kol_name": "Rory Johnston",
@@ -25159,18 +24328,6 @@
       "comments": "大宗商品市场受地缘政治、宏观经济与供给侧因素共同影响 → 能源仍是全球通胀与波动性的关键驱动 → 当前多空因素交织，缺乏明确单边趋势 → 需综合评估供需平衡与宏观政策走向 → 整体判断为中性偏谨慎",
       "suggestion": "建议配置GLD对冲通胀风险，同时关注能源类ETF如USO的波动机会",
       "bull_bear": "⚪ GLD/能源/TLT(中性偏谨慎)"
-    },
-    {
-      "id": "32747eb5-fd3c-81d0-a5df-f726695c89ae",
-      "name": "Western Energy Policies Leading to Industrial Decline",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-18",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy  Industrial Decline  Inflation",
-      "comments": "绿色能源转型缺乏充足基荷电力 → 导致人为能源短缺 → 推高通胀与地缘政治不稳定 → 工业竞争力下降 → 经济前景承压 → 避险情绪上升利好黄金 → 债券市场受通胀与不确定性压制",
-      "suggestion": "做多黄金（GLD），做空长期美债（TLT）",
-      "bull_bear": "🟢 GLD, 能源 | 🔴 TLT"
     },
     {
       "id": "32747eb5-fd3c-8113-9ddd-d9e73d86184c",
@@ -25329,30 +24486,6 @@
       "bull_bear": "🟢 NEM, GDX, FCX | ⚪ TLT"
     },
     {
-      "id": "32747eb5-fd3c-81e8-8357-c992c2c04a1c",
-      "name": "Silver Profoundly Undervalued, Industrial Demand Driving Rally",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-18",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver Market  Industrial Demand",
-      "comments": "白银兼具货币属性与工业属性 → 太阳能、电动汽车等绿色产业推动工业需求持续增长 → 同时作为货币金属受通胀与避险情绪支撑 → 供给端面临结构性约束 → 需求双重驱动而供给受限 → 供需失衡加剧 → 白银价格存在显著补涨潜力",
-      "suggestion": "做多白银期货或白银ETF（SLV），逢回调布局",
-      "bull_bear": "🟢 SLV, AGQ"
-    },
-    {
-      "id": "32747eb5-fd3c-818c-a8de-cf2a7f6ca92b",
-      "name": "Gold & Silver Consolidating for Next Leg Higher",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-18",
-      "sector": "Precious Metals",
-      "detail_sector": "Gold/Silver Technicals",
-      "comments": "贵金属当前呈现强势技术整理形态 → 通胀持续提供宏观顺风 → 央行购金行为构成基本面支撑 → 多重因素共振推动下一轮上涨行情",
-      "suggestion": "建议做多贵金属，关注GLD、IAU等黄金ETF，逢回调布局多单",
-      "bull_bear": "🟢 GLD | 🔴 TLT"
-    },
-    {
       "id": "32747eb5-fd3c-810e-a69c-edd6211f0b0c",
       "name": "Undervalued Junior Miners Poised for Energy Transition Boom",
       "kol_name": "Daniel Oliver",
@@ -25389,18 +24522,6 @@
       "bull_bear": "🟢 GLD | 🔴 TLT"
     },
     {
-      "id": "32647eb5-fd3c-81ff-9015-d8e8b0ebc7fe",
-      "name": "逆向投资：寻找被低估的价值",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-17",
-      "sector": "Equities",
-      "detail_sector": "Value Investing  Distressed Assets",
-      "comments": "市场普遍高估，但通过深入研究仍能发现被忽视的价值股或困境反转机会。",
-      "suggestion": "寻找特定行业中的低估值公司，如能源服务、小盘股。",
-      "bull_bear": "🔴 大盘整体 | 🟢 个别价值股"
-    },
-    {
       "id": "32647eb5-fd3c-8191-842c-f75936af0db3",
       "name": "原油市场趋紧，价格上行压力大",
       "kol_name": "Rory Johnston",
@@ -25411,18 +24532,6 @@
       "comments": "OPEC+减产与全球需求韧性正导致原油市场趋紧，库存下降将支撑油价上涨。",
       "suggestion": "关注原油期货，做多XLE。",
       "bull_bear": "🟢 原油"
-    },
-    {
-      "id": "32647eb5-fd3c-8158-94a1-c563d92e4769",
-      "name": "能源政策失误加剧通胀与去工业化",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-17",
-      "sector": "Energy & Commodities",
-      "detail_sector": "Energy Policy  Industrial Policy",
-      "comments": "错误的能源政策导致能源系统脆弱性增加，推高成本，威胁工业基础，化石燃料仍不可或缺。",
-      "suggestion": "关注传统能源公司，做多天然气、原油。",
-      "bull_bear": "🟢 化石燃料/能源"
     },
     {
       "id": "32647eb5-fd3c-8144-9e9f-f9eb8127e25b",
@@ -25591,18 +24700,6 @@
       "comments": "矿业周期底部已过，优质管理团队和低成本矿企将在通胀环境下展现巨大经营杠杆。",
       "suggestion": "筛选优质金银矿企，如FNV, WPM，关注铀矿U。",
       "bull_bear": "🟢 矿业/资源矿企"
-    },
-    {
-      "id": "32647eb5-fd3c-81e4-81ed-c2ede40c236a",
-      "name": "白银：工业与货币双重属性爆发",
-      "kol_name": "",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-17",
-      "sector": "Precious Metals",
-      "detail_sector": "Silver",
-      "comments": "白银作为工业必需品和被低估的货币金属，其供需失衡将引发历史性价格飙升。",
-      "suggestion": "长期持有实物白银，买入SILJ, PSLV。",
-      "bull_bear": "🟢 白银"
     },
     {
       "id": "32647eb5-fd3c-812e-b367-e72b8f2a946e",
