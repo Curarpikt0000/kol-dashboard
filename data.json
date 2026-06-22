@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-22 21:48 JST",
+  "generated_at": "2026-06-22 22:09 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-21"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 1950,
-    "total_rows": 1950,
+    "legged_rows": 1929,
+    "total_rows": 1929,
     "pct": 100.0
   },
   "today_signals": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 560.3,
-      "bull": 1179,
-      "bear": 97,
+      "weighted_sum": 551.5,
+      "bull": 1165,
+      "bear": 96,
       "neutral": 149,
-      "total": 1425,
-      "legs_bull": 1879,
+      "total": 1410,
+      "legs_bull": 1853,
       "legs_bear": 111,
       "legs_neutral": 81,
       "legs_split": 44,
-      "legs_total": 2115,
-      "strong_bull": 583,
+      "legs_total": 2089,
+      "strong_bull": 577,
       "strong_bear": 0,
-      "w_bull": 2462,
+      "w_bull": 2430,
       "w_bear": 111,
       "avg": 0.26
     },
@@ -117,19 +117,19 @@
       "sector": "Energy & Commodities",
       "score": 85,
       "consensus": 85,
-      "weighted_sum": 81.1,
-      "bull": 94,
+      "weighted_sum": 80.7,
+      "bull": 93,
       "bear": 5,
       "neutral": 21,
-      "total": 120,
-      "legs_bull": 320,
+      "total": 119,
+      "legs_bull": 318,
       "legs_bear": 27,
       "legs_neutral": 10,
       "legs_split": 3,
-      "legs_total": 360,
+      "legs_total": 358,
       "strong_bull": 37,
       "strong_bear": 0,
-      "w_bull": 357,
+      "w_bull": 355,
       "w_bear": 27,
       "avg": 0.23
     },
@@ -137,19 +137,19 @@
       "sector": "Crypto",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 31.8,
+      "weighted_sum": 31.7,
       "bull": 48,
       "bear": 4,
       "neutral": 8,
       "total": 60,
-      "legs_bull": 128,
+      "legs_bull": 127,
       "legs_bear": 26,
       "legs_neutral": 6,
       "legs_split": 4,
-      "legs_total": 164,
+      "legs_total": 163,
       "strong_bull": 40,
       "strong_bear": 0,
-      "w_bull": 168,
+      "w_bull": 167,
       "w_bear": 26,
       "avg": 0.19
     },
@@ -157,80 +157,80 @@
       "sector": "Alternative",
       "score": 31,
       "consensus": 31,
-      "weighted_sum": 8.5,
+      "weighted_sum": 8.4,
       "bull": 18,
       "bear": 3,
-      "neutral": 28,
-      "total": 49,
-      "legs_bull": 26,
-      "legs_bear": 12,
-      "legs_neutral": 19,
+      "neutral": 24,
+      "total": 45,
+      "legs_bull": 24,
+      "legs_bear": 11,
+      "legs_neutral": 15,
       "legs_split": 7,
-      "legs_total": 64,
+      "legs_total": 57,
       "strong_bull": 4,
       "strong_bear": 2,
-      "w_bull": 30,
-      "w_bear": 14,
-      "avg": 0.13
+      "w_bull": 28,
+      "w_bear": 13,
+      "avg": 0.15
     },
     {
       "sector": "Equities",
       "score": -20,
       "consensus": 20,
-      "weighted_sum": -30.5,
+      "weighted_sum": -30.4,
       "bull": 95,
       "bear": 40,
-      "neutral": 45,
-      "total": 180,
-      "legs_bull": 184,
-      "legs_bear": 291,
+      "neutral": 44,
+      "total": 179,
+      "legs_bull": 183,
+      "legs_bear": 288,
       "legs_neutral": 19,
       "legs_split": 17,
-      "legs_total": 511,
+      "legs_total": 507,
       "strong_bull": 34,
       "strong_bear": 41,
-      "w_bull": 218,
-      "w_bear": 332,
+      "w_bull": 217,
+      "w_bear": 329,
       "avg": -0.06
     },
     {
       "sector": "Macro",
       "score": -82,
       "consensus": 82,
-      "weighted_sum": -104.3,
+      "weighted_sum": -100.6,
       "bull": 18,
       "bear": 31,
       "neutral": 16,
       "total": 65,
       "legs_bull": 57,
-      "legs_bear": 525,
+      "legs_bear": 513,
       "legs_neutral": 18,
       "legs_split": 1,
-      "legs_total": 601,
+      "legs_total": 589,
       "strong_bull": 0,
       "strong_bear": 54,
       "w_bull": 57,
-      "w_bear": 579,
+      "w_bear": 567,
       "avg": -0.17
     },
     {
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -258.4,
+      "weighted_sum": -253.7,
       "bull": 9,
       "bear": 27,
       "neutral": 15,
       "total": 51,
       "legs_bull": 16,
-      "legs_bear": 871,
+      "legs_bear": 856,
       "legs_neutral": 18,
       "legs_split": 4,
-      "legs_total": 909,
+      "legs_total": 894,
       "strong_bull": 0,
       "strong_bear": 33,
       "w_bull": 16,
-      "w_bear": 904,
+      "w_bear": 889,
       "avg": -0.28
     }
   ],
@@ -510,38 +510,38 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 387,
-        "kols": 72
+        "count": 382,
+        "kols": 71
       },
       {
         "ticker": "白银",
-        "count": 237,
-        "kols": 58
+        "count": 232,
+        "kols": 57
       },
       {
         "ticker": "黄金/白银",
         "count": 96,
-        "kols": 44
+        "kols": 43
       },
       {
         "ticker": "黄金(GLD)",
-        "count": 84,
-        "kols": 46
+        "count": 83,
+        "kols": 45
       },
       {
         "ticker": "黄金GLD",
-        "count": 75,
-        "kols": 47
+        "count": 73,
+        "kols": 46
       },
       {
         "ticker": "白银SLV",
-        "count": 70,
-        "kols": 41
+        "count": 68,
+        "kols": 40
       },
       {
         "ticker": "白银(SLV)",
-        "count": 45,
-        "kols": 32
+        "count": 44,
+        "kols": 31
       },
       {
         "ticker": "比特币",
@@ -565,8 +565,8 @@
       },
       {
         "ticker": "黄金/白银/金矿",
-        "count": 21,
-        "kols": 19
+        "count": 20,
+        "kols": 18
       },
       {
         "ticker": "黄金 GLD/PHYS",
@@ -587,28 +587,28 @@
     "bear": [
       {
         "ticker": "美债(TLT)",
-        "count": 371,
-        "kols": 66
+        "count": 365,
+        "kols": 65
       },
       {
         "ticker": "美债",
-        "count": 176,
-        "kols": 59
+        "count": 170,
+        "kols": 58
       },
       {
         "ticker": "美元",
-        "count": 151,
-        "kols": 51
+        "count": 146,
+        "kols": 50
       },
       {
         "ticker": "美元(DXY)",
-        "count": 132,
-        "kols": 47
+        "count": 127,
+        "kols": 46
       },
       {
         "ticker": "美债TLT",
-        "count": 67,
-        "kols": 42
+        "count": 65,
+        "kols": 41
       },
       {
         "ticker": "TLT 美债",
@@ -616,24 +616,24 @@
         "kols": 27
       },
       {
-        "ticker": "长债TLT",
-        "count": 31,
-        "kols": 24
-      },
-      {
         "ticker": "美股(SPY)",
         "count": 31,
         "kols": 16
       },
       {
-        "ticker": "美元DXY",
-        "count": 28,
-        "kols": 17
+        "ticker": "长债TLT",
+        "count": 30,
+        "kols": 23
       },
       {
         "ticker": "美债 TLT",
         "count": 26,
         "kols": 22
+      },
+      {
+        "ticker": "美元DXY",
+        "count": 26,
+        "kols": 16
       },
       {
         "ticker": "美股",
@@ -1207,19 +1207,6 @@
       "latest_title": "Daniel Oliver — 🟢 看多",
       "bull_bear": "🟢 PHYS/GDX(信用瓦解利好硬资产)",
       "total_entries": 32,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "kol_or_ib": "Prophet",
-      "style": "交易派",
-      "latest_date": "2026-06-10",
-      "latest_comments": "搜索内容中未直接出现郑博建 (Dato' Anthony) 的近期观点或预测 → 仅包含ISEAS机构介绍、易经年度预测（来自Helen Hansen）及斯坦福技术报告 → 无任何与郑博建相关的贵金属或宏观经济分析 → 无法提取其核心逻辑与方向判断\n\n来源: https://www.iseas.edu.sg/library/blog/daily-news-alerts/260608 | https",
-      "latest_title": "郑博建 (Dato' Anthony) — 🟡 中性",
-      "bull_bear": "🟡 无可提取观点",
-      "total_entries": 21,
       "trend": "↘ 趋空"
     },
     {
@@ -2272,42 +2259,6 @@
       "comments": "ANONYMIZED_PERSON_0_15(Myrmikan Gold Fund创始人)认为金矿股的涨势远未结束。逻辑链：过去一年黄金从2600美元涨至4300美元(+65%)，金矿股ETF(GDX)更大涨155%→在如此涨幅后市场担心是否太晚→Oliver在研报中明确否定，认为金矿股相对金价仍被低估、估值修复空间大→黄金交易仍处早期。他是坚定的黄金多头(非中立观察者)。(来源: Forbes/QOSHE 2026-01-16 \"Why The Gold Stock Rally Isn't Over Yet\")",
       "suggestion": "继续持有/增配金矿股，把回调当作上车机会而非见顶信号。",
       "bull_bear": "🟢黄金 🟢金矿股(GDX)"
-    },
-    {
-      "id": "38547eb5-fd3c-81af-a613-c138a955eba0",
-      "name": "郑博见：当前国际动荡仅是序幕，5至8月(尤其6、7月)更凶险——美以空袭伊朗、霍尔木兹封锁、油价上涨已应验（看多油价/避险）",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-03-20",
-      "sector": "Alternative",
-      "detail_sector": "末日情景",
-      "comments": "诚实记录：郑博见(注册名「郑博建 (Dato' Anthony)」)向《中国报》提示——2026丙午「赤马红羊劫」火能量达顶，当前国际动荡仅是序幕，更凶险、更极端的能量冲击将集中于5至8月、尤其6月与7月，冲突将蔓延至亚洲乃至南方国家。其1月17日《世界预测大会》6项预测(美以空袭伊朗、霍尔木兹海峡封锁、国际油价上涨、墨西哥毒枭骚乱、委内瑞拉冲突、阿巴冲突)称正一一应验。资产含义(推断)：地缘冲突升级+霍尔木兹封锁直接利多原油/能源、推升避险黄金，利空亚洲风险资产与高油价敏感板块；时间窗(6-7月)可作为情绪择时参考。该方向与同期宏观/预言界的霍尔木兹油价判断高度一致。来源：中國報 China Press，https://www.chinapress.com.my/20260320/独家-看好文｜郑博见-当前国际动荡仅是序幕-5月/",
-      "suggestion": "在5-8月地缘窗口关注原油/能源多头与黄金避险，规避亚洲风险资产与高油价敏感板块。预言性质，结合霍尔木兹基本面动态验证。",
-      "bull_bear": "🟢 原油, 能源, 黄金 | 🔴 亚洲风险资产, 高油价敏感板块"
-    },
-    {
-      "id": "38547eb5-fd3c-8165-be34-db6305803c11",
-      "name": "郑博见：九运火年四大趋势——AI泡沫化、唯芯片算力商持续获利、经济或明显衰退（看多算力硬件）",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-02-03",
-      "sector": "Alternative",
-      "detail_sector": "末日情景",
-      "comments": "诚实记录：郑博见(注册名「郑博建 (Dato' Anthony)」)在《南洋商报》专访给出九运火年四大趋势预言(玄学视角，非基本面)。要点：①智能科技再爆发并反噬人类，大量岗位被替代→社会稳定承压；②高度关注全球经济动荡，今年或比去年更不稳定、甚至明显衰退，因「AI正形成泡沫化」——类比当年「.com」估值狂热，如今只要挂钩AI估值即被高估；多数AI研发企业仍巨亏，真正持续获利的是提供底层硬件与算力的公司(如芯片制造商)；③全球经济虚拟化、由区块链主导的货币虚拟化走向现实；④冲突重心从欧洲/中东向亚洲转移。资产含义(推断)：偏空AI应用层高估值个股、偏多算力/芯片硬件，警惕整体衰退风险，加密/区块链长期主题受关注。来源：e南洋，https://www.enanyang.my/news/20260203/Finance/1154274",
-      "suggestion": "相对看多芯片/算力硬件(确定性获利方)，谨慎对待AI应用层泡沫估值；提高对全球衰退的防御；关注区块链/加密长期叙事。预言性质，需基本面验证。",
-      "bull_bear": "🟢 芯片/算力硬件, 区块链/加密 | 🔴 AI应用层高估值, 风险资产(衰退)"
-    },
-    {
-      "id": "38547eb5-fd3c-81f7-a18f-eb9e41acbce8",
-      "name": "郑博见：2026「赤马年」文明翻转——太阳活动巅峰致地磁暴、卫星瘫痪、电网崩溃（末日预言）",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2025-12-24",
-      "sector": "Alternative",
-      "detail_sector": "末日情景",
-      "comments": "诚实记录：马来西亚易经/玄学权威拿督郑博见(DAC，玄商集团创办人，注册名「郑博建 (Dato' Anthony)」)的预言，非市场分析。其2026「赤马年(九紫离火运火能量巅峰)」预言三重冲击：①地磁暴频发——2026年太阳活动或达巅峰，地球磁场面临百年一遇考验，可能致卫星瘫痪、电网崩溃；②气候两极化、自然反噬；③AI伦理崩塌、深伪泛滥致信任体系瓦解(「真相将死于2026」)。资产含义(推断)：太阳风暴/电网崩溃叙事利好电网韧性、卫星备份、关键基础设施防护主题及黄金避险；对依赖电力/卫星/数据连续性的资产构成尾部风险。来源：bilibili，https://www.bilibili.com/video/BV118BjBnEnz/",
-      "suggestion": "作为末日情景情绪指标；太阳风暴/电网叙事升温时关注电网韧性、基础设施防护与黄金避险。预言性质，非基本面信号。",
-      "bull_bear": "🟢 电网韧性/基建/黄金避险｜🔴 电力/卫星/数据连续性敞口(地磁暴/AI崩塌)"
     },
     {
       "id": "38547eb5-fd3c-81ef-96e8-c72aa052a155",
@@ -7410,18 +7361,6 @@
       "bull_bear": "🟢 黄金(预言避险支撑,信号混合)"
     },
     {
-      "id": "37b47eb5-fd3c-815f-8fcb-e9548604d643",
-      "name": "郑博建 (Dato' Anthony) — 🟡 中性",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "Prophet",
-      "date": "2026-06-10",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "搜索内容中未直接出现郑博建 (Dato' Anthony) 的近期观点或预测 → 仅包含ISEAS机构介绍、易经年度预测（来自Helen Hansen）及斯坦福技术报告 → 无任何与郑博建相关的贵金属或宏观经济分析 → 无法提取其核心逻辑与方向判断\n\n来源: https://www.iseas.edu.sg/library/blog/daily-news-alerts/260608 | https://insighttimer.com/helenhansensouthafrica/guided-meditations/i-ching-forecast-for-the-year-2026-tao-wisdom",
-      "suggestion": "信息不足，暂不建议操作，等待明确观点后再做决策",
-      "bull_bear": "🟡 无可提取观点"
-    },
-    {
       "id": "37b47eb5-fd3c-810b-9b84-d52fa714bdfe",
       "name": "David Icke — 🟡 中性",
       "kol_name": "David Icke",
@@ -8346,18 +8285,6 @@
       "bull_bear": "🟡 GLD, SLV(预言类无明确观点)"
     },
     {
-      "id": "36e47eb5-fd3c-8100-a7bb-c04c1432f952",
-      "name": "郑博建 (Dato' Anthony) — 🟡 中性",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "Prophet",
-      "date": "2026-05-29",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "搜索内容未直接提及郑博建(Dato' Anthony)的观点，仅汇总了其他专家对黄金2026年的预测。部分专家认为地缘政治不稳定和央行强劲需求将推动黄金上涨→另一部分专家则预期美元走强和全球经济放缓将导致金价回调→整体呈现多空分歧，缺乏郑博建本人的明确逻辑链条。\n\n来源: https://finance.yahoo.com/personal-finance/investing/article/gold-forecast-and-tracker-heres-where-prices-could-land-in-2026-130000950.html | https://coincodex.com/precious-metal/gold/forecast/",
-      "suggestion": "建议观望，等待郑博建明确观点后再操作。可关注GLD、SLV等贵金属ETF。",
-      "bull_bear": "🟡 无本人明确观点(易经/另类)"
-    },
-    {
       "id": "36e47eb5-fd3c-8164-ae3d-e48438988d4f",
       "name": "David Icke — 🟡 中性",
       "kol_name": "David Icke",
@@ -9160,18 +9087,6 @@
       "comments": "搜索内容未直接提供Athos Salomé的具体预测观点 → 仅包含NOAA空间天气预报、CoinCodex黄金价格预测和SpaceWeatherLive实时数据 → 缺乏明确的灵媒或宏观分析逻辑 → 无法形成连贯的贵金属或宏观经济推理链条 → 整体判断为中性/混合\n\n来源: https://www.swpc.noaa.gov/ | https://coincodex.com/precious-metal/gold/forecast/",
       "suggestion": "建议观望，等待明确信号后再操作。可关注GLD、SLV等贵金属ETF的短期波动机会。",
       "bull_bear": "🟡黄金/白银(无明确观点)"
-    },
-    {
-      "id": "36d47eb5-fd3c-81bd-ac72-e19b7fb2d192",
-      "name": "郑博建 (Dato' Anthony) — 🟡 中性",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "Prophet",
-      "date": "2026-05-27",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "搜索内容未直接包含郑博建(Dato' Anthony)的预测观点，仅提供了第三方机构对黄金和白银的长期价格预测。GoldRepublic对2026、2030、2040年金价有预测，CoinCodex提供了2026-2030年黄金预测，Silver价格预测显示2026年底目标价86.75美元，当前银价76.21美元，年涨幅约23%。这些信息指向贵金属长期看涨趋势，但缺乏郑博建本人的易经分析逻辑，无法确认其具体观点。\n\n来源: https://www.goldrepublic.com/en-us/gold-price/forecast | https://coinpriceforecast.com/silver",
-      "suggestion": "基于现有信息，可关注黄金ETF GLD和白银ETF SLV的长期配置机会，但需等待郑博建明确观点后再做决策。",
-      "bull_bear": "🟡 无本人明确观点(易经/另类)"
     },
     {
       "id": "36d47eb5-fd3c-81bb-b9fc-d29c91c5993a",
@@ -10312,30 +10227,6 @@
       "comments": "灵媒预测EMP或太阳事件导致黑启动战争→俄罗斯、中国等BRICS国家有能力摧毁美国电网→全球地缘冲突升级风险加剧→避险情绪推升黄金等贵金属短期价格→但系统性风险可能引发流动性危机，长期利空风险资产→经济衰退预期压制工业需求，利空白银等工业金属。",
       "suggestion": "短期可做多黄金（GLD）对冲地缘风险；做空美股（SPY）或长端美债（TLT）以应对流动性冲击。",
       "bull_bear": "🟢 黄金(避险) | 🔴 美股/美债(系统性风险) ⚠️ 占星预言"
-    },
-    {
-      "id": "36c47eb5-fd3c-8147-8bd9-f9532005ded1",
-      "name": "看多 2026年贵金属延续牛市，金银价格创新高",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-20",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "2025年金银已录得双位数涨幅→2026年初机构普遍看多→银行上调金价目标至6000-7000美元→银价可能触及135-309美元→美联储降息预期+通胀担忧+地缘避险需求→实物信托资金持续流入→技术趋势线支撑上行→贵金属作为主要对冲工具地位强化",
-      "suggestion": "建议逢低做多黄金（GLD）、白银（SLV），关注实物信托及矿业股ETF（GDX），控制仓位分批建仓",
-      "bull_bear": "🟢金银/矿(银目标135-309) | 🔴美债/美元"
-    },
-    {
-      "id": "36c47eb5-fd3c-81fd-b3a8-c35cfe422bd8",
-      "name": "看多 2026年金银延续牛市，避险与通胀驱动",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-20",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球宏观经济不确定性持续→通胀担忧与避险需求上升→美联储降息预期增强→实际利率下行→美元走弱→金银作为硬资产吸引力提升→机构与散户资金流入实物信托与ETF→技术面周线趋势向上→黄金目标6000-7000美元，白银目标135-309美元",
-      "suggestion": "建议逢回调做多黄金（GLD）和白银（SLV），配置实物金银ETF，关注金银矿业股（GDX）",
-      "bull_bear": "🟢 金银金矿(金6000-7000,银135+) | 🔴 美债/美元"
     },
     {
       "id": "36c47eb5-fd3c-817a-9b46-f66359afb5a8",
@@ -11742,30 +11633,6 @@
       "bull_bear": "🟢 金银·COPX(本世纪最乐观预测) | 🔴 美债"
     },
     {
-      "id": "36c47eb5-fd3c-819d-b739-d4470b205c74",
-      "name": "看多 2026年贵金属延续牛市，金银价格有望再创新高",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-13",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "2025年金银价格创历史新高且实物信托资金流入创纪录→2026年初多家机构发布看多报告，如美银预计银价可达135-309美元→全球通胀担忧、地缘风险及美联储降息预期持续支撑避险需求→技术面周线趋势线显示金银价格仍有上行空间→专家预测金价目标6000-7000美元，银价紧随其后",
-      "suggestion": "建议逢低做多黄金ETF（GLD）和白银ETF（SLV），或配置实物金银；关注金银矿业股如巴里克黄金（GOLD）和泛美白银（PAAS）",
-      "bull_bear": "🟢 金银 | 🔴 美债/美元"
-    },
-    {
-      "id": "36c47eb5-fd3c-8101-a1e2-d06a8367bb61",
-      "name": "看多 2026年贵金属延续牛市，黄金目标4800-5000美元",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-13",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球宏观经济不确定性持续→通胀担忧与避险需求上升→机构与专家一致看好黄金白银→黄金价格连续第五年上涨→市场虽有回调预期但整体趋势向上→贵金属配置价值凸显",
-      "suggestion": "建议逢低做多黄金ETF（GLD）和白银ETF（SLV），长期持有；可配置金矿股ETF（GDX）增强弹性",
-      "bull_bear": "🟢 金银·GDX(连涨第五年) | 🔴 美债·美元"
-    },
-    {
       "id": "36c47eb5-fd3c-8177-82b5-cf880fc38836",
       "name": "看多黄金与白银，结构性短缺与央行购金驱动牛市",
       "kol_name": "David Icke",
@@ -13158,30 +13025,6 @@
       "bull_bear": "🟢黄金 白银 金矿 🔴美债 美元"
     },
     {
-      "id": "36c47eb5-fd3c-8142-b48d-fe3541550bd0",
-      "name": "看多 2026年金银延续牛市，目标金价6000-7000美元",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-06",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球宏观经济不确定性加剧→通胀持续高企→央行增持黄金储备→避险需求上升→美联储降息预期→实际利率下行→贵金属投资吸引力增强→技术面趋势线支撑→机构上调金银价格目标至历史新高",
-      "suggestion": "建议做多黄金（GLD）和白银（SLV），逢回调加仓；可配置金矿股ETF（GDX）增强弹性；注意仓位管理，设止损于金价5500美元下方",
-      "bull_bear": "🟢黄金 白银 金矿 🔴美债 美元"
-    },
-    {
-      "id": "36c47eb5-fd3c-8180-8d85-f92e32fcb69d",
-      "name": "看多黄金白银，2026年延续涨势",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-06",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "2025年贵金属已录得双位数涨幅→通胀担忧与全球降息预期持续→地缘政治风险推升避险需求→实物信托资金流入创纪录→技术面周线趋势线支撑上行→2026年价格预计进一步走高",
-      "suggestion": "建议做多黄金（GLD）和白银（SLV），逢回调加仓；可配置实物金条或矿业ETF（GDX）作为多头头寸",
-      "bull_bear": "🟢 金银/矿企 | 🔴 美债/美元"
-    },
-    {
       "id": "36c47eb5-fd3c-8149-823b-e7d0d1908ddf",
       "name": "白银结构性短缺与黄金战略重估驱动贵金属超级周期",
       "kol_name": "David Icke",
@@ -14538,30 +14381,6 @@
       "bull_bear": "🟢金银/金矿股 🔴美债 🔴美元"
     },
     {
-      "id": "36c47eb5-fd3c-8152-b50e-e7a66b4b5a2d",
-      "name": "[看多] 2026年贵金属延续牛市，金银价格有望再创新高",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-29",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球通胀担忧持续→央行降息预期升温→实际利率下行→美元信用弱化→避险需求涌入贵金属→机构上调金银目标价→白银补涨空间更大→金银比修复推动银价加速上行",
-      "suggestion": "建议逢低做多黄金（GLD）和白银（SLV），配置比例可偏向白银以博取更高弹性；同时关注铜（COPX）受益于工业需求复苏。",
-      "bull_bear": "🟢黄金 🟢白银 🟢铜｜🔴美债"
-    },
-    {
-      "id": "36c47eb5-fd3c-81ff-8816-d4ec5ac031a9",
-      "name": "[看多] 2026年贵金属延续牛市，金银价格继续上涨",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-29",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球通胀担忧持续→央行降息预期升温→实际利率下行→美元信用弱化→避险需求涌入贵金属→黄金作为主要对冲工具表现强劲→白银受益于工业与金融双重属性涨幅更大→机构上调金银目标价（白银上限看至309美元）→资金持续流入实物信托与ETF→技术面趋势线支撑上行通道完好",
-      "suggestion": "建议逢回调增持黄金ETF（GLD）和白银ETF（SLV），配置比例可偏向白银以博取更高弹性；同时关注铜等工业金属的补涨机会。",
-      "bull_bear": "🟢 黄金 白银 | 🔴 美债 美元"
-    },
-    {
       "id": "36c47eb5-fd3c-81b7-8ea3-d8b4975de5d4",
       "name": "黄金与白银结构性牛市延续，央行购金与工业需求驱动",
       "kol_name": "David Icke",
@@ -15916,30 +15735,6 @@
       "comments": "全球货币体系信用削弱与央行持续购金→黄金突破4500美元创50次新高→白银突破75美元→地缘政治风险（伊朗局势）与美联储政策转向预期→资金涌入贵金属作为结构性对冲→技术面与历史数据支撑黄金冲击5000-6000美元→短期波动不改长期上行趋势",
       "suggestion": "逢回调做多黄金（GLD）与白银（SLV），配置比例黄金70%、白银30%，止损设于黄金4000美元下方",
       "bull_bear": "🟢金银 | 🔴美债+美元"
-    },
-    {
-      "id": "36c47eb5-fd3c-81a3-b72c-e28c61e3e159",
-      "name": "看多黄金白银，2026年价格继续上涨",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-22",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球宏观经济不确定性加剧→通胀担忧持续→避险需求上升→美联储政策预期宽松→实际利率下行→美元走弱→贵金属配置价值凸显→技术面突破历史高位→资金持续流入黄金ETF和期货市场→专家预测黄金目标6000-7000美元，白银同步上涨",
-      "suggestion": "建议逢低做多黄金（GLD）和白银（SLV），配置比例可适当提高，关注美联储利率决议及通胀数据作为加仓时机",
-      "bull_bear": "🟢黄金, 白银 | 🔴美债, 美元"
-    },
-    {
-      "id": "36c47eb5-fd3c-81e4-a13f-ceb6a9bdc8c0",
-      "name": "看多 2026年黄金白银延续涨势",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-22",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球宏观经济不确定性持续→通胀担忧升温→避险需求增加→黄金白银作为传统避险资产受益→市场专家预测2026年金银价格继续上涨→白银连续第六年供需缺口支撑价格→降息预期进一步利好贵金属",
-      "suggestion": "建议逢低做多黄金ETF（GLD）和白银ETF（SLV），关注通胀数据和美联储政策动向，控制仓位风险。",
-      "bull_bear": "🟢黄金, 白银 | 🔴美债"
     },
     {
       "id": "36c47eb5-fd3c-8172-a79a-d23f6c7885b6",
@@ -17310,18 +17105,6 @@
       "bull_bear": "🟢黄金/白银/金矿股 | 🔴美债/美元"
     },
     {
-      "id": "36c47eb5-fd3c-81ac-86d3-c5a1827e64c1",
-      "name": "2026年黄金白银延续牛市，避险与通胀驱动",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-15",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球经济不确定性加剧→通胀持续高企→央行降息预期升温→实际利率下行→黄金作为避险资产吸引力增强→白银跟随黄金上涨且工业需求支撑→连续第六年白银市场供应短缺→实物投资需求强劲→贵金属价格创历史新高",
-      "suggestion": "建议逢低做多黄金ETF（GLD）和白银ETF（SLV），关注金矿股ETF（GDX）及白银矿业股（WPM），长期持有为主",
-      "bull_bear": "🟢黄金/白银/金矿股 | 🔴美债/美元"
-    },
-    {
       "id": "36c47eb5-fd3c-8185-99f5-e4f0b9d27991",
       "name": "看多黄金与白银，结构性牛市延续",
       "kol_name": "Athos Salomé",
@@ -17344,18 +17127,6 @@
       "comments": "全球白银连续五年结构性赤字→中国资源民族主义与光伏革命加剧供应缺口→西方国防需求导致白银短缺→央行黄金回流本土强化贵金属战略地位→白银波动率上升且矿企受益→贵金属货币溢价达31万亿美元→看多白银及矿业股",
       "suggestion": "做多白银现货（SLV）及白银矿业ETF（SIL），逢回调加仓；做多黄金（GLD）作为对冲；做空长期美债（TLT）以对冲利率风险",
       "bull_bear": "🟢白银/银矿股/黄金 | 🔴美债"
-    },
-    {
-      "id": "36c47eb5-fd3c-8178-a697-ebcebeb27613",
-      "name": "2026年黄金白银延续牛市，避险与通胀驱动",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-15",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球经济不确定性加剧→通胀持续高企→央行与投资者寻求避险资产→黄金作为传统避险工具需求上升→白银受益于工业与投资双重需求→连续第六年供需缺口支撑银价→降息预期进一步推高贵金属吸引力→分析师目标价指向5000美元/盎司",
-      "suggestion": "建议逢低做多黄金ETF（GLD）和白银ETF（SLV），关注实物金条与银币配置，长期持有为主",
-      "bull_bear": "🟢黄金/白银 | 🔴美债/美元"
     },
     {
       "id": "36c47eb5-fd3c-81ad-887e-fc1d76c5e823",
@@ -18690,30 +18461,6 @@
       "bull_bear": "🟢黄金/白银/金矿/铜 🔴美债/美元"
     },
     {
-      "id": "36c47eb5-fd3c-81a9-8feb-e72e7f55b4c6",
-      "name": "2026年黄金白银延续上涨，避险与通胀驱动",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-08",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球经济增长放缓与通胀持续担忧→投资者寻求避险资产→黄金白银作为传统避险工具需求上升→美联储降息预期升温→实际利率下行→进一步支撑贵金属价格→机构与资金持续流入实物信托与期货市场→价格创历史新高后仍有上行空间",
-      "suggestion": "建议逢低做多黄金（GLD）和白银（SLV），关注美联储政策转向节点，可配置实物黄金ETF及矿业股（GDX）",
-      "bull_bear": "🟢黄金白银金矿(创新高仍有上行) | 🔴美债 🔴美元"
-    },
-    {
-      "id": "36c47eb5-fd3c-815f-aea4-fd8bc54c8055",
-      "name": "2026年黄金白银延续上涨，避险与通胀驱动",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-04-08",
-      "sector": "Precious Metals",
-      "detail_sector": "经济重置叙事",
-      "comments": "全球经济不确定性加剧→通胀持续高企→央行降息预期升温→实际利率下行→美元信用弱化→投资者寻求安全资产→黄金白银ETF及期货资金持续流入→供需缺口扩大→贵金属价格创历史新高并继续上行",
-      "suggestion": "建议逢低做多黄金（GLD）和白银（SLV），配置比例黄金70%、白银30%，止损设于2025年低点下方。",
-      "bull_bear": "🟢黄金/白银 🔴美债/美元"
-    },
-    {
       "id": "36c47eb5-fd3c-81cf-846a-f175722d275b",
       "name": "看多黄金与白银，央行购金与货币溢价支撑",
       "kol_name": "David Icke",
@@ -19876,18 +19623,6 @@
       "comments": "灵媒预测2026年萨赫勒与北极圈爆发冲突→全球地缘不确定性上升→避险情绪可能推升贵金属需求→但太阳风暴导致全球停电的极端情景可能扰乱市场流动性→短期情绪驱动与长期基本面脱节→需结合宏观数据验证，不宜单边押注",
       "suggestion": "建议观望为主，可小仓位配置黄金ETF（GLD）对冲地缘风险，避免追高；关注3月太阳风暴实际影响，若未发生则及时平仓",
       "bull_bear": "⚠️黄金(占星避险但情绪与基本面脱节,不宜单边) 🔴美债"
-    },
-    {
-      "id": "36c47eb5-fd3c-818f-8d19-e785be7f6236",
-      "name": "中性 2026火马年：变革与根基并重",
-      "kol_name": "郑博建 (Dato' Anthony)",
-      "kol_or_ib": "KOL",
-      "date": "2026-05-26",
-      "sector": "Alternative",
-      "detail_sector": "经济重置叙事",
-      "comments": "2026年火马能量强烈且具变革性 → 易经强调保护非靠堡垒，而需持续日常实践 → 年度能量模式支持稳定积累而非速成 → 三月卦象为革卦与归妹卦，预示量子跃迁式变化 → 结合能源技术展望与关键矿产安全议题，贵金属市场可能受结构性转型影响",
-      "suggestion": "建议关注黄金（GLD）作为避险配置，同时留意能源转型相关矿产（如铜、锂）的长期机会，短期保持灵活仓位应对波动。",
-      "bull_bear": "🟡黄金(火马变革年,结构性转型,稳定积累) 🔴美债"
     },
     {
       "id": "36c47eb5-fd3c-81c9-98e4-cc0bfa0de2e1",
