@@ -10,7 +10,7 @@
 输出: dashboard/kol-dashboard/data.json
 """
 import json, os, re, math, urllib.request
-from datetime import datetime, date
+from datetime import datetime, date, timezone, timedelta
 from collections import defaultdict, Counter
 
 BASE=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 项目根(dashboard/kol-dashboard/ 往上3级)
@@ -21,7 +21,7 @@ def lk(n):
 TOK=lk("NOTION_"+"TOKEN")
 H={"Authorization":f"Bearer {TOK}","Notion-Version":"2022-06-28","Content-Type":"application/json"}
 DB="32347eb5fd3c8087b9c0f409f95f664e"
-TODAY=date(2026,6,20)
+TODAY=datetime.now(timezone(timedelta(hours=9))).date()  # JST 今天(动态, recency衰减基准)
 
 # 持仓派(方向几乎不变, 降权; 看催化剂) vs 其余默认交易派
 HOLDERS={"Peter Schiff","Robert Kiyosaki","Rick Rule","Luke Gromen","Keith Neumeyer",
