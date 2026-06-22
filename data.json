@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22 10:46 JST",
+  "generated_at": "2026-06-22 11:08 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-21"
@@ -94,23 +94,6 @@
   ],
   "sector_summary": [
     {
-      "sector": "Precious Metals",
-      "score": 100,
-      "weighted_sum": 560.3,
-      "bull": 1184,
-      "bear": 98,
-      "neutral": 151,
-      "total": 1433,
-      "legs_bull": 1887,
-      "legs_bear": 113,
-      "legs_neutral": 82,
-      "legs_split": 44,
-      "legs_total": 2126,
-      "strong_bull": 584,
-      "strong_bear": 0,
-      "avg": 0.26
-    },
-    {
       "sector": "Energy & Commodities",
       "score": 100,
       "weighted_sum": 81.1,
@@ -126,6 +109,23 @@
       "strong_bull": 37,
       "strong_bear": 0,
       "avg": 0.23
+    },
+    {
+      "sector": "Precious Metals",
+      "score": 100,
+      "weighted_sum": 560.3,
+      "bull": 1184,
+      "bear": 98,
+      "neutral": 151,
+      "total": 1433,
+      "legs_bull": 1887,
+      "legs_bear": 113,
+      "legs_neutral": 82,
+      "legs_split": 44,
+      "legs_total": 2126,
+      "strong_bull": 584,
+      "strong_bear": 0,
+      "avg": 0.26
     },
     {
       "sector": "Crypto",
