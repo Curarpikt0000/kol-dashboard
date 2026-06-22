@@ -508,13 +508,10 @@ function renderTodaySignals() {
   // 板块加权评分条（按 score 排序）
   let html = '<div style="margin-bottom:12px">';
   sectors.sort((a,b)=>b.score-a.score).forEach(s => {
-    const pct = Math.abs(s.score)/2; // 0~50
-    // 标签综合 score 与腿级真实多空(避免衰减后score偏中性但实际压倒性看空的情况)
-    const lb = s.legs_bull!=null?s.legs_bull:s.bull, lbr = s.legs_bear!=null?s.legs_bear:s.bear;
-    const tot = lb+lbr;
-    const legBias = tot>=5 ? (lbr-lb)/tot : 0; // -1~1, 正=偏空
-    const col = (s.score>15||legBias<-0.3) ? 'var(--bull)' : ((s.score<-15||legBias>0.3) ? 'var(--bear)' : 'var(--neutral)');
-    const lbl = (s.score>15||legBias<-0.3) ? '偏多' : ((s.score<-15||legBias>0.3) ? '偏空' : '中性');
+    const pct = Math.abs(s.score)/2; // 0~50, score是净多空占比(±100=零反对)
+    // 新评分=共识度净占比, 直接用score判方向(>20偏多/<-20偏空/中间中性)
+    const col = s.score>20 ? 'var(--bull)' : (s.score<-20 ? 'var(--bear)' : 'var(--neutral)');
+    const lbl = s.score>20 ? '偏多' : (s.score<-20 ? '偏空' : '分歧');
     html += `<div style="display:flex;align-items:center;gap:10px;padding:3px 0;font-size:12px">
       <span style="width:130px;color:var(--text)">${s.sector}</span>
       <span style="width:48px;text-align:right;font-weight:700;color:${col}">${s.score>0?'+':''}${s.score}</span>
