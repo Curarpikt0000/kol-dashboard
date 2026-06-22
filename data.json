@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22 23:57 JST",
+  "generated_at": "2026-06-23 00:19 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-21"
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 551.5,
+      "weighted_sum": 538.9,
       "bull": 1165,
       "bear": 96,
       "neutral": 149,
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 85,
       "consensus": 85,
-      "weighted_sum": 80.7,
+      "weighted_sum": 78.8,
       "bull": 93,
       "bear": 5,
       "neutral": 21,
@@ -131,13 +131,13 @@
       "strong_bear": 0,
       "w_bull": 355,
       "w_bear": 27,
-      "avg": 0.23
+      "avg": 0.22
     },
     {
       "sector": "Crypto",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 31.7,
+      "weighted_sum": 31.0,
       "bull": 48,
       "bear": 4,
       "neutral": 8,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 31,
       "consensus": 31,
-      "weighted_sum": 8.4,
+      "weighted_sum": 8.2,
       "bull": 18,
       "bear": 3,
       "neutral": 24,
@@ -171,13 +171,13 @@
       "strong_bear": 2,
       "w_bull": 28,
       "w_bear": 13,
-      "avg": 0.15
+      "avg": 0.14
     },
     {
       "sector": "Equities",
       "score": -20,
       "consensus": 20,
-      "weighted_sum": -30.4,
+      "weighted_sum": -29.7,
       "bull": 95,
       "bear": 40,
       "neutral": 44,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -82,
       "consensus": 82,
-      "weighted_sum": -100.6,
+      "weighted_sum": -98.3,
       "bull": 18,
       "bear": 31,
       "neutral": 16,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -253.7,
+      "weighted_sum": -247.9,
       "bull": 9,
       "bear": 27,
       "neutral": 15,
