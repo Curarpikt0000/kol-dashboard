@@ -255,7 +255,7 @@ def main():
     out={"generated_at":datetime.now().strftime("%Y-%m-%d %H:%M JST"),
         "date_range":{"start":min(e["date"] for e in rows if e["date"]),
                       "end":max(e["date"] for e in rows if e["date"])},
-        "scoring_method":"结构化方向明细(按标的拆分多空)三元组摊平 × 强度(强烈±2/普通±1) × 指数衰减(30天半衰期) × 派别(持仓派0.6)",
+        "scoring_method":"共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
         "direction_coverage":{"legged_rows":legged_rows,"total_rows":len(rows),
             "pct":round(100*legged_rows/max(1,len(rows)),1)},
         "today_signals":today_signals,
