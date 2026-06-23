@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-23 15:40 JST",
+  "generated_at": "2026-06-23 15:59 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-06-22"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 1937,
-    "total_rows": 1937,
+    "legged_rows": 1955,
+    "total_rows": 1955,
     "pct": 100.0
   },
   "today_signals": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 545.2,
-      "bull": 1168,
+      "weighted_sum": 551.7,
+      "bull": 1182,
       "bear": 96,
-      "neutral": 149,
-      "total": 1413,
-      "legs_bull": 1858,
+      "neutral": 150,
+      "total": 1428,
+      "legs_bull": 1880,
       "legs_bear": 111,
       "legs_neutral": 81,
       "legs_split": 44,
-      "legs_total": 2094,
-      "strong_bull": 580,
+      "legs_total": 2116,
+      "strong_bull": 589,
       "strong_bear": 0,
-      "w_bull": 2438,
+      "w_bull": 2469,
       "w_bear": 111,
       "avg": 0.26
     },
@@ -135,21 +135,21 @@
     },
     {
       "sector": "Crypto",
-      "score": 71,
-      "consensus": 71,
-      "weighted_sum": 32.8,
-      "bull": 49,
+      "score": 73,
+      "consensus": 73,
+      "weighted_sum": 36.0,
+      "bull": 52,
       "bear": 4,
       "neutral": 8,
-      "total": 61,
-      "legs_bull": 130,
+      "total": 64,
+      "legs_bull": 141,
       "legs_bear": 27,
       "legs_neutral": 6,
       "legs_split": 4,
-      "legs_total": 167,
-      "strong_bull": 41,
+      "legs_total": 178,
+      "strong_bull": 45,
       "strong_bear": 0,
-      "w_bull": 171,
+      "w_bull": 186,
       "w_bear": 27,
       "avg": 0.2
     },
@@ -197,40 +197,40 @@
       "sector": "Macro",
       "score": -81,
       "consensus": 81,
-      "weighted_sum": -98.5,
+      "weighted_sum": -100.7,
       "bull": 19,
       "bear": 31,
       "neutral": 16,
       "total": 66,
       "legs_bull": 59,
-      "legs_bear": 516,
+      "legs_bear": 525,
       "legs_neutral": 18,
       "legs_split": 1,
-      "legs_total": 594,
+      "legs_total": 603,
       "strong_bull": 0,
       "strong_bear": 54,
       "w_bull": 59,
-      "w_bear": 570,
+      "w_bear": 579,
       "avg": -0.17
     },
     {
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -249.4,
+      "weighted_sum": -251.0,
       "bull": 9,
       "bear": 27,
       "neutral": 15,
       "total": 51,
       "legs_bull": 16,
-      "legs_bear": 858,
+      "legs_bear": 865,
       "legs_neutral": 18,
       "legs_split": 4,
-      "legs_total": 896,
+      "legs_total": 903,
       "strong_bull": 0,
-      "strong_bear": 33,
+      "strong_bear": 34,
       "w_bull": 16,
-      "w_bear": 891,
+      "w_bear": 899,
       "avg": -0.28
     }
   ],
@@ -510,13 +510,13 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 382,
-        "kols": 71
+        "count": 392,
+        "kols": 72
       },
       {
         "ticker": "白银",
-        "count": 232,
-        "kols": 57
+        "count": 242,
+        "kols": 58
       },
       {
         "ticker": "黄金/白银",
@@ -559,6 +559,11 @@
         "kols": 23
       },
       {
+        "ticker": "比特币(BTC)",
+        "count": 28,
+        "kols": 12
+      },
+      {
         "ticker": "原油",
         "count": 28,
         "kols": 14
@@ -567,11 +572,6 @@
         "ticker": "黄金/白银/金矿",
         "count": 20,
         "kols": 18
-      },
-      {
-        "ticker": "比特币(BTC)",
-        "count": 19,
-        "kols": 11
       },
       {
         "ticker": "黄金 GLD/PHYS",
@@ -592,13 +592,13 @@
       },
       {
         "ticker": "美债",
-        "count": 170,
-        "kols": 58
+        "count": 174,
+        "kols": 59
       },
       {
         "ticker": "美元",
-        "count": 146,
-        "kols": 50
+        "count": 147,
+        "kols": 51
       },
       {
         "ticker": "美元(DXY)",
@@ -646,6 +646,11 @@
         "kols": 10
       },
       {
+        "ticker": "美元/法币",
+        "count": 13,
+        "kols": 6
+      },
+      {
         "ticker": "DXY 美元",
         "count": 12,
         "kols": 13
@@ -654,11 +659,6 @@
         "ticker": "美债 (TLT)",
         "count": 11,
         "kols": 10
-      },
-      {
-        "ticker": "美元/法币",
-        "count": 11,
-        "kols": 5
       }
     ]
   },
@@ -768,6 +768,19 @@
       "trend": "→"
     },
     {
+      "kol_name": "Larry Lepard",
+      "sector": "Precious Metals",
+      "detail_sector": "比特币",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-06-21",
+      "latest_comments": "尽管金价连跌三周(因美元走强+联储偏鹰),Lepard在采访中坚定看多:他把金价从约$3,000升至$5,500+归因于市场认识到美国赤字将靠货币扩张而非削减开支来融资,称只有政府转向财政自律他才会改变看法(他认为不太可能) → 金银投资仍处更长周期的'第三局',资金多集中在AI/科技股。BTC方面,他视21M固定上限为补充黄金物理稀缺的数字稀缺,称本轮回调相较过去70%+的回撤温和、是机构支撑增",
+      "latest_title": "🟢 看多比特币(上看$1M)+金银:赤字靠印钞融资、贵金属仅'第三局'",
+      "bull_bear": "🟢 比特币(上看$1M), 黄金, 白银(第三局) | 🔴 美元(走强亦不改长期看空), 美债",
+      "total_entries": 11,
+      "trend": "→"
+    },
+    {
       "kol_name": "Timothy Arcuri",
       "sector": "Equities",
       "detail_sector": "半导体",
@@ -804,6 +817,19 @@
       "latest_title": "🟢 看多黄金但'贬值交易是胡扯'：AI崩盘是更大风险",
       "bull_bear": "🟢 GLD/PHYS(去美元化/央行购金驱动) | 🔴 AI/科技泡沫——崩盘冲击整个经济",
       "total_entries": 33,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Frank Giustra",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-06-20",
+      "latest_comments": "Giustra 在 Kitco 访谈中指出黄金已进入新机制 → 上涨主要由各国央行为储备多元化、去美元化而买入(价格不敏感型买家),而非西方投机资金 → 近期金价回调与矿业股走弱只是短线交易者离场的'噪音',底层逻辑未破 → 因此加拿大 TSX/TSXV 矿业股在回调中提供精选买入机会。来源:https://www.canadianminingreport.com/blog/frank-giust",
+      "latest_title": "🟢 看多黄金:结构性牛市,回调只是噪音 | 🔴 看空美元",
+      "bull_bear": "🟢 黄金, 加拿大矿业股(TSX/TSXV) | 🔴 USD",
+      "total_entries": 7,
       "trend": "↘ 趋空"
     },
     {
@@ -1876,6 +1902,222 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "38847eb5-fd3c-81ee-ba90-eeccc6f06954",
+      "name": "🟢 看多比特币(上看$1M)+金银:赤字靠印钞融资、贵金属仅'第三局'",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-21",
+      "sector": "Precious Metals",
+      "detail_sector": "比特币",
+      "comments": "尽管金价连跌三周(因美元走强+联储偏鹰),Lepard在采访中坚定看多:他把金价从约$3,000升至$5,500+归因于市场认识到美国赤字将靠货币扩张而非削减开支来融资,称只有政府转向财政自律他才会改变看法(他认为不太可能) → 金银投资仍处更长周期的'第三局',资金多集中在AI/科技股。BTC方面,他视21M固定上限为补充黄金物理稀缺的数字稀缺,称本轮回调相较过去70%+的回撤温和、是机构支撑增强的迹象,长期上看$1,000,000。强烈隐含看空美元与美债。来源:https://news.bitcoin.com/two-gold-bugs-stand-firm-on-golds-rally-lawrence-lepard-targets-1-million-bitcoin/",
+      "suggestion": "回调中坚定看多;贵金属'第三局'意味上行空间仍大,可在金价回调与BTC温和回撤时加仓,长线BTC目标$1M、金银继续作为赤字货币化对冲;唯一证伪信号是政府转向财政紧缩。",
+      "bull_bear": "🟢 比特币(上看$1M), 黄金, 白银(第三局) | 🔴 美元(走强亦不改长期看空), 美债"
+    },
+    {
+      "id": "38847eb5-fd3c-81da-8303-cd49e10a9503",
+      "name": "🟢 看多黄金+白银+比特币:'大印钞'临近、数万亿刺激将推升硬资产",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-07",
+      "sector": "Precious Metals",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "Lepard警告其书中所写的'The Big Print'正快速逼近:新一轮数万亿美元的货币与财政刺激将推高通胀、加速美元贬值 → 他预期黄金、白银、比特币等硬资产与大宗商品将大幅上涨,并建议投资者趁还有时间增加配置敞口。延续货币贬值核心论点。明确隐含看空美元。来源:https://adamtaggart.substack.com/p/the-next-big-money-printing-cycle",
+      "suggestion": "临近触发的强烈看多;在大刺激兑现前增配黄金/白银/BTC及大宗商品,把美元贬值与通胀重新加速作为持有与加仓的确认指标。",
+      "bull_bear": "🟢 黄金, 白银, 比特币, 大宗商品(印钞通胀对冲) | 🔴 美元(贬值)"
+    },
+    {
+      "id": "38847eb5-fd3c-8155-beec-c9a03401b4be",
+      "name": "🟢 看多金银+比特币:新主席Warsh将降息100bps、'上车健全货币的最后机会'",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-04-30",
+      "sector": "Precious Metals",
+      "detail_sector": "美联储政策",
+      "comments": "Lepard在'Big Print Update'中分析:新任美联储主席Warsh质疑通胀统计、主张用读数更低的'修剪均值',而Bessent实为操盘手,将推动短端降息以压低政府利息支出 → 他预计5月15日后可能出现非例行会议与一次100bps降息,直言'这是以相对有吸引力价格上车健全货币列车的最后机会:黄金、白银、比特币'。强烈隐含看空美元与美债收益率(政策性压低)。来源:https://www.howestreet.com/2026/04/lawrence-lepard-new-fed-chair-new-round-of-easing/",
+      "suggestion": "事件驱动强烈看多;若Warsh/Bessent宽松兑现,可在降息落地前抢先增配金银+BTC,把'非例行会议/大幅降息'作为加速配置信号,规避长久期美债。",
+      "bull_bear": "🟢 黄金, 白银, 比特币(降息前抢配) | 🔴 美元(宽松贬值), 美债收益率"
+    },
+    {
+      "id": "38847eb5-fd3c-8181-8c42-d985ba686c17",
+      "name": "🟢 看多金银+比特币:回调属健康修正、'大印钞'长期论点不变",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-04-01",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金走势",
+      "comments": "在Thoughtful Money直播,Lepard回答'金银/BTC底部到了吗':他对长期论点充满信心——因美国不可持续的债务与赤字,大规模印钞('the big print')不可避免 → 近期金银与比特币的急跌主要是涨太快后的健康修正,而非趋势反转。隐含看空美元/法币与美债可持续性。来源:https://adamtaggart.substack.com/p/is-the-bottom-in-for-gold-silver",
+      "suggestion": "把回调定性为健康修正的逢低看多;认同者可在金银/BTC调整中分批加仓而非止损离场,以债务/赤字不可持续作为长期持有依据。",
+      "bull_bear": "🟢 黄金, 白银, 比特币(回调即买点) | 🔴 美元/法币, 美债"
+    },
+    {
+      "id": "38847eb5-fd3c-815b-b603-d5d680ff8aa0",
+      "name": "🟢 看多贵金属+比特币:数学注定'下一轮大印钞'、提前布局健全货币",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-02-26",
+      "sector": "Precious Metals",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "在Tom Woods节目,《The Big Print》作者Lepard从债务数学出发:庞大且复利增长的政府债务在数学上注定将以新一轮大规模印钞来化解 → 因此最理性的资金策略是提前增配贵金属与比特币这类政府无法增发的健全货币。延续其Austrian经济学+货币贬值主线。隐含看空美元与美债的实际购买力。来源:https://tomwoods.com/ep-2738-prepare-for-the-next-round-of-money-printing-with-larry-lepard/",
+      "suggestion": "以债务数学为依据的提前布局派;建议在大印钞兑现前逐步增配实物贵金属与BTC,把不断扩张的赤字/债务利息作为配置加码触发器。",
+      "bull_bear": "🟢 黄金, 白银, 比特币(印钞对冲) | 🔴 美元, 美债(购买力)"
+    },
+    {
+      "id": "38847eb5-fd3c-8147-8bf4-f5f8c69c5d0a",
+      "name": "🟢 看多金银+比特币:'货币之路尽头'、长期趋势变化(基金2025年+170%)",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-01-28",
+      "sector": "Precious Metals",
+      "detail_sector": "经济重置叙事",
+      "comments": "Lepard发布最新投资人信(其基金2025年上涨逾170%),主题'货币混乱:长期趋势变化'——多张图表显示'我们离货币之路的尽头有多近' → 论点是法币货币体系正走向终局,持有黄金/白银/比特币是穿越货币长期趋势反转的方式。作为少数提前看准金银大涨的人,其信号价值受重视。隐含强烈看空法币/主权债务体系。来源:https://quoththeraven.substack.com/p/the-end-of-the-monetary-road-larry",
+      "suggestion": "顶级业绩背书的结构看多;认同'货币体系终局'者可维持金银+BTC核心配置,把投资人信中的图表(债务/货币指标)作为趋势跟踪锚点。",
+      "bull_bear": "🟢 黄金, 白银, 比特币(货币终局对冲) | 🔴 法币体系, 主权债务"
+    },
+    {
+      "id": "38847eb5-fd3c-8196-9967-e47f60a972e3",
+      "name": "🟢 看多比特币+金银:美联储已转向印钞、YCC不可避免、BTC最具非对称性",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-01-22",
+      "sector": "Precious Metals",
+      "detail_sector": "美联储政策",
+      "comments": "在What Bitcoin Did访谈,Lepard判断美联储已重新转向印钞、通胀已结构性嵌入体系 → 因为债务持续膨胀,不创造货币体系就会崩溃;收益率曲线控制(YCC)日益不可避免。金银的抛物线式上涨是这一货币衰败的信号,而比特币是对政策失败与货币衰败'最具非对称性'的回应。强烈隐含看空美债(需YCC压制收益率)与美元。来源:https://www.youtube.com/watch?v=gVnEWAR-06s",
+      "suggestion": "看多BTC(最高非对称回报)+金银的货币失序对冲;可把'Fed已转向+YCC'作为加配硬资产的宏观依据,BTC为弹性头寸、金银为压舱石,警惕美债长端风险。",
+      "bull_bear": "🟢 比特币(最非对称), 黄金, 白银 | 🔴 美债(YCC), 美元/法币"
+    },
+    {
+      "id": "38847eb5-fd3c-810f-b203-d56b8dcb127d",
+      "name": "🟢 看多金银+比特币:贵金属结构性转折、BTC波动是新网络特征",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2026-01-04",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "在QTR'2026预测'中,Lepard回应BTC近期跑输黄金:长期论点未变,'比特币有大好年、超好年也有糟糕年——这正是仍在被采纳的新网络应有表现'。他把黄金与BTC定位为互补的健全货币(黄金在危机/不确定中走强,BTC更受流动性与risk-on驱动),并提醒新手注意BTC波动与仓位管理。认为金银大涨非纯投机,而是实物紧张、去美元化、对政府财政不信任叠加的结构性转变。隐含看空法币信用。来源:https://quoththeraven.substack.com/p/larry-lepard-2026-predictions-for",
+      "suggestion": "金银结构看多、BTC长期看多但承认短期波动;建议按'跌了第一反应是想加仓而非认错'的标准给BTC定仓位,金银以去美元化/实物紧张为主线分批配置。",
+      "bull_bear": "🟢 黄金, 白银, 比特币(结构性) | 🔴 美元/法币(信用)"
+    },
+    {
+      "id": "38847eb5-fd3c-81f4-8f5c-c8ff16d668d7",
+      "name": "🟢 看多比特币(上看$1M)+黄金:黄金先行示警货币贬值、BTC随后跟涨",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2025-12-09",
+      "sector": "Precious Metals",
+      "detail_sector": "比特币",
+      "comments": "在The Bitcoin Collective节目(录于11月10日),Lepard阐述:黄金正在示警货币贬值,这对比特币意味着上行 → 他的框架是黄金常先动、比特币随后跟涨;长期看BTC可达$100万,伴随一场货币重置(currency reset)。强调健全货币教育的重要性。隐含看空法币体系。来源:https://podcasts.apple.com/us/podcast/bitcoin-to-%241m-and-the-coming-currency-reset/id1561573613",
+      "suggestion": "长线BTC超级看多($1M)叠加黄金;可把黄金走强作为BTC即将跟涨的领先信号,在BTC回调以可承受仓位长期积累,黄金作为先行配置。",
+      "bull_bear": "🟢 比特币(上看$1M), 黄金(先行) | 🔴 法币/美元(贬值)"
+    },
+    {
+      "id": "38847eb5-fd3c-8165-a481-fd1f029e7063",
+      "name": "🟢 强烈看多金银+比特币:2026年金股翻倍、白银奔$80-100、BTC上看$200K",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2025-11-10",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Lepard给出明确2026价格目标:比特币可能翻倍至$200,000;白银从$50近翻倍至$80-100;黄金股从当前位置翻倍。他坦言'涨这么多还买很难,但坚持买你会被回报'。延续健全货币+货币贬值主线,认为贵金属与BTC的上行是法币购买力流失的镜像。隐含看空美元购买力。来源:https://investingnews.com/larry-lepard-gold-forecast/",
+      "suggestion": "明确的强烈看多价格目标派;认同者可在金股/白银回调时分批建仓并长期持有,设定2026年金股翻倍、银价$80+为目标参照,注意追高需控制仓位。",
+      "bull_bear": "🟢 黄金股, 白银, 比特币(翻倍目标) | 🔴 美元(购买力)"
+    },
+    {
+      "id": "38847eb5-fd3c-8145-b987-d84354f7c651",
+      "name": "🟢 看多黄金+比特币+白银:货币重置开端、QE回归驱动'货币贬值交易'",
+      "kol_name": "Larry Lepard",
+      "kol_or_ib": "KOL",
+      "date": "2025-11-04",
+      "sector": "Precious Metals",
+      "detail_sector": "货币体系重构",
+      "comments": "在New Orleans投资大会受访,Lepard提出核心框架:同时持有'模拟版健全货币'黄金与'数字版健全货币'比特币 → 论据是持续印钞与重启QE将驱动长期'货币贬值交易',利好政府无法增发的稀缺资产;央行购金、华尔街情绪转向、潜在金本位债券等支撑金银续涨;比特币当前相对黄金便宜,机构(贝莱德ETF、JPMorgan'货币贬值交易'提法)买入渐增。同时警示滞胀与AI裁员风险。隐含看空法币/美元与美债。来源:https://www.buysidedigest.com/podcast/gold-this-is-how-the-next-reset-begins-lawrence-lepard/",
+      "suggestion": "结构性双多头(黄金+BTC)框架确立期;可在金银回调分批配置实物金银及矿业股,并以小仓位长期持有BTC,以央行购金与QE/资产负债表扩张作为趋势确认信号。",
+      "bull_bear": "🟢 黄金, 白银, 比特币, 矿业股(货币贬值交易) | 🔴 美元/法币(贬值), 美债"
+    },
+    {
+      "id": "38847eb5-fd3c-81ad-8fec-d421ea9ae269",
+      "name": "🟢 看多金银:暴跌是流动性事件非趋势破位,实物需求夺回定价权",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-02-08",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "针对前一周金银约 20% 的暴跌,Giustra 判断这是流动性事件而非趋势破位 → 起因是日元套息交易解杠杆+COMEX 提高保证金触发强制平仓,加之亚洲休市实物买家缺席,大型纸面空头借机'打压' → 但供需基本面未变,黄金快速反弹、白银反弹更猛,是杠杆被冲洗而非信念崩塌 → 核心论点:纸黄金市场正把定价权让给亚洲实物需求(现货溢价/backwardation 显示实物紧缺)。结论看多金银。来源:https://www.livingintheair.org/2026/02/gold-frank-giustra-ce",
+      "suggestion": "将暴跌视为加仓窗口而非离场信号;以实物溢价、backwardation 与亚洲实物买盘作为底部确认指标,金银同步布局并侧重实物/可交割敞口。",
+      "bull_bear": "🟢 黄金, 白银, 实物贵金属"
+    },
+    {
+      "id": "38847eb5-fd3c-818e-8fe9-ee5adaeb6512",
+      "name": "🟢 看多铜与黄金矿企:矿床稀缺、巨头'畏手畏脚'被迫高价并购",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-02-27",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Giustra 与 Ian Harris 讨论:优质矿床日益稀缺、勘探不足 → 多年'畏手畏脚'的大型矿企(majors)未能补充储量,如今别无选择只能高价并购(如 $1.5B 收购案),并看到 $6.00 铜价 → 同时其 Great Reset/黄金锚定新超级周期主题强化贵金属长牛。结论:看多铜与黄金矿企(尤其拥有矿床的初级/中型矿商)。来源:https://fioregroup.ca/frank-giustra-ian-harris/",
+      "suggestion": "关注拥有优质矿床的初级/中型矿企作为被并购标的与运营杠杆来源;铜与黄金矿业股在'矿床稀缺+巨头补库'逻辑下具中长线配置价值。",
+      "bull_bear": "🟢 铜, 黄金矿企, 初级矿业股"
+    },
+    {
+      "id": "38847eb5-fd3c-814a-9f1f-e9c5a8e1e7f2",
+      "name": "🟢 强烈看多黄金:'你这辈子最好的一波行情',最后爆发阶段",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-02-25",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Giustra 在 Fiore 系列访谈中宣称黄金正进入最后的爆发性上行阶段,称'这将是你这辈子最好的一波行情' → 延续其萧条-恶性通胀-战争的宏观判断框架,认为法币体系临近重置 → 由此对黄金给出强烈看多。同日另一访谈(Depression, Hyperinflation… Then War)主题一致,合并为本条。来源:https://fioregroup.ca/this-will-be-the-best-run-of-your-life-frank-giustra-on-golds-final-explosive-phase/",
+      "suggestion": "结构性强多观点:适合作为长线黄金多头的信心锚,但'最后爆发阶段'隐含高波动,建仓应分批并预留应对剧烈回调的纪律。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "38847eb5-fd3c-815d-8d78-c75f014a3169",
+      "name": "🟢 看多黄金:全球债务逼近极限(Ferguson法则) | 🔴 看空法币体系",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-03-23",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Giustra 在文章《The Price of Gold and Global Debt》中引用 Ferguson 法则:当一国国债利息支出超过国防开支,大国便已濒临衰落 → 全球债务持续攀升至前所未有水平,他认为体系正逼近真正的约束临界点 → 这将冲击货币政策与金融稳定,强化黄金的货币角色;并提到代币化大宗商品/黄金支持的数字资产正兴起以扩大黄金可及性。结论看多黄金、看空过度负债的法币体系。来源:https://www.linkedin.com/posts/frank-giustra-a39711120_the-p",
+      "suggestion": "以黄金对冲主权债务失控与法币信用受损风险;可关注代币化/黄金支持数字资产带来的配置新工具,但核心仍是持有实物或可信黄金敞口。",
+      "bull_bear": "🟢 黄金 | 🔴 法币体系/主权债"
+    },
+    {
+      "id": "38847eb5-fd3c-81d5-98cb-c25d74ca185b",
+      "name": "🔴 看空比特币'数字黄金'叙事:可被追踪没收 | 🟢 看多黄金",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-31",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Giustra 再次质疑比特币的'数字黄金'标签 → 论点是加密货币仍可被政府追踪与没收 → 因此在抗没收、终极避险属性上削弱了比特币替代黄金的理由 → 相对而言实物黄金的避险地位更稳固。这是相对方向:看空比特币作为黄金替代品的叙事,看多黄金。来源:https://crypto.news/billionaire-says-crypto-seizure-risk-wea",
+      "suggestion": "将黄金而非比特币作为抗没收、抗主权风险的核心硬资产;持有比特币者应认识其'数字黄金'叙事的脆弱性,不宜以 BTC 完全替代实物金的避险仓位。",
+      "bull_bear": "🔴 比特币(作为黄金替代叙事) | 🟢 实物黄金"
+    },
+    {
+      "id": "38847eb5-fd3c-812d-85f9-d3d20a30c285",
+      "name": "🟢 看多黄金:去美元化+货币贬值+巨额债务 | 🔴 看空美元/法币",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-12",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Giustra 认为乌克兰战争正加速全球货币体系的分裂 → 中国(像'黑洞'般吸纳黄金、瞒报储备)与俄罗斯正准备退出美元体系、转向黄金扮演角色,各国央行抛售美元囤金 → 同时货币持续贬值、通胀失控(他认为 CPI 被操纵、实际通胀可能是公布值两倍),全球债务高达 300 万亿美元/约 250% GDP → 在此环境下美联储不敢真正加息或缩表,否则将引爆系统。结论是看多黄金、看空美元与法币。来源:https://www.kitco.com/opinion/2022-06-28/golds-role-changing",
+      "suggestion": "以黄金作为对冲法币贬值与债务危机的核心配置;对美元及长久期法币资产保持谨慎,关注央行购金与去美元化进程作为长线驱动。",
+      "bull_bear": "🟢 黄金 | 🔴 USD, 法币/主权债"
+    },
+    {
+      "id": "38847eb5-fd3c-8121-b8b3-f0890433227f",
+      "name": "🟢 看多黄金:结构性牛市,回调只是噪音 | 🔴 看空美元",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-20",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Giustra 在 Kitco 访谈中指出黄金已进入新机制 → 上涨主要由各国央行为储备多元化、去美元化而买入(价格不敏感型买家),而非西方投机资金 → 近期金价回调与矿业股走弱只是短线交易者离场的'噪音',底层逻辑未破 → 因此加拿大 TSX/TSXV 矿业股在回调中提供精选买入机会。来源:https://www.canadianminingreport.com/blog/frank-giustra-on-g",
+      "suggestion": "认同结构性牛市者可借回调分批布局黄金及加拿大初级矿业股,以央行购金数据作为趋势确认,把投机盘离场视为机会而非风险。",
+      "bull_bear": "🟢 黄金, 加拿大矿业股(TSX/TSXV) | 🔴 USD"
+    },
     {
       "id": "38847eb5-fd3c-8106-bbb6-fca25a574956",
       "name": "🟢 看多金银：修正结束、央行创纪录购金，'黄金重置临近'",
