@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-24 09:31 JST",
+  "generated_at": "2026-06-25 09:30 JST",
   "date_range": {
     "start": "2025-11-01",
-    "end": "2026-06-23"
+    "end": "2026-06-24"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 1955,
-    "total_rows": 1963,
+    "legged_rows": 1960,
+    "total_rows": 1968,
     "pct": 99.6
   },
   "today_signals": [
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 539.5,
+      "weighted_sum": 527.2,
       "bull": 1183,
       "bear": 96,
       "neutral": 150,
@@ -117,11 +117,11 @@
       "sector": "Energy & Commodities",
       "score": 85,
       "consensus": 85,
-      "weighted_sum": 76.1,
+      "weighted_sum": 74.3,
       "bull": 93,
       "bear": 5,
-      "neutral": 21,
-      "total": 119,
+      "neutral": 22,
+      "total": 120,
       "legs_bull": 318,
       "legs_bear": 28,
       "legs_neutral": 10,
@@ -137,11 +137,11 @@
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 35.8,
+      "weighted_sum": 35.0,
       "bull": 53,
       "bear": 4,
-      "neutral": 8,
-      "total": 65,
+      "neutral": 9,
+      "total": 66,
       "legs_bull": 141,
       "legs_bear": 27,
       "legs_neutral": 6,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 31,
       "consensus": 31,
-      "weighted_sum": 8.0,
+      "weighted_sum": 7.9,
       "bull": 18,
       "bear": 3,
       "neutral": 24,
@@ -177,11 +177,11 @@
       "sector": "Equities",
       "score": -20,
       "consensus": 20,
-      "weighted_sum": -31.9,
+      "weighted_sum": -31.1,
       "bull": 98,
       "bear": 42,
-      "neutral": 44,
-      "total": 184,
+      "neutral": 46,
+      "total": 186,
       "legs_bull": 186,
       "legs_bear": 294,
       "legs_neutral": 19,
@@ -197,11 +197,11 @@
       "sector": "Macro",
       "score": -81,
       "consensus": 81,
-      "weighted_sum": -96.4,
+      "weighted_sum": -94.2,
       "bull": 20,
       "bear": 31,
-      "neutral": 18,
-      "total": 69,
+      "neutral": 19,
+      "total": 70,
       "legs_bull": 59,
       "legs_bear": 525,
       "legs_neutral": 18,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -247.2,
+      "weighted_sum": -241.6,
       "bull": 9,
       "bear": 28,
       "neutral": 15,
@@ -344,21 +344,21 @@
       "signal": "高"
     },
     {
-      "kol_name": "Michael Hartnett",
-      "sector": "Precious Metals",
-      "date": "2026-06-10",
-      "from": "看空",
-      "to": "看多",
-      "title": "Michael Hartnett — 🔴 看空",
-      "signal": "高"
-    },
-    {
       "kol_name": "Torsten Sløk",
       "sector": "Precious Metals",
       "date": "2026-06-10",
       "from": "看空",
       "to": "看多",
       "title": "Torsten Sløk — 🟡 中性",
+      "signal": "高"
+    },
+    {
+      "kol_name": "Michael Hartnett",
+      "sector": "Precious Metals",
+      "date": "2026-06-10",
+      "from": "看空",
+      "to": "看多",
+      "title": "Michael Hartnett — 🔴 看空",
       "signal": "高"
     },
     {
@@ -664,6 +664,71 @@
   },
   "kol_cards": [
     {
+      "kol_name": "Torsten Sløk",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "IB View",
+      "style": "交易派",
+      "latest_date": "2026-06-24",
+      "latest_comments": "Slok(Apollo 首席经济学家)6/24 提出反直觉观点：WTI 周三跌约4%、自3月初以来首次跌破$70，布伦特跌5%至约$72(美伊签署结束近四个月冲突的 MOU、霍尔木兹原油流恢复所致)，但他认为油价回落并不必然意味着可期待反通胀(disinflation)。即不应因能源价格下行就放松对通胀黏性的警惕。来源：europesays/Apollo 6/24。",
+      "latest_title": "🟡 油价跌≠反通胀：便宜原油未必带来 disinflation",
+      "bull_bear": "🔴 反通胀预期(disinflation) | 🟡 原油(已回落但通胀传导不确定)",
+      "total_entries": 9,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Cathie Wood",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-06-24",
+      "latest_comments": "Wood 6/24 借 AI 回调'重建 Magnificent 7 交易'：ARK 买入约4900万美元 Amazon、Alphabet、Tesla、Palantir、CoreWeave、Cerebras，同时继续清仓流媒体 Roku。宏观上判断'真实通胀仅0.5%'，并据此预测 Fed 下一步将转向宽松——为成长股估值修复提供货币环境支撑。延续此前抛非核心、加仓 AI 算力/应用龙头的轮动主线",
+      "latest_title": "🟢 AI回调抄底 Mag7：买 AMZN/GOOGL/TSLA/PLTR，称真实通胀仅0.5%",
+      "bull_bear": "🟢 AMZN, GOOGL, TSLA, PLTR, CRWV, Cerebras | 🔴 ROKU",
+      "total_entries": 50,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Jeff Currie",
+      "sector": "Energy & Commodities",
+      "detail_sector": "原油/天然气",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-06-24",
+      "latest_comments": "Currie(Carlyle 首席策略官)6/24 警告油市进入'油罐见底(tank bottoms)'的脆弱均衡：亚洲、欧洲库存已处或接近见底，美国可能在7月面临短缺。其判断供应链收缩叠加地缘张力正重塑全球能源格局，将定义未来十年能源地缘政治。虽近期油价因美伊 MOU、霍尔木兹复流而回落，但 Currie 聚焦实物库存紧张的结构性供给侧风险。来源：ekovalevsky/Carlyle 评论 6",
+      "latest_title": "🟢 看多油价：油市'油罐见底'，亚欧已近、美国7月或现短缺",
+      "bull_bear": "🟢 原油(WTI/Brent), 能源股",
+      "total_entries": 8,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Dan Ives",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-06-24",
+      "latest_comments": "Ives 6/24 在芯片股大跌(费城半导体指数前日重挫7.8%)后定调：AI 革命仍处'第3局'，本轮抛售是'gut check moment'而非趋势逆转；点名 Micron 即将发布的财报与指引是检验全市场 AI 资本开支健康度的关键事件；并称 MSFT 是当前'最超卖的大盘股'，类比一年前市场对 GOOGL 的'负面叙事'终被证伪。维持逢回调买入科技龙头立场。来源：Benzinga / Y",
+      "latest_title": "🟢 看多 AI/MSFT：AI革命'第3局'，Micron 财报是'gut check'",
+      "bull_bear": "🟢 MSFT, MU, AI半导体, NVDA",
+      "total_entries": 42,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Peter Schiff",
+      "sector": "Crypto",
+      "detail_sector": "末日情景",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-06-24",
+      "latest_comments": "Schiff 6/24 多源密集开火：质疑'比特币便宜'叙事——BTC 缺乏估值锚与生产性用途，Strategy(MSTR)股价大跌之际，称 Saylor 的 STRC 永续优先股'已越线、是庞氏'，现金缓冲从7年覆盖骤降至14个月，BTC 高位买入致106亿美元浮亏；并称 REIT 持有 BTC 只增风险不解决任何需求。借此重申黄金优于 BTC 的长期主张。来源：news.bitcoin.com",
+      "latest_title": "🔴 看空 BTC/Strategy(MSTR)：STRC 流动性危机，缺估值锚",
+      "bull_bear": "🔴 BTC, MSTR, STRC | 🟢 黄金(相对)",
+      "total_entries": 47,
+      "trend": "→"
+    },
+    {
       "kol_name": "Rick Rule",
       "sector": "Precious Metals",
       "detail_sector": "黄金白银",
@@ -716,58 +781,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Peter Schiff",
-      "sector": "Macro",
-      "detail_sector": "末日情景",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-06-23",
-      "latest_comments": "Schiff警告'若Fed不货币化债务,将爆发比2008更严重的金融危机',并点名'日本即将爆雷' → 延续其美债是巨型庞氏、法币终将贬值的框架,把财政终局指向印钞货币化→利好实物黄金、利空美元与美债。相比6/22把金价回调当买点,本次催化剂升级到'日本债务/货币危机'这一新外溢风险点。来源:silvertrade.com、schiffsovereign.com 2026-06-23。",
-      "latest_title": "🟢 看多黄金：Fed不货币化债务将引爆比2008更严重危机,警告日本",
-      "bull_bear": "🟢 黄金, 实物贵金属 | 🔴 美元, 美债, 日债",
-      "total_entries": 46,
-      "trend": "→"
-    },
-    {
-      "kol_name": "Torsten Sløk",
-      "sector": "Macro",
-      "detail_sector": "美元指数",
-      "kol_or_ib": "IB View",
-      "style": "交易派",
-      "latest_date": "2026-06-23",
-      "latest_comments": "全球股市因Fed重置预期而下挫,美元指数升至101以上、创一年多新高 → Sløk框架下:新任Fed主席结构性看法虽偏低通胀(AI带来的去通胀),但市场当前已price in年底一次加息、并有约一半概率押注两次 → 利率上行预期成为美元的燃料(短期周期性),对风险资产构成压力。相比6/18强调能源推升通胀路径,本次落到'市场定价加息+美元走强'的新数据点。来源:fortune.com、seekin",
-      "latest_title": "🟡 美元创年内新高：市场转而押注Fed年底加息",
-      "bull_bear": "🟢 USD(短期) | 🔴 风险资产",
-      "total_entries": 8,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Dan Ives",
-      "sector": "Equities",
-      "detail_sector": "科技/AI",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-06-23",
-      "latest_comments": "韩国KOSPI在创历史新高后单日急挫约10%,拖累Micron(MU)、SK海力士、英特尔等内存与芯片股大跌,Ives称'这不是真正的故事' → 他把这轮由韩股驱动的科技回调定义为'buy the dip'买入机会,延续其AI资本开支终将兑现、AI非泡沫的乐观框架。相比6/21聚焦TSLA算力重估,本次催化剂转向KOSPI外溢冲击下的内存/半导体逢跌布局。来源:cnbc.com、benzinga.",
-      "latest_title": "🟢 看多半导体/内存股：韩国KOSPI暴跌引发的回调是买点",
-      "bull_bear": "🟢 MU, AI半导体",
-      "total_entries": 41,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Cathie Wood",
-      "sector": "Equities",
-      "detail_sector": "科技/AI",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-06-23",
-      "latest_comments": "SpaceX(SPCX)上市后连续重挫(周一跌超16%、周二盘前再跌4%),Wood旗下ARK周一逆势买入约21万股、合计约3250万美元,跨四只ETF分散建仓 → 她明确把暴跌视为买入机会而非看空理由,重申对马斯克系颠覆性创新标的的高信念。相比6/15为参与IPO减持核心股建仓,本次是IPO后回调中的'越跌越买'新动作。来源:investors.com、ibtimes.co.uk、fool.co",
-      "latest_title": "🟢 看多SpaceX：暴跌16%逆势加仓3250万美元抄底",
-      "bull_bear": "🟢 SPCX",
-      "total_entries": 49,
-      "trend": "↘ 趋空"
-    },
-    {
       "kol_name": "Craig Hemke",
       "sector": "Precious Metals",
       "detail_sector": "黄金白银",
@@ -817,7 +830,7 @@
       "latest_title": "🟢 看多 BTC：Strategy 再购520枚比特币并增300M美元储备",
       "bull_bear": "🟢 BTC(强烈), MSTR",
       "total_entries": 27,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Marc Chandler",
@@ -856,7 +869,7 @@
       "latest_title": "🟢 看多半导体：美光Q3毛利率或破80%，HBM售罄成最强支撑",
       "bull_bear": "🟢 MU(毛利率破80%/HBM售罄), SMH, AVGO, TER, MRVL",
       "total_entries": 6,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "James Rickards",
@@ -1259,7 +1272,7 @@
       "latest_title": "Athos Salomé — 🟡 中性",
       "bull_bear": "🟢 黄金(预言避险支撑,信号混合)",
       "total_entries": 22,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Ivan Zhao",
@@ -1467,7 +1480,7 @@
       "latest_title": "FEMA — 🟡 中性",
       "bull_bear": "🟡 GLD, PHYS(供应链风险间接利好/中性偏混合)",
       "total_entries": 27,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Brandon Biggs",
@@ -1571,19 +1584,6 @@
       "latest_title": "Andy Schectman — 🟢 看多",
       "bull_bear": "🟢 GLD/SLV/PHYS(永恒财富)",
       "total_entries": 9,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Jeff Currie",
-      "sector": "Energy & Commodities",
-      "detail_sector": "大宗商品周期",
-      "kol_or_ib": "IB View",
-      "style": "交易派",
-      "latest_date": "2026-06-10",
-      "latest_comments": "Jeff Currie认为大宗商品正处于新一轮超级周期初期，尽管已上涨六年，但仅相当于棒球比赛第一局末段，未来还有10-12年上涨空间。核心驱动力来自人工智能需求爆发式增长，叠加长期供给端投资不足导致的“旧经济复仇”结构性缺口。中东地缘政治冲击进一步加剧供给紧张。\n\n来源: https://en.wikipedia.org/wiki/Jeffrey_Currie | https://www.you",
-      "latest_title": "Jeff Currie — 🟢 看多",
-      "bull_bear": "🟢 大宗商品超级周期(GLD/SLV/GDX)、🔴 美债(TLT)",
-      "total_entries": 7,
       "trend": "↘ 趋空"
     },
     {
@@ -1714,7 +1714,7 @@
       "latest_title": "Citi / UBS — 🟢 看多",
       "bull_bear": "🟢 GLD/PHYS/GDX(目标$5000-6000)",
       "total_entries": 17,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Morgan Stanley",
@@ -1902,6 +1902,66 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "38a47eb5-fd3c-81f8-905c-e236b3155c60",
+      "name": "🟡 油价跌≠反通胀：便宜原油未必带来 disinflation",
+      "kol_name": "Torsten Sløk",
+      "kol_or_ib": "IB View",
+      "date": "2026-06-24",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "Slok(Apollo 首席经济学家)6/24 提出反直觉观点：WTI 周三跌约4%、自3月初以来首次跌破$70，布伦特跌5%至约$72(美伊签署结束近四个月冲突的 MOU、霍尔木兹原油流恢复所致)，但他认为油价回落并不必然意味着可期待反通胀(disinflation)。即不应因能源价格下行就放松对通胀黏性的警惕。来源：europesays/Apollo 6/24。",
+      "suggestion": "勿把油价回落简单线性外推为通胀回落；对'Fed 因油价跌而转鸽'的押注保持谨慎。",
+      "bull_bear": "🔴 反通胀预期(disinflation) | 🟡 原油(已回落但通胀传导不确定)"
+    },
+    {
+      "id": "38a47eb5-fd3c-815b-b665-ecfd73d70ad7",
+      "name": "🟢 AI回调抄底 Mag7：买 AMZN/GOOGL/TSLA/PLTR，称真实通胀仅0.5%",
+      "kol_name": "Cathie Wood",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-24",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "comments": "Wood 6/24 借 AI 回调'重建 Magnificent 7 交易'：ARK 买入约4900万美元 Amazon、Alphabet、Tesla、Palantir、CoreWeave、Cerebras，同时继续清仓流媒体 Roku。宏观上判断'真实通胀仅0.5%'，并据此预测 Fed 下一步将转向宽松——为成长股估值修复提供货币环境支撑。延续此前抛非核心、加仓 AI 算力/应用龙头的轮动主线，本次新增 AMZN/GOOGL/PLTR/Cerebras。来源：TipRanks/IBD/coingape 6/24。",
+      "suggestion": "把 AI 龙头回调作为布局窗口(AMZN/GOOGL/PLTR/CRWV)；其'低通胀→Fed转鸽'判断若兑现利好长久期成长股。",
+      "bull_bear": "🟢 AMZN, GOOGL, TSLA, PLTR, CRWV, Cerebras | 🔴 ROKU"
+    },
+    {
+      "id": "38a47eb5-fd3c-81c5-866f-de2c2f3accb5",
+      "name": "🟢 看多油价：油市'油罐见底'，亚欧已近、美国7月或现短缺",
+      "kol_name": "Jeff Currie",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-24",
+      "sector": "Energy & Commodities",
+      "detail_sector": "原油/天然气",
+      "comments": "Currie(Carlyle 首席策略官)6/24 警告油市进入'油罐见底(tank bottoms)'的脆弱均衡：亚洲、欧洲库存已处或接近见底，美国可能在7月面临短缺。其判断供应链收缩叠加地缘张力正重塑全球能源格局，将定义未来十年能源地缘政治。虽近期油价因美伊 MOU、霍尔木兹复流而回落，但 Currie 聚焦实物库存紧张的结构性供给侧风险。来源：ekovalevsky/Carlyle 评论 6/24。",
+      "suggestion": "关注7月美国库存数据作为做多原油/能源股的催化剂确认；实物紧张支持油价下行空间有限。",
+      "bull_bear": "🟢 原油(WTI/Brent), 能源股"
+    },
+    {
+      "id": "38a47eb5-fd3c-813a-b60b-de20f53625e9",
+      "name": "🟢 看多 AI/MSFT：AI革命'第3局'，Micron 财报是'gut check'",
+      "kol_name": "Dan Ives",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-24",
+      "sector": "Equities",
+      "detail_sector": "科技/AI",
+      "comments": "Ives 6/24 在芯片股大跌(费城半导体指数前日重挫7.8%)后定调：AI 革命仍处'第3局'，本轮抛售是'gut check moment'而非趋势逆转；点名 Micron 即将发布的财报与指引是检验全市场 AI 资本开支健康度的关键事件；并称 MSFT 是当前'最超卖的大盘股'，类比一年前市场对 GOOGL 的'负面叙事'终被证伪。维持逢回调买入科技龙头立场。来源：Benzinga / YouTube 6/24。",
+      "suggestion": "把芯片/AI 板块回调视为加仓窗口；重点关注 Micron 财报指引作为方向确认；MSFT 超跌可布局。",
+      "bull_bear": "🟢 MSFT, MU, AI半导体, NVDA"
+    },
+    {
+      "id": "38a47eb5-fd3c-8173-9460-c16181570c79",
+      "name": "🔴 看空 BTC/Strategy(MSTR)：STRC 流动性危机，缺估值锚",
+      "kol_name": "Peter Schiff",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-24",
+      "sector": "Crypto",
+      "detail_sector": "末日情景",
+      "comments": "Schiff 6/24 多源密集开火：质疑'比特币便宜'叙事——BTC 缺乏估值锚与生产性用途，Strategy(MSTR)股价大跌之际，称 Saylor 的 STRC 永续优先股'已越线、是庞氏'，现金缓冲从7年覆盖骤降至14个月，BTC 高位买入致106亿美元浮亏；并称 REIT 持有 BTC 只增风险不解决任何需求。借此重申黄金优于 BTC 的长期主张。来源：news.bitcoin.com / Benzinga 6/24。",
+      "suggestion": "回避 MSTR 及其衍生优先股(STRC)，警惕 BTC 财务公司杠杆/稀释风险；偏好实物黄金作为价值储存替代。",
+      "bull_bear": "🔴 BTC, MSTR, STRC | 🟢 黄金(相对)"
+    },
     {
       "id": "38947eb5-fd3c-81ba-9df9-e6a92976d8ec",
       "name": "🟢 看多黄金:流动性危机将至,囤现金+配置黄金",
