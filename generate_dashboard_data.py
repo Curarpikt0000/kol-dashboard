@@ -113,10 +113,14 @@ def main():
     for e in rows: by_kol[e["kol_name"]].append(e)
     for k in by_kol: by_kol[k].sort(key=lambda x:x["date"] or "")
 
-    sector_pts=defaultdict(list)   # sector -> [情绪分] (加权评分用)
+    sector_pts=defaultdict(list)   # sector -> [情绪分] (加权评分用, 全量)
     sector_raw=defaultdict(lambda:{"bull":0,"bear":0,"neutral":0,"total":0})
     # 三元组摊平统计(真实多空,核心修复): 按方向明细的每个标的腿计入其板块
     sector_legs=defaultdict(lambda:{"强烈看多":0,"看多":0,"中性":0,"看空":0,"强烈看空":0,"分歧":0,"legs_total":0})
+    # 按期限分流的两套腿级聚合(雷达图短期/长期分图用); 无期限的腿默认归短期
+    def _new_legs(): return defaultdict(lambda:{"强烈看多":0,"看多":0,"中性":0,"看空":0,"强烈看空":0,"分歧":0,"legs_total":0})
+    sector_legs_short=_new_legs(); sector_legs_long=_new_legs()
+    sector_pts_short=defaultdict(list); sector_pts_long=defaultdict(list)
     ticker_dir=defaultdict(lambda:{"bull":0,"bear":0,"kols":set()})  # 标的 -> 多空(来自结构化腿)
     legged_rows=0  # 有结构化方向明细的记录数
     stance_changes=[]
@@ -135,7 +139,13 @@ def main():
                         sl=sector_legs[sec]; sl[dr]+=1; sl["legs_total"]+=1
                         # 加权评分: 腿方向分 * recency * style
                         style=0.6 if (is_holder and DIR_SCORE[dr]!=0) else 1.0
-                        sector_pts[sec].append(DIR_SCORE[dr]*recency(e)*style)
+                        pt=DIR_SCORE[dr]*recency(e)*style
+                        sector_pts[sec].append(pt)
+                        # 按期限分流(无期限/非{短期,长期} → 默认短期)
+                        term=leg.get("期限")
+                        sl_t = sector_legs_long[sec] if term=="长期" else sector_legs_short[sec]
+                        sl_t[dr]+=1; sl_t["legs_total"]+=1
+                        (sector_pts_long if term=="长期" else sector_pts_short)[sec].append(pt)
                         if tk:
                             td=ticker_dir[tk]
                             if DIR_SCORE[dr]>0: td["bull"]+=1
@@ -172,38 +182,44 @@ def main():
     # sector 评分 = 共识度驱动的净多空占比(Chao要求: 有反对意见就不该满分±100)
     # score = 100 × (加权看多 − 加权看空) / (加权看多 + 加权看空 + 分歧)
     # 只有【零反对】才可能到±100; 有1个相反立场就<100; 多空各半=0
-    sector_summary=[]
-    all_secs=set(sector_pts)|set(sector_legs)|set(sector_raw)
-    # 各方向的强度权重(绝对值): 强烈=2, 普通=1; 分歧计入分母但不计净值
-    for sec in all_secs:
-        sl=sector_legs[sec]
-        # 加权多空量(强度加权)
-        w_bull=sl["强烈看多"]*2 + sl["看多"]*1
-        w_bear=sl["强烈看空"]*2 + sl["看空"]*1
-        w_split=sl["分歧"]*1   # 分歧=两边都有,稀释共识,计入分母
-        denom=w_bull+w_bear+w_split
-        if denom>0:
-            score=round(100*(w_bull-w_bear)/denom,0)
-        else:
-            score=0
-        sr=sector_raw[sec]
-        legs_bull=sl["强烈看多"]+sl["看多"]
-        legs_bear=sl["看空"]+sl["强烈看空"]
-        legs_neutral=sl["中性"]; legs_split=sl["分歧"]
-        # 共识度: 净占比的绝对值越高越一致; |score|=100 表示零反对
-        consensus=abs(score)
-        sector_summary.append({"sector":sec,"score":int(score),
-            "consensus":int(consensus),
-            "weighted_sum":round(sum(sector_pts.get(sec,[])),1),
-            # 行级人头(主导方向)
-            "bull":sr["bull"],"bear":sr["bear"],"neutral":sr["neutral"],"total":sr["total"],
-            # 腿级真实多空(三元组摊平 — 雷达图/多空指标用这个)
-            "legs_bull":legs_bull,"legs_bear":legs_bear,"legs_neutral":legs_neutral,
-            "legs_split":legs_split,"legs_total":sl["legs_total"],
-            "strong_bull":sl["强烈看多"],"strong_bear":sl["强烈看空"],
-            "w_bull":w_bull,"w_bear":w_bear,
-            "avg":round(sum(sector_pts.get(sec,[]))/len(sector_pts[sec]),2) if sector_pts.get(sec) else 0})
-    sector_summary.sort(key=lambda x:-x["score"])
+    def build_sector_summary(_sector_legs, _sector_pts, _sector_raw):
+        summary=[]
+        all_secs=set(_sector_pts)|set(_sector_legs)|set(_sector_raw)
+        # 各方向的强度权重(绝对值): 强烈=2, 普通=1; 分歧计入分母但不计净值
+        for sec in all_secs:
+            sl=_sector_legs[sec]
+            # 加权多空量(强度加权)
+            w_bull=sl["强烈看多"]*2 + sl["看多"]*1
+            w_bear=sl["强烈看空"]*2 + sl["看空"]*1
+            w_split=sl["分歧"]*1   # 分歧=两边都有,稀释共识,计入分母
+            denom=w_bull+w_bear+w_split
+            if denom>0:
+                score=round(100*(w_bull-w_bear)/denom,0)
+            else:
+                score=0
+            sr=_sector_raw[sec]
+            legs_bull=sl["强烈看多"]+sl["看多"]
+            legs_bear=sl["看空"]+sl["强烈看空"]
+            legs_neutral=sl["中性"]; legs_split=sl["分歧"]
+            # 共识度: 净占比的绝对值越高越一致; |score|=100 表示零反对
+            consensus=abs(score)
+            summary.append({"sector":sec,"score":int(score),
+                "consensus":int(consensus),
+                "weighted_sum":round(sum(_sector_pts.get(sec,[])),1),
+                # 行级人头(主导方向)
+                "bull":sr["bull"],"bear":sr["bear"],"neutral":sr["neutral"],"total":sr["total"],
+                # 腿级真实多空(三元组摊平 — 雷达图/多空指标用这个)
+                "legs_bull":legs_bull,"legs_bear":legs_bear,"legs_neutral":legs_neutral,
+                "legs_split":legs_split,"legs_total":sl["legs_total"],
+                "strong_bull":sl["强烈看多"],"strong_bear":sl["强烈看空"],
+                "w_bull":w_bull,"w_bear":w_bear,
+                "avg":round(sum(_sector_pts.get(sec,[]))/len(_sector_pts[sec]),2) if _sector_pts.get(sec) else 0})
+        summary.sort(key=lambda x:-x["score"])
+        return summary
+
+    sector_summary=build_sector_summary(sector_legs, sector_pts, sector_raw)  # 全量(向后兼容)
+    sector_summary_short=build_sector_summary(sector_legs_short, sector_pts_short, sector_raw)
+    sector_summary_long=build_sector_summary(sector_legs_long, sector_pts_long, sector_raw)
 
     # ticker_heatmap: 优先用结构化 ticker_dir(方向明细的标的腿), 回退旧文本法
     if ticker_dir:
@@ -260,6 +276,8 @@ def main():
             "pct":round(100*legged_rows/max(1,len(rows)),1)},
         "today_signals":today_signals,
         "sector_summary":sector_summary,
+        "sector_summary_short":sector_summary_short,
+        "sector_summary_long":sector_summary_long,
         "stance_changes":sorted(stance_changes,key=lambda x:x["date"],reverse=True)[:30],
         "ticker_heatmap":ticker_heatmap,
         "kol_cards":kol_cards,

@@ -63,7 +63,10 @@
   .tag-sector { background: rgba(99,102,241,0.12); color: var(--accent2); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
 
   /* ── Sector Radar ── */
-  #radar-wrap { position: relative; height: 260px; }
+  #radar-wrap { position: relative; display:flex; gap:8px; height: 260px; }
+  #radar-wrap .radar-cell { flex:1; display:flex; flex-direction:column; min-width:0; }
+  #radar-wrap .radar-sub { text-align:center; font-size:12px; color:var(--muted); margin-bottom:2px; }
+  #radar-wrap .radar-canvas-box { position:relative; flex:1; min-height:0; }
 
   /* ── Sector Bar ── */
   .sector-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 13px; }
@@ -194,7 +197,16 @@
     <!-- 雷达图 -->
     <div class="card">
       <div class="card-title">🔭 多空雷达</div>
-      <div id="radar-wrap"><canvas id="radarChart"></canvas></div>
+      <div id="radar-wrap">
+        <div class="radar-cell">
+          <div class="radar-sub">短期</div>
+          <div class="radar-canvas-box"><canvas id="radarChartShort"></canvas></div>
+        </div>
+        <div class="radar-cell">
+          <div class="radar-sub">长期</div>
+          <div class="radar-canvas-box"><canvas id="radarChartLong"></canvas></div>
+        </div>
+      </div>
     </div>
 
     <!-- 标的热度 -->
@@ -633,26 +645,21 @@ function renderSectorBars(entries) {
 }
 
 // ── Radar Chart ───────────────────────────────────────────
-let radarChart = null;
-function renderRadar(entries) {
-  const bySector = {};
-  entries.forEach(e => {
-    const s = e.sector; if (!s) return;
-    if (!bySector[s]) bySector[s] = [];
-    const sc = sentimentScore(e);
-    if (sc !== null) bySector[s].push(sc);  // skip no-signal entries
-  });
-  const sectors = Object.entries(bySector)
-    .filter(([,scores]) => scores.length > 0)
-    .map(([s,scores]) => ({
-      sector: s, avg: scores.reduce((a,b)=>a+b,0)/scores.length
-    })).sort((a,b)=>a.sector.localeCompare(b.sector));
-  if (!sectors.length) return;
+let radarChartShort = null, radarChartLong = null;
+function drawRadar(canvasId, summary, chartRef) {
+  // summary: 后端聚合好的 sector_summary_short/long, 每项 {sector, score(-100..100), legs_total}
+  const sectors = (summary || [])
+    .filter(s => (s.legs_total || 0) > 0)
+    .map(s => ({ sector: s.sector, score: s.score }))
+    .sort((a,b) => a.sector.localeCompare(b.sector));
+  const canvas = document.getElementById(canvasId);
+  if (chartRef && chartRef.chart) { chartRef.chart.destroy(); chartRef.chart = null; }
+  if (!sectors.length || !canvas) return;
 
   const labels = sectors.map(s => s.sector.replace(' & ','\n& '));
-  const scores = sectors.map(s => s.avg + 2);
-  if (radarChart) radarChart.destroy();
-  radarChart = new Chart(document.getElementById('radarChart'), {
+  // score(-100..100) → 半径(0..4): score/100*2+2
+  const scores = sectors.map(s => s.score / 100 * 2 + 2);
+  chartRef.chart = new Chart(canvas, {
     type: 'radar',
     data: { labels, datasets: [{ label:'情绪', data:scores,
       backgroundColor:'rgba(99,102,241,0.15)', borderColor:'rgba(99,102,241,0.8)',
@@ -664,6 +671,15 @@ function renderRadar(entries) {
         pointLabels:{color:'#8892a4', font:{size:11}} }},
       plugins:{legend:{display:false}} }
   });
+}
+function renderRadar(entries) {
+  // 直接用后端按期限聚合好的 score, 不再前端现场算
+  const shortRef = { chart: radarChartShort };
+  const longRef  = { chart: radarChartLong };
+  drawRadar('radarChartShort', (DATA && DATA.sector_summary_short) || [], shortRef);
+  drawRadar('radarChartLong',  (DATA && DATA.sector_summary_long)  || [], longRef);
+  radarChartShort = shortRef.chart;
+  radarChartLong  = longRef.chart;
 }
 
 // ── Ticker descriptions ───────────────────────────────────
