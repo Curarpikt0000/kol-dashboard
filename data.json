@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09 18:30 JST",
+  "generated_at": "2026-07-10 10:19 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-07-04"
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 425.4,
+      "weighted_sum": 415.6,
       "bull": 1235,
       "bear": 104,
       "neutral": 165,
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 59.4,
+      "weighted_sum": 58.0,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -131,13 +131,13 @@
       "strong_bear": 0,
       "w_bull": 367,
       "w_bear": 32,
-      "avg": 0.16
+      "avg": 0.15
     },
     {
       "sector": "Crypto",
       "score": 59,
       "consensus": 59,
-      "weighted_sum": 26.2,
+      "weighted_sum": 25.6,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -151,13 +151,13 @@
       "strong_bear": 4,
       "w_bull": 209,
       "w_bear": 52,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Alternative",
       "score": 31,
       "consensus": 31,
-      "weighted_sum": 5.7,
+      "weighted_sum": 5.6,
       "bull": 18,
       "bear": 3,
       "neutral": 25,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -20,
       "consensus": 20,
-      "weighted_sum": -31.2,
+      "weighted_sum": -30.5,
       "bull": 109,
       "bear": 54,
       "neutral": 49,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -80,
       "consensus": 80,
-      "weighted_sum": -77.9,
+      "weighted_sum": -76.1,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -176.7,
+      "weighted_sum": -172.6,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -239,7 +239,7 @@
       "sector": "Precious Metals",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 107.1,
+      "weighted_sum": 104.6,
       "bull": 1235,
       "bear": 104,
       "neutral": 165,
@@ -259,7 +259,7 @@
       "sector": "Energy & Commodities",
       "score": 69,
       "consensus": 69,
-      "weighted_sum": 24.7,
+      "weighted_sum": 24.1,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -273,13 +273,13 @@
       "strong_bear": 0,
       "w_bull": 149,
       "w_bear": 26,
-      "avg": 0.15
+      "avg": 0.14
     },
     {
       "sector": "Crypto",
       "score": 29,
       "consensus": 29,
-      "weighted_sum": 4.6,
+      "weighted_sum": 4.5,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -33,
       "consensus": 33,
-      "weighted_sum": -6.0,
+      "weighted_sum": -5.9,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -32.1,
+      "weighted_sum": -31.4,
       "bull": 109,
       "bear": 54,
       "neutral": 49,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -91,
       "consensus": 91,
-      "weighted_sum": -52.7,
+      "weighted_sum": -51.5,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -373,7 +373,7 @@
       "strong_bear": 7,
       "w_bull": 10,
       "w_bear": 259,
-      "avg": -0.19
+      "avg": -0.18
     }
   ],
   "sector_summary_long": [
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 97,
       "consensus": 97,
-      "weighted_sum": 318.3,
+      "weighted_sum": 311.0,
       "bull": 1235,
       "bear": 104,
       "neutral": 165,
@@ -395,13 +395,13 @@
       "strong_bear": 0,
       "w_bull": 1902,
       "w_bear": 23,
-      "avg": 0.22
+      "avg": 0.21
     },
     {
       "sector": "Energy & Commodities",
       "score": 95,
       "consensus": 95,
-      "weighted_sum": 34.7,
+      "weighted_sum": 33.9,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -415,13 +415,13 @@
       "strong_bear": 0,
       "w_bull": 218,
       "w_bear": 6,
-      "avg": 0.17
+      "avg": 0.16
     },
     {
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 21.6,
+      "weighted_sum": 21.1,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -441,7 +441,7 @@
       "sector": "Alternative",
       "score": 34,
       "consensus": 34,
-      "weighted_sum": 3.7,
+      "weighted_sum": 3.6,
       "bull": 18,
       "bear": 3,
       "neutral": 25,
@@ -455,7 +455,7 @@
       "strong_bear": 2,
       "w_bull": 18,
       "w_bear": 8,
-      "avg": 0.14
+      "avg": 0.13
     },
     {
       "sector": "Equities",
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -71.8,
+      "weighted_sum": -70.2,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -124.0,
+      "weighted_sum": -121.1,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -515,7 +515,7 @@
       "strong_bear": 27,
       "w_bull": 7,
       "w_bear": 647,
-      "avg": -0.2
+      "avg": -0.19
     }
   ],
   "stance_changes": [
@@ -1049,7 +1049,7 @@
       "latest_title": "🟢正式覆盖SpaceX：Outperform+$190目标(约12%上行)，'AI基建龙头'",
       "bull_bear": "🟢 SpaceX(SPCX，目标$190) | 🟢 Starlink/Starship(AI基建叙事)",
       "total_entries": 47,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "David Meger",
@@ -1062,7 +1062,7 @@
       "latest_title": "🟢黄金看多：弱非农降低加息概率，金价低利率环境走强大涨破$4,100",
       "bull_bear": "🟢 黄金(XAU/GLD)",
       "total_entries": 28,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Marc Chandler",
@@ -1179,7 +1179,7 @@
       "latest_title": "🟢 强烈看多白银：回到5月高点$89=50%涨幅，『被迫买入』",
       "bull_bear": "🟢 白银",
       "total_entries": 15,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Peter Krauth",
@@ -1400,7 +1400,7 @@
       "latest_title": "🟢各国/精英抢实物金银，预言体系崩盘式重估(revaluation)",
       "bull_bear": "🟢 实物黄金, 实物白银",
       "total_entries": 10,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Massimiliano Castelli",
@@ -1608,7 +1608,7 @@
       "latest_title": "🟢 看多反弹：上周低点即本轮底，市场将以陡峭方式走出盘整",
       "bull_bear": "🟢 股指(melt-up熔涨), GLD/SLV/GDX | ⚠️ 后段崩盘风险(两段论:先熔涨后崩)",
       "total_entries": 23,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Doomberg / Kuppy",
@@ -1686,7 +1686,7 @@
       "latest_title": "Athos Salomé — 🟡 中性",
       "bull_bear": "🟢 黄金(预言避险支撑,信号混合)",
       "total_entries": 22,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Ivan Zhao",
@@ -1712,7 +1712,7 @@
       "latest_title": "Ray Kurzweil — 🟢 看多",
       "bull_bear": "🟢 GLD/SLV(技术变革+宽松预期)",
       "total_entries": 19,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Ted Oakley",
@@ -1998,7 +1998,7 @@
       "latest_title": "Michael Widmer — 🟢 看多",
       "bull_bear": "🟢 GLD, PHYS, SLV(金均价4538/白银跟随)",
       "total_entries": 2,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Jim Rogers",
@@ -2024,7 +2024,7 @@
       "latest_title": "Doomberg / Kuppy — 🟡 中性",
       "bull_bear": "🟢 核能(NLR,长多短谨慎)、🟢 黄金(GLD)",
       "total_entries": 16,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Judy Shelton",
@@ -2050,7 +2050,7 @@
       "latest_title": "Citi / UBS — 🟢 看多",
       "bull_bear": "🟢 GLD/PHYS/GDX(目标$5000-6000)",
       "total_entries": 17,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Morgan Stanley",
