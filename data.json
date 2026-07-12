@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-11 09:31 JST",
+  "generated_at": "2026-07-12 09:31 JST",
   "date_range": {
     "start": "2025-11-01",
-    "end": "2026-07-04"
+    "end": "2026-07-09"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2100,
-    "total_rows": 2101,
+    "legged_rows": 2101,
+    "total_rows": 2102,
     "pct": 100.0
   },
   "today_signals": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 406.2,
-      "bull": 1235,
+      "weighted_sum": 398.6,
+      "bull": 1236,
       "bear": 104,
       "neutral": 165,
-      "total": 1504,
-      "legs_bull": 1977,
+      "total": 1505,
+      "legs_bull": 1979,
       "legs_bear": 116,
       "legs_neutral": 83,
       "legs_split": 44,
-      "legs_total": 2220,
-      "strong_bull": 603,
+      "legs_total": 2222,
+      "strong_bull": 604,
       "strong_bear": 0,
-      "w_bull": 2580,
+      "w_bull": 2583,
       "w_bear": 116,
       "avg": 0.18
     },
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 56.7,
+      "weighted_sum": 55.4,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -137,7 +137,7 @@
       "sector": "Crypto",
       "score": 59,
       "consensus": 59,
-      "weighted_sum": 25.0,
+      "weighted_sum": 24.4,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 31,
       "consensus": 31,
-      "weighted_sum": 5.4,
+      "weighted_sum": 5.3,
       "bull": 18,
       "bear": 3,
       "neutral": 25,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -20,
       "consensus": 20,
-      "weighted_sum": -29.8,
+      "weighted_sum": -29.1,
       "bull": 109,
       "bear": 54,
       "neutral": 49,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -80,
       "consensus": 80,
-      "weighted_sum": -74.3,
+      "weighted_sum": -72.6,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -211,13 +211,13 @@
       "strong_bear": 54,
       "w_bull": 68,
       "w_bear": 605,
-      "avg": -0.12
+      "avg": -0.11
     },
     {
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -168.7,
+      "weighted_sum": -164.8,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -231,27 +231,27 @@
       "strong_bear": 34,
       "w_bull": 17,
       "w_bear": 906,
-      "avg": -0.19
+      "avg": -0.18
     }
   ],
   "sector_summary_short": [
     {
       "sector": "Precious Metals",
-      "score": 72,
-      "consensus": 72,
-      "weighted_sum": 102.2,
-      "bull": 1235,
+      "score": 73,
+      "consensus": 73,
+      "weighted_sum": 100.5,
+      "bull": 1236,
       "bear": 104,
       "neutral": 165,
-      "total": 1504,
-      "legs_bull": 558,
+      "total": 1505,
+      "legs_bull": 559,
       "legs_bear": 93,
       "legs_neutral": 71,
       "legs_split": 36,
-      "legs_total": 758,
+      "legs_total": 759,
       "strong_bull": 120,
       "strong_bear": 0,
-      "w_bull": 678,
+      "w_bull": 679,
       "w_bear": 93,
       "avg": 0.13
     },
@@ -259,7 +259,7 @@
       "sector": "Energy & Commodities",
       "score": 69,
       "consensus": 69,
-      "weighted_sum": 23.6,
+      "weighted_sum": 23.0,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -279,7 +279,7 @@
       "sector": "Crypto",
       "score": 29,
       "consensus": 29,
-      "weighted_sum": 4.4,
+      "weighted_sum": 4.3,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -293,7 +293,7 @@
       "strong_bear": 1,
       "w_bull": 53,
       "w_bear": 29,
-      "avg": 0.06
+      "avg": 0.05
     },
     {
       "sector": "Alternative",
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -33,
       "consensus": 33,
-      "weighted_sum": -5.8,
+      "weighted_sum": -5.6,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -30.7,
+      "weighted_sum": -30.0,
       "bull": 109,
       "bear": 54,
       "neutral": 49,
@@ -353,13 +353,13 @@
       "strong_bear": 23,
       "w_bull": 103,
       "w_bear": 252,
-      "avg": -0.09
+      "avg": -0.08
     },
     {
       "sector": "Government Debt",
       "score": -91,
       "consensus": 91,
-      "weighted_sum": -50.3,
+      "weighted_sum": -49.2,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -381,27 +381,27 @@
       "sector": "Precious Metals",
       "score": 97,
       "consensus": 97,
-      "weighted_sum": 303.9,
-      "bull": 1235,
+      "weighted_sum": 298.1,
+      "bull": 1236,
       "bear": 104,
       "neutral": 165,
-      "total": 1504,
-      "legs_bull": 1419,
+      "total": 1505,
+      "legs_bull": 1420,
       "legs_bear": 23,
       "legs_neutral": 12,
       "legs_split": 8,
-      "legs_total": 1462,
-      "strong_bull": 483,
+      "legs_total": 1463,
+      "strong_bull": 484,
       "strong_bear": 0,
-      "w_bull": 1902,
+      "w_bull": 1904,
       "w_bear": 23,
-      "avg": 0.21
+      "avg": 0.2
     },
     {
       "sector": "Energy & Commodities",
       "score": 95,
       "consensus": 95,
-      "weighted_sum": 33.1,
+      "weighted_sum": 32.4,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 20.6,
+      "weighted_sum": 20.1,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -441,7 +441,7 @@
       "sector": "Alternative",
       "score": 34,
       "consensus": 34,
-      "weighted_sum": 3.5,
+      "weighted_sum": 3.4,
       "bull": 18,
       "bear": 3,
       "neutral": 25,
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -68.6,
+      "weighted_sum": -67.0,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -118.4,
+      "weighted_sum": -115.7,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -515,7 +515,7 @@
       "strong_bear": 27,
       "w_bull": 7,
       "w_bear": 647,
-      "avg": -0.19
+      "avg": -0.18
     }
   ],
   "stance_changes": [
@@ -948,6 +948,19 @@
   },
   "kol_cards": [
     {
+      "kol_name": "Keith Neumeyer",
+      "sector": "Precious Metals",
+      "detail_sector": "Silver",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-07-09",
+      "latest_comments": "[2026-07-09发布/2026-07-08录制] Keith Neumeyer 在 Rule Symposium 2026 接受 Kitco News 采访：白银今年一度冲到$121，把实物市场逼到断裂边缘（租赁利率飙升、追加保证金、精炼商停止买入，\"整个体系真的濒临崩溃\"）；随后约50%回调至约$60，他明确表示\"I think we've seen the lows\"（我认为已见底）。他",
+      "latest_title": "白银已见底、10年牛市第2年：Kitco/Rule Symposium 采访强烈看多白银",
+      "bull_bear": "多头: 白银(Silver) / 白银矿业(含First Majestic)。空头: 无(结构性看多)。",
+      "total_entries": 34,
+      "trend": "↘ 趋空"
+    },
+    {
       "kol_name": "James Turk",
       "sector": "Precious Metals",
       "detail_sector": "Precious Metals",
@@ -997,19 +1010,6 @@
       "latest_title": "🔴到期墙先冲击低质量借款人＋AI财报未来几季『至关重要』",
       "bull_bear": "🔴 高收益公司债(HY Credit) | 🔴 AI高估值资产 | 🟢 投资级公司债(IG，相对)",
       "total_entries": 11,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Keith Neumeyer",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-07-03",
-      "latest_comments": "First Majestic Silver创始人兼CEO、同时任First Mining Gold(TSE:FF)董事的Neumeyer于7月1日在公开市场两笔增持FF共35.35万股(25万股@C$0.78 + 10.35万股@C$0.77),合计约C$27.5万,增持后直接持股升至约4659万股(约C$3630万)。此时FF股价约C$0.68,贴近52周低位区间(C$0.15–0.86),HC",
-      "latest_title": "🟢内部人增持：First Majestic CEO斥资约C$27.5万加仓First Mining Gold",
-      "bull_bear": "🟢 First Mining Gold(TSE:FF) / 黄金开发商 / 贵金属矿业",
-      "total_entries": 33,
       "trend": "↘ 趋空"
     },
     {
@@ -1907,7 +1907,7 @@
       "latest_title": "Plai Navaracha — 🟡 中性",
       "bull_bear": "🟢 黄金(灾害避险需求)",
       "total_entries": 18,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Abhigya Anand",
@@ -2238,6 +2238,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "39a47eb5-fd3c-81ea-80f1-fa4ff852a6c9",
+      "name": "白银已见底、10年牛市第2年：Kitco/Rule Symposium 采访强烈看多白银",
+      "kol_name": "Keith Neumeyer",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-09",
+      "sector": "Precious Metals",
+      "detail_sector": "Silver",
+      "comments": "[2026-07-09发布/2026-07-08录制] Keith Neumeyer 在 Rule Symposium 2026 接受 Kitco News 采访：白银今年一度冲到$121，把实物市场逼到断裂边缘（租赁利率飙升、追加保证金、精炼商停止买入，\"整个体系真的濒临崩溃\"）；随后约50%回调至约$60，他明确表示\"I think we've seen the lows\"（我认为已见底）。他判断当前\"处在10年白银牛市的第2年\"，长期强烈看多。逻辑链：①美国将白银列为关键金属(critical metal)提供结构性支撑；②供给端矿山产量长期停滞+持续赤字；③中国需求强劲、上海升水；④曾经高达8亿盎司、长期压制价格的空头头寸已基本平仓，纸面玩家\"正在转向做多\"；⑤金银矿业比约8:1。他2012年白银在十几美元时就喊过$100。 来源: https://www.youtube.com/watch?v=jbq3eLLw2Ig",
+      "suggestion": "长期强烈看多白银（判定\"已见底\"、处10年牛市第2年）；短期看多，$60一带视为回调底部。关注：美国关键金属政策、矿山供给停滞、赤字与中国实物需求、COMEX空头持续平仓。",
+      "bull_bear": "多头: 白银(Silver) / 白银矿业(含First Majestic)。空头: 无(结构性看多)。"
+    },
     {
       "id": "39447eb5-fd3c-81d4-896b-ec0e92615134",
       "name": "James Turk - Warns Of Possible Comex Default As Gold/Silver Turn Higher",
