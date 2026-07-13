@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12 09:31 JST",
+  "generated_at": "2026-07-13 09:30 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-07-09"
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 398.6,
+      "weighted_sum": 389.5,
       "bull": 1236,
       "bear": 104,
       "neutral": 165,
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 55.4,
+      "weighted_sum": 54.2,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -131,13 +131,13 @@
       "strong_bear": 0,
       "w_bull": 367,
       "w_bear": 32,
-      "avg": 0.15
+      "avg": 0.14
     },
     {
       "sector": "Crypto",
       "score": 59,
       "consensus": 59,
-      "weighted_sum": 24.4,
+      "weighted_sum": 23.9,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 31,
       "consensus": 31,
-      "weighted_sum": 5.3,
+      "weighted_sum": 5.2,
       "bull": 18,
       "bear": 3,
       "neutral": 25,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -20,
       "consensus": 20,
-      "weighted_sum": -29.1,
+      "weighted_sum": -28.5,
       "bull": 109,
       "bear": 54,
       "neutral": 49,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -80,
       "consensus": 80,
-      "weighted_sum": -72.6,
+      "weighted_sum": -71.0,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -164.8,
+      "weighted_sum": -161.1,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -239,7 +239,7 @@
       "sector": "Precious Metals",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 100.5,
+      "weighted_sum": 98.2,
       "bull": 1236,
       "bear": 104,
       "neutral": 165,
@@ -259,7 +259,7 @@
       "sector": "Energy & Commodities",
       "score": 69,
       "consensus": 69,
-      "weighted_sum": 23.0,
+      "weighted_sum": 22.5,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -273,13 +273,13 @@
       "strong_bear": 0,
       "w_bull": 149,
       "w_bear": 26,
-      "avg": 0.14
+      "avg": 0.13
     },
     {
       "sector": "Crypto",
       "score": 29,
       "consensus": 29,
-      "weighted_sum": 4.3,
+      "weighted_sum": 4.2,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -299,7 +299,7 @@
       "sector": "Alternative",
       "score": 26,
       "consensus": 26,
-      "weighted_sum": 1.9,
+      "weighted_sum": 1.8,
       "bull": 18,
       "bear": 3,
       "neutral": 25,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -33,
       "consensus": 33,
-      "weighted_sum": -5.6,
+      "weighted_sum": -5.5,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -30.0,
+      "weighted_sum": -29.3,
       "bull": 109,
       "bear": 54,
       "neutral": 49,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -91,
       "consensus": 91,
-      "weighted_sum": -49.2,
+      "weighted_sum": -48.0,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
@@ -373,7 +373,7 @@
       "strong_bear": 7,
       "w_bull": 10,
       "w_bear": 259,
-      "avg": -0.18
+      "avg": -0.17
     }
   ],
   "sector_summary_long": [
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 97,
       "consensus": 97,
-      "weighted_sum": 298.1,
+      "weighted_sum": 291.3,
       "bull": 1236,
       "bear": 104,
       "neutral": 165,
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 95,
       "consensus": 95,
-      "weighted_sum": 32.4,
+      "weighted_sum": 31.6,
       "bull": 97,
       "bear": 6,
       "neutral": 24,
@@ -415,13 +415,13 @@
       "strong_bear": 0,
       "w_bull": 218,
       "w_bear": 6,
-      "avg": 0.16
+      "avg": 0.15
     },
     {
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 20.1,
+      "weighted_sum": 19.7,
       "bull": 62,
       "bear": 7,
       "neutral": 10,
@@ -455,7 +455,7 @@
       "strong_bear": 2,
       "w_bull": 18,
       "w_bear": 8,
-      "avg": 0.13
+      "avg": 0.12
     },
     {
       "sector": "Equities",
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -67.0,
+      "weighted_sum": -65.5,
       "bull": 20,
       "bear": 36,
       "neutral": 24,
@@ -495,13 +495,13 @@
       "strong_bear": 52,
       "w_bull": 10,
       "w_bear": 490,
-      "avg": -0.15
+      "avg": -0.14
     },
     {
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -115.7,
+      "weighted_sum": -113.0,
       "bull": 9,
       "bear": 29,
       "neutral": 15,
