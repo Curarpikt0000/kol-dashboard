@@ -1,21 +1,29 @@
 {
-  "generated_at": "2026-08-06 09:32 JST",
+  "generated_at": "2026-08-07 11:06 JST",
   "date_range": {
     "start": "2025-11-01",
-    "end": "2026-08-06"
+    "end": "2026-08-07"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2327,
-    "total_rows": 2346,
-    "pct": 99.2
+    "legged_rows": 2341,
+    "total_rows": 2362,
+    "pct": 99.1
   },
   "today_signals": [
     {
       "type": "反转",
-      "kol_name": "S. Druckenmiller",
+      "kol_name": "Gareth Soloway",
       "sector": "Equities",
-      "date": "2026-08-06",
+      "date": "2026-08-07",
+      "desc": "看多→看空",
+      "signal": "高"
+    },
+    {
+      "type": "反转",
+      "kol_name": "Doomberg / Kuppy",
+      "sector": "Precious Metals",
+      "date": "2026-08-07",
       "desc": "看空→看多",
       "signal": "高"
     },
@@ -23,6 +31,30 @@
       "type": "反转",
       "kol_name": "Gareth Soloway",
       "sector": "Precious Metals",
+      "date": "2026-08-06",
+      "desc": "看空→看多",
+      "signal": "高"
+    },
+    {
+      "type": "反转",
+      "kol_name": "James Rickards",
+      "sector": "Precious Metals",
+      "date": "2026-08-06",
+      "desc": "看空→看多",
+      "signal": "中"
+    },
+    {
+      "type": "反转",
+      "kol_name": "Alasdair Macleod",
+      "sector": "Government Debt",
+      "date": "2026-08-06",
+      "desc": "看多→看空",
+      "signal": "中"
+    },
+    {
+      "type": "反转",
+      "kol_name": "S. Druckenmiller",
+      "sector": "Equities",
       "date": "2026-08-06",
       "desc": "看空→看多",
       "signal": "高"
@@ -37,11 +69,11 @@
     },
     {
       "type": "反转",
-      "kol_name": "James Rickards",
+      "kol_name": "Frank Giustra",
       "sector": "Precious Metals",
-      "date": "2026-08-06",
+      "date": "2026-08-04",
       "desc": "看空→看多",
-      "signal": "中"
+      "signal": "高"
     },
     {
       "type": "反转",
@@ -58,38 +90,6 @@
       "date": "2026-08-04",
       "desc": "看空→看多",
       "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Peter Schiff",
-      "sector": "Precious Metals",
-      "date": "2026-08-04",
-      "desc": "看空→看多",
-      "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Frank Giustra",
-      "sector": "Precious Metals",
-      "date": "2026-08-04",
-      "desc": "看空→看多",
-      "signal": "高"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Peter Schiff",
-      "sector": "Macro",
-      "date": "2026-08-03",
-      "desc": "看多→看空",
-      "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Frank Giustra",
-      "sector": "Crypto",
-      "date": "2026-08-03",
-      "desc": "看多→看空",
-      "signal": "高"
     }
   ],
   "sector_summary": [
@@ -97,27 +97,27 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 357.5,
-      "bull": 1285,
+      "weighted_sum": 373.6,
+      "bull": 1293,
       "bear": 114,
       "neutral": 181,
-      "total": 1580,
-      "legs_bull": 2117,
+      "total": 1588,
+      "legs_bull": 2133,
       "legs_bear": 128,
       "legs_neutral": 87,
       "legs_split": 44,
-      "legs_total": 2376,
-      "strong_bull": 686,
+      "legs_total": 2392,
+      "strong_bull": 699,
       "strong_bear": 0,
-      "w_bull": 2803,
+      "w_bull": 2832,
       "w_bear": 128,
-      "avg": 0.15
+      "avg": 0.16
     },
     {
       "sector": "Energy & Commodities",
       "score": 84,
       "consensus": 84,
-      "weighted_sum": 61.6,
+      "weighted_sum": 60.2,
       "bull": 111,
       "bear": 8,
       "neutral": 23,
@@ -131,33 +131,33 @@
       "strong_bear": 1,
       "w_bull": 396,
       "w_bear": 34,
-      "avg": 0.16
+      "avg": 0.15
     },
     {
       "sector": "Crypto",
       "score": 57,
       "consensus": 57,
-      "weighted_sum": 46.0,
+      "weighted_sum": 44.0,
       "bull": 85,
       "bear": 10,
-      "neutral": 19,
-      "total": 114,
+      "neutral": 20,
+      "total": 115,
       "legs_bull": 217,
-      "legs_bear": 67,
+      "legs_bear": 68,
       "legs_neutral": 23,
       "legs_split": 5,
-      "legs_total": 312,
+      "legs_total": 313,
       "strong_bull": 70,
       "strong_bear": 9,
       "w_bull": 287,
-      "w_bear": 76,
-      "avg": 0.15
+      "w_bear": 77,
+      "avg": 0.14
     },
     {
       "sector": "Alternative",
       "score": 30,
       "consensus": 30,
-      "weighted_sum": 3.0,
+      "weighted_sum": 2.9,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -175,62 +175,62 @@
     },
     {
       "sector": "Equities",
-      "score": -18,
-      "consensus": 18,
-      "weighted_sum": -23.7,
-      "bull": 134,
-      "bear": 90,
+      "score": -17,
+      "consensus": 17,
+      "weighted_sum": -23.1,
+      "bull": 135,
+      "bear": 91,
       "neutral": 52,
-      "total": 276,
-      "legs_bull": 281,
-      "legs_bear": 412,
+      "total": 278,
+      "legs_bull": 284,
+      "legs_bear": 416,
       "legs_neutral": 26,
       "legs_split": 17,
-      "legs_total": 736,
-      "strong_bull": 63,
+      "legs_total": 743,
+      "strong_bull": 64,
       "strong_bear": 82,
-      "w_bull": 344,
-      "w_bear": 494,
+      "w_bull": 348,
+      "w_bear": 498,
       "avg": -0.03
     },
     {
       "sector": "Macro",
-      "score": -78,
-      "consensus": 78,
-      "weighted_sum": -71.2,
+      "score": -79,
+      "consensus": 79,
+      "weighted_sum": -74.3,
       "bull": 23,
-      "bear": 42,
-      "neutral": 29,
-      "total": 94,
+      "bear": 43,
+      "neutral": 31,
+      "total": 97,
       "legs_bull": 78,
-      "legs_bear": 601,
+      "legs_bear": 607,
       "legs_neutral": 24,
       "legs_split": 1,
-      "legs_total": 704,
+      "legs_total": 710,
       "strong_bull": 3,
       "strong_bear": 70,
       "w_bull": 81,
-      "w_bear": 671,
+      "w_bear": 677,
       "avg": -0.1
     },
     {
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -129.7,
+      "weighted_sum": -132.2,
       "bull": 11,
-      "bear": 47,
+      "bear": 49,
       "neutral": 18,
-      "total": 76,
+      "total": 78,
       "legs_bull": 27,
-      "legs_bear": 909,
+      "legs_bear": 915,
       "legs_neutral": 19,
       "legs_split": 4,
-      "legs_total": 959,
+      "legs_total": 965,
       "strong_bull": 1,
-      "strong_bear": 53,
+      "strong_bear": 55,
       "w_bull": 28,
-      "w_bear": 962,
+      "w_bear": 970,
       "avg": -0.14
     }
   ],
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 35.3,
+      "weighted_sum": 34.5,
       "bull": 111,
       "bear": 8,
       "neutral": 23,
@@ -253,25 +253,25 @@
       "strong_bear": 0,
       "w_bull": 176,
       "w_bear": 26,
-      "avg": 0.19
+      "avg": 0.18
     },
     {
       "sector": "Precious Metals",
       "score": 71,
       "consensus": 71,
-      "weighted_sum": 77.0,
-      "bull": 1285,
+      "weighted_sum": 77.2,
+      "bull": 1293,
       "bear": 114,
       "neutral": 181,
-      "total": 1580,
-      "legs_bull": 586,
+      "total": 1588,
+      "legs_bull": 587,
       "legs_bear": 105,
       "legs_neutral": 74,
       "legs_split": 36,
-      "legs_total": 801,
-      "strong_bull": 131,
+      "legs_total": 802,
+      "strong_bull": 132,
       "strong_bear": 0,
-      "w_bull": 717,
+      "w_bull": 719,
       "w_bear": 105,
       "avg": 0.1
     },
@@ -279,7 +279,7 @@
       "sector": "Alternative",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 1.1,
+      "weighted_sum": 1.0,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -302,8 +302,8 @@
       "weighted_sum": 0.3,
       "bull": 85,
       "bear": 10,
-      "neutral": 19,
-      "total": 114,
+      "neutral": 20,
+      "total": 115,
       "legs_bull": 49,
       "legs_bear": 40,
       "legs_neutral": 16,
@@ -317,63 +317,63 @@
     },
     {
       "sector": "Macro",
-      "score": -33,
-      "consensus": 33,
-      "weighted_sum": -6.0,
+      "score": -34,
+      "consensus": 34,
+      "weighted_sum": -6.5,
       "bull": 23,
-      "bear": 42,
-      "neutral": 29,
-      "total": 94,
+      "bear": 43,
+      "neutral": 31,
+      "total": 97,
       "legs_bull": 63,
-      "legs_bear": 122,
+      "legs_bear": 123,
       "legs_neutral": 20,
       "legs_split": 1,
-      "legs_total": 206,
+      "legs_total": 207,
       "strong_bull": 1,
       "strong_bear": 6,
       "w_bull": 64,
-      "w_bear": 128,
+      "w_bear": 129,
       "avg": -0.03
     },
     {
       "sector": "Equities",
       "score": -45,
       "consensus": 45,
-      "weighted_sum": -66.7,
-      "bull": 134,
-      "bear": 90,
+      "weighted_sum": -69.2,
+      "bull": 135,
+      "bear": 91,
       "neutral": 52,
-      "total": 276,
+      "total": 278,
       "legs_bull": 118,
-      "legs_bear": 298,
+      "legs_bear": 302,
       "legs_neutral": 20,
       "legs_split": 16,
-      "legs_total": 452,
+      "legs_total": 456,
       "strong_bull": 9,
       "strong_bear": 50,
       "w_bull": 127,
-      "w_bear": 348,
+      "w_bear": 352,
       "avg": -0.15
     },
     {
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -39.0,
+      "weighted_sum": -39.3,
       "bull": 11,
-      "bear": 47,
+      "bear": 49,
       "neutral": 18,
-      "total": 76,
+      "total": 78,
       "legs_bull": 20,
-      "legs_bear": 273,
+      "legs_bear": 274,
       "legs_neutral": 15,
       "legs_split": 4,
-      "legs_total": 312,
+      "legs_total": 313,
       "strong_bull": 1,
-      "strong_bear": 13,
+      "strong_bear": 14,
       "w_bull": 21,
-      "w_bear": 286,
-      "avg": -0.12
+      "w_bear": 288,
+      "avg": -0.13
     }
   ],
   "sector_summary_long": [
@@ -381,27 +381,27 @@
       "sector": "Precious Metals",
       "score": 97,
       "consensus": 97,
-      "weighted_sum": 280.5,
-      "bull": 1285,
+      "weighted_sum": 296.5,
+      "bull": 1293,
       "bear": 114,
       "neutral": 181,
-      "total": 1580,
-      "legs_bull": 1531,
+      "total": 1588,
+      "legs_bull": 1546,
       "legs_bear": 23,
       "legs_neutral": 13,
       "legs_split": 8,
-      "legs_total": 1575,
-      "strong_bull": 555,
+      "legs_total": 1590,
+      "strong_bull": 567,
       "strong_bear": 0,
-      "w_bull": 2086,
+      "w_bull": 2113,
       "w_bear": 23,
-      "avg": 0.18
+      "avg": 0.19
     },
     {
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 26.3,
+      "weighted_sum": 25.7,
       "bull": 111,
       "bear": 8,
       "neutral": 23,
@@ -415,27 +415,27 @@
       "strong_bear": 1,
       "w_bull": 220,
       "w_bear": 8,
-      "avg": 0.13
+      "avg": 0.12
     },
     {
       "sector": "Crypto",
-      "score": 74,
-      "consensus": 74,
-      "weighted_sum": 45.7,
+      "score": 73,
+      "consensus": 73,
+      "weighted_sum": 43.7,
       "bull": 85,
       "bear": 10,
-      "neutral": 19,
-      "total": 114,
+      "neutral": 20,
+      "total": 115,
       "legs_bull": 168,
-      "legs_bear": 27,
+      "legs_bear": 28,
       "legs_neutral": 7,
       "legs_split": 3,
-      "legs_total": 205,
+      "legs_total": 206,
       "strong_bull": 58,
       "strong_bear": 6,
       "w_bull": 226,
-      "w_bear": 33,
-      "avg": 0.22
+      "w_bear": 34,
+      "avg": 0.21
     },
     {
       "sector": "Alternative",
@@ -461,71 +461,80 @@
       "sector": "Equities",
       "score": 20,
       "consensus": 20,
-      "weighted_sum": 43.0,
-      "bull": 134,
-      "bear": 90,
+      "weighted_sum": 46.0,
+      "bull": 135,
+      "bear": 91,
       "neutral": 52,
-      "total": 276,
-      "legs_bull": 163,
+      "total": 278,
+      "legs_bull": 166,
       "legs_bear": 114,
       "legs_neutral": 6,
       "legs_split": 1,
-      "legs_total": 284,
-      "strong_bull": 54,
+      "legs_total": 287,
+      "strong_bull": 55,
       "strong_bear": 32,
-      "w_bull": 217,
+      "w_bull": 221,
       "w_bear": 146,
-      "avg": 0.15
+      "avg": 0.16
     },
     {
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -65.1,
+      "weighted_sum": -67.8,
       "bull": 23,
-      "bear": 42,
-      "neutral": 29,
-      "total": 94,
+      "bear": 43,
+      "neutral": 31,
+      "total": 97,
       "legs_bull": 15,
-      "legs_bear": 479,
+      "legs_bear": 484,
       "legs_neutral": 4,
       "legs_split": 0,
-      "legs_total": 498,
+      "legs_total": 503,
       "strong_bull": 2,
       "strong_bear": 64,
       "w_bull": 17,
-      "w_bear": 543,
+      "w_bear": 548,
       "avg": -0.13
     },
     {
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -90.7,
+      "weighted_sum": -92.9,
       "bull": 11,
-      "bear": 47,
+      "bear": 49,
       "neutral": 18,
-      "total": 76,
+      "total": 78,
       "legs_bull": 7,
-      "legs_bear": 636,
+      "legs_bear": 641,
       "legs_neutral": 4,
       "legs_split": 0,
-      "legs_total": 647,
+      "legs_total": 652,
       "strong_bull": 0,
-      "strong_bear": 40,
+      "strong_bear": 41,
       "w_bull": 7,
-      "w_bear": 676,
+      "w_bear": 682,
       "avg": -0.14
     }
   ],
   "stance_changes": [
     {
-      "kol_name": "S. Druckenmiller",
+      "kol_name": "Gareth Soloway",
       "sector": "Equities",
-      "date": "2026-08-06",
+      "date": "2026-08-07",
+      "from": "看多",
+      "to": "看空",
+      "title": "🔴 看空科技半导体：“完美已被定价”，好业绩不再足够，资金转向防御板块",
+      "signal": "高"
+    },
+    {
+      "kol_name": "Doomberg / Kuppy",
+      "sector": "Precious Metals",
+      "date": "2026-08-07",
       "from": "看空",
       "to": "看多",
-      "title": "看多Mag7：Druckenmiller称当前价格不买Mag7将永远后悔",
+      "title": "🟢 强烈看多黄金：黄金正在发出大规模货币制度变革信号",
       "signal": "高"
     },
     {
@@ -538,6 +547,33 @@
       "signal": "高"
     },
     {
+      "kol_name": "James Rickards",
+      "sector": "Precious Metals",
+      "date": "2026-08-06",
+      "from": "看空",
+      "to": "看多",
+      "title": "强烈看多黄金：James Rickards警告万亿美元联邦土地抛售将终结国债，贵金属冲击将重塑全球经",
+      "signal": "中"
+    },
+    {
+      "kol_name": "Alasdair Macleod",
+      "sector": "Government Debt",
+      "date": "2026-08-06",
+      "from": "看多",
+      "to": "看空",
+      "title": "看空美债/美元：Alasdair Macleod警告债券市场将自燃，黄金是法币崩溃唯一对冲",
+      "signal": "中"
+    },
+    {
+      "kol_name": "S. Druckenmiller",
+      "sector": "Equities",
+      "date": "2026-08-06",
+      "from": "看空",
+      "to": "看多",
+      "title": "看多Mag7：Druckenmiller称当前价格不买Mag7将永远后悔",
+      "signal": "高"
+    },
+    {
       "kol_name": "Jeffrey Gundlach",
       "sector": "Precious Metals",
       "date": "2026-08-06",
@@ -547,13 +583,13 @@
       "signal": "高"
     },
     {
-      "kol_name": "James Rickards",
+      "kol_name": "Frank Giustra",
       "sector": "Precious Metals",
-      "date": "2026-08-06",
+      "date": "2026-08-04",
       "from": "看空",
       "to": "看多",
-      "title": "强烈看多黄金：James Rickards警告万亿美元联邦土地抛售将终结国债，贵金属冲击将重塑全球经",
-      "signal": "中"
+      "title": "强烈看空BTC 强烈看多黄金：矿业亿万富翁Giustra称BTC史上最糟的事已发生，坚持实物黄金为王",
+      "signal": "高"
     },
     {
       "kol_name": "Robert Kiyosaki",
@@ -584,24 +620,6 @@
     },
     {
       "kol_name": "Frank Giustra",
-      "sector": "Precious Metals",
-      "date": "2026-08-04",
-      "from": "看空",
-      "to": "看多",
-      "title": "强烈看空BTC 强烈看多黄金：矿业亿万富翁Giustra称BTC史上最糟的事已发生，坚持实物黄金为王",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Peter Schiff",
-      "sector": "Macro",
-      "date": "2026-08-03",
-      "from": "看多",
-      "to": "看空",
-      "title": "看空美联储政策：加息远未足够通胀将恶化",
-      "signal": "中"
-    },
-    {
-      "kol_name": "Frank Giustra",
       "sector": "Crypto",
       "date": "2026-08-03",
       "from": "看多",
@@ -619,6 +637,15 @@
       "signal": "高"
     },
     {
+      "kol_name": "Peter Schiff",
+      "sector": "Macro",
+      "date": "2026-08-03",
+      "from": "看多",
+      "to": "看空",
+      "title": "看空美联储政策：加息远未足够通胀将恶化",
+      "signal": "中"
+    },
+    {
       "kol_name": "Luke Gromen",
       "sector": "Precious Metals",
       "date": "2026-08-03",
@@ -628,21 +655,21 @@
       "signal": "中"
     },
     {
-      "kol_name": "Luke Gromen",
-      "sector": "Macro",
-      "date": "2026-08-02",
-      "from": "看多",
-      "to": "看空",
-      "title": "Luke Gromen：AI导致知识价值贬值→数万亿消费者债务面临违约风险",
-      "signal": "中"
-    },
-    {
       "kol_name": "Alasdair Macleod",
       "sector": "Macro",
       "date": "2026-08-02",
       "from": "看空",
       "to": "看多",
       "title": "🔴 卖出美元换黄金 🟢 Macleod警告：下一场危机约一个月内从银行危机蔓延为货币危机",
+      "signal": "中"
+    },
+    {
+      "kol_name": "Luke Gromen",
+      "sector": "Macro",
+      "date": "2026-08-02",
+      "from": "看多",
+      "to": "看空",
+      "title": "Luke Gromen：AI导致知识价值贬值→数万亿消费者债务面临违约风险",
       "signal": "中"
     },
     {
@@ -727,6 +754,15 @@
       "signal": "中"
     },
     {
+      "kol_name": "Alasdair Macleod",
+      "sector": "Equities",
+      "date": "2026-07-27",
+      "from": "看多",
+      "to": "看空",
+      "title": "🔴 强烈看空美股：Alasdair Macleod 称当前泡沫超越1929年，标普可能跌超90%",
+      "signal": "中"
+    },
+    {
       "kol_name": "Robert Kiyosaki",
       "sector": "Precious Metals",
       "date": "2026-07-27",
@@ -752,54 +788,18 @@
       "to": "看空",
       "title": "🔴 看空美债/美元：Luke Gromen 指出美国劳动力与债券收益率自2000年持续背离",
       "signal": "中"
-    },
-    {
-      "kol_name": "Alasdair Macleod",
-      "sector": "Equities",
-      "date": "2026-07-27",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 强烈看空美股：Alasdair Macleod 称当前泡沫超越1929年，标普可能跌超90%",
-      "signal": "中"
-    },
-    {
-      "kol_name": "Marc Chandler",
-      "sector": "Equities",
-      "date": "2026-07-27",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空风险资产：Marc Chandler 警告本周面临战争+关税+三大央行决议三重压力",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Bob Moriarty",
-      "sector": "Energy & Commodities",
-      "date": "2026-07-27",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空风险资产：Bob Moriarty 警告四大事件引发食品燃料短缺，时间已耗尽",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Michael Hartnett",
-      "sector": "Government Debt",
-      "date": "2026-07-26",
-      "from": "看空",
-      "to": "看多",
-      "title": "看多债券：债券终于\"发力\"，资金流转向信号出现",
-      "signal": "高"
     }
   ],
   "ticker_heatmap": {
     "bull": [
       {
         "ticker": "黄金",
-        "count": 530,
+        "count": 542,
         "kols": 77
       },
       {
         "ticker": "白银",
-        "count": 301,
+        "count": 305,
         "kols": 64
       },
       {
@@ -876,13 +876,13 @@
       },
       {
         "ticker": "美元",
-        "count": 196,
-        "kols": 55
+        "count": 201,
+        "kols": 58
       },
       {
         "ticker": "美债",
-        "count": 188,
-        "kols": 58
+        "count": 194,
+        "kols": 60
       },
       {
         "ticker": "美元(DXY)",
@@ -915,14 +915,14 @@
         "kols": 23
       },
       {
-        "ticker": "美元DXY",
-        "count": 26,
-        "kols": 16
-      },
-      {
         "ticker": "美债 TLT",
         "count": 26,
         "kols": 22
+      },
+      {
+        "ticker": "美元DXY",
+        "count": 26,
+        "kols": 16
       },
       {
         "ticker": "长久期美债",
@@ -948,29 +948,172 @@
   },
   "kol_cards": [
     {
-      "kol_name": "Doomberg / Kuppy",
-      "sector": "Energy & Commodities",
-      "detail_sector": "资源与能源安全",
+      "kol_name": "Gareth Soloway",
+      "sector": "Equities",
+      "detail_sector": "科技AI",
       "kol_or_ib": "KOL",
       "style": "交易派",
-      "latest_date": "2026-08-06",
-      "latest_comments": "Doomberg警告通胀持续→债券收益率将达30年新高→同时Michael Burry称股市接近重大顶部，可能出现1987式暴跌→与Grantham/Dalio/Hartnett形成多人看空共识→反映出市场对通胀粘性和利率高企的深度担忧。来源：综合报道(8/5)、CryptoPanic(8/5)",
-      "latest_title": "看空债券：Doomberg警告通胀持续，债券收益率将创30年新高",
-      "bull_bear": "看空 长久期债券 | 看空 美股",
-      "total_entries": 10,
+      "latest_date": "2026-08-07",
+      "latest_comments": "Gareth Soloway在8月6日交易计划中指出，科技板块正经历“现实检验”→半导体和AI相关股遭遇重挫，即使业绩稳固仍被抛售→核心逻辑：当完美已被定价，好业绩不再足够→资金从高估值科技股转向成熟企业和防御板块→具体点名Western Digital和Sandisk遭遇重挫，Nasdaq与其他指数分化加剧。来源: https://www.verifiedinvesting.com/blogs/",
+      "latest_title": "🔴 看空科技半导体：“完美已被定价”，好业绩不再足够，资金转向防御板块",
+      "bull_bear": "🔴 SNDK, WDC, QQQ | 🟢 防御板块, XLP",
+      "total_entries": 51,
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "Michael Hartnett",
+      "kol_name": "James Rickards",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "James Rickards在近期采访中维持极度看多黄金白银，目标黄金$10000、白银$200→认为推动贵金属上涨的因素将持续到2027年→核心逻辑：美国债务陷阱无解、货币体系重构、地缘政治风险→贵金属是布雷顿森林体系崩溃时的唯一避风港。来源: https://bitrss.com/crypto-news/9488-jim-rickards-explosive-predictions-gold-",
+      "latest_title": "🟢 强烈看多黄金白银：Rickards目标金$10000、银$200",
+      "bull_bear": "🟢 GLD, SLV, PHYS, PSLV | 🔴 UUP, TLT",
+      "total_entries": 42,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Frank Giustra",
+      "sector": "Crypto",
+      "detail_sector": "加密货币",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "Frank Giustra在8月5日再次批评比特币，称其仅为“投机实验”，远未建立“数字黄金”地位，价格主要由投机驱动→作为矿业巨头，他同期通过关联实体增持Klondike Gold矿业股，明确偏好实物黄金而非加密资产。来源: https://www.binance.com/en/square/post/23273892149770",
+      "latest_title": "🔴 看空比特币：比特币仍是“投机实验”，未成数字黄金",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 BTC, IBIT",
+      "total_entries": 17,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Cathie Wood",
       "sector": "Equities",
-      "detail_sector": "科技与未来趋势",
+      "detail_sector": "科技AI",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "2026-08-06，ARK Invest 披露多笔重大交易：①买入价值$54M的 SpaceX(SPCX)、NVIDIA(NVDA)和 Circle(CRCL)股票，利用财报后下跌加仓→②另以$28.7M买入 TSMC 和更多 SpaceX→③单独$17.6M押注 AI 芯片股。同时减持 Palantir(PLTR)、Shopify(SHOP)、Roblox(RBLX)、Amazon(AMZN)",
+      "latest_title": "🟢 看多AI/半导体：Cathie Wood 大举抄底 NVDA/TSMC/SpaceX，减持 PLTR/SHOP",
+      "bull_bear": "🟢 NVDA, TSM, SPCX, CRCL | 🔴 PLTR, SHOP, RBLX",
+      "total_entries": 69,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Michael Hartnett",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "今日公开渠道未检索到 BofA 首席策略师 Michael Hartnett 的新增观点。其以每周 Flow Show 报告著称，跟踪资金流向、仓位情绪与反向指标。",
+      "latest_title": "⚪ 今日无新公开观点",
+      "bull_bear": "",
+      "total_entries": 52,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Andy Schectman",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "2026-08-06，Andy Schectman(Miles Franklin总裁)最新分析指出：投资者过度关注美元储备货币地位本身，忽略了更大图景——BRICS、中国一带一路和替代支付系统正在构建平行全球金融基建→M2货币供应持续扩张→官方通胀数据(CPI/Owner Equivalent Rent)低估真实生活成本→COMEX纸市场操控最终将瓦解→金银经历大幅重新定价。他认为美元体系正在被渐",
+      "latest_title": "🟢 强烈看多金银：全球平行金融基建加速取代美元体系",
+      "bull_bear": "🟢 GLD, SLV, PHYS, PSLV | 🔴 USD",
+      "total_entries": 17,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Alasdair Macleod",
+      "sector": "Government Debt",
+      "detail_sector": "国债收益率",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "2026-08-06，Alasdair Macleod 警告美债市场出现自燃现象。他分析：各国政府和央行正以通胀和货币贬值作为隐性赌注来推迟经济崩溃→美国国债收益率持续飙升→全球债务超载叠加地缘政治冲击→可能触发金融危机→实物资产(黄金)是最终避风港。他认为货币和债券市场的信任正在无声崩塌。来源：https://silvertrade.com/news/precious-metals/gold-n",
+      "latest_title": "🔴 强烈看空美债：债券市场自燃——收益率飙升触发系统性风险",
+      "bull_bear": "🔴 TLT, IEF, ZB | 🟢 GLD, PHYS",
+      "total_entries": 35,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Matthew Piepenburg",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "Piepenburg 指出两大事件指向同一结论——法币体系购买力加速流失，黄金战略价值处于新历史起点：①日元跌至四十年低点，日本央行加息至1%触发套利交易大规模平仓→美股美债遭同步抛售，股债双杀格局再现，传统60/40组合失效；②美联储主席沃什承认长端利率上行已非央行主导而是市场自发定价，Piepenburg 解读为央行对债市失控的隐性承认。美国40万亿美元债务每日利息30亿，未来12个月8万亿需",
+      "latest_title": "🟢 强烈看多黄金：日元崩跌+美联储失语，法币体系裂缝中黄金战略价值浮现",
+      "bull_bear": "🟢 GLD, PHYS, 黄金 | 🔴 USD, TLT, UST",
+      "total_entries": 32,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Doomberg / Kuppy",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "Doomberg在8月6日CapitalCosm访谈中指出，财长Bessent正释放“制度变革”信号→美元相对黄金过强，数十年强美元政策掏空美国制造业→Fed和财政部自2008年以来持续以不同方式压制金融压力、货币化债务→日元干预也是此体系一环：支撑日元使日本无需抛售美债→最终问题是美国财政破产，政策制定者将竭力防止美元体系崩溃→黄金是这一制度变革的晴雨表。来源: https://capitalc",
+      "latest_title": "🟢 强烈看多黄金：黄金正在发出大规模货币制度变革信号",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 UUP, TLT",
+      "total_entries": 11,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Massimiliano Castelli",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "今日公开渠道未检索到 Massimiliano Castelli（瑞银资管全球主权市场战略主管）的新增宏观观点。其长期研究方向聚焦全球央行/主权基金投资行为、去美元化趋势及资产配置。",
+      "latest_title": "⚪ 今日无新公开观点",
+      "bull_bear": "",
+      "total_entries": 5,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Vince Lanci",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
       "kol_or_ib": "KOL",
       "style": "交易派",
       "latest_date": "2026-08-06",
-      "latest_comments": "Hartnett（美银首席策略师，华尔街最准分析师）警告→美债收益率正在飙升→长端利率上行将冲击科技和银行板块的拥挤交易→企业盈利大幅下滑+劳动力市场疲软→美股反弹将戛然而止→当前股价仅反映利润下降4%，实际降幅可能更大。来源：Odaily(8/5)、财联社(8/5)",
-      "latest_title": "看空美股/科技：Michael Hartnett称美债收益率飙升，盈利下滑+就业疲软将终结反弹",
-      "bull_bear": "看空 美股/科技股 | 看空 美债",
-      "total_entries": 51,
+      "latest_comments": "Vince Lanci指出全球黄金定价体系正发生根本性转变，COMEX正在失去黄金定价主导地位，中国通过上海黄金交易所逐步掌握黄金定价权，COMEX实物交割压力增大，黄金正经历中美博弈背景下的隐性重估，Lanci认为黄金的中国vs美国定价权争夺是未来金价上行的核心驱动力。来源：GoldFix/YouTube, 2026-08",
+      "latest_title": "强烈看多黄金：Vince Lanci称COMEX正在失去定价权，中国主导黄金重估",
+      "bull_bear": "看多: 黄金 | 看空: COMEX定价权",
+      "total_entries": 30,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Kyle Bass",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-06",
+      "latest_comments": "Kyle Bass指出Sell America交易正在回归，全球投资者因美国政策和Fed不确定性重新讨论抛售美国资产，30年期美债收益率升至多年来最高水平，美元同步走弱，投资者担忧美国政策将动摇美元和债券稳定性，反映市场对美国财政纪律丧失信心的深层担忧。来源：moneyandbanking.co.th, 2026-08-06",
+      "latest_title": "看空美元/美债：Kyle Bass警告Sell America趋势回归",
+      "bull_bear": "看空: 美元, 美债 | 看多: 黄金",
+      "total_entries": 18,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Daniel Ghali",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "kol_or_ib": "IB View",
+      "style": "交易派",
+      "latest_date": "2026-08-06",
+      "latest_comments": "TD Securities高级商品策略师Daniel Ghali指出全球市场正从和平经济向战时经济转型，央行持续购金和地缘政治紧张加剧支撑，西方投资者（而非传统东方买家）是本轮金价上涨的主要驱动力，COMEX持仓和ETF资金流入反映西方配置需求激增，结构性转变意味金价支撑比以往更坚实。来源：Juniorstocks/BNN Bloomberg, 2026-08",
+      "latest_title": "强烈看多黄金：TD Daniel Ghali称全球市场正向战时经济转型，西方是本轮金价上涨主驱动力",
+      "bull_bear": "看多: 黄金",
+      "total_entries": 42,
       "trend": "↘ 趋空"
     },
     {
@@ -998,19 +1141,6 @@
       "bull_bear": "看多 贵金属矿业股",
       "total_entries": 29,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Gareth Soloway",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-06",
-      "latest_comments": "Soloway技术分析→黄金出现重大突破→白银飙升但正触及关键阻力位→关注黄金能否延续突破至历史新高→KOSPI暴跌10%反映AI交易瓦解→拥挤泡沫交易开始解除→资金轮动至贵金属。Soloway作为技术分析师提供短期交易视角。来源：VerifiedInvesting(8/5)",
-      "latest_title": "强烈看多黄金：Gareth Soloway称黄金重大突破，白银飙升但遇关键阻力",
-      "bull_bear": "看多 黄金/白银 | 看空 AI/科技泡沫",
-      "total_entries": 50,
-      "trend": "→"
     },
     {
       "kol_name": "Clem Chambers",
@@ -1065,32 +1195,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "James Rickards",
-      "sector": "Macro",
-      "detail_sector": "宏观货币与金融体系",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-08-06",
-      "latest_comments": "Rickards提出万亿美元联邦土地抛售计划→可能终结美国国债危机→同时警告贵金属冲击将重塑全球经济→黄金因债务清算开始而飙升→Trump转发了Rickards的最新警告。Kiyosaki引述Rickards称崩盘即将来临→形成多位KOL交叉验证。来源：WLT Report(8/5)、Daily Reckoning(8/5)、LewRockwell(8/5)",
-      "latest_title": "强烈看多黄金：James Rickards警告万亿美元联邦土地抛售将终结国债，贵金属冲击将重塑全球经济",
-      "bull_bear": "强烈看多 黄金 | 看空 美债/美元体系",
-      "total_entries": 41,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Cathie Wood",
-      "sector": "Equities",
-      "detail_sector": "科技与未来趋势",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-06",
-      "latest_comments": "Wood在加密抛售后抄底Coinbase和Circle→认为加密寒冬是买入机会→同时ARK持有Tesla达8.7亿美元→加仓4100万美元并清仓Roku→买入CoreWeave→坚持AI和新兴技术长期看多。但市场对其持怀疑态度→Wood预测BTC 150万美元被指亏损数十亿→ARK基金表现持续承压。来源：Cryptopanic(8/5)、Fool.com(8/5)、NY Ledger(8/5)",
-      "latest_title": "看多AI/Crypto：Cathie Wood抄底Coinbase和Circle，加仓Tesla至8.7亿美元，清仓Roku",
-      "bull_bear": "看多 AI/科技/Crypto | 看空 传统流媒体(Roku)",
-      "total_entries": 68,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Ray Dalio",
       "sector": "Macro",
       "detail_sector": "宏观货币与金融体系",
@@ -1140,7 +1244,7 @@
       "latest_title": "看多软件股：Dan Ives称软件股正经历90年代以来最严重脱节抛售，宣布离开Wedbush创立新公司",
       "bull_bear": "看多 软件/AI科技股",
       "total_entries": 57,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Michael Saylor",
@@ -1179,7 +1283,7 @@
       "latest_title": "看多黄金：Stephen Leeb称中国持有50,000吨黄金，美元替代体系已建成",
       "bull_bear": "强烈看多 黄金 GLD PHYS | 看多 金矿股 GDX | 看空 美元 USD",
       "total_entries": 26,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Jeff Currie",
@@ -1219,19 +1323,6 @@
       "bull_bear": "看空 长期美债 TLT ZROZ | 看空 美元",
       "total_entries": 20,
       "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Frank Giustra",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-04",
-      "latest_comments": "加拿大矿业亿万富翁Frank Giustra接受TheStreet专访再次猛烈抨击BTC→称BTC史上最糟糕的事已发生→BTC从$126080ATH跌至约$63000腰斩过半→证明其作为数字黄金的叙事完全失败→Giustra坚持只有实物黄金才是真正的价值储藏→作为创立Endeavour Mining等多家矿企的资深矿业投资人→其观点代表传统资源资本对加密资产的根本性质疑→同时重申法定货币贬值加速→",
-      "latest_title": "强烈看空BTC 强烈看多黄金：矿业亿万富翁Giustra称BTC史上最糟的事已发生，坚持实物黄金为王",
-      "bull_bear": "黄金 强烈看多 | BTC 强烈看空 | 法定货币 看空",
-      "total_entries": 16,
-      "trend": "→"
     },
     {
       "kol_name": "Luke Gromen",
@@ -1286,58 +1377,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "Kyle Bass",
-      "sector": "Government Debt",
-      "detail_sector": "国债收益率",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-03",
-      "latest_comments": "Bass警告美国债务危机已进入不可逆转阶段，30年期国债收益率触及5.28%进入第六年债券熊市，利息成本激增同时威胁政府生产性支出和金融市场稳定，美国借钱付利息已超极限。来源: WolfStreet/PAPER 8/2-8/3",
-      "latest_title": "强烈看空美债：30年期收益率5.28%债务已超极限",
-      "bull_bear": "强烈看空长久期美债 / 看多黄金",
-      "total_entries": 17,
-      "trend": "→"
-    },
-    {
-      "kol_name": "Vince Lanci",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-02",
-      "latest_comments": "GoldFix/Vince Lanci与Rule Investment Media/Rick Rule联合发声：→Rick Rule指出$159万亿债务算术意味着美元将经历长达十年的贬值周期。→Vince Lanci认为COMEX/LBMA定价机制可能已经实质崩溃，无法真实反映黄金供需。→两大贵金属权威罕见同台警示：黄金重定价不可避免，目标$15,000。→Lanci此前还分析了金银近期回调的真正",
-      "latest_title": "🟢 $15000黄金即将到来 🟢 COMEX定价机制已崩溃：Vince Lanci与Rick Rule联合警告$159万亿债务将终结美元时代",
-      "bull_bear": "🟢 黄金($15K目标) | 🔴 美元(十年贬值周期) | 🔴 COMEX纸黄金",
-      "total_entries": 29,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Alasdair Macleod",
-      "sector": "Macro",
-      "detail_sector": "国债收益率",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-08-02",
-      "latest_comments": "GoldMoney研究主管Alasdair Macleod发出紧迫警告：→卖出美元换黄金可以抵消美元贬值带来的损失。→下一场危机预计约一个月内爆发，将从银行危机升级为全面的货币危机。→缺乏替代资产将削弱美元价值——全球央行和投资者正在寻找美元替代品。→黄金作为货币锚的地位将在危机中被重新确认。来源：tradersunion/Silver Dynamic(2026-08-02)",
-      "latest_title": "🔴 卖出美元换黄金 🟢 Macleod警告：下一场危机约一个月内从银行危机蔓延为货币危机",
-      "bull_bear": "🔴 美元 | 🟢 黄金（货币危机对冲）",
-      "total_entries": 33,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Andy Schectman",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-02",
-      "latest_comments": "Miles Franklin总裁Andy Schectman连续发出警告：→「崩盘已经开始，多数投资者尚未察觉」——与Mark Thornton共同指出系统性风险正在显现。→揭露央行在纸黄金市场打压金价的同时秘密大规模购金，纸质市场与实物市场的背离加剧。→「开始做好准备」——呼吁投资者关注实物贵金属的避险价值。→纸黄金市场的「纸游戏」终将无法持续，实物交割压力正在积聚。来源：beforeitsne",
-      "latest_title": "⚠️ 「崩盘已经开始，多数投资者尚未察觉」🟢 央行秘密大量购金：Miles Franklin总裁Schectman发出强烈警告",
-      "bull_bear": "🟢 实物黄金白银（强烈看多）| 🔴 纸黄金市场（不可持续）| 🔴 系统性风险",
-      "total_entries": 15,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Ronny Stoeferle",
       "sector": "Precious Metals",
       "detail_sector": "黄金白银",
@@ -1361,7 +1400,7 @@
       "latest_title": "⚠️ AI并未兑现生产力承诺 🔴 市场面临痛苦重定价：Apollo首席经济学家Sløk警告AI红利仅限科技巨头，Fortune 500未见提效",
       "bull_bear": "🔴 AI概念股/科技板块（估值重定价风险）",
       "total_entries": 15,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Bob Haberkorn",
@@ -1699,19 +1738,6 @@
       "latest_title": "🔴AI是'史上最大泡沫之一'(SpaceX+OpenAI+Anthropic估值)",
       "bull_bear": "🔴 AI/科技(含SpaceX/OpenAI/Anthropic)",
       "total_entries": 15,
-      "trend": "→"
-    },
-    {
-      "kol_name": "Massimiliano Castelli",
-      "sector": "Macro",
-      "detail_sector": "宏观货币与金融体系",
-      "kol_or_ib": "IB View",
-      "style": "交易派",
-      "latest_date": "2026-06-27",
-      "latest_comments": "UBS储备管理调查：越来越多央行将滞胀(stagflation)视为未来五年的可能情景 → 推动储备多元化、增持黄金、配置新兴市场资产 → 反映官方部门对美元单极储备体系的对冲需求上升。来源:UBS RMS 2026 调查/LinkedIn 6-26~27",
-      "latest_title": "🟢央行调查：越来越多视滞胀为5年情景，增持黄金多元化",
-      "bull_bear": "🟢 黄金, 新兴市场 | 🔴 美元(储备占比)",
-      "total_entries": 4,
       "trend": "↘ 趋空"
     },
     {
@@ -1738,19 +1764,6 @@
       "latest_title": "🟢 看多AMD：UBS重申买入，目标价由$455上调至$670",
       "bull_bear": "🟢 AMD, AI半导体",
       "total_entries": 7,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Matthew Piepenburg",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-06-12",
-      "latest_comments": "Commodity Culture访谈：看到债券市场存在重大问题、可能'断裂'，一旦信贷下挫，预期传染将蔓延至Mag 7与高估值大盘，对这些板块投资者可能是灾难。黑暗中的光是金银，认为持有实物贵金属是穿越危机的生命线。明确给出激进目标：白银可'很快'冲到300美元以上；并指黄金作为储备资产正超越美国短债(T-Bills)。来源：pcn-channel.com / Commodity Culture",
-      "latest_title": "债市将'断裂'引发对Mag7蔓延，银价或快速冲300美元",
-      "bull_bear": "🟢 白银(300+), 黄金 | 🔴 Mag7/高估值大盘, 债市断裂",
-      "total_entries": 30,
       "trend": "↘ 趋空"
     },
     {
@@ -1816,7 +1829,7 @@
       "latest_title": "Ray Kurzweil — 🟢 看多",
       "bull_bear": "🟢 GLD/SLV(技术变革+宽松预期)",
       "total_entries": 19,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "David Stockman",
@@ -1855,19 +1868,6 @@
       "latest_title": "Jeff Clark — 🟢 看多",
       "bull_bear": "🟢 黄金白银及矿业股(GDX/SLV/GLD)",
       "total_entries": 23,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Daniel Ghali",
-      "sector": "Precious Metals",
-      "detail_sector": "COMEX仓位",
-      "kol_or_ib": "IB View",
-      "style": "交易派",
-      "latest_date": "2026-06-10",
-      "latest_comments": "观察到上海期货交易所黄金与伦敦/COMEX黄金出现价差（SHFE贴水、COMEX升水）→ 中国流动性收紧与资本管制（每年5万美元额度限制）导致短期溢价扩大 → 但长期看，供需套利将修正这一扭曲 → 建议进行价差收敛交易，而非单边押注黄金方向 → 核心逻辑是锁定“价差之间的价差”，属于套利策略而非方向性观点\n\n来源: https://www.linkedin.com/posts/danielghal",
-      "latest_title": "Daniel Ghali — 🟡 中性",
-      "bull_bear": "🟡 价差收敛套利(非单边方向)",
-      "total_entries": 41,
       "trend": "↘ 趋空"
     },
     {
@@ -2024,7 +2024,7 @@
       "latest_title": "Michael Widmer — 🟢 看多",
       "bull_bear": "🟢 GLD, PHYS, SLV(金均价4538/白银跟随)",
       "total_entries": 2,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Jim Rogers",
@@ -2251,6 +2251,198 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3b547eb5-fd3c-81b3-9004-e3397fd9894a",
+      "name": "🔴 看空科技半导体：“完美已被定价”，好业绩不再足够，资金转向防御板块",
+      "kol_name": "Gareth Soloway",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Equities",
+      "detail_sector": "科技AI",
+      "comments": "Gareth Soloway在8月6日交易计划中指出，科技板块正经历“现实检验”→半导体和AI相关股遭遇重挫，即使业绩稳固仍被抛售→核心逻辑：当完美已被定价，好业绩不再足够→资金从高估值科技股转向成熟企业和防御板块→具体点名Western Digital和Sandisk遭遇重挫，Nasdaq与其他指数分化加剧。来源: https://www.verifiedinvesting.com/blogs/trading/my-trading-game-plan-revealed-08-06-2026",
+      "suggestion": "短期规避高估值半导体/AI股，等待调整到位后再介入。可考虑增配防御性板块或现金等待。注意Nasdaq与道琴斯分化信号，确认轮动是否延续。",
+      "bull_bear": "🔴 SNDK, WDC, QQQ | 🟢 防御板块, XLP"
+    },
+    {
+      "id": "3b547eb5-fd3c-8188-94c3-fa35e4a98303",
+      "name": "🟢 强烈看多黄金白银：Rickards目标金$10000、银$200",
+      "kol_name": "James Rickards",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "James Rickards在近期采访中维持极度看多黄金白银，目标黄金$10000、白银$200→认为推动贵金属上涨的因素将持续到2027年→核心逻辑：美国债务陷阱无解、货币体系重构、地缘政治风险→贵金属是布雷顿森林体系崩溃时的唯一避风港。来源: https://bitrss.com/crypto-news/9488-jim-rickards-explosive-predictions-gold-to-10000-silver-to-200-in-2026/",
+      "suggestion": "Rickards的极端目标价($10000金) 作为“最乐观情景”参考，不作为交易依据。持仓派维持黄金白银核心仓位，注意其长期看多观点已持续多年，信号边际价值递减。",
+      "bull_bear": "🟢 GLD, SLV, PHYS, PSLV | 🔴 UUP, TLT"
+    },
+    {
+      "id": "3b547eb5-fd3c-81ae-a928-df1d7bafcc54",
+      "name": "🔴 看空比特币：比特币仍是“投机实验”，未成数字黄金",
+      "kol_name": "Frank Giustra",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Crypto",
+      "detail_sector": "加密货币",
+      "comments": "Frank Giustra在8月5日再次批评比特币，称其仅为“投机实验”，远未建立“数字黄金”地位，价格主要由投机驱动→作为矿业巨头，他同期通过关联实体增持Klondike Gold矿业股，明确偏好实物黄金而非加密资产。来源: https://www.binance.com/en/square/post/23273892149770",
+      "suggestion": "矿业巨头Giustra的“金多BTC空”立场明确，跟随实物黄金多头、规避BTC持仓。关注其后续矿业股持仓变动信号。",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 BTC, IBIT"
+    },
+    {
+      "id": "3b547eb5-fd3c-8106-8931-cd04dcf683c8",
+      "name": "🟢 看多AI/半导体：Cathie Wood 大举抄底 NVDA/TSMC/SpaceX，减持 PLTR/SHOP",
+      "kol_name": "Cathie Wood",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Equities",
+      "detail_sector": "科技AI",
+      "comments": "2026-08-06，ARK Invest 披露多笔重大交易：①买入价值$54M的 SpaceX(SPCX)、NVIDIA(NVDA)和 Circle(CRCL)股票，利用财报后下跌加仓→②另以$28.7M买入 TSMC 和更多 SpaceX→③单独$17.6M押注 AI 芯片股。同时减持 Palantir(PLTR)、Shopify(SHOP)、Roblox(RBLX)、Amazon(AMZN)、Alphabet(GOOGL)。Wood 坚持颠覆性创新主题，在 AI/半导体/太空板块逢低布局，削减成熟消费科技敞口。来源：coingape.com / tipranks.com / fool.com",
+      "suggestion": "关注 NVDA 和 TSMC 的 AI 芯片需求持续性；ARKK 重仓方向可作为 AI 主题 ETF 配置参考。Wood 卖出 PLTR/SHOP 提示注意高估值 SaaS 股回调风险。",
+      "bull_bear": "🟢 NVDA, TSM, SPCX, CRCL | 🔴 PLTR, SHOP, RBLX"
+    },
+    {
+      "id": "3b547eb5-fd3c-8171-84fd-e6c2e557ecf4",
+      "name": "⚪ 今日无新公开观点",
+      "kol_name": "Michael Hartnett",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "今日公开渠道未检索到 BofA 首席策略师 Michael Hartnett 的新增观点。其以每周 Flow Show 报告著称，跟踪资金流向、仓位情绪与反向指标。",
+      "suggestion": "今日无新公开观点。此前观点维持不变。",
+      "bull_bear": ""
+    },
+    {
+      "id": "3b547eb5-fd3c-8163-bcd8-c07121ad5c60",
+      "name": "🟢 强烈看多金银：全球平行金融基建加速取代美元体系",
+      "kol_name": "Andy Schectman",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "2026-08-06，Andy Schectman(Miles Franklin总裁)最新分析指出：投资者过度关注美元储备货币地位本身，忽略了更大图景——BRICS、中国一带一路和替代支付系统正在构建平行全球金融基建→M2货币供应持续扩张→官方通胀数据(CPI/Owner Equivalent Rent)低估真实生活成本→COMEX纸市场操控最终将瓦解→金银经历大幅重新定价。他认为美元体系正在被渐进式架空而非突然崩溃。来源：https://beforeitsnews.com/economics-and-politics/2026/08/huge-news-this-will-cause-massive-price-gains-in-gold-silver-in-2026-andy-schectman-2537057.html",
+      "suggestion": "逢低积累实物黄金白银；COMEX纸市场干预只是推迟而非阻止重新定价。关注BRICS支付系统进展作为催化剂。",
+      "bull_bear": "🟢 GLD, SLV, PHYS, PSLV | 🔴 USD"
+    },
+    {
+      "id": "3b547eb5-fd3c-8155-87a0-f99a25535f2b",
+      "name": "🔴 强烈看空美债：债券市场自燃——收益率飙升触发系统性风险",
+      "kol_name": "Alasdair Macleod",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Government Debt",
+      "detail_sector": "国债收益率",
+      "comments": "2026-08-06，Alasdair Macleod 警告美债市场出现自燃现象。他分析：各国政府和央行正以通胀和货币贬值作为隐性赌注来推迟经济崩溃→美国国债收益率持续飙升→全球债务超载叠加地缘政治冲击→可能触发金融危机→实物资产(黄金)是最终避风港。他认为货币和债券市场的信任正在无声崩塌。来源：https://silvertrade.com/news/precious-metals/gold-news/spontaneous-combustion-in-the-bond-market-alasdair-macleod/",
+      "suggestion": "减持久期敞口，做空长期美债(TLT)；继续持有实物黄金对冲主权信用风险。美债波动率上升期间关注TLT put对冲。",
+      "bull_bear": "🔴 TLT, IEF, ZB | 🟢 GLD, PHYS"
+    },
+    {
+      "id": "3b547eb5-fd3c-813a-9f3c-e0520a31091a",
+      "name": "🟢 强烈看多黄金：日元崩跌+美联储失语，法币体系裂缝中黄金战略价值浮现",
+      "kol_name": "Matthew Piepenburg",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Piepenburg 指出两大事件指向同一结论——法币体系购买力加速流失，黄金战略价值处于新历史起点：①日元跌至四十年低点，日本央行加息至1%触发套利交易大规模平仓→美股美债遭同步抛售，股债双杀格局再现，传统60/40组合失效；②美联储主席沃什承认长端利率上行已非央行主导而是市场自发定价，Piepenburg 解读为央行对债市失控的隐性承认。美国40万亿美元债务每日利息30亿，未来12个月8万亿需以更高利率再融资→货币贬值是唯一'出路'但也是更深陷阱。2026年初贵金属曾被刻意压价，为机构提供实物黄金低位积累窗口。来源：https://wallstreetcn.com/articles/3778869",
+      "suggestion": "Piepenburg 为典型持仓派，长期看多黄金、看空法币。当前日元套利平仓引发的股债双杀印证其核心框架，建议黄金多头仓位坚定持有。关注日本政策转向与美国再融资压力叠加的进一步传导。",
+      "bull_bear": "🟢 GLD, PHYS, 黄金 | 🔴 USD, TLT, UST"
+    },
+    {
+      "id": "3b547eb5-fd3c-817c-a5b1-db02543e5232",
+      "name": "🟢 强烈看多黄金：黄金正在发出大规模货币制度变革信号",
+      "kol_name": "Doomberg / Kuppy",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Doomberg在8月6日CapitalCosm访谈中指出，财长Bessent正释放“制度变革”信号→美元相对黄金过强，数十年强美元政策掏空美国制造业→Fed和财政部自2008年以来持续以不同方式压制金融压力、货币化债务→日元干预也是此体系一环：支撑日元使日本无需抛售美债→最终问题是美国财政破产，政策制定者将竭力防止美元体系崩溃→黄金是这一制度变革的晴雨表。来源: https://capitalcosm.substack.com/p/doomberg-gold-is-signaling-a-massive",
+      "suggestion": "黄金核心持仓维持不动，逢回调加仓。美元资产（长久期美债、美元现金）建议减配。关注Bessent财政部后续政策信号和美日汇率协调动向。",
+      "bull_bear": "🟢 GLD, PHYS, GDX | 🔴 UUP, TLT"
+    },
+    {
+      "id": "3b547eb5-fd3c-8172-8c56-e4b7d3490cf9",
+      "name": "⚪ 今日无新公开观点",
+      "kol_name": "Massimiliano Castelli",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "今日公开渠道未检索到 Massimiliano Castelli（瑞银资管全球主权市场战略主管）的新增宏观观点。其长期研究方向聚焦全球央行/主权基金投资行为、去美元化趋势及资产配置。",
+      "suggestion": "今日无新公开观点。此前观点维持不变。",
+      "bull_bear": ""
+    },
+    {
+      "id": "3b547eb5-fd3c-810a-9516-d33b496a52c9",
+      "name": "强烈看多黄金：Vince Lanci称COMEX正在失去定价权，中国主导黄金重估",
+      "kol_name": "Vince Lanci",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-06",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "comments": "Vince Lanci指出全球黄金定价体系正发生根本性转变，COMEX正在失去黄金定价主导地位，中国通过上海黄金交易所逐步掌握黄金定价权，COMEX实物交割压力增大，黄金正经历中美博弈背景下的隐性重估，Lanci认为黄金的中国vs美国定价权争夺是未来金价上行的核心驱动力。来源：GoldFix/YouTube, 2026-08",
+      "suggestion": "黄金定价权东移的结构性趋势下，COMEX溢价/折价将成为重要信号。关注上海金vs伦敦金价差，逢COMEX期货大幅折价时增加实物黄金敞口。",
+      "bull_bear": "看多: 黄金 | 看空: COMEX定价权"
+    },
+    {
+      "id": "3b547eb5-fd3c-8115-a0d2-c87a2093ee1e",
+      "name": "看空美元/美债：Kyle Bass警告Sell America趋势回归",
+      "kol_name": "Kyle Bass",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-06",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "comments": "Kyle Bass指出Sell America交易正在回归，全球投资者因美国政策和Fed不确定性重新讨论抛售美国资产，30年期美债收益率升至多年来最高水平，美元同步走弱，投资者担忧美国政策将动摇美元和债券稳定性，反映市场对美国财政纪律丧失信心的深层担忧。来源：moneyandbanking.co.th, 2026-08-06",
+      "suggestion": "美元与美债双杀格局下，建议减少长久期美债敞口，增加黄金和短期TIPS等通胀对冲资产配置。关注美国财政赤字和债务上限谈判进展。",
+      "bull_bear": "看空: 美元, 美债 | 看多: 黄金"
+    },
+    {
+      "id": "3b547eb5-fd3c-81da-ae1d-df20ac2f0e83",
+      "name": "看多黄金：Matthew Piepenburg指日元暴跌+美联储失语背景下黄金战略价值凸显",
+      "kol_name": "Matthew Piepenburg",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-06",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "comments": "Matthew Piepenburg指出当前全球汇率体系正经历剧烈动荡，日元暴跌反映日本央行失去对债市控制力，美联储承认长端利率更多由市场决定，全球央行对债市控制力系统性减弱，Warsh不降息和日元崩跌双重背景下美股和美债面临短期风险，黄金在货币体系裂痕中战略价值凸显，是长期必然选择。来源：华尔街见闻/vonGreyerz, 2026-08-06",
+      "suggestion": "全球央行对债市控制力减弱是大趋势，黄金受益于货币体系不确定性。保持黄金多头，关注日本央行政策和美债长端收益率走向。",
+      "bull_bear": "看多: 黄金 | 看空: 美债, 日元"
+    },
+    {
+      "id": "3b547eb5-fd3c-81c8-b937-f292cdb3cbe3",
+      "name": "强烈看多金银：Andy Schectman称2026年金银将出现大规模价格上涨",
+      "kol_name": "Andy Schectman",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-06",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "comments": "Miles Franklin总裁Andy Schectman表示2026年黄金和白银将迎来大规模价格上涨，指出CME通过期货市场机制策划了白银价格暴跌，实物白银持续从COMEX仓库流出，实物交割需求远超纸白银做空力量，当实物交割违约风险暴露时白银价格将出现爆炸性上涨，建议持有实物金银而非纸面产品。来源：BeforeItsNews/YouTube, 2026-08-06",
+      "suggestion": "实物白银供需紧张叠加COMEX库存持续下降，建议配置部分实物白银作为非对称机会。同时关注SLV和PSLV持仓变化作为验证信号。",
+      "bull_bear": "看多: 黄金, 白银 | 看空: COMEX纸白银"
+    },
+    {
+      "id": "3b547eb5-fd3c-81ea-b917-d2ac01535b92",
+      "name": "强烈看多黄金：TD Daniel Ghali称全球市场正向战时经济转型，西方是本轮金价上涨主驱动力",
+      "kol_name": "Daniel Ghali",
+      "kol_or_ib": "IB View",
+      "date": "2026-08-06",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "comments": "TD Securities高级商品策略师Daniel Ghali指出全球市场正从和平经济向战时经济转型，央行持续购金和地缘政治紧张加剧支撑，西方投资者（而非传统东方买家）是本轮金价上涨的主要驱动力，COMEX持仓和ETF资金流入反映西方配置需求激增，结构性转变意味金价支撑比以往更坚实。来源：Juniorstocks/BNN Bloomberg, 2026-08",
+      "suggestion": "西方机构投资者正成为黄金新增需求来源，金价底部支撑结构更强。维持黄金多头仓位，关注COMEX持仓数据和主要央行储备报告。",
+      "bull_bear": "看多: 黄金"
+    },
+    {
+      "id": "3b547eb5-fd3c-8188-a495-c7d77bc9c238",
+      "name": "看空美债/美元：Alasdair Macleod警告债券市场将自燃，黄金是法币崩溃唯一对冲",
+      "kol_name": "Alasdair Macleod",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-06",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "comments": "Alasdair Macleod在8月6日SilverTrade发表文章警告债券市场自燃，美债收益率上升叠加美国财政赤字不可持续，美联储被迫进行收益率曲线控制和债务货币化，美元贬值压力加剧，在此背景下黄金作为法币体系崩溃的唯一对冲工具价值飙升，投资者应为法币体系崩溃做好准备。来源：SilverTrade, 2026-08-06",
+      "suggestion": "债券市场压力累积信号明显，建议超配黄金等实物资产，低配长久期美债。关注美债拍卖需求和外国央行持仓变化作为触发信号。",
+      "bull_bear": "看空: 美债, 美元 | 看多: 黄金"
+    },
     {
       "id": "3b447eb5-fd3c-81ef-96ef-f8dccdf1c7fd",
       "name": "看空债券：Doomberg警告通胀持续，债券收益率将创30年新高",
