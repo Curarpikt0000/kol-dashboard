@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10 12:50 JST",
+  "generated_at": "2026-08-11 11:28 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-08-09"
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 367.4,
+      "weighted_sum": 359.0,
       "bull": 1303,
       "bear": 114,
       "neutral": 182,
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 56.1,
+      "weighted_sum": 54.9,
       "bull": 112,
       "bear": 8,
       "neutral": 24,
@@ -137,7 +137,7 @@
       "sector": "Crypto",
       "score": 57,
       "consensus": 57,
-      "weighted_sum": 46.3,
+      "weighted_sum": 45.2,
       "bull": 88,
       "bear": 10,
       "neutral": 20,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 27,
       "consensus": 27,
-      "weighted_sum": 2.2,
+      "weighted_sum": 2.1,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -171,13 +171,13 @@
       "strong_bear": 2,
       "w_bull": 29,
       "w_bear": 15,
-      "avg": 0.04
+      "avg": 0.03
     },
     {
       "sector": "Equities",
       "score": -18,
       "consensus": 18,
-      "weighted_sum": -25.6,
+      "weighted_sum": -25.0,
       "bull": 136,
       "bear": 94,
       "neutral": 53,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -79,
       "consensus": 79,
-      "weighted_sum": -72.2,
+      "weighted_sum": -70.5,
       "bull": 23,
       "bear": 43,
       "neutral": 31,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -125.5,
+      "weighted_sum": -122.6,
       "bull": 11,
       "bear": 50,
       "neutral": 18,
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 31.6,
+      "weighted_sum": 30.9,
       "bull": 112,
       "bear": 8,
       "neutral": 24,
@@ -259,7 +259,7 @@
       "sector": "Precious Metals",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 83.8,
+      "weighted_sum": 81.9,
       "bull": 1303,
       "bear": 114,
       "neutral": 182,
@@ -279,7 +279,7 @@
       "sector": "Alternative",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 1.0,
+      "weighted_sum": 0.9,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -34,
       "consensus": 34,
-      "weighted_sum": -7.2,
+      "weighted_sum": -7.0,
       "bull": 23,
       "bear": 43,
       "neutral": 31,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -46,
       "consensus": 46,
-      "weighted_sum": -71.3,
+      "weighted_sum": -69.7,
       "bull": 136,
       "bear": 94,
       "neutral": 53,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -38.2,
+      "weighted_sum": -37.3,
       "bull": 11,
       "bear": 50,
       "neutral": 18,
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 97,
       "consensus": 97,
-      "weighted_sum": 283.6,
+      "weighted_sum": 277.1,
       "bull": 1303,
       "bear": 114,
       "neutral": 182,
@@ -395,13 +395,13 @@
       "strong_bear": 0,
       "w_bull": 2124,
       "w_bear": 23,
-      "avg": 0.18
+      "avg": 0.17
     },
     {
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 24.6,
+      "weighted_sum": 24.0,
       "bull": 112,
       "bear": 8,
       "neutral": 24,
@@ -415,13 +415,13 @@
       "strong_bear": 1,
       "w_bull": 221,
       "w_bear": 8,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 46.6,
+      "weighted_sum": 45.5,
       "bull": 88,
       "bear": 10,
       "neutral": 20,
@@ -435,7 +435,7 @@
       "strong_bear": 6,
       "w_bull": 235,
       "w_bear": 34,
-      "avg": 0.22
+      "avg": 0.21
     },
     {
       "sector": "Alternative",
@@ -461,7 +461,7 @@
       "sector": "Equities",
       "score": 21,
       "consensus": 21,
-      "weighted_sum": 45.7,
+      "weighted_sum": 44.7,
       "bull": 136,
       "bear": 94,
       "neutral": 53,
@@ -475,13 +475,13 @@
       "strong_bear": 32,
       "w_bull": 225,
       "w_bear": 147,
-      "avg": 0.16
+      "avg": 0.15
     },
     {
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -65.0,
+      "weighted_sum": -63.5,
       "bull": 23,
       "bear": 43,
       "neutral": 31,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -87.3,
+      "weighted_sum": -85.3,
       "bull": 11,
       "bear": 50,
       "neutral": 18,
@@ -1166,7 +1166,7 @@
       "latest_title": "🟢 看多区块链基础设施：AI代理+硅速金融=下一经济操作系统",
       "bull_bear": "🟢 ETH, SOL, AI Agent Protocols",
       "total_entries": 49,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Torsten Sløk",
@@ -1309,7 +1309,7 @@
       "latest_title": "强烈看多黄金：Vince Lanci称COMEX正在失去定价权，中国主导黄金重估",
       "bull_bear": "看多: 黄金 | 看空: COMEX定价权",
       "total_entries": 30,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Kyle Bass",
@@ -1374,7 +1374,7 @@
       "latest_title": "看多铜：Clem Chambers称铜的泡沫还未到来，价格创历史新高",
       "bull_bear": "看多 铜",
       "total_entries": 32,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Eric Nuttall",
@@ -1712,7 +1712,7 @@
       "latest_title": "🟢周期择时：72日底或已于7月初就位，急涨料延续至9月",
       "bull_bear": "黄金(Gold):短期看多(34日上升相位恢复/72日底或已就位)；黄金(Gold):长期看多(大周期反弹至2027年2月)",
       "total_entries": 10,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "James Turk",
@@ -1751,7 +1751,7 @@
       "latest_title": "🟢 看多实物白银：银价跌50%，实物底部区别于纸面崩盘",
       "bull_bear": "🟢 白银(实物)",
       "total_entries": 32,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "James Grant",
@@ -1972,7 +1972,7 @@
       "latest_title": "Brandon Biggs — 🟡 中性",
       "bull_bear": "🟢 黄金白银(预言财富转移受益)",
       "total_entries": 36,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "David Icke",
