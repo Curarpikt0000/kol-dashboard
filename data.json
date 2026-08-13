@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-08-13 10:56 JST",
+  "generated_at": "2026-08-13 12:29 JST",
   "date_range": {
     "start": "2025-11-01",
     "end": "2026-08-12"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2385,
-    "total_rows": 2406,
+    "legged_rows": 2388,
+    "total_rows": 2409,
     "pct": 99.1
   },
   "today_signals": [
+    {
+      "type": "反转",
+      "kol_name": "Carl Icahn（Icahn Enterprises 创始人 / 董事长）",
+      "sector": "Equities",
+      "date": "2026-08-12",
+      "desc": "看空→看多",
+      "signal": "高"
+    },
     {
       "type": "反转",
       "kol_name": "Alasdair Macleod",
@@ -82,14 +90,6 @@
       "date": "2026-08-06",
       "desc": "看多→看空",
       "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "James Rickards",
-      "sector": "Precious Metals",
-      "date": "2026-08-06",
-      "desc": "看空→看多",
-      "signal": "中"
     }
   ],
   "sector_summary": [
@@ -117,19 +117,19 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 56.7,
-      "bull": 115,
+      "weighted_sum": 57.7,
+      "bull": 116,
       "bear": 8,
       "neutral": 24,
-      "total": 147,
-      "legs_bull": 355,
+      "total": 148,
+      "legs_bull": 356,
       "legs_bear": 35,
       "legs_neutral": 12,
       "legs_split": 3,
-      "legs_total": 405,
+      "legs_total": 406,
       "strong_bull": 48,
       "strong_bear": 1,
-      "w_bull": 403,
+      "w_bull": 404,
       "w_bear": 36,
       "avg": 0.14
     },
@@ -177,19 +177,19 @@
       "sector": "Equities",
       "score": -14,
       "consensus": 14,
-      "weighted_sum": -2.7,
-      "bull": 145,
+      "weighted_sum": -1.8,
+      "bull": 146,
       "bear": 92,
-      "neutral": 56,
-      "total": 293,
-      "legs_bull": 304,
+      "neutral": 57,
+      "total": 295,
+      "legs_bull": 305,
       "legs_bear": 416,
-      "legs_neutral": 29,
+      "legs_neutral": 30,
       "legs_split": 17,
-      "legs_total": 766,
+      "legs_total": 768,
       "strong_bull": 67,
       "strong_bear": 80,
-      "w_bull": 371,
+      "w_bull": 372,
       "w_bear": 496,
       "avg": -0.0
     },
@@ -236,6 +236,26 @@
   ],
   "sector_summary_short": [
     {
+      "sector": "Energy & Commodities",
+      "score": 72,
+      "consensus": 72,
+      "weighted_sum": 29.5,
+      "bull": 116,
+      "bear": 8,
+      "neutral": 24,
+      "total": 148,
+      "legs_bull": 151,
+      "legs_bear": 28,
+      "legs_neutral": 10,
+      "legs_split": 3,
+      "legs_total": 192,
+      "strong_bull": 26,
+      "strong_bear": 0,
+      "w_bull": 177,
+      "w_bear": 28,
+      "avg": 0.15
+    },
+    {
       "sector": "Precious Metals",
       "score": 72,
       "consensus": 72,
@@ -254,26 +274,6 @@
       "w_bull": 744,
       "w_bear": 105,
       "avg": 0.11
-    },
-    {
-      "sector": "Energy & Commodities",
-      "score": 72,
-      "consensus": 72,
-      "weighted_sum": 29.5,
-      "bull": 115,
-      "bear": 8,
-      "neutral": 24,
-      "total": 147,
-      "legs_bull": 151,
-      "legs_bear": 28,
-      "legs_neutral": 10,
-      "legs_split": 3,
-      "legs_total": 192,
-      "strong_bull": 26,
-      "strong_bear": 0,
-      "w_bull": 177,
-      "w_bear": 28,
-      "avg": 0.15
     },
     {
       "sector": "Alternative",
@@ -337,21 +337,21 @@
     },
     {
       "sector": "Equities",
-      "score": -44,
-      "consensus": 44,
-      "weighted_sum": -58.5,
-      "bull": 145,
+      "score": -43,
+      "consensus": 43,
+      "weighted_sum": -57.5,
+      "bull": 146,
       "bear": 92,
-      "neutral": 56,
-      "total": 293,
-      "legs_bull": 125,
+      "neutral": 57,
+      "total": 295,
+      "legs_bull": 126,
       "legs_bear": 304,
-      "legs_neutral": 23,
+      "legs_neutral": 24,
       "legs_split": 16,
-      "legs_total": 468,
+      "legs_total": 470,
       "strong_bull": 9,
       "strong_bear": 50,
-      "w_bull": 134,
+      "w_bull": 135,
       "w_bear": 354,
       "avg": -0.12
     },
@@ -401,19 +401,19 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 27.3,
-      "bull": 115,
+      "weighted_sum": 28.3,
+      "bull": 116,
       "bear": 8,
       "neutral": 24,
-      "total": 147,
-      "legs_bull": 204,
+      "total": 148,
+      "legs_bull": 205,
       "legs_bear": 7,
       "legs_neutral": 2,
       "legs_split": 0,
-      "legs_total": 213,
+      "legs_total": 214,
       "strong_bull": 22,
       "strong_bear": 1,
-      "w_bull": 226,
+      "w_bull": 227,
       "w_bear": 8,
       "avg": 0.13
     },
@@ -462,10 +462,10 @@
       "score": 25,
       "consensus": 25,
       "weighted_sum": 55.7,
-      "bull": 145,
+      "bull": 146,
       "bear": 92,
-      "neutral": 56,
-      "total": 293,
+      "neutral": 57,
+      "total": 295,
       "legs_bull": 179,
       "legs_bear": 112,
       "legs_neutral": 6,
@@ -519,6 +519,15 @@
     }
   ],
   "stance_changes": [
+    {
+      "kol_name": "Carl Icahn（Icahn Enterprises 创始人 / 董事长）",
+      "sector": "Equities",
+      "date": "2026-08-12",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 看多CZR：Icahn上月出价$34/股竞购Caesars，高于此前$31并购报价",
+      "signal": "高"
+    },
     {
       "kol_name": "Alasdair Macleod",
       "sector": "Precious Metals",
@@ -779,15 +788,6 @@
       "to": "看多",
       "title": "强烈看多黄金：Gromen称收益率曲线控制是阻止全球债市危机的唯一出路",
       "signal": "中"
-    },
-    {
-      "kol_name": "Michael Hartnett",
-      "sector": "Equities",
-      "date": "2026-07-29",
-      "from": "看多",
-      "to": "看空",
-      "title": "看空AI/美股：美银Hartnett警告债市是AI牛市最危险变量",
-      "signal": "高"
     }
   ],
   "ticker_heatmap": {
@@ -829,7 +829,7 @@
       },
       {
         "ticker": "原油",
-        "count": 47,
+        "count": 48,
         "kols": 20
       },
       {
@@ -843,14 +843,14 @@
         "kols": 23
       },
       {
-        "ticker": "黄金/白银(GLD,SLV)",
-        "count": 28,
-        "kols": 23
-      },
-      {
         "ticker": "比特币(BTC)",
         "count": 28,
         "kols": 12
+      },
+      {
+        "ticker": "黄金/白银(GLD,SLV)",
+        "count": 28,
+        "kols": 23
       },
       {
         "ticker": "BTC",
@@ -947,6 +947,45 @@
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Timothy Arcuri",
+      "sector": "Equities",
+      "detail_sector": "股权市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-12",
+      "latest_comments": "UBS半导体分析师Timothy Arcuri(08-12)表示Intel(INTC)本周宣布的$200亿增资计划大概率消除股价上方的悬顶(overhang)→叠加即将落地的代工交易(Google EMIB-T、AAPL等)带来的预付款与财务承诺→进一步夯实资产负债表→Arcuri维持中性评级，但认为增资是清除关键不确定性的正面信号。来源: Seeking Alpha / UBS",
+      "latest_title": "🟡 中性INTC：Arcuri称Intel $20B增资消除股价悬顶(overhang)",
+      "bull_bear": "🟡 INTC(增资消除悬顶，维持中性)",
+      "total_entries": 9,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Carl Icahn（Icahn Enterprises 创始人 / 董事长）",
+      "sector": "Equities",
+      "detail_sector": "股权市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-12",
+      "latest_comments": "激进投资者Carl Icahn(08-12披露)上月对Caesars Entertainment(CZR)提出每股$34的收购要约，高于此前5月$31/股的并购报价→Icahn的报价是Caesars寻购期(go shop)内唯一收到的竞价，且该期限已被延长→显示Icahn看好博彩资产价值、认为市场低估CZR。来源: Seeking Alpha",
+      "latest_title": "🟢 看多CZR：Icahn上月出价$34/股竞购Caesars，高于此前$31并购报价",
+      "bull_bear": "🟢 Caesars Entertainment (CZR)",
+      "total_entries": 3,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Jeff Currie",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-12",
+      "latest_comments": "Carlyle能源首席策略官Jeff Currie(08-12 Bloomberg)指出油价$100存在错估，纸面期货与实货市场脱节→实货库存已近罐底而纸面价未反映实际紧缺→俄油进入系统带来的价格扰动加剧了两者背离→隐含实货紧俏被纸面价格低估，油价有上行动力。来源: Bloomberg TV / Carlyle Energy Pathways",
+      "latest_title": "🟢 看多原油：Currie称$100油价被错估，纸面与实货市场脱节、俄油供给扰动",
+      "bull_bear": "🟢 原油(纸面$100被低估) | 🟢 能源股 XLE, XOP",
+      "total_entries": 17,
+      "trend": "↗ 趋多"
+    },
     {
       "kol_name": "Raoul Pal",
       "sector": "Crypto",
@@ -1193,19 +1232,6 @@
       "bull_bear": "SpaceX, AI infra, BTC, COIN | RBLX, PLTR",
       "total_entries": 70,
       "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Timothy Arcuri",
-      "sector": "Equities",
-      "detail_sector": "股权市场",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-10",
-      "latest_comments": "UBS五星分析师Arcuri重申Micron(MU)买入评级 -> 看好长期前景 -> 预测MU 2028年EPS达$265.65 -> 内存定价上行推动盈利改善 -> 长期展望强于预期。来源：TipRanks (08/10)",
-      "latest_title": "看多MU：UBS五星分析师重申买入，目标2028年EPS $265",
-      "bull_bear": "看多 Micron (MU)",
-      "total_entries": 8,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Eric Nuttall",
@@ -1520,19 +1546,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Carl Icahn（Icahn Enterprises 创始人 / 董事长）",
-      "sector": "Equities",
-      "detail_sector": "股权市场",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-05",
-      "latest_comments": "Icahn Enterprises公布Q2 2026财报→投资组合损失拖累业绩→此前Q1已深度miss EPS(6/16报道)→激进投资(Activist)策略在利率高位+AI行情集中下表现承压→IEP以实物分红(PIK dividend)方式向持有人分配(6/29披露618M units)→Carl Icahn仍大额持股但面临市值与业绩压力。来源: IEP Q2财报 8/5 + Business",
-      "latest_title": "🔴 IEP Q2亏损扩大：投资损失拖累业绩，激进投资策略承压",
-      "bull_bear": "🔴 IEP",
-      "total_entries": 2,
-      "trend": "↘ 趋空"
-    },
-    {
       "kol_name": "Ken Griffin（Citadel 创始人 / CEO）",
       "sector": "Equities",
       "detail_sector": "科技AI",
@@ -1557,19 +1570,6 @@
       "bull_bear": "强烈看多 黄金 GLD PHYS | 看多 金矿股 GDX | 看空 美元 USD",
       "total_entries": 26,
       "trend": "→"
-    },
-    {
-      "kol_name": "Jeff Currie",
-      "sector": "Energy & Commodities",
-      "detail_sector": "能源",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-04",
-      "latest_comments": "Carlyle大宗商品策略师Jeff Currie（前高盛大宗商品主管）发出严厉警告：亚洲石油市场已接近'油箱见底'，欧洲即将面临同样困境，美国7月将跟进。直接原因=伊朗战争导致霍尔木兹海峡能源运输中断。Currie将当前局势比作多米诺骨牌效应→全球石油库存处于极度危险的低位→油价面临大幅上行风险。来源：investingLive 2026-08-04",
-      "latest_title": "看多原油：Jeff Currie警告全球石油库存见底，亚洲告急欧美紧随",
-      "bull_bear": "强烈看多 原油 WTI Brent | 看多 能源股 XLE OIH",
-      "total_entries": 16,
-      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Ray Dalio",
@@ -2303,6 +2303,42 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3bb47eb5-fd3c-8143-aef0-e3158b87d6d7",
+      "name": "🟡 中性INTC：Arcuri称Intel $20B增资消除股价悬顶(overhang)",
+      "kol_name": "Timothy Arcuri",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-12",
+      "sector": "Equities",
+      "detail_sector": "股权市场",
+      "comments": "UBS半导体分析师Timothy Arcuri(08-12)表示Intel(INTC)本周宣布的$200亿增资计划大概率消除股价上方的悬顶(overhang)→叠加即将落地的代工交易(Google EMIB-T、AAPL等)带来的预付款与财务承诺→进一步夯实资产负债表→Arcuri维持中性评级，但认为增资是清除关键不确定性的正面信号。来源: Seeking Alpha / UBS",
+      "suggestion": "关注Intel增资与代工订单落地节奏；增资消除悬顶+代工预付款或改善现金流，INTC短期有修复机会，但Arcuri维持中性提示上行仍需盈利兑现，不宜过度追高。",
+      "bull_bear": "🟡 INTC(增资消除悬顶，维持中性)"
+    },
+    {
+      "id": "3bb47eb5-fd3c-816f-9128-ec4c973b351d",
+      "name": "🟢 看多CZR：Icahn上月出价$34/股竞购Caesars，高于此前$31并购报价",
+      "kol_name": "Carl Icahn（Icahn Enterprises 创始人 / 董事长）",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-12",
+      "sector": "Equities",
+      "detail_sector": "股权市场",
+      "comments": "激进投资者Carl Icahn(08-12披露)上月对Caesars Entertainment(CZR)提出每股$34的收购要约，高于此前5月$31/股的并购报价→Icahn的报价是Caesars寻购期(go shop)内唯一收到的竞价，且该期限已被延长→显示Icahn看好博彩资产价值、认为市场低估CZR。来源: Seeking Alpha",
+      "suggestion": "关注CZR并购进展与寻购期窗口动向；Icahn溢价出价释放博彩股价值重估信号，CZR及博彩板块或受事件催化，但需留意竞购最终是否落地。",
+      "bull_bear": "🟢 Caesars Entertainment (CZR)"
+    },
+    {
+      "id": "3bb47eb5-fd3c-81ac-90fa-f3c90c5bdf4f",
+      "name": "🟢 看多原油：Currie称$100油价被错估，纸面与实货市场脱节、俄油供给扰动",
+      "kol_name": "Jeff Currie",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-12",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "Carlyle能源首席策略官Jeff Currie(08-12 Bloomberg)指出油价$100存在错估，纸面期货与实货市场脱节→实货库存已近罐底而纸面价未反映实际紧缺→俄油进入系统带来的价格扰动加剧了两者背离→隐含实货紧俏被纸面价格低估，油价有上行动力。来源: Bloomberg TV / Carlyle Energy Pathways",
+      "suggestion": "关注原油实货-纸面价差收窄信号；若实货库存确认见底，油价与能源板块(XLE/XOP)有补涨空间，但需留意俄油供给扰动带来的波动。",
+      "bull_bear": "🟢 原油(纸面$100被低估) | 🟢 能源股 XLE, XOP"
+    },
     {
       "id": "3bb47eb5-fd3c-81f3-9b0b-f8bd550e6da3",
       "name": "🟢 看多BTC/加密：Pal称AI+机器人助经济体脱困，BTC等待更陡收益率曲线",
