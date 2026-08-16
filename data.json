@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-15 09:34 JST",
+  "generated_at": "2026-08-16 09:32 JST",
   "date_range": {
     "start": "2025-11-01",
-    "end": "2026-08-14"
+    "end": "2026-08-15"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2399,
-    "total_rows": 2423,
+    "legged_rows": 2404,
+    "total_rows": 2428,
     "pct": 99.0
   },
   "today_signals": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 336.7,
-      "bull": 1306,
+      "weighted_sum": 330.9,
+      "bull": 1308,
       "bear": 115,
       "neutral": 183,
-      "total": 1604,
-      "legs_bull": 2158,
+      "total": 1606,
+      "legs_bull": 2160,
       "legs_bear": 129,
       "legs_neutral": 87,
       "legs_split": 44,
-      "legs_total": 2418,
+      "legs_total": 2420,
       "strong_bull": 706,
       "strong_bear": 0,
-      "w_bull": 2864,
+      "w_bull": 2866,
       "w_bear": 129,
       "avg": 0.14
     },
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 56.1,
+      "weighted_sum": 54.8,
       "bull": 116,
       "bear": 8,
       "neutral": 24,
@@ -131,13 +131,13 @@
       "strong_bear": 1,
       "w_bull": 405,
       "w_bear": 36,
-      "avg": 0.14
+      "avg": 0.13
     },
     {
       "sector": "Crypto",
       "score": 57,
       "consensus": 57,
-      "weighted_sum": 46.8,
+      "weighted_sum": 45.7,
       "bull": 91,
       "bear": 10,
       "neutral": 23,
@@ -175,38 +175,38 @@
     },
     {
       "sector": "Equities",
-      "score": -13,
-      "consensus": 13,
-      "weighted_sum": 2.2,
-      "bull": 150,
-      "bear": 92,
+      "score": -14,
+      "consensus": 14,
+      "weighted_sum": 1.2,
+      "bull": 151,
+      "bear": 93,
       "neutral": 57,
-      "total": 299,
-      "legs_bull": 311,
-      "legs_bear": 418,
+      "total": 301,
+      "legs_bull": 312,
+      "legs_bear": 420,
       "legs_neutral": 30,
       "legs_split": 17,
-      "legs_total": 776,
+      "legs_total": 779,
       "strong_bull": 67,
       "strong_bear": 80,
-      "w_bull": 378,
-      "w_bear": 498,
+      "w_bull": 379,
+      "w_bear": 500,
       "avg": 0.0
     },
     {
       "sector": "Macro",
       "score": -79,
       "consensus": 79,
-      "weighted_sum": -63.9,
+      "weighted_sum": -62.4,
       "bull": 24,
       "bear": 45,
-      "neutral": 33,
-      "total": 102,
+      "neutral": 34,
+      "total": 103,
       "legs_bull": 78,
       "legs_bear": 611,
-      "legs_neutral": 26,
+      "legs_neutral": 27,
       "legs_split": 1,
-      "legs_total": 716,
+      "legs_total": 717,
       "strong_bull": 3,
       "strong_bear": 69,
       "w_bull": 81,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -116.1,
+      "weighted_sum": -113.5,
       "bull": 11,
       "bear": 52,
       "neutral": 18,
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 28.1,
+      "weighted_sum": 27.5,
       "bull": 116,
       "bear": 8,
       "neutral": 24,
@@ -253,25 +253,25 @@
       "strong_bear": 0,
       "w_bull": 177,
       "w_bear": 28,
-      "avg": 0.15
+      "avg": 0.14
     },
     {
       "sector": "Precious Metals",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 82.5,
-      "bull": 1306,
+      "weighted_sum": 81.5,
+      "bull": 1308,
       "bear": 115,
       "neutral": 183,
-      "total": 1604,
-      "legs_bull": 605,
+      "total": 1606,
+      "legs_bull": 606,
       "legs_bear": 106,
       "legs_neutral": 74,
       "legs_split": 36,
-      "legs_total": 821,
+      "legs_total": 822,
       "strong_bull": 139,
       "strong_bear": 0,
-      "w_bull": 744,
+      "w_bull": 745,
       "w_bear": 106,
       "avg": 0.1
     },
@@ -279,7 +279,7 @@
       "sector": "Alternative",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 0.9,
+      "weighted_sum": 0.8,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -319,16 +319,16 @@
       "sector": "Macro",
       "score": -35,
       "consensus": 35,
-      "weighted_sum": -7.2,
+      "weighted_sum": -7.1,
       "bull": 24,
       "bear": 45,
-      "neutral": 33,
-      "total": 102,
+      "neutral": 34,
+      "total": 103,
       "legs_bull": 63,
       "legs_bear": 127,
-      "legs_neutral": 22,
+      "legs_neutral": 23,
       "legs_split": 1,
-      "legs_total": 213,
+      "legs_total": 214,
       "strong_bull": 1,
       "strong_bear": 6,
       "w_bull": 64,
@@ -339,11 +339,11 @@
       "sector": "Equities",
       "score": -42,
       "consensus": 42,
-      "weighted_sum": -51.0,
-      "bull": 150,
-      "bear": 92,
+      "weighted_sum": -49.9,
+      "bull": 151,
+      "bear": 93,
       "neutral": 57,
-      "total": 299,
+      "total": 301,
       "legs_bull": 131,
       "legs_bear": 305,
       "legs_neutral": 24,
@@ -353,13 +353,13 @@
       "strong_bear": 50,
       "w_bull": 140,
       "w_bear": 355,
-      "avg": -0.11
+      "avg": -0.1
     },
     {
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -33.5,
+      "weighted_sum": -32.7,
       "bull": 11,
       "bear": 52,
       "neutral": 18,
@@ -373,7 +373,7 @@
       "strong_bear": 13,
       "w_bull": 21,
       "w_bear": 289,
-      "avg": -0.11
+      "avg": -0.1
     }
   ],
   "sector_summary_long": [
@@ -381,19 +381,19 @@
       "sector": "Precious Metals",
       "score": 97,
       "consensus": 97,
-      "weighted_sum": 254.2,
-      "bull": 1306,
+      "weighted_sum": 249.4,
+      "bull": 1308,
       "bear": 115,
       "neutral": 183,
-      "total": 1604,
-      "legs_bull": 1553,
+      "total": 1606,
+      "legs_bull": 1554,
       "legs_bear": 23,
       "legs_neutral": 13,
       "legs_split": 8,
-      "legs_total": 1597,
+      "legs_total": 1598,
       "strong_bull": 567,
       "strong_bear": 0,
-      "w_bull": 2120,
+      "w_bull": 2121,
       "w_bear": 23,
       "avg": 0.16
     },
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 28.0,
+      "weighted_sum": 27.3,
       "bull": 116,
       "bear": 8,
       "neutral": 24,
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 45.9,
+      "weighted_sum": 44.8,
       "bull": 91,
       "bear": 10,
       "neutral": 23,
@@ -435,13 +435,13 @@
       "strong_bear": 6,
       "w_bull": 240,
       "w_bear": 36,
-      "avg": 0.21
+      "avg": 0.2
     },
     {
       "sector": "Alternative",
       "score": 30,
       "consensus": 30,
-      "weighted_sum": 1.1,
+      "weighted_sum": 1.0,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -459,33 +459,33 @@
     },
     {
       "sector": "Equities",
-      "score": 25,
-      "consensus": 25,
-      "weighted_sum": 53.2,
-      "bull": 150,
-      "bear": 92,
+      "score": 24,
+      "consensus": 24,
+      "weighted_sum": 51.0,
+      "bull": 151,
+      "bear": 93,
       "neutral": 57,
-      "total": 299,
-      "legs_bull": 180,
-      "legs_bear": 113,
+      "total": 301,
+      "legs_bull": 181,
+      "legs_bear": 115,
       "legs_neutral": 6,
       "legs_split": 1,
-      "legs_total": 300,
+      "legs_total": 303,
       "strong_bull": 58,
       "strong_bear": 30,
-      "w_bull": 238,
-      "w_bear": 143,
-      "avg": 0.18
+      "w_bull": 239,
+      "w_bear": 145,
+      "avg": 0.17
     },
     {
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -56.7,
+      "weighted_sum": -55.4,
       "bull": 24,
       "bear": 45,
-      "neutral": 33,
-      "total": 102,
+      "neutral": 34,
+      "total": 103,
       "legs_bull": 15,
       "legs_bear": 484,
       "legs_neutral": 4,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -82.6,
+      "weighted_sum": -80.7,
       "bull": 11,
       "bear": 52,
       "neutral": 18,
@@ -515,7 +515,7 @@
       "strong_bear": 42,
       "w_bull": 8,
       "w_bear": 690,
-      "avg": -0.13
+      "avg": -0.12
     }
   ],
   "stance_changes": [
@@ -637,6 +637,15 @@
       "signal": "高"
     },
     {
+      "kol_name": "S. Druckenmiller",
+      "sector": "Equities",
+      "date": "2026-08-06",
+      "from": "看空",
+      "to": "看多",
+      "title": "看多Mag7：Druckenmiller称当前价格不买Mag7将永远后悔",
+      "signal": "高"
+    },
+    {
       "kol_name": "Gareth Soloway",
       "sector": "Precious Metals",
       "date": "2026-08-06",
@@ -679,15 +688,6 @@
       "from": "看空",
       "to": "看多",
       "title": "看多黄金/实物资产：Gundlach 2026年投资组合策略强调黄金、现金与实物资产配置",
-      "signal": "高"
-    },
-    {
-      "kol_name": "S. Druckenmiller",
-      "sector": "Equities",
-      "date": "2026-08-06",
-      "from": "看空",
-      "to": "看多",
-      "title": "看多Mag7：Druckenmiller称当前价格不买Mag7将永远后悔",
       "signal": "高"
     },
     {
@@ -794,8 +794,8 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 558,
-        "kols": 78
+        "count": 560,
+        "kols": 79
       },
       {
         "ticker": "白银",
@@ -843,14 +843,14 @@
         "kols": 23
       },
       {
-        "ticker": "比特币(BTC)",
-        "count": 28,
-        "kols": 12
-      },
-      {
         "ticker": "黄金/白银(GLD,SLV)",
         "count": 28,
         "kols": 23
+      },
+      {
+        "ticker": "比特币(BTC)",
+        "count": 28,
+        "kols": 12
       },
       {
         "ticker": "BTC",
@@ -915,14 +915,14 @@
         "kols": 23
       },
       {
-        "ticker": "美债 TLT",
-        "count": 26,
-        "kols": 22
-      },
-      {
         "ticker": "美元DXY",
         "count": 26,
         "kols": 16
+      },
+      {
+        "ticker": "美债 TLT",
+        "count": 26,
+        "kols": 22
       },
       {
         "ticker": "长久期美债",
@@ -940,13 +940,78 @@
         "kols": 9
       },
       {
-        "ticker": "AI/科技股",
+        "ticker": "DXY 美元",
         "count": 12,
-        "kols": 12
+        "kols": 13
       }
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Craig Hamilton-Parker",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-15",
+      "latest_comments": "英国灵媒'New Nostradamus'预测2026年底前将爆发'五国战争'，此前自称预言过新冠疫情与英女王去世。末日叙事强调地缘冲突升级→避险情绪升温。属叙事派预测，无交易框架，不可作为操作依据。来源：Daily Star 8/15。",
+      "latest_title": "⚠️ 灵媒预测：五国战争年底前爆发（避险叙事）",
+      "bull_bear": "⚠️ 五国战争(叙事) | 🟢 避险资产(隐含)",
+      "total_entries": 4,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Daron Acemoglu",
+      "sector": "Macro",
+      "detail_sector": "AI生产力研究",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-15",
+      "latest_comments": "诺奖得主 Acemoglu 提出，AI 与自由民主面临同一场危机：'没有免费的午餐'——AI 若由少数巨头垄断并侵蚀就业与政治参与，将同时削弱经济与民主。延续其对 AI 过度乐观叙事的批评，从经济(生产率)延伸至政治(民主)层面。来源：Fortune 8/15。",
+      "latest_title": "🔴 看空AI/警示：AI与自由民主面临同一场危机",
+      "bull_bear": "🔴 AI科技股(长期警示)",
+      "total_entries": 2,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "S. Druckenmiller",
+      "sector": "Equities",
+      "detail_sector": "科技AI",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-15",
+      "latest_comments": "Duquesne 家族办公室 Q2 13F 显示，Druckenmiller 大幅增持亚马逊(>1000%至54.16万股)、AMD、Alphabet(新仓)及 AI 基建，Meta 增持超50%、联合航空近三倍；同时清仓/减持博通、英特尔、美光。重仓AI/云计算、看淡传统半导体。来源：Benzinga 8/15。",
+      "latest_title": "🟢 看多AI/云计算，🔴 减仓半导体：Q2 13F 亚马逊+1000%等",
+      "bull_bear": "🟢 AMZN, AMD, GOOGL, META | 🔴 AVGO, INTC, MU",
+      "total_entries": 28,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Craig Hemke",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-15",
+      "latest_comments": "TF Metals 的 Craig Hemke 称，经历数月波动后真正驱动金价的是中国正把黄金定价权从西方夺走；近期美国干预日元也引起其关注，但更大叙事仍是去美元化下的东方购金与定价转移。结构性利多黄金。来源：thedeepdive.ca 8/15。",
+      "latest_title": "🟢 看多黄金：中国正在夺走西方黄金定价权",
+      "bull_bear": "🟢 黄金",
+      "total_entries": 35,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Gary Wagner",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-14",
+      "latest_comments": "Kitco 的 Gary Wagner 指出，金价在 $4,400 附近持续获得支撑，加息概率下降叠加 ETF 需求开始回暖，为黄金提供短线支撑。若该位守住，上行趋势延续。来源：Kitco 8/14。",
+      "latest_title": "🟢 看多黄金：金价守住$4400支撑，加息预期降温+ETF需求回暖",
+      "bull_bear": "🟢 黄金",
+      "total_entries": 1,
+      "trend": "↗ 趋多"
+    },
     {
       "kol_name": "Larry Lepard",
       "sector": "Precious Metals",
@@ -1010,7 +1075,7 @@
       "latest_title": "🟡 美元转弱：弱通胀+弱就业压低美元指数，北美将跟随走弱",
       "bull_bear": "🔴 美元",
       "total_entries": 34,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Gareth Soloway",
@@ -1114,7 +1179,7 @@
       "latest_title": "🟢 看多BTC/加密：Pal称AI+机器人助经济体脱困，BTC等待更陡收益率曲线",
       "bull_bear": "🟢 BTC, 加密 | 🟡 收益率曲线为关键变量",
       "total_entries": 50,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Luke Gromen",
@@ -1257,7 +1322,7 @@
       "latest_title": "🔴 Lacy Hunt/Hoisington转空：债券牛市终结",
       "bull_bear": "🔴 美国长期国债(TLT, ZB)",
       "total_entries": 21,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Jeremy Grantham",
@@ -1361,19 +1426,6 @@
       "latest_title": "🟡 黄金确认再涨但提示超买上升楔形：Vermeulen称勿追高，白银月内+15%",
       "bull_bear": "🟡 黄金(中期看多/短期超买回调风险)",
       "total_entries": 28,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Daron Acemoglu",
-      "sector": "Macro",
-      "detail_sector": "AI生产力研究",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-09",
-      "latest_comments": "MIT经济学家Acemoglu：AI未来十年对美国全要素生产率(TFP)的贡献仅约0.55%，远低于华尔街预期 → 市场对AI生产力革命的定价过度乐观。核心论据：AI对多数工作岗位是辅助而非替代，技术采纳周期漫长，且当前AI应用集中在少数领域 → 若Acemoglu正确，AI相关资产估值存在回调风险。来源：研究论文/访谈 08-08。",
-      "latest_title": "🔴 AI十年仅贡献0.55% TFP：Acemoglu挑战华尔街乐观叙事",
-      "bull_bear": "🔴 AI生产力叙事/AI科技股(长期估值)",
-      "total_entries": 1,
       "trend": "↘ 趋空"
     },
     {
@@ -1520,19 +1572,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "S. Druckenmiller",
-      "sector": "Equities",
-      "detail_sector": "科技与未来趋势",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-06",
-      "latest_comments": "Druckenmiller发出强力看多信号→若不以当前价格买入Mag7将永远后悔→与Grantham/Dalio/Burry的AI泡沫警告形成鲜明对立→体现了价值投资派与成长派的根本分歧。Druckenmiller为传奇宏观对冲基金经理→其逆向买入信号历史上多次正确。来源：综合报道(8/5)",
-      "latest_title": "看多Mag7：Druckenmiller称当前价格不买Mag7将永远后悔",
-      "bull_bear": "强烈看多 Mag7/科技巨头",
-      "total_entries": 27,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Adrian Day",
       "sector": "Precious Metals",
       "detail_sector": "贵金属与商品周期",
@@ -1635,19 +1674,6 @@
       "bull_bear": "🟢 金矿股中长期（估值折价机会）| 🟡 短期金矿股（等金价确认）",
       "total_entries": 9,
       "trend": "→"
-    },
-    {
-      "kol_name": "Craig Hemke",
-      "sector": "Precious Metals",
-      "detail_sector": "贵金属与商品周期",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-07-28",
-      "latest_comments": "Craig Hemke (TF Metals Report founder) relays Eric Sprott latest interview: Sprott views the recent gold and silver correction as normal within the ongoing bull cycle, noting similar pullbacks occurre",
-      "latest_title": "Bullish gold/silver: Eric Sprott views correction as normal, digital alchemy unwinding to reprice physical",
-      "bull_bear": "Bullish Gold | Bullish Silver | Bearish paper gold/silver derivative markets",
-      "total_entries": 34,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Todd \"Bubba\" Horowitz",
@@ -2144,19 +2170,6 @@
       "trend": "→"
     },
     {
-      "kol_name": "Craig Hamilton-Parker",
-      "sector": "Macro",
-      "detail_sector": "宏观货币与金融体系",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-05-15",
-      "latest_comments": "自称预见三次特朗普遇刺企图，发布新预测：特朗普紧急权力/第三任期、日本灾难、全球冲突、伊朗袭击。Oregonlive/IBTimes/Unilad 广泛转载。地缘不确定性叙事强化避险需求。来源: oregonlive.com (2026-05) + ibtimes.co.uk",
-      "latest_title": "🔮 'Prophet of Doom' 警告：特朗普遇刺+全球冲突（2026-05）",
-      "bull_bear": "🟡 中性偏多黄金（地缘+政治不确定性避险）",
-      "total_entries": 3,
-      "trend": "→"
-    },
-    {
       "kol_name": "Anu Anand",
       "sector": "Alternative",
       "detail_sector": "末日情景",
@@ -2316,6 +2329,66 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3be47eb5-fd3c-81b1-8452-ffe95a4ab657",
+      "name": "⚠️ 灵媒预测：五国战争年底前爆发（避险叙事）",
+      "kol_name": "Craig Hamilton-Parker",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-15",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "英国灵媒'New Nostradamus'预测2026年底前将爆发'五国战争'，此前自称预言过新冠疫情与英女王去世。末日叙事强调地缘冲突升级→避险情绪升温。属叙事派预测，无交易框架，不可作为操作依据。来源：Daily Star 8/15。",
+      "suggestion": "灵媒预测无交易框架，不构成操作建议；若信其地缘叙事，避险逻辑指向黄金等安全资产，但缺乏可验证信号，勿据此重仓。",
+      "bull_bear": "⚠️ 五国战争(叙事) | 🟢 避险资产(隐含)"
+    },
+    {
+      "id": "3be47eb5-fd3c-816c-80c5-c51dbb4448aa",
+      "name": "🔴 看空AI/警示：AI与自由民主面临同一场危机",
+      "kol_name": "Daron Acemoglu",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-15",
+      "sector": "Macro",
+      "detail_sector": "AI生产力研究",
+      "comments": "诺奖得主 Acemoglu 提出，AI 与自由民主面临同一场危机：'没有免费的午餐'——AI 若由少数巨头垄断并侵蚀就业与政治参与，将同时削弱经济与民主。延续其对 AI 过度乐观叙事的批评，从经济(生产率)延伸至政治(民主)层面。来源：Fortune 8/15。",
+      "suggestion": "Acemoglu 的 AI 悲观论是结构性长期警示，非短期做空信号；若认同其'AI红利被高估+集中化风险'逻辑，可对高估值 AI 巨头保持谨慎、关注监管与反垄断风险。",
+      "bull_bear": "🔴 AI科技股(长期警示)"
+    },
+    {
+      "id": "3be47eb5-fd3c-8119-b710-f1e51cc84a61",
+      "name": "🟢 看多AI/云计算，🔴 减仓半导体：Q2 13F 亚马逊+1000%等",
+      "kol_name": "S. Druckenmiller",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-15",
+      "sector": "Equities",
+      "detail_sector": "科技AI",
+      "comments": "Duquesne 家族办公室 Q2 13F 显示，Druckenmiller 大幅增持亚马逊(>1000%至54.16万股)、AMD、Alphabet(新仓)及 AI 基建，Meta 增持超50%、联合航空近三倍；同时清仓/减持博通、英特尔、美光。重仓AI/云计算、看淡传统半导体。来源：Benzinga 8/15。",
+      "suggestion": "AI 算力与云计算获顶级资金加码，半导体内部从博通/英特尔/美光向 AMD/自研AI方向切换；关注 AMZN/AMD/GOOGL 相对 AVGO/INTC/MU 的强弱分化。",
+      "bull_bear": "🟢 AMZN, AMD, GOOGL, META | 🔴 AVGO, INTC, MU"
+    },
+    {
+      "id": "3be47eb5-fd3c-81b1-82a0-db39e4385adf",
+      "name": "🟢 看多黄金：金价守住$4400支撑，加息预期降温+ETF需求回暖",
+      "kol_name": "Gary Wagner",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-14",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "Kitco 的 Gary Wagner 指出，金价在 $4,400 附近持续获得支撑，加息概率下降叠加 ETF 需求开始回暖，为黄金提供短线支撑。若该位守住，上行趋势延续。来源：Kitco 8/14。",
+      "suggestion": "短线关注 $4,400 支撑是否守住，ETF 资金回流+降息预期是反弹催化剂，破位则观望。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3be47eb5-fd3c-81e4-9533-dafd72d06af5",
+      "name": "🟢 看多黄金：中国正在夺走西方黄金定价权",
+      "kol_name": "Craig Hemke",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-15",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "comments": "TF Metals 的 Craig Hemke 称，经历数月波动后真正驱动金价的是中国正把黄金定价权从西方夺走；近期美国干预日元也引起其关注，但更大叙事仍是去美元化下的东方购金与定价转移。结构性利多黄金。来源：thedeepdive.ca 8/15。",
+      "suggestion": "结构性看多黄金，关注东方央行购金与定价权转移的长期逻辑，逢回调分批布局，勿追短期高位。",
+      "bull_bear": "🟢 黄金"
+    },
     {
       "id": "3bd47eb5-fd3c-8178-822e-cd95208707b5",
       "name": "🟢 看多BTC/MSTR：预测MicroStrategy数年内冲$1000",
