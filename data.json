@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18 09:33 JST",
+  "generated_at": "2026-08-18 12:25 JST",
   "date_range": {
-    "start": "2025-11-01",
+    "start": "2025-08-20",
     "end": "2026-08-17"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2435,
-    "total_rows": 2459,
+    "legged_rows": 2453,
+    "total_rows": 2477,
     "pct": 99.0
   },
   "today_signals": [
@@ -97,39 +97,39 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 325.9,
-      "bull": 1313,
+      "weighted_sum": 334.4,
+      "bull": 1329,
       "bear": 115,
       "neutral": 183,
-      "total": 1611,
-      "legs_bull": 2169,
+      "total": 1627,
+      "legs_bull": 2192,
       "legs_bear": 129,
       "legs_neutral": 87,
       "legs_split": 44,
-      "legs_total": 2429,
-      "strong_bull": 710,
+      "legs_total": 2452,
+      "strong_bull": 719,
       "strong_bear": 0,
-      "w_bull": 2879,
+      "w_bull": 2911,
       "w_bear": 129,
-      "avg": 0.13
+      "avg": 0.14
     },
     {
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 53.3,
+      "weighted_sum": 54.3,
       "bull": 116,
       "bear": 8,
       "neutral": 24,
       "total": 148,
-      "legs_bull": 358,
+      "legs_bull": 359,
       "legs_bear": 35,
       "legs_neutral": 12,
       "legs_split": 3,
-      "legs_total": 408,
+      "legs_total": 409,
       "strong_bull": 48,
       "strong_bear": 1,
-      "w_bull": 406,
+      "w_bull": 407,
       "w_bear": 36,
       "avg": 0.13
     },
@@ -177,20 +177,20 @@
       "sector": "Equities",
       "score": -12,
       "consensus": 12,
-      "weighted_sum": 11.9,
+      "weighted_sum": 11.0,
       "bull": 160,
-      "bear": 94,
+      "bear": 95,
       "neutral": 60,
-      "total": 314,
+      "total": 315,
       "legs_bull": 329,
-      "legs_bear": 428,
+      "legs_bear": 429,
       "legs_neutral": 30,
       "legs_split": 17,
-      "legs_total": 804,
+      "legs_total": 805,
       "strong_bull": 69,
       "strong_bear": 80,
       "w_bull": 398,
-      "w_bear": 508,
+      "w_bear": 509,
       "avg": 0.01
     },
     {
@@ -217,24 +217,44 @@
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -109.3,
+      "weighted_sum": -111.3,
       "bull": 11,
-      "bear": 52,
+      "bear": 53,
       "neutral": 19,
-      "total": 82,
+      "total": 83,
       "legs_bull": 28,
-      "legs_bear": 925,
+      "legs_bear": 927,
       "legs_neutral": 20,
       "legs_split": 4,
-      "legs_total": 977,
+      "legs_total": 979,
       "strong_bull": 1,
       "strong_bear": 55,
       "w_bull": 29,
-      "w_bear": 980,
+      "w_bear": 982,
       "avg": -0.11
     }
   ],
   "sector_summary_short": [
+    {
+      "sector": "Precious Metals",
+      "score": 73,
+      "consensus": 73,
+      "weighted_sum": 90.0,
+      "bull": 1329,
+      "bear": 115,
+      "neutral": 183,
+      "total": 1627,
+      "legs_bull": 630,
+      "legs_bear": 106,
+      "legs_neutral": 74,
+      "legs_split": 36,
+      "legs_total": 846,
+      "strong_bull": 150,
+      "strong_bear": 0,
+      "w_bull": 780,
+      "w_bear": 106,
+      "avg": 0.11
+    },
     {
       "sector": "Energy & Commodities",
       "score": 72,
@@ -254,26 +274,6 @@
       "w_bull": 177,
       "w_bear": 28,
       "avg": 0.14
-    },
-    {
-      "sector": "Precious Metals",
-      "score": 72,
-      "consensus": 72,
-      "weighted_sum": 84.5,
-      "bull": 1313,
-      "bear": 115,
-      "neutral": 183,
-      "total": 1611,
-      "legs_bull": 611,
-      "legs_bear": 106,
-      "legs_neutral": 74,
-      "legs_split": 36,
-      "legs_total": 827,
-      "strong_bull": 142,
-      "strong_bear": 0,
-      "w_bull": 753,
-      "w_bear": 106,
-      "avg": 0.1
     },
     {
       "sector": "Alternative",
@@ -341,9 +341,9 @@
       "consensus": 40,
       "weighted_sum": -43.3,
       "bull": 160,
-      "bear": 94,
+      "bear": 95,
       "neutral": 60,
-      "total": 314,
+      "total": 315,
       "legs_bull": 142,
       "legs_bear": 311,
       "legs_neutral": 24,
@@ -359,41 +359,41 @@
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -31.3,
+      "weighted_sum": -32.2,
       "bull": 11,
-      "bear": 52,
+      "bear": 53,
       "neutral": 19,
-      "total": 82,
+      "total": 83,
       "legs_bull": 20,
-      "legs_bear": 276,
+      "legs_bear": 277,
       "legs_neutral": 16,
       "legs_split": 4,
-      "legs_total": 316,
+      "legs_total": 317,
       "strong_bull": 1,
       "strong_bear": 13,
       "w_bull": 21,
-      "w_bear": 289,
+      "w_bear": 290,
       "avg": -0.1
     }
   ],
   "sector_summary_long": [
     {
       "sector": "Precious Metals",
-      "score": 97,
-      "consensus": 97,
-      "weighted_sum": 241.4,
-      "bull": 1313,
+      "score": 98,
+      "consensus": 98,
+      "weighted_sum": 244.4,
+      "bull": 1329,
       "bear": 115,
       "neutral": 183,
-      "total": 1611,
-      "legs_bull": 1558,
+      "total": 1627,
+      "legs_bull": 1562,
       "legs_bear": 23,
       "legs_neutral": 13,
       "legs_split": 8,
-      "legs_total": 1602,
-      "strong_bull": 568,
+      "legs_total": 1606,
+      "strong_bull": 569,
       "strong_bear": 0,
-      "w_bull": 2126,
+      "w_bull": 2131,
       "w_bear": 23,
       "avg": 0.15
     },
@@ -401,19 +401,19 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 27.0,
+      "weighted_sum": 28.0,
       "bull": 116,
       "bear": 8,
       "neutral": 24,
       "total": 148,
-      "legs_bull": 207,
+      "legs_bull": 208,
       "legs_bear": 7,
       "legs_neutral": 2,
       "legs_split": 0,
-      "legs_total": 216,
+      "legs_total": 217,
       "strong_bull": 22,
       "strong_bear": 1,
-      "w_bull": 229,
+      "w_bull": 230,
       "w_bear": 8,
       "avg": 0.13
     },
@@ -461,21 +461,21 @@
       "sector": "Equities",
       "score": 25,
       "consensus": 25,
-      "weighted_sum": 55.2,
+      "weighted_sum": 54.2,
       "bull": 160,
-      "bear": 94,
+      "bear": 95,
       "neutral": 60,
-      "total": 314,
+      "total": 315,
       "legs_bull": 187,
-      "legs_bear": 117,
+      "legs_bear": 118,
       "legs_neutral": 6,
       "legs_split": 1,
-      "legs_total": 311,
+      "legs_total": 312,
       "strong_bull": 60,
       "strong_bear": 30,
       "w_bull": 247,
-      "w_bear": 147,
-      "avg": 0.18
+      "w_bear": 148,
+      "avg": 0.17
     },
     {
       "sector": "Macro",
@@ -501,20 +501,20 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -78.0,
+      "weighted_sum": -79.0,
       "bull": 11,
-      "bear": 52,
+      "bear": 53,
       "neutral": 19,
-      "total": 82,
+      "total": 83,
       "legs_bull": 8,
-      "legs_bear": 649,
+      "legs_bear": 650,
       "legs_neutral": 4,
       "legs_split": 0,
-      "legs_total": 661,
+      "legs_total": 662,
       "strong_bull": 0,
       "strong_bear": 42,
       "w_bull": 8,
-      "w_bear": 691,
+      "w_bear": 692,
       "avg": -0.12
     }
   ],
@@ -664,6 +664,15 @@
       "signal": "高"
     },
     {
+      "kol_name": "Jeffrey Gundlach",
+      "sector": "Precious Metals",
+      "date": "2026-08-06",
+      "from": "看空",
+      "to": "看多",
+      "title": "看多黄金/实物资产：Gundlach 2026年投资组合策略强调黄金、现金与实物资产配置",
+      "signal": "高"
+    },
+    {
       "kol_name": "S. Druckenmiller",
       "sector": "Equities",
       "date": "2026-08-06",
@@ -707,15 +716,6 @@
       "to": "看空",
       "title": "看空美债/美元：Alasdair Macleod警告债券市场将自燃，黄金是法币崩溃唯一对冲",
       "signal": "中"
-    },
-    {
-      "kol_name": "Jeffrey Gundlach",
-      "sector": "Precious Metals",
-      "date": "2026-08-06",
-      "from": "看空",
-      "to": "看多",
-      "title": "看多黄金/实物资产：Gundlach 2026年投资组合策略强调黄金、现金与实物资产配置",
-      "signal": "高"
     },
     {
       "kol_name": "Robert Kiyosaki",
@@ -794,13 +794,13 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 564,
-        "kols": 79
+        "count": 579,
+        "kols": 81
       },
       {
         "ticker": "白银",
-        "count": 314,
-        "kols": 64
+        "count": 322,
+        "kols": 65
       },
       {
         "ticker": "黄金/白银",
@@ -829,7 +829,7 @@
       },
       {
         "ticker": "原油",
-        "count": 48,
+        "count": 49,
         "kols": 20
       },
       {
@@ -843,14 +843,14 @@
         "kols": 23
       },
       {
-        "ticker": "黄金/白银(GLD,SLV)",
-        "count": 28,
-        "kols": 23
-      },
-      {
         "ticker": "比特币(BTC)",
         "count": 28,
         "kols": 12
+      },
+      {
+        "ticker": "黄金/白银(GLD,SLV)",
+        "count": 28,
+        "kols": 23
       },
       {
         "ticker": "BTC",
@@ -915,14 +915,14 @@
         "kols": 23
       },
       {
-        "ticker": "美元DXY",
-        "count": 26,
-        "kols": 16
-      },
-      {
         "ticker": "美债 TLT",
         "count": 26,
         "kols": 22
+      },
+      {
+        "ticker": "美元DXY",
+        "count": 26,
+        "kols": 16
       },
       {
         "ticker": "长久期美债",
@@ -947,6 +947,58 @@
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Jordan Roy-Byrne",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-17",
+      "latest_comments": "The Daily Gold 编辑、CMT Jordan Roy-Byrne 发文称黄金白银「历史性买入窗口」已开启：他指出在长期牛市中这类买入机会极其罕见，一旦出现必须抓住。结合其技术分析框架，金银中期上行趋势未改，回调即是加仓机会。→ 看多黄金与白银。来源：Gold Eagle 08-17",
+      "latest_title": "🟢 看多黄金白银：Jordan Roy-Byrne 称「历史性金银买入窗口」已开启",
+      "bull_bear": "🟢 黄金(GLD) | 🟢 白银(SLV) | 🔴 无明显看空",
+      "total_entries": 22,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Jeffrey Gundlach",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-17",
+      "latest_comments": "DoubleLine 首席 Jeff Gundlach 警告：把 AI 芯片变成一个「资产类别」——暗指英伟达联合 6 家资管巨头募集资金——正是市场见顶的典型信号，暗示 AI/科技板块风险积聚。同时他称 Fed 下月「不可能」降息，并认为新任主席 Warsh 倾向鹰派。→ 看空 AI 科技股(见顶)+看空美债(利率难降)。来源：Bloomberg/BANKBIT 08-17",
+      "latest_title": "🔴 看空AI芯片：Gundlach 称AI芯片成「资产类别」=市场见顶信号，并称Fed「不可能」降息",
+      "bull_bear": "🔴 AI芯片(NVDA/半导体/科技) | 🔴 美债(利率难降) | 🟢 现金/短债",
+      "total_entries": 40,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Lacy Hunt",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-17",
+      "latest_comments": "知名通缩论者、Hoisington 首席经济学家 Lacy Hunt 罕见转空：他数十年看多美债，但在 Q2 展望中称美国通胀的长期均衡中枢正从约 1.5% 上移，暗示长达数十年的债牛(收益率下行)终结。Advisor Perspectives 称这是「惊人的转向」，Hoisington 对长期国债的看多立场发生戏剧性 U 型反转。→ 看空长久期美债、利率中枢上移。来源：Advisor Persp",
+      "latest_title": "🔴 看空美债：Lacy Hunt 罕见转空、称数十年债牛终结，通胀中枢从1.5%上移",
+      "bull_bear": "🔴 美债(TLT/长久期) | 🔴 30年期国债 | 🟢 通胀挂钩(TIPS)",
+      "total_entries": 22,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Jeff Currie",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-17",
+      "latest_comments": "前高盛大宗商品研究主管、现 Altis Partners 首席策略官 Jeff Currie 转多黄金：他认为当央行从「被迫买家」变为「被迫卖家」时黄金才会失去最大买盘，目前央行购金+储备多元化仍在支撑金价，长期目标 $10,000/盎司。同时他在 CNBC 称原油「丰裕幻觉」(illusion of abundance)已终结，供需错位将推动油价上行。→ 贵金属与能源双双看多。来源：CNBC 0",
+      "latest_title": "🟢 看多黄金+原油：Jeff Currie 转多黄金(长期目标$10000)、称石油「丰裕幻觉」已终结",
+      "bull_bear": "🟢 GLD, 黄金 | 🟢 原油(WTI/Brent) | 🔴 无明显看空",
+      "total_entries": 18,
+      "trend": "↗ 趋多"
+    },
     {
       "kol_name": "Timothy Arcuri",
       "sector": "Equities",
@@ -1260,19 +1312,6 @@
       "trend": "→"
     },
     {
-      "kol_name": "Jeff Currie",
-      "sector": "Energy & Commodities",
-      "detail_sector": "资源与能源安全",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-12",
-      "latest_comments": "Carlyle能源首席策略官Jeff Currie(08-12 Bloomberg)指出油价$100存在错估，纸面期货与实货市场脱节→实货库存已近罐底而纸面价未反映实际紧缺→俄油进入系统带来的价格扰动加剧了两者背离→隐含实货紧俏被纸面价格低估，油价有上行动力。来源: Bloomberg TV / Carlyle Energy Pathways",
-      "latest_title": "🟢 看多原油：Currie称$100油价被错估，纸面与实货市场脱节、俄油供给扰动",
-      "bull_bear": "🟢 原油(纸面$100被低估) | 🟢 能源股 XLE, XOP",
-      "total_entries": 17,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Luke Gromen",
       "sector": "Macro",
       "detail_sector": "宏观货币与金融体系",
@@ -1351,19 +1390,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Jordan Roy-Byrne",
-      "sector": "Precious Metals",
-      "detail_sector": "贵金属",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-11",
-      "latest_comments": "The Daily Gold 8/11 月度视频（经 marketsanity 08-10 转述）：①金银8月走势——本轮严重回调已近尾声，矿业股出现底部信号；②中国在底部再次大规模买入，且存在隐藏黄金需求信号（央行购金/实物需求）；③利率方面关注 Warsh 提名与收益率曲线控制(YCC)风险，若 Fed 转向鸽派将助推金银；④维持金银目标价远高于当前水平，未来数周回调即买入机会，优先黄金、白银",
-      "latest_title": "强烈看多金银：8月底部信号确认，中国再买底，金银目标价仍在上方",
-      "bull_bear": "看多 黄金, 白银, 矿业股",
-      "total_entries": 21,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Philippe Laffont（Coatue Management 创始人 / 首席投资官）",
       "sector": "Equities",
       "detail_sector": "科技AI",
@@ -1403,19 +1429,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "Lacy Hunt",
-      "sector": "Government Debt",
-      "detail_sector": "国债收益率",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-10",
-      "latest_comments": "Hoisington Investment Management(Lacy Hunt执掌)历史上最坚定的美债多头→最近转为看空。该机构曾正确预测长期利率下行→现认为债券牛市已终结。转向标志着通胀/财政赤字已改变长债基本逻辑。来源: 公开研究 8/10",
-      "latest_title": "🔴 Lacy Hunt/Hoisington转空：债券牛市终结",
-      "bull_bear": "🔴 美国长期国债(TLT, ZB)",
-      "total_entries": 21,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Jeremy Grantham",
       "sector": "Macro",
       "detail_sector": "末日情景",
@@ -1426,19 +1439,6 @@
       "latest_title": "看空美股：美国霸权终结，杠杆过高泡沫将破",
       "bull_bear": "SPY, QQQ | GLD, Cash",
       "total_entries": 18,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Jeffrey Gundlach",
-      "sector": "Government Debt",
-      "detail_sector": "国债收益率",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-10",
-      "latest_comments": "Gundlach 指出债券市场正在向美联储发出明确信号——必须继续抗击通胀而非转向宽松。新任美联储主席 Kevin Warsh 持鹰派立场，不会带来'宽松货币'。长期国债面临持续压力，收益率有上行风险。债券市场定价反映出对通胀粘性的深度担忧。来源：The WealthAdvisor (Aug 10)",
-      "latest_title": "看空美债：债券市场正在告诉美联储必须抗通胀",
-      "bull_bear": "TLT, ZB | TIPS, STIP",
-      "total_entries": 39,
       "trend": "↘ 趋空"
     },
     {
@@ -1778,6 +1778,19 @@
       "bull_bear": "🟢 GLD, GDX(黄金) | 🟢 SLV, AG(白银) | 🔴 美元/法币体系",
       "total_entries": 37,
       "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-07-27",
+      "latest_comments": "金价回调不改 $6,000 目标：短期抛售是纸市场获利了结，非趋势反转。央行购金与实物短缺的基本面未变，回调提供更好入场点。",
+      "latest_title": "Gold Still Headed to $6,000 Despite Selloff",
+      "bull_bear": "看多 黄金（$6,000）",
+      "total_entries": 14,
+      "trend": "→"
     },
     {
       "kol_name": "Bob Moriarty",
@@ -2524,6 +2537,222 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3c047eb5-fd3c-818d-ab4e-ea3d3e115346",
+      "name": "🟢 看多黄金白银：Jordan Roy-Byrne 称「历史性金银买入窗口」已开启",
+      "kol_name": "Jordan Roy-Byrne",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-17",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "The Daily Gold 编辑、CMT Jordan Roy-Byrne 发文称黄金白银「历史性买入窗口」已开启：他指出在长期牛市中这类买入机会极其罕见，一旦出现必须抓住。结合其技术分析框架，金银中期上行趋势未改，回调即是加仓机会。→ 看多黄金与白银。来源：Gold Eagle 08-17",
+      "suggestion": "金银回调可分批建仓；白银弹性更大但波动高，注意仓位管理。",
+      "bull_bear": "🟢 黄金(GLD) | 🟢 白银(SLV) | 🔴 无明显看空"
+    },
+    {
+      "id": "3c047eb5-fd3c-810e-9108-fce96b92155a",
+      "name": "🔴 看空AI芯片：Gundlach 称AI芯片成「资产类别」=市场见顶信号，并称Fed「不可能」降息",
+      "kol_name": "Jeffrey Gundlach",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-17",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "comments": "DoubleLine 首席 Jeff Gundlach 警告：把 AI 芯片变成一个「资产类别」——暗指英伟达联合 6 家资管巨头募集资金——正是市场见顶的典型信号，暗示 AI/科技板块风险积聚。同时他称 Fed 下月「不可能」降息，并认为新任主席 Warsh 倾向鹰派。→ 看空 AI 科技股(见顶)+看空美债(利率难降)。来源：Bloomberg/BANKBIT 08-17",
+      "suggestion": "AI/半导体板块注意获利了结与估值风险；利率居高不下，债券仍宜控制久期，现金/短债相对占优。",
+      "bull_bear": "🔴 AI芯片(NVDA/半导体/科技) | 🔴 美债(利率难降) | 🟢 现金/短债"
+    },
+    {
+      "id": "3c047eb5-fd3c-81f1-9b7d-ee7c9cd1c8f0",
+      "name": "🔴 看空美债：Lacy Hunt 罕见转空、称数十年债牛终结，通胀中枢从1.5%上移",
+      "kol_name": "Lacy Hunt",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-17",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "comments": "知名通缩论者、Hoisington 首席经济学家 Lacy Hunt 罕见转空：他数十年看多美债，但在 Q2 展望中称美国通胀的长期均衡中枢正从约 1.5% 上移，暗示长达数十年的债牛(收益率下行)终结。Advisor Perspectives 称这是「惊人的转向」，Hoisington 对长期国债的看多立场发生戏剧性 U 型反转。→ 看空长久期美债、利率中枢上移。来源：Advisor Perspectives 08-17",
+      "suggestion": "长久期美债持有人注意久期风险，可缩短久期、规避 30 年期国债；关注通胀挂钩债券(TIPS)与利率上行受益资产。",
+      "bull_bear": "🔴 美债(TLT/长久期) | 🔴 30年期国债 | 🟢 通胀挂钩(TIPS)"
+    },
+    {
+      "id": "3c047eb5-fd3c-81d2-b326-d701e2776bf9",
+      "name": "🟢 看多黄金+原油：Jeff Currie 转多黄金(长期目标$10000)、称石油「丰裕幻觉」已终结",
+      "kol_name": "Jeff Currie",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-17",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "前高盛大宗商品研究主管、现 Altis Partners 首席策略官 Jeff Currie 转多黄金：他认为当央行从「被迫买家」变为「被迫卖家」时黄金才会失去最大买盘，目前央行购金+储备多元化仍在支撑金价，长期目标 $10,000/盎司。同时他在 CNBC 称原油「丰裕幻觉」(illusion of abundance)已终结，供需错位将推动油价上行。→ 贵金属与能源双双看多。来源：CNBC 08-17",
+      "suggestion": "黄金可作长期配置底仓；原油受益于供给端紧平衡，关注能源股与商品多头，但需注意央行政策反转风险。",
+      "bull_bear": "🟢 GLD, 黄金 | 🟢 原油(WTI/Brent) | 🔴 无明显看空"
+    },
+    {
+      "id": "3c047eb5-fd3c-8155-8dfe-de964fa046d3",
+      "name": "Gold Still Headed to $6,000 Despite Selloff",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-27",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "金价回调不改 $6,000 目标：短期抛售是纸市场获利了结，非趋势反转。央行购金与实物短缺的基本面未变，回调提供更好入场点。",
+      "suggestion": "回调分批买入，不追高",
+      "bull_bear": "看多 黄金（$6,000）"
+    },
+    {
+      "id": "3c047eb5-fd3c-81ab-aa07-f688156516d2",
+      "name": "Paper Markets Are Masking a Physical Gold & Silver Supply Deficit",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-16",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "纸市场（期货/ETF 空头）掩盖实物金银供应赤字：交易所库存降至多年低位，实物交割需求上升，一旦纸价与实物缺口收敛，价格将剧烈重估。",
+      "suggestion": "实物/期货多头持有，警惕逼空行情",
+      "bull_bear": "看多 黄金, 白银"
+    },
+    {
+      "id": "3c047eb5-fd3c-8166-8a02-c66d93809711",
+      "name": "Gold to $6,000 and Silver to Triple Digits",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-12",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "Rule Symposium 演讲：黄金目标 $6,000，白银目标三位数（$100+）。核心依据：央行购金不可逆、实物白银缺口扩大、金银比收敛空间大。",
+      "suggestion": "金银同持，白银弹性仓位更高",
+      "bull_bear": "看多 黄金（$6,000）, 白银（三位数）"
+    },
+    {
+      "id": "3c047eb5-fd3c-8162-b7c3-e8dc58a10dfb",
+      "name": "The Case for $6,000 Gold Remains",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-06",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "金价在 $4,190 附近整固：6 月低点后企稳，纸市场抛压已消化。重申 $6,000 目标不变，逻辑=央行购金+债务货币化+实物供需缺口三力共振。",
+      "suggestion": "中线持有，$6,000 目标前不减仓",
+      "bull_bear": "看多 黄金（目标$6,000）"
+    },
+    {
+      "id": "3c047eb5-fd3c-81b5-8617-f7de140a058d",
+      "name": "ECB Gold Is Now the #1 Reserve Asset — Central Bank Reset",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-18",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "引世界黄金协会 2026 央行黄金储备调查：央行购金意愿创历史新高，ECB 黄金已成第一大储备资产。'央行重置'正在进行，金价获制度性买盘。",
+      "suggestion": "跟随央行配置节奏持有黄金",
+      "bull_bear": "看多 黄金"
+    },
+    {
+      "id": "3c047eb5-fd3c-8175-b9ae-cb35848c53da",
+      "name": "Central Bank Gold Buying, Uranium Deficits & Commodity Disruption",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-04",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "加拿大矿业报告访谈：央行购金持续为金价提供结构性支撑；同时大宗商品供给侧（铀等）出现缺口，'商品颠覆'周期启动，贵金属与资源品共振。",
+      "suggestion": "黄金+资源品均衡配置",
+      "bull_bear": "看多 黄金, 铀/资源品"
+    },
+    {
+      "id": "3c047eb5-fd3c-81ba-ac79-da31bbf4b408",
+      "name": "The Silver Squeeze Just Got Real",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-04",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "认为白银挤空行情'成真'：Comex 可交割库存持续下降、租赁费率上升、实物需求（光伏+央行+投资）强劲，空头回补压力推动白银补涨。",
+      "suggestion": "白银多单持有，关注库存数据验证",
+      "bull_bear": "强烈看多 白银"
+    },
+    {
+      "id": "3c047eb5-fd3c-8148-9959-fb460116e05b",
+      "name": "Iran's Currency War Gamble: US Dollars in the Crosshairs",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-03-16",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "地缘维度：伊朗'货币战'把美元推向瞄准镜，去美元化加速。美元武器化推动各国央行增持黄金、减持美债，黄金作为地缘对冲需求上升。",
+      "suggestion": "保留黄金对冲地缘风险敞口",
+      "bull_bear": "看多 黄金"
+    },
+    {
+      "id": "3c047eb5-fd3c-8110-91b6-d19dfd2bda31",
+      "name": "Bessent, the Debt and Why It Signals to Buy Gold",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-03-09",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "以财长 Bessent 政策与债务形势为切入点：美国财政赤字与债务滚续压力决定政策无法真正紧缩，'金融压制'（financial repression）回归 → 信号指向增持黄金。",
+      "suggestion": "增持黄金对冲财政风险",
+      "bull_bear": "看多 黄金"
+    },
+    {
+      "id": "3c047eb5-fd3c-817e-af7d-e4471cb4f7e4",
+      "name": "Why Gold Will Go To $10,000, Still 'Early Innings' for Silver",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-02-05",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "Palisade Radio 访谈：给出黄金 $10,000 长期目标，认为白银仍处于牛市'早期局'。驱动逻辑：央行储备重置、全球债务不可持续、法币贬值竞赛。",
+      "suggestion": "长期持仓金银，回调即加仓",
+      "bull_bear": "看多 黄金（目标$10,000）, 白银（早期局）"
+    },
+    {
+      "id": "3c047eb5-fd3c-81dc-8f2c-d24c90f85bca",
+      "name": "The Physical Market Is Taking Over the Paper Market",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2026-01-28",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "核心论点：实物黄金白银市场正在接管纸市场定价权。Comex/LBMA 纸合约与实物交割缺口扩大，实物短缺最终会通过价格剧烈重估反映，挤压空头。",
+      "suggestion": "优先持有实物或实物背书的敞口",
+      "bull_bear": "看多 黄金, 白银"
+    },
+    {
+      "id": "3c047eb5-fd3c-8145-aa41-f9af3a074175",
+      "name": "Gold Will Rise, but Silver Is Poised to Go Parabolic",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2025-11-18",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "判断金价将继续上行，但白银弹性更大、具备抛物线行情潜力。逻辑：白银工业+货币双重属性，金银比处于高位提供补涨空间，供应端约束明显。",
+      "suggestion": "白银仓位可高于黄金，博取弹性",
+      "bull_bear": "看多 黄金, 白银（白银弹性更大）"
+    },
+    {
+      "id": "3c047eb5-fd3c-81b7-89de-f0d19a0a58b5",
+      "name": "Debt, the Fed, and the Bullish Case for Gold and Silver",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2025-09-30",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "以债务扩张+美联储降息为双主线论证金银牛市逻辑：政府债务货币化压低实际利率，央行购金长期化，金银作为法币风险对冲工具配置价值上升。",
+      "suggestion": "逢低配置黄金白银",
+      "bull_bear": "看多 黄金, 白银"
+    },
+    {
+      "id": "3c047eb5-fd3c-81f3-9635-c752174c8e10",
+      "name": "What Wall Street Knows About This Fed（美联储政策路径内部视角）",
+      "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "kol_or_ib": "KOL",
+      "date": "2025-08-20",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "从投行内部视角拆解美联储真实政策意图，认为华尔街知道降息并非通胀已解决，而是金融稳定压力下的被动选择。隐含逻辑：政策宽松最终利好黄金等实物资产。",
+      "suggestion": "维持黄金配置，关注政策宽松预期兑现",
+      "bull_bear": "看多 黄金"
+    },
     {
       "id": "3c047eb5-fd3c-8117-81a9-e3edac6035e8",
       "name": "🟢 看多MRVL/SMTC财报：Timothy Arcuri看好半导体设计，下调INTC目标价",
