@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 17:16 JST",
+  "generated_at": "2026-08-23 17:51 JST",
   "date_range": {
     "start": "2025-08-18",
     "end": "2026-08-21"
@@ -3542,36 +3542,6 @@
     },
     {
       "list_num": "108",
-      "name": "Morgan Stanley",
-      "scope": "全球股市方向；日本企业治理改革与ROE；宏观风险与资产配置",
-      "bio": "全球顶级投行，宏观与跨资产策略团队。聚焦全球股市（尤其日股）、企业盈利、资本流动与宏观风险。",
-      "domain": "股权市场",
-      "sector": "Equities",
-      "kol_or_ib": "KOL",
-      "active": true
-    },
-    {
-      "list_num": "109",
-      "name": "Goldman Sachs",
-      "scope": "黄金目标价与央行购金；大宗商品回报；中美AI与地缘竞争对商品需求影响",
-      "bio": "全球顶级投行，大宗商品研究团队（含贵金属）。聚焦黄金、工业金属、能源及宏观驱动。",
-      "domain": "贵金属",
-      "sector": "Precious Metals",
-      "kol_or_ib": "KOL",
-      "active": true
-    },
-    {
-      "list_num": "110",
-      "name": "Citi / UBS",
-      "scope": "金价目标价与情景分析；美债收益率与美元对黄金影响；央行购金与投资需求",
-      "bio": "花旗与瑞银贵金属研究团队合并监控。两行对金价目标与路径常有分歧（Citi看涨情景5000美元 vs UBS利率逆风）。",
-      "domain": "贵金属",
-      "sector": "Precious Metals",
-      "kol_or_ib": "KOL",
-      "active": true
-    },
-    {
-      "list_num": "111",
       "name": "Judy Shelton",
       "scope": "金本位与货币体系改革；美联储政策批评；50年期黄金挂钩国债（TTB）提案",
       "bio": "经济学家，特朗普政府时期曾任美联储理事提名人。主张回归金本位、批评美联储货币政策政治化。",
@@ -3581,7 +3551,7 @@
       "active": true
     },
     {
-      "list_num": "112",
+      "list_num": "109",
       "name": "Jim Rogers",
       "scope": "大宗商品周期；白银与贵金属；全球央行印钞与资产泡沫",
       "bio": "传奇投资人，量子基金联合创始人（与索罗斯）。长期看多大宗商品与白银，警告全球印钞引发资产泡沫。",
@@ -3591,7 +3561,7 @@
       "active": true
     },
     {
-      "list_num": "113",
+      "list_num": "110",
       "name": "Martin Armstrong",
       "scope": "经济周期预测（8.6年周期）；债务与地缘冲突；黄金与市场拐点",
       "bio": "经济学家/周期理论家，Socrates经济信心模型与8.6年周期理论。预测2025-2030全球债务与地缘冲突高峰期。",
@@ -3601,7 +3571,7 @@
       "active": true
     },
     {
-      "list_num": "114",
+      "list_num": "111",
       "name": "Michael Widmer",
       "scope": "黄金白银目标价；供应下降与成本上升；白银工业属性与投资情绪",
       "bio": "美国银行（BofA）金属研究主管。聚焦黄金白银供需、目标价与工业需求。",
@@ -3611,7 +3581,7 @@
       "active": true
     },
     {
-      "list_num": "115",
+      "list_num": "112",
       "name": "Amos Hochstein（能源安全高级顾问）",
       "scope": "全球能源安全；石油天然气价格与供给；俄乌/中东地缘冲突对能源影响；LNG 与能源投资；制裁与能源外交",
       "bio": "拜登政府能源安全高级顾问（2021-2025），白宫副助理与能源投资高级顾问（2022-2025），前奥巴马政府国务院国际能源事务特别代表，Tellurian LNG 前高级副总裁。能源外交、地缘政治与能源市场专家，聚焦全球能源安全、石油天然气价格、制裁与地缘冲突对能源市场影响。",
@@ -3621,7 +3591,7 @@
       "active": true
     },
     {
-      "list_num": "116",
+      "list_num": "113",
       "name": "Robert Prechter / Elliott Wave International",
       "scope": "艾略特波浪计数、社会情绪与市场拐点",
       "bio": "艾略特波浪理论权威，社会情绪学（Socionomics）创立者，EWI 创始人",
@@ -3631,7 +3601,7 @@
       "active": true
     },
     {
-      "list_num": "117",
+      "list_num": "114",
       "name": "Tom McClellan",
       "scope": "市场宽度振荡器、总统四年周期、领先指标叠图",
       "bio": "McClellan Financial Publications 主编，McClellan Oscillator 家族传人",
@@ -3641,7 +3611,7 @@
       "active": true
     },
     {
-      "list_num": "118",
+      "list_num": "115",
       "name": "Avi Gilburt",
       "scope": "艾略特波浪（金银 / SPX / 矿股），情绪驱动框架",
       "bio": "ElliottWaveTrader.net 创始人，注册会计师出身",
@@ -3651,7 +3621,7 @@
       "active": true
     },
     {
-      "list_num": "119",
+      "list_num": "116",
       "name": "Glenn Neely",
       "scope": "NEoWave 波浪结构、市场时间与形态",
       "bio": "NEoWave Institute 创始人，规则化波浪理论提出者",
@@ -3661,7 +3631,7 @@
       "active": true
     },
     {
-      "list_num": "120",
+      "list_num": "117",
       "name": "Peter Goodburn / WaveTrack International",
       "scope": "艾略特波浪 + 长周期（Inflation-Pop 论），大宗与股指",
       "bio": "WaveTrack International 首席波浪分析师",
@@ -3671,7 +3641,7 @@
       "active": true
     },
     {
-      "list_num": "121",
+      "list_num": "118",
       "name": "Charles Nenner",
       "scope": "专有周期算法、战争周期，股/债/商品拐点",
       "bio": "Charles Nenner Research Center 创始人，前高盛技术分析师",
@@ -3681,7 +3651,7 @@
       "active": true
     },
     {
-      "list_num": "122",
+      "list_num": "119",
       "name": "Eric Hadik",
       "scope": "40 年 / 17 年周期，Cycle Progression 时间窗",
       "bio": "INSIIDE Track Trading 主编",
@@ -3691,7 +3661,7 @@
       "active": true
     },
     {
-      "list_num": "123",
+      "list_num": "120",
       "name": "David Hickson / Sentient Trader",
       "scope": "J.M. Hurst 嵌套周期、FLD 交易策略",
       "bio": "Sentient Trader 创始人，Hurst 周期理论主要推广者",
@@ -3701,17 +3671,7 @@
       "active": true
     },
     {
-      "list_num": "124",
-      "name": "Foundation for the Study of Cycles",
-      "scope": "跨资产周期研究、历史周期数据库",
-      "bio": "1941 年创立的周期研究学术机构",
-      "domain": "周期研究",
-      "sector": "Macro",
-      "kol_or_ib": "KOL",
-      "active": true
-    },
-    {
-      "list_num": "125",
+      "list_num": "121",
       "name": "Andrew Maguire（Kinesis Money 总监 / 贵金属市场吹哨人）",
       "scope": "COMEX 纸金/纸银 vs 实物、银行操纵与空头压制、央行购金与去美元化、白银挤仓与金银比、金价长期目标 (如 $8000)。",
       "bio": "英国大宗商品交易员、贵金属市场吹哨人。2010 年向 CFTC 举报 JPMorgan/HSBC 操纵金银市场并提前预测白银操纵事件；近 50 年大宗交易经验。现任 Kinesis Money 总监，主持 Live From the Vault (LFTV) 播客。",
@@ -3721,7 +3681,7 @@
       "active": true
     },
     {
-      "list_num": "126",
+      "list_num": "122",
       "name": "Lina Thomas",
       "scope": "黄金目标价与周期判断（央行购金需求、Fed 货币政策与 ETF 资金流）、投机多单集中引发的战术回调风险、白银跟随黄金走势。",
       "bio": "Goldman Sachs Research 高级大宗商品分析师（senior commodities analyst），黄金/白银专家。长期发布黄金预测研报并接受 Goldman 官方播客 The Markets 访谈，观点视作 Goldman 贵金属研究团队官方向。",
