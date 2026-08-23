@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22 09:30 JST",
+  "generated_at": "2026-08-23 10:07 JST",
   "date_range": {
     "start": "2025-08-18",
     "end": "2026-08-21"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2844,
-    "total_rows": 2868,
+    "legged_rows": 2846,
+    "total_rows": 2870,
     "pct": 99.2
   },
   "today_signals": [
@@ -97,27 +97,27 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 329.4,
-      "bull": 1393,
+      "weighted_sum": 321.9,
+      "bull": 1394,
       "bear": 139,
-      "neutral": 189,
-      "total": 1721,
-      "legs_bull": 2216,
-      "legs_bear": 130,
+      "neutral": 190,
+      "total": 1723,
+      "legs_bull": 2217,
+      "legs_bear": 133,
       "legs_neutral": 88,
       "legs_split": 44,
-      "legs_total": 2478,
+      "legs_total": 2482,
       "strong_bull": 726,
       "strong_bear": 0,
-      "w_bull": 2942,
-      "w_bear": 130,
+      "w_bull": 2943,
+      "w_bear": 133,
       "avg": 0.13
     },
     {
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 52.7,
+      "weighted_sum": 51.5,
       "bull": 139,
       "bear": 10,
       "neutral": 28,
@@ -137,7 +137,7 @@
       "sector": "Crypto",
       "score": 57,
       "consensus": 57,
-      "weighted_sum": 49.2,
+      "weighted_sum": 48.1,
       "bull": 104,
       "bear": 11,
       "neutral": 23,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -11,
       "consensus": 11,
-      "weighted_sum": 15.6,
+      "weighted_sum": 15.2,
       "bull": 249,
       "bear": 120,
       "neutral": 63,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -79,
       "consensus": 79,
-      "weighted_sum": -59.5,
+      "weighted_sum": -58.2,
       "bull": 65,
       "bear": 104,
       "neutral": 68,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -105.7,
+      "weighted_sum": -103.3,
       "bull": 16,
       "bear": 62,
       "neutral": 20,
@@ -231,7 +231,7 @@
       "strong_bear": 56,
       "w_bull": 29,
       "w_bear": 988,
-      "avg": -0.11
+      "avg": -0.1
     }
   ],
   "sector_summary_short": [
@@ -239,27 +239,27 @@
       "sector": "Precious Metals",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 87.1,
-      "bull": 1393,
+      "weighted_sum": 85.0,
+      "bull": 1394,
       "bear": 139,
-      "neutral": 189,
-      "total": 1721,
-      "legs_bull": 634,
-      "legs_bear": 107,
+      "neutral": 190,
+      "total": 1723,
+      "legs_bull": 635,
+      "legs_bear": 110,
       "legs_neutral": 75,
       "legs_split": 36,
-      "legs_total": 852,
+      "legs_total": 856,
       "strong_bull": 152,
       "strong_bear": 0,
-      "w_bull": 786,
-      "w_bear": 107,
+      "w_bull": 787,
+      "w_bear": 110,
       "avg": 0.1
     },
     {
       "sector": "Energy & Commodities",
       "score": 71,
       "consensus": 71,
-      "weighted_sum": 27.0,
+      "weighted_sum": 26.4,
       "bull": 139,
       "bear": 10,
       "neutral": 28,
@@ -299,7 +299,7 @@
       "sector": "Crypto",
       "score": 19,
       "consensus": 19,
-      "weighted_sum": 6.5,
+      "weighted_sum": 6.3,
       "bull": 104,
       "bear": 11,
       "neutral": 23,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -35,
       "consensus": 35,
-      "weighted_sum": -7.1,
+      "weighted_sum": -7.0,
       "bull": 65,
       "bear": 104,
       "neutral": 68,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -32.9,
+      "weighted_sum": -32.2,
       "bull": 249,
       "bear": 120,
       "neutral": 63,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -30.9,
+      "weighted_sum": -30.2,
       "bull": 16,
       "bear": 62,
       "neutral": 20,
@@ -373,7 +373,7 @@
       "strong_bear": 13,
       "w_bull": 21,
       "w_bear": 292,
-      "avg": -0.1
+      "avg": -0.09
     }
   ],
   "sector_summary_long": [
@@ -381,11 +381,11 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 242.4,
-      "bull": 1393,
+      "weighted_sum": 236.9,
+      "bull": 1394,
       "bear": 139,
-      "neutral": 189,
-      "total": 1721,
+      "neutral": 190,
+      "total": 1723,
       "legs_bull": 1582,
       "legs_bear": 23,
       "legs_neutral": 13,
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 25.7,
+      "weighted_sum": 25.1,
       "bull": 139,
       "bear": 10,
       "neutral": 28,
@@ -415,13 +415,13 @@
       "strong_bear": 1,
       "w_bull": 234,
       "w_bear": 8,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 42.7,
+      "weighted_sum": 41.8,
       "bull": 104,
       "bear": 11,
       "neutral": 23,
@@ -461,7 +461,7 @@
       "sector": "Equities",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 48.5,
+      "weighted_sum": 47.4,
       "bull": 249,
       "bear": 120,
       "neutral": 63,
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -52.4,
+      "weighted_sum": -51.2,
       "bull": 65,
       "bear": 104,
       "neutral": 68,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -74.7,
+      "weighted_sum": -73.0,
       "bull": 16,
       "bear": 62,
       "neutral": 20,
@@ -795,12 +795,12 @@
       {
         "ticker": "黄金",
         "count": 596,
-        "kols": 83
+        "kols": 84
       },
       {
         "ticker": "白银",
         "count": 326,
-        "kols": 65
+        "kols": 66
       },
       {
         "ticker": "黄金/白银",
@@ -1166,7 +1166,7 @@
       "latest_title": "🟢 强烈看多BTC：Pal称$71K突破是Bessent Put，信号巨大",
       "bull_bear": "🟢 BTC, ETH",
       "total_entries": 66,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Peter Schiff",
@@ -1322,7 +1322,7 @@
       "latest_title": "🟢 看多加密：Gareth Soloway给出BTC $85K/ETH $2600/XRP $1.80短线目标",
       "bull_bear": "🟢 BTC, ETH, XRP | 🔴 无明显看空",
       "total_entries": 59,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Dan Loeb",
@@ -1702,6 +1702,19 @@
       "trend": "↘ 趋空"
     },
     {
+      "kol_name": "Avi Gilburt",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-07",
+      "latest_comments": "Metals 板块持续走强，Avi Gilburt 8/7 指出 GDX（金矿股）反弹幅度过大、已不宜视为简单的 b 波，倾向认为底部已确认（leaning towards the bottom being in for GDX），但保留仍可能探更低低点的修正结构。属于艾略特波浪对金矿板块由空转多的拐点判断。来源: https://www.elliottwavetrader.net/p/analy",
+      "latest_title": "🟢 看多金矿：GDX 底部或已确认（EW 结构转多）",
+      "bull_bear": "🟢 GDX, GLD",
+      "total_entries": 2,
+      "trend": "↗ 趋多"
+    },
+    {
       "kol_name": "Peter Krauth",
       "sector": "Precious Metals",
       "detail_sector": "白银",
@@ -1816,7 +1829,7 @@
       "latest_title": "强烈看多黄金：Vince Lanci称COMEX正在失去定价权，中国主导黄金重估",
       "bull_bear": "看多: 黄金 | 看空: COMEX定价权",
       "total_entries": 30,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Ken Griffin（Citadel 创始人 / CEO）",
@@ -1959,7 +1972,7 @@
       "latest_title": "看多Claude模型：Opus 5 内部测试写作能力强劲，模型能力持续跃升",
       "bull_bear": "看多",
       "total_entries": 23,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Plai Navaracha",
@@ -2563,6 +2576,30 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3c447eb5-fd3c-813c-bdbd-cf5e8fc17bcf",
+      "name": "🔴 短空金/银/矿股：修正未走完，或探更低低点后现买点",
+      "kol_name": "Avi Gilburt",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-24",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Gilburt 2026-06-24：白银行情已在 ~$123 见顶并近 50% 急跌，他认为修正未完，通常以 3 波结构进行；目前金、银、矿股 ETF GDX 正setup 探更低低点，以完成此段修正。他 2025/12 KITCO 采访就预警金属进入抛物线末段、2026 大概率sizeable修正，并在 2026/1 高点前后清仓几乎全部矿股。属 EW 框架下对贵金属短线的推演——修正后视为下一段买点。来源: https://www.gold-eagle.com/article/next-buying-opportunity-approaching-mining-stocks-looks-better-gold-and-silver",
+      "suggestion": "短期不追高，等待金/银/GDX 3波修正完成、更低点确认后再考虑布局；Gilburt 视此为下一段买点。",
+      "bull_bear": "🔴 黄金, 白银, GDX(短期修正) | 🟢 矿股(修正后买点)"
+    },
+    {
+      "id": "3c447eb5-fd3c-81ee-b084-eea73a61948d",
+      "name": "🟢 看多金矿：GDX 底部或已确认（EW 结构转多）",
+      "kol_name": "Avi Gilburt",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-07",
+      "sector": "Precious Metals",
+      "detail_sector": "矿业股",
+      "comments": "Metals 板块持续走强，Avi Gilburt 8/7 指出 GDX（金矿股）反弹幅度过大、已不宜视为简单的 b 波，倾向认为底部已确认（leaning towards the bottom being in for GDX），但保留仍可能探更低低点的修正结构。属于艾略特波浪对金矿板块由空转多的拐点判断。来源: https://www.elliottwavetrader.net/p/analysis/Metals-PreWeekend-Update-2026080710333046.html",
+      "suggestion": "关注 GDX 回踩确认结构；若守住支撑，金矿股波段偏多看待。",
+      "bull_bear": "🟢 GDX, GLD"
+    },
     {
       "id": "3c447eb5-fd3c-81c4-8960-e7f010d79c40",
       "name": "🔴 看空美元/通胀失控：债破$40万亿，‘通胀已爆表’，主张负债买硬资产",
