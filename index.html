@@ -26,6 +26,22 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; min-height: 100vh; }
 
+  /* ── KOL 完整名录（页面底部）── */
+  #kol-directory-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .doc-row { display: flex; gap: 14px; padding: 14px 16px; border-bottom: 1px solid var(--border); align-items: flex-start; }
+  .doc-row:last-child { border-bottom: none; }
+  .doc-num { flex: 0 0 44px; font-size: 15px; font-weight: 700; color: var(--accent2); text-align: center; padding-top: 2px; }
+  .doc-body { flex: 1; min-width: 0; }
+  .doc-name { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .doc-bio { font-size: 13px; color: var(--muted); line-height: 1.6; margin-bottom: 4px; }
+  .doc-scope { font-size: 13px; color: var(--text); line-height: 1.6; }
+  .doc-scope-label { display: inline-block; font-size: 11px; font-weight: 700; color: var(--gold); background: rgba(245,158,11,0.12); padding: 1px 6px; border-radius: 4px; margin-right: 6px; }
+  .doc-domain { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .doc-sec { font-size: 11px; font-weight: 600; color: #a5b4fc; background: rgba(99,102,241,0.12); padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+  .doc-ib { font-size: 11px; font-weight: 600; color: var(--warning); background: rgba(249,115,22,0.12); padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+  @media (max-width: 640px) { .doc-row { flex-direction: column; gap: 6px; } .doc-num { flex: none; text-align: left; } }
+
+
   /* ── Header ── */
   header { background: var(--card); border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
   header h1 { font-size: 18px; font-weight: 700; letter-spacing: .5px; }
@@ -317,6 +333,16 @@
 </div><!-- /container -->
 </div><!-- /app -->
 
+<!-- ══════ KOL 完整名录（编号/背景/scope，页面最底部，始终可见）══════ -->
+<section id="kol-directory" style="max-width:1200px;margin:0 auto;padding:32px 20px 56px">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+    <h2 style="font-size:20px;color:var(--text);margin:0">📇 KOL 完整名录</h2>
+    <span id="kol-directory-count" style="font-size:12px;color:var(--muted)"></span>
+  </div>
+  <div style="font-size:12px;color:var(--muted);margin-bottom:14px">全部 KOL 的编号、背景介绍与代表的 scope（分析范围）。按编号升序。数据源：KOL Registry（Notion KOL List 同步）</div>
+  <div id="kol-directory-list"></div>
+</section>
+
 <!-- KOL History Modal -->
 <div id="kol-history-overlay" class="modal-overlay" onclick="closeKolHistory(event)">
   <div class="modal" onclick="event.stopPropagation()">
@@ -461,11 +487,40 @@ async function loadData() {
     });
     document.getElementById('update-time').textContent = '更新于 ' + DATA.generated_at;
     render();
+    renderKolDirectory();
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
   } catch(e) {
     document.getElementById('loading').innerHTML = '<div style="color:#ef4444">数据加载失败，请检查 data.json 是否存在</div>';
   }
+}
+
+// ── KOL 完整名录渲染（编号/背景/scope，页面底部）────────────
+function renderKolDirectory() {
+  const list = (DATA && DATA.kol_directory) || [];
+  const wrap = document.getElementById('kol-directory-list');
+  const cnt = document.getElementById('kol-directory-count');
+  if (!wrap) return;
+  cnt.textContent = `共 ${list.length} 位`;
+  if (!list.length) {
+    wrap.innerHTML = '<div style="color:var(--muted);font-size:13px">暂无名录数据</div>';
+    return;
+  }
+  const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const rows = list.map((k, i) => {
+    const secBadge = k.sector ? `<span class="doc-sec">${esc(k.sector)}</span>` : '';
+    const ibBadge = k.kol_or_ib && k.kol_or_ib !== 'KOL' ? `<span class="doc-ib">${esc(k.kol_or_ib)}</span>` : '';
+    return `<div class="doc-row" style="${i%2 ? 'background:rgba(255,255,255,0.02)' : ''}">
+      <div class="doc-num">${esc(k.list_num)}</div>
+      <div class="doc-body">
+        <div class="doc-name">${esc(k.name)} ${secBadge} ${ibBadge}</div>
+        <div class="doc-bio">${esc(k.bio)}</div>
+        ${k.scope ? `<div class="doc-scope"><span class="doc-scope-label">scope</span> ${esc(k.scope)}</div>` : ''}
+        ${k.domain ? `<div class="doc-domain">领域：${esc(k.domain)}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+  wrap.innerHTML = rows;
 }
 
 // ── Date range helpers ────────────────────────────────────

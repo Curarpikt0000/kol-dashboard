@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23 10:07 JST",
+  "generated_at": "2026-08-23 17:16 JST",
   "date_range": {
     "start": "2025-08-18",
     "end": "2026-08-21"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 2846,
-    "total_rows": 2870,
+    "legged_rows": 2861,
+    "total_rows": 2885,
     "pct": 99.2
   },
   "today_signals": [
@@ -97,20 +97,20 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 321.9,
-      "bull": 1394,
-      "bear": 139,
+      "weighted_sum": 324.9,
+      "bull": 1408,
+      "bear": 140,
       "neutral": 190,
-      "total": 1723,
-      "legs_bull": 2217,
-      "legs_bear": 133,
+      "total": 1738,
+      "legs_bull": 2233,
+      "legs_bear": 134,
       "legs_neutral": 88,
       "legs_split": 44,
-      "legs_total": 2482,
-      "strong_bull": 726,
+      "legs_total": 2499,
+      "strong_bull": 727,
       "strong_bear": 0,
-      "w_bull": 2943,
-      "w_bear": 133,
+      "w_bull": 2960,
+      "w_bear": 134,
       "avg": 0.13
     },
     {
@@ -237,22 +237,22 @@
   "sector_summary_short": [
     {
       "sector": "Precious Metals",
-      "score": 73,
-      "consensus": 73,
-      "weighted_sum": 85.0,
-      "bull": 1394,
-      "bear": 139,
+      "score": 72,
+      "consensus": 72,
+      "weighted_sum": 84.8,
+      "bull": 1408,
+      "bear": 140,
       "neutral": 190,
-      "total": 1723,
+      "total": 1738,
       "legs_bull": 635,
-      "legs_bear": 110,
+      "legs_bear": 111,
       "legs_neutral": 75,
       "legs_split": 36,
-      "legs_total": 856,
+      "legs_total": 857,
       "strong_bull": 152,
       "strong_bear": 0,
       "w_bull": 787,
-      "w_bear": 110,
+      "w_bear": 111,
       "avg": 0.1
     },
     {
@@ -381,19 +381,19 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 236.9,
-      "bull": 1394,
-      "bear": 139,
+      "weighted_sum": 240.1,
+      "bull": 1408,
+      "bear": 140,
       "neutral": 190,
-      "total": 1723,
-      "legs_bull": 1582,
+      "total": 1738,
+      "legs_bull": 1598,
       "legs_bear": 23,
       "legs_neutral": 13,
       "legs_split": 8,
-      "legs_total": 1626,
-      "strong_bull": 574,
+      "legs_total": 1642,
+      "strong_bull": 575,
       "strong_bear": 0,
-      "w_bull": 2156,
+      "w_bull": 2173,
       "w_bear": 23,
       "avg": 0.15
     },
@@ -794,13 +794,13 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 596,
-        "kols": 84
+        "count": 609,
+        "kols": 86
       },
       {
         "ticker": "白银",
-        "count": 326,
-        "kols": 66
+        "count": 329,
+        "kols": 67
       },
       {
         "ticker": "黄金/白银",
@@ -1546,6 +1546,19 @@
       "trend": "↗ 趋多"
     },
     {
+      "kol_name": "Andrew Maguire",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-13",
+      "latest_comments": "8月金价突破令多数分析师始料未及→央行加速从美元债务转向黄金→实物购买力压纸面预期，金价突破具持续性。",
+      "latest_title": "🟢 看多黄金：8月金价突破令分析师措手不及",
+      "bull_bear": "🟢 黄金",
+      "total_entries": 8,
+      "trend": "↗ 趋多"
+    },
+    {
       "kol_name": "Bob Haberkorn",
       "sector": "Precious Metals",
       "detail_sector": "黄金白银",
@@ -1960,6 +1973,19 @@
       "bull_bear": "看多 黄金（$6,000）",
       "total_entries": 14,
       "trend": "→"
+    },
+    {
+      "kol_name": "Lina Thomas",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "IB View",
+      "style": "交易派",
+      "latest_date": "2026-07-24",
+      "latest_comments": "Goldman/Kitco：黄金仍是『我们的单一最偏好做多商品』，预计 Q4 2026 现货涨至 $4,900/盎司→降息预期虽推迟，但央行购金+避险需求使黄金仍是首选多头。",
+      "latest_title": "🟢 看多黄金：重返『单最偏好做多商品』，Q4 见 $4,900",
+      "bull_bear": "🟢 黄金",
+      "total_entries": 7,
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Ivan Zhao",
@@ -2443,6 +2469,1268 @@
       "trend": "→"
     }
   ],
+  "kol_directory": [
+    {
+      "list_num": "1",
+      "name": "Jeremy Grantham",
+      "scope": "长期价值投资、泡沫识别、均值回归、气候变化与资源限制",
+      "bio": "GMO 联合创始人兼首席投资策略师",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "2",
+      "name": "Luke Gromen",
+      "scope": "石油美元体系瓦解、联储财政主导、黄金作为主权储备",
+      "bio": "FFTT 创始人 / 资深宏观分析师",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "3",
+      "name": "Torsten Sløk",
+      "scope": "宏观经济、利率走势、信贷市场、私募市场资产配置",
+      "bio": "Apollo Global Management 首席经济学家",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "4",
+      "name": "Ray Dalio",
+      "scope": "长期债务周期、世界秩序更迭、全天候资产配置",
+      "bio": "桥水基金创始人 / 《原则》作者",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "5",
+      "name": "Stewart Thomson",
+      "scope": "黄金/白银/矿业股/央行购金",
+      "bio": "Graceland Updates",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "6",
+      "name": "Zoltan Pozsar",
+      "scope": "布雷顿森林体系 III、商品本位货币，全球金融底层流动性管道与抵押品重构",
+      "bio": "前美联储及瑞信策略师",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "7",
+      "name": "James Rickards",
+      "scope": "新布雷顿森林体系推演，美元信用危机，黄金重估至 $10,000+ 与实物资产防守",
+      "bio": "《货币战争》作者 / 前 CIA 顾问",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "8",
+      "name": "Peter Schiff",
+      "scope": "恶性通胀预警、美联储政策失灵、反对比特币的实物派",
+      "bio": "欧洲太平洋资本 CEO",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "9",
+      "name": "Larry McDonald",
+      "scope": "华尔街机构资金流向预警，被动 ETF 指数泡沫风险，硬资产逆向配置与商品牛市框架",
+      "bio": "《大熊陷阱报告》创办人",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "10",
+      "name": "David Stockman",
+      "scope": "深度解构美国财政赤字与滞胀风险，华尔街债务与信贷泡沫，国债违约与宏观反转信号",
+      "bio": "前白宫预算管理局局长",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "11",
+      "name": "David Hunter",
+      "scope": "43年长牛融涨 (9500点) 及其后 80% 大崩盘预警",
+      "bio": "Contrarian Macro Advisors 创始人",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "12",
+      "name": "Clem Chambers",
+      "scope": "另类资产机会、市场流动性突变、小众价值挖掘",
+      "bio": "ADVFN 创始人 / 资深投资者",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "13",
+      "name": "Ted Oakley",
+      "scope": "高净值老钱防御性资产配置，财富保全策略，流动性枯竭阶段的风险与机会",
+      "bio": "Oxbow Advisors 创始人",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "14",
+      "name": "Michael Hartnett",
+      "scope": "4C 宏观转向、资金流向监控、中国资产底部反转",
+      "bio": "美银 (BofA) 首席投资策略师",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "15",
+      "name": "Jeffrey Gundlach",
+      "scope": "美债收益率曲线形态分析与长短端利差走势研判；通胀预期（BEI）与实际利率的分离与回归时机；美联储政策节奏对MBS及投资级信用利差的传导路径；美债系统性风险（财政赤字扩张 → 外国持仓下降 → 收益率上行压力）的长周期框架；衰退信号识别：收益率倒挂宽度与持续时间的历史对比。",
+      "bio": "DoubleLine Capital 创始人兼CEO，华尔街现任「债王」，前TCW固定收益主管，管理规模逾1100亿美元。以精准预测美债收益率拐点闻名，2011年成立DoubleLine即获封「债王」称号。在2018年、2022年多次公开预判长债收益率方向均获验证。",
+      "domain": "国债利率与债券市场",
+      "sector": "Government Debt",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "16",
+      "name": "S. Druckenmiller",
+      "scope": "财政主导与美债期限结构演变，收益率曲线与风险偏好切换，核心仓位的择时与集中度管理，AI 算力与资本开支周期下的宏观资产配置",
+      "bio": "传奇对冲基金经理 / 前量子基金，Scott Bessent and powel的 mentor",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "17",
+      "name": "Carroll Quigley",
+      "scope": "文明衰落七阶段模型、金融工具制度化导致的腐败",
+      "bio": "历史学家 (著作监控)",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "18",
+      "name": "Daniel Oliver",
+      "scope": "央行资产负债表扩张、信用周期末端危机，黄金与美债供需比率与 $8000+ 锚定逻辑",
+      "bio": "",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "19",
+      "name": "Alasdair Macleod",
+      "scope": "银行信用收缩、法币系统性坍塌、金银实物脱离纸面",
+      "bio": "Goldmoney 研究主管",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "20",
+      "name": "Matthew Piepenburg",
+      "scope": "尖锐宏观时评与政策走投无路推演，债务驱动的法币退潮，瑞士离岸实物黄金作为终极价值存储",
+      "bio": "Matterhorn Asset Management 合伙人",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "21",
+      "name": "Stephen Leeb",
+      "scope": "商品短缺诱发的金本位回归、中国地缘经济战略",
+      "bio": "资深宏观经济学家 / PhD",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "22",
+      "name": "Willem Middelkoop",
+      "scope": "追踪全球央行隐秘购金，国际货币体系重置，黄金与新储备资产的角力",
+      "bio": "《大重置》作者 / 荷兰商品基金经理",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "23",
+      "name": "Robert Kiyosaki",
+      "scope": "法币系统崩溃论与通胀冲击叙事，硬资产配置思维：金银与比特币",
+      "bio": "《富爸爸穷爸爸》作者",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "24",
+      "name": "David Garofalo",
+      "scope": "贵金属特许权与版税模式 (Royalty)，大型矿企并购逻辑，通胀环境下的矿业利润率",
+      "bio": "Gold Royalty Corp CEO / 前 Goldcorp CEO",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "25",
+      "name": "Craig Hemke",
+      "scope": "揭露 COMEX 商业银行砸盘与操纵手法，实物交收压力与贵金属期权交易日博弈",
+      "bio": "TF Metals Report 创始人",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "26",
+      "name": "Peter Krauth",
+      "scope": "白银结构性短缺数据追踪，工业与投资双需求共振，中小型白银矿股与生产商估值挖掘",
+      "bio": "《银之道》作者",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "27",
+      "name": "Keith Neumeyer",
+      "scope": "白银工业刚需、实物挤兑、矿企生产成本动态",
+      "bio": "First Majestic Silver 创始人兼 CEO",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "28",
+      "name": "Rick Rule",
+      "scope": "初级矿企估值、自由现金流分析、周期性反转买点",
+      "bio": "Rule Investment 创始人 / 矿业传奇投资者",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "29",
+      "name": "Jeff Clark",
+      "scope": "矿股波段操作、小型矿企黑马挖掘、实物配置策略",
+      "bio": "资深贵金属分析师",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "30",
+      "name": "Adrian Day",
+      "scope": "资源股长期投资、地缘风险对矿区的影响、分红策略",
+      "bio": "Adrian Day 资产管理公司创始人",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "31",
+      "name": "Jay Martin",
+      "scope": "矿业初级市场情绪、融资动态、大宗商品会议风向",
+      "bio": "Cambridge House CEO",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "32",
+      "name": "Bob Moriarty",
+      "scope": "反向情绪指标、超卖矿股挖掘、资源类资产极端机会",
+      "bio": "321Gold 创始人",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "33",
+      "name": "Bob Coleman",
+      "scope": "实物库存监控、溢价分析、金属供应链风险",
+      "bio": "资深黄金/白银实物策略师",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "34",
+      "name": "Nate Miller",
+      "scope": "银矿股成本线分析、产出缺口与银价的联动性",
+      "bio": "Amplify ETFs 投资经理",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "35",
+      "name": "Daniel Ghali",
+      "scope": "CTA 量化资金流向、多空仓位挤压，上海金交所 (SGE) 实物溢价追踪",
+      "bio": "TD Securities 资深商品策略师",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "36",
+      "name": "Steve Penny",
+      "scope": "贵金属与大宗商品技术图表突破，金银比 (GSR) 极值套利策略",
+      "bio": "Silver Chartist 创始人",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "37",
+      "name": "Gareth Soloway",
+      "scope": "价格走势图表分析、逆向操作、短线波动率捕捉",
+      "bio": "InTheMoneyStocks 主席",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "38",
+      "name": "Vince Lanci",
+      "scope": "Comex 盘面异动、做市商行为分析、流动性陷阱",
+      "bio": "资深贵金属交易员 / GoldFix 作者",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "39",
+      "name": "Robert Gottlieb",
+      "scope": "传统实物交易逻辑、跨代际财富传承、矿业周期复盘",
+      "bio": "资深贵金属交易前辈 / 交易室专家",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "40",
+      "name": "AG Thorson",
+      "scope": "中期周期低点 (ICL) 模型、金银波动季节性研判",
+      "bio": "GoldPredict 周期分析师",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "41",
+      "name": "Chris Vermeulen",
+      "scope": "市场欣快阶段警示、趋势反转确认、波动率对冲",
+      "bio": "Technical Traders 首席策略师",
+      "domain": "交易与市场微观结构",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "42",
+      "name": "Eric Nuttall",
+      "scope": "全球石油库存枯竭、加拿大油砂安全性、油价重置",
+      "bio": "Ninepoint 合伙人 / 能源基金经理",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "43",
+      "name": "Doomberg / Kuppy",
+      "scope": "铀矿/核能作为 AI 锚点、能源主权、物理资源挤兑",
+      "bio": "顶级能源研究团队 / Praetorian 创始人",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "44",
+      "name": "Rory Johnston",
+      "scope": "原油市场微观供需平衡、闲置产能与库存细分数据",
+      "bio": "Commodity Context 创始人",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "45",
+      "name": "Anu Anand",
+      "scope": "净零政策引发的资源掠夺、结构性通胀的物理根源",
+      "bio": "资深宏观观察员",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "46",
+      "name": "Dan Ives",
+      "scope": "AI 第三局变现、软件货币化、AI 物理基建与电力",
+      "bio": "Wedbush 董事总经理",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "47",
+      "name": "Cathie Wood",
+      "scope": "颠覆性创新、核能 SMR (X-Energy)、AGI 进化轨迹",
+      "bio": "方舟投资 (ARK) 创始人",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "48",
+      "name": "Raoul Pal",
+      "scope": "全球 M2 供应增速、指数级增长资产 (BTC/SOL)",
+      "bio": "Real Vision 创始人 / 前高盛合伙人",
+      "domain": "科技与未来趋势",
+      "sector": "Crypto",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "49",
+      "name": "Ivan Zhao",
+      "scope": "知识自动化系统 (AtN)、生产力效率革命",
+      "bio": "Notion 创始人",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "50",
+      "name": "Michael Saylor",
+      "scope": "比特币作为数字能量封装、企业负债表比特币化",
+      "bio": "微策略创始人",
+      "domain": "科技与未来趋势",
+      "sector": "Crypto",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "51",
+      "name": "Ray Kurzweil",
+      "scope": "2029 AGI 奇点、人类永生与科技指数进化",
+      "bio": "谷歌首席未来学家",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "52",
+      "name": "Neil Howe",
+      "scope": "约 80 年 Saeculum 世代长周期、制度性危机窗口",
+      "bio": "Hedgeye 人口统计学总监，《第四转折》合著者（Strauss–Howe）",
+      "domain": "世代/长周期",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "53",
+      "name": "Brandon Biggs",
+      "scope": "数字银行瘫痪、大城市停电风险、系统性崩溃对策",
+      "bio": "另类预警研究者",
+      "domain": "预测",
+      "sector": "Alternative",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "54",
+      "name": "Amanda Grace",
+      "scope": "地缘政治震荡 (中东)、黑暗阶段的财务避难所",
+      "bio": "灵性/先知性研究者",
+      "domain": "预测",
+      "sector": "Alternative",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "55",
+      "name": "David Icke",
+      "scope": "感知战争、人为制造的供应链短缺、削弱主权之战",
+      "bio": "资深真相研究员",
+      "domain": "预测",
+      "sector": "Alternative",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "56",
+      "name": "Athos Salomé",
+      "scope": "强太阳风暴 EMP 风险、全球断网导致的数字瘫痪",
+      "bio": "“现代诺查丹玛斯” / 灵媒",
+      "domain": "预测",
+      "sector": "Alternative",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "57",
+      "name": "Plai Navaracha",
+      "scope": "2026 亚洲大洪水、封测链与农业体系的物理破坏",
+      "bio": "泰国自然灾害专家",
+      "domain": "预测",
+      "sector": "Alternative",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "58",
+      "name": "Abhigya Anand",
+      "scope": "全球业力高压期、地缘冲突爆发窗口、医疗风险",
+      "bio": "印度占星师",
+      "domain": "预测",
+      "sector": "Alternative",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "59",
+      "name": "Lacy Hunt",
+      "scope": "长端美债利率长期结构性下行趋势分析（债务压制经济增速 → 低利率均衡）；债务通缩机制：主权债务累积如何压制通胀预期与名义增长；费雪方程式框架下货币供应量增速与利率的因果关系；信贷周期拐点识别：M2增速减速与长债收益率领先关系；美联储加息的滞后效应与经济衰退时间窗口判断。",
+      "bio": "Hoisington Investment Management 首席经济学家，经济学博士，曾任职美联储达拉斯联储经济学家。执掌机构长达30余年，是华尔街最资深的长端美债多头之一。其季度报告《Quarterly Review and Outlook》是固定收益领域必读文献，以费雪方程式与债务通缩理论框架构建收益率长周期下行论。",
+      "domain": "国债利率与债券市场",
+      "sector": "Government Debt",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "60",
+      "name": "James Grant",
+      "scope": "利率长期历史周期分析（200年数据视角下的当前位置判断）；央行货币政策扭曲债券定价的量化效应与反转条件；信用泡沫识别：垃圾债发行量、违约率与经济周期顶部信号；黄金与实际利率的关系框架及历史极端案例复盘；通胀重燃情景下固定收益资产的结构性损失路径分析。",
+      "bio": "Grant's Interest Rate Observer 创始人兼主编，执业逾40年。著有《The Forgotten Depression》《Money of the Mind》等多部经典，以深厚的金融史底蕴和鲜明的反向思维闻名华尔街。长期对美联储人为压低利率持批评立场，是少数能将19世纪货币史与当代政策相互印证的分析师。",
+      "domain": "国债利率与债券市场",
+      "sector": "Government Debt",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "61",
+      "name": "Kyle Bass",
+      "scope": "日本国债（JGB）危机路径：财政赤字扩张 → 国内储蓄率下行 → 外部融资依赖 → 收益率失控；新兴市场主权债务违约风险监控（土耳其、阿根廷、巴基斯坦等高风险国）；人民币汇率机制与中国影子银行债务结构的系统性风险分析；美联储失控情景下美债信用溢价扩张的情景建模；地缘政治驱动的资本流动与避险资产（美债 vs 黄金）配置切换逻辑。",
+      "bio": "Hayman Capital Management 创始人，2008年次贷危机预言者之一，因押注日本国债崩溃而在全球宏观圈广为人知。长期关注新兴市场主权债务风险与中美地缘政治博弈，曾多次在美国国会作证。德克萨斯大学投资委员会顾问，同时深度参与香港金融稳定与人民币汇率研究。",
+      "domain": "国债利率与债券市场",
+      "sector": "Government Debt",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "62",
+      "name": "Bill Gross",
+      "scope": "全球债券市场宏观周期判断与跨市场（美债/德债/日债）资金流向分析；名义利率与实际利率分歧下的债券久期管理策略；收益率曲线陡峭化 vs 平坦化对固定收益组合的结构性影响；新型货币政策工具（YCC/QE/扭曲操作）对债市长期定价的扭曲效应；信用利差（IG/HY）动态与股债相关性在通胀/衰退不同情景下的轮动规律。",
+      "bio": "PIMCO 联合创始人，执掌全球最大债券基金逾30年，被誉为「债券之王（Bond King）」。主导PIMCO Total Return Fund巅峰期逾2万亿美元资产，2014年离职后加入骏利亨德森（Janus Henderson），现为独立投资人。其对利率走势的判断曾多次主导全球债市情绪，是固定收益领域现代化投资框架的重要建构者。",
+      "domain": "国债利率与债券市场",
+      "sector": "Government Debt",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "63",
+      "name": "Jeff Snider",
+      "scope": "欧洲美元体系流动性危机预警：离岸美元供给收缩 → 美债收益率异动机制；回购市场（Repo/GCF）压力指标监控与银行体系准备金充裕度判断；美元荒（Dollar Shortage）对新兴市场汇率和本币债市的传导路径；影子银行杠杆收缩与实体经济信贷脉冲关系的领先指标识别；收益率曲线形态（特别是2s10s倒挂深度）与真实衰退概率的历史映射。",
+      "bio": "Alhambra Investments 首席投资策略师，「欧洲美元体系（Eurodollar System）」研究领域最具影响力的独立分析师。以深度解析影子银行、回购（Repo）市场和美元离岸流动性见长，长期在Alhambra发布深度研究报告并主持EurodollarUniversity播客，其框架对理解「美元荒」驱动的全球资产定价具有独特洞察。",
+      "domain": "国债利率与债券市场",
+      "sector": "Government Debt",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "64",
+      "name": "Andy Schectman",
+      "scope": "黄金/白银贵金属市场分析、实物交割、供需基本面",
+      "bio": "Miles Franklin 总裁",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "65",
+      "name": "Jeff Currie",
+      "scope": "全球大宗商品周期、能源转型对商品影响、铜/石油/农产品供需基本面",
+      "bio": "Abaxx Markets 主席 / 前高盛商品主管",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "66",
+      "name": "Timothy Arcuri",
+      "scope": "全球半导体产业链分析、芯片供需周期、AI算力硬件投资",
+      "bio": "UBS 董事总经理 / 半导体研究主管",
+      "domain": "股权市场",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "67",
+      "name": "Massimiliano Castelli",
+      "scope": "全球央行/主权基金投资行为、去美元化、资产配置",
+      "bio": "瑞银资产管理全球主权市场战略主管",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "68",
+      "name": "Ronny Stoeferle",
+      "scope": "黄金走势、宏观货币体系、央行购金、大宗商品周期",
+      "bio": "Incrementum AG 管理合伙人 / In Gold We Trust 报告主笔",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "69",
+      "name": "Todd \"Bubba\" Horowitz",
+      "scope": "黄金走势、白银走势、市场结构、期权策略、系统性风险",
+      "bio": "BubbaTrading.com 首席策略师 / 40年场内交易员",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "70",
+      "name": "Dan Loeb",
+      "scope": "事件驱动 / 激进投资 / 持仓变动",
+      "bio": "Third Point 创始人 / CEO",
+      "domain": "股权市场",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "71",
+      "name": "David Meger",
+      "scope": "美元与贵金属联动、COMEX 盘面技术面、地缘通胀对冲、期金供需结构",
+      "bio": "High Ridge Futures 金属交易总监，芝加哥资深期金与大宗商品一线操盘手",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "72",
+      "name": "Marc Chandler",
+      "scope": "外汇市场、美元走势、贵金属与美元的联动、美联储政策、全球宏观",
+      "bio": "Bannockburn Global Forex 首席市场策略师，资深外汇与宏观分析师",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "73",
+      "name": "Bob Haberkorn",
+      "scope": "贵金属（黄金/白银）技术面与基本面、大宗商品市场策略、地缘风险对金价影响",
+      "bio": "StoneX 高级市场策略师，资深大宗商品分析师",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "74",
+      "name": "Alex Kuptsikevich",
+      "scope": "贵金属、外汇、股指的技术面分析、市场情绪与资金流向",
+      "bio": "FxPro 首席市场分析师，技术分析与市场评论",
+      "domain": "贵金属与商品周期",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "75",
+      "name": "Frank Giustra",
+      "scope": "黄金长期牛市 / 矿业资本周期 / 美元贬值与去美元化 / 地缘政治避险",
+      "bio": "Fiore Group 创始人兼 CEO；Lionsgate 影业联合创始人；Endeavour Mining/Wheaton Precious Metals 等多家矿业公司创建者",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "76",
+      "name": "Larry Lepard",
+      "scope": "法币贬值与货币重置 / 黄金+比特币硬资产 / 央行扩表通胀 / 财政赤字货币化",
+      "bio": "Equity Management Associates(EMA) 创始管理合伙人；著作《The Big Print》(2025)；著名硬通货倡导者，看多黄金与比特币",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "77",
+      "name": "Jesse Colombo",
+      "scope": "贵金属(黄金/白银/矿股)长期 secular 牛市与技术面节奏；宏观货币供应扩张与美元贬值；资产泡沫(美股/加密)风险预警。长期看多金银(金$15-20K、银$300-500)，看空美元、对加密长期看空。",
+      "bio": "美国独立经济/贵金属分析师，畅销 newsletter《The Bubble Bubble Report》(Substack, 2.4万+订阅) 主理人；Forbes 前撰稿人(以预警资产泡沫著称)，BullionStar 北美营销总监；曾被伦敦《泰晤士报》认可其对2008金融危机的预判。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "78",
+      "name": "Jordan Roy-Byrne",
+      "scope": "贵金属(黄金/白银/矿股)技术面与周期节奏；secular 牛市判断；矿业股个股研究。长期强烈看多金银(金目标数倍上行、银看至$100+)，看多矿股。",
+      "bio": "CMT、MFTA 认证技术分析师；The Daily Gold (thedailygold.com) 创始人兼主编，贵金属付费研究服务主理人；著有《Gold & Silver: The Greatest Bull Market Has Begun》。以黄金/白银及矿业股技术分析见长。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "79",
+      "name": "James Turk",
+      "scope": "贵金属(黄金/白银)作为真实货币的长期价值；法币贬值/美元崩溃/去美元化；金本位与货币体系重构。长期强烈看多金银、看空法币。",
+      "bio": "GoldMoney(Goldmoney Inc.) 联合创始人；贵金属界元老/教父级人物；著有《The Money Bubble》《The Collapse of the Dollar》等；长期硬通货(黄金/白银)倡导者，gold-eagle 等平台资深作者，常做客 King World News 访谈。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "80",
+      "name": "Jim Curry",
+      "scope": "黄金/贵金属价格的多周期(10日/34日/72日/154日等时间周期 + Hurst 谱分析)择时与拐点预测；以‘reversal point’价格反转位确认周期转向；辅以美股周期分析。短中长周期波段方向判断。",
+      "bio": "GoldWaveTrader（Gold Wave Trader）首席分析师兼主编；Gold-Eagle 长期专栏作者。1988 年入市，1990 年代初接触 J.M. Hurst《The Profit Magic of Stock Transaction Timing》后转向周期分析，自研周期/技术分析方法(numeric + spectral)已逾 30 年。发布 Gold Wave Trader(黄金)与 Market Turns(美股)两份报告，另有 cyclewave.homestead.com。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "81",
+      "name": "Kirill Kirilenko",
+      "scope": "贵金属（黄金/白银/PGMs）供需基本面与价格预测；央行购金趋势与储备多元化；矿业成本曲线与供给端分析；宏观经济与贵金属关联分析。",
+      "bio": "CRU Group 首席贵金属分析师，《贵金属市场展望》（Precious Metals Market Outlook）主编。专注于黄金、白银、铂族金属的供需基本面分析、价格预测与矿业成本曲线研究。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "82",
+      "name": "Edward Dowd",
+      "scope": "宏观经济数据异常监测（劳动力市场、GDP修正）；财政赤字与债务可持续性；货币政策转向与利率路径；黄金与避险资产配置；风险预警与市场周期判断。",
+      "bio": "前 BlackRock 基金经理，Phinance Technologies 创始人。著有《Cause Unknown》。宏观经济与市场评论员，关注劳动力市场、财政赤字、货币政策和贵金属。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "83",
+      "name": "Gary Wagner",
+      "scope": "黄金技术分析（日本蜡烛图形态、斐波那契回撤、趋势线）；黄金期货交易策略；关键支撑/阻力位识别；市场情绪与资金流向；贵金属中长期趋势判断。",
+      "bio": "技术分析师，日本蜡烛图技术专家。著有《Trading Applications of Japanese Candlestick Charting》等多部蜡烛图交易著作。TheGoldForecast.com 创始人，专注黄金技术分析与交易策略。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "84",
+      "name": "William Watkins",
+      "scope": "宪法解释与制度演化；货币政策与宪法边界；财政权力分立与制衡；行政权扩张与法治；制度韧性与经济治理。",
+      "bio": "资深职业律师，独立研究所宪法研究员。宪法专著作者，专注宪法解释、制度分析与法治研究。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "85",
+      "name": "Daron Acemoglu",
+      "scope": "制度与长期经济发展；民主与专制政治经济学；技术变革、AI 与自动化对劳动力和不平等的影响；国家能力与国家失败；殖民遗产与比较发展；创新与经济增长。",
+      "bio": "MIT 经济学教授，2024 年诺贝尔经济学奖得主（与 Simon Johnson、James Robinson 共享）。《Why Nations Fail》《The Narrow Corridor》《Power and Progress》作者。全球引用最高的经济学家之一，专注制度经济学、政治经济学与技术变革。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "86",
+      "name": "Philippe Laffont（Coatue Management 创始人 / 首席投资官）",
+      "scope": "科技股 / AI / 持仓变动 / 13F 组合",
+      "bio": "Coatue Management 创始人，聚焦科技股与成长股，AI/科技板块持仓影响力大",
+      "domain": "股权市场",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "87",
+      "name": "Carl Icahn（Icahn Enterprises 创始人 / 董事长）",
+      "scope": "激进投资 / 企业治理 / 持仓变动 / 债务与困境资产",
+      "bio": "激进投资者（Activist Investor），通过 Icahn Enterprises 布局企业治理与困境资产",
+      "domain": "股权市场",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "88",
+      "name": "Ken Griffin（Citadel 创始人 / CEO）",
+      "scope": "市场结构 / 量化 / 做市 / 宏观对冲 / 持仓变动",
+      "bio": "Citadel 创始人，全球最大对冲基金之一，量化/做市与多策略投资",
+      "domain": "股权市场",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "89",
+      "name": "Craig Hamilton-Parker（英国灵媒 / \"New Nostradamus\"）",
+      "scope": "市场崩盘/衰退预测、黄金与贵金属走势、地缘政治冲突、美元体系、AI 泡沫与科技股",
+      "bio": "英国灵媒（psychic medium），媒体称 Prophet of Doom / New Nostradamus。非经济学家，但长期发布市场/经济末日预测（市场崩盘、金价、地缘冲突），被小报与财经媒体广泛转载。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "90",
+      "name": "Maria Smirnova（Sprott Asset Management 首席投資長 / CIO）",
+      "scope": "黄金/白银价格驱动、金矿/银矿股选择、贵金属供需、矿业投资、Sprott 基金策略",
+      "bio": "Sprott Asset Management Chief Investment Officer（首席投資長）、Managing Partner、Senior Portfolio Manager。专注贵金属与矿企投资，常接受 Kitco、银价大会等采访，长期看多黄金/白银及矿业股。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "91",
+      "name": "Robert Kientz（GoldSilverPros 创始人 / 主编）",
+      "scope": "COMEX 交割机制与市场操纵、实物黄金/白银短缺与供需、贵金属价格驱动、美元贬值与货币体系、金银矿业股",
+      "bio": "GoldSilverPros 编辑兼出版人（贵金属市场分析平台），稽核师出身（用户提供，未在公开 bio 直接验证）。常批评 COMEX 期货体系（\"complete con game\"）、揭露市场操纵与交割机制，长期关注实物金银短缺与价格发现机制变革。常驻德克萨斯州，Gold Eagle / Kinesis / Seeking Alpha / MoneyShow 供稿，Palisades Gold Radio 常客。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "92",
+      "name": "Mervyn King（前英国央行行长）",
+      "scope": "央行前瞻指引与点阵图精确度的批评者；货币政策信誉与制度设计",
+      "bio": "前英国央行（BoE）行长。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。央行前瞻指引与点阵图精确度的批评者；货币政策信誉与制度设计。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "93",
+      "name": "Peter Fisher（前纽约联储市场台主管）",
+      "scope": "前瞻指引压制风险定价与期限溢价；美联储沟通框架",
+      "bio": "前纽约联储公开市场台主管。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。前瞻指引压制风险定价与期限溢价；美联储沟通框架。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "94",
+      "name": "Arminio Fraga（前巴西央行行长）",
+      "scope": "信誉优先、正统通胀目标制；财政主导(fiscal dominance)风险",
+      "bio": "前巴西央行行长。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。信誉优先、正统通胀目标制；财政主导(fiscal dominance)风险。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "95",
+      "name": "Raghuram Rajan（芝加哥大学 Booth 商学院教授）",
+      "scope": "QE 负溢出效应；缩表(shrinking)的危险性",
+      "bio": "芝加哥大学 Booth 商学院金融学教授，前印度央行行长。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。QE 负溢出效应；缩表(shrinking)的危险性。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "96",
+      "name": "Karen Dynan（哈佛大学经济学教授）",
+      "scope": "支持 QE 与零利率下限时的充裕准备金（与 Warsh 轻度分歧）",
+      "bio": "哈佛大学经济学教授，前 PIIE 研究员。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。支持 QE 与零利率下限时的充裕准备金（与 Warsh 轻度分歧）。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "97",
+      "name": "Jeremy Stein（哈佛大学经济学教授）",
+      "scope": "QE 的金融稳定权衡；支持充裕准备金（立场混合）",
+      "bio": "哈佛大学经济学教授，前美联储理事。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。QE 的金融稳定权衡；支持充裕准备金（立场混合）。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "98",
+      "name": "Raj Chetty（哈佛大学经济学教授）",
+      "scope": "私人数据微观测量(real-time data)；劳动市场与机会均等",
+      "bio": "哈佛大学经济学教授，Opportunity Insights 创始人。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。私人数据微观测量(real-time data)；劳动市场与机会均等。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "99",
+      "name": "Doug McMillon（前沃尔玛 CEO）",
+      "scope": "沃尔玛实时消费分析(real-time consumer analytics)；实体经济信号",
+      "bio": "前 Walmart 总裁兼 CEO。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。沃尔玛实时消费分析(real-time consumer analytics)；实体经济信号。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "100",
+      "name": "Kevin Murphy（芝加哥大学经济学教授）",
+      "scope": "劳动市场与人力资本数据；工资与就业测量",
+      "bio": "芝加哥大学经济学教授。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。劳动市场与人力资本数据；工资与就业测量。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "101",
+      "name": "Marc Andreessen（a16z 联合创始人）",
+      "scope": "技术乐观主义(techno-optimist)；AI 是通缩性丰裕(deflationary abundance)",
+      "bio": "Andreessen Horowitz 联合创始人。Kevin Warsh 美联储改革特别工作组顾问（Tech 工作组）。技术乐观主义(techno-optimist)；AI 是通缩性丰裕(deflationary abundance)。",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "102",
+      "name": "Chad Jones（斯坦福大学经济学教授）",
+      "scope": "AI 对经济增长影响的理论前沿；长期生产率",
+      "bio": "斯坦福大学经济学教授。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。AI 对经济增长影响的理论前沿；长期生产率。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "103",
+      "name": "Asha Sharma（微软企业副总裁）",
+      "scope": "企业 AI 布道；AI 采用证据与生产率落地",
+      "bio": "Microsoft 企业副总裁(EVP)。Kevin Warsh 美联储改革特别工作组顾问（Tech 工作组）。企业 AI 布道；AI 采用证据与生产率落地。",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "104",
+      "name": "Thomas Sargent（纽约大学经济学教授）",
+      "scope": "信誉与政策制度决定通胀；理性预期学派",
+      "bio": "纽约大学经济学教授，诺奖得主。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。信誉与政策制度决定通胀；理性预期学派。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "105",
+      "name": "Greg Mankiw（哈佛大学经济学教授）",
+      "scope": "能力(capability)比僵化规则更重要；务实货币政策",
+      "bio": "哈佛大学经济学教授，前白宫 CEA 主席。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。能力(capability)比僵化规则更重要；务实货币政策。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "106",
+      "name": "William White（C.D. Howe 高级研究员）",
+      "scope": "窄通胀目标制的危机；金融失衡与系统性风险",
+      "bio": "C.D. Howe Institute 高级研究员，前 BIS 货币与经济部门主管。Kevin Warsh 美联储改革特别工作组顾问（Macro 工作组）。窄通胀目标制的危机；金融失衡与系统性风险。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "107",
+      "name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
+      "scope": "央行购金与储备多元化；全球债务与货币体系；黄金白银价格驱动；美元体系风险；地缘政治对贵金属影响",
+      "bio": "前 Goldman Sachs 董事总经理（Managing Director），博士（PhD），Prinsights Global 创始人。著有《Collusion》《Blackout》《All the Presidents' Bankers》等，聚焦央行资产负债表、全球债务体系、美元霸权与黄金。长期看多黄金白银，认为央行购金与债务货币化支撑贵金属牛市。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "108",
+      "name": "Morgan Stanley",
+      "scope": "全球股市方向；日本企业治理改革与ROE；宏观风险与资产配置",
+      "bio": "全球顶级投行，宏观与跨资产策略团队。聚焦全球股市（尤其日股）、企业盈利、资本流动与宏观风险。",
+      "domain": "股权市场",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "109",
+      "name": "Goldman Sachs",
+      "scope": "黄金目标价与央行购金；大宗商品回报；中美AI与地缘竞争对商品需求影响",
+      "bio": "全球顶级投行，大宗商品研究团队（含贵金属）。聚焦黄金、工业金属、能源及宏观驱动。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "110",
+      "name": "Citi / UBS",
+      "scope": "金价目标价与情景分析；美债收益率与美元对黄金影响；央行购金与投资需求",
+      "bio": "花旗与瑞银贵金属研究团队合并监控。两行对金价目标与路径常有分歧（Citi看涨情景5000美元 vs UBS利率逆风）。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "111",
+      "name": "Judy Shelton",
+      "scope": "金本位与货币体系改革；美联储政策批评；50年期黄金挂钩国债（TTB）提案",
+      "bio": "经济学家，特朗普政府时期曾任美联储理事提名人。主张回归金本位、批评美联储货币政策政治化。",
+      "domain": "宏观货币与金融体系",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "112",
+      "name": "Jim Rogers",
+      "scope": "大宗商品周期；白银与贵金属；全球央行印钞与资产泡沫",
+      "bio": "传奇投资人，量子基金联合创始人（与索罗斯）。长期看多大宗商品与白银，警告全球印钞引发资产泡沫。",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "113",
+      "name": "Martin Armstrong",
+      "scope": "经济周期预测（8.6年周期）；债务与地缘冲突；黄金与市场拐点",
+      "bio": "经济学家/周期理论家，Socrates经济信心模型与8.6年周期理论。预测2025-2030全球债务与地缘冲突高峰期。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "114",
+      "name": "Michael Widmer",
+      "scope": "黄金白银目标价；供应下降与成本上升；白银工业属性与投资情绪",
+      "bio": "美国银行（BofA）金属研究主管。聚焦黄金白银供需、目标价与工业需求。",
+      "domain": "贵金属",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "115",
+      "name": "Amos Hochstein（能源安全高级顾问）",
+      "scope": "全球能源安全；石油天然气价格与供给；俄乌/中东地缘冲突对能源影响；LNG 与能源投资；制裁与能源外交",
+      "bio": "拜登政府能源安全高级顾问（2021-2025），白宫副助理与能源投资高级顾问（2022-2025），前奥巴马政府国务院国际能源事务特别代表，Tellurian LNG 前高级副总裁。能源外交、地缘政治与能源市场专家，聚焦全球能源安全、石油天然气价格、制裁与地缘冲突对能源市场影响。",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "116",
+      "name": "Robert Prechter / Elliott Wave International",
+      "scope": "艾略特波浪计数、社会情绪与市场拐点",
+      "bio": "艾略特波浪理论权威，社会情绪学（Socionomics）创立者，EWI 创始人",
+      "domain": "技术分析",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "117",
+      "name": "Tom McClellan",
+      "scope": "市场宽度振荡器、总统四年周期、领先指标叠图",
+      "bio": "McClellan Financial Publications 主编，McClellan Oscillator 家族传人",
+      "domain": "技术分析",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "118",
+      "name": "Avi Gilburt",
+      "scope": "艾略特波浪（金银 / SPX / 矿股），情绪驱动框架",
+      "bio": "ElliottWaveTrader.net 创始人，注册会计师出身",
+      "domain": "技术分析",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "119",
+      "name": "Glenn Neely",
+      "scope": "NEoWave 波浪结构、市场时间与形态",
+      "bio": "NEoWave Institute 创始人，规则化波浪理论提出者",
+      "domain": "技术分析",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "120",
+      "name": "Peter Goodburn / WaveTrack International",
+      "scope": "艾略特波浪 + 长周期（Inflation-Pop 论），大宗与股指",
+      "bio": "WaveTrack International 首席波浪分析师",
+      "domain": "技术分析",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "121",
+      "name": "Charles Nenner",
+      "scope": "专有周期算法、战争周期，股/债/商品拐点",
+      "bio": "Charles Nenner Research Center 创始人，前高盛技术分析师",
+      "domain": "周期理论",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "122",
+      "name": "Eric Hadik",
+      "scope": "40 年 / 17 年周期，Cycle Progression 时间窗",
+      "bio": "INSIIDE Track Trading 主编",
+      "domain": "周期理论",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "123",
+      "name": "David Hickson / Sentient Trader",
+      "scope": "J.M. Hurst 嵌套周期、FLD 交易策略",
+      "bio": "Sentient Trader 创始人，Hurst 周期理论主要推广者",
+      "domain": "周期理论",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "124",
+      "name": "Foundation for the Study of Cycles",
+      "scope": "跨资产周期研究、历史周期数据库",
+      "bio": "1941 年创立的周期研究学术机构",
+      "domain": "周期研究",
+      "sector": "Macro",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "125",
+      "name": "Andrew Maguire（Kinesis Money 总监 / 贵金属市场吹哨人）",
+      "scope": "COMEX 纸金/纸银 vs 实物、银行操纵与空头压制、央行购金与去美元化、白银挤仓与金银比、金价长期目标 (如 $8000)。",
+      "bio": "英国大宗商品交易员、贵金属市场吹哨人。2010 年向 CFTC 举报 JPMorgan/HSBC 操纵金银市场并提前预测白银操纵事件；近 50 年大宗交易经验。现任 Kinesis Money 总监，主持 Live From the Vault (LFTV) 播客。",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    },
+    {
+      "list_num": "126",
+      "name": "Lina Thomas",
+      "scope": "黄金目标价与周期判断（央行购金需求、Fed 货币政策与 ETF 资金流）、投机多单集中引发的战术回调风险、白银跟随黄金走势。",
+      "bio": "Goldman Sachs Research 高级大宗商品分析师（senior commodities analyst），黄金/白银专家。长期发布黄金预测研报并接受 Goldman 官方播客 The Markets 访谈，观点视作 Goldman 贵金属研究团队官方向。",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
+    }
+  ],
   "weekly_reports": [
     {
       "key_insight": "W24 贵金属多头共识强烈但短期回调压力显现，宏观避险情绪主导市场，能源与大宗商品板块谨慎看多。（2026-06-08）",
@@ -2576,6 +3864,186 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3c547eb5-fd3c-81cf-89d8-eb9fcdd7ef42",
+      "name": "🟢 看多黄金：重返『单最偏好做多商品』，Q4 见 $4,900",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2026-07-24",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman/Kitco：黄金仍是『我们的单一最偏好做多商品』，预计 Q4 2026 现货涨至 $4,900/盎司→降息预期虽推迟，但央行购金+避险需求使黄金仍是首选多头。",
+      "suggestion": "黄金作为首选做多商品，Q4 目标 $4,900，回调布局。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-8177-9b28-d40698abd561",
+      "name": "🔴 看空黄金(下调)：Fed 不降息 → 砍 500 至 $4,900",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2026-06-19",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman 因 Fed 不再预计 2026 降息（鹰派现实），下调年底金价 $500 至 $4,900/盎司→降息预期落空削弱 ETF 需求，利率路径上修压制金价→目标下调。",
+      "suggestion": "短期利率成为主要压制因素，下调后目标 $4,900，降仓防御。",
+      "bull_bear": "🔴 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-8161-a030-f986319eb7d5",
+      "name": "🟢 看多黄金但战术转谨慎：结构性看多 $5,400，短期回调风险",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2026-04-29",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman 强调『Structurally Bullish, Tactically Cautious』——维持 $5,400 年底目标，但提示短期回调风险：买盘暂歇+投机多头回调→双轨判断（长期看多/短期谨慎）。",
+      "suggestion": "长期多头不变，短期防备回调，回调到位再介入。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-8117-bd66-f21c364e4685",
+      "name": "🟢 看多黄金：Still Bullish——解释近期波动",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2026-02-13",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman The Markets 播客（Lina Thomas）回应金价近期波动：仍看多黄金→波动源于投机仓位与期权，但央行购金+私人需求等结构性支撑不变，回调不改趋势。",
+      "suggestion": "波动属正常，维持多头持仓，回调是加仓点。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-81b7-9032-eaa6a8195f26",
+      "name": "🟢 强看多黄金：上调 2026 底目标至 $5,400（Sticky Hedges）",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2026-01-22",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman 报告『Raising Our Gold Price Forecast on Sticky Hedges』（Lina Thomas & Daan Struyven，1/21）将 2026 年 12 月金价从 $4,900 上调至 $5,400/盎司→关键上行风险=空头对冲粘滞，叠加私人部门多元化买盘。",
+      "suggestion": "上调后的 $5,400 目标强化多头，依托粘滞对冲+私人买盘逻辑持有。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-814d-9ada-fda8e10551bd",
+      "name": "🟢 看多黄金：11月央行购金持续，长期目标 $4,900",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2025-11-17",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman 报告：11 月央行继续大量购金，属多年趋势——外储多元化、对冲地缘与金融风险→为金价提供坚实结构性支撑，长期目标维持 $4,900。",
+      "suggestion": "追踪央行购金节奏，长期持有黄金。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-8107-993f-cd528eaf6387",
+      "name": "🟢 看多黄金：金价 2026 年中升至 $4,000",
+      "kol_name": "Lina Thomas",
+      "kol_or_ib": "IB View",
+      "date": "2025-09-30",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "Goldman Research 分析（Lina Thomas）预测金价到 2026 年中升 6% 至 $4,000/盎司→核心驱动=新兴市场央行持续购金（结构性）+Fed 降息提振 ETF 资金流。",
+      "suggestion": "跟随央行购金主线持有黄金，关注 $4,000 目标位。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-816b-b182-fdf49df499c4",
+      "name": "🟢 看多黄金：8月金价突破令分析师措手不及",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-13",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "8月金价突破令多数分析师始料未及→央行加速从美元债务转向黄金→实物购买力压纸面预期，金价突破具持续性。",
+      "suggestion": "顺势加仓黄金，突破后追多需回踩确认，但实物需求支撑下回调空间有限。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-8168-a2b9-c3c5cc254e8f",
+      "name": "🟢 看多黄金：黄金超越美债成全球首要储备资产",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-30",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "黄金已超越美国国债成为全球头号储备资产→去美元化与官方购金强化黄金地位→储备资产结构转变利多黄金长线逻辑。",
+      "suggestion": "黄金作为去美元化主线资产，长期超配，关注央行储备再平衡。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-81c0-9bc5-de5547a8c485",
+      "name": "🟢 看多黄金：香港SGE金通道标志定价权历史性转移",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-16",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "香港SGE黄金通道标志全球金价定价机制历史性转变→人民币计价的黄金定价影响力上升→西金东移、定价权离岸化利多黄金。",
+      "suggestion": "黄金定价重心转向东方，长期持有黄金受益于定价中枢上移。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-81df-a75c-c2b760bd240c",
+      "name": "🟢 看多黄金：中国正主导全球金价定价路径",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-02",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "中国正清理路径以掌握全球金价定价权→官方购金+交易所定价机制重塑→黄金定价中心东移，利多黄金定价逻辑。",
+      "suggestion": "关注黄金定价权转移带来的重估机会，持有黄金以受益于定价中枢抬升。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-814f-be45-ebac6208df39",
+      "name": "🟢 看多黄金白银：央行创纪录购金被市场波动掩盖",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-18",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "市场波动掩盖了创纪录的央行黄金/白银囤积→官方部门持续的实物吸纳是金价底部坚实支撑→纸面波动不改实物需求趋势。",
+      "suggestion": "跟随央行购金逻辑做多黄金白银，波动中坚持实物配置。",
+      "bull_bear": "🟢 黄金, 白银"
+    },
+    {
+      "id": "3c547eb5-fd3c-8181-b213-e6a7e8fb1119",
+      "name": "🟢 看多黄金：金期货市场正明显崩塌",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2026-06-04",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "黄金期货市场开始明显失效→纸金头寸与实物市场脱节，价格发现向实物倾斜→期货崩溃为实物黄金提供结构性支撑。",
+      "suggestion": "降低纸金/期货敞口，增加实物黄金持有，对冲期货定价失灵风险。",
+      "bull_bear": "🟢 黄金"
+    },
+    {
+      "id": "3c547eb5-fd3c-81ec-912c-d7eaedb59e19",
+      "name": "🟢 看多白银：需求推动银价突破关键拐点",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2025-12-12",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "白银需求上升+机构买盘推动银价穿越关键定价拐点→实物短缺与工业需求共振→白银具备补涨动能，尤其在黄金突破后。",
+      "suggestion": "白银弹性大于黄金，逢回调加仓白银及相关标的，关注银价突破确认。",
+      "bull_bear": "🟢 白银"
+    },
+    {
+      "id": "3c547eb5-fd3c-81ea-861d-e745783331c1",
+      "name": "🟢 看多黄金白银：纸市场抛售被实物需求吸收",
+      "kol_name": "Andrew Maguire",
+      "kol_or_ib": "KOL",
+      "date": "2025-11-14",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "纸金/纸银市场的抛售并未压低金价，因实物需求持续走强，形成价格支撑→伦敦/COMEX纸面头寸与实物交割缺口扩大→回调被视为实物买盘入场窗口。",
+      "suggestion": "回调分批布局黄金、白银实物及矿业股，关注纸金集中抛售后的实物承接。",
+      "bull_bear": "🟢 黄金, 白银"
+    },
     {
       "id": "3c447eb5-fd3c-813c-bdbd-cf5e8fc17bcf",
       "name": "🔴 短空金/银/矿股：修正未走完，或探更低低点后现买点",

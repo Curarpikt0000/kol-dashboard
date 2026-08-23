@@ -9,7 +9,7 @@
   sector_score = sum(情绪分) 归一化到 -100~+100
 输出: dashboard/kol-dashboard/data.json
 """
-import json, os, re, math, urllib.request
+import json, os, re, math, sys, urllib.request
 from datetime import datetime, date, timezone, timedelta
 from collections import defaultdict, Counter
 
@@ -38,6 +38,39 @@ def txt(p):
     if t=="select": return p["select"]["name"] if p["select"] else ""
     if t=="date": return p["date"]["start"] if p["date"] else ""
     return ""
+
+def load_kol_directory():
+    """从 registry 读全量 KOL 名录（编号/名称/背景/scope/领域/sector/类型）。
+    registry 是 SSOT（Notion KOL List 同步），含 list_num/display_name/bio/focus/domain/sector/kol_or_ib。"""
+    reg_path=os.path.join(BASE,"data","kol_registry.json")
+    try:
+        reg=json.load(open(reg_path))
+    except Exception as e:
+        print(f"⚠️ 读取 registry 失败: {e}", file=sys.stderr)
+        return []
+    import unicodedata
+    out=[]
+    for k in reg.get("kols",[]):
+        # display_name 可能带机构后缀, 去括号拿核心名; 保留完整名供展示
+        disp=k.get("display_name","") or ""
+        scope=k.get("focus","") or ""
+        bio=k.get("bio","") or k.get("institution","") or ""
+        out.append({
+            "list_num":str(k.get("list_num","")),   # 编号
+            "name":disp,                            # KOL 名
+            "scope":scope,                          # 分析范围/scope
+            "bio":bio,                              # 背景介绍
+            "domain":k.get("domain",""),            # 中文领域
+            "sector":k.get("sector",""),            # 标准 sector
+            "kol_or_ib":k.get("kol_or_ib","KOL"),   # KOL / IB View
+            "active":bool(k.get("active",True)),
+        })
+    # 按编号排序（数字升序）
+    def numkey(x):
+        try: return int(x["list_num"])
+        except: return 9999
+    out.sort(key=numkey)
+    return out
 
 def fetch_all():
     rows=[];cursor=None
@@ -281,6 +314,7 @@ def main():
         "stance_changes":sorted(stance_changes,key=lambda x:x["date"],reverse=True)[:30],
         "ticker_heatmap":ticker_heatmap,
         "kol_cards":kol_cards,
+        "kol_directory":load_kol_directory(),  # 全量 KOL 名录(编号/背景/scope)
         "weekly_reports":[],  # 保留原有(下方从旧文件继承)
         "raw_entries":[{k:e[k] for k in ("id","name","kol_name","kol_or_ib","date","sector","detail_sector","comments","suggestion","bull_bear")} for e in rows]}
     # 继承旧 weekly_reports
