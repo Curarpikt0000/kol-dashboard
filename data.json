@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 09:41 JST",
+  "generated_at": "2026-08-27 09:31 JST",
   "date_range": {
     "start": "2025-08-18",
     "end": "2026-08-25"
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 333.0,
+      "weighted_sum": 325.4,
       "bull": 1435,
       "bear": 140,
       "neutral": 194,
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 83,
       "consensus": 83,
-      "weighted_sum": 50.5,
+      "weighted_sum": 49.4,
       "bull": 141,
       "bear": 10,
       "neutral": 29,
@@ -131,13 +131,13 @@
       "strong_bear": 1,
       "w_bull": 420,
       "w_bear": 38,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Crypto",
       "score": 58,
       "consensus": 58,
-      "weighted_sum": 52.9,
+      "weighted_sum": 51.7,
       "bull": 110,
       "bear": 13,
       "neutral": 24,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -10,
       "consensus": 10,
-      "weighted_sum": 20.3,
+      "weighted_sum": 19.9,
       "bull": 258,
       "bear": 123,
       "neutral": 64,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -79,
       "consensus": 79,
-      "weighted_sum": -56.7,
+      "weighted_sum": -55.4,
       "bull": 65,
       "bear": 105,
       "neutral": 68,
@@ -211,13 +211,13 @@
       "strong_bear": 69,
       "w_bull": 82,
       "w_bear": 691,
-      "avg": -0.08
+      "avg": -0.07
     },
     {
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -102.3,
+      "weighted_sum": -99.9,
       "bull": 16,
       "bear": 65,
       "neutral": 21,
@@ -239,7 +239,7 @@
       "sector": "Precious Metals",
       "score": 72,
       "consensus": 72,
-      "weighted_sum": 92.2,
+      "weighted_sum": 90.1,
       "bull": 1435,
       "bear": 140,
       "neutral": 194,
@@ -253,13 +253,13 @@
       "strong_bear": 1,
       "w_bull": 804,
       "w_bear": 115,
-      "avg": 0.11
+      "avg": 0.1
     },
     {
       "sector": "Energy & Commodities",
       "score": 71,
       "consensus": 71,
-      "weighted_sum": 25.6,
+      "weighted_sum": 25.0,
       "bull": 141,
       "bear": 10,
       "neutral": 29,
@@ -279,7 +279,7 @@
       "sector": "Alternative",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 0.7,
+      "weighted_sum": 0.6,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -299,7 +299,7 @@
       "sector": "Crypto",
       "score": 18,
       "consensus": 18,
-      "weighted_sum": 6.3,
+      "weighted_sum": 6.2,
       "bull": 110,
       "bear": 13,
       "neutral": 24,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -36,
       "consensus": 36,
-      "weighted_sum": -7.5,
+      "weighted_sum": -7.3,
       "bull": 65,
       "bear": 105,
       "neutral": 68,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -27.7,
+      "weighted_sum": -27.1,
       "bull": 258,
       "bear": 123,
       "neutral": 64,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -28.2,
+      "weighted_sum": -27.6,
       "bull": 16,
       "bear": 65,
       "neutral": 21,
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 240.8,
+      "weighted_sum": 235.3,
       "bull": 1435,
       "bear": 140,
       "neutral": 194,
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 25.0,
+      "weighted_sum": 24.4,
       "bull": 141,
       "bear": 10,
       "neutral": 29,
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 46.6,
+      "weighted_sum": 45.5,
       "bull": 110,
       "bear": 13,
       "neutral": 24,
@@ -435,7 +435,7 @@
       "strong_bear": 6,
       "w_bull": 257,
       "w_bear": 37,
-      "avg": 0.2
+      "avg": 0.19
     },
     {
       "sector": "Alternative",
@@ -461,7 +461,7 @@
       "sector": "Equities",
       "score": 25,
       "consensus": 25,
-      "weighted_sum": 48.1,
+      "weighted_sum": 47.0,
       "bull": 258,
       "bear": 123,
       "neutral": 64,
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -49.3,
+      "weighted_sum": -48.1,
       "bull": 65,
       "bear": 105,
       "neutral": 68,
@@ -495,13 +495,13 @@
       "strong_bear": 63,
       "w_bull": 18,
       "w_bear": 556,
-      "avg": -0.1
+      "avg": -0.09
     },
     {
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -74.1,
+      "weighted_sum": -72.4,
       "bull": 16,
       "bear": 65,
       "neutral": 21,
@@ -1023,7 +1023,7 @@
       "latest_title": "🟢 看多DeFi：Pal 称AI代理将自营金库并追逐DeFi收益",
       "bull_bear": "🟢 DeFi/加密",
       "total_entries": 68,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Felix Prehn",
@@ -1270,7 +1270,7 @@
       "latest_title": "🟢 强烈看多黄金/白银：Lanci称突破加速或击穿Goldman $4900目标，白银加入",
       "bull_bear": "🟢 GLD, 白银",
       "total_entries": 31,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Ken Griffin（Citadel 创始人 / CEO）",
@@ -1309,7 +1309,7 @@
       "latest_title": "🟢 看多NVDA：Ives称财报前分析师模型低估15-20%，涨价=供应紧张",
       "bull_bear": "🟢 NVDA",
       "total_entries": 77,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Cathie Wood",
@@ -1413,7 +1413,7 @@
       "latest_title": "🟢 看多黄金/白银/BTC：Kiyosaki称财政部扩购债=QE印假钞",
       "bull_bear": "🟢 黄金, 白银, BTC | 🔴 美元/现金",
       "total_entries": 66,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Lina Thomas（Goldman Sachs Research 高级大宗商品分析师 / 黄金白银专家）",
@@ -1738,7 +1738,7 @@
       "latest_title": "🟢 看多黄金：8月金价突破令分析师措手不及",
       "bull_bear": "🟢 黄金",
       "total_entries": 8,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Bob Haberkorn",
