@@ -986,20 +986,12 @@ function applyFilters(baseEntries) {
 
 // ── Weekly List ───────────────────────────────────────────
 function renderWeeklyList() {
-  const val     = document.getElementById('filter-days').value;
   const sector  = document.getElementById('filter-sector').value;
   const sentVal = document.getElementById('filter-sentiment').value;
   const search  = document.getElementById('search-kol').value.toLowerCase();
 
-  const { from: fromDate, to: toDate } = getActiveDateRange();
-
+  // 周报区不套用「近N天」日期筛 —— 周报是跨周历史快照，默认全量显示（修复默认30天筛把全部周报滤掉的问题）
   let weeks = DATA.weekly_reports || [];
-
-  // Filter by time range
-  weeks = weeks.filter(w => {
-    const d = w.date || '';
-    return d >= fromDate && d <= toDate;
-  });
 
   // Filter by sector
   if (sector) weeks = weeks.filter(w => w.sector === sector);
