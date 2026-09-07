@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-09-06 10:37 JST",
+  "generated_at": "2026-09-07 09:31 JST",
   "date_range": {
     "start": "2025-04-18",
-    "end": "2026-09-05"
+    "end": "2026-09-06"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3034,
-    "total_rows": 3058,
+    "legged_rows": 3037,
+    "total_rows": 3061,
     "pct": 99.2
   },
   "today_signals": [
+    {
+      "type": "反转",
+      "kol_name": "Martin Armstrong",
+      "sector": "Precious Metals",
+      "date": "2026-09-06",
+      "desc": "看空→看多",
+      "signal": "高"
+    },
     {
       "type": "反转",
       "kol_name": "Peter Schiff",
@@ -77,14 +85,6 @@
     },
     {
       "type": "反转",
-      "kol_name": "AG Thorson",
-      "sector": "Crypto",
-      "date": "2026-08-27",
-      "desc": "看多→看空",
-      "signal": "高"
-    },
-    {
-      "type": "反转",
       "kol_name": "Martin Armstrong",
       "sector": "Government Debt",
       "date": "2026-08-27",
@@ -97,59 +97,59 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 313.9,
-      "bull": 1477,
+      "weighted_sum": 308.7,
+      "bull": 1478,
       "bear": 144,
       "neutral": 203,
-      "total": 1824,
-      "legs_bull": 2350,
+      "total": 1825,
+      "legs_bull": 2352,
       "legs_bear": 145,
       "legs_neutral": 103,
       "legs_split": 44,
-      "legs_total": 2642,
+      "legs_total": 2644,
       "strong_bull": 756,
       "strong_bear": 1,
-      "w_bull": 3106,
+      "w_bull": 3108,
       "w_bear": 146,
       "avg": 0.12
     },
     {
       "sector": "Energy & Commodities",
-      "score": 83,
-      "consensus": 83,
-      "weighted_sum": 46.5,
+      "score": 82,
+      "consensus": 82,
+      "weighted_sum": 44.5,
       "bull": 145,
       "bear": 11,
       "neutral": 29,
       "total": 185,
       "legs_bull": 384,
-      "legs_bear": 39,
+      "legs_bear": 40,
       "legs_neutral": 19,
       "legs_split": 3,
-      "legs_total": 445,
+      "legs_total": 446,
       "strong_bull": 49,
       "strong_bear": 1,
       "w_bull": 433,
-      "w_bear": 40,
+      "w_bear": 41,
       "avg": 0.1
     },
     {
       "sector": "Crypto",
-      "score": 56,
-      "consensus": 56,
-      "weighted_sum": 45.6,
-      "bull": 113,
+      "score": 57,
+      "consensus": 57,
+      "weighted_sum": 48.4,
+      "bull": 115,
       "bear": 15,
       "neutral": 24,
-      "total": 152,
-      "legs_bull": 267,
+      "total": 154,
+      "legs_bull": 271,
       "legs_bear": 85,
       "legs_neutral": 28,
       "legs_split": 5,
-      "legs_total": 385,
+      "legs_total": 389,
       "strong_bull": 77,
       "strong_bear": 9,
-      "w_bull": 344,
+      "w_bull": 348,
       "w_bear": 94,
       "avg": 0.12
     },
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 1.8,
+      "weighted_sum": 1.7,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -175,29 +175,29 @@
     },
     {
       "sector": "Equities",
-      "score": -10,
-      "consensus": 10,
-      "weighted_sum": 22.2,
+      "score": -9,
+      "consensus": 9,
+      "weighted_sum": 22.7,
       "bull": 270,
       "bear": 130,
       "neutral": 66,
       "total": 466,
-      "legs_bull": 384,
+      "legs_bull": 385,
       "legs_bear": 467,
       "legs_neutral": 35,
       "legs_split": 17,
-      "legs_total": 903,
+      "legs_total": 904,
       "strong_bull": 69,
       "strong_bear": 83,
-      "w_bull": 453,
+      "w_bull": 454,
       "w_bear": 550,
-      "avg": 0.02
+      "avg": 0.03
     },
     {
       "sector": "Macro",
       "score": -78,
       "consensus": 78,
-      "weighted_sum": -50.3,
+      "weighted_sum": -49.1,
       "bull": 68,
       "bear": 111,
       "neutral": 72,
@@ -211,26 +211,26 @@
       "strong_bear": 70,
       "w_bull": 87,
       "w_bear": 708,
-      "avg": -0.07
+      "avg": -0.06
     },
     {
       "sector": "Government Debt",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -88.8,
+      "weighted_sum": -87.7,
       "bull": 17,
       "bear": 75,
       "neutral": 23,
       "total": 115,
       "legs_bull": 30,
-      "legs_bear": 960,
+      "legs_bear": 961,
       "legs_neutral": 22,
       "legs_split": 4,
-      "legs_total": 1016,
+      "legs_total": 1017,
       "strong_bull": 1,
       "strong_bear": 56,
       "w_bull": 31,
-      "w_bear": 1016,
+      "w_bear": 1017,
       "avg": -0.09
     }
   ],
@@ -239,19 +239,19 @@
       "sector": "Precious Metals",
       "score": 71,
       "consensus": 71,
-      "weighted_sum": 81.2,
-      "bull": 1477,
+      "weighted_sum": 80.3,
+      "bull": 1478,
       "bear": 144,
       "neutral": 203,
-      "total": 1824,
-      "legs_bull": 671,
+      "total": 1825,
+      "legs_bull": 672,
       "legs_bear": 122,
       "legs_neutral": 90,
       "legs_split": 36,
-      "legs_total": 919,
+      "legs_total": 920,
       "strong_bull": 157,
       "strong_bear": 1,
-      "w_bull": 828,
+      "w_bull": 829,
       "w_bear": 123,
       "avg": 0.09
     },
@@ -259,7 +259,7 @@
       "sector": "Energy & Commodities",
       "score": 70,
       "consensus": 70,
-      "weighted_sum": 23.2,
+      "weighted_sum": 22.7,
       "bull": 145,
       "bear": 11,
       "neutral": 29,
@@ -273,7 +273,7 @@
       "strong_bear": 0,
       "w_bull": 190,
       "w_bear": 32,
-      "avg": 0.11
+      "avg": 0.1
     },
     {
       "sector": "Alternative",
@@ -297,23 +297,23 @@
     },
     {
       "sector": "Crypto",
-      "score": 16,
-      "consensus": 16,
-      "weighted_sum": 4.1,
-      "bull": 113,
+      "score": 17,
+      "consensus": 17,
+      "weighted_sum": 5.0,
+      "bull": 115,
       "bear": 15,
       "neutral": 24,
-      "total": 152,
-      "legs_bull": 64,
+      "total": 154,
+      "legs_bull": 65,
       "legs_bear": 53,
       "legs_neutral": 21,
       "legs_split": 2,
-      "legs_total": 140,
+      "legs_total": 141,
       "strong_bull": 14,
       "strong_bear": 3,
-      "w_bull": 78,
+      "w_bull": 79,
       "w_bear": 56,
-      "avg": 0.03
+      "avg": 0.04
     },
     {
       "sector": "Macro",
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -27.0,
+      "weighted_sum": -26.4,
       "bull": 270,
       "bear": 130,
       "neutral": 66,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -24.3,
+      "weighted_sum": -23.8,
       "bull": 17,
       "bear": 75,
       "neutral": 23,
@@ -381,61 +381,61 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 232.7,
-      "bull": 1477,
+      "weighted_sum": 228.4,
+      "bull": 1478,
       "bear": 144,
       "neutral": 203,
-      "total": 1824,
-      "legs_bull": 1679,
+      "total": 1825,
+      "legs_bull": 1680,
       "legs_bear": 23,
       "legs_neutral": 13,
       "legs_split": 8,
-      "legs_total": 1723,
+      "legs_total": 1724,
       "strong_bull": 599,
       "strong_bear": 0,
-      "w_bull": 2278,
+      "w_bull": 2279,
       "w_bear": 23,
-      "avg": 0.14
+      "avg": 0.13
     },
     {
       "sector": "Energy & Commodities",
-      "score": 94,
-      "consensus": 94,
-      "weighted_sum": 23.3,
+      "score": 93,
+      "consensus": 93,
+      "weighted_sum": 21.8,
       "bull": 145,
       "bear": 11,
       "neutral": 29,
       "total": 185,
       "legs_bull": 220,
-      "legs_bear": 7,
+      "legs_bear": 8,
       "legs_neutral": 2,
       "legs_split": 0,
-      "legs_total": 229,
+      "legs_total": 230,
       "strong_bull": 23,
       "strong_bear": 1,
       "w_bull": 243,
-      "w_bear": 8,
-      "avg": 0.1
+      "w_bear": 9,
+      "avg": 0.09
     },
     {
       "sector": "Crypto",
-      "score": 74,
-      "consensus": 74,
-      "weighted_sum": 41.4,
-      "bull": 113,
+      "score": 75,
+      "consensus": 75,
+      "weighted_sum": 43.4,
+      "bull": 115,
       "bear": 15,
       "neutral": 24,
-      "total": 152,
-      "legs_bull": 203,
+      "total": 154,
+      "legs_bull": 206,
       "legs_bear": 32,
       "legs_neutral": 7,
       "legs_split": 3,
-      "legs_total": 245,
+      "legs_total": 248,
       "strong_bull": 63,
       "strong_bear": 6,
-      "w_bull": 266,
+      "w_bull": 269,
       "w_bear": 38,
-      "avg": 0.17
+      "avg": 0.18
     },
     {
       "sector": "Alternative",
@@ -461,19 +461,19 @@
       "sector": "Equities",
       "score": 27,
       "consensus": 27,
-      "weighted_sum": 49.2,
+      "weighted_sum": 49.1,
       "bull": 270,
       "bear": 130,
       "neutral": 66,
       "total": 466,
-      "legs_bull": 219,
+      "legs_bull": 220,
       "legs_bear": 129,
       "legs_neutral": 8,
       "legs_split": 1,
-      "legs_total": 357,
+      "legs_total": 358,
       "strong_bull": 60,
       "strong_bear": 32,
-      "w_bull": 279,
+      "w_bull": 280,
       "w_bear": 161,
       "avg": 0.14
     },
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -47.8,
+      "weighted_sum": -46.7,
       "bull": 68,
       "bear": 111,
       "neutral": 72,
@@ -501,24 +501,33 @@
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -64.4,
+      "weighted_sum": -63.9,
       "bull": 17,
       "bear": 75,
       "neutral": 23,
       "total": 115,
       "legs_bull": 8,
-      "legs_bear": 672,
+      "legs_bear": 673,
       "legs_neutral": 4,
       "legs_split": 0,
-      "legs_total": 684,
+      "legs_total": 685,
       "strong_bull": 0,
       "strong_bear": 43,
       "w_bull": 8,
-      "w_bear": 715,
+      "w_bear": 716,
       "avg": -0.09
     }
   ],
   "stance_changes": [
+    {
+      "kol_name": "Martin Armstrong",
+      "sector": "Precious Metals",
+      "date": "2026-09-06",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 看多黄金/白银：Armstrong 称金破 $4,500 后 2026 整固、2032 才是宏观",
+      "signal": "高"
+    },
     {
       "kol_name": "Peter Schiff",
       "sector": "Equities",
@@ -592,21 +601,21 @@
       "signal": "高"
     },
     {
-      "kol_name": "AG Thorson",
-      "sector": "Crypto",
-      "date": "2026-08-27",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空BTC(短期)：9-10月探底$40K / 🟢 黄金白银铂金确认大底升势重启",
-      "signal": "高"
-    },
-    {
       "kol_name": "Martin Armstrong",
       "sector": "Government Debt",
       "date": "2026-08-27",
       "from": "看多",
       "to": "看空",
       "title": "🔴 看空西方财政：经济停滞+战争债务螺旋，主权债务危机逼近",
+      "signal": "高"
+    },
+    {
+      "kol_name": "AG Thorson",
+      "sector": "Crypto",
+      "date": "2026-08-27",
+      "from": "看多",
+      "to": "看空",
+      "title": "🔴 看空BTC(短期)：9-10月探底$40K / 🟢 黄金白银铂金确认大底升势重启",
       "signal": "高"
     },
     {
@@ -779,28 +788,19 @@
       "to": "看空",
       "title": "罗杰斯警告全球股市严重崩盘，称更偏好人民币而非美元",
       "signal": "中"
-    },
-    {
-      "kol_name": "Marc Chandler",
-      "sector": "Precious Metals",
-      "date": "2026-08-16",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多黄金：Chandler称金价有望上测$4503(200日均线)",
-      "signal": "高"
     }
   ],
   "ticker_heatmap": {
     "bull": [
       {
         "ticker": "黄金",
-        "count": 688,
+        "count": 689,
         "kols": 95
       },
       {
         "ticker": "白银",
-        "count": 357,
-        "kols": 72
+        "count": 358,
+        "kols": 73
       },
       {
         "ticker": "黄金/白银",
@@ -830,7 +830,7 @@
       {
         "ticker": "原油",
         "count": 59,
-        "kols": 24
+        "kols": 25
       },
       {
         "ticker": "白银(SLV)",
@@ -839,7 +839,7 @@
       },
       {
         "ticker": "BTC",
-        "count": 32,
+        "count": 34,
         "kols": 14
       },
       {
@@ -848,14 +848,14 @@
         "kols": 23
       },
       {
-        "ticker": "比特币(BTC)",
-        "count": 28,
-        "kols": 12
-      },
-      {
         "ticker": "黄金/白银(GLD,SLV)",
         "count": 28,
         "kols": 23
+      },
+      {
+        "ticker": "比特币(BTC)",
+        "count": 28,
+        "kols": 12
       },
       {
         "ticker": "黄金/白银/金矿",
@@ -920,14 +920,14 @@
         "kols": 11
       },
       {
-        "ticker": "美元DXY",
-        "count": 26,
-        "kols": 16
-      },
-      {
         "ticker": "美债 TLT",
         "count": 26,
         "kols": 22
+      },
+      {
+        "ticker": "美元DXY",
+        "count": 26,
+        "kols": 16
       },
       {
         "ticker": "美元/法币",
@@ -947,6 +947,45 @@
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Raoul Pal",
+      "sector": "Crypto",
+      "detail_sector": "科技与未来趋势",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-06",
+      "latest_comments": "Raoul Pal X 帖(9/6)：BTC 与全球流动性相关 87%、纳指 97% → 加密只跟系统货币量 → BTC 现偏冷于流动性线、属滞后待补涨 → 货币贬值驱动流动性且可提前预测(付息领先约3年) → 2032 加密总市值或破 $100T；L1 估值看链担保经济活性、非现金流。来源：Bitcoin News/ChainCatcher(09/06)",
+      "latest_title": "🟢 看多BTC/ETH：Pal 称 BTC 87% 跟随全球流动性、现偏冷将补涨，加密 2032 或破 $100T",
+      "bull_bear": "🟢 BTC, ETH/以太坊, 加密总市值",
+      "total_entries": 69,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Martin Armstrong",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-06",
+      "latest_comments": "Martin Armstrong(Kerry Lutz 访谈 9/6)：金破 $4,500、银逼近 $70，主因是政府信任崩塌而非通胀 → 资本撤离主权债驱动金属 → Socrates 模型：2026 先整固，2027-2032 主升浪 → 黄金宏观顶在 2032、伴随货币重置；Fed Operation Twist 2.0 对贵金属有即时影响。来源：Armstrong Economics(09/",
+      "latest_title": "🟢 看多黄金/白银：Armstrong 称金破 $4,500 后 2026 整固、2032 才是宏观顶 ｜ 🔴 看空主权债",
+      "bull_bear": "🟢 黄金, 白银 | 🔴 主权债券",
+      "total_entries": 7,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Cathie Wood",
+      "sector": "Equities",
+      "detail_sector": "科技与未来趋势",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-06",
+      "latest_comments": "Cathie Wood 评 9/4 非农：8 月非农 16.2 万+家庭就业增超 50 万 → 市场仍按旧经济定价，新经济正成型 → BTC 逐步与黄金脱钩(由 AI 采用驱动而非通胀对冲) → AI 加速就业 = 更强增长+技术通缩 → 通胀 3.7%、油价或跌至 $30、美股创新高、capex 破 20 年瓶颈 → 是转型而非通胀复燃。来源：Gate News/Odaily(09/06)",
+      "latest_title": "🟢 看多BTC/美股AI：Wood 称非农显示新经济成型，BTC 与黄金脱钩、油价或跌至 $30",
+      "bull_bear": "🟢 BTC, AI/科技股 | 🔴 原油(看跌至$30)",
+      "total_entries": 93,
+      "trend": "↘ 趋空"
+    },
     {
       "kol_name": "Marc Chandler",
       "sector": "Macro",
@@ -1075,19 +1114,6 @@
       "latest_title": "🟢 看多黄金(长期)：财政部/日元干预无效反证美元弱势 ｜ 🟡 近端区间等 9/16 Fed",
       "bull_bear": "🟢 黄金(结构性) ｜ 🔴 美元/法币 ｜ 🟡 近端区间整理",
       "total_entries": 31,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Cathie Wood",
-      "sector": "Equities",
-      "detail_sector": "科技与未来趋势",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-04",
-      "latest_comments": "ARK 交易披露(9/4)：①两个交易日买 Rocket Lab 705,102 股（约$4,450万），趁增长股回调布局商业太空 ②加码 Block 约$3,740万（加密支付） ③同时减持 Palantir（及 AMD） → 资本向「执行催化剂仍在前面」的公司转移，非简单抄底 → 延续其创新/太空+加密支付长期主题。来源: BitInsider/247wallst/Invezz 2026-09",
-      "latest_title": "🟢 加码 Rocket Lab $44.5M + Block $37.4M、减持 Palantir：Wood 趁增长股回调布局太空与 fintech",
-      "bull_bear": "🟢 Rocket Lab、Block ｜ 🔴 Palantir(减持)",
-      "total_entries": 92,
       "trend": "↘ 趋空"
     },
     {
@@ -1322,7 +1348,7 @@
       "latest_title": "🟢 强烈看多BTC：Strategy 确认 $370M 买入，两个多月来首次",
       "bull_bear": "🟢 BTC($370M首购/两月来首次)",
       "total_entries": 65,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Frank Giustra",
@@ -1362,19 +1388,6 @@
       "bull_bear": "🟢 AMZN, GOOGL | 🔴 AVGO",
       "total_entries": 34,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Martin Armstrong",
-      "sector": "Precious Metals",
-      "detail_sector": "贵金属",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-30",
-      "latest_comments": "Armstrong 8/29-30 访谈与博客：主权债务传染风险升级，2032 年前全球或陷入多线冲突与债务危机 → 提出 September Surprise——NATO 正在准备大动作 → Private Blog Here We Go - Hold On 暗示市场剧烈波动将至 → 各国靠发债与印钞续命，最终以主权债务危机清算。来源：Armstrong Economics 8/29-30",
-      "latest_title": "🔴 看空主权债务：Armstrong 称 2032 前主权债务传染+四线战争，9月或有意外",
-      "bull_bear": "🔴 主权债务 | 🟢 黄金",
-      "total_entries": 6,
-      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Larry Lepard",
@@ -1517,7 +1530,7 @@
       "latest_title": "🔴 短线转空BTC：暴涨后反手做空，9月加息概率回升",
       "bull_bear": "🔴 BTC(短线空) | 🔴 ETH(遇阻) | 🔴 ZEC/HLP(做空)",
       "total_entries": 63,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Timothy Arcuri",
@@ -1543,7 +1556,7 @@
       "latest_title": "🟢 看多白银(首选)/黄金/BTC：$40T债务正式突破，现金储蓄者最受伤",
       "bull_bear": "🟢 白银(首选)/黄金/BTC/房地产",
       "total_entries": 67,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "James Rickards",
@@ -1570,19 +1583,6 @@
       "bull_bear": "🟢 黄金",
       "total_entries": 20,
       "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Raoul Pal",
-      "sector": "Crypto",
-      "detail_sector": "加密货币",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-25",
-      "latest_comments": "8/25 X帖：越来越自主的AI代理将演化为逐利经济实体——管理资本、做投资决策、通过DeFi运作；一旦AI代理获得财务激励，将管理自己的公司金库追逐链上收益 → 我们建了金融系统、AI代理需要它 → 看多加密/DeFi基础设施。来源：Benzinga 8/25。",
-      "latest_title": "🟢 看多DeFi：Pal 称AI代理将自营金库并追逐DeFi收益",
-      "bull_bear": "🟢 DeFi/加密",
-      "total_entries": 68,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Felix Prehn",
@@ -4050,6 +4050,42 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3d447eb5-fd3c-81db-973c-ed056530570e",
+      "name": "🟢 看多BTC/ETH：Pal 称 BTC 87% 跟随全球流动性、现偏冷将补涨，加密 2032 或破 $100T",
+      "kol_name": "Raoul Pal",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-06",
+      "sector": "Crypto",
+      "detail_sector": "科技与未来趋势",
+      "comments": "Raoul Pal X 帖(9/6)：BTC 与全球流动性相关 87%、纳指 97% → 加密只跟系统货币量 → BTC 现偏冷于流动性线、属滞后待补涨 → 货币贬值驱动流动性且可提前预测(付息领先约3年) → 2032 加密总市值或破 $100T；L1 估值看链担保经济活性、非现金流。来源：Bitcoin News/ChainCatcher(09/06)",
+      "suggestion": "宏观驱动框架下 BTC 偏冷是加仓窗口而非破位；L1 龙头(ETH)按生态担保价值重估，勿用传统 DCF 框死。",
+      "bull_bear": "🟢 BTC, ETH/以太坊, 加密总市值"
+    },
+    {
+      "id": "3d447eb5-fd3c-8147-97b9-eaf0c01da972",
+      "name": "🟢 看多黄金/白银：Armstrong 称金破 $4,500 后 2026 整固、2032 才是宏观顶 ｜ 🔴 看空主权债",
+      "kol_name": "Martin Armstrong",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-06",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "Martin Armstrong(Kerry Lutz 访谈 9/6)：金破 $4,500、银逼近 $70，主因是政府信任崩塌而非通胀 → 资本撤离主权债驱动金属 → Socrates 模型：2026 先整固，2027-2032 主升浪 → 黄金宏观顶在 2032、伴随货币重置；Fed Operation Twist 2.0 对贵金属有即时影响。来源：Armstrong Economics(09/06)",
+      "suggestion": "长期多头框架不变：2026 若现回调属整固而非转熊；白银攻 $70 途中波动大，回调分批。主权债敞口继续降。",
+      "bull_bear": "🟢 黄金, 白银 | 🔴 主权债券"
+    },
+    {
+      "id": "3d447eb5-fd3c-81dd-b0c5-d52497df2565",
+      "name": "🟢 看多BTC/美股AI：Wood 称非农显示新经济成型，BTC 与黄金脱钩、油价或跌至 $30",
+      "kol_name": "Cathie Wood",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-06",
+      "sector": "Equities",
+      "detail_sector": "科技与未来趋势",
+      "comments": "Cathie Wood 评 9/4 非农：8 月非农 16.2 万+家庭就业增超 50 万 → 市场仍按旧经济定价，新经济正成型 → BTC 逐步与黄金脱钩(由 AI 采用驱动而非通胀对冲) → AI 加速就业 = 更强增长+技术通缩 → 通胀 3.7%、油价或跌至 $30、美股创新高、capex 破 20 年瓶颈 → 是转型而非通胀复燃。来源：Gate News/Odaily(09/06)",
+      "suggestion": "关注新经济资产(创新科技+BTC)与旧经济定价差；油价若跌向 $30 将强化通缩交易，利好成长股久期与加密。",
+      "bull_bear": "🟢 BTC, AI/科技股 | 🔴 原油(看跌至$30)"
+    },
     {
       "id": "3d347eb5-fd3c-81c8-a064-ff62a3f4933b",
       "name": "🟡 美元区间整固：Chandler 看空 USD/CNH 至6.65、日元155攻防，ECB 9/10 加息25bp",
