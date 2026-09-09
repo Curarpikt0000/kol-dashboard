@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-08 18:05 JST",
+  "generated_at": "2026-09-09 09:31 JST",
   "date_range": {
     "start": "2025-04-18",
-    "end": "2026-09-07"
+    "end": "2026-09-08"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3045,
-    "total_rows": 3069,
+    "legged_rows": 3048,
+    "total_rows": 3072,
     "pct": 99.2
   },
   "today_signals": [
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 90,
       "consensus": 90,
-      "weighted_sum": 303.6,
+      "weighted_sum": 296.6,
       "bull": 1479,
       "bear": 144,
       "neutral": 203,
@@ -117,19 +117,19 @@
       "sector": "Energy & Commodities",
       "score": 82,
       "consensus": 82,
-      "weighted_sum": 44.5,
-      "bull": 145,
+      "weighted_sum": 46.4,
+      "bull": 147,
       "bear": 11,
       "neutral": 29,
-      "total": 185,
-      "legs_bull": 385,
+      "total": 187,
+      "legs_bull": 388,
       "legs_bear": 40,
-      "legs_neutral": 19,
+      "legs_neutral": 20,
       "legs_split": 3,
-      "legs_total": 447,
+      "legs_total": 451,
       "strong_bull": 49,
       "strong_bear": 1,
-      "w_bull": 434,
+      "w_bull": 437,
       "w_bear": 41,
       "avg": 0.1
     },
@@ -137,7 +137,7 @@
       "sector": "Crypto",
       "score": 57,
       "consensus": 57,
-      "weighted_sum": 47.3,
+      "weighted_sum": 46.2,
       "bull": 115,
       "bear": 15,
       "neutral": 24,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 1.7,
+      "weighted_sum": 1.6,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -9,
       "consensus": 9,
-      "weighted_sum": 22.2,
+      "weighted_sum": 21.7,
       "bull": 270,
       "bear": 131,
       "neutral": 67,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -77,
       "consensus": 77,
-      "weighted_sum": -47.2,
+      "weighted_sum": -46.1,
       "bull": 72,
       "bear": 111,
       "neutral": 73,
@@ -217,20 +217,20 @@
       "sector": "Government Debt",
       "score": -93,
       "consensus": 93,
-      "weighted_sum": -85.7,
+      "weighted_sum": -84.7,
       "bull": 17,
-      "bear": 75,
+      "bear": 76,
       "neutral": 23,
-      "total": 115,
+      "total": 116,
       "legs_bull": 32,
-      "legs_bear": 961,
+      "legs_bear": 962,
       "legs_neutral": 22,
       "legs_split": 4,
-      "legs_total": 1019,
+      "legs_total": 1020,
       "strong_bull": 1,
       "strong_bear": 56,
       "w_bull": 33,
-      "w_bear": 1017,
+      "w_bear": 1018,
       "avg": -0.08
     }
   ],
@@ -239,7 +239,7 @@
       "sector": "Precious Metals",
       "score": 71,
       "consensus": 71,
-      "weighted_sum": 78.5,
+      "weighted_sum": 76.7,
       "bull": 1479,
       "bear": 144,
       "neutral": 203,
@@ -253,33 +253,33 @@
       "strong_bear": 1,
       "w_bull": 829,
       "w_bear": 123,
-      "avg": 0.09
+      "avg": 0.08
     },
     {
       "sector": "Energy & Commodities",
       "score": 70,
       "consensus": 70,
-      "weighted_sum": 22.1,
-      "bull": 145,
+      "weighted_sum": 23.6,
+      "bull": 147,
       "bear": 11,
       "neutral": 29,
-      "total": 185,
-      "legs_bull": 164,
+      "total": 187,
+      "legs_bull": 166,
       "legs_bear": 32,
-      "legs_neutral": 17,
+      "legs_neutral": 18,
       "legs_split": 3,
-      "legs_total": 216,
+      "legs_total": 219,
       "strong_bull": 26,
       "strong_bear": 0,
-      "w_bull": 190,
+      "w_bull": 192,
       "w_bear": 32,
-      "avg": 0.1
+      "avg": 0.11
     },
     {
       "sector": "Alternative",
       "score": 17,
       "consensus": 17,
-      "weighted_sum": 1.1,
+      "weighted_sum": 1.0,
       "bull": 18,
       "bear": 4,
       "neutral": 25,
@@ -299,7 +299,7 @@
       "sector": "Crypto",
       "score": 17,
       "consensus": 17,
-      "weighted_sum": 4.9,
+      "weighted_sum": 4.8,
       "bull": 115,
       "bear": 15,
       "neutral": 24,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -26.8,
+      "weighted_sum": -26.1,
       "bull": 270,
       "bear": 131,
       "neutral": 67,
@@ -359,20 +359,20 @@
       "sector": "Government Debt",
       "score": -84,
       "consensus": 84,
-      "weighted_sum": -23.2,
+      "weighted_sum": -23.7,
       "bull": 17,
-      "bear": 75,
+      "bear": 76,
       "neutral": 23,
-      "total": 115,
+      "total": 116,
       "legs_bull": 23,
-      "legs_bear": 288,
+      "legs_bear": 289,
       "legs_neutral": 18,
       "legs_split": 4,
-      "legs_total": 333,
+      "legs_total": 334,
       "strong_bull": 1,
       "strong_bear": 13,
       "w_bull": 24,
-      "w_bear": 301,
+      "w_bear": 302,
       "avg": -0.07
     }
   ],
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 225.1,
+      "weighted_sum": 220.0,
       "bull": 1479,
       "bear": 144,
       "neutral": 203,
@@ -401,19 +401,19 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 22.3,
-      "bull": 145,
+      "weighted_sum": 22.8,
+      "bull": 147,
       "bear": 11,
       "neutral": 29,
-      "total": 185,
-      "legs_bull": 221,
+      "total": 187,
+      "legs_bull": 222,
       "legs_bear": 8,
       "legs_neutral": 2,
       "legs_split": 0,
-      "legs_total": 231,
+      "legs_total": 232,
       "strong_bull": 23,
       "strong_bear": 1,
-      "w_bull": 244,
+      "w_bull": 245,
       "w_bear": 9,
       "avg": 0.1
     },
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 75,
       "consensus": 75,
-      "weighted_sum": 42.4,
+      "weighted_sum": 41.5,
       "bull": 115,
       "bear": 15,
       "neutral": 24,
@@ -461,7 +461,7 @@
       "sector": "Equities",
       "score": 27,
       "consensus": 27,
-      "weighted_sum": 48.9,
+      "weighted_sum": 47.8,
       "bull": 270,
       "bear": 131,
       "neutral": 67,
@@ -475,13 +475,13 @@
       "strong_bear": 32,
       "w_bull": 281,
       "w_bear": 161,
-      "avg": 0.14
+      "avg": 0.13
     },
     {
       "sector": "Macro",
       "score": -94,
       "consensus": 94,
-      "weighted_sum": -45.7,
+      "weighted_sum": -44.6,
       "bull": 72,
       "bear": 111,
       "neutral": 73,
@@ -495,17 +495,17 @@
       "strong_bear": 64,
       "w_bull": 19,
       "w_bear": 572,
-      "avg": -0.09
+      "avg": -0.08
     },
     {
       "sector": "Government Debt",
       "score": -98,
       "consensus": 98,
-      "weighted_sum": -62.5,
+      "weighted_sum": -61.1,
       "bull": 17,
-      "bear": 75,
+      "bear": 76,
       "neutral": 23,
-      "total": 115,
+      "total": 116,
       "legs_bull": 9,
       "legs_bear": 673,
       "legs_neutral": 4,
@@ -848,14 +848,14 @@
         "kols": 23
       },
       {
-        "ticker": "黄金/白银(GLD,SLV)",
-        "count": 28,
-        "kols": 23
-      },
-      {
         "ticker": "比特币(BTC)",
         "count": 28,
         "kols": 12
+      },
+      {
+        "ticker": "黄金/白银(GLD,SLV)",
+        "count": 28,
+        "kols": 23
       },
       {
         "ticker": "黄金/白银/金矿",
@@ -948,6 +948,45 @@
   },
   "kol_cards": [
     {
+      "kol_name": "Eric Nuttall",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-08",
+      "latest_comments": "Nuttall BNN Market Call 首选 CVE/SCR/SU：伊朗控霍尔木兹=战略权力>核武，柴油创纪录约 $250/桶、美汽油 >$4、美10Y 4.8% 令降息艰难 → 全球库存续降、SPR 1983 年来最低、炼厂频遇袭 → 战后剧本：油价底至少 $70 WTI + 补库约 45 万桶/日×3 年 + 能源轴心转向北美(供应安全) → 加拿大能源股跑赢全球；CVE 年内 +93",
+      "latest_title": "🟢 看多加拿大能源股：Nuttall 首选 CVE/Strathcona/Suncor，战后油价底 $70+三年补库",
+      "bull_bear": "🟢 加拿大能源股(CVE/SCR/SU) ｜ 🟢 原油(WTI)",
+      "total_entries": 52,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Jeff Currie",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-08",
+      "latest_comments": "Currie 周二 CNBC 两段访谈：柴油价创纪录、能源裂解价差飙升证明能源危机已经在这里 → WTI/Brent 纸货仍低于 $100，但汽油/柴油实物价已达警戒水平 → 中国庞大炼能使其能压低原油价格却推高柴油，炼油瓶颈成定价核心 → 阿联酋退出 OPEC 后的供应角色受关注 → 实物紧张未反映在原油期货上。来源：CNBC 2026-09-08",
+      "latest_title": "🟢 看多成品油/能源危机已至：Currie 称柴油创纪录、裂解价差飙升，纸原油掩盖实物紧张",
+      "bull_bear": "🟢 成品油(柴油/汽油裂解) ｜ 🟡 原油纸货(WTI/Brent)",
+      "total_entries": 32,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Jeffrey Gundlach",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-08",
+      "latest_comments": "Gundlach 周二 DoubleLine webcast：按 2Y 收益率衡量 Fed Funds 目标区间(3.50-3.75%)应约高 50bp → 市场计入 9/15-16 FOMC 约 60% 加息概率，但他称若下周不加息也不会意外 → 隐含：短端利率定价偏低，债市在替 Fed 辩论，CPI 3.4% 下政策不够紧 → 名义利率中枢上移风险。来源：Reuters/Globe and M",
+      "latest_title": "🔴 看空短端美债：Gundlach 称 Fed Funds 应再高 50bp，下周 FOMC 或按兵不动",
+      "bull_bear": "🔴 短端美债(2Y) ｜ 🟡 9月加息预期~60%",
+      "total_entries": 52,
+      "trend": "→"
+    },
+    {
       "kol_name": "Marc Chandler",
       "sector": "Macro",
       "detail_sector": "宏观货币与金融体系",
@@ -985,19 +1024,6 @@
       "bull_bear": "🔴 AI数据中心/算力基建(短期) | 🟢 美股AI(长期)",
       "total_entries": 82,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Jeff Currie",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-07",
-      "latest_comments": "Currie（The Master Investor Podcast 9/7）→ 称财长 Bessent 压 30Y 收益率的长端干预是教科书式「金融压抑」→ 政府以行政手段压低实际利率、隐性稀释债权 → 对黄金及其他硬资产构成大规模长期买点信号 → 延续其「实物资源短缺时代已结束」框架：法定货币信用受损下，金与大宗是价值储藏 → 债市被扭曲越深、硬资产越受益。来源：Benzinga 2026-0",
-      "latest_title": "🟢 强烈看多黄金/硬资产：Currie 称 Bessent 购债=教科书式金融压抑，是黄金终极买点",
-      "bull_bear": "🟢 黄金 | 🟢 硬资产/大宗",
-      "total_entries": 31,
-      "trend": "→"
     },
     {
       "kol_name": "Raoul Pal",
@@ -1205,7 +1231,7 @@
       "latest_title": "🟢 看多黄金+BTC、🔴 减持美债：Dalio 警告美债危机约3年(±2)内到来，建议组合配10-15%黄金",
       "bull_bear": "🟢 GLD、黄金(10-15%)、BTC(少量) | 🔴 美债(减持)",
       "total_entries": 66,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "潘功胜（中国人民银行行长）",
@@ -1374,7 +1400,7 @@
       "latest_title": "🟢 强烈看多黄金 🔴 看空美元/法币 看空美债 看空BTC：全球货币重置与下一轮QE终结美元霸权",
       "bull_bear": "🟢 黄金(实物/ETF), 白银, 黄金矿业股 | 🔴 美元/法币体系, 长久期美债, 比特币",
       "total_entries": 18,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Jeremy Grantham",
@@ -1427,19 +1453,6 @@
       "bull_bear": "🔴 长久期美债",
       "total_entries": 7,
       "trend": "→"
-    },
-    {
-      "kol_name": "Eric Nuttall",
-      "sector": "Energy & Commodities",
-      "detail_sector": "资源与能源安全",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-29",
-      "latest_comments": "Ninepoint能源基金经理：对加拿大天然气价格相当负面 → PXT股息13%不可持续，建议tax-loss卖出换WCP（资产更优+无哥伦比亚地缘风险）→ POU净现金但50/50油气配比不够油，不入选 → 伊朗危机下油市存在被低估的机会，市场或未充分定价。来源：Nuttall 8/29 观点（PXT/POU评级+播客）",
-      "latest_title": "🔴 看空加拿大天然气 / 🟢 能源股轮换：Nuttall建议PXT换WCP，油价受伊朗危机支撑",
-      "bull_bear": "🔴 加拿大天然气 | 🟢 WCP | 🔴 PXT",
-      "total_entries": 51,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Kenneth Rogoff",
@@ -1556,7 +1569,7 @@
       "latest_title": "🟢 看多NVDA：UBS上调目标价280→300，维持Buy",
       "bull_bear": "🟢 NVDA(目标$300)",
       "total_entries": 14,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Robert Kiyosaki",
@@ -1741,19 +1754,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Jeffrey Gundlach",
-      "sector": "Government Debt",
-      "detail_sector": "国债利率与债券市场",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-20",
-      "latest_comments": "Gundlach称市场焦点应从AI转向Fed：主席Kevin Warsh面临20世纪70年代式通胀与债市纪律挑战。呼应其此前AI $500B融资=见顶信号判断，核心=财政主导下Fed被迫宽松、长端收益率上行压力。(来源: Stocktwits 8/20)",
-      "latest_title": "🔴 看空美债/注意Fed：‘忘掉AI，Fed才是主角’，Warsh面临20世纪70年代式通胀挑战",
-      "bull_bear": "🔴 美债",
-      "total_entries": 51,
-      "trend": "↘ 趋空"
-    },
-    {
       "kol_name": "Citi / UBS",
       "sector": "Precious Metals",
       "detail_sector": "贵金属",
@@ -1803,7 +1803,7 @@
       "latest_title": "🔴 看空美债：Lacy Hunt 罕见转空、称数十年债牛终结，通胀中枢从1.5%上移",
       "bull_bear": "🔴 美债(TLT/长久期) | 🔴 30年期国债 | 🟢 通胀挂钩(TIPS)",
       "total_entries": 23,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Jim Rogers",
@@ -4073,6 +4073,42 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3d647eb5-fd3c-81ee-aa19-c70fbaba40d0",
+      "name": "🟢 看多加拿大能源股：Nuttall 首选 CVE/Strathcona/Suncor，战后油价底 $70+三年补库",
+      "kol_name": "Eric Nuttall",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-08",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "Nuttall BNN Market Call 首选 CVE/SCR/SU：伊朗控霍尔木兹=战略权力>核武，柴油创纪录约 $250/桶、美汽油 >$4、美10Y 4.8% 令降息艰难 → 全球库存续降、SPR 1983 年来最低、炼厂频遇袭 → 战后剧本：油价底至少 $70 WTI + 补库约 45 万桶/日×3 年 + 能源轴心转向北美(供应安全) → 加拿大能源股跑赢全球；CVE 年内 +93% 仍仅定价 $55 WTI，看 $59=+33%($80 WTI 则 +50%)。来源：BNN Bloomberg 2026-09-08",
+      "suggestion": "能源多头首选 CVE/SCR/SU(TSX)回调布局；成品油紧缺与 SPR 补库支撑中期油价；若 10Y 续升压制美股，能源股相对占优。",
+      "bull_bear": "🟢 加拿大能源股(CVE/SCR/SU) ｜ 🟢 原油(WTI)"
+    },
+    {
+      "id": "3d647eb5-fd3c-81cf-bd08-d9cc1d4eea89",
+      "name": "🟢 看多成品油/能源危机已至：Currie 称柴油创纪录、裂解价差飙升，纸原油掩盖实物紧张",
+      "kol_name": "Jeff Currie",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-08",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "Currie 周二 CNBC 两段访谈：柴油价创纪录、能源裂解价差飙升证明能源危机已经在这里 → WTI/Brent 纸货仍低于 $100，但汽油/柴油实物价已达警戒水平 → 中国庞大炼能使其能压低原油价格却推高柴油，炼油瓶颈成定价核心 → 阿联酋退出 OPEC 后的供应角色受关注 → 实物紧张未反映在原油期货上。来源：CNBC 2026-09-08",
+      "suggestion": "多空分离定价：看多成品油/炼油利润(柴油裂解)，原油纸货或向实物收敛；成品油通胀二次抬头对长债不利，能源链相对占优。",
+      "bull_bear": "🟢 成品油(柴油/汽油裂解) ｜ 🟡 原油纸货(WTI/Brent)"
+    },
+    {
+      "id": "3d647eb5-fd3c-8173-9c52-ca3e4fae61db",
+      "name": "🔴 看空短端美债：Gundlach 称 Fed Funds 应再高 50bp，下周 FOMC 或按兵不动",
+      "kol_name": "Jeffrey Gundlach",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-08",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "comments": "Gundlach 周二 DoubleLine webcast：按 2Y 收益率衡量 Fed Funds 目标区间(3.50-3.75%)应约高 50bp → 市场计入 9/15-16 FOMC 约 60% 加息概率，但他称若下周不加息也不会意外 → 隐含：短端利率定价偏低，债市在替 Fed 辩论，CPI 3.4% 下政策不够紧 → 名义利率中枢上移风险。来源：Reuters/Globe and Mail/ainvest 2026-09-08",
+      "suggestion": "关注 9/16 FOMC 与 2Y 锚定：若 Fed 不加息而 2Y 维持高位，短端倒挂加深、长端承压；利率中枢上移环境下控制久期，短债/货币基金优于长债。",
+      "bull_bear": "🔴 短端美债(2Y) ｜ 🟡 9月加息预期~60%"
+    },
     {
       "id": "3d547eb5-fd3c-81de-9c04-dfc6012cc46d",
       "name": "🟢 官方谋稳健货币政策+宏观审慎：构建金融防波堤",
