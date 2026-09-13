@@ -9,7 +9,7 @@
   sector_score = sum(情绪分) 归一化到 -100~+100
 输出: dashboard/kol-dashboard/data.json
 """
-import json, os, re, math, sys, urllib.request
+import json, os, re, math, sys, urllib.request, urllib.error
 from datetime import datetime, date, timezone, timedelta
 from collections import defaultdict, Counter
 
@@ -72,8 +72,9 @@ def load_kol_directory():
     out.sort(key=numkey)
     return out
 
-def fetch_all():
-    rows=[];cursor=None
+def _fetch_scan():
+    """单轮分页扫描 Notion 全量. 返回 {row_id: entry}."""
+    out={};cursor=None
     while True:
         body={"page_size":100}
         if cursor:body["start_cursor"]=cursor
@@ -82,15 +83,27 @@ def fetch_all():
             data=json.dumps(body).encode(),headers=H,method="POST"),timeout=45))
         for row in r["results"]:
             P=row["properties"]
-            rows.append({"id":row["id"],"name":txt(P.get("Name")),"kol_name":txt(P.get("Name of KOL")),
+            out[row["id"]]={"id":row["id"],"name":txt(P.get("Name")),"kol_name":txt(P.get("Name of KOL")),
                 "kol_or_ib":txt(P.get("KOL or IB View")),"date":txt(P.get("Date")),
                 "sector":txt(P.get("Sector")),"detail_sector":txt(P.get("Detail Sector")),
                 "comments":txt(P.get("Comments")),"suggestion":txt(P.get("Suggestion")),
                 "bull_bear":txt(P.get("多空标的")),
-                "direction_detail":txt(P.get("方向明细")),"dominant":txt(P.get("主导方向"))})
+                "direction_detail":txt(P.get("方向明细")),"dominant":txt(P.get("主导方向"))}
         if not r.get("has_more"):break
         cursor=r["next_cursor"]
-    return rows
+    return out
+
+def fetch_all():
+    """多轮扫描并集: Notion 游标分页在 3000+ 行时会偶发漏 1 行(created_time 非唯一, 边界不稳定),
+    实测同一查询 3209/3210 抖动且漏的正是最新写入的行 → 连扫最多 3 轮取并集, 连续两轮无新增即停。
+    宁可多两次查询, 也不让 dashboard 少一条 KOL 观点。"""
+    pages={}
+    for attempt in range(3):
+        before=len(pages)
+        pages.update(_fetch_scan())
+        if len(pages)==before:
+            break
+    return list(pages.values())
 
 # 方向取值 -> 数值分(强度). 用于三元组摊平统计真实多空.
 DIR_SCORE={"强烈看多":2,"看多":1,"中性":0,"看空":-1,"强烈看空":-2,"分歧":0}
