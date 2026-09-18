@@ -1,16 +1,32 @@
 {
-  "generated_at": "2026-09-17 10:28 JST",
+  "generated_at": "2026-09-18 10:25 JST",
   "date_range": {
     "start": "2025-04-18",
-    "end": "2026-09-16"
+    "end": "2026-09-17"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3328,
-    "total_rows": 3352,
+    "legged_rows": 3345,
+    "total_rows": 3369,
     "pct": 99.3
   },
   "today_signals": [
+    {
+      "type": "反转",
+      "kol_name": "Stephen Leeb",
+      "sector": "Equities",
+      "date": "2026-09-17",
+      "desc": "看多→看空",
+      "signal": "中"
+    },
+    {
+      "type": "反转",
+      "kol_name": "Dan Ives",
+      "sector": "Government Debt",
+      "date": "2026-09-17",
+      "desc": "看多→看空",
+      "signal": "高"
+    },
     {
       "type": "反转",
       "kol_name": "James Rickards",
@@ -74,22 +90,6 @@
       "date": "2026-09-11",
       "desc": "看多→看空",
       "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Marc Chandler",
-      "sector": "Macro",
-      "date": "2026-09-10",
-      "desc": "看空→看多",
-      "signal": "高"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Rory Johnston",
-      "sector": "Energy & Commodities",
-      "date": "2026-09-10",
-      "desc": "看空→看多",
-      "signal": "高"
     }
   ],
   "sector_summary": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 88,
       "consensus": 88,
-      "weighted_sum": 299.3,
-      "bull": 1533,
+      "weighted_sum": 295.6,
+      "bull": 1535,
       "bear": 161,
       "neutral": 215,
-      "total": 1909,
-      "legs_bull": 2473,
+      "total": 1911,
+      "legs_bull": 2477,
       "legs_bear": 176,
-      "legs_neutral": 110,
+      "legs_neutral": 111,
       "legs_split": 44,
-      "legs_total": 2803,
+      "legs_total": 2808,
       "strong_bull": 780,
       "strong_bear": 11,
-      "w_bull": 3253,
+      "w_bull": 3257,
       "w_bear": 187,
       "avg": 0.11
     },
@@ -117,41 +117,41 @@
       "sector": "Energy & Commodities",
       "score": 81,
       "consensus": 81,
-      "weighted_sum": 64.4,
-      "bull": 173,
+      "weighted_sum": 66.8,
+      "bull": 176,
       "bear": 18,
       "neutral": 31,
-      "total": 222,
-      "legs_bull": 442,
+      "total": 225,
+      "legs_bull": 446,
       "legs_bear": 49,
-      "legs_neutral": 21,
+      "legs_neutral": 22,
       "legs_split": 3,
-      "legs_total": 515,
+      "legs_total": 520,
       "strong_bull": 53,
       "strong_bear": 1,
-      "w_bull": 495,
+      "w_bull": 499,
       "w_bear": 50,
-      "avg": 0.12
+      "avg": 0.13
     },
     {
       "sector": "Crypto",
       "score": 55,
       "consensus": 55,
-      "weighted_sum": 42.7,
-      "bull": 121,
+      "weighted_sum": 43.9,
+      "bull": 122,
       "bear": 17,
       "neutral": 26,
-      "total": 164,
-      "legs_bull": 284,
+      "total": 165,
+      "legs_bull": 287,
       "legs_bear": 93,
       "legs_neutral": 29,
       "legs_split": 5,
-      "legs_total": 411,
+      "legs_total": 414,
       "strong_bull": 79,
       "strong_bear": 10,
-      "w_bull": 363,
+      "w_bull": 366,
       "w_bear": 103,
-      "avg": 0.1
+      "avg": 0.11
     },
     {
       "sector": "Alternative",
@@ -175,62 +175,62 @@
     },
     {
       "sector": "Equities",
-      "score": -10,
-      "consensus": 10,
-      "weighted_sum": 26.7,
-      "bull": 292,
-      "bear": 151,
-      "neutral": 77,
-      "total": 520,
-      "legs_bull": 435,
-      "legs_bear": 528,
-      "legs_neutral": 43,
+      "score": -9,
+      "consensus": 9,
+      "weighted_sum": 26.5,
+      "bull": 294,
+      "bear": 153,
+      "neutral": 79,
+      "total": 526,
+      "legs_bull": 438,
+      "legs_bear": 531,
+      "legs_neutral": 46,
       "legs_split": 17,
-      "legs_total": 1023,
+      "legs_total": 1032,
       "strong_bull": 70,
       "strong_bear": 85,
-      "w_bull": 505,
-      "w_bear": 613,
+      "w_bull": 508,
+      "w_bear": 616,
       "avg": 0.03
     },
     {
       "sector": "Macro",
       "score": -72,
       "consensus": 72,
-      "weighted_sum": -47.8,
+      "weighted_sum": -47.7,
       "bull": 87,
       "bear": 132,
-      "neutral": 95,
-      "total": 314,
+      "neutral": 97,
+      "total": 316,
       "legs_bull": 123,
-      "legs_bear": 703,
-      "legs_neutral": 65,
+      "legs_bear": 704,
+      "legs_neutral": 67,
       "legs_split": 1,
-      "legs_total": 892,
+      "legs_total": 895,
       "strong_bull": 3,
       "strong_bear": 71,
       "w_bull": 126,
-      "w_bear": 774,
+      "w_bear": 775,
       "avg": -0.05
     },
     {
       "sector": "Government Debt",
       "score": -93,
       "consensus": 93,
-      "weighted_sum": -88.5,
+      "weighted_sum": -89.4,
       "bull": 18,
-      "bear": 92,
-      "neutral": 32,
-      "total": 142,
+      "bear": 94,
+      "neutral": 33,
+      "total": 145,
       "legs_bull": 35,
-      "legs_bear": 1002,
-      "legs_neutral": 29,
+      "legs_bear": 1005,
+      "legs_neutral": 30,
       "legs_split": 4,
-      "legs_total": 1070,
+      "legs_total": 1074,
       "strong_bull": 1,
       "strong_bear": 58,
       "w_bull": 36,
-      "w_bear": 1060,
+      "w_bear": 1063,
       "avg": -0.08
     }
   ],
@@ -239,19 +239,19 @@
       "sector": "Energy & Commodities",
       "score": 70,
       "consensus": 70,
-      "weighted_sum": 34.2,
-      "bull": 173,
+      "weighted_sum": 34.4,
+      "bull": 176,
       "bear": 18,
       "neutral": 31,
-      "total": 222,
-      "legs_bull": 198,
+      "total": 225,
+      "legs_bull": 199,
       "legs_bear": 39,
-      "legs_neutral": 19,
+      "legs_neutral": 20,
       "legs_split": 3,
-      "legs_total": 259,
+      "legs_total": 261,
       "strong_bull": 29,
       "strong_bear": 0,
-      "w_bull": 227,
+      "w_bull": 228,
       "w_bear": 39,
       "avg": 0.13
     },
@@ -259,16 +259,16 @@
       "sector": "Precious Metals",
       "score": 66,
       "consensus": 66,
-      "weighted_sum": 71.9,
-      "bull": 1533,
+      "weighted_sum": 70.2,
+      "bull": 1535,
       "bear": 161,
       "neutral": 215,
-      "total": 1909,
+      "total": 1911,
       "legs_bull": 706,
       "legs_bear": 153,
-      "legs_neutral": 96,
+      "legs_neutral": 97,
       "legs_split": 36,
-      "legs_total": 991,
+      "legs_total": 992,
       "strong_bull": 162,
       "strong_bear": 11,
       "w_bull": 868,
@@ -277,21 +277,21 @@
     },
     {
       "sector": "Crypto",
-      "score": 11,
-      "consensus": 11,
-      "weighted_sum": -1.4,
-      "bull": 121,
+      "score": 12,
+      "consensus": 12,
+      "weighted_sum": -0.8,
+      "bull": 122,
       "bear": 17,
       "neutral": 26,
-      "total": 164,
-      "legs_bull": 66,
+      "total": 165,
+      "legs_bull": 67,
       "legs_bear": 60,
       "legs_neutral": 22,
       "legs_split": 2,
-      "legs_total": 150,
+      "legs_total": 151,
       "strong_bull": 14,
       "strong_bear": 4,
-      "w_bull": 80,
+      "w_bull": 81,
       "w_bear": 64,
       "avg": -0.01
     },
@@ -319,16 +319,16 @@
       "sector": "Macro",
       "score": -32,
       "consensus": 32,
-      "weighted_sum": -6.0,
+      "weighted_sum": -5.8,
       "bull": 87,
       "bear": 132,
-      "neutral": 95,
-      "total": 314,
+      "neutral": 97,
+      "total": 316,
       "legs_bull": 85,
       "legs_bear": 160,
-      "legs_neutral": 39,
+      "legs_neutral": 40,
       "legs_split": 1,
-      "legs_total": 285,
+      "legs_total": 286,
       "strong_bull": 1,
       "strong_bear": 6,
       "w_bull": 86,
@@ -339,19 +339,19 @@
       "sector": "Equities",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -25.2,
-      "bull": 292,
-      "bear": 151,
-      "neutral": 77,
-      "total": 520,
-      "legs_bull": 179,
+      "weighted_sum": -23.7,
+      "bull": 294,
+      "bear": 153,
+      "neutral": 79,
+      "total": 526,
+      "legs_bull": 180,
       "legs_bear": 380,
-      "legs_neutral": 31,
+      "legs_neutral": 33,
       "legs_split": 16,
-      "legs_total": 606,
+      "legs_total": 609,
       "strong_bull": 9,
       "strong_bear": 51,
-      "w_bull": 188,
+      "w_bull": 189,
       "w_bear": 431,
       "avg": -0.04
     },
@@ -359,21 +359,21 @@
       "sector": "Government Debt",
       "score": -86,
       "consensus": 86,
-      "weighted_sum": -30.9,
+      "weighted_sum": -32.1,
       "bull": 18,
-      "bear": 92,
-      "neutral": 32,
-      "total": 142,
+      "bear": 94,
+      "neutral": 33,
+      "total": 145,
       "legs_bull": 23,
-      "legs_bear": 317,
+      "legs_bear": 319,
       "legs_neutral": 22,
       "legs_split": 4,
-      "legs_total": 366,
+      "legs_total": 368,
       "strong_bull": 1,
       "strong_bear": 14,
       "w_bull": 24,
-      "w_bear": 331,
-      "avg": -0.08
+      "w_bear": 333,
+      "avg": -0.09
     }
   ],
   "sector_summary_long": [
@@ -381,59 +381,59 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 227.4,
-      "bull": 1533,
+      "weighted_sum": 225.4,
+      "bull": 1535,
       "bear": 161,
       "neutral": 215,
-      "total": 1909,
-      "legs_bull": 1767,
+      "total": 1911,
+      "legs_bull": 1771,
       "legs_bear": 23,
       "legs_neutral": 14,
       "legs_split": 8,
-      "legs_total": 1812,
+      "legs_total": 1816,
       "strong_bull": 618,
       "strong_bear": 0,
-      "w_bull": 2385,
+      "w_bull": 2389,
       "w_bear": 23,
-      "avg": 0.13
+      "avg": 0.12
     },
     {
       "sector": "Energy & Commodities",
       "score": 92,
       "consensus": 92,
-      "weighted_sum": 30.1,
-      "bull": 173,
+      "weighted_sum": 32.4,
+      "bull": 176,
       "bear": 18,
       "neutral": 31,
-      "total": 222,
-      "legs_bull": 244,
+      "total": 225,
+      "legs_bull": 247,
       "legs_bear": 10,
       "legs_neutral": 2,
       "legs_split": 0,
-      "legs_total": 256,
+      "legs_total": 259,
       "strong_bull": 24,
       "strong_bear": 1,
-      "w_bull": 268,
+      "w_bull": 271,
       "w_bear": 11,
-      "avg": 0.12
+      "avg": 0.13
     },
     {
       "sector": "Crypto",
       "score": 75,
       "consensus": 75,
-      "weighted_sum": 44.2,
-      "bull": 121,
+      "weighted_sum": 44.7,
+      "bull": 122,
       "bear": 17,
       "neutral": 26,
-      "total": 164,
-      "legs_bull": 218,
+      "total": 165,
+      "legs_bull": 220,
       "legs_bear": 33,
       "legs_neutral": 7,
       "legs_split": 3,
-      "legs_total": 261,
+      "legs_total": 263,
       "strong_bull": 65,
       "strong_bear": 6,
-      "w_bull": 283,
+      "w_bull": 285,
       "w_bear": 39,
       "avg": 0.17
     },
@@ -441,20 +441,20 @@
       "sector": "Equities",
       "score": 27,
       "consensus": 27,
-      "weighted_sum": 51.9,
-      "bull": 292,
-      "bear": 151,
-      "neutral": 77,
-      "total": 520,
-      "legs_bull": 256,
-      "legs_bear": 148,
-      "legs_neutral": 12,
+      "weighted_sum": 50.1,
+      "bull": 294,
+      "bear": 153,
+      "neutral": 79,
+      "total": 526,
+      "legs_bull": 258,
+      "legs_bear": 151,
+      "legs_neutral": 13,
       "legs_split": 1,
-      "legs_total": 417,
+      "legs_total": 423,
       "strong_bull": 61,
       "strong_bear": 34,
-      "w_bull": 317,
-      "w_bear": 182,
+      "w_bull": 319,
+      "w_bear": 185,
       "avg": 0.12
     },
     {
@@ -484,41 +484,59 @@
       "weighted_sum": -41.9,
       "bull": 87,
       "bear": 132,
-      "neutral": 95,
-      "total": 314,
+      "neutral": 97,
+      "total": 316,
       "legs_bull": 38,
-      "legs_bear": 543,
-      "legs_neutral": 26,
+      "legs_bear": 544,
+      "legs_neutral": 27,
       "legs_split": 0,
-      "legs_total": 607,
+      "legs_total": 609,
       "strong_bull": 2,
       "strong_bear": 65,
       "w_bull": 40,
-      "w_bear": 608,
+      "w_bear": 609,
       "avg": -0.07
     },
     {
       "sector": "Government Debt",
       "score": -97,
       "consensus": 97,
-      "weighted_sum": -57.6,
+      "weighted_sum": -57.2,
       "bull": 18,
-      "bear": 92,
-      "neutral": 32,
-      "total": 142,
+      "bear": 94,
+      "neutral": 33,
+      "total": 145,
       "legs_bull": 12,
-      "legs_bear": 685,
-      "legs_neutral": 7,
+      "legs_bear": 686,
+      "legs_neutral": 8,
       "legs_split": 0,
-      "legs_total": 704,
+      "legs_total": 706,
       "strong_bull": 0,
       "strong_bear": 44,
       "w_bull": 12,
-      "w_bear": 729,
+      "w_bear": 730,
       "avg": -0.08
     }
   ],
   "stance_changes": [
+    {
+      "kol_name": "Stephen Leeb",
+      "sector": "Equities",
+      "date": "2026-09-17",
+      "from": "看多",
+      "to": "看空",
+      "title": "🔴 看空美股（泡沫破裂）：Leeb 以「美国版魏玛」警示，称金融与市场危机「不可避免」",
+      "signal": "中"
+    },
+    {
+      "kol_name": "Dan Ives",
+      "sector": "Government Debt",
+      "date": "2026-09-17",
+      "from": "看多",
+      "to": "看空",
+      "title": "🔴 看空美债：Ives 称 Warsh 别无选择必须加息、「债券市场不会说谎」",
+      "signal": "高"
+    },
     {
       "kol_name": "James Rickards",
       "sector": "Precious Metals",
@@ -592,21 +610,21 @@
       "signal": "中"
     },
     {
-      "kol_name": "Marc Chandler",
-      "sector": "Macro",
-      "date": "2026-09-10",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 美元获短线买盘：ECB加息在即 ｜ 🔴 长端美债收益率难压制",
-      "signal": "高"
-    },
-    {
       "kol_name": "Rory Johnston",
       "sector": "Energy & Commodities",
       "date": "2026-09-10",
       "from": "看空",
       "to": "看多",
       "title": "🟢 看多柴油/成品油：裂解价差已追平原油价格",
+      "signal": "高"
+    },
+    {
+      "kol_name": "Marc Chandler",
+      "sector": "Macro",
+      "date": "2026-09-10",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 美元获短线买盘：ECB加息在即 ｜ 🔴 长端美债收益率难压制",
       "signal": "高"
     },
     {
@@ -718,21 +736,21 @@
       "signal": "高"
     },
     {
-      "kol_name": "Bob Haberkorn",
-      "sector": "Precious Metals",
-      "date": "2026-08-27",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多黄金：ETF流入+央行购金作美元替代储备，Warsh演讲前谨慎",
-      "signal": "高"
-    },
-    {
       "kol_name": "Martin Armstrong",
       "sector": "Government Debt",
       "date": "2026-08-27",
       "from": "看多",
       "to": "看空",
       "title": "🔴 看空西方财政：经济停滞+战争债务螺旋，主权债务危机逼近",
+      "signal": "高"
+    },
+    {
+      "kol_name": "Bob Haberkorn",
+      "sector": "Precious Metals",
+      "date": "2026-08-27",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 看多黄金：ETF流入+央行购金作美元替代储备，Warsh演讲前谨慎",
       "signal": "高"
     },
     {
@@ -754,15 +772,6 @@
       "signal": "高"
     },
     {
-      "kol_name": "S. Druckenmiller",
-      "sector": "Government Debt",
-      "date": "2026-08-25",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空美债：Druckenmiller 抨击贝森特购债=价格管理必败",
-      "signal": "高"
-    },
-    {
       "kol_name": "Gareth Soloway",
       "sector": "Government Debt",
       "date": "2026-08-25",
@@ -772,21 +781,12 @@
       "signal": "高"
     },
     {
-      "kol_name": "Ken Griffin（Citadel 创始人 / CEO）",
-      "sector": "Equities",
-      "date": "2026-08-24",
+      "kol_name": "S. Druckenmiller",
+      "sector": "Government Debt",
+      "date": "2026-08-25",
       "from": "看多",
       "to": "看空",
-      "title": "🔴 短期减码AI敞口：Citadel低接Situational Awareness组合后削减80%+",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Marc Chandler",
-      "sector": "Macro",
-      "date": "2026-08-24",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 短期看空美元：Chandler称DXY跌破99，财政购债担忧压制",
+      "title": "🔴 看空美债：Druckenmiller 抨击贝森特购债=价格管理必败",
       "signal": "高"
     }
   ],
@@ -794,12 +794,12 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 757,
+        "count": 758,
         "kols": 97
       },
       {
         "ticker": "白银",
-        "count": 378,
+        "count": 379,
         "kols": 74
       },
       {
@@ -814,12 +814,12 @@
       },
       {
         "ticker": "比特币",
-        "count": 79,
+        "count": 80,
         "kols": 19
       },
       {
         "ticker": "原油",
-        "count": 75,
+        "count": 76,
         "kols": 30
       },
       {
@@ -875,14 +875,14 @@
         "kols": 64
       },
       {
+        "ticker": "美债",
+        "count": 228,
+        "kols": 67
+      },
+      {
         "ticker": "美元",
         "count": 227,
         "kols": 62
-      },
-      {
-        "ticker": "美债",
-        "count": 227,
-        "kols": 67
       },
       {
         "ticker": "美元(DXY)",
@@ -890,14 +890,14 @@
         "kols": 45
       },
       {
+        "ticker": "美股",
+        "count": 65,
+        "kols": 29
+      },
+      {
         "ticker": "美债TLT",
         "count": 64,
         "kols": 40
-      },
-      {
-        "ticker": "美股",
-        "count": 63,
-        "kols": 27
       },
       {
         "ticker": "TLT 美债",
@@ -920,14 +920,14 @@
         "kols": 11
       },
       {
-        "ticker": "美债 TLT",
-        "count": 26,
-        "kols": 22
-      },
-      {
         "ticker": "美元DXY",
         "count": 26,
         "kols": 16
+      },
+      {
+        "ticker": "美债 TLT",
+        "count": 26,
+        "kols": 22
       },
       {
         "ticker": "美元/法币",
@@ -935,18 +935,239 @@
         "kols": 9
       },
       {
-        "ticker": "美元(UUP)",
-        "count": 15,
-        "kols": 9
-      },
-      {
         "ticker": "长端美债",
         "count": 15,
         "kols": 11
+      },
+      {
+        "ticker": "美元(UUP)",
+        "count": 15,
+        "kols": 9
       }
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Avi Gilburt",
+      "sector": "Macro",
+      "detail_sector": "技术分析",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Investing.com：Gilburt 指出美国大型银行 Q2 业绩被主流媒体与分析师大肆吹捧——「惊人的盈利」「史上最强季度」「银行体系比以往任何时候都强」→ 他提醒投资者再仔细看：资本市场业务的异常强劲掩盖了其他问题，业绩的量级与可持续性需要拆开审视（文章正文为付费墙截断，方向按标题与开头判断）→ 与其 9/15 中性口径一致：不追银行股的叙事行情。来源：Investing.co",
+      "latest_title": "🟡 中性（质疑银行股「史上最强」叙事）：Gilburt 称银行财报要「再看一眼」",
+      "bull_bear": "🟡 美国银行股（质疑多头叙事）",
+      "total_entries": 5,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Rory Johnston",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Axios 报道：独立能源分析师 Rory Johnston（Commodity Context）指出，期货曲线当前最重要的信号是近期交割的极度紧张 → 因这轮危机持续时间更长，效应开始向曲线更远端扩散，可解读为市场认为紧张更普遍、更持久 → 但他同时提醒不应过度解读（「but too much shouldn't be read into it」）→ 报道结论偏向：投资者认为能源价格将",
+      "latest_title": "🟢 看多能源：Johnston 称期货曲线前端极度紧张、紧张正沿曲线向远端蔓延",
+      "bull_bear": "🟢 原油/成品油",
+      "total_entries": 42,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Marc Chandler",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 路透：Fed 加息并释放继续收紧信号后，美元指数周三创三个月最大单日涨幅（+0.7%），周四回落 0.2% 至 100.07 → Bannockburn 首席市场策略师 Chandler 称「美元现在跟着美国利率走」，随着收益率在周三大涨后回落，「美元小幅修正」，并称「情绪的钟摆已经摆得非常远」→ 即短线美元方向由美债收益率主导，当前更像超买后的整理而非趋势反转。来源：Reuters 9",
+      "latest_title": "🟡 中性美元（短线跟随利率回调）：Chandler 称美元现在跟着美债利率走、情绪钟摆摆得太远",
+      "bull_bear": "🟡 美元（短线回调整理）",
+      "total_entries": 45,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Gareth Soloway",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Verified Investing 直播复盘（Fed Hawkish Shock）：Soloway 把 10 年期美债收益率与油价放在当前框架的中心 → 若两者继续从近期高点回落，即便 Fed 更紧，股市仍有稳定空间；若重新上行，压力立刻回归 → 他此前把 10Y 在 2023 年 10 月高点（一度破 5%）一带视作潜在双顶并持续跟踪，目前收益率正从该区域回落 → 因此他对股指是「有",
+      "latest_title": "🟡 中性（条件式）：Soloway 称 Fed 鹰派冲击后，10Y 收益率与油价决定股市方向",
+      "bull_bear": "🟡 美股（条件式）、原油/10Y 收益率（关键变量）",
+      "total_entries": 68,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Francis Fukuyama（斯坦福大学 FSI 高级研究员 / 《历史的终结与最后的人》作者）",
+      "sector": "Macro",
+      "detail_sector": "Geopolitics & Finance",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Bloomberg《Odd Lots》专访＋新回忆录《In the Realm of the Last Man》：Fukuyama 回顾 1989 年《历史的终结？》的写作与误读，称当年的论敌或许会怀念那场意识形态竞争带来的「勇气、想象力与理想主义」→ 他对 AI 的新警告：真正的危险会在失业数据跳升之前出现——问题不在钱，而在「有一份薪水」对个人尊严的意义被抽空 → 他仍认为自由民主的",
+      "latest_title": "🟡 中性：Fukuyama 在 Odd Lots 谈新回忆录，警告 AI 威胁的不是就业数字而是「工作的意义」",
+      "bull_bear": "⚪ 无资产方向（制度/社会风险）",
+      "total_entries": 36,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Vince Lanci",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 GoldFix / SilverTrade：Lanci 解释白银挤空的真实机制 → 结构事实一：纸面市场远超实物，按广泛引用的估算，每 1 盎司可交割的注册 COMEX 白银对应数十盎司纸面索赔 → 结构事实二：实物缓冲持续变薄，白银连年结构性短缺，地上库存被悄悄抽干 → 大量纸面空头压在稀薄且仍在变薄的实物浮筹上，就是教科书式挤空条件（索赔多、可交割金属少）→ 被逼的空头只能交割实物或",
+      "latest_title": "🟢 看多白银：Lanci 拆解挤空机制——纸面远超实物、库存连年净流出",
+      "bull_bear": "🟢 白银",
+      "total_entries": 34,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Stephen Leeb",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Substack《America's Weimar Moment? The Red Flags We're Watching》：Leeb 与 Megan Davis 认为美国与魏玛德国出现「令人不安的相似」——战事宣传（对伊朗战争称「已获胜」）、被背叛感、政治极化、中间派萎缩 → 他们的担心是：社会互信瓦解会放大他们所认为「不可避免」的金融与市场危机（即市场泡沫破裂）的冲击 → 文章把战",
+      "latest_title": "🔴 看空美股（泡沫破裂）：Leeb 以「美国版魏玛」警示，称金融与市场危机「不可避免」",
+      "bull_bear": "🔴 美股（泡沫破裂）",
+      "total_entries": 27,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "David Stockman",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Contra Corner《Bravo, Kevin!》：Stockman 为 Kevin Warsh 加息叫好，嘲讽白宫要求把利率降到 1% 的施压与华尔街的哀嚎 → 核心论点：Fed 基金目标利率几十年来一直过低，其后果正是金融资产恶性通胀、债务过度累积、以及大规模错误投资、资源错配与寻租 → 他强调问题不在「战术性鹰派」，而是整个以货币市场利率为目标、逐月盯住一个利率的机制彻底失败",
+      "latest_title": "🔴 看空金融资产泡沫：Stockman 赞 Warsh 加息「干得对」、称 Fed 目标利率几十年来一直太低",
+      "bull_bear": "🔴 美股/金融资产泡沫",
+      "total_entries": 25,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Martin Armstrong",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Financial Sense（FS Insider）专访：Armstrong 认为战争升级与供应中断正推动一轮可能延续到 2030 年代的大宗商品超级周期 → 他把 2030 年标为债务危机的时间窗口，与 Socrates 周期模型呼应（2026 整固、2027-2032 主升浪）→ 逻辑链：政府信任崩塌＋战争/供给中断 → 资本撤离主权债与法币 → 实物商品与贵金属受益 → 延续其 ",
+      "latest_title": "🟢 看多大宗商品至 2030 年代：Armstrong 谈 WWIII 风险与 2030 债务危机 ｜ 🔴 看空主权债",
+      "bull_bear": "🟢 大宗商品、黄金/白银 ｜ 🔴 主权债",
+      "total_entries": 9,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Tom McClellan",
+      "sector": "Macro",
+      "detail_sector": "技术分析",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Thoughtful Money（Adam Taggart）播客：McClellan 表示自己正准备变得「bullish as all get out」→ 理由一：总统任期第三年在四年周期中平均表现最好，且行情通常从中期选举前几周启动，即「很快」→ 理由二：此前令他担心的多项因素正接近尾声，预期市场逆风减少 → 这与他 9/13 判「NYSE McClellan Summation In",
+      "latest_title": "🟢 转向看多美股：McClellan 称「将变得极度看多」——总统任期第三年＋中期选举前季节性",
+      "bull_bear": "🟢 美股（季节性+周期）",
+      "total_entries": 4,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Rick Rule",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Commodity Culture 播客（第575期）+ 中文媒体转述其 9/9 Kitco Mining 访谈：Rule 认为白银本身已不再是逆向交易，但白银矿股的风险回报远优于金属本身，直言「这些东西很便宜」→ 他称金矿股相对金价与净现值的折价「可能是历史上最大的」，主张持有更多矿股，但不能无差别买整个板块——「赚钱来自价格与价值的差额」→ 数据面：全球前 50 大矿企 8 月市值合",
+      "latest_title": "🟢 看多白银矿股：Rule 称银已非逆向交易、矿商才是「真便宜」｜ ⚠️ 税负/权利金风险才刚开始",
+      "bull_bear": "🟢 白银矿股、金矿股 ｜ ⚪ 白银现货（已非逆向）",
+      "total_entries": 75,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Dan Ives",
+      "sector": "Equities",
+      "detail_sector": "科技与未来趋势",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 接受 CCN 采访（Benzinga 报道）：在特朗普再次要求把利率降到 1% 或更低之际，Ives 称 Fed 主席 Kevin Warsh 除了加息别无选择 → 理由是通胀仍高，而债券市场收益率已升至数十年高位，他直言「债券市场不会说谎」→ 即加息是通胀约束下的必然而非可选政策，白宫施压不改变债市定价 → 这与其一贯的 AI 长期看多不冲突：他把利率与债市信号当作宏观约束，而非 AI",
+      "latest_title": "🔴 看空美债：Ives 称 Warsh 别无选择必须加息、「债券市场不会说谎」",
+      "bull_bear": "🔴 美债（收益率高企、Fed被迫加息）",
+      "total_entries": 89,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Bruce Flatt（Brookfield Corporation 首席执行官 / Brookfield Asset Management 主席）",
+      "sector": "Macro",
+      "detail_sector": "Asset Allocation",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 CNBC《Halftime Report》Leslie Picker 专访：谈 Fed 加息、AI 融资与「为 AI 供能」 → 核心口径：加息对长期投资「不重要」，关键是提前做好准备——Brookfield 靠长期合约与通胀挂钩现金流对冲利率波动，而非择时 → 他延续 9 月初对韩国 Naver 1GW AI 工厂首期至多 90 亿美元的投入节奏，把 AI 用电需求当成数十年的基础设施",
+      "latest_title": "🟢 看多 AI 电力/数据中心：Flatt 称加息不影响长期投资、但必须做好准备",
+      "bull_bear": "🟢 AI电力/数据中心基础设施",
+      "total_entries": 17,
+      "trend": "→"
+    },
+    {
+      "kol_name": "Cathie Wood",
+      "sector": "Equities",
+      "detail_sector": "科技与未来趋势",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/15-17 ARK 交易与访谈：① 9/14 同时买入三只新上市标的——SpaceX(SPCX)、Generate Biomedicines、加密交易所 Bullish，呈三层风险结构（硬资产/生物科技彩票/加密收费站），是她「把下跌的 IPO 当折扣」的一贯打法 ② 卖出 Oklo 50,333 股（Sam Altman 支持的核能初创），换入铀业巨头 Cameco 17,504 股，押注 ",
+      "latest_title": "🟢 看多 SpaceX/铀：ARK 同日买入 3 只新 IPO、弃 Oklo 换 Cameco ｜ 澄清 NVDA「部分基金仍持有」",
+      "bull_bear": "🟢 SpaceX(SPCX)、Cameco/铀、Bullish ｜ ⚪ NVDA(定价超前)、Oklo(已卖出)",
+      "total_entries": 100,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "潘功胜（中国人民银行行长）",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "Official Data",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/16《求是》刊发央行行长潘功胜署名文章《深刻认识中国金融结构变迁 提升金融服务实体经济适配性》，9/17 媒体集中解读 → 核心论断：不能简单以信贷增速衡量金融支持实体力度，贷款降速提质将成新常态，直面回应一年来「信贷失速」焦虑 → 货币政策框架转型：淡化对数量目标（尤其贷款单一渠道）的关注，把金融总量更多作为观测/参考/预期指标，更注重价格型调控与市场化利率传导 → 市场建设：发展股票与债券",
+      "latest_title": "🟡 中性（政策定调）：潘功胜撰文淡化贷款数量目标、转向价格型调控 ｜ 直接融资与间接融资协调发展",
+      "bull_bear": "🟡 中国债市/股市（政策维稳）",
+      "total_entries": 5,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Michael Saylor",
+      "sector": "Crypto",
+      "detail_sector": "科技与未来趋势",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Saylor 在 X：SEC 创新豁免允许合格交易平台为美国投资者提供 24/7 链上代币化交易（MSTR/STRC 代币化），他称之为「数字信贷与美国资本市场的重大突破」 → 同日重申银行无需等国会即可开展 BTC 托管与以 BTC 为抵押的放贷，并点名德意志银行已在等待批准 → 对 9/16 CLARITY 法案 cloture 失败（49-50）他反向解读：立法受阻≠监管停滞，SE",
+      "latest_title": "🟢 看多 BTC：Saylor 称 SEC 创新豁免是「数字信贷重大突破」、银行放贷无需国会",
+      "bull_bear": "🟢 比特币、MSTR/STRC（代币化）",
+      "total_entries": 70,
+      "trend": "↗ 趋多"
+    },
+    {
+      "kol_name": "Jeffrey Gundlach",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 于 Julia La Roche Show 与 MarketWatch 专访：Gundlach 说自己「只想出去」——把钱放到离 AI 震中最远的地方，组合对 AI 零敞口 → 依据一：AI 相关企业债（含 Oracle 等）发行后数日利差就爆开，而宽口高收益债整体仍稳，信用压力信号先于股价显现 → 依据二：S&P 500 Shiller CAPE 超 42，历史上对应未来十年实际回报为",
+      "latest_title": "🔴 看空 AI 信用债/科技集中度：Gundlach 称「只想离 AI 震中越远越好」、组合零 AI 敞口 ｜ 🟢 等权 RSP 对冲",
+      "bull_bear": "🔴 AI相关信用债、市值加权科技指数 ｜ 🟢 等权指数(RSP)",
+      "total_entries": 56,
+      "trend": "↘ 趋空"
+    },
     {
       "kol_name": "Stewart Thomson",
       "sector": "Precious Metals",
@@ -987,19 +1208,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "Michael Saylor",
-      "sector": "Crypto",
-      "detail_sector": "科技与未来趋势",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-09-16",
-      "latest_comments": "Saylor 9/16 对 CLARITY 法案 cloture 失败给出反向解读：立法卡住≠监管停滞——SEC、CFTC、财政部可沿用现有授权推进加密规则，他预期更多机构资本因此转向比特币；下一站是银行体系：托管与以 BTC 为抵押的放贷一旦铺开，需求结构将从 ETF 买方扩展到信贷端 → 公司层面 Strategy 的回购把 STRC 优先股推回发行价附近，修复其融资引擎 → (来源：Coin",
-      "latest_title": "🟢 看多BTC：Saylor 称 CLARITY 受阻无碍进程、银行托管与放贷是下一站",
-      "bull_bear": "🟢 比特币、MSTR/STRC",
-      "total_entries": 69,
-      "trend": "→"
-    },
-    {
       "kol_name": "Ken Griffin（Citadel 创始人 / CEO）",
       "sector": "Equities",
       "detail_sector": "股权市场",
@@ -1011,19 +1219,6 @@
       "bull_bear": "🟡 AI/科技股（中性）",
       "total_entries": 6,
       "trend": "→"
-    },
-    {
-      "kol_name": "Jeffrey Gundlach",
-      "sector": "Government Debt",
-      "detail_sector": "国债利率与债券市场",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-16",
-      "latest_comments": "Fed 9/16 只加息 25bp，Gundlach 直言应该是 50bp——这是「婴儿步伐」，对 3.4% 的 CPI 与 $100+ 油价毫无震慑力 → 他给出两个关键判断：①「几乎不可能」当前就是联邦基金利率的顶点，本轮加息周期未完 ②DoubleLine 通胀模型指向下一份 CPI 同比进入「4 字头」→ 油价破百是通胀黏性的新引擎，长端供给端（财政赤字＋AI 企业债）继续压垮久期需求，3",
-      "latest_title": "🔴 看空美债：Gundlach 批 Fed「婴儿步伐」，称远未到利率顶点、CPI 将见 4 字头",
-      "bull_bear": "🔴 长端美债 TLT ｜ 🟡 现金/短端",
-      "total_entries": 55,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "James Rickards",
@@ -1091,19 +1286,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "Cathie Wood",
-      "sector": "Equities",
-      "detail_sector": "科技与未来趋势",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-16",
-      "latest_comments": "Wood 9/16 抛出两个反直觉判断：①AI 带来的资本开支狂潮可能把利率推上 7% 以上——她一贯是通缩论者，这次承认「AI 繁荣＋技术通缩」会推升长端利率，与 Gundlach 的债市看空罕见重合 ②Starship 若成为 Starlink 网络骨架，2030 年营收可达 $10 万亿/年（单次发射 $10 亿），Musk 回应「并非不可能」→ 交易层面 ARK 连续第二日买入 AeroV",
-      "latest_title": "⚖️ 分歧：Wood 称 AI 资本开支或把利率推上 7%，同时喊 Starship 2030 年 $10 万亿营收",
-      "bull_bear": "🟢 美股/AI 创新、太空(AVAV) ｜ 🔴 长端利率风险",
-      "total_entries": 99,
-      "trend": "↘ 趋空"
-    },
-    {
       "kol_name": "Alex Kuptsikevich",
       "sector": "Macro",
       "detail_sector": "贵金属与商品周期",
@@ -1156,19 +1338,6 @@
       "trend": "→"
     },
     {
-      "kol_name": "Avi Gilburt",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-15",
-      "latest_comments": "Kitco 专栏反驳「AI 影响一切市场」的流行叙事 → 引用 Cutler/Poterba/Summers 1988 年研究说明新闻无法预测价格，同一通胀数据可让黄金一日跌、次日涨 → 坚持社会经济学派(socionomic)立场：情绪才是价格主驱动，基本面因果多为事后附会 → 对黄金本身维持此前调整周期判断，不因 AI 叙事改向。来源：Kitco 2026-09-15",
-      "latest_title": "🟡 中性：Gilburt 称「AI 在驱动黄金」是叙事错觉，市场由情绪而非消息决定",
-      "bull_bear": "🟡 黄金(调整周期未完成，等回调结束)",
-      "total_entries": 4,
-      "trend": "→"
-    },
-    {
       "kol_name": "Bart Melek",
       "sector": "Precious Metals",
       "detail_sector": "贵金属与商品周期",
@@ -1195,19 +1364,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Dan Ives",
-      "sector": "Equities",
-      "detail_sector": "科技AI",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-15",
-      "latest_comments": "在 Global Money Talk 播客中称 NVDA、MSFT、PLTR 是 AI 革命的「脊梁」，为 AI 景气的领军者 → 另一手：iOS 27 已推送 AI 版 Siri，估计约 3 亿部 iPhone 尚未升级，新机上市即受益 → 延续其 9/13「AI 资本开支需数万亿美元」的长期看多框架。来源：Benzinga/TradingView/MarketDash 2026-09-15",
-      "latest_title": "🟢 看多 AI 三巨头：Ives 点名 NVDA/MSFT/PLTR 为「AI 革命脊梁」｜苹果 3 亿部换机潮",
-      "bull_bear": "🟢 NVDA, MSFT, PLTR, AAPL",
-      "total_entries": 88,
-      "trend": "↘ 趋空"
-    },
-    {
       "kol_name": "Robert Kiyosaki",
       "sector": "Precious Metals",
       "detail_sector": "黄金白银",
@@ -1218,7 +1374,7 @@
       "latest_title": "🔴 看空美股/退休账户：Kiyosaki 称「史上最大崩盘已开始」、先兆在日本与欧洲",
       "bull_bear": "🔴 美股/401(k)退休账户 ｜ 🟢 黄金、白银、BTC",
       "total_entries": 69,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Craig Hamilton-Parker（英国灵媒 / \"New Nostradamus\"）",
@@ -1244,32 +1400,6 @@
       "latest_title": "🟢 看多 Hercules Metals(HERC)：七人明星管理团队加盟、股价 $0.59→$1.63",
       "bull_bear": "🟢 Hercules Metals(HERC)",
       "total_entries": 34,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Tom McClellan",
-      "sector": "Macro",
-      "detail_sector": "技术分析",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-14",
-      "latest_comments": "McClellan 9/14：美国 M2 货币供应自 1971 年 1 月的 $6,350 亿升至 $23.16 万亿、约 36.5 倍 → 同期迪士尼世界门票价格涨了 54 倍；他把两者并列，指出价格涨幅长期快于货币扩张，其中可能包含享乐调整(hedonic adjustment)等统计口径因素 → 这是他一贯的长周期「货币贬值 vs 名义价格」研究路数(此前做过黄金与油价的统计关系、比特币与传",
-      "latest_title": "🟡 M2 自 1971 年增 36.5 倍 vs 迪士尼票价 54 倍：McClellan 用长周期数据量化购买力稀释",
-      "bull_bear": "🟡 美元购买力(长期走弱)",
-      "total_entries": 3,
-      "trend": "→"
-    },
-    {
-      "kol_name": "Marc Chandler",
-      "sector": "Macro",
-      "detail_sector": "美元指数",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-14",
-      "latest_comments": "Chandler 9/14：美元因市场对 Fed 政策预期的位移而走强，成为加元等顺周期货币的主要压力来源 → 他点出两点：① 加元通胀数据符合预期本身不是驱动，真正驱动是更强的美元；② 美加贸易冲突是额外负面，市场怀疑特朗普周六暗示的贸易协议能否很快落地 → 与 9/13 判断衔接：Fed Funds 期货给出 85.5% 加息概率，而彭博调查 48 位经济学家只有 13 位预期加息，定价与共识",
-      "latest_title": "🟢 看多美元(短线)：Fed 加息预期推动 DXY 跳升 ｜ 🔴 加元跌至 12 日低",
-      "bull_bear": "🟢 美元(短线) | 🔴 加元",
-      "total_entries": 44,
       "trend": "↘ 趋空"
     },
     {
@@ -1312,19 +1442,6 @@
       "trend": "→"
     },
     {
-      "kol_name": "Gareth Soloway",
-      "sector": "Precious Metals",
-      "detail_sector": "技术分析与交易",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-14",
-      "latest_comments": "Soloway 9/14 Trading Game Plan：WTI 早盘冲上 $104 撞长期阻力趋势线，他当场反手做空原油、等回落再评估 → 标普 500 只要守住 7,570-7,575 支撑，更大级别多头结构仍完好；失守则转中性、下一档看 7,400 → 关键变量是 10 年期收益率已逼近 5%、前高 5.02%，他更在意「日线收在其上」而非盘中假突破，因为那会抬高风险资产的门槛收益率 →",
-      "latest_title": "⚖️ 短线做空原油 $104 阻力 ｜ 🟢 标普守 7,570 结构未破 ｜ 🔴 10Y 站上 5.02% 才转空",
-      "bull_bear": "🔴 WTI原油(短线) | 🟢 标普500 | 🟢 比特币(长期) | 🔴 美债(收益率破5.02%)",
-      "total_entries": 67,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Jeff Currie",
       "sector": "Energy & Commodities",
       "detail_sector": "能源与大宗商品",
@@ -1348,19 +1465,6 @@
       "latest_title": "🟡 贵金属会前观望：市场等 9/16 Fed 定方向，普遍预期加息 25bp",
       "bull_bear": "🟡 黄金, 白银（Fed 会议前区间待命）",
       "total_entries": 20,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Vince Lanci",
-      "sector": "Energy & Commodities",
-      "detail_sector": "铀/核能",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-13",
-      "latest_comments": "Lanci 引 TD Cowen 最新 Uranium Monitor：长期合约价达 $96/磅，超过 2007 年 $95 的名义高点；现货约 $89.6/磅，年内涨约 10%、合约价涨约 12% → 买方要及时交付却遇上短期供应紧张，合约价已高于 TD 自身 $95 的长期假设；考虑 2007 年以来的通胀，名义对比意味着仍有上行空间 → 需求从 2026 年约 2.05 亿磅升至 2035 ",
-      "latest_title": "🟢 看多铀：长期合约价破 2007 年记录 $96/磅，2035 年缺口约 4,200 万磅",
-      "bull_bear": "🟢 铀(现货/合约), 核燃料链 | 🟡 大宗商品",
-      "total_entries": 33,
       "trend": "↘ 趋空"
     },
     {
@@ -1414,19 +1518,6 @@
       "bull_bear": "🟢 白银矿商 ｜ 🟢 黄金(结构性) ｜ 🔴 美债/美元",
       "total_entries": 32,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Martin Armstrong",
-      "sector": "Energy & Commodities",
-      "detail_sector": "原油/地缘",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-12",
-      "latest_comments": "Armstrong 9/11-9/12 博客罕见直接示警「Warning – Fill Up Now!」——建议加满油并节约用油，属其少见的操作性提示 → 同日公开访谈主题围绕油供应中断与油价破 $100 → 其框架：政府信任崩塌驱动资本撤离主权债与法币，实物与能源是最终受益资产 → 与其 9/6 判断一致：黄金 2026 年先整固、2027-2032 才是主升浪，短期风口在能源。(来源: Arm",
-      "latest_title": "🟢 看多能源/原油：Armstrong 罕见发「加满油」警报、油价看 $100+",
-      "bull_bear": "🟢 原油/成品油 ｜ 🟢 黄金(长期) ｜ 🔴 主权债券",
-      "total_entries": 8,
-      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Adam Hamilton（Zeal LLC 创始人 / 黄金白银市场分析师）",
@@ -1504,32 +1595,6 @@
       "latest_title": "🟢 看多铜镍矿股：Talon Metals 升为组合最大持仓",
       "bull_bear": "🟢 Talon Metals(铜/镍矿) ｜ 🟢 资源股",
       "total_entries": 39,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Rory Johnston",
-      "sector": "Energy & Commodities",
-      "detail_sector": "资源与能源安全",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-10",
-      "latest_comments": "Johnston 指柴油裂解价差(美柴油对Brent)目前高达原油平盘价本身 → 柴油涨幅主要由创纪录且持续的裂解价差驱动，而不只是原油上涨 → 此前他已提示裂解差逼近历史单日最高 → 精炼产品紧张是本轮能源冲击核心，成品油强于原油 → (来源:TradersUnion 9/10)",
-      "latest_title": "🟢 看多柴油/成品油：裂解价差已追平原油价格",
-      "bull_bear": "🟢 柴油/成品油 ｜ 🟢 炼油商",
-      "total_entries": 41,
-      "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Rick Rule",
-      "sector": "Precious Metals",
-      "detail_sector": "贵金属与商品周期",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-09-10",
-      "latest_comments": "Rule 认为商品与贵金属在2026年内仍可能走弱、金价还能再跌一段 → 但他把这段疲软定义为世代级买入机会，并已重新开始买入金矿股 → 依据是超$40万亿联邦债务＋$120万亿未备拨义务叠加持续通胀，商品牛市将在2026年后点燃 → 他建议投资者为弱势做准备而非追高，个人持有黄金与铜 → (来源:beforeitsnews/Curzio Research 9/10)",
-      "latest_title": "🔴 短期金价或续弱至2026年底 ｜ 🟢 视为世代级买点、重新买入金矿股",
-      "bull_bear": "🔴 黄金(短期) ｜ 🟢 黄金矿股/金银(长期)",
-      "total_entries": 74,
       "trend": "↘ 趋空"
     },
     {
@@ -1611,19 +1676,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "Francis Fukuyama（斯坦福大学 FSI 高级研究员 / 《历史的终结与最后的人》作者）",
-      "sector": "Macro",
-      "detail_sector": "Geopolitics & Finance",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-08",
-      "latest_comments": "9/8《The Beginning of the End of History》（回忆录 In the Realm of the Last Man 出版日）：回溯 1988-89 年冬天在拉斯维加斯岳父母家写下《历史的终结？》的经过 → 该文源于芝加哥大学 Allan Bloom 与 Nathan Tarcov 组织的讲座，系列主题是「西方的衰落」，他当时对 Bloom 说自己想给出更乐观的解读 ",
-      "latest_title": "🟡 中性（回忆录出版）：《最后的人之域》——「历史的终结」命题再解释",
-      "bull_bear": "🟡 自由主义/民主叙事(长期)",
-      "total_entries": 35,
-      "trend": "→"
-    },
-    {
       "kol_name": "Andy Schectman",
       "sector": "Precious Metals",
       "detail_sector": "去美元化",
@@ -1650,19 +1702,6 @@
       "trend": "↗ 趋多"
     },
     {
-      "kol_name": "Bruce Flatt（Brookfield Corporation 首席执行官 / Brookfield Asset Management 主席）",
-      "sector": "Tech/AI",
-      "detail_sector": "科技/AI",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-04",
-      "latest_comments": "9/3-4：他访问 Naver 总部（1784），与 Naver 创始会长李海珍跟进 **1GW AI 工厂**项目合作 → 据 The Elec：Brookfield 已同意为该项目首期 200MW 阶段投资**至多 90 亿美元**，并将在后续阶段继续合作；他的表态：「Brookfield 不只是资金投资方，还要成为在整个业务上提供实际支持的伙伴，包括设备与基建的高效采购、以及客户获取」 → ",
-      "latest_title": "🟢 看多韩国 AI 工厂：向 Naver 1GW 项目首期投资至多 90 亿美元",
-      "bull_bear": "🟢 亚洲 AI 基建(韩国 1GW 项目)",
-      "total_entries": 16,
-      "trend": "↘ 趋空"
-    },
-    {
       "kol_name": "Raghuram Rajan（芝加哥大学 Booth 商学院教授）",
       "sector": "Macro",
       "detail_sector": "宏观货币与金融体系",
@@ -1674,19 +1713,6 @@
       "bull_bear": "⚠️ 印度GDP数据可信度/增长质量(质疑)",
       "total_entries": 17,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "潘功胜（中国人民银行行长）",
-      "sector": "Macro",
-      "detail_sector": "货币体系重构",
-      "kol_or_ib": "Official Data",
-      "style": "交易派",
-      "latest_date": "2026-09-02",
-      "latest_comments": "2026-08-31至09-01 G20财长央行行长会议上，潘功胜重申中国实施有管理的浮动汇率制度，坚持市场在汇率形成中的决定性作用，同时防范羊群效应与非理性预期自我强化→明确表示中国没有必要也无通过汇率贬值获取贸易竞争优势→今年人民币对美元升值约3.8%，对一篮子货币同步走强→官方口径偏稳中偏强，非单边升值。来源：G20阿什维尔会议潘功胜发言（新浪财经/21财经 2026-09-02）",
-      "latest_title": "🟢 官方稳汇率：中国无意人民币贬值获取贸易优势",
-      "bull_bear": "🟢 人民币, CNY | 🟢 离岸人民币, CNH",
-      "total_entries": 4,
-      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Edward Dowd",
@@ -2053,19 +2079,6 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "David Stockman",
-      "sector": "Macro",
-      "detail_sector": "宏观货币与金融体系",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-12",
-      "latest_comments": "Stockman 新文批判华盛顿再度救助对冲基金与财政挥霍者。他认为这种周期性救助会加剧长期财政失衡→推高实际利率→压垮国债市场→最终迫使美联储再度降息放水救市→恶性循环导致美元信用持续侵蚀。来源: Substack, 2026-08-11",
-      "latest_title": "🔴 看空美国财政：又一轮华盛顿救助对冲基金与挥霍者",
-      "bull_bear": "🔴 TLT / 🔴 USD / 🟢 GLD, PHYS",
-      "total_entries": 24,
-      "trend": "→"
-    },
-    {
       "kol_name": "Clem Chambers",
       "sector": "Equities",
       "detail_sector": "股权市场",
@@ -2181,19 +2194,6 @@
       "bull_bear": "看空",
       "total_entries": 39,
       "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Stephen Leeb",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "kol_or_ib": "KOL",
-      "style": "持仓派",
-      "latest_date": "2026-08-04",
-      "latest_comments": "Dr. Stephen Leeb在GoldSeek撰文指出，中国实际黄金储备可能高达50,000吨（远超官方公布的约2,300吨）。他认为中国已建立以黄金为锚的替代性货币体系→美元霸权正在被系统性替代→黄金作为货币锚将迎来长期重估。Leeb将此视为去美元化进程的关键加速器。来源：GoldSeek 2026-08-04",
-      "latest_title": "看多黄金：Stephen Leeb称中国持有50,000吨黄金，美元替代体系已建成",
-      "bull_bear": "强烈看多 黄金 GLD PHYS | 看多 金矿股 GDX | 看空 美元 USD",
-      "total_entries": 26,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Todd \"Bubba\" Horowitz",
@@ -2336,7 +2336,7 @@
       "latest_title": "AI 增长理论前沿：Jones 入 Fed 生产率组并加入 Anthropic",
       "bull_bear": "🟢 AI 生产率 | ⚪ r* 上修（推断）",
       "total_entries": 3,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Thomas Sargent（纽约大学经济学教授）",
@@ -4224,6 +4224,210 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3df47eb5-fd3c-8137-9096-e8be430e5b87",
+      "name": "🟡 中性（质疑银行股「史上最强」叙事）：Gilburt 称银行财报要「再看一眼」",
+      "kol_name": "Avi Gilburt",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "技术分析",
+      "comments": "9/17 Investing.com：Gilburt 指出美国大型银行 Q2 业绩被主流媒体与分析师大肆吹捧——「惊人的盈利」「史上最强季度」「银行体系比以往任何时候都强」→ 他提醒投资者再仔细看：资本市场业务的异常强劲掩盖了其他问题，业绩的量级与可持续性需要拆开审视（文章正文为付费墙截断，方向按标题与开头判断）→ 与其 9/15 中性口径一致：不追银行股的叙事行情。来源：Investing.com 9/17",
+      "suggestion": "对银行股业绩叙事保持折价，盯资本市场收入之外的净息差与信用成本变化。",
+      "bull_bear": "🟡 美国银行股（质疑多头叙事）"
+    },
+    {
+      "id": "3df47eb5-fd3c-8125-867c-d4b09f1b1748",
+      "name": "🟢 看多能源：Johnston 称期货曲线前端极度紧张、紧张正沿曲线向远端蔓延",
+      "kol_name": "Rory Johnston",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "9/17 Axios 报道：独立能源分析师 Rory Johnston（Commodity Context）指出，期货曲线当前最重要的信号是近期交割的极度紧张 → 因这轮危机持续时间更长，效应开始向曲线更远端扩散，可解读为市场认为紧张更普遍、更持久 → 但他同时提醒不应过度解读（「but too much shouldn't be read into it」）→ 报道结论偏向：投资者认为能源价格将高位维持到明年。来源：Axios 9/17",
+      "suggestion": "能源多头逻辑正从近月挤兑转向曲线整体上移；可关注远端合约与柴油/炼油链条，避免押注单一时点。",
+      "bull_bear": "🟢 原油/成品油"
+    },
+    {
+      "id": "3df47eb5-fd3c-81ea-87fa-fe9c2e0a5894",
+      "name": "🟡 中性美元（短线跟随利率回调）：Chandler 称美元现在跟着美债利率走、情绪钟摆摆得太远",
+      "kol_name": "Marc Chandler",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "9/17 路透：Fed 加息并释放继续收紧信号后，美元指数周三创三个月最大单日涨幅（+0.7%），周四回落 0.2% 至 100.07 → Bannockburn 首席市场策略师 Chandler 称「美元现在跟着美国利率走」，随着收益率在周三大涨后回落，「美元小幅修正」，并称「情绪的钟摆已经摆得非常远」→ 即短线美元方向由美债收益率主导，当前更像超买后的整理而非趋势反转。来源：Reuters 9/17",
+      "suggestion": "短线把美元交易与 10Y 收益率绑定；情绪极端后的回调行情里避免追高美元。",
+      "bull_bear": "🟡 美元（短线回调整理）"
+    },
+    {
+      "id": "3df47eb5-fd3c-81bc-b92d-c926ad7c4349",
+      "name": "🟡 中性（条件式）：Soloway 称 Fed 鹰派冲击后，10Y 收益率与油价决定股市方向",
+      "kol_name": "Gareth Soloway",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "comments": "9/17 Verified Investing 直播复盘（Fed Hawkish Shock）：Soloway 把 10 年期美债收益率与油价放在当前框架的中心 → 若两者继续从近期高点回落，即便 Fed 更紧，股市仍有稳定空间；若重新上行，压力立刻回归 → 他此前把 10Y 在 2023 年 10 月高点（一度破 5%）一带视作潜在双顶并持续跟踪，目前收益率正从该区域回落 → 因此他对股指是「有条件」取向，而非追涨或看崩。来源：Verified Investing 9/17",
+      "suggestion": "以 10Y 收益率与油价作前置条件决定股指仓位：两者回落→可持风险资产；两者转升→主动降杠杆。",
+      "bull_bear": "🟡 美股（条件式）、原油/10Y 收益率（关键变量）"
+    },
+    {
+      "id": "3df47eb5-fd3c-81ba-a77e-cfcd22e4c181",
+      "name": "🟡 中性：Fukuyama 在 Odd Lots 谈新回忆录，警告 AI 威胁的不是就业数字而是「工作的意义」",
+      "kol_name": "Francis Fukuyama（斯坦福大学 FSI 高级研究员 / 《历史的终结与最后的人》作者）",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "Geopolitics & Finance",
+      "comments": "9/17 Bloomberg《Odd Lots》专访＋新回忆录《In the Realm of the Last Man》：Fukuyama 回顾 1989 年《历史的终结？》的写作与误读，称当年的论敌或许会怀念那场意识形态竞争带来的「勇气、想象力与理想主义」→ 他对 AI 的新警告：真正的危险会在失业数据跳升之前出现——问题不在钱，而在「有一份薪水」对个人尊严的意义被抽空 → 他仍认为自由民主的长期生命力取决于能否重建国家能力与共同目标。来源：Bloomberg Odd Lots 9/17",
+      "suggestion": "非交易型判断：把「AI 与工作意义」当作长期制度风险变量观察，不构成资产操作建议。",
+      "bull_bear": "⚪ 无资产方向（制度/社会风险）"
+    },
+    {
+      "id": "3df47eb5-fd3c-81ca-b2f7-f2c9e564955b",
+      "name": "🟢 看多白银：Lanci 拆解挤空机制——纸面远超实物、库存连年净流出",
+      "kol_name": "Vince Lanci",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Precious Metals",
+      "detail_sector": "交易与市场微观结构",
+      "comments": "9/17 GoldFix / SilverTrade：Lanci 解释白银挤空的真实机制 → 结构事实一：纸面市场远超实物，按广泛引用的估算，每 1 盎司可交割的注册 COMEX 白银对应数十盎司纸面索赔 → 结构事实二：实物缓冲持续变薄，白银连年结构性短缺，地上库存被悄悄抽干 → 大量纸面空头压在稀薄且仍在变薄的实物浮筹上，就是教科书式挤空条件（索赔多、可交割金属少）→ 被逼的空头只能交割实物或快速回补，两条路都推价。来源：GoldFix / SilverTrade 9/17",
+      "suggestion": "白银具备挤空的结构条件，回调可分批建仓；但挤空时点难判，控制杠杆，优先实物或矿股。",
+      "bull_bear": "🟢 白银"
+    },
+    {
+      "id": "3df47eb5-fd3c-81d0-a8ab-df575809c3e0",
+      "name": "🔴 看空美股（泡沫破裂）：Leeb 以「美国版魏玛」警示，称金融与市场危机「不可避免」",
+      "kol_name": "Stephen Leeb",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "comments": "9/17 Substack《America's Weimar Moment? The Red Flags We're Watching》：Leeb 与 Megan Davis 认为美国与魏玛德国出现「令人不安的相似」——战事宣传（对伊朗战争称「已获胜」）、被背叛感、政治极化、中间派萎缩 → 他们的担心是：社会互信瓦解会放大他们所认为「不可避免」的金融与市场危机（即市场泡沫破裂）的冲击 → 文章把战争、通胀/债务压力与市场泡沫放进同一条因果链，与他一贯判断一致：泡沫破裂只是时间问题。来源：Substack 9/17",
+      "suggestion": "把政治—社会极化视为风险放大器而非交易信号；组合层面按泡沫破裂情景做防御，控制高估值资产敞口。",
+      "bull_bear": "🔴 美股（泡沫破裂）"
+    },
+    {
+      "id": "3df47eb5-fd3c-818a-9be6-f226c1b8d23a",
+      "name": "🔴 看空金融资产泡沫：Stockman 赞 Warsh 加息「干得对」、称 Fed 目标利率几十年来一直太低",
+      "kol_name": "David Stockman",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "9/17 Contra Corner《Bravo, Kevin!》：Stockman 为 Kevin Warsh 加息叫好，嘲讽白宫要求把利率降到 1% 的施压与华尔街的哀嚎 → 核心论点：Fed 基金目标利率几十年来一直过低，其后果正是金融资产恶性通胀、债务过度累积、以及大规模错误投资、资源错配与寻租 → 他强调问题不在「战术性鹰派」，而是整个以货币市场利率为目标、逐月盯住一个利率的机制彻底失败 → 隐含判断：金融资产（含美股）泡沫由长期低利率铸成，加息只是纠错的开始。来源：Contra Corner 9/17",
+      "suggestion": "低利率铸成的资产泡沫是长期风险源，不宜把加息当利空出尽；对高估值金融资产保持防御姿态。",
+      "bull_bear": "🔴 美股/金融资产泡沫"
+    },
+    {
+      "id": "3df47eb5-fd3c-81f2-973e-c6cad78f69cc",
+      "name": "🟢 看多大宗商品至 2030 年代：Armstrong 谈 WWIII 风险与 2030 债务危机 ｜ 🔴 看空主权债",
+      "kol_name": "Martin Armstrong",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属",
+      "comments": "9/17 Financial Sense（FS Insider）专访：Armstrong 认为战争升级与供应中断正推动一轮可能延续到 2030 年代的大宗商品超级周期 → 他把 2030 年标为债务危机的时间窗口，与 Socrates 周期模型呼应（2026 整固、2027-2032 主升浪）→ 逻辑链：政府信任崩塌＋战争/供给中断 → 资本撤离主权债与法币 → 实物商品与贵金属受益 → 延续其 9/6 金银看多与 9/12「加满油」能源警报。来源：Financial Sense 9/17",
+      "suggestion": "商品/贵金属作长周期配置主线，2030 年前后留意主权债务危机窗口；能源与实物资产优先于金融资产。",
+      "bull_bear": "🟢 大宗商品、黄金/白银 ｜ 🔴 主权债"
+    },
+    {
+      "id": "3df47eb5-fd3c-8180-85e4-fedd32ca3d5e",
+      "name": "🟢 转向看多美股：McClellan 称「将变得极度看多」——总统任期第三年＋中期选举前季节性",
+      "kol_name": "Tom McClellan",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "技术分析",
+      "comments": "9/17 Thoughtful Money（Adam Taggart）播客：McClellan 表示自己正准备变得「bullish as all get out」→ 理由一：总统任期第三年在四年周期中平均表现最好，且行情通常从中期选举前几周启动，即「很快」→ 理由二：此前令他担心的多项因素正接近尾声，预期市场逆风减少 → 这与他 9/13 判「NYSE McClellan Summation Index 未破 500、广度恶化」的谨慎形成明显转向 → 他表示会紧盯未来几周的价格行为（tape）作确认。来源：Thoughtful Money 9/17",
+      "suggestion": "若指数在中期选举前维持强势，可按季节性加仓；但要以广度指标（Summation Index 重回零轴上方）作确认信号，避免裸多。",
+      "bull_bear": "🟢 美股（季节性+周期）"
+    },
+    {
+      "id": "3df47eb5-fd3c-8141-a324-d33052ead781",
+      "name": "🟢 看多白银矿股：Rule 称银已非逆向交易、矿商才是「真便宜」｜ ⚠️ 税负/权利金风险才刚开始",
+      "kol_name": "Rick Rule",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Precious Metals",
+      "detail_sector": "贵金属与商品周期",
+      "comments": "9/17 Commodity Culture 播客（第575期）+ 中文媒体转述其 9/9 Kitco Mining 访谈：Rule 认为白银本身已不再是逆向交易，但白银矿股的风险回报远优于金属本身，直言「这些东西很便宜」→ 他称金矿股相对金价与净现值的折价「可能是历史上最大的」，主张持有更多矿股，但不能无差别买整个板块——「赚钱来自价格与价值的差额」→ 数据面：全球前 50 大矿企 8 月市值合计增加约 3,570 亿美元，总市值重回 2.5 万亿美元上方，板块已完成一轮修复 → 风险端：金属价格走高会带来税、权利金与资源租金上升压力，他强调真正的风险才刚开始，须区分「价格上涨」与「价值兑现」。来源：Commodity Culture 9/17 / Kitco 9/9",
+      "suggestion": "矿股优先于金属本身，但精选能在高金属价与资本成本下守住价值的公司；警惕资源税/权利金上升侵蚀现金流。",
+      "bull_bear": "🟢 白银矿股、金矿股 ｜ ⚪ 白银现货（已非逆向）"
+    },
+    {
+      "id": "3df47eb5-fd3c-8164-a6f5-c42b579b711e",
+      "name": "🔴 看空美债：Ives 称 Warsh 别无选择必须加息、「债券市场不会说谎」",
+      "kol_name": "Dan Ives",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Equities",
+      "detail_sector": "科技与未来趋势",
+      "comments": "9/17 接受 CCN 采访（Benzinga 报道）：在特朗普再次要求把利率降到 1% 或更低之际，Ives 称 Fed 主席 Kevin Warsh 除了加息别无选择 → 理由是通胀仍高，而债券市场收益率已升至数十年高位，他直言「债券市场不会说谎」→ 即加息是通胀约束下的必然而非可选政策，白宫施压不改变债市定价 → 这与其一贯的 AI 长期看多不冲突：他把利率与债市信号当作宏观约束，而非 AI 需求转弱的证据。来源：Benzinga 9/17",
+      "suggestion": "把它当作 AI 多头的宏观约束提示——债市与利率信号优先于叙事，短期不宜与债券市场对赌降息。",
+      "bull_bear": "🔴 美债（收益率高企、Fed被迫加息）"
+    },
+    {
+      "id": "3df47eb5-fd3c-81b5-9650-ecd948f6fe3c",
+      "name": "🟢 看多 AI 电力/数据中心：Flatt 称加息不影响长期投资、但必须做好准备",
+      "kol_name": "Bruce Flatt（Brookfield Corporation 首席执行官 / Brookfield Asset Management 主席）",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "Asset Allocation",
+      "comments": "9/17 CNBC《Halftime Report》Leslie Picker 专访：谈 Fed 加息、AI 融资与「为 AI 供能」 → 核心口径：加息对长期投资「不重要」，关键是提前做好准备——Brookfield 靠长期合约与通胀挂钩现金流对冲利率波动，而非择时 → 他延续 9 月初对韩国 Naver 1GW AI 工厂首期至多 90 亿美元的投入节奏，把 AI 用电需求当成数十年的基础设施周期 → 因此这更像对 AI 相关电力/数据中心资产的长周期看多，而非交易性方向判断。来源：CNBC 9/17",
+      "suggestion": "AI 电力/数据中心基础设施仍是长周期配置方向，利率扰动反而提供入场窗口；跟踪 Brookfield 后续 AI 工厂项目落地进度。",
+      "bull_bear": "🟢 AI电力/数据中心基础设施"
+    },
+    {
+      "id": "3df47eb5-fd3c-815e-ae39-c682c98b95b8",
+      "name": "🟢 看多 SpaceX/铀：ARK 同日买入 3 只新 IPO、弃 Oklo 换 Cameco ｜ 澄清 NVDA「部分基金仍持有」",
+      "kol_name": "Cathie Wood",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Equities",
+      "detail_sector": "科技与未来趋势",
+      "comments": "9/15-17 ARK 交易与访谈：① 9/14 同时买入三只新上市标的——SpaceX(SPCX)、Generate Biomedicines、加密交易所 Bullish，呈三层风险结构（硬资产/生物科技彩票/加密收费站），是她「把下跌的 IPO 当折扣」的一贯打法 ② 卖出 Oklo 50,333 股（Sam Altman 支持的核能初创），换入铀业巨头 Cameco 17,504 股，押注 AI 用电需求下铀优于核能概念 ③ 回应 NVDA：她在 ARKK 清仓后称其「定价超前」，但澄清部分 ARK 基金仍持有 ④ 重申 2030 年全球 GDP 增速至少翻倍至 7%+。9/15 已记其在 CLARITY 投票前抛售约 6,000 万美元加密资产。来源：TeslaNorth/ainvest/Juniorstocks/Bloomberg 9/17",
+      "suggestion": "关注 ARK 新股与铀/核能轮动的持仓路径；「买下跌的 IPO」策略波动大，跟仓需严格控规模。",
+      "bull_bear": "🟢 SpaceX(SPCX)、Cameco/铀、Bullish ｜ ⚪ NVDA(定价超前)、Oklo(已卖出)"
+    },
+    {
+      "id": "3df47eb5-fd3c-81dd-a52f-c75ace7bc7a3",
+      "name": "🟡 中性（政策定调）：潘功胜撰文淡化贷款数量目标、转向价格型调控 ｜ 直接融资与间接融资协调发展",
+      "kol_name": "潘功胜（中国人民银行行长）",
+      "kol_or_ib": "Official Data",
+      "date": "2026-09-17",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "9/16《求是》刊发央行行长潘功胜署名文章《深刻认识中国金融结构变迁 提升金融服务实体经济适配性》，9/17 媒体集中解读 → 核心论断：不能简单以信贷增速衡量金融支持实体力度，贷款降速提质将成新常态，直面回应一年来「信贷失速」焦虑 → 货币政策框架转型：淡化对数量目标（尤其贷款单一渠道）的关注，把金融总量更多作为观测/参考/预期指标，更注重价格型调控与市场化利率传导 → 市场建设：发展股票与债券市场「科技板」、财富管理市场，强化国债收益率曲线基准作用、统筹离岸人民币市场 → 扩容宏观审慎工具箱，维护股市/债市/汇市平稳运行，并继续支持地方融资平台债务风险化解。来源：《求是》/中国证券报/上海证券报 9/16-17",
+      "suggestion": "政策口径从「稳信贷总量」转向「结构适配」，对债市/股市属稳定意图信号；关注「十五五」金融规划落地与离岸人民币、利率衍生品进展。",
+      "bull_bear": "🟡 中国债市/股市（政策维稳）"
+    },
+    {
+      "id": "3df47eb5-fd3c-81c2-8042-e630d5b9a964",
+      "name": "🟢 看多 BTC：Saylor 称 SEC 创新豁免是「数字信贷重大突破」、银行放贷无需国会",
+      "kol_name": "Michael Saylor",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Crypto",
+      "detail_sector": "科技与未来趋势",
+      "comments": "9/17 Saylor 在 X：SEC 创新豁免允许合格交易平台为美国投资者提供 24/7 链上代币化交易（MSTR/STRC 代币化），他称之为「数字信贷与美国资本市场的重大突破」 → 同日重申银行无需等国会即可开展 BTC 托管与以 BTC 为抵押的放贷，并点名德意志银行已在等待批准 → 对 9/16 CLARITY 法案 cloture 失败（49-50）他反向解读：立法受阻≠监管停滞，SEC/CFTC/财政部可依现有授权推进 → 另反对 BIP-110（限制链上任意数据），称会根本改变比特币运作方式，是「坏主意」。来源：24/7 Wall St / Blockonomi / CryptoPanic 9/17",
+      "suggestion": "监管通道从立法转向行政豁免，利好 MSTR/STRC 代币化与银行信贷端需求；BIP-110 争议属技术面噪音，不改持仓逻辑。",
+      "bull_bear": "🟢 比特币、MSTR/STRC（代币化）"
+    },
+    {
+      "id": "3df47eb5-fd3c-819b-adf8-f4ad0c9d40f6",
+      "name": "🔴 看空 AI 信用债/科技集中度：Gundlach 称「只想离 AI 震中越远越好」、组合零 AI 敞口 ｜ 🟢 等权 RSP 对冲",
+      "kol_name": "Jeffrey Gundlach",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-17",
+      "sector": "Government Debt",
+      "detail_sector": "国债利率与债券市场",
+      "comments": "9/17 于 Julia La Roche Show 与 MarketWatch 专访：Gundlach 说自己「只想出去」——把钱放到离 AI 震中最远的地方，组合对 AI 零敞口 → 依据一：AI 相关企业债（含 Oracle 等）发行后数日利差就爆开，而宽口高收益债整体仍稳，信用压力信号先于股价显现 → 依据二：S&P 500 Shiller CAPE 超 42，历史上对应未来十年实际回报为负 → 战术：用等权 RSP 替代市值加权指数，因科技占指数约 40% 权重，等权是对 AI 信用爆雷的对冲 → 他同日再说 Fed 本应加息两倍（9/16 只加 25bp 是「婴儿步伐」）。来源：MarketWatch / Benzinga / 24-7 Wall St 9/17",
+      "suggestion": "回避 AI 相关企业信用债与高集中度科技指数，考虑用等权指数（如 RSP）替代市值加权；对 AI 主题信用不追涨，把新发债利差走宽当作领先预警。",
+      "bull_bear": "🔴 AI相关信用债、市值加权科技指数 ｜ 🟢 等权指数(RSP)"
+    },
     {
       "id": "3de47eb5-fd3c-8156-a4f0-d46853f303fa",
       "name": "⚖️ 分歧：Thomson 称空头短线仍掌控或再探 $3,950 ｜ 利率升至 7% 将引爆「弃债买金」",
