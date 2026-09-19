@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19 18:35 JST",
+  "generated_at": "2026-09-19 18:36 JST",
   "date_range": {
     "start": "2025-04-18",
     "end": "2026-09-19"
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 82,
       "consensus": 82,
-      "weighted_sum": 68.5,
+      "weighted_sum": 68.3,
       "bull": 178,
       "bear": 18,
       "neutral": 32,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -12,
       "consensus": 12,
-      "weighted_sum": 22.1,
+      "weighted_sum": 22.0,
       "bull": 300,
       "bear": 160,
       "neutral": 81,
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 34.7,
+      "weighted_sum": 34.6,
       "bull": 178,
       "bear": 18,
       "neutral": 32,
@@ -415,7 +415,7 @@
       "strong_bear": 1,
       "w_bull": 291,
       "w_bear": 11,
-      "avg": 0.13
+      "avg": 0.12
     },
     {
       "sector": "Crypto",
@@ -441,7 +441,7 @@
       "sector": "Equities",
       "score": 23,
       "consensus": 23,
-      "weighted_sum": 46.9,
+      "weighted_sum": 46.8,
       "bull": 300,
       "bear": 160,
       "neutral": 81,
@@ -2239,7 +2239,7 @@
       "sector": "Equities",
       "detail_sector": "Value Investing",
       "kol_or_ib": "KOL",
-      "style": "交易派",
+      "style": "持仓派",
       "latest_date": "2026-07-30",
       "latest_comments": "7/30 Barron's 专访（7 月中对谈）｜她原话：「**我是 AI 的信徒**——我用它，因为它是惊人的技术，**但这不代表它是一个好投资**。即便我们是价值管理人，我们也乐于持有创新与科技公司。挑战在于：**显而易见的赢家被高估、被超配**（overrated and overowned）。我们寻找**前沿技术能力，但不接受纳斯达克那样的『流血边缘』估值**」→ 具体标的：① **Ede",
       "latest_title": "🟢 看多法国/丹麦/巴西价值股：Edenred（11x PE、6% 股息）、GTT（「LNG 船的英伟达」）、UPS；AI 明显赢家「被高估且被超配」",

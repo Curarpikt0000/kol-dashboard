@@ -28,6 +28,7 @@ HOLDERS={"Peter Schiff","Robert Kiyosaki","Rick Rule","Luke Gromen","Keith Neume
          "Willem Middelkoop","James Rickards","Michael Saylor","Ray Dalio","Jim Rogers",
          "Stephen Leeb","Alasdair Macleod","Egon von Greyerz","Matthew Piepenburg",
          "James Turk",
+         "Rupal Bhansali（Double Duty Money Management 创始人 / CEO·CIO / 逆向投资专家）",
          "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）"}
 # 机构(不算 KOL 信号)和非标准 sector 过滤
 SKIP_KOL={"Goldman Sachs","Morgan Stanley","Citi / UBS","Citi","UBS"}
