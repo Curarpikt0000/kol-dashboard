@@ -29,6 +29,9 @@ HOLDERS={"Peter Schiff","Robert Kiyosaki","Rick Rule","Luke Gromen","Keith Neume
          "Stephen Leeb","Alasdair Macleod","Egon von Greyerz","Matthew Piepenburg",
          "James Turk",
          "Rupal Bhansali（Double Duty Money Management 创始人 / CEO·CIO / 逆向投资专家）",
+         "Gerald Celente（The Trends Research Institute 创办人 /《The Trends Journal》出版人 / 趋势预测）",
+         "Egon von Greyerz（VON GREYERZ AG 创始人兼主席 / 前 Matterhorn Asset Management / 实物黄金）",
+         "Bill Holter（Miles Franklin 贵金属专家 /「Mr. Gold」/ 前 JSMineset 与 Jim Sinclair 合著）",
          "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）"}
 # 机构(不算 KOL 信号)和非标准 sector 过滤
 SKIP_KOL={"Goldman Sachs","Morgan Stanley","Citi / UBS","Citi","UBS"}
