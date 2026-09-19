@@ -26,7 +26,9 @@ TODAY=datetime.now(timezone(timedelta(hours=9))).date()  # JST 今天(动态, re
 # 持仓派(方向几乎不变, 降权; 看催化剂) vs 其余默认交易派
 HOLDERS={"Peter Schiff","Robert Kiyosaki","Rick Rule","Luke Gromen","Keith Neumeyer",
          "Willem Middelkoop","James Rickards","Michael Saylor","Ray Dalio","Jim Rogers",
-         "Stephen Leeb","Alasdair Macleod","Egon von Greyerz","Matthew Piepenburg"}
+         "Stephen Leeb","Alasdair Macleod","Egon von Greyerz","Matthew Piepenburg",
+         "James Turk",
+         "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）"}
 # 机构(不算 KOL 信号)和非标准 sector 过滤
 SKIP_KOL={"Goldman Sachs","Morgan Stanley","Citi / UBS","Citi","UBS"}
 STD_SECTORS={"Precious Metals","Macro","Energy & Commodities","Crypto","Equities","Government Debt","Alternative"}

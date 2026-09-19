@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-19 10:16 JST",
+  "generated_at": "2026-09-19 15:41 JST",
   "date_range": {
     "start": "2025-04-18",
-    "end": "2026-09-17"
+    "end": "2026-09-19"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3403,
-    "total_rows": 3427,
+    "legged_rows": 3405,
+    "total_rows": 3429,
     "pct": 99.3
   },
   "today_signals": [
@@ -33,7 +33,7 @@
       "sector": "Precious Metals",
       "date": "2026-09-16",
       "desc": "看空→看多",
-      "signal": "高"
+      "signal": "中"
     },
     {
       "type": "反转",
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 88,
       "consensus": 88,
-      "weighted_sum": 302.1,
-      "bull": 1566,
+      "weighted_sum": 298.8,
+      "bull": 1568,
       "bear": 162,
       "neutral": 223,
-      "total": 1951,
-      "legs_bull": 2549,
+      "total": 1953,
+      "legs_bull": 2559,
       "legs_bear": 176,
       "legs_neutral": 115,
       "legs_split": 44,
-      "legs_total": 2884,
+      "legs_total": 2894,
       "strong_bull": 804,
       "strong_bear": 11,
-      "w_bull": 3353,
+      "w_bull": 3363,
       "w_bear": 187,
       "avg": 0.1
     },
@@ -117,7 +117,7 @@
       "sector": "Energy & Commodities",
       "score": 82,
       "consensus": 82,
-      "weighted_sum": 69.0,
+      "weighted_sum": 67.5,
       "bull": 178,
       "bear": 18,
       "neutral": 32,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": -3,
       "consensus": 3,
-      "weighted_sum": 1.3,
+      "weighted_sum": 1.2,
       "bull": 18,
       "bear": 8,
       "neutral": 26,
@@ -171,13 +171,13 @@
       "strong_bear": 5,
       "w_bull": 31,
       "w_bear": 33,
-      "avg": 0.02
+      "avg": 0.01
     },
     {
       "sector": "Equities",
       "score": -12,
       "consensus": 12,
-      "weighted_sum": 19.1,
+      "weighted_sum": 21.8,
       "bull": 298,
       "bear": 158,
       "neutral": 81,
@@ -197,7 +197,7 @@
       "sector": "Macro",
       "score": -72,
       "consensus": 72,
-      "weighted_sum": -50.9,
+      "weighted_sum": -49.2,
       "bull": 87,
       "bear": 132,
       "neutral": 98,
@@ -217,7 +217,7 @@
       "sector": "Government Debt",
       "score": -93,
       "consensus": 93,
-      "weighted_sum": -90.8,
+      "weighted_sum": -89.4,
       "bull": 18,
       "bear": 95,
       "neutral": 33,
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 70,
       "consensus": 70,
-      "weighted_sum": 33.8,
+      "weighted_sum": 33.7,
       "bull": 178,
       "bear": 18,
       "neutral": 32,
@@ -259,19 +259,19 @@
       "sector": "Precious Metals",
       "score": 66,
       "consensus": 66,
-      "weighted_sum": 69.0,
-      "bull": 1566,
+      "weighted_sum": 69.5,
+      "bull": 1568,
       "bear": 162,
       "neutral": 223,
-      "total": 1951,
-      "legs_bull": 713,
+      "total": 1953,
+      "legs_bull": 714,
       "legs_bear": 153,
       "legs_neutral": 101,
       "legs_split": 36,
-      "legs_total": 1003,
+      "legs_total": 1004,
       "strong_bull": 163,
       "strong_bear": 11,
-      "w_bull": 876,
+      "w_bull": 877,
       "w_bear": 164,
       "avg": 0.07
     },
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -25.9,
+      "weighted_sum": -24.8,
       "bull": 298,
       "bear": 158,
       "neutral": 81,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -85,
       "consensus": 85,
-      "weighted_sum": -33.5,
+      "weighted_sum": -32.6,
       "bull": 18,
       "bear": 95,
       "neutral": 33,
@@ -381,19 +381,19 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 233.1,
-      "bull": 1566,
+      "weighted_sum": 229.4,
+      "bull": 1568,
       "bear": 162,
       "neutral": 223,
-      "total": 1951,
-      "legs_bull": 1836,
+      "total": 1953,
+      "legs_bull": 1845,
       "legs_bear": 23,
       "legs_neutral": 14,
       "legs_split": 8,
-      "legs_total": 1881,
+      "legs_total": 1890,
       "strong_bull": 641,
       "strong_bear": 0,
-      "w_bull": 2477,
+      "w_bull": 2486,
       "w_bear": 23,
       "avg": 0.12
     },
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 93,
       "consensus": 93,
-      "weighted_sum": 35.2,
+      "weighted_sum": 33.8,
       "bull": 178,
       "bear": 18,
       "neutral": 32,
@@ -415,7 +415,7 @@
       "strong_bear": 1,
       "w_bull": 286,
       "w_bear": 11,
-      "avg": 0.13
+      "avg": 0.12
     },
     {
       "sector": "Crypto",
@@ -441,7 +441,7 @@
       "sector": "Equities",
       "score": 23,
       "consensus": 23,
-      "weighted_sum": 45.0,
+      "weighted_sum": 46.6,
       "bull": 298,
       "bear": 158,
       "neutral": 81,
@@ -455,13 +455,13 @@
       "strong_bear": 35,
       "w_bull": 320,
       "w_bear": 201,
-      "avg": 0.1
+      "avg": 0.11
     },
     {
       "sector": "Alternative",
       "score": 0,
       "consensus": 0,
-      "weighted_sum": 0.5,
+      "weighted_sum": 0.4,
       "bull": 18,
       "bear": 8,
       "neutral": 26,
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -88,
       "consensus": 88,
-      "weighted_sum": -45.2,
+      "weighted_sum": -43.5,
       "bull": 87,
       "bear": 132,
       "neutral": 98,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -97,
       "consensus": 97,
-      "weighted_sum": -57.3,
+      "weighted_sum": -56.8,
       "bull": 18,
       "bear": 95,
       "neutral": 33,
@@ -544,7 +544,7 @@
       "from": "看空",
       "to": "看多",
       "title": "🟢 强烈看多黄金、原油：央行22个月购金+10年期美债破5%",
-      "signal": "高"
+      "signal": "中"
     },
     {
       "kol_name": "James Rickards",
@@ -688,7 +688,7 @@
       "from": "看多",
       "to": "看空",
       "title": "🔴 强烈看空AI与科技股：循环融资+GPU折旧，资本开支集中度触历史峰值",
-      "signal": "高"
+      "signal": "中"
     },
     {
       "kol_name": "Edward Dowd",
@@ -794,13 +794,13 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 807,
-        "kols": 98
+        "count": 809,
+        "kols": 99
       },
       {
         "ticker": "白银",
-        "count": 396,
-        "kols": 75
+        "count": 398,
+        "kols": 76
       },
       {
         "ticker": "黄金/白银",
@@ -947,6 +947,19 @@
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "James Turk",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "kol_or_ib": "KOL",
+      "style": "持仓派",
+      "latest_date": "2026-09-19",
+      "latest_comments": "9/19 King World News《Silver May Soar Back To All-Time High In First Quarter Of 2026》（页面标注 September 18-19, 2026）｜特克原话：「我认为黄金和白银都会大幅走高」→ 回顾基准：2025 年 3 月白银还在 $30，到 2026 年 1 月已 $100+，约 9-10 个月涨了近四倍 → 「完全",
+      "latest_title": "🟢 看多白银：明年一季度回 $115-120，两金属都到突破下行趋势的边缘",
+      "bull_bear": "🟢 白银(SLV), 黄金(GLD) | 白银目标 $115-120 (2027Q1)",
+      "total_entries": 5,
+      "trend": "→"
+    },
     {
       "kol_name": "Avi Gilburt",
       "sector": "Macro",
@@ -1173,7 +1186,7 @@
       "sector": "Precious Metals",
       "detail_sector": "黄金",
       "kol_or_ib": "KOL",
-      "style": "交易派",
+      "style": "持仓派",
       "latest_date": "2026-09-16",
       "latest_comments": "央行购金不看价格：中国连续22个月增持、8月再买65万盎司，二季度全球央行增持289吨为最强二季度，45%央行未来12个月继续买 → 债市逼宫：10年期收益率破5%创19年新高，2年期隐含联邦基金应再高约100bp → 中东供应中断叠加炼厂受袭，柴油裂解价差破100美元/桶 → 长期看能源仍是买点。→来源: McAlvany Weekly Commentary 2026-09-16",
       "latest_title": "🟢 强烈看多黄金、原油：央行22个月购金+10年期美债破5%",
@@ -2467,19 +2480,6 @@
       "bull_bear": "🟢 期限溢价修复 | ⚪ 短端波动（推断）",
       "total_entries": 1,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "James Turk",
-      "sector": "Precious Metals",
-      "detail_sector": "Precious Metals",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-07-04",
-      "latest_comments": "[2026-07-04] Turk Warns We May Finally See The Long-Awaited Comex Default (King World News 访谈)｜特克原话: 未平仓合约(Open Interest)下滑, 反映人们知道这是一场“rigged game(被操纵的游戏)”;随着金银最终转涨, 未平仓合约会回升, 除非 Comex 出现某种违约(failure",
-      "latest_title": "James Turk - Warns Of Possible Comex Default As Gold/Silver Turn Higher",
-      "bull_bear": "黄金(Gold):看多；白银(Silver):看多",
-      "total_entries": 3,
-      "trend": "→"
     },
     {
       "kol_name": "Greg Mankiw（哈佛大学经济学教授）",
@@ -4270,6 +4270,30 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3e047eb5-fd3c-8142-8009-e881713b3bf2",
+      "name": "🟢 看多白银：明年一季度回 $115-120，两金属都到突破下行趋势的边缘",
+      "kol_name": "James Turk",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-19",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "9/19 King World News《Silver May Soar Back To All-Time High In First Quarter Of 2026》（页面标注 September 18-19, 2026）｜特克原话：「我认为黄金和白银都会大幅走高」→ 回顾基准：2025 年 3 月白银还在 $30，到 2026 年 1 月已 $100+，约 9-10 个月涨了近四倍 → 「完全可能明年一季度白银回到 $115-120 的老高区域」→ 短期他盯的是**自 1 月高点以来的下行趋势**：「连线之后的各个高点，白银很清楚、黄金也一样——两个金属都在突破这些下行趋势的边缘」→ 属其 1 月「白银公允价值 $300-500」框架的延续。来源: King World News 2026-09-19（用户 9/19 截图问询）",
+      "suggestion": "白银以「2027 年一季度 $115-120」为第一目标位；把「有效突破 1 月以来下行趋势线」当作短期加仓触发器，突破失败则不加。黄金同步持有，两金属突破是同一条逻辑。",
+      "bull_bear": "🟢 白银(SLV), 黄金(GLD) | 白银目标 $115-120 (2027Q1)"
+    },
+    {
+      "id": "3e047eb5-fd3c-8197-a4f8-d130eabfcb9e",
+      "name": "🟢 看多黄金与白银：回调只是「喘口气」，金银比 78 仍偏高、白银深度现货溢价",
+      "kol_name": "James Turk",
+      "kol_or_ib": "KOL",
+      "date": "2025-10-14",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "10/14 King World News《ALERT: James Turk Update On Gold & Silver, Also Goldman Sachs On Silver》｜特克原话：金银「该喘口气了」，但即便出现回调，也应预期其「短暂」，「这轮牛市还有很长的路要走」→ 理由：金银创纪录新高正在打开投资者的眼睛，让他们看到贵金属板块里仍可摘取的果实 → 金银比 78 仍属「错位」，历史常态指向 30 或更低，即相对黄金白银仍被低估 → 白银正处于大幅现货溢价(backwardation)，且短期难见缓解（贵金属出现 backwardation 极为罕见）→ 同日他质疑高盛此时看白银的真实动机。来源: King World News 2025-10-14",
+      "suggestion": "把回调当作加仓窗口而非趋势反转；以金银比（历史常态目标 30 或更低）作为白银相对黄金的加仓标尺，并盯住白银现货溢价是否缓解——溢价消退前白银的实物紧张未解。",
+      "bull_bear": "🟢 黄金(XAU/GLD), 白银(SLV) | 白银/黄金比价 78 → 目标 ≤30"
+    },
     {
       "id": "3df47eb5-fd3c-8188-861d-def8b49f5d5b",
       "name": "🟢 强烈看多黄金、原油：央行22个月购金+10年期美债破5%",
@@ -20184,36 +20208,36 @@
     },
     {
       "id": "39447eb5-fd3c-81d4-896b-ec0e92615134",
-      "name": "James Turk - Warns Of Possible Comex Default As Gold/Silver Turn Higher",
+      "name": "🟢 看多 James Turk - Warns Of Possible Comex Default As Gold/Silver Turn Higher",
       "kol_name": "James Turk",
       "kol_or_ib": "KOL",
       "date": "2026-07-04",
       "sector": "Precious Metals",
-      "detail_sector": "Precious Metals",
+      "detail_sector": "黄金白银",
       "comments": "[2026-07-04] Turk Warns We May Finally See The Long-Awaited Comex Default (King World News 访谈)｜特克原话: 未平仓合约(Open Interest)下滑, 反映人们知道这是一场“rigged game(被操纵的游戏)”;随着金银最终转涨, 未平仓合约会回升, 除非 Comex 出现某种违约(failure to deliver)——目前活跃交割量创历史新高。即: 结构性看多金银, 并警告 Comex 实物交割可能违约。｜来源: https://kingworldnews.com/turk-warns-we-may-finally-see-a-comex-default/",
       "suggestion": "结构性看多黄金、白银; 警惕 Comex 实物交割违约(利多实物金银)风险/机会。",
       "bull_bear": "黄金(Gold):看多；白银(Silver):看多"
     },
     {
       "id": "39447eb5-fd3c-8137-92b1-f1674c55e7df",
-      "name": "James Turk - Gold & Silver Pullback Temporary, Bull Market Intact",
+      "name": "🟢 看多 James Turk - Gold & Silver Pullback Temporary, Bull Market Intact",
       "kol_name": "James Turk",
       "kol_or_ib": "KOL",
       "date": "2026-03-28",
       "sector": "Precious Metals",
-      "detail_sector": "Precious Metals",
+      "detail_sector": "黄金白银",
       "comments": "[2026-03-28] James Turk Discusses The Plunge In The Gold & Silver Markets (King World News 访谈)｜特克原话: “Gold and silver, Eric, major bull markets, you get these swings up and down. They tend to be scary at times, but they are temporary.” 即: 金银处于大牛市, 上下波动虽时有惊吓但只是暂时;当前虽是艰难时刻, 但牛市趋势完好, 长期继续看多金银(并涉及矿业股)。｜来源: https://kingworldnews.com/james-turk-discusses-the-plunge-in-the-gold-silver-markets/",
       "suggestion": "金银回调为暂时性波动, 大牛市完好; 长期看多黄金、白银, 逢跌可视为机会。",
       "bull_bear": "黄金(Gold):看多；白银(Silver):看多"
     },
     {
       "id": "39447eb5-fd3c-81ad-9d4d-dedd38bcd8bb",
-      "name": "James Turk - Silver Fair Value $300-$500, Moonshot Continues",
+      "name": "🟢 强烈看多 James Turk - Silver Fair Value $300-$500, Moonshot Continues",
       "kol_name": "James Turk",
       "kol_or_ib": "KOL",
       "date": "2026-01-23",
       "sector": "Precious Metals",
-      "detail_sector": "Precious Metals",
+      "detail_sector": "黄金白银",
       "comments": "[2026-01-23] James Turk Predicts Silver Will Skyrocket Above Fair Value Of $300-$500 (King World News 访谈)｜特克原话: 从长期看, 类比 1979-1980 那轮白银 moonshot——当年途中也有多次回调, 但白银公允价值仅 $19 时价格却冲到 $50;这一轮若白银公允价值在 $300-$500, 上行空间巨大。回调是过程中的正常波动, 长期强烈看多白银(并看多黄金)。｜来源: https://kingworldnews.com/james-turk-predicts-silver-will-skyrocket-above-fair-value-of-300-500/",
       "suggestion": "长期强烈看多白银(公允价值 $300-500), 黄金同步看多; 途中回调视为正常波动。",
       "bull_bear": "白银(Silver):强烈看多；黄金(Gold):看多"
