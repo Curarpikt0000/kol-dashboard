@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19 22:02 JST",
+  "generated_at": "2026-09-19 23:33 JST",
   "date_range": {
     "start": "2025-04-18",
     "end": "2026-09-19"
@@ -29,7 +29,7 @@
     },
     {
       "type": "反转",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "sector": "Precious Metals",
       "date": "2026-09-16",
       "desc": "看空→看多",
@@ -538,7 +538,7 @@
       "signal": "高"
     },
     {
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "sector": "Precious Metals",
       "date": "2026-09-16",
       "from": "看空",
@@ -682,7 +682,7 @@
       "signal": "中"
     },
     {
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "sector": "Equities",
       "date": "2026-09-02",
       "from": "看多",
@@ -1195,7 +1195,7 @@
       "trend": "↘ 趋空"
     },
     {
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "sector": "Precious Metals",
       "detail_sector": "黄金",
       "kol_or_ib": "KOL",
@@ -4167,7 +4167,7 @@
     },
     {
       "list_num": "138",
-      "name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "scope": "贵金属长周期配置逻辑（黄金/白银/矿业股）；货币体系重构与去美元化；央行购金与官方储备结构；财政赤字与主权债务可持续性；实体资产（hard assets）对抗通胀与货币贬值；美股/AI 泡沫风险与组合对冲（Tactical Short）。",
       "bio": "McAlvany Financial Group（麦卡尔瓦尼金融集团）首席执行官，2008 年起任；McAlvany Wealth Management（MWM）创始人，现负责四条 MAPS 组合策略；2017 年与做空专家 Doug Noland 共同发起机构级对冲策略 Tactical Short。职业生涯始于摩根士丹利（2000-2001 科技股危机期间管理客户资产、躲过重挫并受益于大宗商品超级周期早期）。Biola University 毕业，牛津大学 Keble College 副研究员，Series 65 持牌；著有《Intentional Legacy》。主持 McAlvany Weekly Commentary 播客（每周一期，与 Kevin Orrick 对谈），长期做客 BNN Bloomberg、Schwab Network 等节目。",
       "domain": "贵金属与商品周期",
@@ -4369,7 +4369,7 @@
       "date": "2026-09-04",
       "sector": "Precious Metals",
       "detail_sector": "Gold & Silver",
-      "comments": "X22 Report 专访。主持人问金银是否见顶、还能涨多高，Holter 拒绝给数字，理由是法币内在价值为零：「The only thing I'll tell you is higher, much much much higher」，并称任何人给出的价位最终都会「laughably low」。他重申 2015 年以来的核心判断：白银是引爆衍生品体系的引信——「I believe silver will be the one that fails to deliver」，交割违约会蔓延至所有合约。依据：债务利息从过去 30 年年均约 4,000 亿美元升至接近 1.5 万亿美元/年，美债这个全球体系「地基」正被高利率掏空；2022 年 10 月美国没收俄罗斯约 3,000 亿美元美债成为黄金的发射台；白银已连续 6 年供不应求。存量口径：按 4,500 美元/8,300 吨计约 1 万亿美元，对 40 万亿美元债务只是零头，需标价 40 倍才够覆盖，他「100% 相信」美国并没有 8,300 吨。他预期第一次货币重置会失败（以法币替代法币），并提示美加矿企国有化风险；稳定币是「the full faith and credit of a bankrupt entity」，比特币是零价值的「digital air」且可被远程关停，实物金银不能。新增：他称当前处于「the base of a hyperinflation」，AI 需大量白银等战略金属是增量催化。\n来源: X22Report 2026-09-04 访谈字幕",
+      "comments": "X22 Report 专访。主持人问金银是否见顶、还能涨多高，Holter 拒绝给数字，理由是法币内在价值为零：「The only thing I'll tell you is higher, much much much higher」，并称任何人给出的价位最终都会「laughably low」。他重申 2015 年以来的核心判断：白银是引爆衍生品体系的引信——「I believe silver will be the one that fails to deliver」，交割违约会蔓延至所有合约。依据：债务利息从过去 30 年年均约 4,000 亿美元升至接近 1.5 万亿美元/年，美债这个全球体系「地基」正被高利率掏空；2022 年 10 月美国没收俄罗斯约 3,000 亿美元美债成为黄金的发射台；白银已连续 6 年供不应求。存量口径：按 4,500 美元/8,300 吨计约 1 万亿美元，对 40 万亿美元债务只是零头，需标价 40 倍才够覆盖，他「100% 相信」美国并没有 8,300 吨。他预期第一次货币重置会失败（以法币替代法币），并提示美加矿企国有化风险；稳定币是「the full faith and credit of a bankrupt entity」，比特币是零价值的「digital air」且可被远程关停，实物金银不能。新增：他称当前处于「the base of a hyperinflation」，AI 需大量白银等战略金属是增量催化。\n来源: X22Report 2026-09-04 访谈字幕 ｜ ⚠️ 归属存疑留痕：「We're at the base of a hyperinflation」一句位于与主持人 Dave 的高速对答处，字幕说话人标记（>>）在同段内三次跳变、句子被 ASR 切碎拼接，无独立标签；依据「主持人提问→Holter 接话」结构判给 Holter（与其债务/法币框架一致），但若实为主持人补充，则本条「已到超级通胀起点」这一判断应删除。建议以原视频音频复核。",
       "suggestion": "跟踪三个可验证节点：①Comex 白银库存/交割量与现货-期货价差，出现交割量骤增或现货转升水即为其「交割违约」论点的启动信号；②美国债务利息支出是否站上 1.5 万亿美元/年、且长端收益率上行时金价同涨（债务货币化确认）；③美加采矿许可与国有化相关立法动向，出现即降低北美单一辖区矿股权重。金银按「不想亏掉的那部分仓位」配置，不做目标价交易。",
       "bull_bear": "🟢 黄金, 白银 | 🔴 美债, 美元, 比特币"
     },
@@ -4417,7 +4417,7 @@
       "date": "2026-06-16",
       "sector": "Precious Metals",
       "detail_sector": "Gold & Silver",
-      "comments": "Holter 给出最明确的反转判断：「I think the bottoms are in for both gold and silver」——上周黄金低点约 4,000 美元、白银 61 美元，超卖后属「relief rally」，但他「suspect they do」继续走高。白银依据是「we're now in our sixth year of a supply shortfall. It's a structural deficit」，属价值投资要找的供需错配。他提示东方溢价未被套利是警号：上海银价约 77 美元、西方现货 70 美元，约 10% 溢价持续五六个月未收敛，唯一解释是套利者怕在东方买不到货、在西边被裸空，即对 COMEX/LBMA 交割的担忧，交割失败会外溢到黄金与整个衍生品——「you're looking at like a 70 lb tail to a 5 lb dog」（指衍生品体量对比）。对矿业股超额表现泼冷水：「I don't really think you can read much into that」，矿业股天生约三倍波动，涨跌都会被放大。三宗巨型 IPO（SpaceX/OpenAI/Anthropic，合计近 3–4 万亿美元估值、SpaceX 逾百倍营收）被他视为市场顶部信号，公众是 exit liquidity；伊朗 MOU「nothing binding」，只是把 120 亿+240 亿被冻结（等同被偷）资金让步，不构成胜利，且已丧失政治资本、世界正走向多极。它的持仓已建成、只加不减，全部为实物金属、矿股与实体产品公司。最终建议：「bunker down. Now is not the time to try to make money... the time to try to preserve」。来源: CapitalCosm 2026-06-16 访谈字幕",
+      "comments": "Holter 给出最明确的反转判断：「I think the bottoms are in for both gold and silver」——上周黄金低点约 4,000 美元、白银 61 美元，超卖后属「relief rally」，但他「suspect they do」继续走高。白银依据是「we're now in our sixth year of a supply shortfall. It's a structural deficit」，属价值投资要找的供需错配。他提示东方溢价未被套利是警号：上海银价约 77 美元、西方现货 70 美元，约 10% 溢价持续五六个月未收敛，唯一解释是套利者怕在东方买不到货、在西边被裸空，即对 COMEX/LBMA 交割的担忧，交割失败会外溢到黄金与整个衍生品——「you're looking at like a 70 lb tail to a 5 lb dog」（指衍生品体量对比）。对矿业股超额表现泼冷水：「I don't really think you can read much into that」，矿业股天生约三倍波动，涨跌都会被放大。三宗巨型 IPO（SpaceX/OpenAI/Anthropic，合计近 3–4 万亿美元估值、SpaceX 逾百倍营收）被他视为市场顶部信号，公众是 exit liquidity；伊朗 MOU「nothing binding」，只是把 120 亿+240 亿被冻结（等同被偷）资金让步，不构成胜利，且已丧失政治资本、世界正走向多极。它的持仓已建成、只加不减，全部为实物金属、矿股与实体产品公司。最终建议：「bunker down. Now is not the time to try to make money... the time to try to preserve」。来源: CapitalCosm 2026-06-16 访谈字幕 ｜ ⚠️ 归属存疑留痕：「a 70 lb tail to a 5 lb dog」（衍生品体量 vs 实物）一句，字幕在 「withdrew 130 million ounces…」处严重乱码、且该期字幕说话人切换密集，无法 100% 判定为 Holter 原话（判据为其自有框架：交割失败→外溢黄金→衍生品体量）；建议以原视频音频复核。",
       "suggestion": "跟踪 4,000 美元（金）与 61–62 美元（银）这两个低点是否守住：跌破除则其「底部已现」被证伪；反向跟踪上海对西方白银溢价（现约 77 vs 70 美元、约 10%）是否收敛——若长期不收，即其「西方交割风险」判断持续有效；另跟踪三家巨型 IPO 上市后 4–8 周大盘表现，验证其「巨型 IPO 即市场顶部」类比。仓位含义：现在不是赚钱的时候，是保全的时候。",
       "bull_bear": "🟢 黄金, 白银, 原油 | 🔴 美股（巨型IPO高估值）, 伊朗协议预期（MOU）"
     },
@@ -5096,7 +5096,7 @@
     {
       "id": "3df47eb5-fd3c-8188-861d-def8b49f5d5b",
       "name": "🟢 强烈看多黄金、原油：央行22个月购金+10年期美债破5%",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-09-16",
       "sector": "Precious Metals",
@@ -5108,7 +5108,7 @@
     {
       "id": "3df47eb5-fd3c-8143-b1c9-c6a9d7995a55",
       "name": "🔴🟢 看多黄金/看空美股：金融条件五年最松+Mag7沦为Lag7，黄金长期看$8,000-10,000",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-09-09",
       "sector": "Precious Metals",
@@ -5120,7 +5120,7 @@
     {
       "id": "3df47eb5-fd3c-81d0-a1d3-d8402adbb1d9",
       "name": "🔴 强烈看空AI与科技股：循环融资+GPU折旧，资本开支集中度触历史峰值",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-09-02",
       "sector": "Equities",
@@ -5132,7 +5132,7 @@
     {
       "id": "3df47eb5-fd3c-810c-a8fb-ea5500d5f270",
       "name": "🟢 看多黄金/白银/铜：赤字可持续性担忧+AI与电网需求、铜矿长期欠投资",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-08-27",
       "sector": "Precious Metals",
@@ -5144,7 +5144,7 @@
     {
       "id": "3df47eb5-fd3c-8107-8370-e0fe2f75957f",
       "name": "🟢 强烈看多黄金：财政主导+金融抑制，靠通胀化债=美元购买力流失",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-08-26",
       "sector": "Precious Metals",
@@ -5156,7 +5156,7 @@
     {
       "id": "3df47eb5-fd3c-8148-97d9-f80314729ddb",
       "name": "🟢🔴 看多黄金/看空美债与AI概念：日元套息杠杆+长债收益率升破5.20%",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-08-19",
       "sector": "Precious Metals",
@@ -5168,7 +5168,7 @@
     {
       "id": "3df47eb5-fd3c-8129-a5ba-ebab15b3a35d",
       "name": "🟢 强烈看多黄金/原油：油市供给缺乏弹性，黄金看至2027年$6,000",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-08-17",
       "sector": "Precious Metals",
@@ -5180,7 +5180,7 @@
     {
       "id": "3df47eb5-fd3c-8170-a259-ee8346a4ced2",
       "name": "🟢🔴 看多黄金/看空美元：央行持续增持+市场重估储备资产",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-08-12",
       "sector": "Precious Metals",
@@ -5192,7 +5192,7 @@
     {
       "id": "3df47eb5-fd3c-8111-9e81-dce2346ede5b",
       "name": "🟢🔴 看多黄金白银/看空美股：官方通胀或改定义+道指相对黄金跌逾七成",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-08-05",
       "sector": "Precious Metals",
@@ -5204,7 +5204,7 @@
     {
       "id": "3df47eb5-fd3c-8156-90fc-d0bdde364d5e",
       "name": "🟢🔴 看多黄金与矿业股/看空高杠杆科技股：债务时钟对AI敲响",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-07-29",
       "sector": "Precious Metals",
@@ -5216,7 +5216,7 @@
     {
       "id": "3df47eb5-fd3c-81ff-aefd-e7716c77864f",
       "name": "🟢🔴 看多黄金与硬资产/看空美元：旧秩序断裂+央行购金与黄金结算体系",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-07-22",
       "sector": "Precious Metals",
@@ -5228,7 +5228,7 @@
     {
       "id": "3df47eb5-fd3c-8179-a217-c0abaefec2e0",
       "name": "🟢🔴 看多黄金/看空科技股：AI资本开支靠举债+全球通胀预测上调至4.7%",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-07-15",
       "sector": "Precious Metals",
@@ -5240,7 +5240,7 @@
     {
       "id": "3df47eb5-fd3c-81ce-ac6c-e1d30f414ac6",
       "name": "🔴🟢 累积黄金白银/看空美股：中国五个月进口黄金692吨+宽度指标走坏",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-07-08",
       "sector": "Precious Metals",
@@ -5252,7 +5252,7 @@
     {
       "id": "3df47eb5-fd3c-81b7-9ec9-c1168cfccb49",
       "name": "🟢🔴 看多黄金/看空美元与美股：道指对黄金比价压缩+多国寻求美元替代",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-07-01",
       "sector": "Precious Metals",
@@ -5264,7 +5264,7 @@
     {
       "id": "3df47eb5-fd3c-8114-9ced-f0d475e1dafb",
       "name": "⚪ 中性：新任美联储主席政策路径待明+风险偏好回暖但头条驱动",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-06-17",
       "sector": "Macro",
@@ -5276,7 +5276,7 @@
     {
       "id": "3df47eb5-fd3c-814e-ab13-f906663a9461",
       "name": "🟢🔴 看多黄金与黄金矿业股/看空科技股：央行结构性买盘+情绪极度出清",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-06-10",
       "sector": "Precious Metals",
@@ -5288,7 +5288,7 @@
     {
       "id": "3df47eb5-fd3c-8197-b6b3-e10c55f56d9e",
       "name": "🟢 看多硬资产/大宗商品：AI资本开支下的重资产低淘汰率",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-06-03",
       "sector": "Energy & Commodities",
@@ -5300,7 +5300,7 @@
     {
       "id": "3df47eb5-fd3c-8132-b706-e1d67c586951",
       "name": "🟢🔴 看多黄金白银/看空科技股：央行持续购金+纸资产信心松动",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-05-27",
       "sector": "Precious Metals",
@@ -5312,7 +5312,7 @@
     {
       "id": "3df47eb5-fd3c-815e-b663-f8ccf6d08b3c",
       "name": "🟢🔴 看多黄金白银/看空美债：G7主权债务危机+30年期美债5.15%新高",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-05-20",
       "sector": "Precious Metals",
@@ -5324,7 +5324,7 @@
     {
       "id": "3df47eb5-fd3c-81de-9407-f35d16684aac",
       "name": "🟢🔴 看多黄金与大宗商品/看空美债与美元：非官方全球金本位成形+美债货币化",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-05-13",
       "sector": "Precious Metals",
@@ -5336,7 +5336,7 @@
     {
       "id": "3df47eb5-fd3c-8121-bb92-caa0977d4cca",
       "name": "🟢🔴 看多黄金/看空美元与美债：央行季度净购金244吨+散户完全无视",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-05-06",
       "sector": "Precious Metals",
@@ -5348,7 +5348,7 @@
     {
       "id": "3df47eb5-fd3c-819c-896f-fe472d0144b7",
       "name": "🔴 看空美股：三倍标准差超级泡沫+AI与半导体极端估值",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-04-29",
       "sector": "Equities",
@@ -5360,7 +5360,7 @@
     {
       "id": "3df47eb5-fd3c-81ca-a1da-c30d7b53d111",
       "name": "🟢🔴 看多黄金与原油/看空美股与私募信贷：华尔街共识反向操作+道指黄金比率择时",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-04-22",
       "sector": "Precious Metals",
@@ -5372,7 +5372,7 @@
     {
       "id": "3df47eb5-fd3c-810c-9679-f7c7cfd40b45",
       "name": "🔴🟢 看空私募信贷与银行股/看多黄金：下一个“大空头”时刻的铺垫",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-04-15",
       "sector": "Alternative",
@@ -5384,7 +5384,7 @@
     {
       "id": "3df47eb5-fd3c-8149-b242-e170f979fa26",
       "name": "🔴🟢 看空美债/看多黄金：海外央行在纽约联储的美债托管降至2012年来最低",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-04-08",
       "sector": "Precious Metals",
@@ -5396,7 +5396,7 @@
     {
       "id": "3df47eb5-fd3c-81ef-a854-e57cd4ba1188",
       "name": "🟢 看多黄金/原油：金价回调只是获利了结，供应约束撑住油价",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-03-26",
       "sector": "Precious Metals",
@@ -5408,7 +5408,7 @@
     {
       "id": "3df47eb5-fd3c-81be-97da-cbc52c8e4a4d",
       "name": "🔴🟢 看空美债/看多原油：油价每涨10美元推高通胀20个基点",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-03-11",
       "sector": "Energy & Commodities",
@@ -5420,7 +5420,7 @@
     {
       "id": "3df47eb5-fd3c-8193-b2cd-dc580b090b3e",
       "name": "🔴🟢 看空美股与私募信用/看多原油：流动性争夺战已开始",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-03-04",
       "sector": "Equities",
@@ -5432,7 +5432,7 @@
     {
       "id": "3df47eb5-fd3c-81ea-9ef6-d14b4305b43b",
       "name": "🔴🟢 看空美债/看多黄金：美国国债避险地位受损+大资金买入黄金",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-02-25",
       "sector": "Precious Metals",
@@ -5444,7 +5444,7 @@
     {
       "id": "3df47eb5-fd3c-81d5-8021-c8e003b69370",
       "name": "🔴🟢 看空美债/看多黄金：主权债务危机非理论+对冲基金高杠杆持债",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-02-18",
       "sector": "Precious Metals",
@@ -5456,7 +5456,7 @@
     {
       "id": "3df47eb5-fd3c-81bf-817a-eb95ba6e065c",
       "name": "🔴 看空科技股与比特币：AI资本开支遭质疑+加密叙事断裂",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-02-11",
       "sector": "Crypto",
@@ -5468,7 +5468,7 @@
     {
       "id": "3df47eb5-fd3c-817b-ad6c-eda939103365",
       "name": "🟢 看多黄金：金银牛市未破+金银比40上方转向低估资产",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-02-04",
       "sector": "Precious Metals",
@@ -5480,7 +5480,7 @@
     {
       "id": "3df47eb5-fd3c-8124-b774-e49b71416753",
       "name": "🟢 强烈看多黄金：央行与巨额私募资本买入+1月金价上涨758美元",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-01-28",
       "sector": "Precious Metals",
@@ -5492,7 +5492,7 @@
     {
       "id": "3df47eb5-fd3c-8111-9004-e154d8ab876c",
       "name": "🔴🟢 看空美股与长债/看多贵金属：收益率曲线陡峭化 + 市场广度收窄",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-01-21",
       "sector": "Precious Metals",
@@ -5504,7 +5504,7 @@
     {
       "id": "3df47eb5-fd3c-8196-bc69-cf447a9c03f1",
       "name": "🟢 强烈看多黄金与矿商：GDX 股本减两成 + 央行机构抢跑 2026",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-01-14",
       "sector": "Precious Metals",
@@ -5516,7 +5516,7 @@
     {
       "id": "3df47eb5-fd3c-819b-a510-e41da08b8c60",
       "name": "🟢 看多原油：美国超级石油公司拿到全球最大储量的优先位置",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-01-08",
       "sector": "Energy & Commodities",
@@ -5528,7 +5528,7 @@
     {
       "id": "3df47eb5-fd3c-8159-8e83-e3424ccda4e1",
       "name": "🟢 看多黄金/能源：委内瑞拉坐拥全球最大储量 + 2026 黄金前瞻看多",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2026-01-07",
       "sector": "Precious Metals",
@@ -5540,7 +5540,7 @@
     {
       "id": "3df47eb5-fd3c-8171-9834-c6772acd9f55",
       "name": "🟢 强烈看多白银：到 150-500 美元才触发工业替代 + 矿商刚进聚光灯",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-12-31",
       "sector": "Precious Metals",
@@ -5552,7 +5552,7 @@
     {
       "id": "3df47eb5-fd3c-8104-9237-fcc1aea90657",
       "name": "🟢 强烈看多黄金/白银：央行与主权买家驱动的结构性牛市仍在早期",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-12-29",
       "sector": "Precious Metals",
@@ -5564,7 +5564,7 @@
     {
       "id": "3df47eb5-fd3c-812d-ab28-e7bc73967332",
       "name": "🟢 看多黄金/看空美元：全球货币重置，央行以黄金盎司替代美债储备",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-12-24",
       "sector": "Precious Metals",
@@ -5576,7 +5576,7 @@
     {
       "id": "3df47eb5-fd3c-8174-968c-ff93682be3e6",
       "name": "🔴 看空美股与加密：美联储「不是 QE 的 QE」+ 巴菲特指标破纪录",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-12-17",
       "sector": "Equities",
@@ -5588,7 +5588,7 @@
     {
       "id": "3df47eb5-fd3c-81f3-a044-d4f6397fee8e",
       "name": "🟢 强烈看多白银：金银比 70:1 仍便宜 + ’26-’27 零售资金入场",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-12-10",
       "sector": "Precious Metals",
@@ -5600,7 +5600,7 @@
     {
       "id": "3df47eb5-fd3c-8148-af4f-c1bec431d0b7",
       "name": "🔴🟢 看空科技股/看多黄金：流动性催生的投机过剩 + 美元贬值 95%",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-12-03",
       "sector": "Precious Metals",
@@ -5612,7 +5612,7 @@
     {
       "id": "3df47eb5-fd3c-8161-94de-d236ea6cf317",
       "name": "🔴🟢 看多白银/看空比特币：比特币只是股市镜子+白银五年供给缺口",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-11-19",
       "sector": "Precious Metals",
@@ -5624,7 +5624,7 @@
     {
       "id": "3df47eb5-fd3c-81d7-8d9a-d35ebc4aead0",
       "name": "🔴 看空AI/科技股：叙事转向+能源供给约束；看多能源与黄金",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-11-12",
       "sector": "Equities",
@@ -5636,7 +5636,7 @@
     {
       "id": "3df47eb5-fd3c-811c-808f-cdfc9bfc4d3f",
       "name": "🔴 看空私人信贷与长债：首次违约暴露低质信贷+回购市场功能失调",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-11-05",
       "sector": "Government Debt",
@@ -5648,7 +5648,7 @@
     {
       "id": "3df47eb5-fd3c-811d-af17-d3be067c796a",
       "name": "🔴 看空美股与私人信贷：影子银行定时炸弹+AI叙事推高估值不可持续",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-10-29",
       "sector": "Equities",
@@ -5660,7 +5660,7 @@
     {
       "id": "3df47eb5-fd3c-8106-b401-f8b3258d1369",
       "name": "🟢 看多黄金白银长期：货币制度变革+回调即加仓",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-10-22",
       "sector": "Precious Metals",
@@ -5672,7 +5672,7 @@
     {
       "id": "3df47eb5-fd3c-8156-9050-fdff0e41abd7",
       "name": "🟢 强烈看多白银：数百吨白银紧急调往伦敦+租赁利率飙至200%",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-10-15",
       "sector": "Precious Metals",
@@ -5684,7 +5684,7 @@
     {
       "id": "3df47eb5-fd3c-81ca-a5c2-db0a8ec11942",
       "name": "🟢 看多黄金、看空美元：黄金被视为比美元更安全的资产",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-10-08",
       "sector": "Precious Metals",
@@ -5696,7 +5696,7 @@
     {
       "id": "3df47eb5-fd3c-81e9-8508-daa410e14fe6",
       "name": "🟢 看多黄金、看空美债：白宫选择把经济跑热+资金用黄金替代债券",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-10-01",
       "sector": "Precious Metals",
@@ -5708,7 +5708,7 @@
     {
       "id": "3df47eb5-fd3c-81c9-a82b-cb38369b414a",
       "name": "🟢 看多黄金白银、看空美元：全球黄金再货币化+美元信用受损",
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主持人）",
+      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
       "kol_or_ib": "KOL",
       "date": "2025-09-24",
       "sector": "Precious Metals",
