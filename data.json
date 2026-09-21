@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21 21:13 JST",
+  "generated_at": "2026-09-21 21:17 JST",
   "date_range": {
     "start": "2025-04-18",
     "end": "2026-09-21"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3609,
-    "total_rows": 3626,
+    "legged_rows": 3610,
+    "total_rows": 3627,
     "pct": 99.5
   },
   "today_signals": [
@@ -98,18 +98,18 @@
       "score": 89,
       "consensus": 89,
       "weighted_sum": 337.4,
-      "bull": 1590,
+      "bull": 1591,
       "bear": 139,
       "neutral": 221,
-      "total": 1950,
-      "legs_bull": 2819,
+      "total": 1951,
+      "legs_bull": 2820,
       "legs_bear": 210,
       "legs_neutral": 171,
       "legs_split": 0,
-      "legs_total": 3200,
+      "legs_total": 3201,
       "strong_bull": 877,
       "strong_bear": 11,
-      "w_bull": 3696,
+      "w_bull": 3697,
       "w_bear": 221,
       "avg": 0.11
     },
@@ -204,9 +204,9 @@
       "total": 582,
       "legs_bull": 473,
       "legs_bear": 969,
-      "legs_neutral": 122,
+      "legs_neutral": 123,
       "legs_split": 0,
-      "legs_total": 1564,
+      "legs_total": 1565,
       "strong_bull": 55,
       "strong_bear": 103,
       "w_bull": 528,
@@ -260,10 +260,10 @@
       "score": 64,
       "consensus": 64,
       "weighted_sum": 68.2,
-      "bull": 1590,
+      "bull": 1591,
       "bear": 139,
       "neutral": 221,
-      "total": 1950,
+      "total": 1951,
       "legs_bull": 739,
       "legs_bear": 186,
       "legs_neutral": 144,
@@ -382,18 +382,18 @@
       "score": 98,
       "consensus": 98,
       "weighted_sum": 269.2,
-      "bull": 1590,
+      "bull": 1591,
       "bear": 139,
       "neutral": 221,
-      "total": 1950,
-      "legs_bull": 2080,
+      "total": 1951,
+      "legs_bull": 2081,
       "legs_bear": 24,
       "legs_neutral": 27,
       "legs_split": 0,
-      "legs_total": 2131,
+      "legs_total": 2132,
       "strong_bull": 708,
       "strong_bear": 0,
-      "w_bull": 2788,
+      "w_bull": 2789,
       "w_bear": 24,
       "avg": 0.13
     },
@@ -488,9 +488,9 @@
       "total": 582,
       "legs_bull": 310,
       "legs_bear": 685,
-      "legs_neutral": 66,
+      "legs_neutral": 67,
       "legs_split": 0,
-      "legs_total": 1061,
+      "legs_total": 1062,
       "strong_bull": 43,
       "strong_bear": 81,
       "w_bull": 353,
@@ -794,7 +794,7 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 956,
+        "count": 957,
         "kols": 105
       },
       {
@@ -1334,7 +1334,7 @@
       "latest_comments": "金价约4300美元/盎司，即使美联储加息后仍走高，他认为还会更高，本十年目标7000美元、极端情形1万美元 → 逻辑是各国赤字失控导致法币贬值，同时个人、机构与央行重新把黄金当作储备资产与价值储藏，美元被武器化加速新兴市场央行从美债转向无负债的黄金，即黄金“再货币化” → 他判断夏季弱势已过、低点在4000美元下方，但年内难创新高，属“整固之年”，可用金矿股加杠杆。来源：theflyingfris",
       "latest_title": "🟢 看多黄金（本十年目标7000美元、极端1万美元）与金矿股：4000美元下方低点已现",
       "bull_bear": "🟢 黄金, 金矿股 | 🔴 法币",
-      "total_entries": 59,
+      "total_entries": 60,
       "trend": "↘ 趋空"
     },
     {
@@ -4442,6 +4442,18 @@
   ],
   "raw_entries": [
     {
+      "id": "3e247eb5-fd3c-81f8-9359-f353ad2e3980",
+      "name": "🟢 看多黄金：中国实持或达 3–4 万吨、黄金或十年内超越美元成第一储备资产",
+      "kol_name": "Dominic Frisby（英国金融作家·喜剧演员 / The Flying Frisby 主笔 / MoneyWeek 黄金·商品·加密货币专栏作家 / 《The Secret History of Gold》作者）",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-05",
+      "sector": "Macro",
+      "detail_sector": "央行购金",
+      "comments": "5/5 Money Metals 播客（Gold Eagle 转载）：黄金与法币的结构性判断 → 美国官方持金约 8,100 吨，自 1950 年代起未全面审计；中国官方报 2,000–2,500 吨，但按其口径推算（本世纪自产约 8,000 吨、不出口、叠加进口）实持可能达 30,000–40,000 吨，即使只有一部分属于国家，也足以比肩或超过美国 → 当前央行储备中黄金约占 30%、美元约 50%，他认为十年内黄金可能超越美元，但这是储备配置的再平衡、不是美元突然崩塌 → 制度层面：法币让政府以零成本创造货币，而公民须以劳动换取，失衡必然推动政府无限膨胀。来源：gold-eagle.com / Money Metals 播客 2026-05-05",
+      "suggestion": "把中国与新兴市场央行的购金节奏、以及黄金占全球央行储备比重（30% vs 美元 50%）作为核心跟踪指标；十年维度以黄金对冲储备体系再平衡，而非押注美元崩盘。",
+      "bull_bear": "🟢 黄金（储备资产）｜🟡 美元（份额被稀释而非崩盘）"
+    },
+    {
       "id": "3e247eb5-fd3c-818a-9b48-d28a36a41ffa",
       "name": "🟢 看多黄金（本十年目标7000美元、极端1万美元）与金矿股：4000美元下方低点已现",
       "kol_name": "Dominic Frisby（英国金融作家·喜剧演员 / The Flying Frisby 主笔 / MoneyWeek 黄金·商品·加密货币专栏作家 / 《The Secret History of Gold》作者）",
@@ -5124,6 +5136,18 @@
       "comments": "金价 $4,000、白银 $49、矿企急涨且融资重启之际，他列出八条看多理由：机构黄金配置仅约 2%、黄金 ETF 持仓低于 2021 年、有大型投行 CIO 提出「60/20/20」令黄金与债券等权、牛市或仅走三年、债务危机与法币贬值才刚开始、央行非正式重货币化黄金 → 同时列五条见顶信号，自认「纠结」并称价格可能翻倍。来源：theflyingfrisby.com 2025-10-09",
       "suggestion": "维持贵金属核心仓位、降低追高仓位并留现金应对剧烈波动；若出现连续加速上涨，分批兑现部分利润。",
       "bull_bear": "🟢 黄金, 白银（长期或翻倍）| 🔴 短期见顶风险"
+    },
+    {
+      "id": "3e247eb5-fd3c-8170-8cc1-c0855f73d69a",
+      "name": "🟢 黄金长期目标 $7,000（极端 $10,000）、央行储备占比看 40% | 🟢 金油比极端→原油相对便宜",
+      "kol_name": "Dominic Frisby（英国金融作家·喜剧演员 / The Flying Frisby 主笔 / MoneyWeek 黄金·商品·加密货币专栏作家 / 《The Secret History of Gold》作者）",
+      "kol_or_ib": "KOL",
+      "date": "2025-10-02",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金白银",
+      "comments": "长期路线图：黄金目标 $7,000/盎司（本十年末），极端情形 $10,000 → 依据是央行黄金储备占比要从约 25% 升到 40%，央行自 2022 年起年购约 1,000 吨，而年矿产仅约 3,600 吨 → 道指/黄金比率目标从 12 降至 10 以下；金油比创历史极值 → 但金属已很泡沫、矿企逼近 2011 年高位。来源：theflyingfrisby.com 2025-10-02",
+      "suggestion": "核心金银与矿企仓位长期不动摇、急涨不追高；关注央行购金量与道指/黄金比率作退出参考，原油可小仓关注。",
+      "bull_bear": "🟢 黄金, 贵金属矿企 | 🟢 原油（金油比极端）| ⚠️ 金属短期泡沫化"
     },
     {
       "id": "3e247eb5-fd3c-8192-a9e7-c3c30a9ead5a",
@@ -47940,18 +47964,6 @@
       "comments": "通胀环境下，资源价格上涨将显著提升优质矿企利润率，其经营杠杆效应巨大，是当前最佳配置。",
       "suggestion": "买入管理优秀、资产负债表健康的黄金白银矿企，如FNV, WPM, GORO。",
       "bull_bear": "🟢优质矿企/资源股"
-    },
-    {
-      "id": "3e247eb5-fd3c-8170-8cc1-c0855f73d69a",
-      "name": "🟢 黄金长期目标 $7,000（极端 $10,000）、央行储备占比看 40% | 🟢 金油比极端→原油相对便宜",
-      "kol_name": "Dominic Frisby（英国金融作家·喜剧演员 / The Flying Frisby 主笔 / MoneyWeek 黄金·商品·加密货币专栏作家 / 《The Secret History of Gold》作者）",
-      "kol_or_ib": "KOL",
-      "date": "2025-10-02",
-      "sector": "Precious Metals",
-      "detail_sector": "黄金白银",
-      "comments": "长期路线图：黄金目标 $7,000/盎司（本十年末），极端情形 $10,000 → 依据是央行黄金储备占比要从约 25% 升到 40%，央行自 2022 年起年购约 1,000 吨，而年矿产仅约 3,600 吨 → 道指/黄金比率目标从 12 降至 10 以下；金油比创历史极值 → 但金属已很泡沫、矿企逼近 2011 年高位。来源：theflyingfrisby.com 2025-10-02",
-      "suggestion": "核心金银与矿企仓位长期不动摇、急涨不追高；关注央行购金量与道指/黄金比率作退出参考，原油可小仓关注。",
-      "bull_bear": "🟢 黄金, 贵金属矿企 | 🟢 原油（金油比极端）| ⚠️ 金属短期泡沫化"
     }
   ]
 }
