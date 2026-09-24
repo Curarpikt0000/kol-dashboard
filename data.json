@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-23 17:16 JST",
+  "generated_at": "2026-09-24 16:49 JST",
   "date_range": {
     "start": "2025-04-18",
     "end": "2026-09-21"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3691,
-    "total_rows": 3708,
+    "legged_rows": 3694,
+    "total_rows": 3711,
     "pct": 99.5
   },
   "today_signals": [
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 333.3,
+      "weighted_sum": 325.7,
       "bull": 1597,
       "bear": 139,
       "neutral": 222,
@@ -115,29 +115,29 @@
     },
     {
       "sector": "Energy & Commodities",
-      "score": 82,
-      "consensus": 82,
-      "weighted_sum": 80.7,
-      "bull": 181,
+      "score": 81,
+      "consensus": 81,
+      "weighted_sum": 78.8,
+      "bull": 183,
       "bear": 23,
-      "neutral": 33,
-      "total": 237,
-      "legs_bull": 559,
-      "legs_bear": 60,
+      "neutral": 34,
+      "total": 240,
+      "legs_bull": 564,
+      "legs_bear": 66,
       "legs_neutral": 37,
       "legs_split": 0,
-      "legs_total": 656,
+      "legs_total": 667,
       "strong_bull": 62,
       "strong_bear": 1,
-      "w_bull": 621,
-      "w_bear": 61,
+      "w_bull": 626,
+      "w_bear": 67,
       "avg": 0.12
     },
     {
       "sector": "Crypto",
       "score": 52,
       "consensus": 52,
-      "weighted_sum": 46.7,
+      "weighted_sum": 45.6,
       "bull": 122,
       "bear": 19,
       "neutral": 29,
@@ -157,7 +157,7 @@
       "sector": "Alternative",
       "score": -3,
       "consensus": 3,
-      "weighted_sum": 1.3,
+      "weighted_sum": 1.2,
       "bull": 18,
       "bear": 9,
       "neutral": 26,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -11,
       "consensus": 11,
-      "weighted_sum": 19.6,
+      "weighted_sum": 19.2,
       "bull": 243,
       "bear": 160,
       "neutral": 88,
@@ -197,27 +197,27 @@
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -54.1,
+      "weighted_sum": -54.2,
       "bull": 269,
       "bear": 234,
       "neutral": 133,
       "total": 636,
       "legs_bull": 489,
-      "legs_bear": 1072,
+      "legs_bear": 1074,
       "legs_neutral": 142,
       "legs_split": 0,
-      "legs_total": 1703,
+      "legs_total": 1705,
       "strong_bull": 55,
       "strong_bear": 103,
       "w_bull": 544,
-      "w_bear": 1175,
+      "w_bear": 1177,
       "avg": -0.03
     },
     {
       "sector": "Government Debt",
       "score": -92,
       "consensus": 92,
-      "weighted_sum": -88.4,
+      "weighted_sum": -86.3,
       "bull": 16,
       "bear": 97,
       "neutral": 33,
@@ -231,7 +231,7 @@
       "strong_bear": 72,
       "w_bull": 46,
       "w_bear": 1152,
-      "avg": -0.08
+      "avg": -0.07
     }
   ],
   "sector_summary_short": [
@@ -239,27 +239,27 @@
       "sector": "Energy & Commodities",
       "score": 71,
       "consensus": 71,
-      "weighted_sum": 37.6,
-      "bull": 181,
+      "weighted_sum": 38.5,
+      "bull": 183,
       "bear": 23,
-      "neutral": 33,
-      "total": 237,
-      "legs_bull": 235,
-      "legs_bear": 45,
+      "neutral": 34,
+      "total": 240,
+      "legs_bull": 240,
+      "legs_bear": 47,
       "legs_neutral": 31,
       "legs_split": 0,
-      "legs_total": 311,
+      "legs_total": 318,
       "strong_bull": 34,
       "strong_bear": 0,
-      "w_bull": 269,
-      "w_bear": 45,
+      "w_bull": 274,
+      "w_bear": 47,
       "avg": 0.12
     },
     {
       "sector": "Precious Metals",
       "score": 64,
       "consensus": 64,
-      "weighted_sum": 66.1,
+      "weighted_sum": 64.5,
       "bull": 1597,
       "bear": 139,
       "neutral": 222,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -27,
       "consensus": 27,
-      "weighted_sum": -10.8,
+      "weighted_sum": -10.5,
       "bull": 269,
       "bear": 234,
       "neutral": 133,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -43,
       "consensus": 43,
-      "weighted_sum": -32.5,
+      "weighted_sum": -31.8,
       "bull": 243,
       "bear": 160,
       "neutral": 88,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -83,
       "consensus": 83,
-      "weighted_sum": -28.2,
+      "weighted_sum": -27.5,
       "bull": 16,
       "bear": 97,
       "neutral": 33,
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 267.2,
+      "weighted_sum": 261.1,
       "bull": 1597,
       "bear": 139,
       "neutral": 222,
@@ -399,29 +399,29 @@
     },
     {
       "sector": "Energy & Commodities",
-      "score": 91,
-      "consensus": 91,
-      "weighted_sum": 43.2,
-      "bull": 181,
+      "score": 89,
+      "consensus": 89,
+      "weighted_sum": 40.2,
+      "bull": 183,
       "bear": 23,
-      "neutral": 33,
-      "total": 237,
+      "neutral": 34,
+      "total": 240,
       "legs_bull": 324,
-      "legs_bear": 15,
+      "legs_bear": 19,
       "legs_neutral": 6,
       "legs_split": 0,
-      "legs_total": 345,
+      "legs_total": 349,
       "strong_bull": 28,
       "strong_bear": 1,
       "w_bull": 352,
-      "w_bear": 16,
-      "avg": 0.13
+      "w_bear": 20,
+      "avg": 0.12
     },
     {
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 46.3,
+      "weighted_sum": 45.2,
       "bull": 122,
       "bear": 19,
       "neutral": 29,
@@ -435,13 +435,13 @@
       "strong_bear": 7,
       "w_bull": 306,
       "w_bear": 47,
-      "avg": 0.16
+      "avg": 0.15
     },
     {
       "sector": "Equities",
       "score": 22,
       "consensus": 22,
-      "weighted_sum": 52.2,
+      "weighted_sum": 51.0,
       "bull": 243,
       "bear": 160,
       "neutral": 88,
@@ -481,27 +481,27 @@
       "sector": "Macro",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -43.3,
+      "weighted_sum": -43.7,
       "bull": 269,
       "bear": 234,
       "neutral": 133,
       "total": 636,
       "legs_bull": 324,
-      "legs_bear": 783,
+      "legs_bear": 785,
       "legs_neutral": 81,
       "legs_split": 0,
-      "legs_total": 1188,
+      "legs_total": 1190,
       "strong_bull": 43,
       "strong_bear": 81,
       "w_bull": 367,
-      "w_bear": 864,
+      "w_bear": 866,
       "avg": -0.04
     },
     {
       "sector": "Government Debt",
       "score": -97,
       "consensus": 97,
-      "weighted_sum": -60.2,
+      "weighted_sum": -58.8,
       "bull": 16,
       "bear": 97,
       "neutral": 33,
@@ -804,8 +804,8 @@
       },
       {
         "ticker": "原油",
-        "count": 129,
-        "kols": 41
+        "count": 130,
+        "kols": 42
       },
       {
         "ticker": "比特币",
@@ -1010,7 +1010,7 @@
       "latest_title": "🟢 看多 BTC：Strategy 恢复买入 950 枚、持仓升至 846,000 枚",
       "bull_bear": "🟢 BTC/MSTR",
       "total_entries": 72,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Michael Hartnett",
@@ -1296,7 +1296,7 @@
       "latest_title": "🔴 看空长端美债：Gundlach 称衰退反而推高长端收益率至 6%+、违约「又快又猛」",
       "bull_bear": "🔴 长端美债(TLT) | 🔴 信用债/私募信贷 | 🟢 低久期资产",
       "total_entries": 57,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "James Rickards",
@@ -1582,7 +1582,7 @@
       "latest_title": "🟡 中性：Griffin 称生成式 AI「还没挖出 alpha」，华尔街仍得靠人脑",
       "bull_bear": "🟡 AI/科技股（中性）",
       "total_entries": 6,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Gary Wagner",
@@ -1699,7 +1699,7 @@
       "latest_title": "🟡 黄金：TD 称 CTA 抛售加剧逼近净空，短期承压＝长期加仓机会",
       "bull_bear": "🟡 黄金(短期承压 / 长期逢跌买)",
       "total_entries": 11,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Robert Kiyosaki",
@@ -1725,7 +1725,7 @@
       "latest_title": "🟢 黄金年内$6,000、白银$120不变，长线银$200-300、铀$110、铜$7",
       "bull_bear": "🟢 黄金, 白银, 铀, 铜 | 🟢 金/银矿业股（含初级开发商）",
       "total_entries": 27,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Craig Hamilton-Parker（英国灵媒 / \"New Nostradamus\"）",
@@ -1777,7 +1777,7 @@
       "latest_title": "🟢 看多原油：Bass 称沙特关闭霍尔木兹绕行管道、油价站上 $100 ｜ 🔴 警示开源 AI 输华国安风险",
       "bull_bear": "🟢 原油/能源 | ⚠️ AI 政策风险",
       "total_entries": 23,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Matthew Piepenburg",
@@ -1790,7 +1790,7 @@
       "latest_title": "🟢 看多黄金：Piepenburg 称 $20,000 是特朗普摆脱债务螺旋的唯一出路",
       "bull_bear": "🟢 黄金(目标 $20,000), 白银 ｜ 🔴 美元购买力",
       "total_entries": 39,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Ronny Stoeferle",
@@ -1842,7 +1842,7 @@
       "latest_title": "🔴 看空美股/AI：Dalio 称「我们正处在泡沫中」、类比 1920 年代崩盘",
       "bull_bear": "🔴 美股/AI(泡沫)",
       "total_entries": 67,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Jordan Roy-Byrne",
@@ -1908,6 +1908,19 @@
       "bull_bear": "🟡 黄金/白银/矿股(短线回调风险)",
       "total_entries": 31,
       "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Art Berman（石油地质学家·能源分析师 / The Energy Realist / artberman.com 主笔）",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-08",
+      "latest_comments": "09/08 个人网站长文《The Iran War Phase Shift: Energy shock, rising complexity, and the end of the old growth regime》：市场还在数霍尔木兹的油轮、争论通过的是 6/8/10 百万桶，多数共识把它当「严重但临时的绕行」，EIA 甚至预测 2027 年初全面恢复——**他给这一结果不超过 25% 的概率",
+      "latest_title": "🔴 看空「2027 年初全面恢复」叙事：伊朗战争是能源体系的相变，不是又一场地缘危机",
+      "bull_bear": "🟢 原油/能源价格(战时尖峰) | 🔴 「2027 年初全面恢复」预测 | 🔴 全球经济增长的能源基础 | 🟢 海湾非油品种(尿素/硫磺/甲醇/LNG) | 🔴 海湾地区风险溢价",
+      "total_entries": 3,
+      "trend": "→"
     },
     {
       "kol_name": "Louis-Vincent Gave（Gavekal 联合创始人兼首席执行官 / 全球宏观策略师 / Seven books 作者）",
@@ -2089,7 +2102,7 @@
       "latest_title": "🟢 看多黄金：Prehn 称金价月线1999年来最佳，多数散户仍无保护",
       "bull_bear": "🟢 黄金",
       "total_entries": 5,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Robert Kientz（GoldSilverPros 创始人 / 主编）",
@@ -4382,6 +4395,16 @@
       "sector": "Equities",
       "kol_or_ib": "KOL",
       "active": true
+    },
+    {
+      "list_num": "152",
+      "name": "Art Berman（石油地质学家·能源分析师 / The Energy Realist / artberman.com 主笔）",
+      "scope": "① 霍尔木兹中断后的上游地质现实：关井（shut-in）产能的可恢复性、重启时间表、永久性减产、储层伤害机制；\n② 原油/成品油市场结构：比较库存模型、战略与商业库存的缓冲极限、柴油与航煤紧张、裂解价差；\n③ 需求破坏的量化（中国需求下降、Wood Mackenzie 6% 需求破坏情景、价格向 $125-130 收敛）；\n④ 美国页岩与「能源独立」的批判：轻质页岩无法替代中质海湾原油、炼厂配置约束、SPR 耗尽；\n⑤ 能源与复杂性的长期框架（熵费、能源系统增速自 1968 年峰值 4.6% 降至 1980 年约 1.5%）；\n⑥ 战后海湾的永久风险溢价与市场集团化（bloc 化）、LNG/尿素/硫磺/甲醇等海湾份额品种的连带冲击。\n定位：地质—工程物理派能源分析师，方向判断基于物理约束与库存模型，属中期（数季到数年）口径。",
+      "bio": "美国石油地质学家与能源市场分析师，油气行业经验 40 年以上，以「The Energy Realist」之名活跃于独立能源分析圈。现任独立能源咨询顾问（能源企业咨询、专家证人、主题演讲），经营个人网站 artberman.com 与会员研究刊物《Energy Aware》，并在 Substack 与多个独立播客（Wealthion、Palisades Gold Radio、Natural Resource Stocks 等）高频发声。\n方法论特征：以地质与工程物理为第一性依据（储层、完井、递减率、原油品质），用「比较库存（comparative inventory）」模型而非新闻叙事判断油价；长期批评页岩油的经济性叙事与美国「能源独立」话术，强调美国炼厂依赖特定原油品质（尤其中质海湾原油与重质加拿大原油）。\n2026 年的核心判断：伊朗战争与霍尔木兹中断不是又一次地缘冲击，而是能源与工业文明的**相变（phase shift）** ——世界石油产量较战前低约 1000 万桶/日（5 月同比 -13%，与 1980 年两伊战争时期的 -14% 相当），而停产的主力原因是油轮（外运能力）不足导致油井被迫关停；关井不是开关，重启需要数周到数月，经验上约 80% 可恢复至原产量、约 20% 明显更差甚至永不恢复（10-15% 的永久性损失即 70 万-100 万桶/日）。他对 EIA「2027 年初全面恢复」的预测给出 **≤25% 概率**，并认为即便达成外交协议，世界也不会回到 2025 年的能源与价格基准；但同时强调 2026 年的油价冲高是「债务饱和的全球经济中的一场战时尖峰」，而非长期结构性牛市的起点。",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
     }
   ],
   "weekly_reports": [
@@ -4517,6 +4540,42 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3e547eb5-fd3c-81a2-af59-feb9e28fdc6d",
+      "name": "🔴 看空「2027 年初全面恢复」叙事：伊朗战争是能源体系的相变，不是又一场地缘危机",
+      "kol_name": "Art Berman（石油地质学家·能源分析师 / The Energy Realist / artberman.com 主笔）",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-08",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "09/08 个人网站长文《The Iran War Phase Shift: Energy shock, rising complexity, and the end of the old growth regime》：市场还在数霍尔木兹的油轮、争论通过的是 6/8/10 百万桶，多数共识把它当「严重但临时的绕行」，EIA 甚至预测 2027 年初全面恢复——**他给这一结果不超过 25% 的概率** → 历史与物理依据：5 月全球石油供应同比减少约 1000 万桶/日（-13%，与 1980 年两伊战争时期的 -14% 相当，当年世界产量减少 8 mmb/d）；1980 冲击后价格先翻倍再长期崩落（1986-2002 实际油价均值仅为 1980 峰值的约 40%），世界产量直到 **1996 年末**才重新回到 1979 下半年的水平；能源系统增速在 1968 年见顶 4.6%、1980 年已降至约 1.5%，即「复杂性熵费」已长期侵蚀增长动能 → 海湾在全球供给中的份额使冲击外溢到非油品种：尿素约 45%、硫磺约 50%、甲醇约 33%、LNG 约 20%、氨约 25%、柴油/煤油约 15% → 结论：这是结构性转折点，其经济、政治与能源后果会远超军事冲突本身，且世界不会回到战前的能源体系。来源：artberman.com 2026-09-08",
+      "suggestion": "观察口径：EIA/IEA 对 2027 恢复路径的修正、海湾非油品种（尿素/硫磺/甲醇/LNG）出口恢复度、全球能源系统增速；长期结构判断，不构成操作建议。",
+      "bull_bear": "🟢 原油/能源价格(战时尖峰) | 🔴 「2027 年初全面恢复」预测 | 🔴 全球经济增长的能源基础 | 🟢 海湾非油品种(尿素/硫磺/甲醇/LNG) | 🔴 海湾地区风险溢价"
+    },
+    {
+      "id": "3e547eb5-fd3c-81d7-b41c-d61d1621fda7",
+      "name": "🟢 看多油品：油井不是水龙头——关井数月后约 20% 可能永不恢复，库存缓冲是有限存款",
+      "kol_name": "Art Berman（石油地质学家·能源分析师 / The Energy Realist / artberman.com 主笔）",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-20",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "08/20 Palisades Gold Radio 访谈《Iran War Causing 'Phase-Shift' in Oil Markets, 'Will Never' Return to Normal》（主持 Stijn Schmitz）：净流量损失从最初担心的 20 mb/d 修正为约 5 mb/d（旁通管道等抵消），但这仍是历史级数字；未立刻引发全球崩溃的原因是需求破坏（尤其中国）＋库存缓冲 → 关键比喻：战略库存像存款、商业库存像工资，缓冲有限且正在快速提用，他的比较库存模型显示**11 月可能出现过度的价格压力** → 核心物理判断：**关井不是开关**——油轮（外运能力）不足迫使油井停产，而停产数月的井重启需要数周到数月，经验上约 **80% 能接近原产量、约 20% 明显更差甚至永不恢复**；海湾停产约 800 万桶/日，即便 10-15% 永久损失也意味着 70 万-100 万桶/日永远回不来 → 结论：市场将集团化（bloc 化），「永远回不到战前」；且美国轻质页岩无法替代许多炼厂需要的中质海湾原油。来源：Palisades Gold Radio 2026-08-20（Youtube 7NiqUY3k7xI）+ political.org 2026-08-23 对其停产产能分析的整理（EIA 7 月均值 5.5 mb/d、IEA 8.3 mb/d、WoodMac 3 个月 70%/6 个月 90% 交叉对照）",
+      "suggestion": "观察口径：关井产能重启进度与永久损失率、商业库存与 SPR 水位、柴油/航煤裂解价差、炼厂可获取的原油品质结构；中期供给判断，不构成操作建议。",
+      "bull_bear": "🟢 原油 | 🟢 柴油/航煤(裂解价差) | 🔴 全球库存缓冲 | 🔴 波斯湾停产产能(永久损失) | 🔴 美国页岩替代海湾中质原油的能力"
+    },
+    {
+      "id": "3e547eb5-fd3c-81da-8624-fe418e23ede2",
+      "name": "🟢 看多原油：全球能源秩序正在断裂——波斯湾少了 1000 万桶/日、霍尔木兹日均只剩约 6 艘船",
+      "kol_name": "Art Berman（石油地质学家·能源分析师 / The Energy Realist / artberman.com 主笔）",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-13",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "08/13 Wealthion 访谈《The Global Energy Order Is Breaking》（主持 Maggie Lake）：他给出的物理读数——霍尔木兹海峡日均通过船舶从战前的 130-140 艘降至约 6 艘；波斯湾原油产量较战前低约 1000 万桶/日 → 他的定性：这是一场比 COVID 更大的供给冲击，而市场几乎没有定价 → 关键在「市场不是判断错了，而是盯着错的部分」：真正的问题不在油轮通行数字，而在上游产量与储层物理；他认为市场对停火的乐观是错位的，因为即便政治问题解决，产量恢复仍需数月到数年。来源：Wealthion（Youtube IbZ4W7wjNhc）2026-08-13",
+      "suggestion": "观察口径：霍尔木兹日通过船舶数、波斯湾产量缺口的月度修正值、上游关井重启进度；属供给端物理判断（中期），不构成操作建议。",
+      "bull_bear": "🟢 原油/布伦特 | 🔴 波斯湾上游产能(结构性损失) | 🔴 商业与战略库存缓冲"
+    },
     {
       "id": "3e447eb5-fd3c-8140-94fb-f7100a4f5f42",
       "name": "🟢 看多黄金＋押降息：联储降息幅度将「远多于两次」，持有黄金与 SOFR 期货",
