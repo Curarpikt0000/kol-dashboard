@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-25 09:22 JST",
+  "generated_at": "2026-09-25 11:57 JST",
   "date_range": {
     "start": "2025-04-18",
     "end": "2026-09-24"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3695,
-    "total_rows": 3712,
+    "legged_rows": 3696,
+    "total_rows": 3713,
     "pct": 99.5
   },
   "today_signals": [
@@ -115,23 +115,23 @@
     },
     {
       "sector": "Energy & Commodities",
-      "score": 81,
-      "consensus": 81,
-      "weighted_sum": 77.5,
+      "score": 80,
+      "consensus": 80,
+      "weighted_sum": 77.2,
       "bull": 183,
       "bear": 23,
       "neutral": 34,
       "total": 240,
-      "legs_bull": 565,
-      "legs_bear": 66,
+      "legs_bull": 566,
+      "legs_bear": 68,
       "legs_neutral": 37,
       "legs_split": 0,
-      "legs_total": 668,
+      "legs_total": 671,
       "strong_bull": 62,
       "strong_bear": 1,
-      "w_bull": 627,
-      "w_bear": 67,
-      "avg": 0.12
+      "w_bull": 628,
+      "w_bear": 69,
+      "avg": 0.11
     },
     {
       "sector": "Crypto",
@@ -200,17 +200,17 @@
       "weighted_sum": -53.6,
       "bull": 269,
       "bear": 234,
-      "neutral": 133,
-      "total": 636,
-      "legs_bull": 489,
-      "legs_bear": 1075,
+      "neutral": 134,
+      "total": 637,
+      "legs_bull": 490,
+      "legs_bear": 1076,
       "legs_neutral": 142,
       "legs_split": 0,
-      "legs_total": 1706,
+      "legs_total": 1708,
       "strong_bull": 55,
       "strong_bear": 103,
-      "w_bull": 544,
-      "w_bear": 1178,
+      "w_bull": 545,
+      "w_bear": 1179,
       "avg": -0.03
     },
     {
@@ -237,22 +237,22 @@
   "sector_summary_short": [
     {
       "sector": "Energy & Commodities",
-      "score": 71,
-      "consensus": 71,
-      "weighted_sum": 37.7,
+      "score": 70,
+      "consensus": 70,
+      "weighted_sum": 37.3,
       "bull": 183,
       "bear": 23,
       "neutral": 34,
       "total": 240,
       "legs_bull": 240,
-      "legs_bear": 47,
+      "legs_bear": 48,
       "legs_neutral": 31,
       "legs_split": 0,
-      "legs_total": 318,
+      "legs_total": 319,
       "strong_bull": 34,
       "strong_bear": 0,
       "w_bull": 274,
-      "w_bear": 47,
+      "w_bear": 48,
       "avg": 0.12
     },
     {
@@ -322,8 +322,8 @@
       "weighted_sum": -10.3,
       "bull": 269,
       "bear": 234,
-      "neutral": 133,
-      "total": 636,
+      "neutral": 134,
+      "total": 637,
       "legs_bull": 165,
       "legs_bear": 289,
       "legs_neutral": 61,
@@ -406,15 +406,15 @@
       "bear": 23,
       "neutral": 34,
       "total": 240,
-      "legs_bull": 325,
-      "legs_bear": 19,
+      "legs_bull": 326,
+      "legs_bear": 20,
       "legs_neutral": 6,
       "legs_split": 0,
-      "legs_total": 350,
+      "legs_total": 352,
       "strong_bull": 28,
       "strong_bear": 1,
-      "w_bull": 353,
-      "w_bear": 20,
+      "w_bull": 354,
+      "w_bear": 21,
       "avg": 0.11
     },
     {
@@ -479,22 +479,22 @@
     },
     {
       "sector": "Macro",
-      "score": -41,
-      "consensus": 41,
+      "score": -40,
+      "consensus": 40,
       "weighted_sum": -43.3,
       "bull": 269,
       "bear": 234,
-      "neutral": 133,
-      "total": 636,
-      "legs_bull": 324,
-      "legs_bear": 786,
+      "neutral": 134,
+      "total": 637,
+      "legs_bull": 325,
+      "legs_bear": 787,
       "legs_neutral": 81,
       "legs_split": 0,
-      "legs_total": 1191,
+      "legs_total": 1193,
       "strong_bull": 43,
       "strong_bear": 81,
-      "w_bull": 367,
-      "w_bear": 867,
+      "w_bull": 368,
+      "w_bear": 868,
       "avg": -0.04
     },
     {
@@ -2284,6 +2284,19 @@
       "latest_title": "⚠️ 灵媒预测：五国战争年底前爆发（避险叙事）",
       "bull_bear": "⚠️ 五国战争(叙事) | 🟢 避险资产(隐含)",
       "total_entries": 4,
+      "trend": "→"
+    },
+    {
+      "kol_name": "James Gutman（Abaxx Technologies 研究主管 / 前 Carlyle 策略师 / Substack《Arcs and Angles》主笔）",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-08-14",
+      "latest_comments": "08/14 Latitude Media 播客《Did China outsmart America after the oil shock?》：他给出的量化——中国把原油进口削减了约 500-600 万桶/日（口径极不透明，属粗略估算），其中约 **1/3 是需求延后或摧毁、1/3 是去库存、1/3 是不再往已经很庞大的 SPR 里加**，合计抵消了这场冲击给市场的约「一半的礼物」，把 OECD",
+      "latest_title": "🟡 中性：能源独立＝战争能力＝威慑——中国用「可选性」打赢霍尔木兹冲击，「房间里的大象是台湾」",
+      "bull_bear": "🟢 中国能源独立与电气化(框架) | 🔴 美国 SPR 战略储备缓冲能力 | 🔴 原油需求(中国可延后/切换) | 🔴 台湾地缘风险 | 🟢 关键矿物与清洁技术设备(下一轮国家化)",
+      "total_entries": 1,
       "trend": "→"
     },
     {
@@ -4405,6 +4418,16 @@
       "sector": "Energy & Commodities",
       "kol_or_ib": "KOL",
       "active": true
+    },
+    {
+      "list_num": "153",
+      "name": "James Gutman（Abaxx Technologies 研究主管 / 前 Carlyle 策略师 / Substack《Arcs and Angles》主笔）",
+      "scope": "① 中美能源战略对比：国家工具箱 vs 市场机制（SPR 中央行式操作 vs 行政指令式需求管理）；\n② 中国的能源「可选性」建设：电动车、高铁、煤制油/煤化工、可再生＋储能的切换能力与成本溢价；\n③ 能源独立→战争能力→威慑的地缘推演（台湾为关键变量）；\n④ 战略储备的物理约束（分子不能印）与 OECD 商业库存的缓冲极限；\n⑤ 关键矿物、清洁技术设备与供应链的国家化（下一轮国家工具箱实验）；\n⑥ 国家资本主义回归下，国家通过金融市场（信号/资本/风险转移）还是行政指令运作。\n定位：能源地缘政治＋大宗商品策略分析师（前投行/PE 策略岗），方向判断为结构性与数年口径。",
+      "bio": "能源与大宗商品地缘政治分析师，现任 Abaxx Technologies 研究主管（Abaxx 为面向大宗商品与能源的交易所/技术平台），此前在 Carlyle（凯雷集团）任策略师，并与 Carlyle 全球大宗商品主管 Jeff Currie 长期合著研究报告——两人的核心议题是「能源即国家安全」：中国正逼近能源独立，而俄罗斯对中国的依赖上升是其中一环。\n他在 Substack《Arcs and Angles》撰写长篇分析，主张用「国家工具箱」而非纯市场视角理解能源格局：国家资本主义回归、国家的能源战略与制造业能力如何被用来构建「真实的可选性（real optionality）」——即在能源来源与用能方式之间切换的能力（电动车、高铁、煤制油/煤化工、可再生＋储能）。他的分析框架把能源、地缘政治、产业政策与金融（含央行式的战略储备操作）放在同一张图上看，并常把某一大宗商品的剧本外推到下一个（石油 → 关键矿物 → 清洁技术设备）。\n2026 年的代表判断：霍尔木兹冲击中**中国是明显赢家**（以约 500-600 万桶/日的进口削减，其中约 1/3 需求延后/摧毁、1/3 去库存、1/3 不再累库，抵消了约一半的供给冲击，避免了 OECD 商业库存跌破恐慌线）；美国则以「分子的央行（central bank of molecules）」——战略石油储备释放——稳定市场，但这个模型有物理上限；中国建立能源独立的地缘目标指向「不战而屈人之兵」，而**房间里的大象是台湾**。",
+      "domain": "资源与能源安全",
+      "sector": "Energy & Commodities",
+      "kol_or_ib": "KOL",
+      "active": true
     }
   ],
   "weekly_reports": [
@@ -4540,6 +4563,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3e647eb5-fd3c-8172-b6ac-ccd4a0c5a7b5",
+      "name": "🟡 中性：能源独立＝战争能力＝威慑——中国用「可选性」打赢霍尔木兹冲击，「房间里的大象是台湾」",
+      "kol_name": "James Gutman（Abaxx Technologies 研究主管 / 前 Carlyle 策略师 / Substack《Arcs and Angles》主笔）",
+      "kol_or_ib": "KOL",
+      "date": "2026-08-14",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "comments": "08/14 Latitude Media 播客《Did China outsmart America after the oil shock?》：他给出的量化——中国把原油进口削减了约 500-600 万桶/日（口径极不透明，属粗略估算），其中约 **1/3 是需求延后或摧毁、1/3 是去库存、1/3 是不再往已经很庞大的 SPR 里加**，合计抵消了这场冲击给市场的约「一半的礼物」，把 OECD 商业库存挡在恐慌线之上 → 机制不是价格驱动而是**行政指令驱动**：中国十年来重金买的是「真实的可选性」——能在能源来源与用能方式间切换的能力（「你有电动车就多开，要看奶奶就坐高铁」），配套的是可再生＋储能堆栈与煤制油/煤化工 → 对照美国模式：靠 SPR 释放稳定市场，本质是**「分子的央行」**（他警告中央行可以印国债、却印不出油桶，盐穴压力有下限，这个工具快到不能再用第二次）→ 地缘推演：中国的 21 世纪愿景是恢复其认定的领土控制、成为东亚首要力量；**能源独立给了它开战的能力，而这种能力用对了就是威慑**——「不战而屈人之兵」，而**「房间里的大象，是台湾」** → 结构判断：国家资本主义回来了，中国的形态是社会嵌在国家之内；下一步看关键矿物与清洁技术设备会否照搬这套剧本（自建产能＋要求生产技术转移）。来源：Latitude Media 播客 2026-08-14（含其 Substack《Arcs and Angles》文章）",
+      "suggestion": "观察口径：中国原油进口与成品油库存口径、中国 EV/高铁/煤化工替代量、美国 SPR 水位与释放能力、关键矿物与清洁技术设备的国家化政策；属能源安全结构判断，不构成操作建议。",
+      "bull_bear": "🟢 中国能源独立与电气化(框架) | 🔴 美国 SPR 战略储备缓冲能力 | 🔴 原油需求(中国可延后/切换) | 🔴 台湾地缘风险 | 🟢 关键矿物与清洁技术设备(下一轮国家化)"
+    },
     {
       "id": "3e647eb5-fd3c-81ee-9aa8-fbf679236a7a",
       "name": "🟢 强烈看多硬资产：加息降息都会引发通胀——「大贬值交易回来了」，买入黄金·白银·比特币",
