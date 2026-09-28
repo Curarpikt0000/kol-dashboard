@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-25 11:57 JST",
+  "generated_at": "2026-09-28 15:59 JST",
   "date_range": {
     "start": "2025-04-18",
     "end": "2026-09-24"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3696,
-    "total_rows": 3713,
+    "legged_rows": 3697,
+    "total_rows": 3714,
     "pct": 99.5
   },
   "today_signals": [
@@ -97,39 +97,39 @@
       "sector": "Precious Metals",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 320.0,
-      "bull": 1598,
+      "weighted_sum": 299.5,
+      "bull": 1599,
       "bear": 139,
       "neutral": 222,
-      "total": 1959,
-      "legs_bull": 2840,
+      "total": 1960,
+      "legs_bull": 2841,
       "legs_bear": 210,
       "legs_neutral": 172,
       "legs_split": 0,
-      "legs_total": 3222,
+      "legs_total": 3223,
       "strong_bull": 879,
       "strong_bear": 11,
-      "w_bull": 3719,
+      "w_bull": 3720,
       "w_bear": 221,
-      "avg": 0.1
+      "avg": 0.09
     },
     {
       "sector": "Energy & Commodities",
       "score": 80,
       "consensus": 80,
-      "weighted_sum": 77.2,
+      "weighted_sum": 73.8,
       "bull": 183,
       "bear": 23,
       "neutral": 34,
       "total": 240,
-      "legs_bull": 566,
+      "legs_bull": 568,
       "legs_bear": 68,
       "legs_neutral": 37,
       "legs_split": 0,
-      "legs_total": 671,
+      "legs_total": 673,
       "strong_bull": 62,
       "strong_bear": 1,
-      "w_bull": 628,
+      "w_bull": 630,
       "w_bear": 69,
       "avg": 0.11
     },
@@ -137,7 +137,7 @@
       "sector": "Crypto",
       "score": 52,
       "consensus": 52,
-      "weighted_sum": 45.2,
+      "weighted_sum": 42.1,
       "bull": 122,
       "bear": 19,
       "neutral": 29,
@@ -151,13 +151,13 @@
       "strong_bear": 12,
       "w_bull": 390,
       "w_bear": 124,
-      "avg": 0.1
+      "avg": 0.09
     },
     {
       "sector": "Alternative",
       "score": -3,
       "consensus": 3,
-      "weighted_sum": 1.2,
+      "weighted_sum": 1.1,
       "bull": 18,
       "bear": 9,
       "neutral": 26,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -11,
       "consensus": 11,
-      "weighted_sum": 18.8,
+      "weighted_sum": 17.5,
       "bull": 243,
       "bear": 160,
       "neutral": 88,
@@ -191,13 +191,13 @@
       "strong_bear": 95,
       "w_bull": 587,
       "w_bear": 732,
-      "avg": 0.02
+      "avg": 0.01
     },
     {
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -53.6,
+      "weighted_sum": -50.0,
       "bull": 269,
       "bear": 234,
       "neutral": 134,
@@ -217,20 +217,20 @@
       "sector": "Government Debt",
       "score": -92,
       "consensus": 92,
-      "weighted_sum": -85.0,
+      "weighted_sum": -80.2,
       "bull": 16,
       "bear": 97,
       "neutral": 33,
       "total": 146,
       "legs_bull": 45,
-      "legs_bear": 1081,
+      "legs_bear": 1082,
       "legs_neutral": 35,
       "legs_split": 0,
-      "legs_total": 1161,
+      "legs_total": 1162,
       "strong_bull": 1,
       "strong_bear": 72,
       "w_bull": 46,
-      "w_bear": 1153,
+      "w_bear": 1154,
       "avg": -0.07
     }
   ],
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 70,
       "consensus": 70,
-      "weighted_sum": 37.3,
+      "weighted_sum": 34.8,
       "bull": 183,
       "bear": 23,
       "neutral": 34,
@@ -253,17 +253,17 @@
       "strong_bear": 0,
       "w_bull": 274,
       "w_bear": 48,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Precious Metals",
       "score": 64,
       "consensus": 64,
-      "weighted_sum": 63.1,
-      "bull": 1598,
+      "weighted_sum": 58.9,
+      "bull": 1599,
       "bear": 139,
       "neutral": 222,
-      "total": 1959,
+      "total": 1960,
       "legs_bull": 740,
       "legs_bear": 186,
       "legs_neutral": 144,
@@ -299,7 +299,7 @@
       "sector": "Alternative",
       "score": 0,
       "consensus": 0,
-      "weighted_sum": 0.9,
+      "weighted_sum": 0.8,
       "bull": 18,
       "bear": 9,
       "neutral": 26,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -27,
       "consensus": 27,
-      "weighted_sum": -10.3,
+      "weighted_sum": -9.6,
       "bull": 269,
       "bear": 234,
       "neutral": 134,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -43,
       "consensus": 43,
-      "weighted_sum": -31.1,
+      "weighted_sum": -29.0,
       "bull": 243,
       "bear": 160,
       "neutral": 88,
@@ -353,13 +353,13 @@
       "strong_bear": 58,
       "w_bull": 191,
       "w_bear": 480,
-      "avg": -0.05
+      "avg": -0.04
     },
     {
       "sector": "Government Debt",
       "score": -83,
       "consensus": 83,
-      "weighted_sum": -26.9,
+      "weighted_sum": -25.1,
       "bull": 16,
       "bear": 97,
       "neutral": 33,
@@ -373,7 +373,7 @@
       "strong_bear": 20,
       "w_bull": 32,
       "w_bear": 354,
-      "avg": -0.07
+      "avg": -0.06
     }
   ],
   "sector_summary_long": [
@@ -381,39 +381,39 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 256.9,
-      "bull": 1598,
+      "weighted_sum": 240.6,
+      "bull": 1599,
       "bear": 139,
       "neutral": 222,
-      "total": 1959,
-      "legs_bull": 2100,
+      "total": 1960,
+      "legs_bull": 2101,
       "legs_bear": 24,
       "legs_neutral": 28,
       "legs_split": 0,
-      "legs_total": 2152,
+      "legs_total": 2153,
       "strong_bull": 710,
       "strong_bear": 0,
-      "w_bull": 2810,
+      "w_bull": 2811,
       "w_bear": 24,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Energy & Commodities",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 39.9,
+      "weighted_sum": 39.0,
       "bull": 183,
       "bear": 23,
       "neutral": 34,
       "total": 240,
-      "legs_bull": 326,
+      "legs_bull": 328,
       "legs_bear": 20,
       "legs_neutral": 6,
       "legs_split": 0,
-      "legs_total": 352,
+      "legs_total": 354,
       "strong_bull": 28,
       "strong_bear": 1,
-      "w_bull": 354,
+      "w_bull": 356,
       "w_bear": 21,
       "avg": 0.11
     },
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 73,
       "consensus": 73,
-      "weighted_sum": 44.8,
+      "weighted_sum": 41.8,
       "bull": 122,
       "bear": 19,
       "neutral": 29,
@@ -435,13 +435,13 @@
       "strong_bear": 7,
       "w_bull": 307,
       "w_bear": 47,
-      "avg": 0.15
+      "avg": 0.14
     },
     {
       "sector": "Equities",
       "score": 22,
       "consensus": 22,
-      "weighted_sum": 49.8,
+      "weighted_sum": 46.5,
       "bull": 243,
       "bear": 160,
       "neutral": 88,
@@ -455,7 +455,7 @@
       "strong_bear": 37,
       "w_bull": 396,
       "w_bear": 252,
-      "avg": 0.09
+      "avg": 0.08
     },
     {
       "sector": "Alternative",
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -43.3,
+      "weighted_sum": -40.4,
       "bull": 269,
       "bear": 234,
       "neutral": 134,
@@ -495,27 +495,27 @@
       "strong_bear": 81,
       "w_bull": 368,
       "w_bear": 868,
-      "avg": -0.04
+      "avg": -0.03
     },
     {
       "sector": "Government Debt",
       "score": -97,
       "consensus": 97,
-      "weighted_sum": -58.1,
+      "weighted_sum": -55.1,
       "bull": 16,
       "bear": 97,
       "neutral": 33,
       "total": 146,
       "legs_bull": 14,
-      "legs_bear": 747,
+      "legs_bear": 748,
       "legs_neutral": 9,
       "legs_split": 0,
-      "legs_total": 770,
+      "legs_total": 771,
       "strong_bull": 0,
       "strong_bear": 52,
       "w_bull": 14,
-      "w_bear": 799,
-      "avg": -0.08
+      "w_bear": 800,
+      "avg": -0.07
     }
   ],
   "stance_changes": [
@@ -794,7 +794,7 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 968,
+        "count": 969,
         "kols": 107
       },
       {
@@ -940,13 +940,26 @@
         "kols": 11
       },
       {
-        "ticker": "美元(UUP)",
+        "ticker": "AI/科技股",
         "count": 15,
-        "kols": 9
+        "kols": 18
       }
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Louis-Vincent Gave（Gavekal 联合创始人兼首席执行官 / 全球宏观策略师 / Seven books 作者）",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-24",
+      "latest_comments": "09/24 访谈（Bloomingbit 报道；文中访谈时间记为 9 月 25 日，按报道日归档）：**「60/40 已经失效」**——政府支出扩张＋货币宽松＋AI 数据中心巨额资本开支共同推高长端收益率，结果是风险资产承压时债券**同步走弱**，传统的「股跌债涨」对冲不再成立 → 替代配置：**60% 股票 + 20% 大宗商品 + 20% 能源**，把债券原有的防御位置让给黄金/商品/能源 →",
+      "latest_title": "🟢 看多黄金·大宗商品·能源 ｜ 🔴 60/40 已失效：建议 60% 股票 + 20% 商品 + 20% 能源，东亚货币低估是额外收益",
+      "bull_bear": "🟢 黄金 | 🟢 大宗商品(综合) | 🟢 能源(含电力/造船/国防资本开支) | 🟢 东亚股市(韩日台中) | 🟢 东亚本土银行股 | 🔴 美债(长端/60-40 防御功能失效) | 🟡 东亚半导体龙头(中国追赶侵蚀利润率)",
+      "total_entries": 21,
+      "trend": "↗ 趋多"
+    },
     {
       "kol_name": "Luke Gromen",
       "sector": "Macro",
@@ -1023,7 +1036,7 @@
       "latest_title": "🟢 看多 BTC：Strategy 恢复买入 950 枚、持仓升至 846,000 枚",
       "bull_bear": "🟢 BTC/MSTR",
       "total_entries": 72,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Michael Hartnett",
@@ -1075,7 +1088,7 @@
       "latest_title": "🟢 强烈看多黄金（称「史上最佳建仓条件」）+ 白银更高弹性",
       "bull_bear": "🟢 黄金、白银 ｜ 🔴 昂贵股市 ｜ 🟢 原油(短期)",
       "total_entries": 53,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Cathie Wood",
@@ -1348,7 +1361,7 @@
       "latest_title": "🟢 看多原油($150 情景)：Doomberg 称中东已到临界点、「Mad Max 式」大重置",
       "bull_bear": "🟢 原油",
       "total_entries": 13,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Daron Acemoglu",
@@ -1699,7 +1712,7 @@
       "latest_title": "🟡 黄金：TD 称 CTA 抛售加剧逼近净空，短期承压＝长期加仓机会",
       "bull_bear": "🟡 黄金(短期承压 / 长期逢跌买)",
       "total_entries": 11,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Robert Kiyosaki",
@@ -1712,7 +1725,7 @@
       "latest_title": "🔴 看空美股/退休账户：Kiyosaki 称「史上最大崩盘已开始」、先兆在日本与欧洲",
       "bull_bear": "🔴 美股/401(k)退休账户 ｜ 🟢 黄金、白银、BTC",
       "total_entries": 69,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Nomi Prins（Prinsights Global 创始人 / 前 Goldman Sachs MD）",
@@ -1725,7 +1738,7 @@
       "latest_title": "🟢 黄金年内$6,000、白银$120不变，长线银$200-300、铀$110、铜$7",
       "bull_bear": "🟢 黄金, 白银, 铀, 铜 | 🟢 金/银矿业股（含初级开发商）",
       "total_entries": 27,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Craig Hamilton-Parker（英国灵媒 / \"New Nostradamus\"）",
@@ -1923,19 +1936,6 @@
       "trend": "→"
     },
     {
-      "kol_name": "Louis-Vincent Gave（Gavekal 联合创始人兼首席执行官 / 全球宏观策略师 / Seven books 作者）",
-      "sector": "Macro",
-      "detail_sector": "Macro Strategy",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-08",
-      "latest_comments": "9/8 澳门 Fortune Leaders Forum：他抛出「当系统受到冲击时，你想站在**反脆弱**的一边，还是利润最大化的一边？」→ 观察到的分化：美国国债交付「糟糕的回报」，而中国政府债券相对提供另一种选择；市场正在从「美国例外」转向「抗脆弱」定价 → 媒体将其概括为对中国的危机对冲论。来源：fortune.com 2026-09-08",
-      "latest_title": "🟢 看多中国资产（危机对冲属性）：「出事的时候，你会想待在中国」",
-      "bull_bear": "🟢 中国国债/中国资产(反脆弱) | 🔴 美国国债",
-      "total_entries": 20,
-      "trend": "↗ 趋多"
-    },
-    {
       "kol_name": "Raghuram Rajan（芝加哥大学 Booth 商学院教授）",
       "sector": "Macro",
       "detail_sector": "宏观货币与金融体系",
@@ -1946,7 +1946,7 @@
       "latest_title": "🟡 Rajan 质疑印度GDP强劲叙事：增长强劲为何私人投资/FDI/就业未同步？",
       "bull_bear": "⚠️ 印度GDP数据可信度/增长质量(质疑)",
       "total_entries": 17,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Edward Dowd",
@@ -2076,7 +2076,7 @@
       "latest_title": "🔴 看空美债/质疑AI叙事：Rogoff称Warsh若通胀不降将加息，AI魔力被夸大",
       "bull_bear": "🔴 美债(TLT) | 🟡 AI/科技股",
       "total_entries": 1,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "David Garofalo",
@@ -2375,7 +2375,7 @@
       "latest_title": "强烈看多黄金：TD Daniel Ghali称全球市场正向战时经济转型，西方是本轮金价上涨主驱动力",
       "bull_bear": "看多: 黄金",
       "total_entries": 45,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "FEMA",
@@ -4563,6 +4563,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3e947eb5-fd3c-8177-83d4-e8333733ae19",
+      "name": "🟢 看多黄金·大宗商品·能源 ｜ 🔴 60/40 已失效：建议 60% 股票 + 20% 商品 + 20% 能源，东亚货币低估是额外收益",
+      "kol_name": "Louis-Vincent Gave（Gavekal 联合创始人兼首席执行官 / 全球宏观策略师 / Seven books 作者）",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-24",
+      "sector": "Macro",
+      "detail_sector": "宏观货币与金融体系",
+      "comments": "09/24 访谈（Bloomingbit 报道；文中访谈时间记为 9 月 25 日，按报道日归档）：**「60/40 已经失效」**——政府支出扩张＋货币宽松＋AI 数据中心巨额资本开支共同推高长端收益率，结果是风险资产承压时债券**同步走弱**，传统的「股跌债涨」对冲不再成立 → 替代配置：**60% 股票 + 20% 大宗商品 + 20% 能源**，把债券原有的防御位置让给黄金/商品/能源 → 黄金：2022 年西方冻结俄央行外储后，央行成为**对价格不敏感的新一类买家**，叠加赤字扩张与老龄化福利成本长期压制货币购买力 → 能源作为分散化工具：俄乌与中东冲突走向结束后，**补库存＋港口/管道/炼厂重建**需求将出现，电网、造船、国防资本开支继续上行——「当前的投资周期**不只围绕 AI**」→ 股市看多**东亚（韩、日、中、台）**：货币低估本身就是收益来源，汇率正常化则多一层汇兑收益；即便低估持续也有利出口；看好本土银行股与半导体 → 但给出对冲提示：中国企业的进入会侵蚀利润率——香港金融圈的说法是「**一旦中国进入某个市场，利润这个词就消失了**」，三星/SK 海力士/台积电的技术优势与高盈利是长期需要盯住的变量。来源：Bloomingbit 2026-09-24 报道",
+      "suggestion": "观察口径：10Y/30Y 美债收益率与期限溢价、股债相关系数（60/40 失效与否）、央行购金数据、能源补库与炼厂/电网/造船/国防资本开支、韩元/日元/人民币汇率与东亚股市资金流。属多年期配置框架，不构成操作建议。",
+      "bull_bear": "🟢 黄金 | 🟢 大宗商品(综合) | 🟢 能源(含电力/造船/国防资本开支) | 🟢 东亚股市(韩日台中) | 🟢 东亚本土银行股 | 🔴 美债(长端/60-40 防御功能失效) | 🟡 东亚半导体龙头(中国追赶侵蚀利润率)"
+    },
     {
       "id": "3e647eb5-fd3c-8172-b6ac-ccd4a0c5a7b5",
       "name": "🟡 中性：能源独立＝战争能力＝威慑——中国用「可选性」打赢霍尔木兹冲击，「房间里的大象是台湾」",

@@ -9,7 +9,7 @@
   sector_score = sum(情绪分) 归一化到 -100~+100
 输出: dashboard/kol-dashboard/data.json
 """
-import json, os, re, math, sys, urllib.request, urllib.error
+import json, os, re, math, sys, time, urllib.request, urllib.error
 from datetime import datetime, date, timezone, timedelta
 from collections import defaultdict, Counter
 
@@ -84,9 +84,20 @@ def _fetch_scan():
     while True:
         body={"page_size":100}
         if cursor:body["start_cursor"]=cursor
-        r=json.load(urllib.request.urlopen(urllib.request.Request(
-            f"https://api.notion.com/v1/databases/{DB}/query",
-            data=json.dumps(body).encode(),headers=H,method="POST"),timeout=45))
+        r=None
+        for _a in range(6):   # Notion 429 限流: 指数退避重试(5/10/15/20/25/30s), 超过则抛错
+            try:
+                r=json.load(urllib.request.urlopen(urllib.request.Request(
+                    f"https://api.notion.com/v1/databases/{DB}/query",
+                    data=json.dumps(body).encode(),headers=H,method="POST"),timeout=45))
+                break
+            except urllib.error.HTTPError as e:
+                if e.code!=429: raise
+                wait=5*(_a+1)
+                print(f"  ⏳ Notion 429 限流, {wait}s 后重试 ({_a+1}/6)",file=sys.stderr)
+                time.sleep(wait)
+        if r is None:
+            raise RuntimeError("Notion query 连续 429 重试耗尽")
         for row in r["results"]:
             P=row["properties"]
             out[row["id"]]={"id":row["id"],"name":txt(P.get("Name")),"kol_name":txt(P.get("Name of KOL")),
@@ -97,6 +108,7 @@ def _fetch_scan():
                 "direction_detail":txt(P.get("方向明细")),"dominant":txt(P.get("主导方向"))}
         if not r.get("has_more"):break
         cursor=r["next_cursor"]
+        time.sleep(0.4)   # 限流友好: Notion 平均 ~3 req/s, 全量分页有 40+ 页
     return out
 
 def fetch_all():
