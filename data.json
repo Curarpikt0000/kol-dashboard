@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-30 14:58 JST",
+  "generated_at": "2026-09-30 15:26 JST",
   "date_range": {
     "start": "2025-03-07",
     "end": "2026-09-27"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3755,
-    "total_rows": 3772,
+    "legged_rows": 3756,
+    "total_rows": 3773,
     "pct": 99.5
   },
   "today_signals": [
@@ -119,18 +119,18 @@
       "consensus": 80,
       "weighted_sum": 72.3,
       "bull": 185,
-      "bear": 23,
+      "bear": 24,
       "neutral": 36,
-      "total": 244,
-      "legs_bull": 586,
-      "legs_bear": 72,
-      "legs_neutral": 39,
+      "total": 245,
+      "legs_bull": 587,
+      "legs_bear": 73,
+      "legs_neutral": 40,
       "legs_split": 0,
-      "legs_total": 697,
+      "legs_total": 700,
       "strong_bull": 62,
       "strong_bear": 1,
-      "w_bull": 648,
-      "w_bear": 73,
+      "w_bull": 649,
+      "w_bear": 74,
       "avg": 0.1
     },
     {
@@ -241,18 +241,18 @@
       "consensus": 69,
       "weighted_sum": 32.6,
       "bull": 185,
-      "bear": 23,
+      "bear": 24,
       "neutral": 36,
-      "total": 244,
-      "legs_bull": 244,
-      "legs_bear": 51,
-      "legs_neutral": 32,
+      "total": 245,
+      "legs_bull": 245,
+      "legs_bear": 52,
+      "legs_neutral": 33,
       "legs_split": 0,
-      "legs_total": 327,
+      "legs_total": 330,
       "strong_bull": 34,
       "strong_bear": 0,
-      "w_bull": 278,
-      "w_bear": 51,
+      "w_bull": 279,
+      "w_bear": 52,
       "avg": 0.1
     },
     {
@@ -403,9 +403,9 @@
       "consensus": 89,
       "weighted_sum": 39.7,
       "bull": 185,
-      "bear": 23,
+      "bear": 24,
       "neutral": 36,
-      "total": 244,
+      "total": 245,
       "legs_bull": 342,
       "legs_bear": 21,
       "legs_neutral": 7,
@@ -664,6 +664,15 @@
       "signal": "中"
     },
     {
+      "kol_name": "Rory Johnston",
+      "sector": "Energy & Commodities",
+      "date": "2026-09-10",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 看多柴油/成品油：裂解价差已追平原油价格",
+      "signal": "高"
+    },
+    {
       "kol_name": "Jeff Snider",
       "sector": "Macro",
       "date": "2026-09-10",
@@ -679,15 +688,6 @@
       "from": "看空",
       "to": "看多",
       "title": "🟢 美元获短线买盘：ECB加息在即 ｜ 🔴 长端美债收益率难压制",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Rory Johnston",
-      "sector": "Energy & Commodities",
-      "date": "2026-09-10",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多柴油/成品油：裂解价差已追平原油价格",
       "signal": "高"
     },
     {
@@ -920,14 +920,14 @@
         "kols": 11
       },
       {
-        "ticker": "美债 TLT",
-        "count": 26,
-        "kols": 22
-      },
-      {
         "ticker": "美元DXY",
         "count": 26,
         "kols": 16
+      },
+      {
+        "ticker": "美债 TLT",
+        "count": 26,
+        "kols": 22
       },
       {
         "ticker": "美元/法币",
@@ -1507,6 +1507,19 @@
       "trend": "→"
     },
     {
+      "kol_name": "Rory Johnston",
+      "sector": "Energy & Commodities",
+      "detail_sector": "资源与能源安全",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-17",
+      "latest_comments": "9/17 Axios 报道：独立能源分析师 Rory Johnston（Commodity Context）指出，期货曲线当前最重要的信号是近期交割的极度紧张 → 因这轮危机持续时间更长，效应开始向曲线更远端扩散，可解读为市场认为紧张更普遍、更持久 → 但他同时提醒不应过度解读（「but too much shouldn't be read into it」）→ 报道结论偏向：投资者认为能源价格将",
+      "latest_title": "🟢 看多能源：Johnston 称期货曲线前端极度紧张、紧张正沿曲线向远端蔓延",
+      "bull_bear": "🟢 原油/成品油",
+      "total_entries": 43,
+      "trend": "↗ 趋多"
+    },
+    {
       "kol_name": "Dominic Frisby（英国金融作家·喜剧演员 / The Flying Frisby 主笔 / MoneyWeek 黄金·商品·加密货币专栏作家 / 《The Secret History of Gold》作者）",
       "sector": "Precious Metals",
       "detail_sector": "黄金/白银矿业",
@@ -1531,19 +1544,6 @@
       "bull_bear": "🟡 美国银行股（质疑多头叙事）",
       "total_entries": 5,
       "trend": "→"
-    },
-    {
-      "kol_name": "Rory Johnston",
-      "sector": "Energy & Commodities",
-      "detail_sector": "资源与能源安全",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-17",
-      "latest_comments": "9/17 Axios 报道：独立能源分析师 Rory Johnston（Commodity Context）指出，期货曲线当前最重要的信号是近期交割的极度紧张 → 因这轮危机持续时间更长，效应开始向曲线更远端扩散，可解读为市场认为紧张更普遍、更持久 → 但他同时提醒不应过度解读（「but too much shouldn't be read into it」）→ 报道结论偏向：投资者认为能源价格将",
-      "latest_title": "🟢 看多能源：Johnston 称期货曲线前端极度紧张、紧张正沿曲线向远端蔓延",
-      "bull_bear": "🟢 原油/成品油",
-      "total_entries": 42,
-      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Vince Lanci",
@@ -5082,6 +5082,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3eb47eb5-fd3c-8152-b9e4-fbfc6580ef3d",
+      "name": "🔴 看空原油（2026 涨势被「消失」的进口压制）：中国用五个多月悄悄抹掉 500 万桶/日的原油进口，把原本要冲高的油价按了下去",
+      "kol_name": "Rory Johnston",
+      "kol_or_ib": "KOL",
+      "date": "2026-07-10",
+      "sector": "Energy & Commodities",
+      "detail_sector": "原油与地缘政治",
+      "comments": "07/10 **The Commodities Show**（主持 **Morgan Downey**——**Boxwood 大宗商品对冲管理软件创始人、《Oil 101》作者**）《How China took over the oil market》① **本期主题（主持人原话）**：「**中国如何以及为何让 500 万桶/日的原油进口「消失」，从而扼杀了 2026 年的原油涨势**」——他与 Rory 谈**地缘政治与大宗商品市场** → ② **机制（他作为独立分析师的解释）**：**中国海运原油进口量出现了这轮周期最大的「未申报摆动」**——在**没有官方解释**的情况下大幅减少采购，而**经济活动未见对应的崩塌、出行数据也没有明显下降**；其结果就是**原本要冲高的油价在 2026 年被压住**（同一时期可对照的口径：**中国海运原油进口从 11-12 百万桶/日降到 5-6 百万桶/日**〔Kpler/Reid I'Anson 口径〕、以及**中国自有 13 亿桶级别战略储备**的观察〔Vortexa/David Wech 口径〕）→ ③ **他这一年的主线（本库已有 42 条记录）**：从 2026-01（特朗普刻意维持高油价、委内瑞拉与资源获取战略）、2026-03（海湾开战、霍尔木兹运输受扰→原油巨型尾部风险）、到 2026 年 6-9 月持续追踪**「中国需求侧摆动 vs 地缘风险溢价」的角力**——本期是这个角力的关键转折点：**需求端（中国）赢了供给恐慌（霍尔木兹）** → ④ **投资含义**：**跟踪油价的顺序必须是「先看中国的进口与库存，再看中东的头条」**——因为在这轮周期里，**中国进口的隐性摆动比霍尔木兹的新闻更能解释价格**。来源：The Commodities Show（Morgan Downey，2026-07-10；官方节目说明）",
+      "suggestion": "观察口径（可跟踪）：① **中国海运原油进口量**（Kpler/Vortexa 的日度与月度读数）；② **中国战略储备（SPR 类）库存估算**与「油在海上（oil-on-water）」的浮舱量；③ **霍尔木兹海峡通行与保险费率**（地缘风险溢价的直接读数）；④ **中国经济活动/炼厂开工率与出行数据**（验证「消失的进口」是否对应真实需求走弱）；⑤ 对照 **OPEC+ 产量政策**与沙特闲置产能的变化。",
+      "bull_bear": "🔴 原油（中国进口消失压制涨势） | 🟡 中国原油进口与库存策略（>500 万桶/日的隐性摆动） | 🟢 地缘政治风险溢价（霍尔木兹尾部风险仍在）"
+    },
     {
       "id": "3eb47eb5-fd3c-81f1-b54f-ed0aba7db8c3",
       "name": "🔴 看空中国电池巨头的利润（成本双杀）：电池产业高度依赖天然气、锂价再挤压——而 CATL 反手砸 44 亿美元买矿做上游一体化",
