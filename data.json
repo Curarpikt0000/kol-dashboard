@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-02 18:59 JST",
+  "generated_at": "2026-10-02 19:07 JST",
   "date_range": {
     "start": "2024-07-19",
     "end": "2026-09-29"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3885,
-    "total_rows": 3902,
+    "legged_rows": 3887,
+    "total_rows": 3904,
     "pct": 99.6
   },
   "today_signals": [
@@ -175,22 +175,22 @@
     },
     {
       "sector": "Equities",
-      "score": -11,
-      "consensus": 11,
-      "weighted_sum": 9.6,
-      "bull": 254,
-      "bear": 183,
+      "score": -10,
+      "consensus": 10,
+      "weighted_sum": 9.7,
+      "bull": 255,
+      "bear": 184,
       "neutral": 103,
-      "total": 540,
-      "legs_bull": 597,
-      "legs_bear": 731,
-      "legs_neutral": 127,
+      "total": 542,
+      "legs_bull": 599,
+      "legs_bear": 733,
+      "legs_neutral": 129,
       "legs_split": 0,
-      "legs_total": 1455,
+      "legs_total": 1461,
       "strong_bull": 72,
       "strong_bear": 95,
-      "w_bull": 669,
-      "w_bear": 826,
+      "w_bull": 671,
+      "w_bear": 828,
       "avg": 0.01
     },
     {
@@ -339,20 +339,20 @@
       "sector": "Equities",
       "score": -40,
       "consensus": 40,
-      "weighted_sum": -33.6,
-      "bull": 254,
-      "bear": 183,
+      "weighted_sum": -33.5,
+      "bull": 255,
+      "bear": 184,
       "neutral": 103,
-      "total": 540,
-      "legs_bull": 226,
-      "legs_bear": 490,
-      "legs_neutral": 87,
+      "total": 542,
+      "legs_bull": 228,
+      "legs_bear": 492,
+      "legs_neutral": 88,
       "legs_split": 0,
-      "legs_total": 803,
+      "legs_total": 808,
       "strong_bull": 9,
       "strong_bear": 58,
-      "w_bull": 235,
-      "w_bear": 548,
+      "w_bull": 237,
+      "w_bear": 550,
       "avg": -0.04
     },
     {
@@ -442,15 +442,15 @@
       "score": 22,
       "consensus": 22,
       "weighted_sum": 43.2,
-      "bull": 254,
-      "bear": 183,
+      "bull": 255,
+      "bear": 184,
       "neutral": 103,
-      "total": 540,
+      "total": 542,
       "legs_bull": 371,
       "legs_bear": 241,
-      "legs_neutral": 40,
+      "legs_neutral": 41,
       "legs_split": 0,
-      "legs_total": 652,
+      "legs_total": 653,
       "strong_bull": 63,
       "strong_bear": 37,
       "w_bull": 434,
@@ -3444,6 +3444,19 @@
       "trend": "→"
     },
     {
+      "kol_name": "David Magerman 大衛·馬格曼（前 Renaissance Technologies 股票交易團隊創始成員之一 / Differential Ventures 聯合創辦人 / 史丹佛 NLP 博士）",
+      "sector": "Equities",
+      "detail_sector": "AI 能力边界与量化投资的现实判读",
+      "kol_or_ib": "IB",
+      "style": "交易派",
+      "latest_date": "2026-05-27",
+      "latest_comments": "05/27 **Aleph 频道（主持人 Michael Eisenberg 对 Magerman 观点的公开反驳）**《Looks like David Magerman was Wrong》（**本条为对立观点条目；主体为 Aleph／Eisenberg 的论证，非 Magerman 本人表述**）① **官方说明原文（反驳的完整表述）**：**「在上一期《Invested》中，David M",
+      "latest_title": "🟡 对立观点（同一频道的正面反驳）：《看来 David Magerman 错了》——「泡沫与否并不重要，企业已用极少数人力实现前所未见的营收扩张，这是正在发生的结构性变化」",
+      "bull_bear": "🟢 AI 结构性变化（营收/组织形态） | 🟢 AI 应用层采用 | 🟡 AI 泡沫（不构成否定理由） | 🟡 模型能力辩论（与变现阶段解耦）",
+      "total_entries": 2,
+      "trend": "↘ 趋空"
+    },
+    {
       "kol_name": "John Lee（Silver Elephant Mining 执行主席兼 CEO / CleanTech Vanadium CEO / 白银与矿业 25 年从业者）",
       "sector": "Precious Metals",
       "detail_sector": "白银市场与矿业股",
@@ -5604,6 +5617,16 @@
       "sector": "Macro",
       "kol_or_ib": "KOL",
       "active": true
+    },
+    {
+      "list_num": "204",
+      "name": "David Magerman 大衛·馬格曼（前 Renaissance Technologies 股票交易團隊創始成員之一 / Differential Ventures 聯合創辦人 / 史丹佛 NLP 博士）",
+      "scope": "① **AI 能力边界**：**LLM「记忆与检索」vs「推理」的区分**（**其核心批判；可核对项：模型在需要多步推理任务上的实际表现**）；② **AI 泡沫判读**：**泡沫与「结构性变化」是否互斥**（**其 2026-01 观点 vs 主持人 2026-05 的反驳构成成对文本**）；③ **量化交易的方法论**：**「統計模式識別」的普遍性**（**其博士論文即「以大規模數據做全自動語法分析」，與量化交易的統計方法同源**）；④ **交易系统的工程现实**：**交易、模拟与估算软件的设计与部署**（**即「从模型到实盘」的落差**）；⑤ **AI 应用的投资判读**：**其作为早期投资人（Differential Ventures）「既投资又批评」的双重立场**（**其自述已明确承认这一「矛盾」**）；⑥ **深度科技新創的可行性**：**“助力量化数据经济”的技术赛道**；⑦ **行业伦理与个人立场**：**2017 年与 Robert Mercer 的公开冲突**（**说明其愿意公开表达与雇主相左的立场**）。",
+      "bio": "**Differential Ventures（紐約；投資深度科技與數據驅動經濟的新創）聯合創辦人兼管理合夥人（co-founder and Managing Partner）**。**其職業生涯的絕大部分在 Renaissance Technologies（文藝復興科技，公認史上最成功的量化對沖基金）**：**据 Aleph《Invested》官方介绍——「他協助創立了 Renaissance 的股票交易團隊（helped found the equities trading group），在该团队最早的时期加入，并在交易、模拟与估算软件的设计与构建中扮演主要角色（playing a lead role in designing and building the trading, simulation, and estimation software）」**。**另有資料稱其曾任 Renaissance 的「合夥人（partner）」、並為其研究與交易平台的首席架構師之一、負責將新開發的軟體系統部署到實盤交易**（**註：該公司對外慣用「研究員／執行層」表述，「合夥人」屬部分資料的用法——本庫並列兩個口徑**）。\n**學術背景**：**史丹佛大學計算機科學博士**，**博士論文《Natural Language Parsing as Statistical Pattern Recognition（自然語言解析作為統計模式識別）》**——**官方介紹稱其為「早期且成功地以大規模數據實現全自動語法分析的嘗試之一」**；**學士畢業於賓州大學（University of Pennsylvania）**（**其在自然語言處理／語言模型領域的工作可追溯至 1980 年代末至 1990 年代初**：**1990 年代任職 IBM Research 語音辨識組（Speech Recognition Group）**，**屬早期將 AI／ML 應用於實際問題的數據科學家之一**）——**⚠️ 因此用戶描述中「早在上世紀 80 年代就開始構建語言模型」為大致準確、但更精確的表述是「1980 年代末～1990 年代初」**。\n**其他身分**：**Tzemach David 基金會創辦人兼總裁**（教育方向，協助英語系移民在以色列受教育）；**另為多個以色列教育與文化項目的捐助者**。**2017 年公開反對其當時上司 Robert Mercer 的政治與種族觀點，遭停職後被永久停職，並提起聯邦訴訟**（其公開履歷的一部分）。\n**其 AI 立場（本庫收錄理由）**：**长期批评 LLM／生成式 AI 的炒作，认为 AI 处在泡沫中、进展慢于炒作所暗示的速度**；**其可核实的核心论点：当前对大语言模型（LLM）能力存在「根本性误读」——「尽管外观上显示出高级智能，这些模型主要是擅长记忆与检索（memorizing and retrieving），而非推理」**（**其公开访谈口径**）。**同时他也指出自身立场的一致性：「我一直对 LLM、生成式 AI 的炒作与歇斯底里、以及控制与营销它们的数万亿美元公司极为严厉；但我也通过我的风投基金投资于构建与使用它们的初创公司。」**",
+      "domain": "科技与未来趋势",
+      "sector": "Equities",
+      "kol_or_ib": "KOL",
+      "active": true
     }
   ],
   "weekly_reports": [
@@ -5739,6 +5762,30 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3ed47eb5-fd3c-811b-90d1-f974c35550f8",
+      "name": "🟡 对立观点（同一频道的正面反驳）：《看来 David Magerman 错了》——「泡沫与否并不重要，企业已用极少数人力实现前所未见的营收扩张，这是正在发生的结构性变化」",
+      "kol_name": "David Magerman 大衛·馬格曼（前 Renaissance Technologies 股票交易團隊創始成員之一 / Differential Ventures 聯合創辦人 / 史丹佛 NLP 博士）",
+      "kol_or_ib": "IB",
+      "date": "2026-05-27",
+      "sector": "Equities",
+      "detail_sector": "AI 能力边界与量化投资的现实判读",
+      "comments": "05/27 **Aleph 频道（主持人 Michael Eisenberg 对 Magerman 观点的公开反驳）**《Looks like David Magerman was Wrong》（**本条为对立观点条目；主体为 Aleph／Eisenberg 的论证，非 Magerman 本人表述**）① **官方说明原文（反驳的完整表述）**：**「在上一期《Invested》中，David Magerman 提出反驳——主张 AI 处于泡沫中，且进展慢于炒作所暗示的速度。Michael 的回应是：泡沫与否，并不重要。我们已经在看到企业以过去所需人力的极小部分，实现前所未见的营收规模扩张。AI 正在创造企业构建方式的结构性变化，而这个变化正在此刻发生——无论泡沫是否破裂。」** → ② **本库读法（为何必须与上一条成对）**：**这是「同一频道、同一议题、正面对立」的成对文本**（**与 #200 Citrini vs #201 Bloch 的「同前提反结论」并列，但性质不同：此处是主持人对嘉宾的公开反驳，理由是「泡沫与结构性变化可以并存」**）**——⚠️ 本库纪律：本条记录的是反驳方的论证，不计入 Magerman 名下** → ③ **论证结构（值得单独记录）**：**Eisenberg 的反驳不是「AI 会很快实现 AGI」，而是「不需要 AGI，结构性变化已在发生」****——即把争论从「能力」转移到「营收与组织形态」上**（**这与 Magerman 的「能力错读」论点恰好不在同一层，两方各说各话**） → ④ **与库内对照**：**「结构性变化已发生」与 Bloom #201 的「通缩红利／增长份额」同侧；而「泡沫与真实变化并存」这一判断，与 Gurley #190（泡沫＝是，但代币化可能是修正）的分层方式相近** → ⑤ ⚠️ **来源限制**：**依据 Aleph 官方视频说明与该频道年度信；未取得反驳的完整文本**。来源：Aleph 频道（2026-05-27）",
+      "suggestion": "观察口径（把「泡沫与否不重要」论点拆成可核对项）：① **以极少人力的营收扩张**：**头部 AI 应用公司的人均营收（revenue per employee）**——**这是反驳方最具体的证据，可直接跟踪**；② **组织形态的变化**：**新创企业员工数 vs 达到同等营收的历史标准**；③ **与 Magerman 论点的交汇处**：**若营收增长主要来自「检索记忆式」应用（而非推理），则两方论点可以同时成立**（**即：应用层变现与模型能力局限并不矛盾**）；④ **跟踪后续是否出现正面辩论**（**Magerman 是否回应；其立场是否变化**）。用法建议：**建议在日报 AI 板块成对引用 #204 的两条**——「能力怀疑（Magerman）」vs「结构变化（Eisenberg）」。",
+      "bull_bear": "🟢 AI 结构性变化（营收/组织形态） | 🟢 AI 应用层采用 | 🟡 AI 泡沫（不构成否定理由） | 🟡 模型能力辩论（与变现阶段解耦）"
+    },
+    {
+      "id": "3ed47eb5-fd3c-8151-a063-deb36b3efe06",
+      "name": "🔴 看空 AI 叙事（泡沫+能力错读）：《他建成了史上最成功的对冲基金：「我们不在这里帮助美国」》——AI 处于泡沫中、进展慢于炒作；LLM 主要是记忆与检索而非推理",
+      "kol_name": "David Magerman 大衛·馬格曼（前 Renaissance Technologies 股票交易團隊創始成員之一 / Differential Ventures 聯合創辦人 / 史丹佛 NLP 博士）",
+      "kol_or_ib": "KOL",
+      "date": "2026-01-07",
+      "sector": "Equities",
+      "detail_sector": "AI 能力边界与量化投资的现实判读",
+      "comments": "01/07 **Aleph 频道《Invested》播客（主持 Michael Eisenberg，Aleph 风投合伙人；⚠️ **主持人不入库**）**《He Built the Most Successful Hedge Fund in History: “We're Not Here to Help America” | Invested》（**本期即用户所见中文浓缩视频（2026-01-10）的原始出处**）① **官方介绍对其身份的准确表述（已用于其 registry bio）**：**「Differential Ventures 联合创办人兼管理合伙人……此前其整个职业生涯都在 Renaissance Technologies……他协助创立了 Renaissance 的股票交易团队，在该团队最早的时期加入，并在交易、模拟与估算软件的设计与构建中扮演主要角色。」****「David 拥有史丹佛大学计算机科学博士学位，其论文《自然语言解析作为统计模式识别》是早期且成功地以大尺度数据实现全自动文本语法分析的尝试之一。」** → ② **本期标题的引语**：**「我们（对冲基金）不在这里帮助美国（We're Not Here to Help America）」**——**该引语即本期标题，出自其对 Renaissance／对冲基金定位的叙述**（**本库按标题记录，不扩充其上下文**） → ③ **其核心论点（可核对口径）**：**「AI 处于泡沫中，且其进展慢于炒作所暗示的速度」**（**此表述来自 Aleph 于 2026-05-27 对其观点的官方回顾，属对方机构对其立场的概括，非其原话**） → ④ **其同期的「能力错读」论点（其公开访谈口径）**：**「当前对大语言模型（LLM）的能力存在根本性误读——尽管外观上显示出高级智能，这些模型主要是擅长记忆与检索（memorizing and retrieving），而非推理。」**；**其自述的双重立场：「我一直对 LLM、生成式 AI 的炒作与歇斯底里、以及控制与营销它们的数万亿美元公司极为严厉……但我也通过我的风投基金投资于构建与使用它们的初创公司。」** → ⑤ **本库读法（此条为何价值高）**：**他是「AI 泡沫链」上第一个「懂模型的人」的反对票**（**对照：Spitznagel #193（估值终局）、Gurley #190（循环交易）、Chanos #173（回报率）、Kedrosky #158（会计）、Citrini #200（劳动替代情景）、Bloch #201（繁荣情景）**）**——其独特性在于：他以 NLP 博士与量化平台架构师的身份，直接质疑模型能力本身，而不是质疑估值** → ⑥ ⚠️ **利益标注**：**他同时是 AI 初创的投资人（Differential Ventures）——其自述承认这一「既投资又批评」的矛盾；引用时须同时标注** → ⑦ ⚠️ **来源限制**：**本条依据 Aleph 官方视频简介与其公开访谈口径；未取得本期完整逐字稿**。来源：Invested by Aleph（主持 Michael Eisenberg；2026-01-07）",
+      "suggestion": "观察口径（其论点可量化为「能力」与「进度」两类）：① **能力类**：**基准测试中需要多步推理 vs 纯检索记忆的任务对比**（**其「记忆与检索而非推理」论点可用模型评测直接检验**）；② **进度类**：**AGI/能力里程碑的到达时间 vs 业界承诺**（**其「慢于炒作」的判据；可建立「预测 vs 实际」的台账**）；③ **成本与收入类**：**AI 公司营收 vs 算力资本开支**（**对照 Gurley #190 的 7,000 亿美元资本开支**）；④ **其投资人视角的选择**：**Differential Ventures 的投资组合偏好**（**其「批评 LLM 但投资应用层」的一致性检查**）。用法建议：**把其判断作为 AI 板块的「技术怀疑派」代表**——与「财务怀疑派」（Chanos/Kedrosky）和「情景派」（Citrini/Bloch）三分。",
+      "bull_bear": "🔴 AI 叙事/LLM 能力（被高估） | 🔴 AI 泡沫（估值） | 🟡 AI 应用层投资（其基金仍投） | 🔴 量化/对冲基金叙事（对“帮助美国”叙事的反驳） | 🟢 LLM 的记忆与检索能力（其承认的强项）"
+    },
     {
       "id": "3ed47eb5-fd3c-815d-8761-ea4385e842f1",
       "name": "🟢 看多黄金（制度层）：〈没有金本位的黄金〉——黄金实物的全球迁移与货币基础设施的重建；同场 Kathleen Tyson 谈上海黄金交易所与中国黄金市场自由化",
