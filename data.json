@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-05 08:47 JST",
+  "generated_at": "2026-10-05 13:14 JST",
   "date_range": {
     "start": "2024-07-19",
     "end": "2026-09-29"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3899,
-    "total_rows": 3916,
+    "legged_rows": 3900,
+    "total_rows": 3917,
     "pct": 99.6
   },
   "today_signals": [
@@ -17,6 +17,14 @@
       "sector": "Macro",
       "date": "2026-09-29",
       "desc": "看多→看空",
+      "signal": "高"
+    },
+    {
+      "type": "反转",
+      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
+      "sector": "Equities",
+      "date": "2026-09-24",
+      "desc": "看空→看多",
       "signal": "高"
     },
     {
@@ -37,16 +45,16 @@
     },
     {
       "type": "反转",
-      "kol_name": "Todd \"Bubba\" Horowitz",
-      "sector": "Energy & Commodities",
+      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
+      "sector": "Equities",
       "date": "2026-09-20",
       "desc": "看多→看空",
       "signal": "高"
     },
     {
       "type": "反转",
-      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
-      "sector": "Equities",
+      "kol_name": "Todd \"Bubba\" Horowitz",
+      "sector": "Energy & Commodities",
       "date": "2026-09-20",
       "desc": "看多→看空",
       "signal": "高"
@@ -82,14 +90,6 @@
       "date": "2026-09-17",
       "desc": "看多→看空",
       "signal": "中"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Dan Ives",
-      "sector": "Government Debt",
-      "date": "2026-09-17",
-      "desc": "看多→看空",
-      "signal": "高"
     }
   ],
   "sector_summary": [
@@ -177,19 +177,19 @@
       "sector": "Equities",
       "score": -10,
       "consensus": 10,
-      "weighted_sum": 10.2,
-      "bull": 258,
+      "weighted_sum": 12.5,
+      "bull": 259,
       "bear": 184,
       "neutral": 103,
-      "total": 545,
-      "legs_bull": 609,
+      "total": 546,
+      "legs_bull": 612,
       "legs_bear": 733,
       "legs_neutral": 129,
       "legs_split": 0,
-      "legs_total": 1471,
+      "legs_total": 1474,
       "strong_bull": 72,
       "strong_bear": 95,
-      "w_bull": 681,
+      "w_bull": 684,
       "w_bear": 828,
       "avg": 0.01
     },
@@ -197,20 +197,20 @@
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -63.3,
+      "weighted_sum": -64.1,
       "bull": 283,
       "bear": 257,
       "neutral": 152,
       "total": 692,
       "legs_bull": 553,
-      "legs_bear": 1218,
-      "legs_neutral": 179,
+      "legs_bear": 1219,
+      "legs_neutral": 180,
       "legs_split": 0,
-      "legs_total": 1950,
+      "legs_total": 1952,
       "strong_bull": 55,
       "strong_bear": 103,
       "w_bull": 608,
-      "w_bear": 1321,
+      "w_bear": 1322,
       "avg": -0.03
     },
     {
@@ -340,10 +340,10 @@
       "score": -38,
       "consensus": 38,
       "weighted_sum": -30.8,
-      "bull": 258,
+      "bull": 259,
       "bear": 184,
       "neutral": 103,
-      "total": 545,
+      "total": 546,
       "legs_bull": 236,
       "legs_bear": 492,
       "legs_neutral": 88,
@@ -441,21 +441,21 @@
       "sector": "Equities",
       "score": 22,
       "consensus": 22,
-      "weighted_sum": 41.0,
-      "bull": 258,
+      "weighted_sum": 43.4,
+      "bull": 259,
       "bear": 184,
       "neutral": 103,
-      "total": 545,
-      "legs_bull": 373,
+      "total": 546,
+      "legs_bull": 376,
       "legs_bear": 241,
       "legs_neutral": 41,
       "legs_split": 0,
-      "legs_total": 655,
+      "legs_total": 658,
       "strong_bull": 63,
       "strong_bear": 37,
-      "w_bull": 436,
+      "w_bull": 439,
       "w_bear": 278,
-      "avg": 0.06
+      "avg": 0.07
     },
     {
       "sector": "Alternative",
@@ -481,20 +481,20 @@
       "sector": "Macro",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -37.9,
+      "weighted_sum": -38.7,
       "bull": 283,
       "bear": 257,
       "neutral": 152,
       "total": 692,
       "legs_bull": 374,
-      "legs_bear": 856,
-      "legs_neutral": 93,
+      "legs_bear": 857,
+      "legs_neutral": 94,
       "legs_split": 0,
-      "legs_total": 1323,
+      "legs_total": 1325,
       "strong_bull": 43,
       "strong_bear": 81,
       "w_bull": 417,
-      "w_bear": 937,
+      "w_bear": 938,
       "avg": -0.03
     },
     {
@@ -529,6 +529,15 @@
       "signal": "高"
     },
     {
+      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
+      "sector": "Equities",
+      "date": "2026-09-24",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 强烈看多 AI（加速主义）：Axel Springer 奖领奖前夕 Döpfner 深度访谈——",
+      "signal": "高"
+    },
+    {
       "kol_name": "Martin Armstrong",
       "sector": "Macro",
       "date": "2026-09-21",
@@ -547,21 +556,21 @@
       "signal": "高"
     },
     {
-      "kol_name": "Todd \"Bubba\" Horowitz",
-      "sector": "Energy & Commodities",
-      "date": "2026-09-20",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空原油看 $60 ｜ 🔴 10Y 收益率看 6% ｜ 🟢 BTC 看 $100K",
-      "signal": "高"
-    },
-    {
       "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
       "sector": "Equities",
       "date": "2026-09-20",
       "from": "看多",
       "to": "看空",
       "title": "🔴 减持 Palantir：Thiel 拟三个月内卖出 200 万股 PLTR（约 $2.8 亿）",
+      "signal": "高"
+    },
+    {
+      "kol_name": "Todd \"Bubba\" Horowitz",
+      "sector": "Energy & Commodities",
+      "date": "2026-09-20",
+      "from": "看多",
+      "to": "看空",
+      "title": "🔴 看空原油看 $60 ｜ 🔴 10Y 收益率看 6% ｜ 🟢 BTC 看 $100K",
       "signal": "高"
     },
     {
@@ -778,15 +787,6 @@
       "from": "看空",
       "to": "看多",
       "title": "🟢 看多前沿智能双寡头 ｜ 🔴 看空创始人 A 轮套现：「Anthropic 一次 IPO 的财富创",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Martin Armstrong",
-      "sector": "Precious Metals",
-      "date": "2026-09-06",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多黄金/白银：Armstrong 称金破 $4,500 后 2026 整固、2032 才是宏观",
       "signal": "高"
     }
   ],
@@ -1049,6 +1049,19 @@
       "latest_title": "🔴 看空美国经济与股市：「罕见的衰退指标正在尖叫，却没人注意」——收益率曲线在示警，长端有天花板，而股市没反映真实经济",
       "bull_bear": "🔴 美国经济与股市(未反映真实经济) | 🔴 消费者信用(低收入端承压) | 🟢 美债久期(衰退路径下图收复) | 🟡 AI 生产率叙事(被高估) | 🟡 中美贸易休战(短期缓和)",
       "total_entries": 24,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
+      "sector": "Equities",
+      "detail_sector": "AI 加速主义、政治与长寿研究",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-09-24",
+      "latest_comments": "09/24 **Axel Springer 奖 2026 ＋ Mathias Döpfner（Axel Springer CEO）深度访谈**（**约 65 分钟**；**颁奖与对谈官方日期：2026-09-24**）**出席者（官方新闻稿口径）**：Sam Altman（OpenAI CEO）、Alex Karp（Palantir CEO）、Garry Kasparov、Bari Weiss、M",
+      "latest_title": "🟢 强烈看多 AI（加速主义）：Axel Springer 奖领奖前夕 Döpfner 深度访谈——AI 是打破半个世纪技术停滞的唯一契机；「即便灭绝风险 5-10% 也不该踩刹车，零增长社会比技术风险更可怕」；核心危机不是邪恶而是无能（99% 建制精英不称职）",
+      "bull_bear": "🟢 强烈看多 AI（且主张加速） | 🟢 AI 长期增长（打破停滞的唯一契机） | 🔴 欧洲（AI 全面落后） | 🟡 美国政治（2028 有 50%/「相当大机会」出现极左总统） | 🔴 建制精英（99% 不称职） | 🟢 长寿/生物科技（150 年无自然极限）",
+      "total_entries": 8,
       "trend": "↘ 趋空"
     },
     {
@@ -1492,19 +1505,6 @@
       "bull_bear": "🟡 欧洲防务/地缘冲突",
       "total_entries": 45,
       "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
-      "sector": "Equities",
-      "detail_sector": "科技与未来趋势",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-20",
-      "latest_comments": "9/19 Form 144 披露：Thiel 计划三个月内卖出约 200 万股 Palantir（约 $2.8 亿），依据其去年 11 月通过的 Rule 10b5-1 计划 → 上一次减持在 2024 年 10 月（经 Rivendell 7 等实体卖出逾 $4 亿）→ 因为是预设计划，时点并非即时择时判断；但美国正与伊朗处于公开冲突、Palantir 深度嵌入五角大楼数据基础设施，战争预算叙事",
-      "latest_title": "🔴 减持 Palantir：Thiel 拟三个月内卖出 200 万股 PLTR（约 $2.8 亿）",
-      "bull_bear": "🔴 Palantir(PLTR)",
-      "total_entries": 7,
-      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Lina Thomas（Goldman Sachs Research 高级大宗商品分析师 / 黄金白银专家）",
@@ -5785,6 +5785,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3f047eb5-fd3c-81ba-8b83-e3596b14516e",
+      "name": "🟢 强烈看多 AI（加速主义）：Axel Springer 奖领奖前夕 Döpfner 深度访谈——AI 是打破半个世纪技术停滞的唯一契机；「即便灭绝风险 5-10% 也不该踩刹车，零增长社会比技术风险更可怕」；核心危机不是邪恶而是无能（99% 建制精英不称职）",
+      "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-24",
+      "sector": "Equities",
+      "detail_sector": "AI 加速主义、政治与长寿研究",
+      "comments": "09/24 **Axel Springer 奖 2026 ＋ Mathias Döpfner（Axel Springer CEO）深度访谈**（**约 65 分钟**；**颁奖与对谈官方日期：2026-09-24**）**出席者（官方新闻稿口径）**：Sam Altman（OpenAI CEO）、Alex Karp（Palantir CEO）、Garry Kasparov、Bari Weiss、Max Levchin 等。（**主持 Döpfner 不入库**）① **AI 风险的量化（访谈中的关键对话）**：**Döpfner：「最近有一个实验，问六家最大的 LLM：AI 是否存在灭绝风险？预测的百分比在 1% 到 10% 之间。你认为这只是因为 LLM 基于人类的恐惧与悲观，还是一个真实的点？」**；**其回应（二次整理口径）：「他同意风险是真实的，但仍然认为我们应该加速（Thiel agrees the risk is real. And he still thinks we should accelerate）。」****其推理核心：减速自身也是一种失败**（**如「即便在 10% 灭绝风险下，减速仍然是输的」**）**——因为零增长社会的确定性代价高于技术风险的概率代价** → ② **AI 与互联网的比较（其框架）**：**他把 AI 视为「打破半个世纪技术停滞的唯一契机」（二次整理口径：「AI 终于证明的停滞论」）****——即：不是 AI 太好，而是除此之外没有别的增长来源** → ③ **三级格局与欧洲**：**美国领先、中国跟进、欧洲远远落后**（**二次整理标题：「为何欧洲比 Minitel 时代落后得更远」**）**——Minitel 为法国 1980 年代的国家级在线服务（最终被互联网淘汰），其含义是：欧洲这次连「本土替代品」都没有** → ④ **对中国的态度（逐字稿可核）**：**Döpfner 转述：两家大型 AI 平台创始人称「有证据显示中国正在散布反 AI 内容，尤其是通过美国社交媒体平台」，以扭转美国舆论、扩大自身优势**；**Thiel 的回应：「我是一个对中国非常严厉的批评者。我认为我们必须非常严肃地对待与中国的竞争与对抗。但同时，把一切都归咎于中国往往有点太容易了。」****（他并评及 Greta Thunberg：「我认为她已经过了巅峰期」，并指出「我们对自己做的这类事情太多了」）** → ⑤ **「邪恶 vs 无能」（其道德判断，逐字稿可核）**：**「我更偏爱歌德的《浮士德》而非马洛的《浮士德》。我们社会的道德问题是：我们全都是善恶之争，而我们充满了『坏』。大多数时候，这些事情甚至不是邪恶，甚至不是善，它们只是『坏（merely bad）』。如果你身处一个 99% 的企业、公司、人、政治领袖、商业领袖都完全不称职（totally incompetent）的世界，那才是我们真正应该谈论的问题。」** ⭐ **——即：当代的核心危机不是邪恶而是无能** → ⑥ **其 2009 年「民主」言论的澄清**：**「我认为民主不会消失；我当时主张的是一种深度的政治化、一种政治的『去强化（de-intensification）』」**；**该文原发于 Cato 的线上刊物，针对的是「对政治寄托过多信任的自由意志主义者」**；**他并承认该文「更多是令人错乱而非激发思考（more deranging than stimulating）」****——⚠️ 这是本库对其著名争议表述的「本人澄清」记录** → ⑦ **2028 白宫预判（逐字稿可核）**：**「显然，在接近的选举中，中间偏左的候选人可能更好。如果不接近，可能就不重要。我认为有相当大的机会（a decent chance）它甚至不会接近。如果共和党在这次中期选举中被横扫，那么民主党会认为 2028 无论如何都会赢。因此，他们大概不会那么强地扮演防火墙，去阻止一位反民主社会主义者获胜。」****——⚠️ 二次整理将其概括为「他认为民主社会主义者有 50% 机会赢得 2028 白宫」****（本库并列两个口径：逐字稿为「相当大的机会」，50% 出自二次整理）** → ⑧ **德国与欧洲政治（逐字稿可核）**：**「让我把它翻过来问你：德国人会换掉 Merz 吗？无论从哪个角度看，这都是一个彻底完全的失败。然后我不知道——有一个不错的论点认为未来三年什么都不会发生，因为其他所有人都认为自己不会做得更好。」** → ⑨ **德国创业能力（用户所述内容的来源标注）**：**二次整理的要点目录含「应令德国担忧的创始人计分板（The Founder Scoreboard That Should Worry Germany）」**；**用户来信中的",
+      "suggestion": "观察口径（其论点中可核对的部分）：① **AI 能力与风险概率**：**六家头部 LLM 的灭绝风险估计实验可复现（其开场引用的 1-10% 区间）****——建议按季度记录该区间的变化，作为「模型自评风险」的序列**；② **欧洲 AI 差距**：**欧洲本土模型/算力的实际投入 vs 美国与中国**（**其「比 Minitel 更糟」论断的检验**）；③ **2028 预判**：**2026 中期选举结果 → 民主党初选格局**（**其推理链：横扫 → 自认必胜 → 不为中间派设防火墙**）**——这是本库少见的「政治传导链」明确预测，可逐环核对**；④ **德国政治**：**Merz 政府的支持率与执政稳定性**（其「彻底失败」判断）；⑤ **长寿研究**：**其投资的生物科技标的与临床里程碑**（**其「150 年、无自然极限」主张的可验证面**）；⑥ **利益标注**：**他是 Founders Fund／Thiel Macro 的投资者，在 AI、国防与生物科技有直接持仓**——其加速主义立场与投资利益同向。用法建议：**其条目建议按「AI 加速（投资）/ 政治传导（预测）/ 长寿（科学）」三段引用**——其中「2028 传导链」与「欧洲差距」最适合做核对表。",
+      "bull_bear": "🟢 强烈看多 AI（且主张加速） | 🟢 AI 长期增长（打破停滞的唯一契机） | 🔴 欧洲（AI 全面落后） | 🟡 美国政治（2028 有 50%/「相当大机会」出现极左总统） | 🔴 建制精英（99% 不称职） | 🟢 长寿/生物科技（150 年无自然极限）"
+    },
     {
       "id": "3ef47eb5-fd3c-811d-a259-d514ef6d8a8a",
       "name": "🟢 强烈看多白银股：〈白银狂热仍在前面，不要被熊陷阱套住〉——「过去几年属于白银，接下来几年将属于白银股」；更多投资者将开始相信高价格可持续",
