@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-10-05 13:14 JST",
+  "generated_at": "2026-10-08 21:20 JST",
   "date_range": {
     "start": "2024-07-19",
-    "end": "2026-09-29"
+    "end": "2026-10-02"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3900,
-    "total_rows": 3917,
+    "legged_rows": 3902,
+    "total_rows": 3919,
     "pct": 99.6
   },
   "today_signals": [
+    {
+      "type": "反转",
+      "kol_name": "Edward Dowd",
+      "sector": "Precious Metals",
+      "date": "2026-10-01",
+      "desc": "看空→看多",
+      "signal": "高"
+    },
     {
       "type": "反转",
       "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
@@ -82,14 +90,6 @@
       "date": "2026-09-18",
       "desc": "看空→看多",
       "signal": "高"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Stephen Leeb",
-      "sector": "Equities",
-      "date": "2026-09-17",
-      "desc": "看多→看空",
-      "signal": "中"
     }
   ],
   "sector_summary": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 88,
       "consensus": 88,
-      "weighted_sum": 276.1,
-      "bull": 1635,
+      "weighted_sum": 260.2,
+      "bull": 1637,
       "bear": 141,
       "neutral": 228,
-      "total": 2004,
-      "legs_bull": 2948,
+      "total": 2006,
+      "legs_bull": 2951,
       "legs_bear": 224,
-      "legs_neutral": 187,
+      "legs_neutral": 188,
       "legs_split": 0,
-      "legs_total": 3359,
+      "legs_total": 3363,
       "strong_bull": 879,
       "strong_bear": 11,
-      "w_bull": 3827,
+      "w_bull": 3830,
       "w_bear": 235,
       "avg": 0.08
     },
@@ -117,27 +117,27 @@
       "sector": "Energy & Commodities",
       "score": 79,
       "consensus": 79,
-      "weighted_sum": 78.0,
+      "weighted_sum": 73.7,
       "bull": 198,
       "bear": 28,
       "neutral": 44,
       "total": 270,
-      "legs_bull": 655,
+      "legs_bull": 656,
       "legs_bear": 85,
       "legs_neutral": 54,
       "legs_split": 0,
-      "legs_total": 794,
+      "legs_total": 795,
       "strong_bull": 62,
       "strong_bear": 1,
-      "w_bull": 717,
+      "w_bull": 718,
       "w_bear": 86,
-      "avg": 0.1
+      "avg": 0.09
     },
     {
       "sector": "Crypto",
       "score": 52,
       "consensus": 52,
-      "weighted_sum": 36.7,
+      "weighted_sum": 34.2,
       "bull": 125,
       "bear": 19,
       "neutral": 31,
@@ -151,7 +151,7 @@
       "strong_bear": 12,
       "w_bull": 402,
       "w_bear": 127,
-      "avg": 0.08
+      "avg": 0.07
     },
     {
       "sector": "Alternative",
@@ -177,27 +177,27 @@
       "sector": "Equities",
       "score": -10,
       "consensus": 10,
-      "weighted_sum": 12.5,
+      "weighted_sum": 11.7,
       "bull": 259,
       "bear": 184,
       "neutral": 103,
       "total": 546,
-      "legs_bull": 612,
-      "legs_bear": 733,
+      "legs_bull": 613,
+      "legs_bear": 734,
       "legs_neutral": 129,
       "legs_split": 0,
-      "legs_total": 1474,
+      "legs_total": 1476,
       "strong_bull": 72,
       "strong_bear": 95,
-      "w_bull": 684,
-      "w_bear": 828,
+      "w_bull": 685,
+      "w_bear": 829,
       "avg": 0.01
     },
     {
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -64.1,
+      "weighted_sum": -59.8,
       "bull": 283,
       "bear": 257,
       "neutral": 152,
@@ -217,19 +217,19 @@
       "sector": "Government Debt",
       "score": -91,
       "consensus": 91,
-      "weighted_sum": -76.4,
+      "weighted_sum": -70.4,
       "bull": 18,
       "bear": 105,
       "neutral": 37,
       "total": 160,
-      "legs_bull": 56,
+      "legs_bull": 57,
       "legs_bear": 1127,
       "legs_neutral": 47,
       "legs_split": 0,
-      "legs_total": 1230,
+      "legs_total": 1231,
       "strong_bull": 1,
       "strong_bear": 72,
-      "w_bull": 57,
+      "w_bull": 58,
       "w_bear": 1199,
       "avg": -0.06
     }
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 68,
       "consensus": 68,
-      "weighted_sum": 40.1,
+      "weighted_sum": 37.5,
       "bull": 198,
       "bear": 28,
       "neutral": 44,
@@ -253,25 +253,25 @@
       "strong_bear": 0,
       "w_bull": 321,
       "w_bear": 62,
-      "avg": 0.1
+      "avg": 0.09
     },
     {
       "sector": "Precious Metals",
       "score": 64,
       "consensus": 64,
-      "weighted_sum": 56.1,
-      "bull": 1635,
+      "weighted_sum": 53.2,
+      "bull": 1637,
       "bear": 141,
       "neutral": 228,
-      "total": 2004,
-      "legs_bull": 772,
+      "total": 2006,
+      "legs_bull": 773,
       "legs_bear": 198,
-      "legs_neutral": 159,
+      "legs_neutral": 160,
       "legs_split": 0,
-      "legs_total": 1129,
+      "legs_total": 1131,
       "strong_bull": 169,
       "strong_bear": 11,
-      "w_bull": 941,
+      "w_bull": 942,
       "w_bear": 209,
       "avg": 0.05
     },
@@ -299,7 +299,7 @@
       "sector": "Alternative",
       "score": 0,
       "consensus": 0,
-      "weighted_sum": 0.7,
+      "weighted_sum": 0.6,
       "bull": 18,
       "bear": 9,
       "neutral": 26,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -34,
       "consensus": 34,
-      "weighted_sum": -25.4,
+      "weighted_sum": -23.7,
       "bull": 283,
       "bear": 257,
       "neutral": 152,
@@ -339,39 +339,39 @@
       "sector": "Equities",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -30.8,
+      "weighted_sum": -28.7,
       "bull": 259,
       "bear": 184,
       "neutral": 103,
       "total": 546,
-      "legs_bull": 236,
-      "legs_bear": 492,
+      "legs_bull": 237,
+      "legs_bear": 493,
       "legs_neutral": 88,
       "legs_split": 0,
-      "legs_total": 816,
+      "legs_total": 818,
       "strong_bull": 9,
       "strong_bear": 58,
-      "w_bull": 245,
-      "w_bear": 550,
+      "w_bull": 246,
+      "w_bear": 551,
       "avg": -0.04
     },
     {
       "sector": "Government Debt",
-      "score": -81,
-      "consensus": 81,
-      "weighted_sum": -22.1,
+      "score": -80,
+      "consensus": 80,
+      "weighted_sum": -19.8,
       "bull": 18,
       "bear": 105,
       "neutral": 37,
       "total": 160,
-      "legs_bull": 38,
+      "legs_bull": 39,
       "legs_bear": 348,
       "legs_neutral": 38,
       "legs_split": 0,
-      "legs_total": 424,
+      "legs_total": 425,
       "strong_bull": 1,
       "strong_bear": 20,
-      "w_bull": 39,
+      "w_bull": 40,
       "w_bear": 368,
       "avg": -0.05
     }
@@ -381,39 +381,39 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 219.9,
-      "bull": 1635,
+      "weighted_sum": 206.9,
+      "bull": 1637,
       "bear": 141,
       "neutral": 228,
-      "total": 2004,
-      "legs_bull": 2176,
+      "total": 2006,
+      "legs_bull": 2178,
       "legs_bear": 26,
       "legs_neutral": 28,
       "legs_split": 0,
-      "legs_total": 2230,
+      "legs_total": 2232,
       "strong_bull": 710,
       "strong_bear": 0,
-      "w_bull": 2886,
+      "w_bull": 2888,
       "w_bear": 26,
-      "avg": 0.1
+      "avg": 0.09
     },
     {
       "sector": "Energy & Commodities",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 37.9,
+      "weighted_sum": 36.2,
       "bull": 198,
       "bear": 28,
       "neutral": 44,
       "total": 270,
-      "legs_bull": 368,
+      "legs_bull": 369,
       "legs_bear": 23,
       "legs_neutral": 8,
       "legs_split": 0,
-      "legs_total": 399,
+      "legs_total": 400,
       "strong_bull": 28,
       "strong_bear": 1,
-      "w_bull": 396,
+      "w_bull": 397,
       "w_bear": 24,
       "avg": 0.09
     },
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 36.4,
+      "weighted_sum": 34.0,
       "bull": 125,
       "bear": 19,
       "neutral": 31,
@@ -435,13 +435,13 @@
       "strong_bear": 7,
       "w_bull": 319,
       "w_bear": 48,
-      "avg": 0.12
+      "avg": 0.11
     },
     {
       "sector": "Equities",
       "score": 22,
       "consensus": 22,
-      "weighted_sum": 43.4,
+      "weighted_sum": 40.4,
       "bull": 259,
       "bear": 184,
       "neutral": 103,
@@ -455,7 +455,7 @@
       "strong_bear": 37,
       "w_bull": 439,
       "w_bear": 278,
-      "avg": 0.07
+      "avg": 0.06
     },
     {
       "sector": "Alternative",
@@ -475,13 +475,13 @@
       "strong_bear": 5,
       "w_bull": 25,
       "w_bear": 29,
-      "avg": -0.02
+      "avg": -0.01
     },
     {
       "sector": "Macro",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -38.7,
+      "weighted_sum": -36.1,
       "bull": 283,
       "bear": 257,
       "neutral": 152,
@@ -501,7 +501,7 @@
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -54.3,
+      "weighted_sum": -50.6,
       "bull": 18,
       "bear": 105,
       "neutral": 37,
@@ -515,10 +515,19 @@
       "strong_bear": 52,
       "w_bull": 18,
       "w_bear": 831,
-      "avg": -0.07
+      "avg": -0.06
     }
   ],
   "stance_changes": [
+    {
+      "kol_name": "Edward Dowd",
+      "sector": "Precious Metals",
+      "date": "2026-10-01",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 看多黄金：〈黄金的下跌「不足为虑」——通往 10,000 美元之路依然完好〉——他把今年大部分时",
+      "signal": "高"
+    },
     {
       "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
       "sector": "Macro",
@@ -779,27 +788,18 @@
       "to": "看空",
       "title": "🔴 看空高杠杆信贷/软件：Sløk 称加息传导延迟未关闭，滚债冲击将至 ｜ 🟢 高质量低杠杆公司占优",
       "signal": "高"
-    },
-    {
-      "kol_name": "David Sacks（Craft Ventures 联合创始人 / Yammer 创始人·前 PayPal COO / 前白宫 AI 与加密货币政策负责人（AI & Crypto Czar）/ All-In Podcast 联合主持）",
-      "sector": "Equities",
-      "date": "2026-09-06",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多前沿智能双寡头 ｜ 🔴 看空创始人 A 轮套现：「Anthropic 一次 IPO 的财富创",
-      "signal": "高"
     }
   ],
   "ticker_heatmap": {
     "bull": [
       {
         "ticker": "黄金",
-        "count": 985,
+        "count": 986,
         "kols": 114
       },
       {
         "ticker": "白银",
-        "count": 527,
+        "count": 528,
         "kols": 85
       },
       {
@@ -948,6 +948,32 @@
   },
   "kol_cards": [
     {
+      "kol_name": "Steve Penny",
+      "sector": "Precious Metals",
+      "detail_sector": "白银与铀的技术分析与周期",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-10-02",
+      "latest_comments": "10/02 **Commodity Culture 播客（主持 Jesse Day）第 583 集**（33:31；⚠️ **主持 Jesse Day 不入库**）《Silver Will Outperform Gold 'By a Wide Margin' When Fed Cracks: Steve Penny》① **官方节目说明（原文口径）**：**「Steve Penny 认为白银背后的",
+      "latest_title": "🟢 强烈看多白银（相对黄金）：《当美联储「裂开」时，白银将以「大幅」跑赢黄金》——市场处于 1974 年式中期盘整；美联储终将走向「加息、暂停、印钞」循环；宏观背景是全球债务陷阱",
+      "bull_bear": "🟢 强烈看多白银（相对黄金，大幅跑赢） | 🟢 看多铀（甚至强于金银） | 🟢 看多矿业股（择时入场） | 🟢 实物贵金属（对冲货币贬值） | 🔴 全球债务陷阱（宏观背景） | 🟡 当前阶段（1974 年式中期盘整）",
+      "total_entries": 34,
+      "trend": "↘ 趋空"
+    },
+    {
+      "kol_name": "Edward Dowd",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金与AI泡沫风险",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-10-01",
+      "latest_comments": "10/01 **Commodity Culture 播客（主持 Jesse Day）第 582 集**（41:39；⚠️ **主持 Jesse Day 不入库**）《Gold's Drop 'Not a Concern' - Why Road to $10k Is Still Intact: Edward Dowd》① **官方节目说明（原文口径）**：**「Edward Dowd 曾预判了黄金今",
+      "latest_title": "🟢 看多黄金：〈黄金的下跌「不足为虑」——通往 10,000 美元之路依然完好〉——他把今年大部分时间的横盘称为「已预判」，并认为近期下跌只是雷达上的一个光点",
+      "bull_bear": "🟢 看多黄金（$10,000 长期目标） | 🟢 看多美债（收益率下行） | 🔴 看空美股/半导体/AI 泡沫 | 🔴 私人信贷风险 | 🟡 当前回调（不足为虑）",
+      "total_entries": 11,
+      "trend": "→"
+    },
+    {
       "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
       "sector": "Macro",
       "detail_sector": "全球流动性与货币周期",
@@ -1010,7 +1036,7 @@
       "latest_title": "🟢 看多黄金（以黄金计价的清醒剂）：以黄金计价，纳指五年 >100% 的收益其实是亏 >20%，美债 12 年净亏 90%——「这不是笔误，这是犯罪」",
       "bull_bear": "🟢 黄金(唯一可靠的财富测度与保值手段) | 🔴 美股(以黄金计价实为亏损, AI 叙事=崩盘设置) | 🔴 美国国债(以黄金计价 12 年净亏 90%) | 🔴 美元购买力(无形税收/未持械抢劫) | 🔴 美国小企业与消费者(破产 +64%, 信心 50 年最差)",
       "total_entries": 42,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Peter Krauth",
@@ -1049,7 +1075,7 @@
       "latest_title": "🔴 看空美国经济与股市：「罕见的衰退指标正在尖叫，却没人注意」——收益率曲线在示警，长端有天花板，而股市没反映真实经济",
       "bull_bear": "🔴 美国经济与股市(未反映真实经济) | 🔴 消费者信用(低收入端承压) | 🟢 美债久期(衰退路径下图收复) | 🟡 AI 生产率叙事(被高估) | 🟡 中美贸易休战(短期缓和)",
       "total_entries": 24,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Peter Thiel（Thiel Macro LLC 创始人 / PayPal 联合创始人）",
@@ -1465,7 +1491,7 @@
       "latest_title": "🟢 看多黄金白银：Colombo 称 Fed 加息后超买已重置、贵金属进入复苏下一阶段",
       "bull_bear": "🟢 黄金, 白银, 矿商股",
       "total_entries": 21,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Peter Schiff",
@@ -1478,7 +1504,7 @@
       "latest_title": "🔴 看空比特币：Schiff 称 SEC 代币化股票是 BTC 的直接竞争者、BTC 是「去中心化庞氏」",
       "bull_bear": "🔴 BTC",
       "total_entries": 99,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Todd \"Bubba\" Horowitz",
@@ -1543,7 +1569,7 @@
       "latest_title": "🔴 看空长端美债：Gundlach 称衰退反而推高长端收益率至 6%+、违约「又快又猛」",
       "bull_bear": "🔴 长端美债(TLT) | 🔴 信用债/私募信贷 | 🟢 低久期资产",
       "total_entries": 57,
-      "trend": "↘ 趋空"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "James Rickards",
@@ -1647,7 +1673,7 @@
       "latest_title": "🟢 强烈看多黄金白银：黄金 $6,000+／白银 >$100（2027Q1）——两金属位于突破年初以来下行趋势线边缘",
       "bull_bear": "🟢 黄金(GLD, $6,000+ 2027Q1), 白银(SLV, >$100), 黄金矿业股(XAU/GDX), 原油 | 目标重定义：金银创历史新高",
       "total_entries": 9,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "David Einhorn（Greenlight Capital 创始人兼总裁 / 2008 年 Sohn 会议做空雷曼兄弟而成名 / 价值型多空策略 / 长期持有黄金作为最大宏观多头）",
@@ -2232,7 +2258,7 @@
       "latest_title": "🟡 中性偏多（与 1999 不同）：今天卖的是真钱合同，不是眼球指标——「收入、利润、而且是我们从未见过的增速」",
       "bull_bear": "🟢 AI 企业级真实需求(硬性软件合约) | 🟡 AI 厂商估值(商业现实≠倍数合理) | 🟡 与 1999 的类比(指标质量不同)",
       "total_entries": 2,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Chamath Palihapitiya（Social Capital 创始人兼 CEO / 前 Facebook 用户增长负责人 / All-In Podcast 联合主持）",
@@ -2245,7 +2271,7 @@
       "latest_title": "🔴 看空 AI 泡沫（定价过远）：「狂热之所以存在，是因为市场是真实的」——泡沫破裂时你会发现自己把未来定价得太激进",
       "bull_bear": "🔴 AI 资产估值(把未来定价过远) | 🟡 AI 基本面(真实但不足以支撑当前倍数) | 🔴 晚期私募轮风险",
       "total_entries": 2,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Jason Calacanis（天使投资人·连续创业者 / All-In Podcast 联合主持 / LAUNCH 创始人 /《This Week in Startups》主理人）",
@@ -2258,7 +2284,7 @@
       "latest_title": "🔴 看空晚期 AI 初创公司估值：「50 到 100 倍营收」——晚期阶段已与现实现实脱节，这显然不可持续",
       "bull_bear": "🔴 晚期 AI 初创公司估值(50-100x topline) | 🔴 晚期融资轮与高位接盘风险 | 🟡 AI 企业级需求(真实但倍数透支)",
       "total_entries": 1,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Niall Ferguson 尼爾·弗格森（史丹佛大學胡佛研究所 Milbank Family 資深研究員／金融史學家／《貨幣崛起》《Doom》作者／The Free Press 專欄作家）",
@@ -2311,19 +2337,6 @@
       "bull_bear": "🟢 黄金(长期) GLD, IAU ｜ 🟡 黄金(短期) 守$4,350收盘 ｜ 🟢 白银(短期) SLV, 守$60",
       "total_entries": 22,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Edward Dowd",
-      "sector": "Macro",
-      "detail_sector": "宏观货币与金融体系",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-02",
-      "latest_comments": "Dowd观察半导体板块(SOXX)正逼近并可能跌破7月低点，板块持续走弱将拖累美股下行。另指出BTC与纳指相关性自去年10月从~1.0降至0.6(历史性BTC抛售而美股续涨)；恢复长期关联只有两条路——BTC大涨或纳指下跌补收敛，他押注后者：AI估值过高+系统杠杆累积，泡沫破裂→衰退→Fed被迫重启印钞。(来源:tradersunion/Blockchain.News 9/2)",
-      "latest_title": "🔴 看空半导体：SOXX 将破 7 月低点；BTC/纳指收敛押注纳指补跌",
-      "bull_bear": "🔴 SOXX, QQQ ｜ 🟢 黄金(长期), 国债(中期)",
-      "total_entries": 10,
-      "trend": "→"
     },
     {
       "kol_name": "Andrew Maguire（Kinesis Money 总监 / 贵金属市场吹哨人）",
@@ -2531,7 +2544,7 @@
       "latest_title": "🟢 看多美股：Lacamp称强劲盈利使熊市不太可能",
       "bull_bear": "🟢 美股",
       "total_entries": 47,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Citi / UBS",
@@ -2544,7 +2557,7 @@
       "latest_title": "🟢 看多黄金：贬值交易需要新出口，市场回到黄金",
       "bull_bear": "🟢 黄金, 白银",
       "total_entries": 29,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Ted Oakley",
@@ -2752,19 +2765,6 @@
       "latest_title": "🟢 期金收$4,399.70创七周新高：Meger称弱就业降低Fed加息预期，黄金动能延续",
       "bull_bear": "🟢 黄金",
       "total_entries": 29,
-      "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Steve Penny",
-      "sector": "Precious Metals",
-      "detail_sector": "白银走势",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-08-07",
-      "latest_comments": "08/07 Investing News Network 引述其观点：**白银的「1979 时刻」仍未到来**——参照 1979-1980 年那轮，白银曾在**仅仅 12 个月内上涨约 8 倍**；他的框架是「先看历史类比、再看技术结构、最后用基本面（供需缺口＋政策反应）确认催化剂」，因此**当前的价格强势在他眼里仍是前奏而非高潮**（与其 7 月「长期高得多、中期或横盘」的表述互为补充）。来源：",
-      "latest_title": "🟢 看多白银：白银的「1979 时刻」还在前面——那一年它在 12 个月内涨了 8 倍",
-      "bull_bear": "🟢 白银(「1979 时刻」仍在前面, 历史最高斜率参照 12 个月 8 倍)",
-      "total_entries": 33,
       "trend": "↘ 趋空"
     },
     {
@@ -3194,7 +3194,7 @@
       "latest_title": "🔴AI是'史上最大泡沫之一'(SpaceX+OpenAI+Anthropic估值)",
       "bull_bear": "🔴 AI/科技(含SpaceX/OpenAI/Anthropic)",
       "total_entries": 15,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Matt Dines 馬特·戴恩斯（Build Asset Management 創始合夥人兼首席投資官／固定收益投資組合經理／The Bitcoin Layer 常駐對話者）",
@@ -3389,7 +3389,7 @@
       "latest_title": "David Icke — 🟡 中性",
       "bull_bear": "🟡 阴谋论(无明确市场方向)",
       "total_entries": 22,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Abhigya Anand",
@@ -5785,6 +5785,30 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3f347eb5-fd3c-814d-ac27-cb9aa995e104",
+      "name": "🟢 看多黄金：〈黄金的下跌「不足为虑」——通往 10,000 美元之路依然完好〉——他把今年大部分时间的横盘称为「已预判」，并认为近期下跌只是雷达上的一个光点",
+      "kol_name": "Edward Dowd",
+      "kol_or_ib": "KOL",
+      "date": "2026-10-01",
+      "sector": "Precious Metals",
+      "detail_sector": "黄金与AI泡沫风险",
+      "comments": "10/01 **Commodity Culture 播客（主持 Jesse Day）第 582 集**（41:39；⚠️ **主持 Jesse Day 不入库**）《Gold's Drop 'Not a Concern' - Why Road to $10k Is Still Intact: Edward Dowd》① **官方节目说明（原文口径）**：**「Edward Dowd 曾预判了黄金今年大部分时间的横盘整理，而他认为近期的价格下跌只是通往 10,000 美元之旅雷达上的一个小光点（a blip on the radar of a journey that will lead us to a $10,000 price tag）。」** → ② **其判断的性质（本库特别注意）**：**「曾预判（called）了横盘整理」——即其横盘判断在事前给出****，这使本次「下跌不足为虑」的说法具备前序记录**（**本库可追溯其前序条目：其 2026-08-21「除黄金外一切都要崩」、2026-08-31「看多美债」、2026-09-02「看空半导体」**） → ③ **本库读法**：**Dowd 的黄金目标 $10,000 与库内多位信源重合**（**对照：Ferguson #196 的债务数学、Hudson #203 的货币体系、Spitznagel #193 的泡沫终局**）**——但 Dowd 的独特性在于他把黄金与「AI 泡沫 / 私人信贷」的破裂绑定** → ④ ⚠️ **来源限制**：**依据官方节目说明；未取得完整逐字稿**。来源：Commodity Culture 播客（主持 Jesse Day） 第 582 集（2026-10-01）",
+      "suggestion": "观察口径：① **黄金的横盘区间与突破方向**（其「横盘已预判」的前序判断可核对）；② **其 $10,000 目标的实现路径与触发条件**（**其与其他 $10k 信源的口径差异：AI 泡沫/私人信贷 vs 债务数学**）；③ **私人信贷与 AI 相关的信用指标**（**其 2026-08 以来的看空链条：标普 40% 暴露 AI+被动 → 半导体 → 黄金**）；④ 与 **Krauth #26、Penny #36、Rule #28** 的黄金/白银观点并置。用法建议：**把 Dowd 归入「黄金 = 反 AI 泡沫对冲」这一类**——与「黄金 = 反法币贬值」（Giustra #75/Hudson #203）区分开。",
+      "bull_bear": "🟢 看多黄金（$10,000 长期目标） | 🟢 看多美债（收益率下行） | 🔴 看空美股/半导体/AI 泡沫 | 🔴 私人信贷风险 | 🟡 当前回调（不足为虑）"
+    },
+    {
+      "id": "3f347eb5-fd3c-81ac-914e-eded11e4f562",
+      "name": "🟢 强烈看多白银（相对黄金）：《当美联储「裂开」时，白银将以「大幅」跑赢黄金》——市场处于 1974 年式中期盘整；美联储终将走向「加息、暂停、印钞」循环；宏观背景是全球债务陷阱",
+      "kol_name": "Steve Penny",
+      "kol_or_ib": "KOL",
+      "date": "2026-10-02",
+      "sector": "Precious Metals",
+      "detail_sector": "白银与铀的技术分析与周期",
+      "comments": "10/02 **Commodity Culture 播客（主持 Jesse Day）第 583 集**（33:31；⚠️ **主持 Jesse Day 不入库**）《Silver Will Outperform Gold 'By a Wide Margin' When Fed Cracks: Steve Penny》① **官方节目说明（原文口径）**：**「Steve Penny 认为白银背后的顺风（tailwinds）远比推动黄金的更强，他拆解了为何他最终认为白银才是美联储出手（the Fed's hand）时要盯住的金属。」****标题即结论：当美联储「裂开（cracks）」时，白银将以「大幅（by a wide margin）」跑赢黄金** → ② **本期要点（用户来信归纳，本库按「节目要点」记录，非逐字引述）**：**（a）周期定位：白银正处在一个类似 1974 年的「中期盘整」阶段**（**即大牛市中的休整，而非终点**）；**（b）美联储路径：最终走向「加息 → 暂停 → 印钞」的循环**（**这是其白银「大动作」的触发条件**）；**（c）市场操纵议题：他深入讨论贵金属市场操纵，并提出「如何把操纵化为自身优势」的策略****——即不否认操纵存在，而是把它当作交易结构来利用**；**（d）黄金 vs 白银：比较两者不同的投资属性**；**（e）矿业股：分析入场时机**；**（f）铀：他明确表示比看好金银更看好铀市场的前景**（**这是本期与其白银主论并列的第二条主论**）；**（g）宏观背景：所有分析都回归「全球债务陷阱」****——并强调持有实物贵金属在「对冲货币贬值、维护个人财富自由」中的作用** → ③ **与本库其既往条目的连贯性（可核对）**：**2026-08-07 其表述为「白银的『1979 时刻』还在前面——那一年它在 12 个月内涨了 8 倍」**；**2026-07-28 其给出「近期甚至中期可能更多横盘；终极催化剂是美联储对下一次大恐慌的反应」****——本次（10/02）的「1974 年式中期盘整 + 等美联储裂开」正是同一判断的延续** → ④ **本库贵金属板块的定位**：**Steve Penny 是库内唯一以「技术结构 + 周期类比」定调白银的人**（**对照：Rule #28（矿商才是真便宜）、Krauth #26（下一阶段属于白银股）、Streible #128（$100 动量）、Christian #192（$75 阻力/$55 支撑）、Yeung #197（条件式 $200+）、Tiggre #199（只问是否便宜）**）**——而「更看好铀」使其与库内铀主题（Maria Smirnova #90、Lobo Tiggre #199）形成交叉** → ⑤ ⚠️ **利益标注**：**他是 SilverChartist PRO 付费社群的创始人，其观点与其订阅产品同向**（**其官网自述提供「全透明的持仓演示、实时警报、月度策略会」**）；**节目本身由 Monetary Metals 赞助（广告为实物金银收益产品）** → ⑥ ⚠️ **来源限制**：**本条依据官方节目说明 + 用户来信归纳；未取得完整逐字稿**。来源：Commodity Culture 播客（主持 Jesse Day） 第 583 集（2026-10-02）",
+      "suggestion": "观察口径（其论点可逐项核对）：① **「1974 年式中期盘整」的检验**：**白银在 1974 年后的走势（先盘整后暴涨）——用同样的时间尺度对照当下**；② **美联储路径**：**其「加息→暂停→印钞」循环的判据是短端利率与资产负债表**（**停/印的边界：何时重启扩表、何时降息**）；③ **金银比**：其「白银大幅跑赢」的核心指标（**对照库内 Krauth #26 与 Christian #192 的金银比口径**）；④ **矿业股入场时机**：**其建议的触发条件（与 Krauth 的「白银股接力」并置）**；⑤ **铀**：**其「比金银更看好」的具体标的与周期位置**（**交叉 Maria Smirnova #90、Tiggre #199 连续两年的铀「亚军」定位**）；⑥ **实物贵金属**：**其对「财富自由/对冲贬值」的主张不计入价格判断，属长期配置层**。用法建议：**其条目按「周期类比（宏观）／金银比（相对）／矿股时机（执行）」三层引用**——与 Rule #28、Krauth #26 构成白银阵营的三条独立路径。",
+      "bull_bear": "🟢 强烈看多白银（相对黄金，大幅跑赢） | 🟢 看多铀（甚至强于金银） | 🟢 看多矿业股（择时入场） | 🟢 实物贵金属（对冲货币贬值） | 🔴 全球债务陷阱（宏观背景） | 🟡 当前阶段（1974 年式中期盘整）"
+    },
     {
       "id": "3f047eb5-fd3c-81ba-8b83-e3596b14516e",
       "name": "🟢 强烈看多 AI（加速主义）：Axel Springer 奖领奖前夕 Döpfner 深度访谈——AI 是打破半个世纪技术停滞的唯一契机；「即便灭绝风险 5-10% 也不该踩刹车，零增长社会比技术风险更可怕」；核心危机不是邪恶而是无能（99% 建制精英不称职）",
