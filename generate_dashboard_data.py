@@ -85,19 +85,23 @@ def _fetch_scan():
         body={"page_size":100}
         if cursor:body["start_cursor"]=cursor
         r=None
-        for _a in range(6):   # Notion 429 限流: 指数退避重试(5/10/15/20/25/30s), 超过则抛错
+        for _a in range(6):   # Notion 限流/瞬时错误: 指数退避重试(429/5xx/网络抖动)
             try:
                 r=json.load(urllib.request.urlopen(urllib.request.Request(
                     f"https://api.notion.com/v1/databases/{DB}/query",
                     data=json.dumps(body).encode(),headers=H,method="POST"),timeout=45))
                 break
             except urllib.error.HTTPError as e:
-                if e.code!=429: raise
+                if e.code not in (429,500,502,503,504): raise
                 wait=5*(_a+1)
-                print(f"  ⏳ Notion 429 限流, {wait}s 后重试 ({_a+1}/6)",file=sys.stderr)
+                print(f"  ⏳ Notion HTTP {e.code}, {wait}s 后重试 ({_a+1}/6)",file=sys.stderr)
+                time.sleep(wait)
+            except (urllib.error.URLError,ConnectionError,TimeoutError,OSError) as e:
+                wait=5*(_a+1)
+                print(f"  ⏳ Notion 网络抖动 {type(e).__name__}, {wait}s 后重试 ({_a+1}/6)",file=sys.stderr)
                 time.sleep(wait)
         if r is None:
-            raise RuntimeError("Notion query 连续 429 重试耗尽")
+            raise RuntimeError("Notion query 连续重试耗尽(429/5xx/网络抖动)")
         for row in r["results"]:
             P=row["properties"]
             out[row["id"]]={"id":row["id"],"name":txt(P.get("Name")),"kol_name":txt(P.get("Name of KOL")),
