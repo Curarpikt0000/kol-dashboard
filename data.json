@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14 22:50 JST",
+  "generated_at": "2026-10-15 22:06 JST",
   "date_range": {
     "start": "2024-07-19",
-    "end": "2026-10-09"
+    "end": "2026-10-14"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3920,
-    "total_rows": 3937,
+    "legged_rows": 3924,
+    "total_rows": 3941,
     "pct": 99.6
   },
   "today_signals": [
@@ -97,27 +97,27 @@
       "sector": "Precious Metals",
       "score": 88,
       "consensus": 88,
-      "weighted_sum": 231.1,
-      "bull": 1642,
+      "weighted_sum": 228.2,
+      "bull": 1646,
       "bear": 141,
       "neutral": 228,
-      "total": 2011,
-      "legs_bull": 2960,
-      "legs_bear": 229,
+      "total": 2015,
+      "legs_bull": 2969,
+      "legs_bear": 230,
       "legs_neutral": 189,
       "legs_split": 0,
-      "legs_total": 3378,
+      "legs_total": 3388,
       "strong_bull": 879,
       "strong_bear": 11,
-      "w_bull": 3839,
-      "w_bear": 240,
+      "w_bull": 3848,
+      "w_bear": 241,
       "avg": 0.07
     },
     {
       "sector": "Energy & Commodities",
       "score": 79,
       "consensus": 79,
-      "weighted_sum": 66.5,
+      "weighted_sum": 65.0,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -137,7 +137,7 @@
       "sector": "Crypto",
       "score": 51,
       "consensus": 51,
-      "weighted_sum": 29.4,
+      "weighted_sum": 28.7,
       "bull": 125,
       "bear": 20,
       "neutral": 31,
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -9,
       "consensus": 9,
-      "weighted_sum": 16.0,
+      "weighted_sum": 15.7,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -197,40 +197,40 @@
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -55.2,
+      "weighted_sum": -55.9,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 555,
-      "legs_bear": 1227,
+      "legs_bear": 1231,
       "legs_neutral": 182,
       "legs_split": 0,
-      "legs_total": 1964,
+      "legs_total": 1968,
       "strong_bull": 55,
       "strong_bear": 103,
       "w_bull": 610,
-      "w_bear": 1330,
+      "w_bear": 1334,
       "avg": -0.03
     },
     {
       "sector": "Government Debt",
       "score": -90,
       "consensus": 90,
-      "weighted_sum": -61.5,
+      "weighted_sum": -61.1,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
       "total": 163,
       "legs_bull": 62,
-      "legs_bear": 1130,
+      "legs_bear": 1132,
       "legs_neutral": 47,
       "legs_split": 0,
-      "legs_total": 1239,
+      "legs_total": 1241,
       "strong_bull": 1,
       "strong_bear": 72,
       "w_bull": 63,
-      "w_bear": 1202,
+      "w_bear": 1204,
       "avg": -0.05
     }
   ],
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 67,
       "consensus": 67,
-      "weighted_sum": 33.4,
+      "weighted_sum": 32.6,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -259,19 +259,19 @@
       "sector": "Precious Metals",
       "score": 63,
       "consensus": 63,
-      "weighted_sum": 47.7,
-      "bull": 1642,
+      "weighted_sum": 49.3,
+      "bull": 1646,
       "bear": 141,
       "neutral": 228,
-      "total": 2011,
-      "legs_bull": 777,
+      "total": 2015,
+      "legs_bull": 784,
       "legs_bear": 203,
       "legs_neutral": 161,
       "legs_split": 0,
-      "legs_total": 1141,
+      "legs_total": 1148,
       "strong_bull": 169,
       "strong_bear": 11,
-      "w_bull": 946,
+      "w_bull": 953,
       "w_bear": 214,
       "avg": 0.04
     },
@@ -299,7 +299,7 @@
       "sector": "Alternative",
       "score": 0,
       "consensus": 0,
-      "weighted_sum": 0.6,
+      "weighted_sum": 0.5,
       "bull": 18,
       "bear": 9,
       "neutral": 26,
@@ -319,27 +319,27 @@
       "sector": "Macro",
       "score": -34,
       "consensus": 34,
-      "weighted_sum": -21.3,
+      "weighted_sum": -21.9,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 179,
-      "legs_bear": 363,
+      "legs_bear": 365,
       "legs_neutral": 87,
       "legs_split": 0,
-      "legs_total": 629,
+      "legs_total": 631,
       "strong_bull": 12,
       "strong_bear": 22,
       "w_bull": 191,
-      "w_bear": 385,
+      "w_bear": 387,
       "avg": -0.03
     },
     {
       "sector": "Equities",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -25.7,
+      "weighted_sum": -25.1,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -359,20 +359,20 @@
       "sector": "Government Debt",
       "score": -78,
       "consensus": 78,
-      "weighted_sum": -16.7,
+      "weighted_sum": -17.3,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
       "total": 163,
       "legs_bull": 44,
-      "legs_bear": 350,
+      "legs_bear": 351,
       "legs_neutral": 38,
       "legs_split": 0,
-      "legs_total": 432,
+      "legs_total": 433,
       "strong_bull": 1,
       "strong_bear": 20,
       "w_bull": 45,
-      "w_bear": 370,
+      "w_bear": 371,
       "avg": -0.04
     }
   ],
@@ -381,27 +381,27 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 183.4,
-      "bull": 1642,
+      "weighted_sum": 178.9,
+      "bull": 1646,
       "bear": 141,
       "neutral": 228,
-      "total": 2011,
-      "legs_bull": 2183,
-      "legs_bear": 26,
+      "total": 2015,
+      "legs_bull": 2185,
+      "legs_bear": 27,
       "legs_neutral": 28,
       "legs_split": 0,
-      "legs_total": 2237,
+      "legs_total": 2240,
       "strong_bull": 710,
       "strong_bear": 0,
-      "w_bull": 2893,
-      "w_bear": 26,
+      "w_bull": 2895,
+      "w_bear": 27,
       "avg": 0.08
     },
     {
       "sector": "Energy & Commodities",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 33.1,
+      "weighted_sum": 32.4,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 29.6,
+      "weighted_sum": 28.9,
       "bull": 125,
       "bear": 20,
       "neutral": 31,
@@ -435,13 +435,13 @@
       "strong_bear": 7,
       "w_bull": 319,
       "w_bear": 48,
-      "avg": 0.1
+      "avg": 0.09
     },
     {
       "sector": "Equities",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 41.7,
+      "weighted_sum": 40.8,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -461,7 +461,7 @@
       "sector": "Alternative",
       "score": -7,
       "consensus": 7,
-      "weighted_sum": -0.7,
+      "weighted_sum": -0.6,
       "bull": 18,
       "bear": 9,
       "neutral": 26,
@@ -481,41 +481,41 @@
       "sector": "Macro",
       "score": -39,
       "consensus": 39,
-      "weighted_sum": -33.9,
+      "weighted_sum": -34.1,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 376,
-      "legs_bear": 864,
+      "legs_bear": 866,
       "legs_neutral": 95,
       "legs_split": 0,
-      "legs_total": 1335,
+      "legs_total": 1337,
       "strong_bull": 43,
       "strong_bear": 81,
       "w_bull": 419,
-      "w_bear": 945,
+      "w_bear": 947,
       "avg": -0.03
     },
     {
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -44.8,
+      "weighted_sum": -43.8,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
       "total": 163,
       "legs_bull": 18,
-      "legs_bear": 780,
+      "legs_bear": 781,
       "legs_neutral": 9,
       "legs_split": 0,
-      "legs_total": 807,
+      "legs_total": 808,
       "strong_bull": 0,
       "strong_bear": 52,
       "w_bull": 18,
-      "w_bear": 832,
-      "avg": -0.06
+      "w_bear": 833,
+      "avg": -0.05
     }
   ],
   "stance_changes": [
@@ -794,13 +794,13 @@
     "bull": [
       {
         "ticker": "黄金",
-        "count": 988,
-        "kols": 116
+        "count": 990,
+        "kols": 117
       },
       {
         "ticker": "白银",
-        "count": 529,
-        "kols": 87
+        "count": 531,
+        "kols": 88
       },
       {
         "ticker": "原油",
@@ -947,6 +947,19 @@
     ]
   },
   "kol_cards": [
+    {
+      "kol_name": "Mario Innecco 馬里奧·伊內科（maneco64 主理人／前倫敦政府債券期貨經紀人 20 年／奧地利學派／白銀定盤與債券機制批判）",
+      "sector": "Precious Metals",
+      "detail_sector": "白银实物市场与债券市场机制",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-10-14",
+      "latest_comments": "10/14 **Kitco News**（主持 Jeremy Szafron；**不入库**）（1:01:29）《Big Banks Are Trying to Keep Gold 'Under Control'》（**录制于 2026-10-14**） → ① **官方节目说明（原文口径，可核）**：**「9 月通膨率 3.7%，而黃金與白銀還是跌了。社會安全（Social Security）調",
+      "latest_title": "🟢 看多黄金白银（债券机制批判视角）：「大银行正试图把黄金『控制住』」——9 月通胀 3.7% 而金银仍跌；债券正在再次变成「没收凭证」；5% 美债与债券熊市；美国重估黄金可解锁约 $1 兆；1933 年没收黄金会重演吗；bail-in 预警信号",
+      "bull_bear": "🟢 看多黄金（$4,000 以上仍看多；大银行压价无效） | 🟢 看多白银（落后者将追赶） | 🔴 债券（「没收凭证」/债券熊市） | 🔴 法定货币（长期） | 🔴 银行体系（bail-in 风险） | 🟡 黄金重估（$1 兆解锁情景） | 🟢 实物金银行优先于矿商？",
+      "total_entries": 4,
+      "trend": "→"
+    },
     {
       "kol_name": "Tavi Costa 塔維·科斯塔（Azuria Capital 創始人兼 CEO / 前 Crescat Capital 合夥人 2013-2025 / 硬資產與礦業股超級週期）",
       "sector": "Precious Metals",
@@ -1114,7 +1127,7 @@
       "latest_title": "🟢 看多黄金（以黄金计价的清醒剂）：以黄金计价，纳指五年 >100% 的收益其实是亏 >20%，美债 12 年净亏 90%——「这不是笔误，这是犯罪」",
       "bull_bear": "🟢 黄金(唯一可靠的财富测度与保值手段) | 🔴 美股(以黄金计价实为亏损, AI 叙事=崩盘设置) | 🔴 美国国债(以黄金计价 12 年净亏 90%) | 🔴 美元购买力(无形税收/未持械抢劫) | 🔴 美国小企业与消费者(破产 +64%, 信心 50 年最差)",
       "total_entries": 42,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Peter Krauth",
@@ -1179,7 +1192,7 @@
       "latest_title": "🟢 看多黄金·大宗商品·能源 ｜ 🔴 60/40 已失效：建议 60% 股票 + 20% 商品 + 20% 能源，东亚货币低估是额外收益",
       "bull_bear": "🟢 黄金 | 🟢 大宗商品(综合) | 🟢 能源(含电力/造船/国防资本开支) | 🟢 东亚股市(韩日台中) | 🟢 东亚本土银行股 | 🔴 美债(长端/60-40 防御功能失效) | 🟡 东亚半导体龙头(中国追赶侵蚀利润率)",
       "total_entries": 22,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Luke Gromen",
@@ -1543,7 +1556,7 @@
       "latest_title": "🟢 看多 AI 基础设施：Chambers 称不投 AI 的国家将陷入经济衰退",
       "bull_bear": "🟢 AI 基础设施/半导体",
       "total_entries": 36,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "Andy Schectman",
@@ -2128,7 +2141,7 @@
       "latest_title": "🟢 看多原油：Bass 称沙特关闭霍尔木兹绕行管道、油价站上 $100 ｜ 🔴 警示开源 AI 输华国安风险",
       "bull_bear": "🟢 原油/能源 | ⚠️ AI 政策风险",
       "total_entries": 23,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Ronny Stoeferle",
@@ -2882,7 +2895,7 @@
       "latest_title": "强烈看多黄金：TD Daniel Ghali称全球市场正向战时经济转型，西方是本轮金价上涨主驱动力",
       "bull_bear": "看多: 黄金",
       "total_entries": 45,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Bert Dohmen 伯特·多曼（Dohmen Capital Research 創辦人 /《Wellington Letter》發行人 / 流動性與信用理論 / 50 年市場老兵）",
@@ -5788,6 +5801,16 @@
       "sector": "Equities",
       "kol_or_ib": "KOL",
       "active": true
+    },
+    {
+      "list_num": "212",
+      "name": "Mario Innecco 馬里奧·伊內科（maneco64 主理人／前倫敦政府債券期貨經紀人 20 年／奧地利學派／白銀定盤與債券機制批判）",
+      "scope": "① **貴金屬的定價機制（其獨有視角）**：**COMEX 庫存、期貨曲線、實物交割、金銀銀行（bullion banks）的頭寸與「誰真正設定金價」**；② **白銀的實物市場**：**中國的實物銀進口量、西方政府的戰略囤積缺位、以及「一旦西方醒悟就太遲」的窗口論**；③ **操縱議題**：**其主張金銀銀行對價格的操縱「已經失去效力（lost their edge）」——證據是白銀在 2026 年稍早衝到 $120**；④ **債券市場結構**：**「債券正在再次變成『沒收憑證（certificates of confiscation）』」＋ 5% 美債與債券熊市 ＋ 零準備金要求 ＋ 通膨與 CPI 的可信度**；⑤ **黃金重估（revaluation）**：**美國若重估其黃金可解鎖約 $1 兆****＋ 1933 年沒收黃金的歷史教訓（會不會重演）****＋ Judy Shelton 的黃金支撐債券主張 ＋ 「一個週末完成的重置（reset over a weekend）」**；⑥ **銀行紓困與 bail-in 的預警信號**；⑦ **聯準會與政治**：**Fed 主席 Warsh 是否會在期中選舉前升息；「什麼會壓垮黃金」**；⑧ **實物 vs 礦業股**：**持有礦商還是持有實物金銀（其取捨邏輯）**；⑨ **通膨與債務**：**把 $40 兆債務「通膨掉」＋ 崩壞性繁榮（crack-up boom）**。",
+      "bio": "**Mario Innecco —— 金融市場與宏觀經濟分析師，從業超過 25 年**。\n**⭐ 職業履歷（用戶來信所述「在倫敦從事政府債券期貨交易長達二十年」正確，此處補全）**：**職業生涯始於瑞士日內瓦的私人銀行業務（private banking）**；**其後在倫敦金融城（City of London）工作二十年，專精於交易所交易衍生品（exchange-traded derivatives）、政府債券、利率與更廣泛的經濟趨勢**；**期間為主要金融機構與企業客戶提供市場策略與風險管理建議**（**即其背景是「賣方經紀／衍生品交易台」，不是研究部出身**）。\n**其思想立場**：**奧地利經濟學派（Austrian School of Economics）的堅定支持者**。\n**自媒體平台**：**2015 年 11 月創立 YouTube 頻道 maneco64**（**定位：「另類經濟學與逆向觀點」；通過影片、部落格文章與社群媒體，向全球受眾講解法定貨幣體系的運作、金融市場、以及黃金與白銀等貴金屬的長期價值**）。\n**X：@maneco1964**；**LinkedIn：mario-innecco**。\n**⭐ 其分析特色（本库使用要点）**：**把「貴金屬定價機制」與「債券市場結構」連起來講****——即他從衍生品/債券交易台的視角看金銀：關注交易所庫存（COMEX）、期貨曲線與實物交割、金銀銀行（bullion banks）的頭寸與調期、以及國債殖利率與黃金的相對定價****——這使他在庫內與「宏觀敘事派」和「技術派」都不同**。\n⚠️ **立场标注**：**其觀點為奧地利學派／硬通貨立場（長期看多金銀、看空法定貨幣與債券），並透過 maneco64 頻道與內容合作變現——引用時須標注其立場與商業模式**（**注意：他此前曾作為嘉賓主持出現在庫內 #197 Eric Yeung 的來源頻道中，本庫當時按「主持人不入庫」處理；本次他以受訪嘉賓身分被收錄**）。",
+      "domain": "贵金属与商品周期",
+      "sector": "Precious Metals",
+      "kol_or_ib": "KOL",
+      "active": true
     }
   ],
   "weekly_reports": [
@@ -5923,6 +5946,42 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3fa47eb5-fd3c-816b-b2eb-df9f03a6c2ef",
+      "name": "🟢 看多黄金白银：〈为什么黄金涨势远未结束〉——金银牛市的四个驱动：去美元化、全球债务、地缘政治不确定性、从纸黄金转向实物市场；「黄金重估的可能性非常强」",
+      "kol_name": "Mario Innecco 馬里奧·伊內科（maneco64 主理人／前倫敦政府債券期貨經紀人 20 年／奧地利學派／白銀定盤與債券機制批判）",
+      "kol_or_ib": "KOL",
+      "date": "2026-01-30",
+      "sector": "Precious Metals",
+      "detail_sector": "白银实物市场与债券市场机制",
+      "comments": "01/30 **Palisades Gold Radio**（主持 Stijn Schmitz；**不入库**）（45:01；**录制于 2026-01-29**）《Mario Innecco: Why The Gold Rally Is Far From Over, 'Very Strong' Possibility for Gold Revaluation》 → ① ⭐ **官方节目说明（原文口径，可核）**：**「本期討論聚焦於當前黃金與白銀的牛市，由若干基本面因素驅動。Innecco 指出四個主要驅動因素：（a）去美元化（de-dollarization）、（b）全球債務挑戰、（c）地緣政治不確定性、（d）從紙黃金市場向實物貴金屬市場的轉變（the transition from a paper to a physical precious metals market）。去美元化趨勢尤其重要——各國正在尋求替代以美元主導的體系的方案。」** → ② **其身份自述（同一说明）**：**「金融與宏觀經濟分析師，也是 maneco64 YouTube 頻道的主理人」** → ③ ⭐ **标题所指**：**「黃金重估（gold revaluation）的可能性『非常強（very strong）』」——注意：他在 2026-01 就已提出此判断，早于 Summers #209 的 2025-11 与 2026-10 表述，两人构成本库「黄金重估」的两条独立路径** → ④ ⚠️ **来源限制**：**依据官方视频说明；未取得逐字稿**。**主持 Stijn Schmitz 不入库**。来源：Palisades Gold Radio（2026-01-30）",
+      "suggestion": "观察口径：① ⭐ **四驱动框架的可核对指标**：**（a）去美元化：各國央行黃金儲備、美元在全球儲備中的佔比、雙邊本幣結算協議數量；（b）全球債務：全球債務/GDP、主權利息支出；（c）地緣政治：衝突事件與黃金 ETF 流入的相關性；（d）紙→實物轉換：COMEX 庫存、交割量、實物溢價**；② **黃金重估的兩條路徑對照**：**Innecco（債券機制/交易台結構） vs Summers #209（國安/政策）****——建議在「黃金重估」主題下並列**；③ **去美元化與人民幣**：**对照库内 Nieuwenhuijs #170（中国秘密增持）与 #207 Logan Wright（人民币/资本外流）**。用法建议：**把这个「四驱动框架」做成貴金屬板塊的固定四欄**——**它是库内少数结构化的、可逐项跟踪的多头论证框架**。",
+      "bull_bear": "🟢 看多黄金（涨势远未结束） | 🟢 看多白银 | 🟢 黄金重估（可能性「非常强」） | 🟢 实物贵金属（纸→实物的转变） | 🔴 美元体系（去美元化）"
+    },
+    {
+      "id": "3fa47eb5-fd3c-8184-9402-ff14f0d3547a",
+      "name": "🟢 强烈看多白银：〈白银操纵者正在失效——重回 $120 将「非常快」〉——当前银价是便宜货；金银银行（bullion banks）已失去压制能力（证据是今年稍早银价冲到 $120）；一旦回到三位数，可能再也回不去了",
+      "kol_name": "Mario Innecco 馬里奧·伊內科（maneco64 主理人／前倫敦政府債券期貨經紀人 20 年／奧地利學派／白銀定盤與債券機制批判）",
+      "kol_or_ib": "KOL",
+      "date": "2026-09-03",
+      "sector": "Precious Metals",
+      "detail_sector": "白银实物市场与债券市场机制",
+      "comments": "09/03 **Commodity Culture（主持 Jesse Day；不入库）**《Silver Manipulators Failing - Move Back to $120 Will Be 'Very Quick': Mario Innecco》（**本条极可能即用户来信所指访谈**） → ① ⭐ **官方节目说明（原文口径，可核）**：**「Mario Innecco 認為當前白銀價格是便宜貨（a bargain），而他認為那些試圖操縱白銀價格的金銀銀行（bullion banks）與其他不良勢力已經失去了效力（lost their edge）——證據是白銀今年稍早那令人難以置信的衝到 $120 的行情。」**；**「Mario 認為這一次，重回三位數（triple digits）的路可能在眨眼之間發生，而一旦發生，可能就再也回不去了（there could be no turning back）。」** → ② ⭐ **核心数据点（本库必记）**：**白銀在 2026 年稍早曾衝到 $120**（**这与其「操縱失效」的論據直接相連；并与本库 2026-09 至 10 月的「金銀閃崩／白銀腰斬」市场事实构成同一段行情**） → ③ **本库读法（库里白银阵营的位置）**：**Innecco 是库内白银阵营的第 5 条路径：「實物市場 + 交易所庫存 + 金銀銀行頭寸」的機制派****（对照 Penny #36 技术周期／Krauth #26 白银股接力／Rule #28 矿商真便宜／Tavi #208 工业需求 + 储量枯竭）****——只有他把「操縱者失效」作為價格判斷的第一依據，且給出 $120 的具體價位** → ④ **与 #212 十天前/后的其他条目呼应**：**其 10-14 仍称「大銀行試圖把黃金控制住」——即其「操縱」框架在兩個時間點一致（但對黃金與白銀的措辭不同：黃金是『被控制』、白銀是『操縱者已失效』）** → ⑤ ⚠️ **利益标注**：**奥地利学派／硬通货立场；频道与内容合作变现；节目由 Monetary Metals 赞助** → ⑥ ⚠️ **来源限制**：**依据官方节目说明；未取得逐字稿**。**主持 Jesse Day 不入库**。来源：Commodity Culture（主持 Jesse Day；不入库）（2026-09-03）",
+      "suggestion": "观察口径：① ⭐ **白銀 $120 的可核对事实**：**2026 年白銀的高點與時間（現貨與期貨）；以及回落幅度（本库备注：中文自媒体曾以「白銀腰斬」描述这段行情）**；② ⭐ **「操縱者失效」的可驗證代理**：**COMEX 白銀庫存、註冊/合格庫存比、期貨未平倉量、以及現貨溢價（如 12% 溢價的持續性）****——其「失效」的判據，可直接跟蹤**；③ **「重回三位數會非常快」**：**其時間框架為「眨眼之間（in the blink of an eye）」——無具體日期，屬條件式判斷****（对照库内 Streible #128 的 $100、Yeung #197 的条件式 $200+、Tavi #208 的长期三位数）**；④ **中國實物銀進口**：**海關數據與 SGE 交割量（其 5 月條目的同一指標）**。用法建议：**把 ①②③ 併入貴金屬板塊的「白銀價位口徑表」****——現有六個價位口徑（$100 / $120 / $200+ / 三位數 / 不猜價位）需要一張對照表**。",
+      "bull_bear": "🟢 强烈看多白银（$120 将「非常快」重现） | 🟢 白银当前价格是便宜货 | 🔴 金银银行的操纵能力（已失效） | 🟢 实物白银"
+    },
+    {
+      "id": "3fa47eb5-fd3c-8165-ad33-ef0a6160bc01",
+      "name": "🟢 看多黄金白银（债券机制批判视角）：「大银行正试图把黄金『控制住』」——9 月通胀 3.7% 而金银仍跌；债券正在再次变成「没收凭证」；5% 美债与债券熊市；美国重估黄金可解锁约 $1 兆；1933 年没收黄金会重演吗；bail-in 预警信号",
+      "kol_name": "Mario Innecco 馬里奧·伊內科（maneco64 主理人／前倫敦政府債券期貨經紀人 20 年／奧地利學派／白銀定盤與債券機制批判）",
+      "kol_or_ib": "KOL",
+      "date": "2026-10-14",
+      "sector": "Precious Metals",
+      "detail_sector": "白银实物市场与债券市场机制",
+      "comments": "10/14 **Kitco News**（主持 Jeremy Szafron；**不入库**）（1:01:29）《Big Banks Are Trying to Keep Gold 'Under Control'》（**录制于 2026-10-14**） → ① **官方节目说明（原文口径，可核）**：**「9 月通膨率 3.7%，而黃金與白銀還是跌了。社會安全（Social Security）調升 3.6%，對平均退休者而言每月多約 $75。maneco64 的主理人、前倫敦債券期貨經紀人 Mario Innecco 說那跟不上，而大銀行正試圖把黃金『控制住（under control）』。」** → ② ⭐ **节目列出的完整提问（即其论点结构，可逐项核对）**：**（a）為何在債券殖利率處於數十年高位時，黃金仍在 $4,000 以上；（b）你能信任 CPI 嗎；（c）為何他說債券正在「再次變成沒收憑證（certificates of confiscation）」；（d）Fed 主席 Warsh 會不會在期中選舉前升息；（e）美國如何能通過重估其黃金解鎖約 $1 兆（unlock about $1 trillion by revaluing its gold）；（f）1933 年關於黃金沒收的歷史教訓；（g）銀行 bail-in 的預警信號；（h）該持有礦商還是持有實物金銀** → ③ **完整章节（含时间戳，可定位）**：**0:00 通膨 3.7% 而黃金下跌｜1:20 為何熱通膨下黃金反而跌｜3:50 有人正在壓制金銀嗎｜6:10 你能信任 CPI 嗎｜10:50 零準備金要求｜12:00 社會安全調升：誰先受損｜15:40 聯準會真的在對抗通膨嗎｜19:00 Warsh 會在期中選舉前升息嗎｜21:50 什麼會壓垮黃金｜24:00 5% 美債與債券熊市｜27:40 沒收憑證（Certificates of Confiscation）｜30:20 把 $40 兆債務通膨掉｜31:40 崩壞性繁榮（The Crack-Up Boom）｜34:30 誰真正設定金價｜36:00 黃金週（Golden Week）與金銀銀行｜38:00 為何白銀落後黃金｜41:00 重估美國黃金：$1 兆｜44:40 Judy Shelton 的黃金支撐債券｜47:00 1933 年黃金沒收：會重演嗎｜49:20 一個週末完成的重置（A Reset Over a Weekend）｜51:20 銀行 bail-in 預警信號｜53:50 礦商還是實物金屬｜56:00 金銀年底展望｜58:00 與 Fed 主席 Warsh 的 10 分鐘** → ④ **本库读法（其独有角度）**：**這是庫內唯一把「金銀價格」與「債券市場結構（零準備金、bail-in、沒收憑證、重估）」放在同一條邏輯鏈上講的人****——其視角來自倫敦衍生品／政府債券交易台 20 年經驗****（對照庫內 Graham Summers #209 的黃金重估論：Summers 從國安/政策切入，Innecco 從債券機制與交易台結構切入——兩者構成本庫「黃金重估」的兩條路徑）** → ⑤ **与库内债市立场矩阵的关系**：**「5% 美債與債券熊市」＋「債券變成沒收憑證」屬 `docs/bond-stance-matrix.md` 的 C 組（看空長端）****——但他給出的理由不是通膨或財政，而是「機制性沒收（透過通膨與金融壓抑）」** → ⑥ ⚠️ **利益标注**：**奧地利學派／硬通貨立場；maneco64 頻道與內容合作變現；節目由 Monetary Metals 贊助（實物金銀收益產品）** → ⑦ ⚠️ **来源限制**：**依据官方视频说明与完整章节；未取得逐字稿**（**章节标题即其论点结构，可逐项核对**）。**主持 Jeremy Szafron 不入库**。来源：Kitco News（2026-10-14）",
+      "suggestion": "观察口径（每一项都可核对）：① ⭐ **「大銀行壓制金價」的可驗證代理**：**COMEX 黃金/白銀庫存、期貨曲線（contango/backwardation）、以及金銀銀行的淨頭寸（CFTC 持倉報告）****——他自述的判斷依據，可直接對照數據**；② **「債券＝沒收憑證」的量化**：**美債的實質收益率（名目殖利率 － CPI）＋ 5% 名目殖利率在 3.7% 通膨下的實質回報****——其論點的核心算式**；③ ⭐ **黃金重估的 $1 兆算式**：**美國黃金儲備（約 8,133 噸）按法定 42.22 美元/盎司 vs 市價（$4,000+）的差額****——可直接算出（本庫建議做成固定跟蹤項，與 Summers #209 共用）**；④ **零準備金要求（zero reserve requirement）**：**美國銀行體系的準備金制度現狀****——其論點的前提條件**；⑤ **bail-in 預警信號**：**其列出的具體指標（銀行 CDS、存款保險改革、G-SIB 處置計畫）**；⑥ **礦商 vs 實物**：**其取捨邏輯與庫內 Rule #28、Krauth #26 並置**；⑦ **通膨數據可信度**：**其對 CPI 的質疑（可對照 TIPS 市場的盈虧平衡通膨率）**。用法建议：**把 ③ 做成「黃金重估算術」固定欄，與 #209 並列引用****——這是本庫目前唯一可以量化的政策情景。**",
+      "bull_bear": "🟢 看多黄金（$4,000 以上仍看多；大银行压价无效） | 🟢 看多白银（落后者将追赶） | 🔴 债券（「没收凭证」/债券熊市） | 🔴 法定货币（长期） | 🔴 银行体系（bail-in 风险） | 🟡 黄金重估（$1 兆解锁情景） | 🟢 实物金银行优先于矿商？"
+    },
     {
       "id": "3f947eb5-fd3c-81e9-a470-fefc06f18952",
       "name": "🟢 看多中国 EV 平台化（⚠️ 自述持有 NIO）：〈EV 战争结束了，平台战开始了〉——蔚来深度分析：高端用户生态、电池交换、NIO Power，是否在建造「能源与基础设施平台」；欧洲车厂必须与中企合作否则输掉平台战",
@@ -53166,6 +53225,18 @@
       "comments": "通胀环境下，资源价格上涨将显著提升优质矿企利润率，其经营杠杆效应巨大，是当前最佳配置。",
       "suggestion": "买入管理优秀、资产负债表健康的黄金白银矿企，如FNV, WPM, GORO。",
       "bull_bear": "🟢优质矿企/资源股"
+    },
+    {
+      "id": "3fa47eb5-fd3c-81a5-9513-fcb88214eb8c",
+      "name": "🟢 看多白银（战略资源视角）：〈西方領導人正在把白銀的大局搞砸——「从他们的愚蠢中获利」〉——美国与欧盟在实物白银囤积上掉链子，中国以创纪录进口量超越他们；趁便宜把白银从市场上拿走",
+      "kol_name": "Mario Innecco 馬里奧·伊內科（maneco64 主理人／前倫敦政府債券期貨經紀人 20 年／奧地利學派／白銀定盤與債券機制批判）",
+      "kol_or_ib": "KOL",
+      "date": "2026-05-06",
+      "sector": "Precious Metals",
+      "detail_sector": "白银实物市场与债券市场机制",
+      "comments": "05/06 **Commodity Culture（主持 Jesse Day；不入库）**（录制 2026-05-04）《Western Leaders Fumbling SILVER Setup - 'Profit Off Their Stupidity': Mario Innecco》 → ① ⭐ **官方节目说明（原文口径，可核）**：**「Mario Innecco 認為美國與歐盟的領導人在囤積實物白銀這件事上正在掉鏈子（dropping the ball），因為中國以創紀錄的進口量超越了他們。Mario 指出，這對囤積者（stackers）是一份禮物：我們都可以通過從政治精英的愚蠢中獲利——趁便宜把白銀從市場上拿走（taking silver off the market at bargain prices）；因為一旦西方終於醒悟到白銀真正的戰略與貨幣重要性，可能就太遲了。」** → ② ⭐ **其论点结构**：**（a）白銀是戰略資源（不只是貨幣資產）；（b）中國正在以創紀錄進口量囤積，而美歐沒有；（c）因此西方的政策失誤＝個人的買入窗口；（d）一旦西方醒悟，窗口關閉** → ③ **本库读法**：**这是库内把「白银＝战略资源」讲得最直白的一条****——与 Tavi #208「白銀的關鍵礦產角色＋工業需求」、Penny #36「1974 式盘整」形成三个不同维度的白银战略论**；**其「从政治精英的愚蠢中获利」的措辞也使其成为库内立场最尖锐的白银多头之一** → ④ ⚠️ **来源限制**：**依据官方节目说明；未取得逐字稿**。**主持 Jesse Day 不入库**。来源：Commodity Culture（主持 Jesse Day；不入库）（2026-05-06）",
+      "suggestion": "观察口径：① ⭐ **中國實物白銀進口的可核对数据**：**中國海關白銀進口量、上海黃金交易所（SGE）白銀交割量****——其「创纪录进口」主张的直接检验**；② **西方政府的囤积缺位**：**美國國防後勤局（DLA）與歐洲各國的白銀戰略庫存政策與採購****（对照库内 Summers #209 的「关键矿产/国安」框架）**；③ ⭐ **白銀的「戰略資源」定性**：**是否被列入關鍵礦產清單（可对照 Tavi #208 的同一问题）**；④ **「bargain prices」的定位**：**其 5 月发文时的银价 vs 9 月「$120 将很快重现」的时间线****——把两个时点连起来看其判断的连续性**。用法建议：**把 ① ② ③ 做成「白銀戰略屬性跟蹤表」****——这是本库白银板块中唯一以「政府囤积 vs 中国进口」为主线的角度。**",
+      "bull_bear": "🟢 看多白银（战略资源＋便宜货窗口） | 🟢 看多实物白银 | 🔴 西方政府（囤积失职/掉链子） | 🟢 中国白银进口（创纪录）"
     }
   ]
 }
