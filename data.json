@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-10-15 22:06 JST",
+  "generated_at": "2026-10-16 23:14 JST",
   "date_range": {
     "start": "2024-07-19",
     "end": "2026-10-14"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3924,
-    "total_rows": 3941,
+    "legged_rows": 3925,
+    "total_rows": 3942,
     "pct": 99.6
   },
   "today_signals": [
+    {
+      "type": "反转",
+      "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
+      "sector": "Precious Metals",
+      "date": "2026-10-12",
+      "desc": "看空→看多",
+      "signal": "高"
+    },
     {
       "type": "反转",
       "kol_name": "Mike McGlone 麥克·麥格隆（Bloomberg Intelligence 高級大宗商品策略師 / 通縮派 / 「BI COMD」主導者）",
@@ -82,14 +90,6 @@
       "date": "2026-09-20",
       "desc": "看空→看多",
       "signal": "高"
-    },
-    {
-      "type": "反转",
-      "kol_name": "Michael Hudson 邁克爾·哈德森（UMKC 經濟學傑出研究教授 /《超級帝國主義》作者 / 債務史與地緣政治經濟學）",
-      "sector": "Precious Metals",
-      "date": "2026-09-19",
-      "desc": "看空→看多",
-      "signal": "高"
     }
   ],
   "sector_summary": [
@@ -97,19 +97,19 @@
       "sector": "Precious Metals",
       "score": 88,
       "consensus": 88,
-      "weighted_sum": 228.2,
-      "bull": 1646,
+      "weighted_sum": 223.9,
+      "bull": 1647,
       "bear": 141,
       "neutral": 228,
-      "total": 2015,
-      "legs_bull": 2969,
+      "total": 2016,
+      "legs_bull": 2970,
       "legs_bear": 230,
       "legs_neutral": 189,
       "legs_split": 0,
-      "legs_total": 3388,
+      "legs_total": 3389,
       "strong_bull": 879,
       "strong_bear": 11,
-      "w_bull": 3848,
+      "w_bull": 3849,
       "w_bear": 241,
       "avg": 0.07
     },
@@ -117,19 +117,19 @@
       "sector": "Energy & Commodities",
       "score": 79,
       "consensus": 79,
-      "weighted_sum": 65.0,
+      "weighted_sum": 65.3,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
       "total": 271,
-      "legs_bull": 663,
+      "legs_bull": 665,
       "legs_bear": 86,
       "legs_neutral": 55,
       "legs_split": 0,
-      "legs_total": 804,
+      "legs_total": 806,
       "strong_bull": 62,
       "strong_bear": 1,
-      "w_bull": 725,
+      "w_bull": 727,
       "w_bear": 87,
       "avg": 0.08
     },
@@ -137,19 +137,19 @@
       "sector": "Crypto",
       "score": 51,
       "consensus": 51,
-      "weighted_sum": 28.7,
+      "weighted_sum": 28.9,
       "bull": 125,
       "bear": 20,
       "neutral": 31,
       "total": 176,
-      "legs_bull": 323,
+      "legs_bull": 324,
       "legs_bear": 119,
       "legs_neutral": 38,
       "legs_split": 0,
-      "legs_total": 480,
+      "legs_total": 481,
       "strong_bull": 80,
       "strong_bear": 12,
-      "w_bull": 403,
+      "w_bull": 404,
       "w_bear": 131,
       "avg": 0.06
     },
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -9,
       "consensus": 9,
-      "weighted_sum": 15.7,
+      "weighted_sum": 15.3,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -197,27 +197,27 @@
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -55.9,
+      "weighted_sum": -55.6,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 555,
-      "legs_bear": 1231,
-      "legs_neutral": 182,
+      "legs_bear": 1232,
+      "legs_neutral": 183,
       "legs_split": 0,
-      "legs_total": 1968,
+      "legs_total": 1970,
       "strong_bull": 55,
       "strong_bear": 103,
       "w_bull": 610,
-      "w_bear": 1334,
+      "w_bear": 1335,
       "avg": -0.03
     },
     {
       "sector": "Government Debt",
       "score": -90,
       "consensus": 90,
-      "weighted_sum": -61.1,
+      "weighted_sum": -59.7,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
@@ -237,21 +237,21 @@
   "sector_summary_short": [
     {
       "sector": "Energy & Commodities",
-      "score": 67,
-      "consensus": 67,
-      "weighted_sum": 32.6,
+      "score": 68,
+      "consensus": 68,
+      "weighted_sum": 33.7,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
       "total": 271,
-      "legs_bull": 290,
+      "legs_bull": 292,
       "legs_bear": 63,
       "legs_neutral": 47,
       "legs_split": 0,
-      "legs_total": 400,
+      "legs_total": 402,
       "strong_bull": 34,
       "strong_bear": 0,
-      "w_bull": 324,
+      "w_bull": 326,
       "w_bear": 63,
       "avg": 0.08
     },
@@ -259,19 +259,19 @@
       "sector": "Precious Metals",
       "score": 63,
       "consensus": 63,
-      "weighted_sum": 49.3,
-      "bull": 1646,
+      "weighted_sum": 49.1,
+      "bull": 1647,
       "bear": 141,
       "neutral": 228,
-      "total": 2015,
-      "legs_bull": 784,
+      "total": 2016,
+      "legs_bull": 785,
       "legs_bear": 203,
       "legs_neutral": 161,
       "legs_split": 0,
-      "legs_total": 1148,
+      "legs_total": 1149,
       "strong_bull": 169,
       "strong_bear": 11,
-      "w_bull": 953,
+      "w_bull": 954,
       "w_bear": 214,
       "avg": 0.04
     },
@@ -279,21 +279,21 @@
       "sector": "Crypto",
       "score": 1,
       "consensus": 1,
-      "weighted_sum": -0.2,
+      "weighted_sum": 0.7,
       "bull": 125,
       "bear": 20,
       "neutral": 31,
       "total": 176,
-      "legs_bull": 69,
+      "legs_bull": 70,
       "legs_bear": 78,
       "legs_neutral": 27,
       "legs_split": 0,
-      "legs_total": 174,
+      "legs_total": 175,
       "strong_bull": 15,
       "strong_bear": 5,
-      "w_bull": 84,
+      "w_bull": 85,
       "w_bear": 83,
-      "avg": -0.0
+      "avg": 0.0
     },
     {
       "sector": "Alternative",
@@ -319,27 +319,27 @@
       "sector": "Macro",
       "score": -34,
       "consensus": 34,
-      "weighted_sum": -21.9,
+      "weighted_sum": -22.3,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 179,
-      "legs_bear": 365,
-      "legs_neutral": 87,
+      "legs_bear": 366,
+      "legs_neutral": 88,
       "legs_split": 0,
-      "legs_total": 631,
+      "legs_total": 633,
       "strong_bull": 12,
       "strong_bear": 22,
       "w_bull": 191,
-      "w_bear": 387,
-      "avg": -0.03
+      "w_bear": 388,
+      "avg": -0.04
     },
     {
       "sector": "Equities",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -25.1,
+      "weighted_sum": -24.5,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -359,7 +359,7 @@
       "sector": "Government Debt",
       "score": -78,
       "consensus": 78,
-      "weighted_sum": -17.3,
+      "weighted_sum": -16.9,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
@@ -381,11 +381,11 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 178.9,
-      "bull": 1646,
+      "weighted_sum": 174.8,
+      "bull": 1647,
       "bear": 141,
       "neutral": 228,
-      "total": 2015,
+      "total": 2016,
       "legs_bull": 2185,
       "legs_bear": 27,
       "legs_neutral": 28,
@@ -401,7 +401,7 @@
       "sector": "Energy & Commodities",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 32.4,
+      "weighted_sum": 31.6,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -421,7 +421,7 @@
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 28.9,
+      "weighted_sum": 28.2,
       "bull": 125,
       "bear": 20,
       "neutral": 31,
@@ -441,7 +441,7 @@
       "sector": "Equities",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 40.8,
+      "weighted_sum": 39.8,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -481,7 +481,7 @@
       "sector": "Macro",
       "score": -39,
       "consensus": 39,
-      "weighted_sum": -34.1,
+      "weighted_sum": -33.3,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
@@ -495,13 +495,13 @@
       "strong_bear": 81,
       "w_bull": 419,
       "w_bear": 947,
-      "avg": -0.03
+      "avg": -0.02
     },
     {
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -43.8,
+      "weighted_sum": -42.8,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
@@ -519,6 +519,15 @@
     }
   ],
   "stance_changes": [
+    {
+      "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
+      "sector": "Precious Metals",
+      "date": "2026-10-12",
+      "from": "看空",
+      "to": "看多",
+      "title": "🟢 看多黄金与比特币（「中国在印钱，钱只能去黄金」）：全球流动性周期已见顶；PBoC 资产负债表自 ",
+      "signal": "高"
+    },
     {
       "kol_name": "Mike McGlone 麥克·麥格隆（Bloomberg Intelligence 高級大宗商品策略師 / 通縮派 / 「BI COMD」主導者）",
       "sector": "Government Debt",
@@ -779,22 +788,13 @@
       "to": "看多",
       "title": "🟢 看多区域多边架构（亚洲/南太平洋）：「为一个不安定的世纪准备的架构」——亚洲与南太平洋需要一份受",
       "signal": "高"
-    },
-    {
-      "kol_name": "Jeff Snider",
-      "sector": "Macro",
-      "date": "2026-09-07",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多美元（离岸）：伊朗战争可能引爆「多年来最严重的美元短缺」——与 Brent Johnson ",
-      "signal": "高"
     }
   ],
   "ticker_heatmap": {
     "bull": [
       {
         "ticker": "黄金",
-        "count": 990,
+        "count": 991,
         "kols": 117
       },
       {
@@ -809,8 +809,8 @@
       },
       {
         "ticker": "比特币",
-        "count": 121,
-        "kols": 24
+        "count": 122,
+        "kols": 25
       },
       {
         "ticker": "黄金/白银",
@@ -961,6 +961,19 @@
       "trend": "→"
     },
     {
+      "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
+      "sector": "Precious Metals",
+      "detail_sector": "全球流动性与货币周期",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-10-12",
+      "latest_comments": "10/12 **The Royalty King Report（主持 Benjamin Demase「Ben」；theroyaltyking.com；不入库）**（1:01:35；**本条即用户来信所述访谈**）《China Is Printing Money, and Gold Wins | Michael Howell》 → ① ⭐ **官方节目说明（原文口径，可核）**：**「中國正在悄悄地",
+      "latest_title": "🟢 看多黄金与比特币（「中国在印钱，钱只能去黄金」）：全球流动性周期已见顶；PBoC 资产负债表自 2022 年翻倍；⭐ 他认为驱动黄金的是中国（而非俄乌）；金油比指向「油价要涨得多」；黄金与比特币是核心持仓；但美元远未死亡",
+      "bull_bear": "🟢 看多黄金（中国印钱驱动） | 🟢 看多比特币（核心持仓） | 🟢 看多石油（金油比指向大涨） | 🟢 看多商品（周期位置） | 🟡 债券（⚠️ 9-27 曾主张久期 10-15%，本次未提，需下条确认） | 🔴 全球流动性条件（周期已见顶） | 🟡 美元（远未死亡——反驳美元崩溃论）",
+      "total_entries": 7,
+      "trend": "→"
+    },
+    {
       "kol_name": "Tavi Costa 塔維·科斯塔（Azuria Capital 創始人兼 CEO / 前 Crescat Capital 合夥人 2013-2025 / 硬資產與礦業股超級週期）",
       "sector": "Precious Metals",
       "detail_sector": "硬资产与矿业股超级周期",
@@ -1063,19 +1076,6 @@
       "bull_bear": "🔴 看空中国经济（衰变而非崩溃） | 🔴 看空「战略产业接棒」叙事（仅占 GDP 约 6%） | 🔴 看空就业与消费（1,200 万毕业生） | 🟡 是否仍具「系统性经济竞争」地位（其主张已不再是；Setser 反驳） | 🔴 房地产/LGFV（续命而非出清）",
       "total_entries": 2,
       "trend": "↘ 趋空"
-    },
-    {
-      "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
-      "sector": "Macro",
-      "detail_sector": "全球流动性与货币周期",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-09-29",
-      "latest_comments": "09/29 **Capital Wars《Global Liquidity Watch: Weekly Update》**（副题《Shadow Monetary Base Dips. Bond Volatility Rises》）① **总量与基础的分裂（他最重要的每周读数）**：**全球流动性创纪录 US$196.3 万亿**，但**「基础流动性（underlying liquidity）」处 ",
-      "latest_title": "🔴 看空流动性条件（短期）：全球流动性创纪录 US$196.3 万亿，但基础流动性处 16 个月低位——债券波动率上升是主要风险",
-      "bull_bear": "🔴 基础流动性（16 个月低位） | 🔴 抵押品价值（走弱） | 🔴 中国流动性增速（放缓） | 🔴 债券波动率（上升＝风险） | 🟢 全球流动性总量（创纪录 US$196.3 万亿） | 🟡 风险偏好（仍高但与风险错位）",
-      "total_entries": 6,
-      "trend": "→"
     },
     {
       "kol_name": "Jamie Dimon 傑米·戴蒙（JPMorgan Chase 董事長兼 CEO / 年度股東信作者 / 公共政策評論者）",
@@ -1829,7 +1829,7 @@
       "latest_title": "🟡 中性（质疑银行股「史上最强」叙事）：Gilburt 称银行财报要「再看一眼」",
       "bull_bear": "🟡 美国银行股（质疑多头叙事）",
       "total_entries": 5,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Vince Lanci",
@@ -1907,7 +1907,7 @@
       "latest_title": "🟢 看多黄金/铜：Giustra 称战争与金属已不可分割，长期战争=长期多头",
       "bull_bear": "🟢 黄金、铜",
       "total_entries": 21,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Felix Prehn",
@@ -1920,7 +1920,7 @@
       "latest_title": "🟡 中性（给定关键限定）：「高盛说 $4,000 是底价、可能到 $4,900」——但「$4,000 是他们的预测，不是承诺」；八大行两周内观点几乎一致",
       "bull_bear": "🟢 黄金（机构目标价普遍上移＋结构阶段） | 🟢 央行购金与中国需求 | 🟢 黄金矿业 | 🔴 「目标价＝承诺」的误读 | 🔴 投资者组合的 AI 集中度（买金≠分散）",
       "total_entries": 9,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Craig Fuller 克雷格·福勒（FreightWaves 創始人兼 CEO / SONAR 貨運實時數據 / 前 TransCard 創始人 / FLYING Magazine CEO）",
@@ -1985,7 +1985,7 @@
       "latest_title": "🟢 看多黄金：Wagner 称 $4,000 是 Fed 的「活动地板」，$4,350 不破多头结构在",
       "bull_bear": "🟢 黄金、白银 ｜ 关键位 $4,350（12 月期金）",
       "total_entries": 5,
-      "trend": "↗ 趋多"
+      "trend": "→"
     },
     {
       "kol_name": "David Hunter",
@@ -5946,6 +5946,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "3fb47eb5-fd3c-81f8-b00d-c9ee9dfb9790",
+      "name": "🟢 看多黄金与比特币（「中国在印钱，钱只能去黄金」）：全球流动性周期已见顶；PBoC 资产负债表自 2022 年翻倍；⭐ 他认为驱动黄金的是中国（而非俄乌）；金油比指向「油价要涨得多」；黄金与比特币是核心持仓；但美元远未死亡",
+      "kol_name": "Michael Howell 邁克爾·豪威爾（CrossBorder Capital 創辦人兼 CEO /「全球流動性之王」/《Capital Wars》作者 / 前所羅門兄弟研究總監）",
+      "kol_or_ib": "KOL",
+      "date": "2026-10-12",
+      "sector": "Precious Metals",
+      "detail_sector": "全球流动性与货币周期",
+      "comments": "10/12 **The Royalty King Report（主持 Benjamin Demase「Ben」；theroyaltyking.com；不入库）**（1:01:35；**本条即用户来信所述访谈**）《China Is Printing Money, and Gold Wins | Michael Howell》 → ① ⭐ **官方节目说明（原文口径，可核）**：**「中國正在悄悄地印錢，而 Michael Howell 說那些錢除了黃金無處可去。全球流動性週期已經見頂，而你現在如何配置才是關鍵。」**；**「Michael Howell（CrossBorder Capital）回到 The Royalty King Podcast，解釋為何全球流動性已經掉頭向下、為何中國人民銀行（PBoC）的資產負債表自 2022 年以來已經翻倍、以及為何他認為驅動黃金暴漲的主要催化劑是中國——而不是俄羅斯或烏克蘭。」**；**「我們涵蓋中國的雙軌人民幣（two-tier yuan）與其黃金支撐的野心、西方市場面臨的債務到期牆（debt maturity wall）、為何他認為美元遠未走向死亡、金油比（gold-oil ratio）及其對油價的含義、以及我們在債券、股票與商品的週期中處於何處。」** → ② ⭐ **其核心论点（本库特别标注）**：**（a）全球流動性週期已見頂（延續其 2025-12 以來的判斷）；（b）PBoC 資產負債表自 2022 年翻倍——中國在印錢；（c）⭐ 黃金暴漲的主催化劑是中國，不是俄烏戰爭****（这是一条可检验的因果断言：把金价归因于中国人民银行资产负债表扩张）；（d）中國的雙軌人民幣與黃金支撐野心；（e）西方的債務到期牆 → 黃金與比特幣是核心持倉（core holdings）；（f）市場領先聯準會，而非聯準會領導市場；（g）美元遠未死亡（其对「美元崩溃论」的明确反驳）；（h）金油比指向油價要「高得多」** → ③ **完整章节（含时间戳，可定位）**：**0:23 全球流動性已見頂：原因在此｜3:47 經濟強勁，但市場乘數在收縮｜8:07 中國脫節：實質增長更接近 1-2%｜9:55 為何是中國（而非俄羅斯）驅動了金價｜23:37 中國的雙軌人民幣與黃金支撐野心｜30:11 債務到期牆：為何黃金與比特幣是核心持倉｜35:20 市場領先聯準會，而非相反｜38:29 美國應該重估其黃金嗎？為何美元沒有走向死亡｜45:37 金油比與看多油價的理由｜49:25 我們在週期中的位置：現在該持有什么｜59:07 趨勢 vs 週期：回調時買入黃金與比特幣** → ④ ⚠️ **本库方向性提示（与其次条目的对照）**：**其在 2026-09-27 的核心表述是「長久期美債 12 個月 10-15%」（本库 `docs/bond-stance-matrix.md` 把他列为「久期派」4 位之一）**；**而本次（10-12）他把「黃金與比特幣」列为核心持仓、並認為油價要大幅上行****——即其 10 月的資產排序是「商品/黃金/比特幣 > 債券」（请注意：这可能是立場迁移的开端，需要下一条条目确认；本库按「按日期取用」纪律处理）** → ⑤ ⭐ **与本库其他信源的交叉**：**（a）「中國實質增長更接近 1-2%」——与 Logan Wright #207（Rhodium，同称 1.5-2%）数字吻合，但两人给出的机制不同（Howell＝流動性/印錢視角；Wright＝信貸管道視角）**；**（b）「黃金由中國驅動」——与 Nieuwenhuijs #170（中国秘密增持的量化测算）、Giustra #75（央行购金）互为正反证据**；**（c）「美國重估黃金」——与 Summers #209、Innecco #212 构成库内「黄金重估」的第三条声音（Howell 的立场是「該不該重估」＋「美元没死」，比前两人更保守）** → ⑥ ⚠️ **利益标注**：**CrossBorder Capital 为 FCA 註冊的獨立研究與投資公司（1996 年創立，管理約 US$10 億資產），其觀點與其機構資產配置建議同向；其亦為 GL Indexes 創辦人與《Capital Wars》作者（Substack 通訊為其分發渠道）** → ⑦ ⚠️ **来源限制**：**依据官方视频说明与完整章节；未取得逐字稿**（**章节标题即其论点结构，可逐项核对**）。**主持 Benjamin Demase 不入库**。来源：The Royalty King Report（主持 Benjamin Demase「Ben」；theroyaltyking.com；不入库）（2026-10-12）",
+      "suggestion": "观察口径（每一项都可核对）：① ⭐ **PBoC 資產負債表的路徑**：**中國人民銀行總資產（月度）自 2022 年以來的變化——其「翻倍」主张的直接检验，也是其「中國驅動金價」論據的基礎**；② ⭐ **金價 vs PBoC 資產負債表的相關性**：**這是他给出的因果机制；可用滾動相關與領先滯後檢驗（对照库内 Nieuwenhuijs #170 的中國購金測算）**；③ **金油比（gold-oil ratio）**：**其自设指标——用于判断油價「要涨得多」（对照库内 Pape #181 的伊朗杠杆、Hudson #203 的石油战争）**；④ **債務到期牆**：**2026-2028 年到期的主權與企業債務規模、再融資成本****——其「黃金/比特幣為核心持倉」的宏觀依據**；⑤ **雙軌人民幣**：**在岸/離岸價差、內部貶值（物價與工資上行）與外部穩定（匯率）的組合**；⑥ ⚠️ **其立场迁移的确认点（本库必跟）**：**下一條條目需確認：他是否仍維持「長久期美債 12 個月 10-15%」，還是資產排序已轉向商品/黃金/比特幣****——這會影響 `docs/bond-stance-matrix.md` 把他歸入哪一組**；⑦ **「市場領先聯準會」**：**其對政策與市場因果的判斷（可對照庫内 McGlone #206 的 Fed 依賴路徑）**。用法建议：**把 ①② 做成「中國流動性 vs 金價」固定跟蹤項****——這是庫内对「黄金为什么涨」给出的最可量化的一条因果链。**",
+      "bull_bear": "🟢 看多黄金（中国印钱驱动） | 🟢 看多比特币（核心持仓） | 🟢 看多石油（金油比指向大涨） | 🟢 看多商品（周期位置） | 🟡 债券（⚠️ 9-27 曾主张久期 10-15%，本次未提，需下条确认） | 🔴 全球流动性条件（周期已见顶） | 🟡 美元（远未死亡——反驳美元崩溃论）"
+    },
     {
       "id": "3fa47eb5-fd3c-816b-b2eb-df9f03a6c2ef",
       "name": "🟢 看多黄金白银：〈为什么黄金涨势远未结束〉——金银牛市的四个驱动：去美元化、全球债务、地缘政治不确定性、从纸黄金转向实物市场；「黄金重估的可能性非常强」",
