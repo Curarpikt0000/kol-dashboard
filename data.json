@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24 23:19 JST",
+  "generated_at": "2026-10-27 22:05 JST",
   "date_range": {
     "start": "2024-07-19",
-    "end": "2026-10-16"
+    "end": "2026-10-20"
   },
   "scoring_method": "共识度净占比: 100×(加权看多−加权看空)/(加权看多+加权看空+分歧), 强度加权(强烈±2/普通±1)。±100仅零反对时达到,有1个相反立场就<100,多空各半=0。方向按标的拆分摊平成三元组。",
   "direction_coverage": {
-    "legged_rows": 3927,
-    "total_rows": 3944,
+    "legged_rows": 3928,
+    "total_rows": 3945,
     "pct": 99.6
   },
   "today_signals": [
@@ -97,7 +97,7 @@
       "sector": "Precious Metals",
       "score": 88,
       "consensus": 88,
-      "weighted_sum": 187.8,
+      "weighted_sum": 175.2,
       "bull": 1648,
       "bear": 141,
       "neutral": 228,
@@ -111,13 +111,13 @@
       "strong_bear": 11,
       "w_bull": 3852,
       "w_bear": 241,
-      "avg": 0.06
+      "avg": 0.05
     },
     {
       "sector": "Energy & Commodities",
       "score": 79,
       "consensus": 79,
-      "weighted_sum": 54.3,
+      "weighted_sum": 50.7,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -131,25 +131,25 @@
       "strong_bear": 1,
       "w_bull": 727,
       "w_bear": 87,
-      "avg": 0.07
+      "avg": 0.06
     },
     {
       "sector": "Crypto",
       "score": 51,
       "consensus": 51,
-      "weighted_sum": 24.7,
-      "bull": 126,
+      "weighted_sum": 23.9,
+      "bull": 127,
       "bear": 20,
       "neutral": 31,
-      "total": 177,
-      "legs_bull": 325,
+      "total": 178,
+      "legs_bull": 326,
       "legs_bear": 119,
       "legs_neutral": 38,
       "legs_split": 0,
-      "legs_total": 482,
+      "legs_total": 483,
       "strong_bull": 80,
       "strong_bear": 12,
-      "w_bull": 405,
+      "w_bull": 406,
       "w_bear": 131,
       "avg": 0.05
     },
@@ -177,7 +177,7 @@
       "sector": "Equities",
       "score": -9,
       "consensus": 9,
-      "weighted_sum": 11.5,
+      "weighted_sum": 10.8,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -197,27 +197,27 @@
       "sector": "Macro",
       "score": -37,
       "consensus": 37,
-      "weighted_sum": -47.9,
+      "weighted_sum": -45.5,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 555,
-      "legs_bear": 1235,
+      "legs_bear": 1236,
       "legs_neutral": 183,
       "legs_split": 0,
-      "legs_total": 1973,
+      "legs_total": 1974,
       "strong_bull": 55,
       "strong_bear": 103,
       "w_bull": 610,
-      "w_bear": 1338,
+      "w_bear": 1339,
       "avg": -0.02
     },
     {
       "sector": "Government Debt",
       "score": -90,
       "consensus": 90,
-      "weighted_sum": -50.8,
+      "weighted_sum": -47.4,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
@@ -239,7 +239,7 @@
       "sector": "Energy & Commodities",
       "score": 68,
       "consensus": 68,
-      "weighted_sum": 28.0,
+      "weighted_sum": 26.1,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -253,13 +253,13 @@
       "strong_bear": 0,
       "w_bull": 326,
       "w_bear": 63,
-      "avg": 0.07
+      "avg": 0.06
     },
     {
       "sector": "Precious Metals",
       "score": 63,
       "consensus": 63,
-      "weighted_sum": 41.8,
+      "weighted_sum": 39.0,
       "bull": 1648,
       "bear": 141,
       "neutral": 228,
@@ -273,17 +273,17 @@
       "strong_bear": 11,
       "w_bull": 956,
       "w_bear": 214,
-      "avg": 0.04
+      "avg": 0.03
     },
     {
       "sector": "Crypto",
       "score": 1,
       "consensus": 1,
       "weighted_sum": 0.6,
-      "bull": 126,
+      "bull": 127,
       "bear": 20,
       "neutral": 31,
-      "total": 177,
+      "total": 178,
       "legs_bull": 70,
       "legs_bear": 78,
       "legs_neutral": 27,
@@ -319,7 +319,7 @@
       "sector": "Macro",
       "score": -34,
       "consensus": 34,
-      "weighted_sum": -19.0,
+      "weighted_sum": -17.7,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
@@ -339,7 +339,7 @@
       "sector": "Equities",
       "score": -38,
       "consensus": 38,
-      "weighted_sum": -21.6,
+      "weighted_sum": -20.1,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -353,13 +353,13 @@
       "strong_bear": 58,
       "w_bull": 250,
       "w_bear": 561,
-      "avg": -0.03
+      "avg": -0.02
     },
     {
       "sector": "Government Debt",
       "score": -78,
       "consensus": 78,
-      "weighted_sum": -15.3,
+      "weighted_sum": -14.2,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
@@ -373,7 +373,7 @@
       "strong_bear": 20,
       "w_bull": 45,
       "w_bear": 373,
-      "avg": -0.04
+      "avg": -0.03
     }
   ],
   "sector_summary_long": [
@@ -381,7 +381,7 @@
       "sector": "Precious Metals",
       "score": 98,
       "consensus": 98,
-      "weighted_sum": 146.0,
+      "weighted_sum": 136.2,
       "bull": 1648,
       "bear": 141,
       "neutral": 228,
@@ -395,13 +395,13 @@
       "strong_bear": 0,
       "w_bull": 2896,
       "w_bear": 27,
-      "avg": 0.07
+      "avg": 0.06
     },
     {
       "sector": "Energy & Commodities",
       "score": 89,
       "consensus": 89,
-      "weighted_sum": 26.3,
+      "weighted_sum": 24.5,
       "bull": 198,
       "bear": 29,
       "neutral": 44,
@@ -415,25 +415,25 @@
       "strong_bear": 1,
       "w_bull": 401,
       "w_bear": 24,
-      "avg": 0.07
+      "avg": 0.06
     },
     {
       "sector": "Crypto",
       "score": 74,
       "consensus": 74,
-      "weighted_sum": 24.2,
-      "bull": 126,
+      "weighted_sum": 23.4,
+      "bull": 127,
       "bear": 20,
       "neutral": 31,
-      "total": 177,
-      "legs_bull": 255,
+      "total": 178,
+      "legs_bull": 256,
       "legs_bear": 41,
       "legs_neutral": 11,
       "legs_split": 0,
-      "legs_total": 307,
+      "legs_total": 308,
       "strong_bull": 65,
       "strong_bear": 7,
-      "w_bull": 320,
+      "w_bull": 321,
       "w_bear": 48,
       "avg": 0.08
     },
@@ -441,7 +441,7 @@
       "sector": "Equities",
       "score": 24,
       "consensus": 24,
-      "weighted_sum": 33.1,
+      "weighted_sum": 30.9,
       "bull": 265,
       "bear": 184,
       "neutral": 103,
@@ -481,27 +481,27 @@
       "sector": "Macro",
       "score": -39,
       "consensus": 39,
-      "weighted_sum": -28.9,
+      "weighted_sum": -27.8,
       "bull": 283,
       "bear": 259,
       "neutral": 152,
       "total": 694,
       "legs_bull": 376,
-      "legs_bear": 868,
+      "legs_bear": 869,
       "legs_neutral": 95,
       "legs_split": 0,
-      "legs_total": 1339,
+      "legs_total": 1340,
       "strong_bull": 43,
       "strong_bear": 81,
       "w_bull": 419,
-      "w_bear": 949,
+      "w_bear": 950,
       "avg": -0.02
     },
     {
       "sector": "Government Debt",
       "score": -96,
       "consensus": 96,
-      "weighted_sum": -35.6,
+      "weighted_sum": -33.2,
       "bull": 19,
       "bear": 107,
       "neutral": 37,
@@ -626,69 +626,6 @@
       "to": "看多",
       "title": "🟢 看多长债（「重大买点临近」）：FOMC 加息 25bp 后仍「落后于曲线」——10Y 测试 5%",
       "signal": "高"
-    },
-    {
-      "kol_name": "Stephen Leeb",
-      "sector": "Equities",
-      "date": "2026-09-17",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空美股（泡沫破裂）：Leeb 以「美国版魏玛」警示，称金融与市场危机「不可避免」",
-      "signal": "中"
-    },
-    {
-      "kol_name": "Dan Ives",
-      "sector": "Government Debt",
-      "date": "2026-09-17",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空美债：Ives 称 Warsh 别无选择必须加息、「债券市场不会说谎」",
-      "signal": "高"
-    },
-    {
-      "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
-      "sector": "Precious Metals",
-      "date": "2026-09-16",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 强烈看多黄金、原油：央行22个月购金+10年期美债破5%",
-      "signal": "中"
-    },
-    {
-      "kol_name": "James Rickards",
-      "sector": "Precious Metals",
-      "date": "2026-09-16",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多黄金：Rickards 称伊朗战争无退出通道、地缘混乱是金价支撑",
-      "signal": "中"
-    },
-    {
-      "kol_name": "Alex Kuptsikevich",
-      "sector": "Precious Metals",
-      "date": "2026-09-16",
-      "from": "看空",
-      "to": "看多",
-      "title": "🟢 看多黄金(中长期)：Kuptsikevich 称鹰派 Fed 压不住金价、$4,300 已被买回",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Alex Kuptsikevich",
-      "sector": "Crypto",
-      "date": "2026-09-15",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空加密(短期)：Kuptsikevich 称 CLARITY 法案受阻＋Fed 压力，总市值回",
-      "signal": "高"
-    },
-    {
-      "kol_name": "Robert Kiyosaki",
-      "sector": "Equities",
-      "date": "2026-09-15",
-      "from": "看多",
-      "to": "看空",
-      "title": "🔴 看空美股/退休账户：Kiyosaki 称「史上最大崩盘已开始」、先兆在日本与欧洲",
-      "signal": "中"
     }
   ],
   "ticker_heatmap": {
@@ -710,8 +647,8 @@
       },
       {
         "ticker": "比特币",
-        "count": 122,
-        "kols": 25
+        "count": 123,
+        "kols": 26
       },
       {
         "ticker": "黄金/白银",
@@ -849,6 +786,19 @@
   },
   "kol_cards": [
     {
+      "kol_name": "Simon Dixon 西蒙·迪克森（BnkToTheFuture 創辦人 / 前投資銀行家 / 比特幣早期投資者 /《Simon Dixon Hard Talk》主持）",
+      "sector": "Crypto",
+      "detail_sector": "比特币自托管与货币体系",
+      "kol_or_ib": "KOL",
+      "style": "交易派",
+      "latest_date": "2026-10-20",
+      "latest_comments": "10/20 **Bitcoin Archive（主持 Archie；主持人不入库）**（**其第四次上该节目**，与 Archie；**Part 1《「世界正在被 AI 做渗透测试」——对比特币自托管的日益增长的威胁》1:12:00**；**Part 2《我们赢了！「比特币的使命对我已经结束」》2026-10-24，46:11**；**播客合并版 2026-10-22，1:57:59**）→ ① ",
+      "latest_title": "🟢 看多比特币（但「比特币的使命对我已经结束」）｜🔴 看空自托管安全与欧洲监管：「世界正在被 AI 做渗透测试」——Coldcard 被 rug、Ledger 供应链攻击、荷兰开征未实现收益税；石油美元体系正在瓦解，「财富不是被消灭，而是被转移」",
+      "bull_bear": "🟢 看多比特币（长期；但「使命」阶段已结束，转为资产类别） | 🔴 看空自托管安全（AI 渗透/供应链攻击） | 🔴 看空欧洲监管（未实现收益税/钱包罚款） | 🔴 看空石油美元体系（正在瓦解） | 🟡 矿业（转向 AI 数据中心，财务合理）",
+      "total_entries": 3,
+      "trend": "→"
+    },
+    {
       "kol_name": "Matthew Piepenburg",
       "sector": "Precious Metals",
       "detail_sector": "贵金属与货币风险",
@@ -899,19 +849,6 @@
       "bull_bear": "🟢 强看多白银股（现在买入将赚一大笔） | 🟢 看多白银（长期三位数） | 🟢 看多黄金 | 🟢 看多能源 | 🟢 看多巴西/新兴市场 | 🟡 短期剧烈波动（修正先于上行段）",
       "total_entries": 3,
       "trend": "↗ 趋多"
-    },
-    {
-      "kol_name": "Simon Dixon 西蒙·迪克森（BnkToTheFuture 創辦人 / 前投資銀行家 / 比特幣早期投資者 /《Simon Dixon Hard Talk》主持）",
-      "sector": "Crypto",
-      "detail_sector": "比特币与货币体系",
-      "kol_or_ib": "KOL",
-      "style": "交易派",
-      "latest_date": "2026-10-08",
-      "latest_comments": "10/08 **Impact Theory（主持 Tom Bilyeu；主持人不入库）**（1:48:07；**录制 2026-10-05 于洛杉矶 Tom 录音室——其与 Tom 的第二次面对面访谈**；同一访谈 2026-10-16 由 Dixon 自己频道重发、改题《THIS is How AI Will Determine If You're Rich or Poor in 5 Years",
-      "latest_title": "🔴 看空债务货币体系（「财政主导」）｜🟢 看多自托管比特币＋实物黄金＋生产性资产：〈美国永远还不清它的债——谁从中发财〉——AI 已成为新的财富提取机制（三大复合体合并）；「是选择而非阴谋」；判据是「债务平均成本 > GDP 增速」",
-      "bull_bear": "🔴 看空债务货币体系/法币（财政主导、损失社会化） | 🟢 看多自托管比特币 | 🟢 看多实物黄金 | 🟢 看多生产性资产（每月定投） | 🔴 看空长端美债（30Y 5.63%） | 🔴 看空 AI 集中化与监控基础设施（TIC） | 🟡 美元体系（多极重组，非崩溃）",
-      "total_entries": 2,
-      "trend": "→"
     },
     {
       "kol_name": "Graham Summers 格雷厄姆·薩默斯（Phoenix Capital Research 創始人兼 CEO／首席市場策略師／Homeland Defense Institute 宏觀研究員／「Everything Bubble」一詞創造者）",
@@ -1067,7 +1004,7 @@
       "latest_title": "🟢 看多黄金与白银（条件式情景）＋石油建仓：「我一直在等那些看起来客观上便宜的机会」——等待数月后买入一只石油股，其余购物清单原封不动",
       "bull_bear": "🟢 黄金与白银（情景看多） | 🟢 石油股（已建仓） | 🟢 金银矿股 | 🟡 AI 回调（跨市场机会来源） | 🟡 购物清单（等待条件）",
       "total_entries": 3,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Jeff Snider",
@@ -1314,7 +1251,7 @@
       "latest_title": "🟡 中性美元（短线盘整）：PBOC 续推人民币、油价下挫",
       "bull_bear": "🟡 DXY 区间 ｜ 🔴 USD/CNH",
       "total_entries": 46,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "David McAlvany（McAlvany Financial Group CEO / McAlvany Weekly Commentary 主讲；主持人为 Kevin Orrick）",
@@ -1327,7 +1264,7 @@
       "latest_title": "🟢 强烈看多黄金（称「史上最佳建仓条件」）+ 白银更高弹性",
       "bull_bear": "🟢 黄金、白银 ｜ 🔴 昂贵股市 ｜ 🟢 原油(短期)",
       "total_entries": 53,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Cathie Wood",
@@ -1561,7 +1498,7 @@
       "latest_title": "🟢 强烈看多黄金（极端情景 $50,000）：Rogers 称法币会被「印到荒谬」",
       "bull_bear": "🟢🟢 黄金 | 🟢 白银 | 🔴 美元/法币",
       "total_entries": 34,
-      "trend": "→"
+      "trend": "↗ 趋多"
     },
     {
       "kol_name": "Jeffrey Gundlach",
@@ -1951,7 +1888,7 @@
       "latest_title": "🟢 看多黄金至 $5,000：Haberkorn 称 Fed 若不加息、年内可望逼近该关口",
       "bull_bear": "🟢 黄金(目标 $5,000，条件：不加息)",
       "total_entries": 22,
-      "trend": "↗ 趋多"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Timothy Arcuri",
@@ -2029,7 +1966,7 @@
       "latest_title": "🟢 看多 Hercules Metals(HERC)：七人明星管理团队加盟、股价 $0.59→$1.63",
       "bull_bear": "🟢 Hercules Metals(HERC)",
       "total_entries": 34,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Craig Hemke",
@@ -2107,7 +2044,7 @@
       "latest_title": "🟡 黄金十字路口：Fed 加息概率 85%，加息续跌、维稳则回调结束",
       "bull_bear": "🟡 黄金(看 Fed 路径) ｜ 🟢 金矿股 ｜ 🔴 风险资产(10Y 破 5%) ｜ 🟢 原油(尾部)",
       "total_entries": 25,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Ray Dalio",
@@ -2380,7 +2317,7 @@
       "latest_title": "🟢 看多矿股转AI基建：Third Point 建仓 Hut8/Riot/Core Scientific/Applied Digital",
       "bull_bear": "🟢 HUT8($151.8M) | 🟢 RIOT/CORZ/APLD(新建仓) | 🟢 Block($194.47M)",
       "total_entries": 23,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Jeremy Grantham",
@@ -2445,7 +2382,7 @@
       "latest_title": "🟢 强烈看多黄金：Garofalo称金价应达$9,000，货币贬值+政府债务驱动翻倍",
       "bull_bear": "🟢 黄金(GLD/GROY)",
       "total_entries": 33,
-      "trend": "↘ 趋空"
+      "trend": "→"
     },
     {
       "kol_name": "Einar Tangen 艾納爾·唐恩（CIGI 高級研究員 / 太和智庫高級研究員 / Asia Narratives 主席 / 常駐北京的中國全球治理評論員）",
@@ -2536,7 +2473,7 @@
       "latest_title": "🟢 看多美股结构：回报正从AI扩围，对冲基金7月跑输20年最差",
       "bull_bear": "🟢 美股(广度)",
       "total_entries": 46,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Morgan Stanley",
@@ -2549,7 +2486,7 @@
       "latest_title": "🟢 看多美股：Lacamp称强劲盈利使熊市不太可能",
       "bull_bear": "🟢 美股",
       "total_entries": 47,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Citi / UBS",
@@ -2614,7 +2551,7 @@
       "latest_title": "🟡 中性偏多：中国股市出现「清晰的分叉（clear bifurcation）」——他在 CNBC 上解释中国科技交易的两条平行叙事",
       "bull_bear": "🟡 中国股市整体(分叉：离岸 vs 在岸) | 🟢 在岸 AI 供应链 | 🟢 中国互联网平台(估值修复) | 🟡 离岸中概股(流动性与政策风险)",
       "total_entries": 3,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Lacy Hunt",
@@ -2926,7 +2863,7 @@
       "latest_title": "🟢 看多黄金：重返『单最偏好做多商品』，Q4 见 $4,900",
       "bull_bear": "🟢 黄金",
       "total_entries": 8,
-      "trend": "→"
+      "trend": "↘ 趋空"
     },
     {
       "kol_name": "Ivan Zhao",
@@ -5847,6 +5784,18 @@
     }
   ],
   "raw_entries": [
+    {
+      "id": "40647eb5-fd3c-819d-ade8-f675b3924394",
+      "name": "🟢 看多比特币（但「比特币的使命对我已经结束」）｜🔴 看空自托管安全与欧洲监管：「世界正在被 AI 做渗透测试」——Coldcard 被 rug、Ledger 供应链攻击、荷兰开征未实现收益税；石油美元体系正在瓦解，「财富不是被消灭，而是被转移」",
+      "kol_name": "Simon Dixon 西蒙·迪克森（BnkToTheFuture 創辦人 / 前投資銀行家 / 比特幣早期投資者 /《Simon Dixon Hard Talk》主持）",
+      "kol_or_ib": "KOL",
+      "date": "2026-10-20",
+      "sector": "Crypto",
+      "detail_sector": "比特币自托管与货币体系",
+      "comments": "10/20 **Bitcoin Archive（主持 Archie；主持人不入库）**（**其第四次上该节目**，与 Archie；**Part 1《「世界正在被 AI 做渗透测试」——对比特币自托管的日益增长的威胁》1:12:00**；**Part 2《我们赢了！「比特币的使命对我已经结束」》2026-10-24，46:11**；**播客合并版 2026-10-22，1:57:59**）→ ① ⭐ **开场断言（逐字，自动字幕 12,218 词已核）**：**「整個世界現在正在被人工智慧做滲透測試——每個領域、每個部門都是。我們玩的是一場遊戲：某些行為者能接觸到群眾接觸不到的人工智慧，所以就存在腐敗、情報行動的機會。」** → ② ⭐ **自托管受攻击：他把 Coldcard 事件定性为「rug pull」**：**「文化上，我想像不出比 Coldcard 更重要的硬體錢包公司——它是『平民的選擇』（the choice of plebs），而且是被刻意文化工程設計成平民的選擇。而它被徹底 rug 了。」**；**Ledger 的供應鏈攻擊亦同**；**其态度：「在這些事情上，你直到太晚之前都不會知道真相。」****并追问「Coldcard 是否有强大靠山」（章节 16:15）、「傲慢、情报机构与渗透」（14:31）。** → ③ ⭐ **欧洲监管的转向（逐字已核）**：**「荷蘭現在就在對未實現收益（unrealized gains）課稅」**；**「一個試圖被殺死的資產，不是這樣運作的……稅務機關想從你手裡把它拿走——這是『一個正在成功的資產』的行為方式，而不是全面禁令的 FUD。」** ⭐ **他把「加税/围堵」读成「成功的证据」，而不是失败。** → ④ **中国与挖矿（Part 1 章节 22:36／24:12／30:23）**：**中国是否在放松比特币挖矿规则？「禁令」与国家对比特币算力的控制；矿工转向 AI 数据中心（他认为从财务角度完全合理，「除非他们在意识形态上忠于比特币」）**；**并追问「比特币能从中国的治理模式学到什么」／「印度 vs 中国：自由意志主义 vs 有能力的政府」。** → ⑤ **分叉与意识形态战（Part 1 章节 33:18–49:53）**：**Knots／BIP110 是一场「有用的战役」——「从 0 到 20% 是显著的，我们从来没有过这个」**（指少数派节点实现的市场份额）；**「分而治之：Thiel、Krata 与比特币」——他主张「跟著钱走」，并点名 Krypto 与 Peter Thiel 的旧关系，但明确说「你永远不会知道真相」。** → ⑥ ⭐ **Part 2 的三条主线（官方章节为其本人表述）**：**（a）石油、利率与比特币「对不上」（0:00）——为何油价高、利率升、比特币还在涨；（b）石油美元的历史与为何正在瓦解（1:48）；（c）⭐「財富不是被消滅，而是被轉移」（The wealth isn't being destroyed, it's being transferred，10:05）——**这是本期最值得记的一句，也是他与「崩盘论」的分野：他讲的是转移，不是毁灭**；（d）中东重置：伊朗、也门、叙利亚、以色列（20:18）；（e）俄罗斯、欧洲与为何「第三次世界大战不可能」（37:17）；（f）加息之后的比特币：操纵与 2,100 万枚上限（39:16）；（g）⭐「比特幣的使命那部分，對我已經結束了」（44:45）**——**即：他把比特币的「运动/使命」阶段判为结束（它已成为被机构与税制承认的资产类别），但并未因此看空其价格机制。** → ⑦ ⚠️ **与 2026-10-08 Impact Theory 那期的关系**：**同月两期、主题互补——Impact Theory＝「AI 取代战争成为财富提取机制（宏观/制度）」；Bitcoin Archive＝「自托管与监管围堵（个人层）+ 石油美元瓦解（地缘层）」**；**共同底色：财富在转移而非消失，主权要靠自持。** → ⑧ ⚠️ **利益标注**：**BnkToTheFuture 联合创始人兼 CEO（加密股权众筹平台，曾投 Coinbase/Kraken/BitPay）；2011 年起比特币早期持有者与矿工（其自述 2013 年即大规模挖矿）——「自托管 + 反监管围堵」的建议与其持仓和平台利益同向。** → ⑨ ⚠️ **来源限制**：**Part 1 有完整英文自动字幕（12,218 词），①–⑤ 为逐字引用；Part 2 字幕下载被 YouTube 限流（HTTP 429），⑥ 依据官方章节标题与其本人用语（章节标题即其原话）。**来源：Bitcoin Archive（主持 Archie；",
+      "suggestion": "观察口径（都可核对）：① ⭐ **「自托管受攻击」的可观测面**：**硬體錢包廠商的供應鏈事件（Ledger/Coldcard）、以及「自托管錢包餘額 vs 現貨 ETF 持倉」的此消彼長**——**他的判断是「情报级渗透」，可验证的代理是攻击的协同性（同一时间窗口多起）**；② ⭐ **欧洲「未实现收益税」的扩散**：**荷兰已开征；跟踪欧盟其他辖区（德/法/西）与「未申报钱包罚款」的立法进度**——**他把这读成「资产成功的证据」，若税收扩散而价格不跌，其框架得到验证**；③ ⭐ **「财富是被转移而非消灭」**：**这条可直接做成跟踪表：每一次大跌后，看籌碼是流向 ETF/機構/主權基金，還是消失（即持幣集中度變化）**——**这是他区别于崩盘派的核心，也是本库目前没人做的量化角度**；④ **石油美元瓦解**：**跟踪中东结算货币（沙特对华石油人民币结算比例）、以及美国与海湾国家的安全-货币交换条件**；⑤ **矿工转向 AI 数据中心**：**跟踪上市矿企的 AI/HPC 收入占比与算力迁移**——**这与他 10-08 那期「AI 是新的财富提取机制」是同一条产业证据链**；⑥ **Knots/BIP110 的 20% 节点份额**：**看该少数派实现的市场份额是否继续扩散（20% → ?）**——**他把「意识形态分叉」当作比特币的韧性指标，而非风险**。用法建议：**③ 做成月度「筹码转移表」，④⑤ 并入 AI/地缘专题**——**这两项都能与本库 Howell #184（流动性）、Piepenburg #20（稳定币）交叉验证**。",
+      "bull_bear": "🟢 看多比特币（长期；但「使命」阶段已结束，转为资产类别） | 🔴 看空自托管安全（AI 渗透/供应链攻击） | 🔴 看空欧洲监管（未实现收益税/钱包罚款） | 🔴 看空石油美元体系（正在瓦解） | 🟡 矿业（转向 AI 数据中心，财务合理）"
+    },
     {
       "id": "40347eb5-fd3c-817a-8409-c3f78f460528",
       "name": "🔴 看空债务货币体系（「财政主导」）｜🟢 看多自托管比特币＋实物黄金＋生产性资产：〈美国永远还不清它的债——谁从中发财〉——AI 已成为新的财富提取机制（三大复合体合并）；「是选择而非阴谋」；判据是「债务平均成本 > GDP 增速」",
